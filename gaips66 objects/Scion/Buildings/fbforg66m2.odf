@@ -1,0 +1,54 @@
+[GameObjectClass]
+classLabel = "fbforg"
+
+provideCount = 7
+provideName1 = "UnitFactory2"
+provideName2 = "UnitFactory"
+provideName3 = "fbforg66m2"
+provideName4 = "fbforg66m"
+provideName5 = "fbforg"
+provideName6 = "fbkiln66m"
+provideName7 = "fbkiln"
+
+[PoweredBuildingClass]
+
+[BuildingClass]
+
+[FactoryClass]
+BuildSparkConfig = "sparker"
+WeaponConfig = "fWeaponG66.odf"
+
+buildItem1 = ""
+buildItem2 = ""
+buildItem3 = ""
+buildItem4 = ""
+buildItem5 = ""
+buildItem6 = ""
+
+[BuildGroup1]
+buildLabel = "Combat Units"
+buildItem1 = "fvsent66m"
+buildItem2 = "fvarch66m"
+buildItem3 = "fvltank66m"
+buildItem4 = "fvtank66m"
+buildItem5 = "fvwalk66m"
+buildItem6 = "fvatank66m"
+buildItem7 = "fvgorg66m"
+
+[BuildGroup2]
+buildLabel = "Aerial Units"
+buildItem1 = "fvartl66m"
+buildItem2 = "fvsav66s"
+
+[BuildGroup3]
+buildLabel = "Service Units"
+buildItem1 = "fvscav66m"
+buildItem2 = "fvcons66m2"
+buildItem3 = "fvserv66m"
+
+[BuildGroup4]
+buildLabel = "Pods"
+buildItem1 = "fvrpod66m"
+buildItem2 = "fvmpod66m"
+
+[Lod1]

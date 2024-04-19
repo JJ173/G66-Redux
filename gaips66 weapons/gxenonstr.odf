@@ -1,0 +1,46 @@
+[WeaponClass]
+classLabel = "arccannon"
+ordName = ""
+wpnName = "Xenon Stream"
+fireSound = "arc02.wav"
+wpnReticle = "garc_a"
+wpnCategory = "CANNON"
+isAssault = 0
+aiRange = 150
+flashName = "gxenonstr.flash"
+
+[ArcCannonClass]
+startDist = 15.0
+finishDist = 150.0
+travelVeloc = 25.0
+
+coneAngle = 0.25
+
+ammoCost = 75.0
+
+damageValue(N) = 450.0 // none
+damageValue(L) = 380.0 // light
+damageValue(H) = 280.0 // heavy
+
+damageValue(S) = 260.0 // Stasis
+damageValue(D) = 350.0 // Deflection
+damageValue(A) = 420.0 // Absorption
+
+activeSound = "arc01.wav"
+
+xplGround = "xxnstrgnd"
+xplVehicle = "xxnstrcar"
+xplBuilding = "xxnstrcar"
+
+[Flash]
+renderBase = "draw_bolt"
+textureName = "trail2.tga"
+textureBlend = "one one modulate"
+startColor = "0 255 0 255"
+finishColor = "127 255 127 0"
+startRadius = 0.5
+finishRadius = 0.3
+segmentLength = 2.0
+segmentVariance = "1.0 1.0 1.0"
+animateTime = 0.3
+textureRate = 0.01

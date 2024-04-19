@@ -1,0 +1,35 @@
+[GameObjectClass]
+classLabel = "fvscav66"
+
+requireCount = 1
+requireName1 = "fbkiln"
+
+provideCount = 2
+provideName2 = "Scav"
+
+collisionRadius = 10.0
+
+[CraftClass]
+rangeScan = 2000.0
+periodScan = 1.0
+velocJam = 0.0
+
+engagerange = 2000.0
+ScavengerCollectPoolRange = 2000.0	// for ScavengerProcess/ScavengerHProcess, scanner on craft will override
+ScavengerChoosePoolRange = 2000.0	// for ScavengerProcess/ScavengerHProcess
+
+TeamTransferrable = true
+AttackTaskUsesGroups = false
+GotoTaskHasLeader = false
+CanAIPForceIdle = false
+
+otherMsg = "fvscav11.wav"
+
+[TrackedVehicleClass]
+
+[TrackedDeployableClass]
+
+[ScavengerClass]
+BuildSparkConfig = "sparker"
+deployClass = "fbscav66c"
+scrapFirst = false

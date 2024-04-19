@@ -1,0 +1,20 @@
+[GameObjectClass]
+classLabel = "ivintc"
+
+provideCount = 4
+provideName2 = "ivsintc"
+provideName3 = "assault"
+provideName4 = "DefendUnit"
+	
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+
+[HoverCraftClass]

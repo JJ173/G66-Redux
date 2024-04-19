@@ -1,0 +1,53 @@
+[WeaponClass]
+classLabel = "chargegun"
+altName = "gtmaggun_c"
+ordName = NULL;
+wpnName = "MAG Siege"
+fireSound = "mag01.wav"
+wpnReticle = "gmaggun.0"
+wpnCategory = "CANN"
+
+isAssault = 1
+
+aiRange = 240
+
+[ChargeGunClass]
+startRate = 11050
+deltaRate = 2000
+startVolume = 50
+deltaVolume = 20
+
+ordnanceCount = 2
+
+shotDelay1 = 0.0
+salvoCount1 = 0
+salvoDelay1 = 0
+fireSound1 = NULL
+ordName1 = NULL
+wpnReticle1 = "gmaggun.0"
+
+shotDelay2 = 7.5
+salvoCount2 = 1
+salvoDelay2 = 0.0
+fireSound2 = "mag05.wav"
+ordName2 = "fgcannon"
+//ordName2 = "sgcannon"
+//ordName2 = "gtcharge6_a"
+wpnReticle2 = "gmaggun.6"
+
+//shotDelay3 = 6.5
+//salvoCount3 = 2
+//salvoDelay3 = 0.5
+//fireSound3 = "mag06.wav"
+//ordName3 = "gtcharge5_a"
+//wpnReticle3 = "gmaggun.5"
+
+//shotDelay4 = 7.5
+//salvoCount4 = 1
+//salvoDelay4 = 0.0
+//fireSound4 = "mag07.wav"
+//ordName4 = "gtcharge6_a"
+//ordName4 = "sgcannon"
+//wpnReticle4 = "gmaggun.6"
+
+holdRate = 100.0

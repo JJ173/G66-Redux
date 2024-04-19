@@ -1,0 +1,3 @@
+AIPs are the method BZ2 uses to set priorities for the CPU team in a IA/MPI map. They control what vehicles are built, what to attack, etc.
+
+G66 2.0  : Default AIP set for G66 2.0

@@ -1,0 +1,37 @@
+[GameObjectClass]
+classLabel = "fvartl"
+
+requireCount = 2
+requireName1 = "fbforg66c"
+requireText1 = "Upgrade Kiln"
+requireName2 = "fbover"
+requireText2 = "Build/Upgrade Antenna Mound"
+
+provideCount = 4
+provideName2 = "fvartl66c"
+provideName3 = "DefendUnit"
+provideName4 = "AntiAir"
+
+
+collisionRadius = 10.0
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+GotoTaskHasLeader = false
+AttackTaskUsesGroups = false
+
+
+engageRange = "340"	//350
+
+subAttackClass = "AD"	// include air units as attack targets only when deployed
+
+[HoverCraftClass]
+soundDeploy = "avartle0.wav"
+soundUndeploy = "avartle4.wav"
+
+[ArtilleryClass]
+timeDeploy = 5.0
+timeUndeploy = 7.5
+soundDeploy = ""
+soundUndeploy = ""

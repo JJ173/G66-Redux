@@ -1,0 +1,40 @@
+[GameObjectClass]
+classLabel = "ivscav66"
+
+unitName = "Scavenger"
+
+collisionRadius = 10.0
+
+requireCount = 1
+requireName1 = "ibfact66c2"
+requireText1 = "Build Factory"
+
+provideCount = 1
+provideName1 = "Scav"
+
+[CraftClass]
+rangeScan = 2000.0
+periodScan = 1.0
+velocJam = 0.0
+
+engagerange = 2000.0
+ScavengerCollectPoolRange = 2000.0	// for ScavengerProcess/ScavengerHProcess, scanner on craft will override
+ScavengerChoosePoolRange = 2000.0	// for ScavengerProcess/ScavengerHProcess
+
+TeamTransferrable = true
+AttackTaskUsesGroups = false
+GotoTaskHasLeader = false
+CanAIPForceIdle = false
+
+[TrackedVehicleClass]
+
+[TrackedDeployableClass]
+
+[ScavengerClass]
+BuildSparkConfig = "sparker"
+deployClass = "ibscav66c"
+scrapFirst = false
+
+[Lod1]
+
+[Lod2]

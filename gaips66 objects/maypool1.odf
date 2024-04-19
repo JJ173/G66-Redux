@@ -1,0 +1,11 @@
+[GameObjectClass]
+geometryName = "maypool1.xsi"
+classLabel = "tepool01"
+
+[BuildingClass]
+
+[DepositClass]
+
+[Render]
+startColor = "240 216 160 150"
+finishColor = "240 216 160 0"

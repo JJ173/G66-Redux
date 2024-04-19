@@ -1,0 +1,14 @@
+[WeaponClass]
+classLabel = "mortar"
+ordName = "gasbomb66"
+wpnName = "Acid Cloud"
+fireSound = "mdmort01.wav"
+wpnReticle = "ggas"
+wpnLadder = "gmortar.L0"
+//wpnPriority = 6
+wpnCategory = "MORT"
+//isAssault = 1
+aiRange = 275
+
+[CannonClass]
+shotDelay = 10.0

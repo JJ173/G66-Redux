@@ -1,0 +1,34 @@
+[GameObjectClass]
+classLabel = "fbkiln"
+
+upgradeName = "fbforg66m_easy"
+
+provideCount = 3
+provideName1 = "fbkiln"
+provideName2 = "fbkiln66m"
+provideName3 = "UnitFactory"
+
+[PoweredBuildingClass]
+
+[BuildingClass]
+
+[FactoryClass]
+BuildSparkConfig = "sparker"
+
+WeaponConfig = "fWeaponG66_easy.odf"
+
+buildItem1 = "fvsent66"
+buildItem3 = "fvltank66m"
+buildItem4 = "fvtank66"
+buildItem5 = "fvwalk66m"
+buildItem6 = "fvatank66"
+buildItem8 = "fvgorg66m"
+buildItem9 = "fvartl66m"
+buildItem10 = "fvsav66s"
+
+[BuildGroup7]
+buildLabel = "Pods"
+buildItem1 = "fvrpod66m"
+buildItem2 = "fvmpod66m"
+
+[Lod1]

@@ -1,0 +1,39 @@
+// =====================
+// XENON STREAM VEHICLE HIT
+// =====================
+
+[ExplosionClass]
+classLabel = "explosion"
+
+particleTypes = 1
+particleClass1 = "xxnstrcar.core"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+
+explSound = "lhit.wav"
+
+damageRadius = 0.0
+
+damageValue(N) = 0 // none
+damageValue(L) = 0 // light
+damageValue(H) = 0 // heavy
+
+damageValue(S) = 0 // Stasis
+damageValue(D) = 0 // Deflection
+damageValue(A) = 0 // Absorption
+
+kickRadius = 10
+kickOmega = 3.0
+kickVeloc = 1.0
+
+[Core]
+simulateBase = "sim_null"
+lifeTime = 0.5
+renderBase = "draw_twirl"
+textureName = "ring.tga"
+textureBlend = "one one modulate"
+startColor = "63 255 63 255"
+finishColor = "0 0 0 0"
+startRadius = 0.3
+finishRadius = 4.0
+animateTime = 0.5

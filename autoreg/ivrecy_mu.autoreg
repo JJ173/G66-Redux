@@ -1,0 +1,7 @@
+[RecyclerList]
+ODFName = "ivrecy_mu"
+Description = "Strat/MPI: Undeployable with Empty Scouts"
+
+[RecyclerListMPI]
+ODFName = "ivrecy_mu"
+Description = "Strat/MPI: Undeployable with Empty Scouts"

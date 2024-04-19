@@ -1,0 +1,59 @@
+[GameObjectClass]
+classLabel = "ivhtank"
+
+scrapValue = 20
+
+scrapCost = 85
+customCost = 75
+
+addAmmo = 0
+
+isStealth = 0
+	
+requireCount = 4
+requireName3 = "ibtcen"
+requireText3 = "Build Tech Center"
+requireName4 = "iblbay"
+requireText4 = "Build Assault Bay"
+
+provideCount = 7
+provideName3 = "ivphtank"
+provideName4 = "ivphtankGHG66"
+provideName5 = "ivatank"
+provideName6 = "assault"
+provideName7 = "HovAssault"
+
+teamlimitClass1 = "HovAssault" // e.g. "ibrecy", *NO* ".odf" on item
+teamlimitClass1Count = 2
+teamlimitClass1Text = "Reached Hover Assault Limit"
+
+/////// weapons ///////////////////
+
+weaponName1 = "gSlammCann_c"
+weaponName2 = "gchain_c"
+weaponName3 = "gchain_c"
+
+////////////////////////////////////
+
+lightHard1 = "hp_light_1"
+lightName1 = "spotblue2"
+lightHard2 = "hp_light_2"
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+
+[HoverCraftClass]
+
+[AssaultHoverClass]
+
+[Lod1]
+
+[Lod2]

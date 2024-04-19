@@ -1,0 +1,50 @@
+// PP-AG Flux Gun Combat Ordnance Definition
+// Original Design for "Route 66" Mod by Natty Bumppo
+
+[OrdnanceClass]
+classLabel = "bullet"
+shotGeometry = "NULL"
+shotRadius = 0.4
+xplGround = "xfluxgn66g"
+xplVehicle = "xfluxgn66v"
+xplBuilding = "xfluxgn66v"
+renderName = "fluxgn66c.render"
+
+ammoCost = 4
+lifeSpan = 0.95	//170m
+shotSpeed = 180.0
+
+damageValue(N) = 50
+damageValue(L) = 45
+damageValue(H) = 40
+
+damageValue(S) = 40
+damageValue(D) = 45
+damageValue(A) = 50
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 2
+renderName1 = "fluxgn66c.core"
+renderName2 = "fluxgn66c.light"
+
+[Core]
+renderBase = "draw_twirl"
+textureName = "rays128.tga"
+textureBlend = "one one modulate"
+startColor = "0 223 127 127"	//"223 0 0 255"
+finishColor = "0 223 127 127"	//"223 0 0 255"
+startRadius = 0.4
+finishRadius = 0.4
+rotationRate = 30.0
+
+[Light]
+renderBase = "draw_light"
+startColor = "0 223 127 127"	//"223 0 0 127"
+finishColor = "0 223 127 0"	//"223 0 0 0"
+startRadius = 10.0
+finishRadius = 10.0
+animateTime = 0.9
+attenuateConstant = 0.0
+attenuateLinear = 0.0
+attenuateQuadratic = 0.0

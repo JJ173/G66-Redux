@@ -1,0 +1,32 @@
+// PP-AG Flux Gun Combat Weapon Definition
+// Original Design for "Route 66" Mod by Natty Bumppo
+
+[WeaponClass]
+baseName = "gatstab"
+altName = "gfluxgn66a"
+classLabel = "cannon"
+ordName = "fluxgn66c"
+wpnName = "Flux Gun"
+fireSound = "igun01.wav"
+wpnReticle = "gion"
+wpnCategory = "GUN"
+isAssault = 0
+aiRange = 160
+flashName = "gfluxgn66c.flash"
+
+[CannonClass]
+shotDelay = 0.2
+shotVariance = 0.02
+
+[Flash]
+simulateBase = "sim_null"
+lifeTime = 0.3
+renderBase = "draw_light"
+startColor = "0 223 127 255"	//"223 0 0 511"
+finishColor = "0 223 127 255"	//"223 0 0 511"
+startRadius = 10.0
+finishRadius = 10.0
+animateTime = 0.3
+attenuateConstant = 0.0
+attenuateLinear = 0.0
+attenuateQuadratic = 0.0

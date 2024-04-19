@@ -1,0 +1,69 @@
+[OrdnanceClass]
+classLabel = "bullet"
+
+shotGeometry = "gatstab.xsi"
+shotSound = "tcpc.wav"
+
+renderName = "TCPC_c.render"
+
+xplGround = "xTCPCgnd_c"
+xplVehicle = "xTCPCcar_c"
+xplBuilding = "xmslbld"
+
+ammoCost = 15
+lifeSpan = 1.75 // 175m
+shotSpeed = 100.0
+
+damageValue(N) = 160 // none // 290
+damageValue(L) = 150 // light // 270
+damageValue(H) = 130 // heavy // 230
+
+damageValue(S) = 130 // standard // 270
+damageValue(D) = 150 // deflection // 230
+damageValue(A) = 160 // absorbtion // 160
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 3
+renderName1 = "TCPC_c.smoke"
+renderName2 = "TCPC_c.flame"
+renderName3 = "TCPC_c.Light"
+
+[Smoke]
+renderBase = "draw_twirl_trail"
+textureName = "smoke.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "0 64 127 64"
+finishColor = "200 200 255 0"
+startRadius = 0.2
+finishRadius = 2.0
+rotationRate = 2.0
+animateTime = 0.1
+emitDelay = 0.005
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "2.0 2.0 2.0"
+emitLife = 0.1
+
+[Flame]
+renderBase = "draw_twirl_trail"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "0 64 127 255"
+finishColor = "255 0 0 50"
+startRadius = 0.4
+finishRadius = 0.04
+rotationRate = 10.0
+animateTime = 0.02
+emitDelay = 0.001
+emitVelocity = "0.5 0.5 0.5"
+emitVariance = "0.5 1.5 2.0"
+emitLife = 0.2
+
+[Light]
+renderBase = "draw_sprite"
+textureName = "lightflare.tga"
+textureBlend = "one one modulate"
+startColor = "0 64 127 150"
+finishColor = "255 0 0 150"
+startRadius = 4.0
+finishRadius = 4.0

@@ -1,0 +1,28 @@
+[WeaponClass]
+classLabel = "cannon"
+ordName = "fgcannon"
+//ordName = "sgcannon"
+wpnName = "Siege Cannon"
+fireSound = "igtow03.wav"
+wpnReticle = "gshotgun"
+wpnPriority = 0
+wpnCategory = "CANN"
+flashName = "gsgcann.flash"
+aiRange = 240
+isAssault = 1
+
+[CannonClass]
+shotDelay = 7.5
+shotAlternate = 0
+
+[Flash]
+renderBase = "draw_sphere"
+textureName = "vsmoke.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 223"
+finishColor = "223 223 223 0"
+startRadius = 5.0
+finishRadius = 1.0
+animateTime = 0.1
+latitudeBands = 8
+longitudeSegments = 16

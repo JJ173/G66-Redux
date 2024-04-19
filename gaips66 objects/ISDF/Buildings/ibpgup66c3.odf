@@ -1,0 +1,42 @@
+[GameObjectClass]
+geometryName = "ib66Xpgen.xsi"
+classLabel = "powered"
+animCount = 1
+animName1 = "deploy"
+animFile1 = "ib66Xpgen.xsi"
+
+scrapCost = 70
+scrapValue = 6
+
+maxHealth = 30000
+addHealth = 10
+maxAmmo = 0
+unitName = "Power IV"
+heatSignature = 4.0
+imageSignature = 2.0
+radarSignature = 4.0
+collisionRadius = 0.0
+isAssault = 1
+powerCost = -18
+
+armorClass = H
+
+requireCount = 0
+
+provideCount = 3
+provideName1 = "ibpgen"
+provideName2 = "Power"
+provideName3 = "UpgradedPower3"
+
+explosionName = "xpgen66xpl"	//"xbmbxpl"
+
+[BuildingClass]
+
+soundAmbient = "ipgen01.wav"
+
+[PoweredBuildingClass]
+detectRange = 50
+
+[Lod1]
+geometryName = "ib66XpgL1.xsi"	;geometry for lod1
+distance = 64				   ;bsphere under 200 pixel => switch to lod1

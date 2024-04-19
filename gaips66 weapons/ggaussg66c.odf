@@ -1,0 +1,18 @@
+// MP-AG Gauss Gun Combat Weapon Definition
+// Revision for "Route 66" Mod by Natty Bumppo
+// Based on original version by Pandemic Studios
+
+[WeaponClass]
+classLabel = "cannon"
+altName = "ggaussg66a"
+ordName = "gaussg66c"
+wpnName = "Gauss Gun"
+fireSound = "gauss_c.wav"
+wpnReticle = "gblast"
+wpnCategory = "GUN"
+isAssault = 0
+aiRange = 120
+
+[CannonClass]
+shotDelay = 0.5
+shotAlternate = 0

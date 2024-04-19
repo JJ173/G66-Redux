@@ -1,0 +1,92 @@
+[Size]
+MetersPerGrid = 8.0
+HeightGranularity = 0.1
+MinX = -2048.0
+MinZ = -2048.0
+Width = 2048.0
+Depth = 2048.0
+Height = 100.0
+Tile = 1
+Color = "51 125 20 255"
+
+[NormalView]
+
+FogColor="81 79 41"
+FogStart=150
+FogEnd=275
+VisibilityRange=275
+
+[World]
+MusicTrack=1
+
+[Light]
+SunPeriod = 24.0
+SunAngle = 9.0
+SunColor = "240 240 240"
+AmbientColor = "127 127 127 127"
+
+[Sky]
+SkyType= 0
+SkyHeight = 100
+SkyTexture = darksky.tga
+SkyColor = "133 139 108 255"
+SunTexture = sun.0
+SunColor = "0 0 0 0"
+
+[Water]
+WaterTexture1 = "water256.tga"
+WaterDiffuse1 = "60 80 64 127"
+WaterBlend1 = "srcalpha invsrcalpha modulatealpha"
+BumpTexture1 = "water256.tga"
+BumpDiffuse1 = "60 80 64 127"
+BumpBlend1 = "srcalpha invsrcalpha modulatealpha"
+
+WaterTexture2 = "water256.tga"
+WaterDiffuse2 = "60 80 127 127"
+WaterBlend2 = "srcalpha invsrcalpha modulatealpha"
+BumpTexture2 = "water256.tga"
+BumpDiffuse2 = "60 80 127 127"
+BumpBlend2 = "srcalpha invsrcalpha modulatealpha"
+
+WaterTexture3 = "water256.tga"
+WaterDiffuse3 = "60 60 120 127"
+WaterBlend3 = "srcalpha invsrcalpha modulatealpha"
+BumpTexture3 = "water256.tga"
+BumpDiffuse3 = "60 60 120 127"
+BumpBlend3 = "srcalpha invsrcalpha modulatealpha"
+
+[Texture]
+TileTexture1 = "mire.tga"
+TileTexture2 = "mire2.tga"
+TileTexture3 = "mire3.tga"
+TileTexture4 = "mire4.tga"
+TileTexture5 = "mire5.tga"
+TileTexture6 = "mire6.tga"
+TileTexture7 = "mire7.tga"
+TileTexture8 = "mbextf02.tga"
+
+[LightningBolt]
+minDelay=10.0
+maxDelay=20.0
+Bolts=1
+Duration=.200
+Distance=120
+Width=0.3
+Sound=thunder.wav
+Sound2=thunder2.wav
+texture=bolt.tga
+
+[Rain]
+OnPeriod = 300.000
+OffPeriod = 300.000
+TranPeriod = 10.000
+ScaleFactor= 1.0
+
+
+[Mirror]
+Enabled    = 1
+UseTexture = 1
+Offset     = -.01
+
+[Shadows]
+Stencil = 1

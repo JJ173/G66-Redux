@@ -1,0 +1,90 @@
+[GameObjectClass]
+baseName = "xvsat"
+geometryName = "xvsat00.xsi"
+classLabel = "wingman"
+scrapValue = 50
+scrapCost = 100
+maxHealth = 6000
+addHealth = 10
+maxAmmo = 4500	//3000
+addAmmo = 100
+armorClass = M
+unitName = "Fury Tank"
+aiName = "RocketTankFriend"
+aiName2 = "RocketTankEnemy"
+heatSignature = 0.5
+imageSignature = 0.8
+radarSignature = 1.0
+explosionName = "xbldxpl"
+
+needPilot = 0
+addPilot = 0
+
+provideCount = 3
+provideName1 = "xvsat"
+provideName2 = "assault"
+provideName3 = "Defender"
+
+/////// weapons ///////////////////
+
+weaponHard1 = "HP_CANNON"
+weaponAssault1 = 0
+weaponName1 = "garc_c"
+weaponHard2 = "HP_CANNON"
+weaponAssault2 = 0
+weaponName2 = "garc_c"
+weaponHard3 = "HP_ROCKET"
+weaponAssault3 = 0
+weaponName3 = "gsavrkt"
+weaponHard4 = "HP_SHIELD"
+weaponAssault4 = 0
+weaponName4 = "gshield_c"
+
+////////////////////////////////////
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+attackTask = "MortarBikeAttack"
+subAttackTask = "MortarBikeSubAttack"
+subAttackClass = "NNN"
+
+// subAttackClass uses 3 letters.
+// 1st letter is either A or N.     A is include Air targets.         N is attack ground only.
+// 2nd letter is either D or N.     D is to deploy before attacking.  N for regular attack.
+// 3rd letter is either S or N.     S is to use Weapon Range.         N is use the Engage Range to attack. 
+
+
+rangeScan = 400.0
+periodScan = 2.0
+velocJam = 5.0
+DoIdleDispatch = false
+
+[HoverCraftClass]
+setAltitude = 1.5
+accelDragStop = 3.5
+alphaTrack = 20.0
+alphaDamp = 5.0
+pitchPitch = 0.25
+pitchThrust = 0.0
+rollStrafe = 0.0
+rollSteer = 0.0
+
+velocForward = 20.0
+velocReverse = 20.0
+velocStrafe = 20.0
+accelThrust = 20.0
+omegaSpin = 4.0
+omegaTurn = 4.0
+alphaSteer = 5.0
+accelJump = 4.0
+
+soundDeploy = "avsave5.wav"
+soundUndeploy = "avsave6.wav"
+soundThrust = "avsave0.wav"

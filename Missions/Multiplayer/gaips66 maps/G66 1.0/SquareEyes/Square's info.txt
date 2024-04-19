@@ -1,0 +1,64 @@
+ Square's G66 pack
+ 
+ Includes : *Drought
+            *War goddess
+            *X-Bones
+
+ by SquareEyes
+
+ 6/3/2002 
+
+****************************************************************************************************************************
+ 
+ Reqierments : 
+
+ Battlezone II Combat Commander
+ BZII 1.2 Official Beta Patch
+ G66 Version 1.3 -- MOD by Natty Bumppo 
+ (Recommended that you get G66 Version 1.4 or higher to solve the lag issues due to unit over-production present in
+ versions 1.3 and earlier.)
+
+ 
+****************************************************************************************************************************
+
+ Installation :
+
+ Unzip Square's G66 zip files directly into your "Battlezone II" folder, when the files are unzipped the necessary folders
+ should be created for you or unzip them into a temporary folder and copy the folders piecemeal into the Battlezone II
+ folder. 
+ 
+ Important note :
+          
+ Any one with earlyer copies of any of my maps, weapons or units should remove the old copys before installing as many
+ things have been changed .This does not include my first map, X-bones stratergy but I dont think any one has it anyway.
+
+****************************************************************************************************************************
+
+ Description :
+
+ 3 all new experimental G66 maps with all the Nattybumppo stuff we've come 2 know & love & yes that includes Insane 
+ weapons. Plus my custom units have been added (ISDF Destroyer tank & Scion Ghoul tank). Also my custom weapons 
+ (Tungsten Carbide Projectile or TCP Gun & Cannon, Chaser missils & Ion shield mine).
+            
+ * Drought      : Is a small map with 7 pools & is I think a good G66 newbie training map because my custom stuff is all
+                  in an unprotected base so you have a constant supply of free custom weapons & units.
+ 
+ * War goddess  : Is a small map with 7 pools & yes I am aware of the comical subject matter of this map but I was 
+                  experimenting to see what the editor was capable of & after putting in so much work it would be such
+                  a waste not to include it * Warning * this map has an R rateing & should only be played by people
+                  18 years of age or 21 in some states of America . LOL! 
+ 
+ * X-Bones      : Is a large map with 8 pools & is I think my best work yet but I will write nothing more so I dont give
+                  2 much away.
+
+****************************************************************************************************************************
+
+ Thanks to :
+
+ Lizard 4 map/unit/weapon help,Nattybumppo 4 all things G66 ,Centerline 4 G66 stuff/weapon/Zip file stuff, LOC Saint 4 
+ Temple of doom textures, Darkfox, SolidSnake, Dadel WEll....Heaps of people really, so 2 save on Ben Hur length credits
+ I'm just going 2 put the BZ2 Community Project. (We know who you are!)
+
+****************************************************************************************************************************
+
+ Feedback/Problems {no family related stuff ;o)} : berzerka@bigpond.net.au

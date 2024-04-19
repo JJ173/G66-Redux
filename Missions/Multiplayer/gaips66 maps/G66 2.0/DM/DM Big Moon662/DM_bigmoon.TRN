@@ -1,0 +1,60 @@
+[Size]
+MetersPerGrid = 8.0
+HeightGranularity = 0.1
+MinX = 512.0
+MinZ = 512.0
+Width = 4098.0
+Depth = 4098.0
+Height =300.0
+Tile = 1
+Color = "170 150 120 255"
+
+[NormalView]
+FogColor="165 143 156"
+FogStart=300
+FogEnd=400
+VisibilityRange=400
+
+[World]
+MusicTrack=10
+
+[Light]
+SunPeriod = 24.0
+SunAngle = 7.0
+SunColor = "240 240 240"		//"128 128 128 128" "32 48 64 48"
+AmbientColor = "102 102 102"
+
+[Sky]
+SkyType= 0
+SkyHeight = 80
+SkyTexture = darksky.tga
+SkyColor = "148 81 103"		//"32 48 64 255"
+SunTexture = sun.0
+SunColor = "240 240 240"
+
+[Water]
+WaterTexture1 = "water256.tga"
+WaterDiffuse1 = "96 128 64 64"
+WaterBlend1 = "srcalpha invsrcalpha modulatealpha"
+BumpTexture1 = "water256.tga"
+BumpDiffuse1 = "96 128 64 64"
+BumpBlend1 = "srcalpha invsrcalpha modulatealpha"
+
+[Texture]
+[Texture]
+TileTexture1 = "moon1.tga"
+TileTexture2 = "moon2.tga"
+TileTexture3 = "moon3.tga"
+TileTexture4 = "moon4.tga"
+TileTexture5 = "moon5.tga"
+TileTexture6 = "moon6.tga"
+TileTexture7 = "moon7.tga"
+TileTexture8 = "moon8.tga"
+TileTexture9 = "moon9.tga"
+TileTexture10 = "pluto.tga"
+TileTexture11 = "pluto2.tga"
+TileTexture12 = "pluto3.tga"
+TileTexture13 = "ibfoun00.tga"
+TileTexture14 = "pluto6.tga"
+TileTexture15 = "pluto7.tga"
+TileTexture16 = "ibfoun01.tga"

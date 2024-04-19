@@ -1,0 +1,83 @@
+[OrdnanceClass]
+classLabel = "bullet"
+shotGeometry = "iorckt00.xsi"
+shotSound = "crckt02.wav"
+
+renderName = "firebmb_a.render"
+
+xplGround = "xfrbmgnd"
+xplVehicle = "xfrbmxpl"
+xplBuilding = "xfrbmxpl"
+xplExpire = "xfrbmxpl"
+
+ammoCost = 75
+lifeSpan = 5.0 // 300m
+shotSpeed = 60.0
+
+damageValue(N) = 950 // none
+damageValue(L) = 800 // light
+damageValue(H) = 650 // heavy
+
+damageValue(S) = 750 // Stasis
+damageValue(D) = 900 // Deflection
+damageValue(A) = 600 // Absorption
+
+[MissileClass]
+omegaTurn = 1.5
+TeamFilter = 68  // 0 = targets all teams, 1 = targets same team only, 2 = targets only allies, 3 = targets only enemies, 4 = targets not same team
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 4
+renderName1 = "firebmb_a.flare"
+renderName2 = "firebmb_a.smoke"
+renderName3 = "firebmb_a.flame"
+renderName4 = "firebmb_a.light"
+
+[Flare]
+renderBase = "draw_sprite"
+textureName = "lightflare.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 63 2550" //"255 63 0 255"
+finishColor = "255 255 63 2550" //"255 63 0 255"
+startRadius = 6.0
+finishRadius = 6.0
+
+[Smoke]
+renderBase = "draw_twirl_trail"
+textureName = "smoke.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "153 153 153 128"
+finishColor = "153 153 153 0"
+startRadius = 2.0
+finishRadius = 6.0
+animateTime = 2.6
+emitDelay = 0.02
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "4.0 4.0 3.0"
+emitLife = 2.6
+
+[Flame]
+renderBase = "draw_twirl_trail"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "255 191 63 255"
+finishColor = "255 0 0 0"
+startRadius = 1.0
+finishRadius = 0.5
+animateTime = 0.4
+emitDelay = 0.005
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "4.0 4.0 3.0"
+emitLife = 0.4
+
+[Light]
+renderBase = "draw_light"
+startColor = "255 191 63 500"
+finishColor = "255 191 63 500"
+startRadius = 40.0
+finishRadius = 40.0
+animateTime = 0.5
+attenuateConstant = 0.0
+attenuateLinear = 0.0
+attenuateQuadratic = 0.0

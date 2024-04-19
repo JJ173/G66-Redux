@@ -1,0 +1,21 @@
+[GameObjectClass]
+classLabel = "ivltwalk"
+
+provideCount = 4
+provideName2 = "ivsltwalk"
+provideName3 = "assault"
+provideName4 = "DefendUnit"
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+
+// Angles are in degress
+[WalkerClass]

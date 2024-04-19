@@ -1,0 +1,48 @@
+[WeaponClass]
+classLabel = "chargegun"
+altName = "grailgn_a"
+ordName = ""
+wpnName = "Rail Gun"
+fireSound = "sonic03c.wav" //"mag01.wav"
+wpnReticle = "gmaggun.0"
+wpnCategory = "CANN"
+isAssault = 0
+
+aiRange = 200
+
+[ChargeGunClass]
+startRate = 11025.0
+deltaRate = 4000.0
+startVolume = 40.0
+deltaVolume = 20.0
+
+ordnanceCount = 4
+
+shotDelay1 = 0.0
+salvoCount1 = 0
+salvoDelay1 = 0
+fireSound1 = "NULL" //"xmag02.wav"
+wpnReticle1 = "gmaggun.0"
+
+shotDelay2 = 0.5
+salvoCount2 = 1
+salvoDelay2 = 0
+fireSound2 = "glock01.wav" //"xmag02.wav"
+ordName2 = "railchg1_c"
+wpnReticle2 = "gmaggun.4"
+
+shotDelay3 = 2.0
+salvoCount3 = 1
+salvoDelay3 = 0
+fireSound3 = "glock01.wav" //"xmag02.wav"
+ordName3 = "railchg2_c"
+wpnReticle3 = "gmaggun.5"
+
+shotDelay4 = 3.0
+salvoCount4 = 1
+salvoDelay4 = 0
+fireSound4 = "glock01.wav" //"xmag02.wav"
+ordName4 = "railchg3_c"
+wpnReticle4 = "gmaggun.6"
+
+holdRate = 150.0

@@ -1,0 +1,26 @@
+[GameObjectClass]
+//geometryName = "daywrecker00.XSI"
+geometryName = "ioartl00.xsi"
+classLabel = "spraymine"
+scrapCost = 0
+scrapValue = 0
+maxHealth = 100
+maxAmmo = 20
+unitName = "Thumper Mortar"
+
+aiName = "PowerUpProcess"
+
+explosionName = "xbmb2xpl"
+
+[PowerUpClass]
+SlowFall = true
+FallSpeed = 12.5
+
+[SprayBuildingClass]
+payloadName = "ThumperMortar3"
+
+triggerDelay = 0.10
+setAltitude = 0.0
+omegaSpin = 100.0
+shotDelay = 0.01
+anglePitch = 0.5

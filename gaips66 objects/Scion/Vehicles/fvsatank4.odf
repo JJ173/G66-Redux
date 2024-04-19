@@ -1,0 +1,29 @@
+[GameObjectClass]
+classLabel = "fvatank66"
+
+provideCount = 5
+provideName3 = "fvsatank4"
+provideName4 = "assault"
+provideName5 = "DefendUnit"
+
+/////// weapons ///////////////////
+
+weaponName1 = "gsonic_c"
+weaponName2 = "gsonic_c"
+
+//////////////////////////////////
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+
+[TrackedVehicleClass]
+
+[AssaultTankClass]

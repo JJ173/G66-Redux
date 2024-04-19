@@ -1,0 +1,43 @@
+[GameObjectClass]
+classLabel = "ivatank66"
+
+addAmmo = 4
+
+requireCount = 2
+requireName1 = "ibfact66c"
+requireText1 = "Build Factory"
+requireName2 = "ibtcen"
+requireText2 = "Build Tech Center"
+
+provideCount = 5
+provideName2 = "ivatank66m"
+provideName3 = "assault"
+provideName4 = "DefendUnit"
+provideName5 = "ATank"
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 30
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+engageRange = 175
+
+[TrackedVehicleClass]
+omegaSpin = 1.0
+omegaTurn = 0.5
+velocForward = 12.0
+velocReverse = 4.0
+accelThrust = 8.0
+
+TREAD_STATIC_FRICTION = 1.5
+
+[AssaultTankClass]
+
+[Lod1]
+
+[Lod2]

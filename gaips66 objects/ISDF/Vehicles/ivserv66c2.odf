@@ -1,0 +1,37 @@
+[GameObjectClass]
+classLabel = "ivserv"
+needPilot = 0
+
+provideCount = 3
+provideName1 = "RepairTruck"
+provideName2 = "ivserv66c2"
+provideName3 = "ivserv"
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+engageRange = 40
+
+steerFactor = 1.4
+
+[TrackedVehicleClass]
+omegaSpin = 2.0
+omegaTurn = 0.75
+alphaSteer = 3.0
+
+[ServiceTruck]
+// Individual classification tweakers
+serviceSTs = 1
+serviceBuildings = 1
+ServiceAllies = true
+
+[Supply]
+
+[Halo]
+
+[Bolt]
+
+[Lod1]

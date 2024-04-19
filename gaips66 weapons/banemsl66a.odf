@@ -1,0 +1,89 @@
+[OrdnanceClass]
+classLabel = "thermalmissile"
+
+shotGeometry = "sgstng00.xsi"
+shotSound = "crckt02.wav"
+
+renderName = "banemsl66a.render"
+
+xplGround = "xbnmsl66g"
+xplVehicle = "xbnmsl66xpl"
+xplBuilding = "xbnmsl66xpl"
+
+ammoCost = 25
+lifeSpan = 5.0
+shotSpeed = 60.0
+
+damageValue(N) = 160
+damageValue(L) = 130
+damageValue(H) = 110
+
+damageValue(S) = 130
+damageValue(D) = 110
+damageValue(A) = 160
+
+[MissileClass]
+omegaTurn = 1.75
+omegaWaver = 1.5
+rateWaver = 6.0
+TeamFilter = 68  // 0 = targets all teams, 1 = targets same team only, 2 = targets only allies, 3 = targets only enemies, 4 = targets not same team
+
+[ThermalMissileClass]
+coneAngle = 0.5
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 4
+renderName1 = "banemsl66a.flare"
+renderName2 = "banemsl66a.smoke"
+renderName3 = "banemsl66a.flame"
+renderName4 = "banemsl66a.light"
+
+[Flare]
+renderBase = "draw_sprite"
+textureName = "lightflare.tga"
+textureBlend = "one one modulate"
+startColor = "191 223 255 2550"
+finishColor = "191 223 255 2550"
+startRadius = 1.5
+finishRadius = 1.5
+
+[Smoke]
+renderBase = "draw_twirl_trail"
+textureName = "smoke.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "127 153 191 128"
+finishColor = "127 153 191 0"
+startRadius = 0.5
+finishRadius = 1.0
+animateTime = 2.6
+emitDelay = 0.02
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "4.0 4.0 3.0"
+emitLife = 2.6
+
+[Flame]
+renderBase = "draw_twirl_trail"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+//textureRate = 0.004
+startColor = "95 127 255 255"
+finishColor = "127 191 255 0"
+startRadius = 0.5
+finishRadius = 0.1
+animateTime = 0.4
+emitDelay = 0.005
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "4.0 4.0 3.0"
+emitLife = 0.4
+
+[Light]
+renderBase = "draw_light"
+startColor = "63 191 255 500"
+finishColor = "63 191 255 500"
+startRadius = 30.0
+finishRadius = 30.0
+animateTime = 0.5
+attenuateConstant = 0.0
+attenuateLinear = 0.0
+attenuateQuadratic = 0.0

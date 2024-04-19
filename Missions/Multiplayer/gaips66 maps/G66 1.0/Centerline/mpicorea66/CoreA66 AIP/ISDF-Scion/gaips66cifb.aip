@@ -1,0 +1,397 @@
+//Blitz
+//MPInstant66.DLL Required
+
+//Blitz AIP File:
+//Scouts are handled by AIP.
+//Missile Scouts are built as followers by DLL.
+//Mortar Bikes are handled by AIP.
+//Rocket Tanks sent to path by DLL when built.
+//Tanks are handled by AIP.
+//Assault Tanks sent to path by DLL when built.
+//Walkers sent to path by DLL when built.
+//Interceptors handled by AIP.
+//Service Trucks are built as followers by DLL.
+
+
+//[Cheat]
+//moneyAmount = 20
+//moneyDelay = 10
+
+[Start]
+scavClass = "ivscav"
+consClass = "ivcons"
+
+
+[Match]
+targetType1= "fvscout"
+attackType1_1 = "ivtank"
+attackType1_2 = "ivscout"
+
+targetType2 = "fvscout"
+attackType2_1 = "ivscout"
+attackType2_2 = "ivscout"
+
+targetType3 = "fvscout"
+attackType3_1 = "ivmisl"
+attackType3_2 = "ivmisl"
+
+targetType4 = "fvsent"
+attackType4_1 = "ivtank"
+attackType4_2 = "ivscout"
+
+targetType5 = "fvsent"
+attackType5_1 = "ivmisl"
+attackType5_2 = "ivmisl"
+
+targetType6 = "fvsent"
+attackType6_1 = "ivscout"
+attackType6_2 = "ivscout"
+
+targetType7 = "fvtank"
+attackType7_1 = "ivtank"
+attackType7_2 = "ivtank"
+
+targetType8 = "fvtank"
+attackType8_1 = "ivtank"
+attackType8_2 = "ivscout"
+
+targetType9 = "fvtank"
+attackType9_1 = "ivscout"
+attackType9_2 = "ivscout"
+
+targetType10 = "fvarch"
+attackType10_1 = "ivtank"
+attackType10_2 = "ivtank"
+
+targetType11 = "fvarch"
+attackType11_1 = "ivmisl"
+attackType11_2 = "ivmisl"
+
+targetType12 = "fvwalk"
+attackType12_1 = "ivatank"
+attackType12_2 = "ivtank"
+attackType12_3 = "ivtank"
+
+targetType13 = "fvwalk"
+attackType13_1 = "ivtank"
+attackType13_2 = "ivtank"
+
+targetType14 = "fvatank"
+attackType14_1 = "ivatank"
+attackType14_2 = "ivtank"
+attackType14_3 = "ivtank"
+
+targetType15 = "fvatank"
+attackType15_1 = "ivtank"
+attackType15_2 = "ivtank"
+
+targetType16 = "fvscav"
+attackType16_1 = "ivtank"
+attackType16_2 = "ivtank"
+
+targetType17 = "fvscav"
+attackType17_1 = "ivscout"
+attackType17_2 = "ivscout"
+
+
+[Plan1]
+planCondition = "NotExists"
+planConditionClass = "ibfact"
+planConditionCount = 1
+planType = "CollectPool"
+planPriority = 490
+buildIfNoIdle = 1
+doNextOnFail = 1
+
+[Plan2]
+planCondition = "NotExists"
+planConditionClass = "ibfact"
+planConditionCount = 1
+planType = "CollectField"
+planPriority = 485
+buildIfNoIdle = 1
+doNextOnFail = 1
+
+[Plan3]
+//Assault Tanks Sent to Attack Path by DLL
+planCondition = "Exists"
+planConditionClass = "ibsbay"
+planConditionCount = 1
+planType = "BuildMinimums"
+planPriority = 460
+buildType1 = "ivatank"
+buildCount1 = 1
+doNextOnFail = 1
+
+[Plan4]
+//Walkers Sent to Attack Path by DLL
+planCondition = "Exists"
+planConditionClass = "ibtcen"
+planConditionCount = 1
+planType = "BuildMinimums"
+planPriority = 450
+buildType1 = "ivwalk"
+buildCount1 = 2
+doNextOnFail = 1
+
+[Plan5]
+planCondition = "Exists"
+planConditionClass = "ibarmo"
+planConditionCount = 1
+planType = "BuildMinimums"
+planPriority = 440
+buildType1 = "ivrckt"
+buildCount1 = 1
+doNextOnFail = 1
+
+
+[Plan6]
+planCondition = "HisExists"
+planConditionClass = "fbdowe"
+planConditionCount = 1
+planType = "Attacker"
+planPriority = 430
+targetType = "fbdowe"
+attackType1 = "ivtank66a"
+attackType2 = "ivtank66a"
+attackType3 = "ivtank66a"
+buildIfNoIdle = 1
+doNextOnFail = 1
+
+
+[Plan7]
+planType = "Attacker"
+planPriority = 425
+targetType = "fbforg66m"    //"fbforg"
+attackType1 = "ivtank"
+attackType2 = "ivtank"
+attackType3 = "ivtank"
+//attackType4 = "ivtank"
+buildIfNoIdle = 1
+doNextOnFail = 1
+
+[Plan8]
+planCondition = "HisExists"
+planConditionClass = "fbscav"
+planConditionCount = 1
+planType = "Attacker"
+planPriority = 375
+targetType = "fbscav"
+attackType1 = "ivscout"
+attackType2 = "ivscout"
+attackType3 = "ivscout"
+buildIfNoIdle = 1
+doNextOnFail = 1
+
+[Plan9]
+planCondition = "HisExists"
+planConditionClass = "fbdowe"
+planConditionCount = 1
+planType = "Attacker"
+planPriority = 355
+targetType = "fbdowe"
+attackType1 = "ivintc"
+attackType2 = "ivintc"
+attackType3 = "ivintc"
+buildIfNoIdle = 1
+doNextOnFail = 1
+
+[Plan10]
+planCondition = "HisExists"
+planConditionClass = "fbforg66m"
+planConditionCount = 1
+planType = "Attacker"
+planPriority = 335
+targetType = "fbforg66m"    //"fbforg"
+attackType1 = "ivmbike"
+attackType2 = "ivmbike"
+attackType3 = "ivmbike"
+attackType4 = "ivmbike"
+buildIfNoIdle = 1
+doNextOnFail = 1
+
+[Plan11]
+planCondition = "NotExists"
+planConditionClass = "ibarmo"
+planConditionCount = 1
+planType = "CollectPool"
+planPriority = 300
+buildIfNoIdle = 1
+doNextOnFail = 1
+
+[Plan12]
+planCondition = "NotExists"
+planConditionClass = "ibsbay"
+planConditionCount = 1
+planType = "CollectField"
+planPriority = 295
+buildIfNoIdle = 1
+doNextOnFail = 1
+
+[Plan13]
+planType = "BuildMinimums"
+planPriority = 280
+buildType1 = "ivcons"
+buildCount1 = 1
+
+[Plan14]
+planCondition = "Exists"
+planConditionClass = "ibrtow2"
+planConditionCount = 1
+planType = "BaseBuildMinimums"
+planPriority = 272
+buildType1 = "ibpgen"
+buildCount1 = 4
+doNextOnFail = 1
+
+[Plan15]
+planType = "BaseBuildMinimums"
+planPriority = 270
+buildType1 = "ibpgen"
+buildCount1 = 2
+buildType2 = "ibfact"
+buildType3 = "ibcbun"
+buildLoc3 = "cbun1"
+buildType4 = "ibarmo"
+buildType5 = "ibsbay"
+doNextOnFail = 1
+
+[Plan16]
+planCondition = "NotExists"
+planConditionClass = "ibtcen"
+planConditionCount = 1
+planType = "CollectPool"
+planPriority = 255
+buildIfNoIdle = 1
+doNextOnFail = 1
+
+[Plan17]
+planType = "CollectField"
+planPriority = 250
+buildIfNoIdle = 1
+doNextOnFail = 1
+
+[Plan18]
+planType = "Hold"
+planPriority = 230
+holdType1 = "ivturr"
+holdCount1 = 3
+holdPoint = "turretEnemy4"
+buildIfNoIdle = 1
+doNextOnFail = 1
+
+[Plan19]
+planType = "Hold"
+planPriority = 225
+holdType1 = "ivturr"
+holdCount1 = 3
+holdPoint = "turretEnemy5"
+buildIfNoIdle = 1
+doNextOnFail = 1
+
+[Plan20]
+planCondition = "Exists"
+planConditionClass = "ibrtow2"
+planConditionCount = 1
+planType = "BaseBuildMinimums"
+planPriority = 212
+buildType1 = "ibpgen"
+buildCount1 = 5
+doNextOnFail = 1
+
+[Plan21]
+planCondition = "NotExists"
+planConditionClass = "ibtcen"
+planConditionCount = 1
+planType = "BaseBuildMinimums"
+planPriority = 210
+buildType1 = "ibpgen"
+buildCount1 = 3
+buildType2 = "ibtcen"
+doNextOnFail = 1
+
+[Plan22]
+planCondition = "NotExists"
+planConditionClass = "ibtrain"
+planConditionCount = 1
+planType = "BaseBuildMinimums"
+planPriority = 200
+buildType1 = "ibtrain"
+doNextOnFail = 1
+
+[Plan23]
+planType = "CollectField"
+planPriority = 190
+buildIfNoIdle = 1
+doNextOnFail = 1
+
+[Plan24]
+planType = "CollectPool"
+planPriority = 180
+buildIfNoIdle = 1
+doNextOnFail = 1
+
+[Plan25]
+planCondition = "Exists"
+planConditionClass = "ibrtow2"
+planConditionCount = 1
+planType = "BaseBuildMinimums"
+planPriority = 162
+buildType1 = "ibpgen"
+buildCount1 = 6
+doNextOnFail = 1
+
+[Plan26]
+planType = "BaseBuildMinimums"
+planPriority = 160
+buildType1 = "ibpgen"
+buildCount1 = 4
+buildType2 = "ibgtow"
+buildLoc2 = "gtow1"
+buildType3 = "ibgtow"
+buildLoc3 = "gtow1b"
+doNextOnFail = 1
+
+[Plan27]
+planCondition = "Exists"
+planConditionClass = "ibrtow2"
+planConditionCount = 1
+planType = "BaseBuildMinimums"
+planPriority = 152
+buildType1 = "ibpgen"
+buildCount1 = 7
+doNextOnFail = 1
+
+[Plan28]
+planType = "BaseBuildMinimums"
+planPriority = 150
+buildType1 = "ibpgen"
+buildCount1 = 5
+buildType2 = "ibcbun"
+buildLoc2 = "cbun2"
+buildType3 = "ibgtow"
+buildLoc3 = "gtow2"
+buildType4 = "ibgtow"
+buildLoc4 = "gtow2b"
+doNextOnFail = 1
+
+[Plan29]
+planType = "BaseBuildMinimums"
+planPriority = 140
+buildType1 = "ibcbun"
+buildLoc1 = "cbun3"
+buildType2 = "ibgtow"
+buildLoc2 = "gtow3"
+doNextOnFail = 1
+
+[Plan30]
+planType = "DefendArea"
+planPriority = 100
+targetType = "ibgtow"
+doNextOnFail = 1
+
+[Plan31]
+planType = "DefendArea"
+planPriority = 95
+targetType = "ibscav"
+doNextOnFail = 1

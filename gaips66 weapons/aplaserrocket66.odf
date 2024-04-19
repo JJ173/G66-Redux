@@ -1,0 +1,28 @@
+[GameObjectClass]
+geometryName = "apmisl00.xsi"
+classLabel = "wpnpower"
+scrapCost = 40
+scrapValue = 0
+maxHealth = 150
+maxAmmo = 0
+
+heatSignature = 0
+imageSignature = 0
+radarSignature = 0
+
+unitName = "Laser Missile"
+aiName = "PowerUpProcess"
+
+requireCount = 1
+requireName1 = "ibarmo66m"
+requireText1 = "Build Armory"
+
+lightHard1 = "hp_light_1"
+lightName1 = "omniorng-ap"
+
+[PowerUpClass]
+soundPickup = "aprock.wav"
+soundReject = "mnu_buzz.wav"
+
+[WeaponPowerupClass]
+weaponName = "glaserrocket66_c"

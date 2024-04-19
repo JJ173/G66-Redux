@@ -1,0 +1,54 @@
+[OrdnanceClass]
+classLabel = "beam"
+shotGeometry = NULL
+xplGround = "xlaze2gnd"
+xplVehicle = "xlaze2car"
+xplBuilding = "xlaze2car"
+
+renderName = "lazer2_c.render"
+
+ammoCost = 10
+lifeSpan = 175e-6 // 175m
+shotSpeed = 1e6
+
+// was 5 salvos so I upped the damage
+
+damageValue(N) = 110 // none // 110
+damageValue(L) = 85 // light // 85
+damageValue(H) = 70 // heavy // 70
+
+damageValue(S) = 110 // standard // 110
+damageValue(D) = 85 // deflection // 85
+damageValue(A) = 70 // absorbtion // 70
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 2
+renderName1 = "lazer2_c.core"
+renderName2 = "lazer2_c.tail"
+
+[Core]
+renderBase = "draw_bolt"
+textureName = NULL //"trail2.tga"
+textureBlend = "one one modulate"
+startColor = "15 20 250 700"
+finishColor = "0 0 0 0"
+startRadius = 0.01
+finishRadius = 0.01
+segmentLength = 5.0
+segmentVariance = "0.0 0.0 0.0"
+animateTime = 0.65
+textureRate = 0.01
+
+[Tail]
+renderBase = "draw_bolt"
+textureName = "trail2.tga"
+textureBlend = "one one modulate"
+startColor = "5 250 50 200"
+finishColor = "15 30 220 0"
+startRadius = 0.3
+finishRadius = 0.01
+segmentLength = 5.0 
+segmentVariance = "2.0 2.0 0.5"
+animateTime = 0.8 // 0.2
+textureRate = 0.01

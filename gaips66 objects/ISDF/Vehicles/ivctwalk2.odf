@@ -1,0 +1,28 @@
+[GameObjectClass]
+classLabel = "ivwalk66"
+
+provideCount = 4
+provideName2 = "ivctwalk2"
+provideName3 = "assault"
+provideName4 = "DefendUnit"
+
+/////// weapons ///////////////////
+
+weaponName1 = "gtechnox_a"
+weaponName2 = "gtechnox_a"
+
+//////////////////////////////////
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+
+// Angles are in degress
+[WalkerClass]

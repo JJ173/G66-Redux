@@ -1,0 +1,57 @@
+[OrdnanceClass]
+classLabel = "beam"
+shotGeometry = NULL
+xplGround = "xlazegnd"
+xplVehicle = "xlazecar"
+xplBuilding = "xlazecar"
+
+renderName = "lazer_c.render"
+
+ammoCost = 7
+lifeSpan = 175e-6 // 175m
+shotSpeed = 1e6
+
+// was 5 salvos so I upped the damage
+
+damageValue(N) = 100 // none // 100
+damageValue(L) = 75 // light // 75
+damageValue(H) = 50 // heavy // 50
+
+damageValue(S) = 100 // standard // 100
+damageValue(D) = 75 // deflection // 75
+damageValue(A) = 50 // absorbtion // 50
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 2
+renderName1 = "lazer_c.core"
+renderName2 = "lazer_c.tail"
+
+[Core]
+renderBase = "draw_bolt"
+textureName = NULL //"trail2.tga"
+textureBlend = "one one modulate"
+startColor = "200 20 25 255"
+finishColor = "200 20 25 255"
+startRadius = 0.01
+finishRadius = 0.01
+segmentLength = 5.0
+segmentVariance = "0.0 0.0 0.0"
+animateTime = 0.65
+textureRate = 0.01
+
+[Tail]
+renderBase = "draw_twirl_trail"
+textureName = "cpphotonb.tga"
+textureName = "cpphotona.tga"
+textureBlend = "one one modulate"
+startColor = "80 25 25 255"
+finishColor = "80 25 25 0"
+startRadius = 0.01
+finishRadius = 0.9
+animateTime = 0.9
+rotationRate = 10
+emitDelay = 0.001
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "0.9 0.5 0.3"
+emitLife = 0.9

@@ -1,0 +1,28 @@
+[WeaponClass]
+classLabel = "cannon"
+altName = "glazer2_c"
+ordName = "lazer2_a"
+wpnName = "Atomic Zang"
+fireSound = "gbolt00.wav"
+wpnReticle = "glaser"
+wpnCategory = "GUN"
+isAssault = 1
+aiRange = 200
+flashName = "glazer_a.flash"
+
+[CannonClass]
+shotDelay = 1.0 // 1.0/sec
+shotAlternate = 0
+
+[Flash]
+simulateBase = "sim_null"
+lifeTime = 3.5
+renderBase = "draw_light"
+startColor = "255 255 125 300"
+finishColor = "255 255 125 300"
+startRadius = 20.0
+finishRadius = 20.0
+animateTime = 3.5
+//attenuateConstant = 10.0
+//attenuateLinear = 10.0
+//attenuateQuadratic = 10.0

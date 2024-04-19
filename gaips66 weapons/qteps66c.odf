@@ -1,0 +1,55 @@
+// EP-AG QTEPS Combat Ordnance Definition
+// Original Design for "Route 66" Mod by Natty Bumppo
+
+[OrdnanceClass]
+classLabel = "beam"
+shotGeometry = "NULL"
+xplGround = "xqteps66g"
+xplVehicle = "xqteps66v"
+xplBuilding = "xqteps66v"
+xplExpire = "xqteps66e"
+renderName = "qteps66c.render"
+
+ammoCost = 36
+lifeSpan = 170e-3	//170m
+shotSpeed = 1e3
+
+damageValue(N) = 450
+damageValue(L) = 400
+damageValue(H) = 350
+
+damageValue(S) = 450
+damageValue(D) = 450
+damageValue(A) = 450
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 2
+renderName1 = "qteps66c.sparkle1"
+renderName2 = "qteps66c.sparkle2"
+
+[Sparkle1]
+renderBase = "draw_twirl_trail"
+textureName = "flash.tga"
+textureblend = "one one modulate"
+startColor = "0 255 255 255"
+finishColor = "0 255 63 0"
+startRadius = 0.15
+finishRadius = 0.01
+animateTime = 1.0
+emitDelay = 0.015
+emitVariance = "2.2 2.2 2.2"
+emitLife = 1.3
+
+[Sparkle2]
+renderBase = "draw_twirl_trail"
+textureName = "plasma.tga"
+textureblend = "one one modulate"
+startColor = "0 255 255 255"
+finishColor = "255 63 255 0"
+startRadius = 0.1
+finishRadius = 0.01
+animateTime = 1.0
+emitDelay = 0.005
+emitVariance = "1.5 1.5 1.5"
+emitLife = 1.1

@@ -1,0 +1,31 @@
+// EBC Zap Gun Combat Weapon Definition
+// Revision for "Route 66" Mod by Natty Bumppo
+
+[WeaponClass]
+classLabel = "machinegun"
+altName = "gzapgn66a"
+ordName = "zapgun66c"
+wpnName = "Zap Gun"
+fireSound = "gbolt00.wav"
+wpnReticle = "garc_c"
+wpnCategory = "GUN"
+isAssault = 0
+aiRange = 100
+flashName = "gzapgn66c.flash"
+
+[CannonClass]
+shotDelay = 0.6
+shotVariance = 0.025
+
+[Flash]
+simulateBase = "sim_null"
+lifeTime = 0.3
+renderBase = "draw_light"
+startColor = "255 63 255 511"
+finishColor = "255 63 255 511"
+startRadius = 10.0
+finishRadius = 10.0
+animateTime = 0.3
+attenuateConstant = 0.0
+attenuateLinear = 0.0
+attenuateQuadratic = 0.0

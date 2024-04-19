@@ -1,0 +1,29 @@
+[OrdnanceClass]
+classLabel = "bullet"
+
+shotGeometry = NULL
+xplGround = "xbulgnd"
+xplVehicle = "xbulcar"
+xplBuilding = "xbulbld"
+renderName = "tracer1.render"
+
+ammoCost = 2
+lifeSpan = 1.0
+shotSpeed = 300.0
+
+damageValue(N) = 15
+damageValue(L) = 10
+damageValue(H) = 5
+
+damageValue(S) = 10
+damageValue(D) = 5
+damageValue(A) = 15
+
+[Render]
+renderBase = "draw_trail"
+textureBlend = "one one modulate"
+startColor = "0 255 255 127"
+finishColor = "0 0 255 0"
+startRadius = 0.02
+finishRadius = 0.0
+segmentTime = 0.1

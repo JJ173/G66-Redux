@@ -1,0 +1,43 @@
+[GameObjectClass]
+classLabel = "fvwalk66"
+
+maxHealth = 3600
+
+provideCount = 5
+provideName2 = "fvwalk66"
+provideName3 = "assault"
+provideName4 = "DefendUnit"
+provideName5 = "FWalker"
+
+/////// weapons ///////////////////
+
+//weaponName1 = "gmzapmn"
+//weaponName2 = "gmzapmn"
+
+//////////////////////////////////  
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+attackTask = "AssaultTankAttack"
+subAttackTask = "SupportSubAttack"
+subAttackClass = "NNN"
+
+// subAttackClass uses 3 letters.
+// 1st letter is either A or N.     A is include Air targets.         N is attack ground only.
+// 2nd letter is either D or N.     D is to deploy before attacking.  N for regular attack.
+// 3rd letter is either S or N.     S is to use Weapon Range.         N is use the Engage Range to attack. 
+
+PathingType = -1 // -1 = auto, 0 = Hover, 1 = Walker, 2 = Person, 3 = Tracked, 4 = Flyer
+AvoidType = -1	 // -1 = auto, 0 = None, 1 = force, 2 = plan
+
+
+engageRange = 120
+
+[WalkerClass]

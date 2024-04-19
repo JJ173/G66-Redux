@@ -1,0 +1,58 @@
+[GameObjectClass]
+classLabel = "fvgorgon"
+
+addAmmo = 25
+
+addHealth = 50
+
+requireCount = 4
+requireName1 = "fbforg66m"
+requireText1 = "Upgrade Kiln"
+requireName2 = "fbdowe66m"
+requireText2 = "Build Dower"
+requireName3 = "fbover66m"
+requireText3 = "Build/Upgrade Antenna Mound"
+requireName4 = "fbstro66m"
+requireText4 = "Build Stronghold"
+
+provideCount = 5
+provideName1 = "fvgorgon"
+provideName2 = "fvgorg66m"
+provideName3 = "assault"
+provideName4 = "DefendUnit"
+provideName5 = "Monster"
+
+/////// weapons ///////////////////
+
+weaponName1 = "gxenonstra"	//"gsflam66a"	//"gflamer_a"
+weaponName2 = "gxenonstra"	//"gsflam66a"	//"gflamer_a"
+weaponHard3 = ""
+weaponName3 = ""
+weaponHard4 = "HP_SHIELD"
+weaponName4 = "gabsorb_c"
+weaponAssault4 = 0
+
+//////////////////////////////////  
+
+//////////////////////////////////  
+
+
+collisionRadius = 10.0
+
+
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+GotoTaskHasLeader = false
+AttackTaskUsesGroups = false
+
+
+rangeScan = 150		//400.0
+
+engageRange = 70	//100
+
+topSpeed = 10		//5
+
+[WalkerClass]
+attackSpeed = 15	//10

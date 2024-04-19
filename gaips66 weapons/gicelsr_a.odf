@@ -1,0 +1,27 @@
+[WeaponClass]
+classLabel = "machinegun"
+altName = "gicelsr_c"
+ordName = "icelaser_a"
+wpnName = "Ice Laser"
+fireSound = "flash01.wav"
+wpnReticle = "gflashgn"
+wpnCategory = "CANN"
+isAssault = 1
+aiRange = 260
+flashName = "gicelsr_a.flash"
+
+[CannonClass]
+shotDelay =  0.1
+
+[Flash]
+simulateBase = "sim_null"
+lifeTime = 0.2
+renderBase = "draw_light"
+startColor = "0 0 255 700"
+finishColor = "0 0 255 700"
+startRadius = 25.0
+finishRadius = 30.0
+animateTime = 0.2
+attenuateConstant = 0.0
+attenuateLinear = 0.0
+attenuateQuadratic = 0.0

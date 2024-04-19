@@ -1,0 +1,18 @@
+[WeaponClass]
+classLabel = "cannon"
+altName = "gkrknmsl_a"
+ordName = "krknmsl_c"
+wpnName = "Kraken Msl"
+fireSound = "gsand00.wav"
+wpnReticle = "gsting_c"
+wpnCategory = "ROCK"
+aiRange = 100
+isAssault = 0
+
+[CannonClass]
+shotDelay = 2.5
+shotAlternate = 1
+
+salvoCount = 5
+salvoDelay = 0.03
+shotVariance = 0.2

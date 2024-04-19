@@ -1,0 +1,8 @@
+EM-AG Laser Autogun
+Electromagnetic pulse cannon.
+-- Combat --
+Range: 110m  Rate: 30p/m
+Ammo: Moderate  Damage: Low
+-- Assault --
+Range: 140m  Rate: 300p/m
+Ammo: Moderate  Damage: Moderate

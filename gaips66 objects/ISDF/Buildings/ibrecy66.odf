@@ -1,0 +1,29 @@
+[GameObjectClass]
+classLabel = "ibrecy"
+
+unitName = "Recycler"
+
+provideCount = 2
+provideName1 = "MainBase"
+provideName2 = "ibrecy"
+
+[PoweredBuildingClass]
+
+[BuildingClass]
+
+tunnelCount = 1
+tunnel01X0 = 3
+tunnel01Z0 = 3
+tunnel01DX = 2
+tunnel01DZ = 2
+tunnel01Edge = "wttt"
+
+
+[FactoryClass]
+BuildSparkConfig = "sparker"
+
+[RecyclerClass]
+scrapHold = 40
+scrapDelay = 3.0 // # of seconds before +1 scrap
+
+[Lod1]

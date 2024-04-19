@@ -1,0 +1,16 @@
+[GameObjectClass]
+geometryName = "igmits00.xsi"
+classLabel = "tripmine"
+scrapCost = 0
+scrapValue = 0
+maxHealth = 1500
+maxAmmo = 100
+unitName = "MITS"
+
+[MineClass]
+lifeSpan = 30
+
+[TripMineClass]
+triggerRadius = 150.0
+suppressRadius = 170.0
+payloadName = "mitsmin662"

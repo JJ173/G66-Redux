@@ -1,0 +1,66 @@
+[OrdnanceClass]
+classLabel = "bullet"
+
+shotGeometry = "NULL"
+shotSound = "igtow04.wav"
+xplGround = "xpljt01_all"
+xplVehicle = "xpljt01_all"
+xplBuilding = "xpljt01_all"
+xplExpire = "xpljt01_all"
+
+renderName = "pljt01_c.render"
+
+ammoCost = 10
+lifeSpan = 0.00001
+shotSpeed = 100000.0
+
+damageValue(N) = 0
+damageValue(L) = 0
+damageValue(H) = 0	
+
+damageValue(S) = 0
+damageValue(D) = 0
+damageValue(A) = 0
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 3
+renderName1 = "pljt01_c.core"
+renderName2 = "pljt01_c.light"
+renderName3 = "pljt01_c.flame"
+
+
+[Core]
+renderBase = "draw_twirl"
+textureName = "flame2.tga"
+textureBlend = "one one modulate"
+startColor = "191 100 0 2550"
+finishColor = "50 50 50 0"
+startRadius = 0.5
+finishRadius = 0.8
+animateTime = 20.0
+rotationRate = 30.0
+
+[Light]
+renderBase = "draw_light"
+startColor = "255 255 80 500"
+finishColor = "255 255 80 500"
+startRadius = 0.1
+finishRadius = 0.2
+animateTime = 0.5
+//attenuateConstant = 0.0
+//attenuateLinear = 1.0
+//attenuateQuadratic = 0.0
+
+[Flame]
+renderBase = "draw_twirl_trail"
+textureName = "flame2.tga" //"blast.tga"
+textureBlend = "one one modulate"
+startColor = "255 200 0 255"
+finishColor = "200 200 200 0"
+startRadius = 0.2
+finishRadius = 1.0
+animateTime = 0.1
+rotationRate = 10.0
+
+

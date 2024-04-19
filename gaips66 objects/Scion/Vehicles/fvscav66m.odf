@@ -1,0 +1,24 @@
+[GameObjectClass]
+classLabel = "fvscav66"
+
+collisionRadius = 10.0
+
+provideCount = 1
+provideName1 = "Scav"
+
+[CraftClass]
+
+TeamTransferrable = true
+AttackTaskUsesGroups = false
+GotoTaskHasLeader = false
+
+otherMsg = "fvscav11.wav"
+
+[TrackedVehicleClass]
+
+[TrackedDeployableClass]
+
+[ScavengerClass]
+BuildSparkConfig = "sparker"
+deployClass = "fbscav66m"
+scrapFirst = true

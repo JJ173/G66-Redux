@@ -1,0 +1,18 @@
+[WeaponClass]
+classLabel = "cannon"
+ordName = NULL
+wpnName = ""
+fireSound = ""
+wpnReticle = "gflashgn"
+wpnCategory = "HAND"
+isAssault = 1
+aiRange = 10
+flashName = ""
+localAmmo = 0
+addLocalAmmo = 0.0
+
+[CannonClass]
+shotDelay =  1e30
+//salvoCount = 15
+//salvoDelay = 0.1
+shotVariance = 0.0

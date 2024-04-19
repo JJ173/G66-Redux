@@ -1,0 +1,56 @@
+[OrdnanceClass]
+classLabel = "bullet"
+shotGeometry = NULL
+
+xplGround = "xbulgnd"
+xplVehicle = "xTCPGcar_c"
+xplBuilding = "xTCPGcar_c"
+
+renderName = "TCPG_c.render"
+
+ammoCost = 5
+lifeSpan = .9 // 120m  130 GEC
+shotSpeed = 200.0
+
+damageValue(N) = 18 // none // 340
+damageValue(L) = 18 // light // 340
+damageValue(H) = 14 // heavy // 280
+
+damageValue(S) = 17 // standard // 320
+damageValue(D) = 10 // deflection // 180
+damageValue(A) = 18 // absorbtion // 340
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 2
+renderName1 = "TCPG_c.core"
+renderName2 = "TCPG_c.tail"
+
+[Core]
+renderBase = "draw_twirl_trail"
+textureName = "flame.tga"
+textureName = ""
+textureBlend = "one one modulate"
+startColor = "255 255 255 10"
+finishColor = "255 255 255 0"
+startRadius = 0.01
+finishRadius = 1.0
+animateTime = 0.9
+rotationRate = 5
+emitDelay = 0.001
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "0.7 0.3 0.1"
+emitLife = 0.3
+
+
+[Tail]
+renderBase = "draw_trail"
+textureBlend = "one one modulate"
+textureName = "trail.tga"
+startColor = "255 0 0 255"
+finishColor = "255 0 0 255"
+startRadius = 0.02
+finishRadius = 0.05
+segmentTime = 0.09
+
+

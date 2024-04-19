@@ -1,0 +1,80 @@
+// =================
+// SATCHEL EXPLOSION
+// =================
+
+[ExplosionClass]
+classLabel = "explosion"
+
+particleTypes = 3
+particleClass1 = "xsatxpl66.core"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+particleClass2 = "xsatxpl66.shock"
+particleCount2 = 1
+particleVeloc2 = "0.0 0.0 0.0"
+particleClass3 = "xsatxpl66.spark"
+particleCount3 = 18
+particleVeloc3 = "50.0 50.0 50.0"
+
+explSound = "xmv1.wav"
+damageRadius = 35.0
+damageValue(N) = 1600 //4000
+damageValue(L) = 1200 //3200
+damageValue(H) = 900 //2400
+damageValue(S) = 900 //2400
+damageValue(D) = 1200 //3200
+damageValue(A) = 1600 //4000
+
+[Core]
+simulateBase = "sim_null"
+lifeTime = 1.0
+renderBase = "draw_twirl"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "255 127 31 255"
+finishColor = "255 63 0 0"
+startRadius = 3.0
+finishRadius = 30.0
+animateTime = 1.0
+
+[Shock]
+simulateBase = "sim_null"
+lifeTime = 0.3
+renderBase = "draw_sphere"
+textureName = "vsmoke.tga"
+textureBlend = "one one modulate"
+startColor = "255 127 31 127"
+finishColor = "255 63 0 0"
+startRadius = 3.0
+finishRadius = 45.0
+animateTime = 0.3
+latitudeBands = 8
+longitudeSegments = 16
+
+[Spark]
+simulateBase = "sim_ember"
+lifeTime = 2.5
+renderBase = "draw_multi"
+renderCount = 2
+renderName1 = "xsatxpl66.sparkember"
+renderName2 = "xsatxpl66.sparktrail"
+
+[SparkEmber]
+renderBase = "draw_twirl"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "255 191 0 2550"
+finishColor = "255 191 0 0"
+startRadius = 0.3
+finishRadius = 0.01
+animateTime = 2.5
+
+[SparkTrail]
+renderBase = "draw_trail"
+textureBlend = "one one modulate"
+startColor = "191 95 0 127"
+finishColor = "191 95 0 0"
+startRadius = 0.1
+finishRadius = 0.0
+segmentTime = 0.5
+trailTime = 2.0

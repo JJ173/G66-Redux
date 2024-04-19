@@ -1,0 +1,38 @@
+[OrdnanceClass]
+classLabel = "bouncebomb"
+shotGeometry = "NULL"
+
+xplGround = "xgaspxpl"
+xplVehicle = "xgaspxpl"
+xplBuilding = "xgaspxpl"
+
+renderName = "gasplume.gaspuff"
+
+ammoCost = 5
+lifeSpan = 7.5
+shotSpeed = 10.0
+
+damageValue(N) = 30 // none
+damageValue(L) = 30 // light
+damageValue(H) = 30 // heavy
+
+damageValue(S) = 30 // Stasis
+damageValue(D) = 30 // Deflection
+damageValue(A) = 30 // Absorption
+
+[BounceBombClass]
+bounceRatio = 1.0
+bounceSound = ""	//"jax02b.wav"
+
+[GasPuff]
+//simulateBase = "sim_dust"
+//lifeTime = 7.5
+renderBase = "draw_twirl"
+textureName = "smoke.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "173 255 47 127" //"127 255 0 127"
+finishColor = "43 63 12 0"
+startRadius = 3.0
+finishRadius = 15.0
+animateTime = 7.5
+rotationRate = 6.0

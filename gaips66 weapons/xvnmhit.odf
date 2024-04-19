@@ -1,0 +1,40 @@
+// ===================
+// VENOM VEHICLE HIT
+// ===================
+
+[ExplosionClass]
+classLabel = "explosion"
+explSound = "rmort02.wav"
+
+particleTypes = 1
+particleClass1 = "xvnmhit.core"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+//particleClass2 = "xvnmhit.puff"
+//particleCount2 = 1
+//particleVeloc2 = "10.0 10.0 10.0"
+//particleBias2 = "0.0 3.0 0.0"
+
+[Core]
+simulateBase = "sim_null"
+lifeTime = 0.5
+renderBase = "draw_twirl"
+textureName = "gunk.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "111 127 0 127"
+finishColor = "111 127 0 0"
+startRadius = 1.0
+finishRadius = 5.0
+animateTime = 0.5
+
+[Puff]
+simulateBase = "sim_ember"
+lifeTime = 2.0
+renderBase = "draw_twirl"
+textureName = "gunk.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "103 127 0 255"
+finishColor = "103 127 0 0"
+startRadius = 0.1
+finishRadius = 0.1
+animateTime = 2.0

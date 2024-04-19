@@ -1,0 +1,87 @@
+[OrdnanceClass]
+classLabel = "bullet"
+
+shotGeometry = "gatstab.xsi"
+shotSound = "Ordin_b.wav" //"igtow04.wav"
+geometryScale = 2
+
+xplGround = "xcerbgnd"
+xplVehicle = "xcerbcar"
+xplBuilding = "xcerbbld"
+xplExpire = "xcerbair"
+
+renderName = "cerberus_c.render"
+
+ammoCost = 30
+lifeSpan = 5.5 //522.5m
+shotSpeed = 95.0
+
+damageValue(N) = 1010
+damageValue(L) = 760
+damageValue(H) = 500
+
+damageValue(S) = 980
+damageValue(D) = 490
+damageValue(A) = 730
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 4
+renderName1 = "cerberus_c.smoke"
+renderName2 = "cerberus_c.flame"
+renderName3 = "cerberus_c.twirl"
+renderName4 = "cerberus_c.light"
+
+[Smoke]
+renderBase = "draw_twirl_trail"
+textureName = "smoke.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "100 20 0 200"
+finishColor = "180 150 150 0"
+startRadius = 0.15
+finishRadius = 1.5
+animateTime = 0.2
+rotationRate = 10.0
+emitDelay = 0.015
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "2.0 2.0 2.0"
+emitLife = 0.2
+
+[Flame]
+renderBase = "draw_twirl_trail"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "255 127 0 255"
+finishColor = "255 0 0 255"
+startRadius = 0.2
+finishRadius = 0.02
+animateTime = 0.15
+rotationRate = 10.0
+emitDelay = 0.001
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "2.0 2.0 2.0"
+emitLife = 0.15
+
+[Twirl]
+renderBase = "draw_twirl_trail"
+textureName = "twin.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 0 255"
+finishColor = "255 0 0 0"
+startRadius = 0.15
+finishRadius = 0.15
+animateTime = 0.075
+rotationRate = 10.0
+emitDelay = 0.001
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "0.0 0.0 0.0"
+emitLife = 0.075
+
+[Light]
+renderBase = "draw_sprite"
+textureName = "lightflare.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 0 255"
+finishColor = "255 255 0 255"
+startRadius = 1.5
+finishRadius = 1.5

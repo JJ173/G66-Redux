@@ -1,0 +1,106 @@
+// =================
+// needle EXPLOSION
+// =================
+
+[ExplosionClass]
+classLabel = "explosion"
+
+particleTypes = 5
+particleClass1 = "xnedbld.core"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+particleClass2 = "xnedbld.shock"
+particleCount2 = 1
+particleVeloc2 = "0.0 0.0 0.0"
+particleClass3 = "xnedbld.light"
+particleCount3 = 1
+particleVeloc3 = "0.0 0.0 0.0"
+particleClass4 = "xnedbld.trail"
+particleCount4 = 5
+particleVeloc4 = "40.0 60.0 40.0"
+particleBias4 = "0.0 0.0 0.0"
+particleClass5 = "xnedbld.trail2"
+particleCount5 = 5
+particleVeloc5 = "30.0 50.0 30.0"
+
+explSound = "xmv1.wav"
+damageRadius = 10.0
+kickRadius = 10.0
+kickOmega = 10.0
+kickVeloc = 10.0
+
+damageValue(N) = 50 // none
+damageValue(L) = 40 // light
+damageValue(H) = 30 // heavy
+
+damageValue(S) = 50 // standard
+damageValue(D) = 40 // deflection
+damageValue(A) = 30 // absorbion
+
+[Core]
+simulateBase = "sim_null"
+lifeTime = 1.0
+renderBase = "draw_twirl"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "130 190 42 155"
+finishColor = "45 60 25 0"
+startRadius = 1.0
+finishRadius = 3.0
+animateTime = 1.0
+
+[Shock]
+simulateBase = "sim_null"
+lifeTime = 1.0
+renderBase = "draw_sphere"
+textureName = "shell1.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 100"
+finishColor = "100 100 100 0"
+startRadius = 1.0
+finishRadius = 5.0
+animateTime = 1.0
+latitudeBands = 8
+longitudeSegments = 16
+
+[Light]
+simulateBase = "sim_null"
+lifeTime = 1.0
+renderBase = "draw_light"
+startColor = "218 255 123 255"
+finishColor = "100 200 60 0"
+startRadius = 3.0
+finishRadius = 0.0
+animateTime = 1.5
+//attenuateConstant = 0.0
+//attenuateLinear = 1.0
+//attenuateQuadratic = 0.0
+
+[trail]
+simulateBase = "sim_ember"
+lifeTime = 1.0
+renderBase = "draw_trail"
+textureBlend = "one one modulate"
+startColor = "213 255 63 200"
+finishColor = "0 100 0 0"
+startRadius = 0.1
+finishRadius = 0.0
+trailTime = 1.0
+segmentTime = 0.5
+
+[trail2]
+simulateBase = "sim_ember"
+lifeTime = 1.0
+renderBase = "draw_trail"
+textureName = "trail2.tga"
+textureBlend = "one one modulate"
+textureRate = 0.1
+startColor = "120 170 43 100"
+finishColor = "0 50 0 0"
+startRadius = 0.1  /0.3
+finishRadius = 0.4 //1.0
+segmentTime = 0.8 // 1.0
+animateTime = 2.0
+trailTime = 0.8
+segmentTime = 0.5
+

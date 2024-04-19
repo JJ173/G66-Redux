@@ -1,0 +1,17 @@
+[WeaponClass]
+classLabel = "cannon"
+altName = "gshower_a"
+ordName = "shower_c"
+wpnName = "Starburst"
+fireSound = "chaff01.wav"
+wpnReticle = "gquill_c"
+wpnCategory = "CANN"
+isAssault = 0
+aiRange = 140
+
+[CannonClass]
+shotDelay = 1.5
+salvoCount = 20
+salvoDelay = 0.005
+shotVariance = 0.1
+shotAlternate = 0

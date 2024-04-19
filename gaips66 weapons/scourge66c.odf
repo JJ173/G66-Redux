@@ -1,0 +1,80 @@
+[OrdnanceClass]
+classLabel = "thermalmissile"
+
+shotGeometry = "sgstng00.xsi"
+shotSound = "crckt02.wav"
+
+renderName = "scourge66c.render"
+
+xplGround = "xmslgnd"
+xplVehicle = "xscrge66vc"
+xplBuilding = "xscrge66vc"
+
+ammoCost = 10
+lifeSpan = 4.0
+shotSpeed = 65.0	//55.0
+
+damageValue(N) = 78	//65
+damageValue(L) = 48	//40
+damageValue(H) = 12	//10
+
+damageValue(S) = 48	//40
+damageValue(D) = 12	//10
+damageValue(A) = 78	//65
+
+[MissileClass]
+omegaTurn = 2.0		//1.5
+omegaWaver = 1.25	//1.75
+rateWaver = 8.0
+TeamFilter = 68  // 0 = targets all teams, 1 = targets same team only, 2 = targets only allies, 3 = targets only enemies, 4 = targets not same team
+
+[ThermalMissileClass]
+coneAngle = 0.5		//0.3
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 4
+renderName1 = "scourge66c.flare"
+renderName2 = "scourge66c.halo"
+renderName3 = "scourge66c.flame"
+renderName4 = "scourge66c.trail"
+
+[Flare]
+renderBase = "draw_sprite"
+textureName = "lightflare.tga"
+textureBlend = "one one modulate"
+startColor = "223 255 223 255"
+finishColor = "223 255 223 255"
+startRadius = 1.0
+finishRadius = 1.0
+
+[Halo]
+renderBase = "draw_sprite"
+textureName = "lighthalo.tga"
+textureBlend = "one one modulate"
+startColor = "191 255 191 164"
+finishColor = "191 255 191 164"
+startRadius = 0.75
+finishRadius = 0.75
+
+[Flame]
+renderBase = "draw_trail"
+textureName = "trail2.tga"
+textureBlend = "one one modulate"
+textureRate = 0.004
+startColor = "95 255 95 255"
+finishColor = "191 255 191 0"
+startRadius = 0.1
+finishRadius = 0.02
+segmentTime = 0.15
+
+[Trail]
+renderBase = "draw_trail"
+textureName = "trail2.tga"
+textureBlend = "one one modulate"
+textureRate = 0.004
+startColor = "95 255 95 128"
+finishColor = "63 95 63 0"
+startRadius = 0.1
+finishRadius = 0.3
+segmentTime = 1.25

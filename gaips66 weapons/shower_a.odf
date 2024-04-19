@@ -1,0 +1,48 @@
+[OrdnanceClass]
+classLabel = "bullet"
+shotGeometry = "NULL"
+shotSound = "gquil03.wav"
+
+xplGround = "xshowergnd"
+xplVehicle = "xshowercar"
+xplBuilding = "xshowerbld"
+
+renderName = "shower_a.render"
+
+ammoCost = 3
+lifeSpan = 0.4
+shotSpeed = 240.0
+
+damageValue(N) = 7 // none
+damageValue(L) = 5 // light
+damageValue(H) = 4 // heavy
+
+damageValue(S) = 4 // Stasis
+damageValue(D) = 7 // Deflection
+damageValue(A) = 5 // Absorption
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 2
+renderName1 = "shower_a.trail"
+renderName2 = "shower_a.light"
+
+[Trail]
+renderBase = "draw_trail"
+textureName = "spark.tga"
+textureBlend = "one one modulate"
+startColor = "159 255 191 255"
+finishColor = "0 255 31 0"
+textureRate = 0.004
+startRadius = 0.1
+finishRadius = 0.002
+segmentTime = 0.3
+ 
+[Light]
+renderBase = "draw_sprite"
+textureName = "lightflare.tga"
+textureBlend = "one one modulate"
+startColor = "159 255 191 400"
+finishColor = "0 255 31 600"
+startRadius = 1.0 
+finishRadius = 1.0 

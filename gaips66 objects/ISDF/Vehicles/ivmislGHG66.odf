@@ -1,0 +1,178 @@
+[GameObjectClass]
+baseName = "ivmislm2"
+classLabel = "ivmisl66"
+geometryName = "ivmislm2.xsi"
+cockpitName = "ivmisl_cockpit.xsi"
+animCount = 3
+animName1 = "forward"
+animFile1 = "ivmislsf.xsi"
+animName2 = "neutral"
+animFile2 = "ivmislsn.xsi"
+animName3 = "reverse"
+animFile3 = "ivmislsr.xsi"
+scrapValue = 10
+scrapCost = 55
+customCost = 55
+buildTime = 15.0
+customTime = 15.0
+maxHealth = 2000
+maxAmmo = 2500
+addAmmo = 1
+
+unitName = "Heavy Avenger"
+
+unitStatus = "wire_ivmisl.pic"
+
+aiName = "RocketTankFriend"
+aiName2 = "RocketTankEnemy"
+
+heatSignature = 1.0
+imageSignature = 2.5
+radarSignature = 0.5
+
+isAssault = 0
+
+armorClass = N
+
+/////// REQUIREMENTS ///////////////
+
+requireCount = 2
+requireName1 = "ibfact"
+requireText1 = "Build Factory"
+requireName2 = "ibtcen"
+requireText2 = "Build Tech Center"
+
+////////////////////////////////////
+
+
+/////// PROVIDES ///////////////////
+
+provideCount = 7
+provideName1 = "MScout"
+provideName2 = "ivmisl"
+provideName3 = "ivmislGHG66"
+provideName4 = "ivmisl66m"
+provideName5 = "VIRTUAL_CLASS_MISSILESCOUT"
+provideName6 = "VIRTUAL_CLASS_HEAVYMISSILESCOUT"
+provideName7 = "DefendUnit"
+
+////////////////////////////////////
+
+
+/////// weapons ////////////////////
+
+weaponMask = 00011
+
+weaponGroup1 = 0
+weaponHard1 = "HP_ROCKET_1"
+weaponName1 = "gtaggun_c"
+weaponAssault1 = 0
+
+weaponGroup2 = 1
+weaponHard2 = "HP_ROCKET_3"
+weaponName2 = ""
+weaponAssault2 = 0
+
+weaponGroup3 = 0
+weaponHard3 = "HP_ROCKET_2"
+weaponName3 = "gtaggun_c"
+weaponAssault3 = 0
+
+weaponGroup4 = 2
+weaponHard4 = "HP_SPECIAL_1"
+weaponName4 = "gproxmin"
+weaponAssault4 = 0
+
+////////////////////////////////////
+
+lightHard1 = "hp_light_1"
+lightName1 = "spotblue2"
+lightHard2 = "hp_light_2"
+lightName2 =  
+	
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+attackTask = "MortarBikeAttack"
+subAttackTask = "MortarBikeSubAttack"
+subAttackClass = "NNN"
+
+// subAttackClass uses 3 letters.
+// 1st letter is either A or N.     A is include Air targets.         N is attack ground only.
+// 2nd letter is either D or N.     D is to deploy before attacking.  N for regular attack.
+// 3rd letter is either S or N.     S is to use Weapon Range.         N is use the Engage Range to attack. 
+
+
+rangeScan = 300.0f
+periodScan = 5.0f
+velocJam = 5.0f
+engageRange = 130
+
+braccelFactor = 0.05f;
+strafeFactor = 0.1f;
+steerFactor = 1.0f;
+omegaFactor = 0.4f;
+velFactor = 0.2f;
+
+avoidSpeed = 5;
+topSpeed = 30;
+
+selectWaitMsg = "ivmisl04.wav"
+selectAttackMsg = "ivmisl01.wav"
+selectFollowMsg = "ivmisl03.wav"
+selectGoMsg = "ivmisl02.wav"
+selectOtherMsg = "ivmisl04.wav"
+
+goMsg = "ivmisl05.wav"
+attackMsg = "ivmisl06.wav"
+followMeMsg = "ivmisl08.wav"
+followMsg = "ivmisl03.wav"
+repairMsg = "ivmisl09.wav"
+reloadMsg = "ivmisl09.wav"
+rescueMsg = "ivmisl10.wav"
+recycleMsg = "ivmisl11.wav"
+otherMsg = "ivmisl11.wav" 
+holdMsg = "ivmisl12.wav"
+user1Msg = ""  
+killedMsg = "ivmisl07.wav"
+diedMsg = ""
+
+[HoverCraftClass]
+velocForward = 36.5 // 
+velocReverse = 12.0 // 
+velocStrafe = 18.5 // 
+accelThrust = 19.0 // acceleration 
+accelBrake = 75.0 // braking
+accelDragStop = 6.0 // how fast it stops once hands are off controls 
+accelJump = 15.0
+
+setAltitude = 1.0 // how high off the ground
+
+alphaTrack = 21.0 //springs speed it rights itself 
+alphaDamp = 8.0 //shocks 
+
+pitchPitch = 0.25 // nose up 
+pitchThrust = 0.1 // nose down 
+
+rollStrafe = 0.09 // rolls while strafing 
+omegaSpin = 3.0 // spinning in place speed 
+omegaTurn = 3.0 // turning while moving speed 
+alphaSteer = 5.5 // how fast it responds to steering 
+rollSteer = 0.12 // rolls while steering 
+
+soundThrust = "itank01h.wav"
+soundTurbo = "avrckte1.wav"
+
+[Lod1]
+geometryName = "ivmislL1.xsi" ;geometry for lod1
+distance = 50
+
+[Lod2]
+geometryName = "ivmislL2.xsi" ;geometry for lod2
+distance = 100                ;...distance over this many meters => switch to lod2

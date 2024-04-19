@@ -1,0 +1,34 @@
+CANNONS
+AT-Stab (C):		gatstab_c
+AT-Stab (A):		gatstab_a
+SP-Stab (C):		gspstab_c
+SP-Stab (A):		gspstab_a
+G66 Pulse Cannon (C):	gpulse66_c
+G66 Pulse Cannon (A):	gpulse66_a
+
+GUNS
+Laser:			glaser_c
+G66 Laser (C):		glaser66c
+G66 Laser (A):		glaser66a
+G66 minigun (C):	gminign66c
+G66 minigun (A):	gminign66a
+G66 Chaingun (C):	gchaingn66c
+G66 Chaingun (A):	gchaingn66a
+G66 Hellbore (C):	ghellbr66c
+G66 Hellbore (A):	ghellbr66a
+
+MISSILES
+G66 Heat Rocket (C):	gheatrkt_c
+G66 Heat Rocket (A):	gheatrkt_a
+Shadowers (C):		gshadow_c
+Shadowers (A):		gshadow_a
+FAF (C):		gfafmsl_c
+FAF (A):		gfafmsl_a
+Tag Cannon (C):		gtaggun_c
+Tag Cannon (A):		gtaggun_a
+
+MINES
+Proximity Mines:	gproxmin
+
+MORTAR
+Standard:		gmortar

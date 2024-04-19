@@ -1,0 +1,20 @@
+[WeaponClass]
+classLabel = "targeting"
+altName = "gelectr_a"
+ordName = "swarme_c"
+wpnName = "Electron tag"
+fireSound = "elect.wav"
+wpnReticle = "gtaggun.0"
+wpnCategory = "ROCK"
+isAssault = 0
+aiRange = 150
+
+[TargetingGunClass]
+leaderName = "leade_c"
+leaderSound = "gbolt00.wav"
+shotDelay = 0.0
+firstDelay = 0
+salvoDelay = 0.3
+salvoCount = 3
+lockingReticle = "gtaggun.1"
+lockedReticle = "gtaggun.2"

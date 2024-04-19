@@ -1,0 +1,116 @@
+[GameObjectClass]
+classLabel = "fvscout"
+
+scrapValue = 5
+
+scrapCost = 20
+customCost = 30
+
+buildTime = 10.0
+
+maxHealth = 1000
+
+maxAmmo = 1800
+
+addAmmo = 1.0
+
+unitName = "Empty Scout"
+
+aiName = "SentryProcess"
+aiName2 = "SentryProcess"
+
+heatSignature = 0.5
+imageSignature = 3.0
+radarSignature = 0.1
+
+isAssault = 0
+
+armorClass = N
+
+requireCount = 0
+
+provideCount = 3
+provideName2 = "fvscout66e"
+provideName3 = "DefendUnit"
+
+/////// weapons ///////////////////
+
+weaponHard2 = ""
+weaponName2 = ""
+
+
+weaponHard3 = ""
+weaponName3 = ""
+
+//////////////////////////////////
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+topSpeed = 40;	//30
+
+// COMBAT MODE /////////////////////
+
+[HoverCraftClass]
+velocForward = 45.0 // 
+velocReverse = 12.0 // 
+velocStrafe = 22.0 // 
+accelThrust = 32.0 //acceleration 
+accelDragStop = 12.0 //how fast it stops once hands are off controls 
+accelJump = 22.0 // 
+
+soundThrust = "avtanke0.wav"
+soundTurbo = "avtanke3.wav"
+
+// ASSAULT MODE /////////////////////
+
+[MorphTankClass]  // Delete all but velocForward and soundTurbo
+// object data
+maxHealth = 900
+maxAmmo = 1500
+engageRange = 100
+isAssault = 0
+
+addAmmo = 2.0
+addHealth = 2.0
+
+unitName = "Drone"
+
+// radar properties
+rangeScan = 450.0f
+periodScan = 5.0f
+velocJam = 5.0f
+
+velocForward = 32.0 // 
+velocReverse = 15.0 // 
+velocStrafe = 10.0 // 
+accelThrust = 22.0 //acceleration 
+accelDragStop = 11.0 //how fast it stops once hands are off controls 
+accelJump = 10.0 // 
+
+setAltitude = 1.5 // how high off the ground
+
+alphaTrack = 21.0 //springs speed it rights itself 
+alphaDamp = 7.0 //shocks 
+
+pitchPitch = 0.12 //nose up 
+pitchThrust = 0.12 //nose down 
+
+rollStrafe = 0.085 //rolls while strafing 
+omegaSpin = 5.0 //spinning in place speed 
+omegaTurn = 2.5 //turning while moving speed 
+alphaSteer = 5.0 //how fast it speeds up and slows down to steering 
+rollSteer = 0.07 //rolls while steering 
+
+// hovercraft sounds
+soundThrust = "ssent01j.wav"
+soundTurbo = "avtanke3.wav"
+
+[DeployableClass]

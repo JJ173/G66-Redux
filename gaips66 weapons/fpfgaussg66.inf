@@ -1,0 +1,8 @@
+MP-AG GAUSS GUN
+Magnetic propulsion cannon.
+-- Combat --
+Range: 120m  Rate: 120r/m
+Ammo: Moderate   Damage: Moderate
+-- Assault --
+Range: 160m  Rate: 30r/m
+Ammo: High   Damage: High

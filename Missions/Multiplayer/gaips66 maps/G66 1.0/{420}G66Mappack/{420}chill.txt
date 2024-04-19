@@ -1,0 +1,19 @@
+Date : 10/03/01
+Map : G66 Chill at Night
+Creator : {420}Rookie
+Email at : LS1speeddemon@worldnet.att.com
+-----------------------------------------------------------------------
+Installing the Maps :
+--------------------
+Unzip to battlezone2/data/missions/multiplayer,thats it.
+-----------------------------------------------------------------------
+
+Much thanks to Natty Bimpo for his G66 AI!!!! 
+and Lizard for his maps.
+
+Please send me feedback on maps or report any erors.
+
+Map Chill at Night by "Luke"
+Map Scrap Valley by "Lizard"
+Map Volcanic Eruption by "Lizard"
+Converted by me {420}Rookie

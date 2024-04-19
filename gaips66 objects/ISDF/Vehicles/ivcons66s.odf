@@ -1,0 +1,19 @@
+[GameObjectClass]
+classLabel = "ivcons66"
+needPilot = 0
+
+provideCount = 3
+provideName2 = "ivcons66s"
+provideName3 = "Builder"
+
+[CraftClass]
+
+[HoverCraftClass]
+
+[DeployableClass]
+
+[ConstructionRigClass]
+BuildSparkConfig = "sparker"
+buildItem2 = "ibfact66s"
+buildItem4 = "ibarmo66s"
+buildItem10 = "ibrtow266s"

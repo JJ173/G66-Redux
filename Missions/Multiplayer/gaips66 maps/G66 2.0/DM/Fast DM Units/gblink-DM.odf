@@ -1,0 +1,32 @@
+[WeaponClass]
+classLabel = "blink"
+ordName = NULL
+wpnName = "Blink"
+fireSound = "blink01.wav"
+wpnReticle = "gblink.0"
+wpnCategory = "SPEC"
+wpnPriority = 3		// Added by Red Devil from PB2 team.
+aiRange = 50		 // Added by Red Devil from PB2 team.
+
+isAssault = 0
+
+localAmmo = 1				 // Added by Red Devil from PB2 team
+
+//addLocalAmmo = 0.005		   // Added and changed to 0.005 by Red Devil from PB4 team.
+addLocalAmmo = 0.008		    // Added and changed to 0.005 by Red Devil from PB4 team.
+						// This setting recharges local ammo about 2 units of local ammo per second recharge rate == 1 meter per second recharge rate
+						// depending upon the following settings.
+
+[BlinkDeviceClass]
+ammoBase = 0.001	// was 300, was 200 in stock.  Changed to 0.001 by Red Devil from PB2 team.  This setting determines the amount
+				  // of local ammo in the local ammo bar.  0.001 == 1000 units.
+
+ammoDist = 0.002	// was 20, was 1.0 in stock.   Changed to 0.002 by Red Devil from PB2 team.  This setting determines the amount
+				 // of local ammo used for one meter of jump.  0.002 == 2 units of local ammo per meter of jump.
+
+//shotDelay = 5.0      	 // Delay after firing before it can trigger again, in seconds.
+shotDelay = 4.0		  // Delay after firing before it can trigger again, in seconds.
+
+groundSprite = "splash.0"
+xplEnter = "xblinkin"
+xplExit = "xblinkout"

@@ -1,0 +1,149 @@
+[GameObjectClass]
+baseName = "ivdestroy"
+geometryName = "ivdestroy.xsi"
+cockpitName= "ivtank_cockpit.xsi"
+classLabel = "wingman"
+scrapValue = 20
+scrapCost = 55
+customCost = 65
+buildTime = 15.0
+customTime = 15.0
+maxHealth = 3500
+maxAmmo = 2200
+addAmmo = 5
+aiAddAmmo = 30
+unitName = "Destroyer II"
+aiName = "TankFriend"
+aiName2 = "TankEnemy"
+
+heatSignature = 2.0
+imageSignature = 2.5
+radarSignature = 0.5
+
+isAssault = 0
+
+armorClass = L
+
+requireCount = 2
+requireName1 = "ibfact"
+requireText1 = "Build Factory"
+requireName2 = "ibcbun"
+requireText2 = "Build Relay Bunker"
+
+cockpitName = "ivtank_cockpit.xsi"
+
+/////// weapons ///////////////////
+
+weaponMask = 00011
+
+weaponHard1 = "HP_ROCKET_1"
+weaponName1 = "gheatrkt_c"
+weaponAssault1 = 0
+weaponHard2 = "HP_ROCKET_2"
+weaponName2 = "gheatrkt_c"
+weaponAssault2 = 0
+weaponHard3 = "HP_ROCKET_3"
+weaponName3 = "gfafmsl_a"
+weaponAssault3 = 1
+weaponHard4 = "HP_ROCKET_4"
+weaponName4 = "gfafmsl_a"
+weaponAssault4 = 1
+weaponHard5 = "HP_SPECIAL_1"
+weaponName5 = ""
+weaponAssault5 = 0
+
+////////////////////////////////////
+
+lightHard1 = "hp_light_1"
+lightName1 = "spotblue2"
+lightHard2 = "hp_light_2"
+lightName2 =  
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+rangeScan = 300.0f
+periodScan = 5.0f
+velocJam = 5.0f
+engageRange = 120
+
+attackTask = "MortarBikeAttack"
+subAttackTask = "MortarBikeSubAttack"
+subAttackClass = "NNN"
+
+// subAttackClass uses 3 letters.
+// 1st letter is either A or N.     A is include Air targets.         N is attack ground only.
+// 2nd letter is either D or N.     D is to deploy before attacking.  N for regular attack.
+// 3rd letter is either S or N.     S is to use Weapon Range.         N is use the Engage Range to attack. 
+
+braccelFactor = 0.03
+velFactor = 0.2
+steerFactor = 1.5
+omegaFactor = 0.2
+strafeFactor = 0.2
+
+avoidSpeed = 5;
+topSpeed = 35;
+
+selectWaitMsg = "ivdest05.wav"
+selectAttackMsg = "ivdest02.wav"
+selectFollowMsg = "ivdest04.wav"
+selectGoMsg = "ivdest04.wav"
+selectOtherMsg = "ivdest05.wav"
+holdMsg = "ivdest12.wav"
+
+goMsg = "ivdest04.wav"
+attackMsg = "ivdest06.wav"
+followMeMsg = "ivdest08.wav"
+followMsg = "ivdest03.wav"
+repairMsg = "ivdest09.wav"
+reloadMsg = "ivdest09.wav"
+rescueMsg = "ivdest10.wav"
+recycleMsg = "ivdest11.wav"
+otherMsg = "ivdest05.wav" 
+holdMsg = "ivdest12.wav"
+user1Msg = ""  
+killedMsg = "ivdest07.wav"
+diedMsg = ""
+
+[HoverCraftClass]
+velocForward = 28.5 // []
+velocReverse = 20.0 // []
+velocStrafe = 16.0 // []
+accelThrust = 24.0 //acceleration []
+accelDragStop = 6.0 //how fast it stops once hands are off controls []
+accelJump = 15.0 // []
+w
+setAltitude = 1.0 // how high off the ground
+
+alphaTrack = 21.0 //springs speed it rights itself []
+alphaDamp = 8.0 //shocks []
+
+pitchPitch = 0.25 //nose up []
+pitchThrust = 0.1 //nose down []
+
+rollStrafe = 0.08 //rolls while strafing []
+omegaSpin = 6.0 //spinning in place speed []
+omegaTurn = 2.3 //turning while moving speed []
+alphaSteer = 7.0 //how fast it responds to steering []
+rollSteer = 0.08 //rolls while steering []
+
+soundThrust = "itank01e.wav"
+soundTurbo = "avtanke3.wav"
+
+[Lod1]
+geometryName = "ivtankL1.xsi" ;geometry for lod1
+distance = 50                 ;...distance over this many meters => switch to lod2
+
+[Lod2]
+geometryName = "ivtankL2.xsi" ;geometry for lod2
+distance = 100                 ;...distance over this many meters => switch to lod2
+
+

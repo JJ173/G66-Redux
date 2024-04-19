@@ -1,0 +1,139 @@
+[GameObjectClass]
+classLabel = "wingman"
+glowTexture = "fvscoua0.pic"
+geometryName = "fvscout_skel.xsi"
+cockpitName = "fvscout_cockpit.xsi"
+classLabel = "tug"
+animCount = 7
+animName1 = "forward"
+animFile1 = "fvscout_ASF.xsi"
+animName2 = "neutral"
+animFile2 = "fvscout_ASN.xsi"
+animName3 = "reverse"
+animFile3 = "fvscout_ASR.xsi"
+animName4 = "deploy"
+animFile4 = "fvscout_MORPH.xsi"
+animName5 = "forward2"
+animFile5 = "fvscout_MSF.xsi"
+animName6 = "neutral2"
+animFile6 = "fvscout_MSN.xsi"
+animName7 = "reverse2"
+animFile7 = "fvscout_MSR.xsi"
+
+requireCount = 1
+requireName1 = "fbkiln66c2"
+requireText1 = "Build Kiln"
+
+
+provideCount = 3
+provideName2 = "fvscout66"
+provideName3 = "DefendUnit"
+
+collisionRadius = 10.0
+
+scrapValue = 10
+scrapCost = 10
+customCost = 10
+buildTime = 3.0
+customTime = 3.0
+maxHealth = 1500
+maxAmmo = 1500
+addAmmo = 10
+aiAddAmmo = 25
+unitName = "Repulsor"
+lifeSpan = 180.0
+aiName = "SoldierProcess"
+aiName2 = "SoldierProcess"
+
+
+/////// weapons ////////////////////
+
+weaponMask = 00111
+weaponHard1 = "HP_CANNON_1"
+weaponName1 = "gsonic_c"
+weaponAssault1 = 0
+
+weaponHard2 = "HP_SPECIAL_1"
+weaponName2 = "gblink"
+weaponAssault2 = 0
+
+weaponHard3 = "HP_SHIELD"
+weaponName3 = "gshield_c"
+weaponAssault3 = 0
+
+////////////////////////////////////
+
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+attackTask = "MortarBikeAttack"
+subAttackTask = "MortarBikeSubAttack"
+subAttackClass = "NNN"
+
+// subAttackClass uses 3 letters.
+// 1st letter is either A or N.     A is include Air targets.         N is attack ground only.
+// 2nd letter is either D or N.     D is to deploy before attacking.  N for regular attack.
+// 3rd letter is either S or N.     S is to use Weapon Range.         N is use the Engage Range to attack. 
+
+rangeScan = 1500.0f
+periodScan = 1.0f
+velocJam = 0.0f
+engageRange = 1500
+
+braccelFactor = 0.05f;
+strafeFactor = 0.1f;
+steerFactor = 1.5f;
+omegaFactor = 0.28f;
+velFactor = 0.2f;
+
+avoidSpeed = 5;
+topSpeed = 40;
+
+selectWaitMsg = "fvscout04.wav"
+selectAttackMsg = "fvscout01.wav"
+selectFollowMsg = "fvscout03.wav"
+selectGoMsg = "fvscout02.wav"
+selectOtherMsg = "fvscout04.wav"
+holdMsg = "fvscout12.wav"
+goMsg = "fvscout05.wav"
+attackMsg = "fvscout06.wav"
+followMeMsg = "fvscout08.wav"
+followMsg = "fvscout03.wav"
+repairMsg = "fvscout09.wav"
+reloadMsg = "fvscout09.wav"
+rescueMsg = "fvscout10.wav"
+recycleMsg = "fvscout11.wav"
+otherMsg = "fvscout04.wav" 
+
+user1Msg = ""  
+killedMsg = "fvscout07.wav"
+diedMsg = ""
+
+// COMBAT MODE /////////////////////
+
+[HoverCraftClass]
+velocForward = 40.0 // 
+velocReverse = 10.0 // 
+velocStrafe = 15.0 // 
+accelThrust = 30.0 //acceleration 
+accelDragStop = 11.0 //how fast it stops once hands are off controls 
+accelJump = 20.0 // 
+
+setAltitude = 1.5 // how high off the ground
+
+alphaTrack = 21.0 //springs speed it rights itself 
+alphaDamp = 7.0 //shocks 
+
+pitchPitch = 0.12 //nose up 
+pitchThrust = 0.12 //nose down 
+
+rollStrafe = 0.085 //rolls while strafing 
+omegaSpin = 3.5 //spinning in place speed 
+omegaTurn = 3.0 //turning while moving speed 
+alphaSteer = 4.0 //how fast it speeds up and slows down to steering 
+rollSteer = 0.07 //rolls while steering 
+
+soundThrust = "ssent01j.wav"
+

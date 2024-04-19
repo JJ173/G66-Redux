@@ -1,0 +1,80 @@
+[WeaponClass]
+classLabel = "chargegun"
+
+// external geometry
+geometryName = "fgsnip__stand.xsi"
+geometryScale = 0.11
+animCount = 4
+animName1 = "stand"
+animFile1 = "fgsnip__stand.xsi"
+animName2 = "walk"
+animFile2 = "fgsnip__stand.xsi"
+animName3 = "crouch"
+animFile3 = "fgsnip__stand.xsi"
+animName4 = "jump"
+animFile4 = "fgsnip__stand.xsi"
+
+// cockpit geometry
+cockpitName = "fwrifl_cockpit_stand.xsi"
+cockpitScale = 0.11
+animCountCockpit = 4
+animNameCockpit1 = "stand"
+animFileCockpit1 = "fwrifl_cockpit_stand.xsi"
+animNameCockpit2 = "walk"
+animFileCockpit2 = "fwrifl_cockpit_run.xsi"
+animNameCockpit3 = "crouch"
+animFileCockpit3 = "fwrifl_cockpit_snipe.xsi"
+animNameCockpit4 = "jump"
+animFileCockpit4 = "fwrifl_cockpit_stand.xsi"
+
+ordName = NULL
+wpnName = "Subversion"
+fireSound = "flash01.wav"
+wpnReticle = "gflashgn"
+wpnCategory = "HAND"
+altName = "fgsubversion_a"
+isAssault = 0
+aiRange = 225
+flashName = "fgsubversion_c.flash"
+localAmmo = 0
+//addLocalAmmo = 0.035
+
+[ChargeGunClass]
+startRate = 11025.0
+deltaRate = 4000.0
+startVolume = 40.0
+deltaVolume = 20.0
+
+ordnanceCount = 2
+
+shotDelay1 = 0.0
+salvoCount1 = 0
+salvoDelay1 = 0
+shotVariance1 = 0.0
+fireSound1 = "xmag02.wav"
+ordName1 = NULL
+wpnReticle1 = "gmaggun.0"
+
+shotDelay2 = 5
+salvoCount2 = 20
+salvoDelay2 = 0.1
+shotVariance2 = 0.0
+fireSound2 = "xmag03.wav"
+ordName2 = "subvertbeam"
+wpnReticle2 = "gmaggun.1"
+
+holdRate = 200.0
+
+[Flash]
+simulateBase = "sim_null"
+lifeTime = 0.2
+renderBase = "draw_light"
+startColor = "159 0 0 255"
+finishColor = "159 0 0 0"
+startRadius = 10.0
+finishRadius = 1.0
+animateTime = 0.2
+attenuateConstant = 0.0
+attenuateLinear = 0.0
+attenuateQuadratic = 4.0
+

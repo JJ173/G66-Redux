@@ -1,0 +1,81 @@
+[OrdnanceClass]
+classLabel = "bullet"
+
+shotGeometry = "NULL"
+shotSound = "igtow04.wav"
+xplGround = "xombstgnd_c"
+xplVehicle = "xombstcar_c"
+xplBuilding = "xombstbld_c"
+xplExpire = "xombstair_c"
+
+renderName = "omburst2_c.render"
+
+ammoCost = 12
+lifeSpan = 2.0 //200m
+shotSpeed = 100.0
+
+damageValue(N) = 160	//175
+damageValue(L) = 132	//145
+damageValue(H) = 105	//115
+
+damageValue(S) = 132	//145
+damageValue(D) = 160	//175
+damageValue(A) = 105	//115
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 4
+renderName1 = "omburst2_c.core"
+renderName2 = "omburst2_c.light"
+renderName3 = "omburst2_c.flame"
+renderName4 = "omburst2_c.sparkle"
+
+[Core]
+renderBase = "draw_twirl"
+textureName = "flame2.tga"
+textureBlend = "one one modulate"
+startColor = "191 0 63 2550"
+finishColor = "191 0 0 0"
+startRadius = 0.5
+finishRadius = 0.6
+animateTime = 20.0
+rotationRate = 30.0
+
+[Light]
+renderBase = "draw_light"
+startColor = "255 80 255 500"
+finishColor = "255 80 255 500"
+startRadius = 20.0
+finishRadius = 20.0
+animateTime = 0.5
+attenuateConstant = 0.0
+attenuateLinear = 0.0
+attenuateQuadratic = 0.0
+
+[Flame]
+renderBase = "draw_twirl_trail"
+textureName = "flame2.tga" //"blast.tga"
+textureBlend = "one one modulate"
+startColor = "255 80 255 255"
+finishColor = "255 0 255 0"
+startRadius = 0.6
+finishRadius = 0.2
+animateTime = 0.1
+rotationRate = 10.0
+emitDelay = 0.002
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "1.5 1.5 1.5"
+emitLife = 0.5
+
+[Sparkle]
+renderBase = "draw_twirl_trail"
+textureName = "flame.tga"
+textureblend = "one one modulate"
+startColor = "255 0 255 255"
+finishColor = "255 63 255 0"
+startRadius = 0.2
+finishRadius = 0.01
+animateTime = 1.0
+emitDelay = 0.01
+emitVariance = "2.0 2.0 2.0"
+emitLife = 1.0

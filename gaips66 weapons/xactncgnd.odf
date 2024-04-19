@@ -1,0 +1,49 @@
+// ================
+// ACTINIC SALVO GROUND HIT
+// ================
+
+[ExplosionClass]
+classLabel = "explosion"
+
+particleTypes = 2
+
+particleClass1 = "xactncgnd.core"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+
+particleClass2 = "xactncgnd.char"
+particleCount2 = 1
+particleVeloc2 = "0.0 0.0 0.0"
+
+explSound = "xemt2.wav"
+damageRadius = 4.0
+damageValue(N) = 8
+damageValue(L) = 4
+damageValue(H) = 3
+damageValue(S) = 4
+damageValue(D) = 7
+damageValue(A) = 3
+
+[Core]
+simulateBase = "sim_null"
+lifeTime = 0.5
+renderBase = "draw_planar"
+textureName = "ring.tga"
+textureBlend = "one one modulate"
+startColor = "31 0 63 255"
+finishColor = "31 0 63 0"
+startRadius = 0.2
+finishRadius = 4.0
+animateTime = 0.5
+
+[Char]
+simulateBase = "sim_null"
+lifeTime = 3.0
+renderBase = "draw_planar"
+textureName = "lightflare.tga"
+textureBlend = "one one modulate"
+startColor = "47 0 79 0"
+finishColor = "47 0 79 223"
+startRadius = 12.0
+finishRadius = 0.05
+animateTime = 3.0

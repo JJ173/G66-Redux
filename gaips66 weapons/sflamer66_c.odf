@@ -1,0 +1,48 @@
+[OrdnanceClass]
+classLabel = "bullet"
+
+shotGeometry = NULL
+shotRadius = 1.0
+xplGround = "xsflm66hit"
+xplVehicle = "xsflm66hit"
+xplBuilding = "xsflm66hit"
+
+renderName = "sflamer66_c.render"
+
+ammoCost = 1
+lifeSpan = 3.0
+shotSpeed = 50.0
+
+damageValue(N) = 25	// none
+damageValue(L) = 10	// light
+damageValue(H) = 5	// heavy
+
+damageValue(S) = 10	// Stasis
+damageValue(D) = 25	// Deflection
+damageValue(A) = 5	// Absorption
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 2
+renderName1 = "sflamer66_c.puff"
+renderName2 = "sflamer66_c.flame"
+
+[Puff]
+renderBase = "draw_twirl"
+textureName = "flame2.tga"
+textureBlend = "one one modulate"
+startColor = "255 127 0 31"
+finishColor = "255 31 0 0"
+startRadius = 1.0
+finishRadius = 5.0
+animateTime = 1.2
+
+[Flame]
+renderBase = "draw_twirl"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "0 0 255 127"
+finishColor = "0 0 255 0"
+startRadius = 0.8
+finishRadius = 0.3
+animateTime = 0.5

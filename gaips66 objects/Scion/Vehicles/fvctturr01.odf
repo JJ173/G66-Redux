@@ -1,0 +1,29 @@
+[GameObjectClass]
+classLabel = "fvturr66"
+
+provideCount = 3
+provideName3 = "fvctturr01"
+
+/////// weapons ///////////////////
+
+weaponName1 = "ggaussg66c"	//"giongn_a"
+weaponName2 = "ggaussg66c"	//"giongn_a"
+
+//////////////////////////////////  
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+
+[HoverCraftClass]
+
+[DeployableClass]
+
+[TurretTankClass]

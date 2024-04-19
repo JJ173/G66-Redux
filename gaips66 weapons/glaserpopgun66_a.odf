@@ -1,0 +1,17 @@
+[WeaponClass]
+classLabel = "cannon"
+ordName = "laserpopshell_a"
+wpnName = "Laser Popper"
+altName = "glaserpopgun66_c"
+fireSound = "gpopp00.wav"
+wpnReticle = "glockm"
+wpnLadder = "gpopgun.L0"
+wpnCategory = "MORT"
+aiRange = 220
+isAssault = 1
+
+[CannonClass]
+shotDelay = 2.0
+shotPitch = 1.3
+shotLead = 0
+

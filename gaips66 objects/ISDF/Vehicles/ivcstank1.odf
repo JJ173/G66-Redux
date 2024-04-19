@@ -1,0 +1,32 @@
+[GameObjectClass]
+classLabel = "ivxnat"
+
+provideCount = 6
+provideName4 = ivcstank1"
+provideName5 = "assault"
+provideName6 = "DefendUnit"
+
+/////// weapons ///////////////////
+
+weaponName1 = "gsgcann"	//"gsgcann"
+
+////////////////////////////////////
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+
+[TrackedVehicleClass]
+
+[AssaultTankClass]
+
+[Lod1]
+
+[Lod2]

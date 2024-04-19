@@ -1,0 +1,30 @@
+[WeaponClass]
+classLabel = "cannon" // "machinegun"
+ordName = "FurySbolt"
+wpnName = "Fury Blast"
+fireSound = "bltm01.wav"
+wpnReticle = "gbolt" / "octagon"
+wpnCategory = "GUN"
+flashName = "gFurySbolt.flash"
+aiRange = 75	//200
+
+[CannonClass]
+//shotDelay = 0.1
+shotDelay = 0.5
+salvoCount = 5
+salvoDelay = 0.05
+shotVariance = 0.0
+
+[Flash]
+simulateBase = "sim_null"
+lifeTime = 5.0
+renderBase = "draw_sphere"
+textureName = "vsmoke.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255"
+finishColor = "0 0 255 0"
+startRadius = 0.5
+finishRadius = 50.0
+animateTime = 5.0
+latitudeBands = 4
+longitudeSegments = 8

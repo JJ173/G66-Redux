@@ -1,0 +1,53 @@
+[OrdnanceClass]
+classLabel = "beam"
+
+shotGeometry = "NULL"
+xplGround = "xactncgnd"
+xplVehicle = "xactnccar"
+xplBuilding = "xactncbld"
+
+renderName = "actinic_a.render"
+
+ammoCost = 25
+lifeSpan = 75e-6 // 75m
+shotSpeed = 1e6
+
+damageValue(N) = 250
+damageValue(L) = 150
+damageValue(H) = 75
+
+damageValue(S) = 120
+damageValue(D) = 240
+damageValue(A) = 60
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 2
+renderName1 = "actinic_a.core"
+renderName2 = "actinic_a.tail"
+
+[Core]
+renderBase = "draw_bolt"
+textureName = "NULL" //"trail2.tga"
+textureBlend = "one one modulate"
+startColor = "31 0 63 79"
+finishColor = "31 0 63 79"
+startRadius = 0.05
+finishRadius = 0.0
+segmentLength = 5.0
+segmentVariance = "0.0 0.0 0.0"
+animateTime = 0.15
+textureRate = 0.01
+
+[Tail]
+renderBase = "draw_bolt"
+textureName = "NULL" // "trail2.tga"
+textureBlend = "one one modulate"
+startColor = "23 0 47 79"
+finishColor = "23 0 47 0"
+startRadius = 0.005
+finishRadius = 0.2
+segmentLength = 5.0
+segmentVariance = "0.0 0.0 0.0"
+animateTime = 0.2
+textureRate = 0.01

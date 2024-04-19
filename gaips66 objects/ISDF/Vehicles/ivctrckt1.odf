@@ -1,0 +1,35 @@
+[GameObjectClass]
+classLabel = "ivrckt66"
+
+provideCount = 5
+provideName2 = "ivctrckt1"
+provideName3 = "assault"
+provideName4 = "DefendUnit"
+provideName5 = "AntiAir"
+
+/////// weapons ///////////////////
+
+weaponName1 = "gheatrkt_c"
+weaponName2 = "gheatrkt_c"
+weaponName3 = "gheatrkt_a"
+
+//////////////////////////////////
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+
+[TrackedVehicleClass]
+
+[AssaultTankClass]
+
+[Lod1]
+
+[Lod2]

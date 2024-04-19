@@ -1,0 +1,30 @@
+// PB-AG Hellbore Assault Weapon Definition
+// Original for "Route 66" Mod by Natty Bumppo
+
+[WeaponClass]
+classLabel = "cannon"	//"machinegun"
+altName = "ghellbr66c"
+ordName = "hellbr66a"
+wpnName = "Hellbore"
+fireSound = "gmini01.wav"
+wpnReticle = "gminigun"
+wpnCategory = "GUN"
+isAssault = 1
+aiRange = 150
+flashName = "ghellbr66a.flash"
+
+[CannonClass]
+shotDelay = 0.5
+shotVariance = 0.03
+shotAlternate = 1
+
+[Flash]
+renderBase = "draw_geom"
+textureName = "sflash66.tga"
+textureBlend = "one one modulate"
+startColor = "255 0 0 255"
+finishColor = "255 0 0 255"
+startRadius = 5.5
+finishRadius = 1.5
+animateTime = 0.1
+geomName = "g_sflash.xsi"

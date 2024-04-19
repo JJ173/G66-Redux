@@ -1,0 +1,15 @@
+[GameObjectClass]
+baseName = "issold"
+classLabel = "ispilo"
+
+scrapValue = 0
+maxHealth = 250
+maxAmmo = 100
+addAmmo = 10
+unitName = "Soldier"
+aiName = "SoldierProcess"
+
+weaponMask = 00111
+weaponName1 = "igbzka66_c"
+weaponName2 = "igbzka66_a"
+weaponName3 = "ighjetp66"

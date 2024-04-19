@@ -1,0 +1,15 @@
+[WeaponClass]
+classLabel = "cannon"
+ordName = "banemsl66a"
+wpnName = "Bane Missile"
+fireSound = "gsand00.wav"
+wpnReticle = "gsting_c"
+wpnCategory = "ROCK"
+aiRange = 260
+isAssault = 1
+
+[CannonClass]
+shotDelay = 2.0
+salvoDelay = 0.1
+salvoCount = 3
+shotAlternate = 1

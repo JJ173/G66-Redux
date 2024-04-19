@@ -1,0 +1,74 @@
+[OrdnanceClass]
+classLabel = "BULLET"
+shotSound = "igtow04.wav"
+shotGeometry = "NULL"
+shotRadius = 2.0
+xplGround = "xpls66gnd_c"
+xplVehicle = "xpls66car_c"
+xplBuilding = "xpls66car_c"
+
+renderName = "plsball66.render"
+
+ammoCost = 10
+lifeSpan = 1.2		//120m
+shotSpeed = 100.0
+
+damageValue(N) = 210	//no armor
+damageValue(L) = 160	//light armor
+damageValue(H) = 30	//heavy armor
+
+damageValue(S) = 160	//stasis shield
+damageValue(D) = 210	//deflection shield
+damageValue(A) = 30	//Absorption shield
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 3
+renderName1 = "plsball66.flare1"
+renderName2 = "plsball66.trail1"
+renderName3 = "plsball66.trail2"
+
+[Flare1]
+renderBase = "draw_twirl_trail"
+textureName = "plasma.tga"
+textureBlend = "one one modulate"
+startColor = "0 127 255 255"
+finishColor = "0 0 255 255"
+startRadius = 0.4
+finishRadius = 0.02
+rotationRate = 10.0
+animateTime = 0.02
+emitDelay = 0.001
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "3.0 3.0 3.0"
+emitLife = 0.02
+
+[Trail1]
+renderBase = "draw_twirl_trail"
+textureName = "plasma.tga"
+textureBlend = "one one modulate"
+startColor = "0 127 255 255"
+finishColor = "0 0 255 0"
+startRadius = 0.2
+finishRadius = 0.001
+rotationRate = 0.6
+animateTime = 0.6
+emitDelay = 0.08
+emitVelocity = "0.1 0.1 0.0"
+emitVariance = "15.0 15.0 0.0"
+emitLife = 0.6
+
+[Trail2]
+renderBase = "draw_twirl_trail"
+textureName = "plasma.tga"
+textureBlend = "one one modulate"
+startColor = "0 127 255 255"
+finishColor = "0 0 255 0"
+startRadius = 0.2
+finishRadius = 0.001
+rotationRate = 0.05
+animateTime = 0.05
+emitDelay = 0.008
+emitVelocity = "0.2 0.2 0.0"
+emitVariance = "20.0 20.0 0.0"
+emitLife = 0.05

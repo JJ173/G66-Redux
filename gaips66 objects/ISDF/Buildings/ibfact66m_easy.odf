@@ -1,0 +1,45 @@
+[GameObjectClass]
+classLabel = "ibfact"
+
+provideCount = 2
+provideName1 = "ibfact"
+provideName2 = "ibfact66m"
+
+[PoweredBuildingClass]
+
+[BuildingClass]
+
+[FactoryClass]
+BuildSparkConfig = "sparker"
+WeaponConfig = "iWeaponG66_easy.odf"
+
+buildItem1 = "ivmbike66m"
+buildItem2 = "ivmisl66m"
+buildItem8 = "ivbomb66m"
+
+[BuildGroup3]
+buildLabel = "Tanks"
+buildItem1 = "ivltank66m"
+buildItem2 = "ivtank66m"
+
+[BuildGroup4]
+buildLabel = "Rocket Tanks"
+buildItem1 = "ivrckt66m"
+buildItem2 = "ivrckt66m2"
+
+[BuildGroup5]
+buildLabel = "Assault Tanks"
+buildItem1 = "ivatank66m"
+buildItem2 = "ivxnat"
+
+[BuildGroup6]
+buildLabel = "Walkers"
+buildItem1 = "ivltwalk66m"
+buildItem2 = "ivwalk66m"
+
+[BuildGroup7]
+buildLabel = "APC's"
+buildItem1 = "ivapc"
+buildItem2 = "ivapcgh"
+
+[Lod1]

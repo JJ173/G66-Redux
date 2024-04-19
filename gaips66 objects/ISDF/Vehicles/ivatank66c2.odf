@@ -1,0 +1,76 @@
+[GameObjectClass]
+baseName = "ATank"
+classLabel = "ivatank66"
+
+scrapValue = 70
+
+scrapCost = 110
+customCost = 120
+
+buildTime = 20.0
+customTime = 25.0
+
+maxHealth = 6500
+addhealth = 5.0
+
+maxAmmo = 7000
+aiAddAmmo = 30
+
+heatSignature = 1.0
+	
+requireCount = 1
+requireName1 = "ibfact66c2"
+requireText1 = "Build Factory"
+
+provideCount = 5
+provideName2 = "ivatank66c"
+provideName3 = "assault"
+provideName4 = "DefendUnit"
+provideName5 = "ATank"
+
+/////// weapons ///////////////////
+
+weaponMask = 00001
+weaponName1 = "gsgcann"
+
+////////////////////////////////////
+
+turretCount = 2
+turretName1 = "turret_y"
+turretName2 = "turret_x"
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+rangeScan = 330.0f
+engageRange = 300
+
+braccelFactor = 0.05
+velFactor = 0.2
+steerFactor = 1.3
+omegaFactor = 0.15
+
+[TrackedVehicleClass]
+omegaSpin = 1.0
+velocForward = 12.0
+velocReverse = 4.0
+accelThrust = 8.0
+
+TREAD_STATIC_FRICTION = 1.5
+
+[AssaultTankClass]
+yawRate = 1.0
+pitchMax = 0.3
+
+recoilName1 = "recoil_1"
+
+[Lod1]
+
+[Lod2]

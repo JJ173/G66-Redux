@@ -1,0 +1,18 @@
+[WeaponClass]
+classLabel = "cannon"
+ordName = "laserrocket_a"
+wpnName = "Laser Rocket"
+altName = "glaserrocket66_c"
+fireSound = "gpopp00.wav"
+wpnReticle = "gtaggun.0"
+wpnLadder = "gpopgun.L0"
+wpnCategory = "ROCK"
+aiRange = 300
+isAssault = 1
+
+[CannonClass]
+shotDelay = 2.0
+shotLead = 0
+salvoCount = 5
+salvoDelay = 0.2
+

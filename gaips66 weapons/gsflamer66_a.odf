@@ -1,0 +1,14 @@
+[WeaponClass]
+classLabel = "machinegun"
+altName = "gsflamer66_c"
+ordName = "sflamer66_a"
+wpnName = "Incinerator"
+fireSound = "gflas00.wav"
+wpnReticle = "gminigun"
+wpnCategory = "CANN"
+isAssault = 1
+aiRange = 75
+
+[CannonClass]
+shotDelay = 0.02
+

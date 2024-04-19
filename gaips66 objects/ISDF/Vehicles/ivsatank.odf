@@ -1,0 +1,26 @@
+[GameObjectClass]
+classLabel = "ivatank66"
+
+provideCount = 4
+provideName2 = "ivsatank"
+provideName3 = "assault"
+provideName4 = "DefendUnit"
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+
+[TrackedVehicleClass]
+
+[AssaultTankClass]
+
+[Lod1]
+
+[Lod2]

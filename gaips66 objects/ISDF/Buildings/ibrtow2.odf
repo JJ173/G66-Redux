@@ -1,0 +1,30 @@
+[GameObjectClass]
+geometryName = "ibrtow.xsi"  //"ibrtow2.xsi"
+
+classLabel = "ibrtow"
+
+provideCount = 4
+provideName1 = "ibrtow"
+provideName2 = "ibrtow2"
+provideName3 = "defender"
+provideName4 = "RocketTower"
+
+/////// weapons ///////////////////
+
+weaponMask = 00011  //00001
+
+weaponHard1 = "HP_ROCKET_2"  //"HP_ROCKET_3"
+weaponName1 = "gshadow_c"
+weaponHard2 = "HP_ROCKET_3"  //"HP_ROCKET_2"
+
+////////////////////////////////////
+
+[BuildingClass]
+
+[CraftClass]
+IgnoreDestroyedTargets = true
+
+[TurretCraftClass]
+
+[Lod1]
+geometryName = "ibrtow2l1.xsi" ;geometry for lod1

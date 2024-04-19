@@ -1,0 +1,71 @@
+[GameObjectClass]
+mrmFactor = 0
+baseName = "fbspir"
+geometryName = "fbspir00.xsi"
+animCount = 1
+animName1 = "deploy"
+animFile1 = "fbspir00.xsi"
+classLabel = "turret"
+collisionRadius = 12.0
+scrapCost = 75
+scrapValue = 40
+powerCost = 0
+maxHealth = 6000
+maxAmmo = 10000
+addAmmo = 100
+unitName = "Gun Spire"
+aiName = "GunTowerFriend"
+aiName2 = "GunTowerEnemy"
+heatSignature = 2.0
+imageSignature = 1.0
+radarSignature = 1.0
+isAssault = 1
+
+collisionRadius = 11.0
+
+armorClass = H
+
+buildSupport = "A"
+buildRequire = "F"
+
+requireCount = 0
+
+provideCount = 3
+provideName1 = "fbspir"
+provideName2 = "defender"
+provideName3 = "GunTower"
+
+///// WEAPON ////////////////////
+
+weaponMask = 00001
+weaponHard1 = "hp_cannon_1"
+weaponName1 = "gmbolt"
+
+/////////////////////////////////
+
+turretCount = 2
+turretName1 = "turret_y"
+turretName2 = "turret_x"
+
+[BuildingClass]
+
+soundAmbient = "sgtow01.wav"
+
+[CraftClass]
+rangeScan = 210.0
+periodScan = 0.0
+velocJam = 0.0
+weaponPitch = 1.5
+steerFactor = 1.0
+engageRange = 210
+IgnoreDestroyedTargets = true
+
+attackTask = "AssaultTankAttack"
+subattackTask = "SupportSubAttack"
+subAttackClass = "ANS"
+
+[TurretCraftClass]
+powerTap1 = "HP_TAP_1"
+powerName = "fblung"
+omegaTurret = 2.0
+detectRange = 210

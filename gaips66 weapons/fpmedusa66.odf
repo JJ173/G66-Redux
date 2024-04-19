@@ -1,0 +1,29 @@
+[GameObjectClass]
+geometryName = "apcann00.xsi"
+classLabel = "wpnpower"
+scrapCost = 40
+scrapValue = 0
+maxHealth = 150
+maxAmmo = 0
+unitName = "Medusa"
+aiName = "PowerUpProcess"
+
+requireCount = 4
+requireName1 = "fbforg"
+requireText1 = "Upgrade Kiln"
+requireName2 = "fbstro"
+requireText2 = "Build Stronghold"
+requireName3 = "fbdowe"
+requireText3 = "Build Dowe"
+requireName4 = "fbover"
+requireText4 = "Build/Upgrade Antenna Mound"
+
+lightHard1 = "hp_light_1"
+lightName1 = "omnipurple"
+
+[PowerUpClass]
+soundPickup = "pickup01.wav"
+soundReject = "reject.wav"
+
+[WeaponPowerupClass]
+weaponName = "gmedusa66a"

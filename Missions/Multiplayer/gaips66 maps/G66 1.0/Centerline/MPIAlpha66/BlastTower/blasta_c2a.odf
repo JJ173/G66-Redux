@@ -1,0 +1,69 @@
+// Blast IIa Energy Spec
+// Modifications by tech.noid 2001
+
+[OrdnanceClass]
+classLabel = "beam"
+shotGeometry = "NULL"
+xplGround = "xblastgnd"
+xplVehicle = "xblastcar"
+xplBuilding = "xblastbld"
+
+renderName = "blasta_c2a.render"
+
+ammoCost = 200
+lifeSpan = 275e-3 // 275m
+shotSpeed = 1e3
+
+damageValue(N) = 400 // none
+damageValue(L) = 300 // light
+damageValue(H) = 200 // heavy
+damageValue(S) = 400 // Stasis
+damageValue(D) = 500 // Deflection
+damageValue(A) = 300 // Absorption
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 3
+renderName1 = "blasta_c2a.beam"
+renderName2 = "blasta_c2a.fringe"
+renderName3 = "blasta_c2a.sparkle"
+
+[Beam]
+renderBase = "draw_bolt"
+textureName = "trail2.tga"
+textureBlend = "one one modulate"
+startColor = "030 050 200 255"
+finishColor = "200 200 0 255"
+startRadius = 0.3
+finishRadius = 0.1
+segmentLength = 1.0
+segmentVariance = "0.0 0.0 0.0"
+animateTime = 0.5
+textureRate = 2.0
+
+[Fringe]
+renderBase = "draw_bolt"
+textureName = "NULL"
+textureBlend = "one one modulate"
+startColor = "220 030 200 255"
+finishColor = "030 050 200 0"
+startRadius = 0.3
+finishRadius = 0.1
+segmentLength = 5.0
+segmentVariance = "1.0 0.75 0.5"
+animateTime = 0.6
+textureRate = 0.01
+
+[Sparkle]
+renderBase = "draw_twirl_trail"
+textureName = "flame.tga"
+textureblend = "one one modulate"
+startColor = "220 030 200 255"
+finishColor = "0 0 0 255"
+startRadius = 0.35
+finishRadius = 0.15
+animateTime = 2.0
+emitDelay = 0.002
+emitVariance = "30.0 20.0 10.0"
+emitLife = 1.3
+

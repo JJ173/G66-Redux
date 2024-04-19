@@ -1,0 +1,35 @@
+[GameObjectClass]
+baseName = "RTank"
+classLabel = "ivrckt66"
+
+requireCount = 1
+requireName1 = "ibfact66c2"
+requireText1 = "Build Factory"
+
+provideCount = 5
+provideName2 = "RTank"
+provideName3 = "assault"
+provideName4 = "DefendUnit"
+provideName5 = "AntiAir"
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+requireCount = 1
+requireName1 = "ibfact66c2"
+requireText1 = "Build Factory"
+
+
+[TrackedVehicleClass]
+
+[AssaultTankClass]
+
+[Lod1]
+
+[Lod2]

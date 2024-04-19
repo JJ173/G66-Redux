@@ -1,0 +1,25 @@
+[GameObjectClass]
+classLabel = "fbrecy"
+
+unitName = "Matriarch"
+
+provideCount = 2
+provideName1 = "fbrecycpu"
+provideName2 = "MainBase"
+
+[BuildingClass]
+
+[FactoryClass]
+BuildSparkConfig = "sparker"
+buildItem1 = "fvscav66c"
+buildItem2 = "fvscout66c"
+buildItem3 = "fvturr66c"
+buildItem5 = "fvcons66c"
+buildItem6 = "fvserv66m"
+buildItem7 = "fpserv66"
+buildItem8 = "fvscout_m"
+buildEmptyItem = 8
+
+[RecyclerClass]
+
+[PoweredBuildingClass]

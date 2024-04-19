@@ -1,0 +1,33 @@
+//
+// MPVehicles66il.txt - listing of multiplayer vehicles usable in BZ2 G66 2.0
+//
+// Format of lines: xsi filename, space separator, odf filename, space separator, description
+// Lines starting with // are ignored. 
+//
+// Tip: do not put .odf extension on odf filename; added automatically on loading
+
+// A maximum of 32 units can be displayed in bz2 at one time.  If any more than 32 are added, the game will crash.
+// Most of the vehicles are disabled due to this bug, but the host is free to uncomment the disabled vehicles to add them
+// to his or her game.
+
+ivscout00.xsi ivscout66m Thunderbolt	
+ivscout00.xsi ivctscout1 Thunderbolt m1		
+ivscout00.xsi ivctscout2 Thunderbolt m2		
+ivscout00.xsi ivctscout3 Thunderbolt m3
+ivmbik00.xsi ivsmbike Jackal
+ivmbik00.xsi ivctmbike Jackal m1
+ivmisl00.xsi ivmisl66m  Avenger			
+ivmisl00.xsi ivctmisl01 Avenger m1		
+ivmisl00.xsi ivctmisl05 Avenger c1
+ivltank.xsi ivltank66m Puma			
+ivltank.xsi ivctpuma04 Puma m1			
+ivltank.xsi ivctpuma01 Puma m2			
+ivltank.xsi ivltank66p Puma m3			
+ivltank.xsi ivctpuma03 Puma c1
+ivtank00.xsi ivtank66m Sabre			
+ivtank00.xsi ivcttank02 Sabre m1			
+ivtank00.xsi ivcttank01 Sabre m2			
+ivtank00.xsi ivrtank02 Sabre c1
+ivturr00.xsi ivturr66 Rattler
+ivturr00.xsi ivctturr1 Rattler m1 
+ivturr00.xsi ivctturr2 Rattler m2

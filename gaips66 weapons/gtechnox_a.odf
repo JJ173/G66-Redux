@@ -1,0 +1,57 @@
+[WeaponClass]
+classLabel = "chargegun"
+altName = "gtechnox_c"
+ordName = ""
+wpnName = "Rave Burst"
+fireSound = "gspst00.wav"
+wpnReticle = "gmaggun.0"
+wpnCategory = "CANN"
+
+isAssault = 1
+
+aiRange = 120
+
+[ChargeGunClass]
+startRate = 11025.0
+deltaRate = 4000.0
+startVolume = 40.0
+deltaVolume = 20.0
+
+ordnanceCount = 5
+
+shotDelay1 = 0.0
+salvoCount1 = 0
+salvoDelay1 = 0
+fireSound1 = "NULL"
+ordName1 = ""
+wpnReticle1 = "gmaggun.0"
+
+shotDelay2 = 2.0
+salvoCount2 = 6
+salvoDelay2 = 0.1
+fireSound2 = "gspst00.wav"
+ordName2 = "technox1_a"
+wpnReticle2 = "gmaggun.3"
+
+shotDelay3 = 3.0
+salvoCount3 = 5
+salvoDelay3 = 0.15
+fireSound3 = "gspst00.wav"
+ordName3 = "technox2_a"
+wpnReticle3 = "gmaggun.4"
+
+shotDelay4 = 4.5
+salvoCount4 = 4
+salvoDelay4 = 0.2
+fireSound4 = "gspst00.wav"
+ordName4 = "technox3_a"
+wpnReticle4 = "gmaggun.5"
+
+shotDelay5 = 6.5
+salvoCount5 = 3
+salvoDelay5 = 0.3
+fireSound5 = "gspst00.wav"
+ordName5 = "technox4_a"
+wpnReticle5 = "gmaggun.6"
+
+holdRate = 100.0

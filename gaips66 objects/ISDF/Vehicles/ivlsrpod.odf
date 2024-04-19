@@ -1,0 +1,120 @@
+[GameObjectClass]
+baseName = "ivlsrpod"
+geometryName = "ivlsrpod.xsi"
+geometryScale = .10
+cockpitName= "ivscout_cockpit.xsi"
+classLabel = "wingman"
+scrapValue = 15
+scrapCost = 50
+customCost = 50
+buildTime = 15.0
+customTime = 15.0
+maxHealth = 1800
+maxAmmo = 1500
+addAmmo = 1
+unitName = "Laser Pod"
+aiName = "ScoutFriend"
+aiName2 = "ScoutEnemy"
+canSnipe = 0
+
+heatSignature = 0.5
+imageSignature = 3.0
+radarSignature = 0.3
+
+isAssault = 0
+
+armorClass = N
+
+requireCount = 0
+
+provideCount = 2
+provideName1 = "ivlsrpod"
+provideName2 = "DefendUnit"
+
+/////// weapons ///////////////////
+
+weaponMask = 00001
+weaponHard1 = "HP_GUN_01"
+weaponName1 = "glaser66c"
+weaponAssault1 = 0
+weaponHard2 = "HP_GUN_02"
+weaponName2 = "glaser66c"
+weaponAssault2 = 0
+weaponHard3 = "HP_GUN_03"
+weaponName3 = "glaser66c"
+weaponAssault3 = 0
+weaponHard4 = "HP_SPECIAL"
+weaponName4 = ""
+weaponAssault4 = 0
+
+//////////////////////////////////
+
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+rangeScan = 450.0f
+periodScan = 5.0f
+velocJam = 10.0f
+engageRange = 130
+
+braccelFactor = 0.05
+velFactor = 0.2
+steerFactor = 1.0
+omegaFactor = 0.5
+strafeFactor = 0.2
+
+topSpeed = 30
+
+selectWaitMsg = "ivscout04.wav"
+selectAttackMsg = "ivscout01.wav"
+selectFollowMsg = "ivscout03.wav"
+selectGoMsg = "ivscout02.wav"
+selectOtherMsg = "ivscout04.wav"
+
+goMsg = "ivscout05.wav"
+attackMsg = "ivscout06.wav"
+followMeMsg = "ivscout03.wav"
+followMsg = "ivscout08.wav"
+repairMsg = "ivscout09.wav"
+reloadMsg = "ivscout09.wav"
+rescueMsg = "ivscout10.wav"
+recycleMsg = "ivscout11.wav"
+otherMsg = "ivscout10.wav" 
+holdMsg = "ivscout12.wav"
+user1Msg = ""  
+killedMsg = "ivscout07.wav"
+diedMsg = ""
+
+[HoverCraftClass]
+velocForward = 40.0 // [40]
+velocReverse = 10.0 // [10]
+velocStrafe = 20.0 // [20]
+accelThrust = 25.0 // acceleration [25.]
+accelDragStop = 50.0 // how fast it stops once hands are off controls [5.9]
+accelJump = 18.0
+aiAccelDrag = 10
+
+setAltitude = 2.0 // how high off the ground
+
+alphaTrack = 50.0 //springs speed it rights itself [5.]
+alphaDamp = 20.0 //shocks [5.]
+
+pitchPitch = 0.0 // nose up [.1]
+pitchThrust = 0.0 // nose down [.1]
+
+rollStrafe = 0.0 // rolls while strafing [1.7]
+omegaSpin = 5.0 // spinning in place speed [3.5]
+omegaTurn = 5.0 // turning while moving speed [3.45]
+alphaSteer = 7.5 // how fast it responds to steering [3.]
+rollSteer = 0.0 // rolls while steering [.35]
+
+soundThrust = "ieng01b.wav"
+soundTurbo = "avtanke3.wav"

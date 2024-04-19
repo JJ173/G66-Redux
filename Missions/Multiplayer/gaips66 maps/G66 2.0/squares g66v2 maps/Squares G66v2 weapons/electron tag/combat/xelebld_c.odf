@@ -1,0 +1,133 @@
+// ==================
+// ELECTRON TAG BUILDING HIT
+// ==================
+
+[ExplosionClass]
+classLabel = "explosion"
+
+explSound = "shipxpl.wav"
+
+damageRadius = 20.0
+
+damageValue(N) = 45
+damageValue(L) = 35
+damageValue(H) = 25
+
+damageValue(S) = 45
+damageValue(D) = 35
+damageValue(A) = 25
+
+kickRadius = 20.0
+kickOmega = 15.0
+kickVeloc = 10.0
+
+
+particleTypes = 6
+
+particleClass1 = "xelecar_c.ring"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+
+particleClass2 = "xelecar_c.chunks"
+particleCount2 = 10
+particleVeloc2 = "50.0 70.0 30.0"
+particleBias2 = "0.0 0.0 0.0"
+
+particleClass3 = "xelecar_c.thrust"
+particleCount3 = 1
+particleVeloc3 = "0.0 0.0 0.0"
+particleBias3 = "0.0 0.0 0.0"
+
+particleClass4 = "xelecar_c.shock"
+particleCount4 = 1
+particleVeloc4 = "0.0 0.0 0.0"
+
+particleClass5 = "xelecar_c.puff"
+particleCount5 = 15
+particleVeloc5 = "35.0 30.0 25.0"
+
+particleClass6 = "xelecar_c.puff2"
+particleCount6 = 10
+particleVeloc6 = "19.0 17.0 10.0"
+
+[Ring]
+simulateBase = "sim_null"
+lifeTime = 1.0
+renderBase = "draw_sprite"
+spriteCenter.x = 0.0
+spriteCenter.y = 0.0
+textureName = "xbhchar3.tga"// ringb2
+textureBlend = "srcalpha invsrcalpha modulatealpha" //"srcalpha invsrcalpha modulatealpha"
+startColor = "255 255 255 100"// 180
+finishColor = "200 200 255 0"
+startRadius = 1.0 //3.0
+finishRadius = 5.0 // 20 
+animateTime = 1.0 //2.0
+
+[Chunks]
+simulateBase = "sim_ember"
+lifeTime = 1.0
+renderBase = "draw_twirl"
+textureName = "spark.tga"
+textureBlend = "one one modulate"
+startColor = "10 10 255 200"
+finishColor = "0 0 255 50"
+startRadius = 1.0
+finishRadius = 1.0
+animateTime = 1.0
+rotationRate = 20.0
+
+[Thrust]
+simulateBase = "sim_null"
+lifeTime = 1
+renderBase = "draw_sprite"
+spriteCenter.x = 0.0
+spriteCenter.y = 0.0
+textureName = "raindrop.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "220 205 255 170"
+finishColor = "0 0 255 0"
+startRadius = 1.0
+finishRadius = 15.0
+animateTime = 1
+
+[Shock]
+simulateBase = "sim_null"
+lifeTime = 1.0
+renderBase = "draw_sprite"
+spriteCenter.x = 0.0
+spriteCenter.y = 0.0
+textureName = "xbhchar3.tga" //ringa3
+textureBlend = "srcalpha invsrcalpha modulatealpha" //"srcalpha invsrcalpha modulatealpha"
+startColor = "255 255 255 180"
+finishColor = "255 255 255 0"
+startRadius = 1.0
+finishRadius = 25.0 // 15
+animateTime = 1.0
+
+[Puff]
+simulateBase = "sim_smoke"
+lifeTime = 1.0
+renderBase = "draw_twirl"
+textureName = "flare.tga"
+textureBlend = "one one modulate"
+startColor = "150 150 255 255"
+finishColor = "0 0 255 0"
+startRadius = 0.6
+finishRadius = 0.4
+animateTime = 1.0
+
+[Puff2]
+simulateBase = "sim_smoke"
+lifeTime = 1.0
+renderBase = "draw_light"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "200 180 255 255"
+finishColor = "250 200 250 0"
+startRadius = 4.0
+finishRadius = 1.0
+animateTime = 1.0
+//attenuateConstant = 0.0
+//attenuateLinear = 2.0
+//attenuateQuadratic = 0.0

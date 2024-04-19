@@ -1,0 +1,25 @@
+[WeaponClass]
+classLabel = "dispenser"
+wpnName = "Night Vision"
+fireSound = "gsite00.wav"
+wpnReticle = "gsitecam.0"
+wpnPriority = 0
+wpnCategory = "SPEC"
+isAssault = 0
+aiRange = 250
+//flashName = "gnightvision66.NightVision"
+
+[DispenserClass]
+shotDelay = 2.0
+objectClass = "nightvision1"
+
+[NightVision]
+renderBase = "draw_light"
+startColor = "0 255 0 100"
+finishColor = "0 255 0 100"
+startRadius = 250.0
+finishRadius = 250.0
+animateTime = 30.0
+attenuateConstant = 0.0
+attenuateLinear = 0.0
+attenuateQuadratic = 0.0

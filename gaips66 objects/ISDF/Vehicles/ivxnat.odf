@@ -1,0 +1,148 @@
+[GameObjectClass]
+baseName = "ivatank"
+geometryName = "ivxnat.xsi"
+classLabel = "assaulttank"
+scrapValue = 40
+scrapCost = 120
+customCost = 125
+buildTime = 30.0
+customTime = 35.0
+maxHealth = 4500
+addhealth = 9.0
+aiAddHealth = 20
+maxAmmo = 1100
+addAmmo = 4
+aiAddAmmo = 10
+unitName = "Siege Tank"
+aiName = "AssaultTankProcess"
+aiName2 = "AssaultTankProcess"
+heatSignature = 0.5
+imageSignature = 5.0
+radarSignature = 5.0
+isAssault = 1
+
+armorClass = H
+
+requireCount = 4
+requireName1 = "ibarmo66m"
+requireText1 = "Build Armory"
+requireName2 = "ibtrain66m"
+requireText2 = "Build Training Facility"
+requireName3 = "ibtcen66m"
+requireText3 = "Build Tech Center"
+requireName4 = "ibbomb66m"
+requireText4 = "Build Bomber Bay"
+
+provideCount = 3
+provideName1 = "ivxnat"
+provideName2 = "assault"
+provideName3 = "DefendUnit"
+
+/////// weapons ///////////////////
+
+weaponMask = 00011
+
+weaponHard1 = "HP_CANNON_1"
+recoilName1 = "recoil_1"
+weaponAssault1 = 0
+//weaponName1 = "gplasma_a"
+weaponName1 = "gsiegemag"
+
+weaponHard2 = "HP_MORTAR_1"
+recoilName2 = "recoil_2"
+weaponAssault2 = 1
+//weaponName2 = "ghartill"
+weaponName2 = "gacidcloud66"
+
+weaponHard3 = "HP_MORTAR_2"
+recoilName3 = "recoil_3"
+weaponAssault3 = 1
+//weaponName3 = "ghartill"
+weaponName3 = "gacidcloud66"
+
+////////////////////////////////////
+
+turretCount = 2
+turretName1 = "turret_y"
+turretName2 = "turret_x"
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+rangeScan = 400.0f
+periodScan = 4.0f
+velocJam = 0.0f
+engageRange = 400
+
+braccelFactor = 0.01
+strafeFactor = 0.1
+velFactor = 0.4
+steerFactor = 1.2
+omegaFactor = 0.2
+
+//GunTowerProcessCheckCantHit = true	// true: retarget if intended victim can't be hit (only if GunTowerProcess is in use)
+//WeaponsConverge = true
+AITargetLocation = 1			// -1 = default, or 0 = center, 1 = high, 2 = low, 3 = left, 4 = right
+//HealthChangeLevelDelta = 0.1
+MinWeaponPitch = 0.0			// For turretcraft/turrettank (i.e. GunTower/GunSpire/turret)
+weaponPitch = 1.57
+MustBeLinedUpToHit = false		// This setting determines if a unit will fire when it doesn't have a clear line of sight.
+MustBeLinedUpToFire = false		// Defaults to true for artillery(==archers)
+FireWhenCanHitFriends = true
+
+attackTask = "ArtlAttack"
+subAttackTask = "ArtlAttack"
+subAttackClass = "NNN"
+
+selectWaitMsg = "ivatank04.wav"
+selectAttackMsg = "ivatank01.wav"
+selectFollowMsg = "ivatank08.wav"
+selectGoMsg = "ivatank02.wav"
+selectOtherMsg = "ivatank04.wav"
+
+goMsg = "ivatank05.wav"
+attackMsg = "ivatank06.wav"
+followMeMsg = "ivatank08.wav"
+followMsg = "ivatank08.wav"
+repairMsg = "ivatank09.wav"
+reloadMsg = "ivatank09.wav"
+rescueMsg = "ivatank10.wav"
+recycleMsg = "ivatank11.wav"
+otherMsg = "ivatank04.wav" 
+holdMsg = "ivatank12.wav"
+
+user1Msg = ""  
+killedMsg = "ivatank07.wav"
+diedMsg = ""
+
+[TrackedVehicleClass]
+omegaSpin = 1.0
+omegaTurn = 0.5
+alphaSteer = 2.0
+velocForward = 15.0
+velocReverse = 5.0
+accelThrust = 5.0
+
+engineSound = "iatank01.wav"
+treadSound = "iatank02.wav"
+
+[AssaultTankClass]
+yawRate = 4.0
+yawAlpha = 10.0
+pitchMin = -0.1
+pitchMax = 1.57
+laserName1 = "recoil_1"
+
+[Lod1]
+geometryName = "ivatnkL1.xsi" ;geometry for LOD1
+distance = 50				;...distance over this many meters => switch to LOD1
+
+[Lod2]
+geometryName = "ivatnkL2.xsi" ;geometry for LOD2
+distance = 135			       ;...distance over this many meters => switch to LOD2

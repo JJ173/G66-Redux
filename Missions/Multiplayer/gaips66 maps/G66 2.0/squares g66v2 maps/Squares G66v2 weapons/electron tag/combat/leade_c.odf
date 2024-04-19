@@ -1,0 +1,36 @@
+[OrdnanceClass]
+classLabel = "leader"
+shotGeometry = "iorckt00.xsi"
+xplGround = "xbulgnd"
+xplVehicle = "xleadcar"
+xplBuilding = "xleadbld"
+
+renderName = "leade_c.render"
+
+ammoCost = 1
+lifeSpan = 1.0 // 100m
+shotSpeed = 300.0
+
+damageValue(N) = 10 // none
+damageValue(L) = 10 // light
+damageValue(H) = 10 // heavy
+
+damageValue(S) = 5 // standard
+damageValue(D) = 5 // deflection
+damageValue(A) = 5 // absorbtion
+
+[LeaderRoundClass]
+stickTime = 1
+
+[Render]
+renderBase = "draw_bolt"
+textureName = "trail2.tga"
+textureBlend = "one one modulate"
+startColor = "55 5 255 255"
+finishColor = "0 0 255 0"
+startRadius = 0.3
+finishRadius = 0.01
+segmentLength = 5.0 
+segmentVariance = "2.0 2.0 0.5"
+animateTime = 0.3 // 0.2
+textureRate = 0.01

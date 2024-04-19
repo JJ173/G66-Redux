@@ -1,0 +1,30 @@
+// PP-MG Minigun Combat Weapon Definition
+// Revision for "Route 66" Mod by Natty Bumppo
+// Based on original version by Pandemic Studios
+
+[WeaponClass]
+classLabel = "machinegun"
+altName = "gminign66a"
+ordName = "minigun66c"
+wpnName = "Minigun"
+fireSound = "gmini00.wav"
+wpnReticle = "gminigun"
+wpnCategory = "GUN"
+isAssault = 0
+aiRange = 100
+flashName = "gminign66c.flash"
+
+[CannonClass]
+shotDelay = 0.1
+shotVariance = 0.01
+
+[Flash]
+renderBase = "draw_geom"
+textureName = "sflash66.tga"
+textureBlend = "one one modulate"
+startColor = "0 127 255 255"
+finishColor = "0 127 255 255"
+startRadius = 3.5
+finishRadius = 1.0
+animateTime = 0.1
+geomName = "g_sflash.xsi"

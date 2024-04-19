@@ -1,0 +1,173 @@
+[OrdnanceClass]
+classLabel = "bullet"
+
+shotSound = "igtow04.wav"
+shotGeometry = NULL
+shotRadius = 5.0
+
+xplGround = "xsgcannxpl"
+xplVehicle = "xsgcannxpl"
+xplBuilding = "xsgcannxpl"
+xplExpire = "xsgcannxpl"
+
+renderName = "fgcannon.render"
+
+ammoCost = 220
+lifeSpan = 4.0
+shotSpeed = 60.0
+
+damageValue(N) = 2825
+damageValue(L) = 2500
+damageValue(H) = 2275
+
+damageValue(S) = 2325
+damageValue(D) = 2675
+damageValue(A) = 2050
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 7
+renderName1 = "fgcannon.flare1"
+renderName2 = "fgcannon.flare2"
+renderName3 = "fgcannon.trailr"
+renderName4 = "fgcannon.trailb"
+renderName5 = "fgcannon.light"
+renderName6 = "fgcannon.flame"
+renderName7 = "fgcannon.sparkle"
+
+[Flare1]
+renderBase = "draw_sprite"
+textureName = "plasma.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 255"
+finishColor = "255 255 255 255"
+startRadius = 4.0
+finishRadius = 4.5
+animateTime = 4.0
+
+[Flare2]
+renderBase = "draw_sprite"
+textureName = "plasma.tga"
+textureBlend = "one one modulate"
+startColor = "223 223 223 255"
+finishColor = "223 223 223 255"
+startRadius = 6.5
+finishRadius = 7.5
+animateTime = 4.0
+
+[Light]
+renderBase = "draw_light"
+startColor = "255 255 255 500"
+finishColor = "255 255 255 500"
+startRadius = 60.0
+finishRadius = 60.0
+animateTime = 4.0
+attenuateConstant = 0.0
+attenuateLinear = 0.0
+attenuateQuadratic = 0.0
+
+[TrailR]
+renderBase = "draw_emit"
+emitName = "fgcannon.sparkr"
+emitDelay = 0.35
+emitVelocity = "0.0 0.0 30.0"
+emitVariance = "10.0 10.0 10.0"
+
+[TrailB]
+renderBase = "draw_emit"
+emitName = "fgcannon.sparkb"
+emitDelay = 0.35
+emitVelocity = "0.0 0.0 30.0"
+emitVariance = "10.0 10.0 10.0"
+
+[SparkR]
+simulateBase = "sim_smoke"
+lifeTime = 0.5
+renderBase = "draw_multi"
+renderCount = 3
+renderName1 = "fgcannon.sparkflare2"
+renderName2 = "fgcannon.sparkflarer"
+renderName3 = "fgcannon.sparktrailr"
+
+[SparkB]
+simulateBase = "sim_smoke"
+lifeTime = 1.0
+renderBase = "draw_multi"
+renderCount = 3
+renderName1 = "fgcannon.sparkflare2"
+renderName2 = "fgcannon.sparkflareb"
+renderName3 = "fgcannon.sparktrailb"
+
+[SparkFlare]
+renderBase = "draw_sprite"
+textureName = "plasma.tga"
+textureBlend = "one one modulate"
+startRadius = 2.0
+finishRadius = 0.4
+animateTime = 1.0
+
+[SparkFlare2]
+renderBase = "draw_sprite"
+textureName = "plasma.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 255"
+finishColor = "255 255 255 0"
+startRadius = 0.6
+finishRadius = 0.12
+animateTime = 1.0
+
+[SparkFlareR]
+renderBase = "fgcannon.sparkflare"
+startColor = "255 223 255 255"
+finishColor = "255 223 255 0"
+
+[SparkFlareB]
+renderBase = "fgcannon.sparkflare"
+startColor = "223 255 255 255"
+finishColor = "223 255 255 0"
+
+[SparkTrail]
+renderBase = "draw_trail"
+textureBlend = "one one modulate"
+startRadius = 0.1
+finishRadius = 0.0
+segmentTime = 0.03
+trailTime = 0.2
+
+[SparkTrailR]
+renderBase = "fgcannon.sparktrail"
+startColor = "255 223 255 255"
+finishColor = "255 223 255 0"
+
+[SparkTrailB]
+renderBase = "fgcannon.sparktrail"
+startColor = "223 255 255 255"
+finishColor = "223 255 255 0"
+
+[Flame]
+renderBase = "draw_twirl_trail"
+textureName = "flame2.tga"
+textureBlend = "one one modulate"
+startColor = "255 223 255 255"
+finishColor = "255 223 255 0"
+startRadius = 3.0
+finishRadius = 0.5
+animateTime = 0.1
+rotationRate = 10.0
+emitDelay = 0.002
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "1.5 1.5 1.5"
+emitLife = 1.4
+
+[Sparkle]
+renderBase = "draw_twirl_trail"
+textureName = "flame.tga"
+textureblend = "one one modulate"
+startColor = "255 223 255 255"
+finishColor = "255 223 255 0"
+startRadius = 0.3
+finishRadius = 0.01
+animateTime = 1.0
+emitDelay = 0.01
+emitVariance = "2.0 2.0 2.0"
+emitLife = 1.0

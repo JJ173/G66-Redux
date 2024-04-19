@@ -1,0 +1,49 @@
+[OrdnanceClass]
+classLabel = "bullet"
+
+shotGeometry = "NULL"
+shotRadius = 1.0
+xplGround = "xpls66hit_a"
+xplVehicle = "xpls66hit_a"
+xplBuilding = "xpls66hit_a"
+
+renderName = "plsstrm66.render"
+
+ammoCost = 2.25
+lifeSpan = 1.2		//60m
+shotSpeed = 50.0
+
+damageValue(N) = 8	//no armor
+damageValue(L) = 6	//light armor
+damageValue(H) = 4	//heavy armor
+
+damageValue(S) = 6	//stasis shield
+damageValue(D) = 8	//deflection shield
+damageValue(A) = 4	//Absorption shield
+
+[Render]
+renderBase = "draw_multi"
+
+renderCount = 2
+renderName1 = "plsstrm66.core"
+renderName2 = "plsstrm66.puff"
+
+[Core]
+renderBase = "draw_twirl"
+textureName = "plasma.tga"
+textureBlend = "one one modulate"
+startColor = "63 127 255 255"
+finishColor = "0 127 255 155"
+startRadius = 0.1
+finishRadius = 1.0
+animateTime = 1.0
+
+[Puff]
+renderBase = "draw_twirl"
+textureName = "plasma.tga"
+textureBlend = "one one modulate"
+startColor = "0 63 127 160"
+finishColor = "0 0 255 0"
+startRadius = 0.01
+finishRadius = 5.0
+animateTime = 1.0

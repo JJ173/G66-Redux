@@ -1,0 +1,52 @@
+[OrdnanceClass]
+classLabel = "beam"
+shotGeometry = NULL
+xplGround = "xlasegnd"
+xplVehicle = "xlasecar"
+xplBuilding = "xlasebld"
+
+renderName = "laser_c.render"  //"cturord66.render"
+
+ammoCost = 20
+lifeSpan = 200e-6  //120e-6
+shotSpeed = 1e6
+
+damageValue(N) = 75  //30
+damageValue(L) = 45  //15
+damageValue(H) = 30  //4
+
+damageValue(S) = 45  // Stasis // 150
+damageValue(D) = 75  // Deflection // 250
+damageValue(A) = 30  //8
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 2
+renderName1 = "laser_c.core"  //"cturord66.core"
+renderName2 = "laser_c.tail"  //"cturord66.tail"
+
+[Core]
+renderBase = "draw_bolt"
+textureName = "trail2.tga"
+textureBlend = "one one modulate"
+startColor = "200 200 255 255"
+finishColor = "0 0 255 255"
+startRadius = 0.01
+finishRadius = 0.01
+segmentLength = 5.0
+segmentVariance = "0.0 0.0 0.0"
+animateTime = 0.65
+textureRate = 0.01
+
+[Tail]
+renderBase = "draw_bolt"
+textureName = "trail2.tga"
+textureBlend = "one one modulate"
+startColor = "0 0 255 255"
+finishColor = "80 80 100 0"
+startRadius = 0.005
+finishRadius = 0.2
+segmentLength = 5.0
+segmentVariance = "0.0 0.0 0.0"
+animateTime = 0.5
+textureRate = 0.01

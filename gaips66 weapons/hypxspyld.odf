@@ -1,0 +1,21 @@
+[GameObjectClass]
+geometryName = "bz1gysr.xsi"
+classLabel = "flare"
+scrapCost = 0
+scrapValue = 0
+maxHealth = 400
+maxAmmo = 200
+unitName = "Hypoxis Mortar"
+heatSignature = 0.0
+explosionName = "xhypxsxpl"
+
+[MineClass]
+lifeSpan = 0.7
+
+[FlareMineClass]
+payloadName = "hypxsshot"
+fireSound = "gflas00.wav"
+triggerDelay = 0.5
+shotDelay = 0.01
+shotVariance = 90.0
+

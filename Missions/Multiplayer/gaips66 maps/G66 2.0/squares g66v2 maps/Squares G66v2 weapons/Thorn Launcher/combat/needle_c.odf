@@ -1,0 +1,33 @@
+[OrdnanceClass]
+classLabel = "leader"
+shotGeometry = "iorckt00.xsi"
+xplGround = "xnedgnd"
+xplVehicle = "xnedcar"
+xplBuilding = "xnedbld"
+
+renderName = "needle_c.trail"
+
+ammoCost = 8
+lifeSpan = 1.0 // 100m
+shotSpeed = 200.0
+
+damageValue(N) = 110 // none
+damageValue(L) = 90 // light
+damageValue(H) = 70 // heavy
+
+damageValue(S) = 110 // standard
+damageValue(D) = 90 // deflection
+damageValue(A) = 70 // absorbtion
+
+[LeaderRoundClass]
+stickTime = 3.0
+
+[Trail]
+renderBase = "draw_trail"
+textureBlend = "one one modulate"
+startColor = "255 255 0 128"
+finishColor = "0 255 0 0"
+startRadius = 0.1
+finishRadius = 0.0
+segmentTime = 0.2
+

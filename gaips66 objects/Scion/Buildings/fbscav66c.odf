@@ -1,0 +1,15 @@
+[GameObjectClass]
+classLabel = "fbscav"
+
+unitName = "Extractor I"
+
+upgradeName = "fbscup66c"
+
+provideCount = 2
+provideName1 = "Pool"
+provideName2 = "UpgradeablePool"
+
+[BuildingClass]
+
+[ExtractorClass]
+initDelay = 1.0

@@ -1,0 +1,32 @@
+// MP-SG Pummel Gun Assault Weapon Definition
+// Revision for "Route 66" Mod by Natty Bumppo
+// Based on original version by Pandemic Studios
+
+[WeaponClass]
+classLabel = "cannon"
+altName = "gpmmlgn66c"
+ordName = "pmmlgn66a"
+wpnName = "Pummel Gun"
+fireSound = "pgun01.wav"
+wpnReticle = "gpummel"
+wpnCategory = "GUN"
+isAssault = 1
+aiRange = 60
+flashName = "gpmmlgn66a.flash"
+
+[CannonClass]
+shotDelay = 0.5
+salvoCount = 8
+salvoDelay = 0.0
+shotVariance = 0.5
+
+[Flash]
+renderBase = "draw_geom"
+textureName = "sflash.tga"
+textureBlend = "one one modulate"
+startColor = "215 215 255 255"
+finishColor = "215 215 255 255"
+startRadius = 8.0
+finishRadius = 2.0
+animateTime = 0.1
+geomName = "g_sflash.xsi"

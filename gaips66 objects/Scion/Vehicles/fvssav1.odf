@@ -1,0 +1,33 @@
+[GameObjectClass]
+classLabel = "fvsav66s"
+
+needPilot = 1
+addPilot = 1
+
+provideCount = 6
+provideName3 = "fvsssav1"
+provideName4 = "assault"
+provideName5 = "flier"
+provideName6 = "DefendUnit"
+
+/////// weapons ///////////////////
+
+weaponName1 = "gtechnox_c"
+weaponName2 = "gtechnox_c"
+
+//////////////////////////////////
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+
+[HoverCraftClass]
+
+[SavClass]

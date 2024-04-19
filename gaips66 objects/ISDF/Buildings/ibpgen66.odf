@@ -1,0 +1,8 @@
+[GameObjectClass]
+classLabel = "ibpgen"
+
+[BuildingClass]
+
+[PoweredBuildingClass]
+
+[Lod1]

@@ -1,0 +1,43 @@
+[GameObjectClass]
+classLabel = "ibfact"
+
+provideCount = 2
+provideName1 = "ibfact"
+provideName2 = "UnitFactory"
+
+[PoweredBuildingClass]
+
+[BuildingClass]
+
+[FactoryClass]
+BuildSparkConfig = "sparker"
+
+[BuildGroup1]
+buildItem4 = ""
+buildItem5 = ""
+buildItem6 = ""
+buildItem7 = ""
+buildItem8 = ""
+
+buildLabel = "Combat Units"
+buildItem1 = "ivmbike"
+buildItem2 = "ivmisl66"
+buildItem3 = "ivltank66c"
+buildItem4 = "ivtank66c"
+buildItem5 = "ivrckt"
+buildItem6 = "ivatank"
+buildItem7 = "ivltwalk"
+buildItem8 = "ivwalk66c"
+
+[BuildGroup2]
+buildLabel = "Aerial Units"
+buildItem1 = "ivapc"
+buildItem2 = "ivbomb66c"	//"ivbomb"
+
+[BuildGroup3]
+buildLabel = "Service Units"
+buildItem1 = "ivscav66c"
+buildItem2 = "ivcons66c"
+buildItem3 = "ivserv66c"
+
+[Lod1]

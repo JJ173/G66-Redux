@@ -1,0 +1,20 @@
+[WeaponClass]
+classLabel = "cannon"
+
+// don't need any geometry
+// (igshot_c already has it)
+
+ordName = "shotgun_66a"
+wpnName = "Shotgun"
+fireSound = "mgun01.wav"
+wpnReticle = "grifle"
+wpnCategory = "HAND"
+isAssault = 1
+isFlying = 0
+altName = "igshot_66c"
+
+[CannonClass]
+shotDelay = 0.1
+salvoCount = 1
+salvoDelay = 0.0
+shotVariance = 0.04

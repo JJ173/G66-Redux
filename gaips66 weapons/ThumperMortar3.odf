@@ -1,0 +1,40 @@
+[OrdnanceClass]
+classLabel = "seismic"
+
+shotSound = "gquak00.wav"
+
+ammoCost = 1
+lifeSpan = 6.0
+shotSpeed = 30.0
+
+damageValue(N) = 300
+damageValue(L) = 250
+damageValue(H) = 200
+damageValue(S) = 250
+damageValue(D) = 200
+damageValue(A) = 300
+
+damageBallistic = 250
+damageConcussion = 250
+damageFlame = 250
+damageImpact = 250
+
+[DayWreckerClass]
+craterDepth = 15.0
+
+[SeismicClass]
+waveRadius = 150
+//waveHeight = 10
+waveHeight = 5
+//rampUpTime = 5
+rampUpTime = 0
+rampDownTime = 6
+sweepOmega = 100.0
+sweepVeloc = 50
+//shakeOmega = 2
+//shakeVeloc = 5
+shakeOmega = 12
+shakeVeloc = 15
+buildingScale = 13
+
+craterDepth = 15.0

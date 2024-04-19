@@ -1,0 +1,49 @@
+// ================
+// LAVA SPREY GROUND HIT
+// ================
+
+[ExplosionClass]
+classLabel = "explosion"
+explSound = "rmort02.wav"
+
+damageRadius = 10.0
+
+damageValue(N) = 5
+damageValue(L) = 5
+damageValue(H) = 5
+damageValue(S) = 5
+damageValue(D) = 5
+damageValue(A) = 5
+
+particleTypes = 2
+particleClass1 = "xspreygnd.ground"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+particleClass2 = "xspreygnd.chunks"
+particleCount2 = 1
+particleVeloc2 = "5.0 5.0 5.0"
+particleBias2 = "0.0 5.0 0.0"
+
+[Ground]
+simulateBase = "sim_null"
+lifeTime = 10.0
+renderBase = "draw_planar"
+textureName = "grndchar.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "255 63 0 255"
+finishColor = "255 0 0 0"
+startRadius = 5.0
+finishRadius = 20.0
+animateTime = 10.0
+
+[Chunks]
+simulateBase = "sim_ember"
+lifeTime = 4.0
+renderBase = "draw_sprite"
+textureName = "gunk.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "255 63 0 255"
+finishColor = "255 0 0 0"
+startRadius = 0.1
+finishRadius = 0.1
+animateTime = 4.0

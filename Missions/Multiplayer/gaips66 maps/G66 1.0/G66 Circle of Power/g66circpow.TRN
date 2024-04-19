@@ -1,0 +1,39 @@
+[Size]
+MetersPerGrid = 8.0
+HeightGranularity = 0.1
+MinX=-2048
+MinZ=-2048
+Width=4096
+Depth=4096
+Height=100
+Tile = 1
+color=149 123 87 255
+
+[NormalView]
+
+FogColor="106 63 44"
+FogStart=200
+FogEnd=350
+VisibilityRange=375
+
+[World]
+MusicTrack1=9
+MusicTrack2=3
+MusicTrack3=4
+
+[Texture] 
+TileTexture1 = "wasteland1.tga"
+TileTexture2 = "wasteland2.tga"
+TileTexture3 = "wasteland3.tga"
+TileTexture4 = "wasteland4.tga"
+TileTexture5 = "wasteland5.tga"
+TileTexture6 = "wasteland6.tga"
+TileTexture7 = "wasteland7.tga"
+TileTexture8 = "wasteland8.tga"
+TileTexture9 = "floor001b.tga"
+TileTexture10 = "ground013.tga"
+TileTexture11 = "floor113.tga"
+TileTexture12 = "rock015b.tga"
+TileTexture13 = "mars7.tga"
+TileTexture14 = "dark3.tga"
+TileTexture15 = "dark6.tga"

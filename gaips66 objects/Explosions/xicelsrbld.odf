@@ -1,0 +1,72 @@
+// ==================
+// ICE LASER BUILDING HIT
+// ==================
+
+[ExplosionClass]
+classLabel = "explosion"
+
+particleTypes = 3
+
+particleClass1 = "xicelsrbld.core"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+
+particleClass2 = "xicelsrbld.puff"
+particleCount2 = 5
+particleVeloc2 = "4.0 4.0 4.0"
+
+particleClass3 = "xicelsrbld.flame"
+particleCount3 = 1
+particleVeloc3 = "0.0 1.0 0.0"
+particleBias3 = "0.0 0.0 0.0"
+
+explSound = "xsv2.wav"
+
+damageRadius = 3.0
+damageValue(N) = 18
+damageValue(L) = 14
+damageValue(H) = 12
+damageValue(S) = 14
+damageValue(D) = 18
+damageValue(A) = 12
+
+[Core]
+simulateBase = "sim_null"
+lifeTime = 0.5
+renderBase = "draw_twirl"
+textureName = "ring.tga"
+textureBlend = "one one modulate"
+startColor = "0 0 255 255"
+finishColor = "0 0 255 0"
+startRadius = 0.2
+finishRadius = 2.0
+animateTime = 0.5
+
+[Puff]
+simulateBase = "sim_smoke"
+lifeTime = 2.0
+renderBase = "draw_twirl"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "100 100 255 50"
+finishColor = "0 0 255 0"
+startRadius = 0.2
+finishRadius = 4.0
+animateTime = 2.0
+
+[Flame]
+simulateBase = "sim_smoke"
+lifeTime = 0.8
+renderBase = "draw_twirl_trail"
+textureName = "flame2.tga"
+textureBlend = "one one modulate"
+startColor = "224 255 255 700"
+finishColor = "224 255 255 0"
+startRadius = 0.5
+finishRadius = 0.1
+animateTime = 0.5
+rotationRate = 10.0
+emitDelay = 0.01
+emitVelocity = "0.0 2.0 0.0"
+emitVariance = "1.0 1.0 1.0"
+emitLife = 0.8

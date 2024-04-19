@@ -1,0 +1,40 @@
+// ================
+// VENOM GROUND HIT
+// ================
+
+[ExplosionClass]
+classLabel = "explosion"
+explSound = "rmort02.wav"
+
+particleTypes = 1
+particleClass1 = "xvnmgnd.ground"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+//particleClass2 = "xvnmgnd.chunks"
+//particleCount2 = 1
+//particleVeloc2 = "5.0 5.0 5.0"
+//particleBias2 = "0.0 5.0 0.0"
+
+[Ground]
+simulateBase = "sim_null"
+lifeTime = 3.0
+renderBase = "draw_planar"
+textureName = "grndchar.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "111 127 0 255"
+finishColor = "111 127 0 0"
+startRadius = 3.0
+finishRadius = 10.0
+animateTime = 3.0
+
+[Chunks]
+simulateBase = "sim_ember"
+lifeTime = 2.0
+renderBase = "draw_sprite"
+textureName = "gunk.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "103 127 0 255"
+finishColor = "103 127 0 0"
+startRadius = 0.1
+finishRadius = 0.1
+animateTime = 2.0

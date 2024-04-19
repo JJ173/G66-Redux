@@ -1,0 +1,30 @@
+// EP-AG QTEPS Power-up
+// Original Design for "Route 66" Mod by Natty Bumppo
+
+[GameObjectClass]
+geometryName = "apgun00.xsi"
+classLabel = "wpnpower"
+scrapCost = 40
+scrapValue = 0
+maxHealth = 150
+maxAmmo = 0
+unitName = "QTEPS"
+aiName = "PowerUpProcess"
+
+lightHard1 = "hp_light_1"
+lightName1 = "omnicyan"
+
+requireCount = 3
+requireName1 = "ibarmo"
+requireText1 = "Build Armory"
+requireName2 = "ibtcen"
+requireText2 = "Build Tech Center"
+requireName3 = "ibtrain"
+requireText3 = "Build Training Facility"
+
+[PowerUpClass]
+soundPickup = "pickup01.wav"
+soundReject = "reject.wav"
+
+[WeaponPowerupClass]
+weaponName = "gqteps66c"

@@ -1,0 +1,62 @@
+[Gun]
+weaponCount = 5
+weaponName1 = "apiminign66"	//"apmini"
+weaponName2 = "apilaser66"	//"aplase"
+weaponName3 = "apipmmlgn66"	//"appumm"
+weaponName4 = "apichaing66"	//"apchain"
+weaponName5 = "apgatlinggun"
+
+[Cannon]
+weaponCount = 9
+weaponName1 = "apstab"
+weaponName2 = "appstb"
+weaponName3 = "apsstb"
+weaponName4 = "applas"
+weaponName5 = "apblst"
+weaponName6 = "apmagg"
+weaponName7 = "appulse66"
+weaponName8 = "aphlngn"
+weaponName9 = "aptechx"
+
+[Rocket]
+weaponCount = 6
+weaponName1 = "apfafm"
+weaponName2 = "aptagg"
+weaponName3 = "apshdw"
+weaponName4 = "aphtrkt"
+weaponName5 = "aplaserrocket66"
+weaponName6 = "apfafm_y"
+
+[Mortar]
+weaponCount = 4
+weaponName1 = "apmdmg"
+weaponName2 = "apmort66"
+weaponName3 = "apsplnt66"
+weaponName4 = "aplaserpopgun66"
+
+[Special]
+weaponCount = 10
+weaponName1 = "apflar"
+weaponName2 = "apmcur"
+weaponName3 = "apmits"
+weaponName4 = "approx"
+weaponName5 = "apphan66"
+weaponName6 = "apredf"
+weaponName7 = "apsite"
+weaponName8 = "apiffld66"
+weaponName9 = "apramjet"
+weaponName10 = "apnightvision"
+
+[Hand]
+weaponCount = 4
+weaponName1 = "apbazo66"
+weaponName2 = "apsnip66"
+weaponName3 = "apshot66"
+weaponName4 = "apsubversion"
+
+[Pack]
+weaponCount = 3
+weaponName1 = "apgren66"
+weaponName2 = "apjetp66"
+weaponName3 = "apsatc66"
+

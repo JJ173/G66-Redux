@@ -1,0 +1,86 @@
+// ===============
+// SIEGE CANNON HIT
+// ===============
+
+[ExplosionClass]
+classLabel = "explosion"
+
+particleTypes = 4
+particleClass1 = "xsgcannxpl.core"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+particleClass2 = "xsgcannxpl.puff"
+particleCount2 = 5
+particleVeloc2 = "10.0 10.0 10.0"
+particleClass3 = "xsgcannxpl.light"
+particleCount3 = 1
+particleVeloc3 = "0.0 0.0 0.0"
+particleClass4 = "xsgcannxpl.shock"
+particleCount4 = 1
+particleVeloc4 = "0.0 0.0 0.0"
+
+explSound = "xfire1.wav"
+damageRadius = 60.0
+
+damageValue(N) = 280
+damageValue(L) = 250
+damageValue(H) = 230
+
+damageValue(S) = 230
+damageValue(D) = 270
+damageValue(A) = 210
+
+kickRadius = 80.0
+kickOmega = 6.0
+kickVeloc = 10.0
+
+[Core]
+simulateBase = "sim_null"
+lifeTime = 1.0
+renderBase = "draw_twirl"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 255"
+finishColor = "223 223 223 255"
+startRadius = 4.5
+finishRadius = 2.5
+animateTime = 1.0
+
+[Puff]
+simulateBase = "sim_smoke"
+lifeTime = 1.0
+renderBase = "draw_twirl"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "223 223 223 255"
+finishColor = "223 223 223 0"
+startRadius = 3.5
+finishRadius = 1.5
+animateTime = 1.0
+
+[Light]
+simulateBase = "sim_null"
+lifeTime = 1.0
+renderBase = "draw_light"
+startColor = "255 255 255 255"
+finishColor = "255 255 255 0"
+startRadius = 4.0
+finishRadius = 0.1
+animateTime = 1.0
+attenuateConstant = 0.0
+attenuateLinear = 0.0
+attenuateQuadratic = 0.0
+
+[Shock]
+simulateBase = "sim_null"
+lifeTime = 0.5
+renderBase = "draw_sphere"
+textureName = "vsmoke.tga"
+textureBlend = "one one modulate"
+startColor = "159 159 159 159"
+finishColor = "159 159 159 0"
+startRadius = 4.0
+finishRadius = 60.0
+animateTime = 0.5
+latitudeBands = 8
+longitudeSegments = 16

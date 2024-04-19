@@ -1,0 +1,56 @@
+[OrdnanceClass]
+classLabel = "bullet"
+
+shotGeometry = "gatstab.xsi" //"iorckt00.xsi"
+shotSound = "sonic03c.wav" //"Ordin_b.wav"
+
+renderName = "railchg1_c.render"
+
+xplGround = "xrailggnd"
+xplVehicle = "xrailgcar"
+xplBuilding = "xrailgcar"
+xplExpire = "xrailgair"
+
+ammoCost = 25.0
+lifeSpan = 0.5		//1.5 // 150m
+shotSpeed = 300.0	//100.0
+
+damageValue(N) = 400	//200 // none
+damageValue(L) = 342	//170 // light
+damageValue(H) = 262	//130 // heavy
+
+damageValue(S) = 342	//170 // Stasis
+damageValue(D) = 262	//130 // Deflection
+damageValue(A) = 400	//200 // Absorption
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 2
+renderName1 = "railchg1_c.trail1"
+renderName2 = "railchg1_c.trail2"
+
+[Trail1]
+renderBase = "draw_twirl_trail"
+textureName = "wasplat.tga"
+textureBlend = "one one modulate"
+startColor = "62 181 255 127" 
+finishColor = "255 255 255 0" 
+startRadius = 1.5
+finishRadius = 6.0
+animateTime = 0.5
+emitDelay = 0.05
+emitLife = 0.5
+rotationrate = 20
+
+[Trail2]
+renderBase = "draw_twirl_trail"
+textureName = "wasplat.tga"
+textureBlend = "one one modulate"
+startColor = "255 223 62 127" 
+finishColor = "255 255 255 0" 
+startRadius = 1.5
+finishRadius = 0.1
+animateTime = 0.75
+emitDelay = 0.05
+emitLife = 0.75
+rotationrate = 30

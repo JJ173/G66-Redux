@@ -1,0 +1,28 @@
+//
+// MPVehicles66fa.txt - listing of multiplayer vehicles usable in BZ2 G66 2.0
+//
+// Format of lines: xsi filename, space separator, odf filename, space separator, description
+// Lines starting with // are ignored. 
+//
+// Tip: do not put .odf extension on odf filename; added automatically on loading
+
+// A maximum of 32 units can be displayed in bz2 at one time.  If any more than 32 are added, the game will crash.
+// Most of the vehicles are disabled due to this bug, but the host is free to uncomment the disabled vehicles to add them
+// to his or her game.
+
+fvscout_skel.xsi fvctscout09 Scout a1
+fvltank_skel.xsi fvctltank3 Dragoon a1
+fvtank_skel.xsi fvcttank01 Warrior a1
+fvtank_skel.xsi fvcttank04 Warrior a2
+fvtank_skel.xsi fvcttank03 Warrior a3
+hvscout00.xsi fvsfscout66 Fury Scout
+xvsat00.xsi fvssat Fury Tank
+fvsav00.xsi fvssav Fury a1
+fvtitan_skel.xsi fvsatank5 Titan a1
+fvtitan_skel.xsi fvsatank2 Titan a2
+fvwalk_skel.xsi fvwalk66 Mauler a1
+fvwalk_skel.xsi fvswalk1 Mauler a2
+fvgorgon_skel.xsi fvgorg66m Gorgon a1
+//fvgorgon_skel.xsi fvctgorg1 Gorgon a2
+//fvgorgon_skel.xsi fvsgorgon Gorgon a3
+//fvgorgon_skel.xsi fvctgorg2 Gorgon a4

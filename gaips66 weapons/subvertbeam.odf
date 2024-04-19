@@ -1,0 +1,82 @@
+[OrdnanceClass]
+classLabel = "beam"
+
+shotGeometry = "NULL"
+xplGround = "xsubvtbhit"
+xplVehicle = "xsubvtbhit"
+xplBuilding = "xsubvtbhit"
+
+renderName = "subvertbeam.render"
+
+ammoCost = 4
+lifeSpan = 225e-6 // 225m
+shotSpeed = 1e6
+
+damageValue(N) = 10
+damageValue(L) = 5
+damageValue(H) = 15
+
+damageValue(S) = 10
+damageValue(D) = 5
+damageValue(A) = 15
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 4
+renderName1 = "subvertbeam.core"
+renderName2 = "subvertbeam.fringe"
+renderName3 = "subvertbeam.bolt"
+renderName4 = "subvertbeam.sparkle"
+
+[Core]
+renderBase = "draw_bolt"
+textureName = "trail2.tga"
+textureBlend = "one one modulate"
+startColor = "127 0 0 255"
+finishColor = "127 0 0 0"
+startRadius = 0.3
+finishRadius = 0.4
+segmentLength = 5.0
+segmentVariance = "0.0 0.0 0.0"
+animateTime = 0.2
+textureRate = 0.01
+
+[Fringe]
+renderBase = "draw_bolt"
+textureName = "trail2.tga"
+textureBlend = "one one modulate"
+startColor = "95 0 0 255"
+finishColor = "95 0 0 0"
+startRadius = 0.6
+finishRadius = 0.8
+segmentLength = 5.0
+segmentVariance = "0.0 0.0 0.0"
+animateTime = 0.3
+textureRate = 0.02
+textureSpeed = -5.0
+
+[Bolt]
+renderBase = "draw_bolt"
+textureName = "trail2.tga"
+textureBlend = "one one modulate"
+startColor = "255 63 255 255"
+finishColor = "255 63 255 0"
+startRadius = 0.05
+finishRadius = 0.05
+segmentLength = 5.0
+segmentVariance = "1.0 1.0 5.0"
+animateTime = 0.3
+textureRate = 0.01
+
+[Sparkle]
+renderBase = "draw_twirl_trail"
+textureName = "flame.tga"
+textureblend = "one one modulate"
+startColor = "255 63 255 255"
+finishColor = "255 63 255 0"
+startRadius = 0.1
+finishRadius = 0.01
+animateTime = 1.0
+emitDelay = 0.01
+emitVariance = "2.0 2.0 2.0"
+emitLife = 1.3

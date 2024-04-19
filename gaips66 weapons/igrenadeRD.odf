@@ -1,0 +1,36 @@
+[OrdnanceClass]
+classLabel = "grenade"
+shotGeometry = "iggren01.xsi"
+geometryScale = 0.10
+shotSound = "baz03.wav"
+xplGround = "xhandgnd"
+xplVehicle = "xhandcar"
+xplBuilding = "xhandcar"
+
+renderName = "igrenadeRD.render"
+
+ammoCost = 1
+lifeSpan = 300
+shotSpeed = 50.0
+
+damageValue(N) = 250 // none
+damageValue(L) = 200 // light
+damageValue(H) = 125 // heavy
+
+damageValue(S) = 200 // Stasis
+damageValue(D) = 125 // Deflection
+damageValue(A) = 250 // Absorption
+
+[Render]
+renderBase = "draw_twirl_trail"
+textureName = "smoke.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "255 255 255 32"
+finishColor = "255 255 255 0"
+startRadius = 0.2
+finishRadius = 0.5
+animateTime = 1.0
+emitDelay = 0.005
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "1.0 1.0 1.0"
+emitLife = 1.0

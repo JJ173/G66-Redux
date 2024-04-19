@@ -1,0 +1,8 @@
+PP-MG Ion Gun
+Plasma projectile machinegun.
+-- Combat --
+Range: 130m  Rate: 600p/m
+Ammo: Moderate   Damage: Moderate
+-- Assault --
+Range: 150m  Rate: 300p/m
+Ammo: High   Damage: High

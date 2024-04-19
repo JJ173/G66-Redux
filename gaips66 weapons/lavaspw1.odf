@@ -1,0 +1,32 @@
+[GameObjectClass]
+geometryName = "bz1gysr.xsi"
+classLabel = "flare"
+scrapCost = 0
+scrapValue = 0
+maxHealth = 5000
+maxAmmo = 100
+unitName = "Lava Boil"
+heatSignature = 100.0
+explosionName = "xlavaxpl"
+
+[MineClass]
+lifeSpan = 13.0
+
+[FlareMineClass]
+payloadName = "lavabl"
+fireSound = "renv01.wav"
+triggerDelay = 0.0
+shotDelay = 0.5
+shotVariance = 1.5
+
+damageRadius = 20.0
+damageValue(N) = 80 // none
+damageValue(L) = 60 // light
+damageValue(H) = 45 // heavy
+damageValue(S) = 75 // Stasis
+damageValue(D) = 60 // Deflection
+damageValue(A) = 40 // Absorption
+
+kickRadius = 20.0
+kickVeloc = 0.1
+kickOmega = 0.3

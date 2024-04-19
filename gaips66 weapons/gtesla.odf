@@ -1,0 +1,38 @@
+[WeaponClass]
+classLabel = "damagefield"
+ordName = ""
+wpnName = "Tesla Discharge"
+fireSound = "stat01.wav"
+wpnReticle = "gstatic.0"
+wpnCategory = "SPEC"
+isAssault = 0
+flashName = "gtesla.render";
+
+[DamageFieldClass]
+ammoCost = 260.0
+damageRadius = 30.0
+
+damageValue(N) = 600.0 // none
+damageValue(L) = 450.0 // light
+damageValue(H) = 200.0 // heavy
+
+damageValue(S) = 450.0 // Stasis
+damageValue(D) = 600.0 // Deflection
+damageValue(A) = 200.0 // Absorption
+
+activeSound = "sgtow01.wav"
+
+[Render]
+renderBase = "draw_static"
+textureName = "plasma.tga"
+textureBlend = "one one modulate"
+startColor = "127 255 212 2550" //"102 205 170 255"
+finishColor = "138 43 226 0"
+startRadius = 0.1
+finishRadius = 0.5
+emitDelay = 0.005
+emitDelayVar = 0.0
+innerRadius = 4.0
+outerRadius = 15.0
+segmentTime = 0.4
+

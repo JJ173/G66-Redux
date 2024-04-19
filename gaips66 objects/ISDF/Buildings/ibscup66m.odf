@@ -1,0 +1,10 @@
+[GameObjectClass]
+classLabel = "ibscup66"
+
+provideCount = 2
+provideName1 = "Pool"
+provideName2 = "UpgradedPool"
+
+[BuildingClass]
+
+[ExtractorClass]

@@ -1,0 +1,330 @@
+//////////////////////////////////////////////////
+//
+// Startup 
+//
+//////////////////////////////////////////////////
+
+[Start]
+scrapCount = 40
+scavClass = "fvscav66c"
+consClass = "fvcons66c"
+DLLCanSwitch = true
+IdleAllCraft = true
+CheckProvides = true
+
+//[Cheat]
+//moneyAmount = 20
+//moneyDelay = 1
+
+[IdleDispatcher]
+ScavIdleSeconds = 1
+UnitIdleSeconds = 5
+MinAttackForce = 30
+MaxAttackForce = 99
+MinMissionSeconds = 5	//default
+
+
+[Match]
+targetType1 = "Pool"
+attackType1_1 = "DefendUnit"
+attackType1_2 = "DefendUnit"
+
+targetType2 = "Pool"
+attackType2_1 = "DefendUnit"
+attackType2_2 = "DefendUnit"
+
+targetType3 = "DefendUnit"
+attackType3_1 = "DefendUnit"
+attackType3_2 = "DefendUnit"
+
+targetType4 = "DefendUnit"
+attackType4_1 = "DefendUnit"
+attackType4_2 = "DefendUnit"
+
+targetType5 = "Pool"
+attackType5_1 = "DefendUnit"
+
+targetType6 = "Pool"
+attackType6_1 = "DefendUnit"
+
+targetType7 = "DefendUnit"
+attackType7_1 = "DefendUnit"
+
+targetType8 = "DefendUnit"
+attackType8_1 = "DefendUnit"
+
+
+[Plan1]
+planPriority = 560
+planType = "Defender"
+CheckProvides = true
+planCondition = "Exists"
+planConditionClass = "MainBase"
+planConditionClassProvided = true
+planCompare = ">="
+planConditionCount = 1
+planConditionClassProvided = true
+ContinueEvenIfFail = true
+
+[Plan2]
+planPriority = 550
+planType = "Defender"
+CheckProvides = true
+planCondition = "Exists"
+planConditionClass = "Scav"
+planConditionClassProvided = true
+planCompare = ">="
+planConditionCount = 1
+planConditionClassProvided = true
+ContinueEvenIfFail = true
+
+[Plan3]
+planPriority = 540
+planType = "Defender"
+CheckProvides = true
+planCondition = "Exists"
+planConditionClass = "Builder"
+planConditionClassProvided = true
+planCompare = ">="
+planConditionCount = 1
+planConditionClassProvided = true
+ContinueEvenIfFail = true
+
+[Plan110]
+planPriority = 530
+planType = "DefendArea"
+CheckProvides = true
+CheckEngageRange = false
+planCondition = "Exists"
+planConditionClass = "DefendUnit"
+planCompare = ">="
+planConditionCount = 1
+planConditionClassProvided = true
+planCondition2 = "Exists"
+planConditionClass2 = "MainBase"
+planCompare2 = ">="
+planConditionCount2 = 1
+planConditionClassProvided2 = true
+MaxUnits = 2
+searchRadius = 250
+targetType = "MainBase"
+ContinueEvenIfFail = true
+
+[Plan120]
+planPriority = 520
+planType = "DefendArea"
+CheckProvides = true
+CheckEngageRange = false
+planCondition = "Exists"
+planConditionClass = "DefendUnit"
+planCompare = ">="
+planConditionCount = 1
+planConditionClassProvided = true
+planCondition2 = "Exists"
+planConditionClass2 = "Scav"
+planCompare2 = ">="
+planConditionCount2 = 1
+planConditionClassProvided2 = true
+MaxUnits = 2
+searchRadius = 250
+targetType = "Scav"
+ContinueEvenIfFail = true
+
+[Plan130]
+planPriority = 500
+planType = "DefendArea"
+CheckProvides = true
+CheckEngageRange = false
+planCondition = "Exists"
+planConditionClass = "DefendUnit"
+planCompare = ">="
+planConditionCount = 1
+planConditionClassProvided = true
+planCondition2 = "Exists"
+planConditionClass2 = "Scav"
+planCompare2 = ">="
+planConditionCount2 = 1
+planConditionClassProvided2 = true
+MaxUnits = 2
+searchRadius = 250
+targetType = "Scav"
+ContinueEvenIfFail = true
+
+[Plan140]
+planPriority = 485
+planType = "DefendArea"
+CheckProvides = true
+CheckEngageRange = false
+planCondition = "Exists"
+planConditionClass = "DefendUnit"
+planCompare = ">="
+planConditionCount = 1
+planConditionClassProvided = true
+planCondition2 = "Exists"
+planConditionClass2 = "Pool"
+planCompare2 = ">="
+planConditionCount2 = 1
+planConditionClassProvided2 = true
+MaxUnits = 2
+searchRadius = 250
+targetType = "Pool"
+ContinueEvenIfFail = true
+
+[Plan150]
+planPriority = 480
+planType = "DefendArea"
+CheckProvides = true
+CheckEngageRange = false
+planCondition = "Exists"
+planConditionClass = "DefendUnit"
+planCompare = ">="
+planConditionCount = 1
+planConditionClassProvided = true
+planCondition2 = "Exists"
+planConditionClass2 = "Pool"
+planCompare2 = ">="
+planConditionCount2 = 1
+planConditionClassProvided2 = true
+MaxUnits = 2
+searchRadius = 250
+targetType = "Pool"
+ContinueEvenIfFail = true
+
+[Plan160]
+planPriority = 470
+planType = "DefendArea"
+CheckProvides = true
+CheckEngageRange = false
+planCondition = "Exists"
+planConditionClass = "DefendUnit"
+planCompare = ">="
+planConditionCount = 1
+planConditionClassProvided = true
+planCondition2 = "Exists"
+planConditionClass2 = "Defense"
+planCompare2 = ">="
+planConditionCount2 = 1
+planConditionClassProvided2 = true
+MaxUnits = 2
+searchRadius = 250
+targetType = "Defense"
+ContinueEvenIfFail = true
+
+[Plan170]
+planPriority = 460
+planType = "DefendArea"
+CheckProvides = true
+CheckEngageRange = false
+planCondition = "Exists"
+planConditionClass = "DefendUnit"
+planCompare = ">="
+planConditionCount = 1
+planConditionClassProvided = true
+MaxUnits = 2
+searchRadius = 250
+targetType = "DefendUnit"
+ContinueEvenIfFail = true
+
+[Plan180]
+planPriority = 450
+planType = "ClearArea"
+CheckProvides = true
+CheckEngageRange = false
+planCondition = "Exists"
+planConditionClass = "DefendUnit"
+planCompare = ">="
+planConditionCount = 1
+planConditionClassProvided = true
+planCondition2 = "HisExists"
+planConditionClass2 = "DefendUnit"
+planCompare2 = ">="
+planConditionCount2 = 1
+planConditionClassProvided2 = true
+MaxUnits = 2
+searchRadius = 250
+targetType = "DefendUnit"
+ContinueEvenIfFail = true
+
+[Plan190]
+planPriority = 440
+planType = "ClearArea"
+CheckProvides = true
+CheckEngageRange = false
+planCondition = "Exists"
+planConditionClass = "DefendUnit"
+planCompare = ">="
+planConditionCount = 1
+planConditionClassProvided = true
+planCondition2 = "HisExists"
+planConditionClass2 = "DefendUnit"
+planCompare2 = ">="
+planConditionCount2 = 1
+planConditionClassProvided2 = true
+searchRadius = 250
+MaxUnits = 2
+targetType = "DefendUnit"
+ContinueEvenIfFail = true
+
+[Plan200]
+//BUILD HARVESTERS
+planPriority = 430
+planType = "BuildMinimums"
+CheckProvides = true
+planCondition = "Exists"
+planConditionClass = "MainBase"
+planConditionClassProvided = true
+planCompare = ">="
+planConditionCount = 1
+planConditionClassProvided = true
+buildType1 = "fvscav66c"
+buildCount1 = 6
+
+[Plan210]
+//ATTACK SCAVS
+CheckProvides = true
+ForceStagePoint = 1
+planType = "Attacker"
+planPriority = 390
+planCondition2 = "Exists"
+planConditionClass2 = "MainBase"
+planCompare2 = ">="
+planConditionCount2 = 1
+planConditionClassProvided2 = true
+targetType = "Scav"
+attackType1 = "fvscout66c"
+attackType2 = "fvscout66c"
+AttackAnything = true
+maxAttacks = 0
+buildIfNoIdle = 1
+ContinueEvenIfFail = true
+
+[Plan220]
+//ATTACK SCAVS
+CheckProvides = true
+ForceStagePoint = 2
+planType = "Attacker"
+planPriority = 380
+planCondition2 = "Exists"
+planConditionClass2 = "MainBase"
+planCompare2 = ">="
+planConditionCount2 = 1
+planConditionClassProvided2 = true
+targetType = "Scav"
+attackType1 = "fvscout66c"
+attackType2 = "fvscout66c"
+AttackAnything = true
+maxAttacks = 0
+buildIfNoIdle = 1
+ContinueEvenIfFail = true
+
+//[Plan290]
+//planPriority = 970
+//CheckProvides = true
+//planType = "SwitchAIP"
+//planCondition = "HisExists"
+//planConditionClass = "Builder"
+//planConditionCount = 1
+//planConditionClassProvided = true
+//NextAIP = "gaips66f1.aip"
+//maxTries = 1
+//ContinueEvenIfFail = true

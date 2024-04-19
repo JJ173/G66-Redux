@@ -1,0 +1,189 @@
+[GameObjectClass]
+baseName = "ivphtankm2"
+geometryName = "ivphtankm2.xsi"
+cockpitName= "ivhtankm2_cockpit.xsi"
+classLabel = "assaulthover"
+scrapValue = 0
+scrapCost = 95
+customCost = 105
+buildTime = 15.0
+customTime = 15.0
+maxHealth = 3500
+addHealth = 5
+maxAmmo = 2530  //	15% increase
+addAmmo = 5
+
+unitName = "Enforcer"
+
+unitStatus = "wire_ivphtankm2.tga"
+
+aiName = "AssaultTankProcess"
+aiName2 = "AssaultTankProcess"
+
+heatSignature = 2.0
+imageSignature = 2.5
+radarSignature = 0.5
+
+CanSnipe = 1
+
+isAssault = 1
+
+armorClass = L
+	
+requireCount = 4
+requireName1 = "ibfact"
+requireText1 = "Build Factory"
+requireName2 = "ibcbun"
+requireText2 = "Build Relay Bunker"
+requireName3 = "ibsbay"
+requireText3 = "Build Service Bay"
+requireName4 = "ibtcen"
+requireText4 = "Build Tech Center"
+
+provideCount = 5
+provideName1 = "ivhtank"
+provideName2 = "ivphtankGHG663"
+provideName3 = "ivatank"
+provideName4 = "assault"
+provideName5 = "HovAssault"
+
+teamlimitClass1 = "HovAssault" // e.g. "ibrecy", *NO* ".odf" on item
+teamlimitClass1Count = 2
+teamlimitClass1Text = "Reached Hover Assault Limit"
+
+/////// weapons ///////////////////
+
+weaponMask = 00011
+
+weaponHard1 = "HP_CANNON_1"
+recoilName1 = "recoil_l"
+weaponName1 = "gplasma_a"
+weaponAssault1 = 1
+
+weaponHard2 = "HP_CANNON_2"
+recoilName2 = "recoil_r"
+weaponName2 = "gplasma_a"
+weaponAssault2 = 1
+
+weaponHard3 = "HP_MORTAR_1"
+weaponName3 = "gmortar"
+weaponAssault3 = 0
+
+weaponHard4 = "HP_SPECIAL_1"
+weaponName4 = ""
+weaponAssault4 = 0
+
+////////////////////////////////////
+
+turretCount = 2
+turretName1 = "turret_y"
+turretName2 = "turret_x"
+
+lightHard1 = "hp_light_1"
+lightName1 = "spotblue2"
+lightHard2 = "hp_light_2"
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+AllowLinkWeapons = true  // if true, weapons can be linked
+rangeScan = 300.0f
+periodScan = 4.0f
+velocJam = 5.0f
+engageRange = 260
+
+PathingType = 0 // -1 = auto, 0 = Hover, 1 = Walker, 2 = Person, 3 = Tracked, 4 = Flyer
+AvoidType = -1 // -1 = auto, 0 = None, 1 = force, 2 = plan
+
+CraftTeamIsPilotTeam = true
+
+attackTask = "AssaultTankAttack"
+subAttackTask = "SupportSubAttack"
+subAttackClass = "NNN"
+
+// subAttackClass uses 3 letters.
+// 1st letter is either A or N.     A is include Air targets.         N is attack ground only.
+// 2nd letter is either D or N.     D is to deploy before attacking.  N for regular attack.
+// 3rd letter is either S or N.     S is to use Weapon Range.         N is use the Engage Range to attack. 
+
+braccelFactor = 0.03
+velFactor = 0.2
+steerFactor = 1.5
+omegaFactor = 0.2
+strafeFactor = 0.0 // 8.2
+
+avoidSpeed = 5;
+topSpeed = 30;
+
+selectWaitMsg = "ivtank05.wav"
+selectAttackMsg = "ivtank02.wav"
+selectFollowMsg = "ivtank04.wav"
+selectGoMsg = "ivtank04.wav"
+selectOtherMsg = "ivtank05.wav"
+holdMsg = "ivtank12.wav"
+
+goMsg = "ivtank04.wav"
+attackMsg = "ivtank06.wav"
+followMeMsg = "ivtank08.wav"
+followMsg = "ivtank03.wav"
+repairMsg = "ivtank09.wav"
+reloadMsg = "ivtank09.wav"
+rescueMsg = "ivtank10.wav"
+recycleMsg = "ivtank11.wav"
+otherMsg = "ivtank05.wav" 
+holdMsg = "ivtank12.wav"
+user1Msg = ""  
+killedMsg = "ivtank07.wav"
+diedMsg = ""
+
+[HoverCraftClass]
+
+velocForward = 21.375 // [] 	 							25% reduction
+velocReverse = 15.0 // [] 								25% reduction
+velocStrafe = 16.0 // []
+accelThrust = 18.0 //acceleration []							25% reduction
+accelDragStop = 6.0 //how fast it stops once hands are off controls []
+accelJump = 15.0 //  how fast it can jump upwords[]
+
+setAltitude = 1.0 // how high off the ground
+
+alphaTrack = 21.0 //springs speed it rights itself []
+alphaDamp = 8.0 //shocks []
+
+pitchPitch = 0.0 //0.25 //nose up []
+pitchThrust = 0.0 //0.1 //nose down []
+
+rollStrafe = 0.0 //0.08 //rolls while strafing []
+omegaSpin = 1.0 // 6.0 //spinning in place speed []
+omegaTurn = 0.55//2.5 //turning while moving speed []
+alphaSteer = 2.0 // 2.0  //4.0 //7.0 //how fast it responds to steering []
+rollSteer = 0.08 //rolls while steering []erCraftClass]
+
+
+soundThrust = "itank01e.wav"
+soundTurbo = "avtanke3.wav"
+
+engineSound	= "silence.wav"
+treadSound = "silence.wav"
+
+[AssaultHoverClass]
+yawRate = 4.0
+yawAlpha = 10.0
+pitchMin = -0.1 
+pitchMax = 0.25
+
+
+[Lod1]
+geometryName = "ivtankL1.xsi" ;geometry for lod1
+distance = 50                 ;...distance over this many meters => switch to lod2
+
+[Lod2]
+geometryName = "ivtankL2.xsi" ;geometry for lod2
+distance = 135                 ;...distance over this many meters => switch to lod2

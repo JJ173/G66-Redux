@@ -1,0 +1,119 @@
+[ExplosionClass]
+classLabel = "explosion"
+// ========================
+// UPGRADED POWER EXPLOSION
+// ========================
+
+particleTypes = 6
+
+particleClass1 = "xpgen66xpl.core"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+particleClass2 = "xpgen66xpl.shock"
+particleCount2 = 1
+particleVeloc2 = "0.0 0.0 0.0"
+particleClass3 = "xpgen66xpl.shock2"
+particleCount3 = 1
+particleVeloc3 = "0.0 0.0 0.0"
+particleClass4 = "xpgen66xpl.light"
+particleCount4 = 1
+particleVeloc4 = "0.0 0.0 0.0"
+particleClass5 = "xpgen66xpl.splat"
+particleCount5 = 2
+particleVeloc5 = "0.0 0.0 0.0"
+particleClass6 = "xpgen66xpl.ring"
+particleCount6 = 1
+particleVeloc6 = "0.0 0.0 0.0"
+
+explSound = "xemt1.wav"
+
+damageRadius = 60.0
+
+damageValue(N) = 4360	//5200
+damageValue(L) = 3780	//4500
+damageValue(H) = 3200	//3800
+
+damageValue(S) = 3200	//3800
+damageValue(D) = 3780	//4500
+damageValue(A) = 4360	//5200
+
+kickRadius = 45.0
+kickOmega = 3.0
+kickVeloc = 6.0
+
+[Core]
+simulateBase = "sim_null"
+lifeTime = 1.2
+renderBase = "draw_twirl"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "191 95 15 255"
+finishColor = "159 15 0 0"
+startRadius = 4.0
+finishRadius = 48.0
+animateTime = 1.2
+
+[Shock]
+simulateBase = "sim_null"
+lifeTime = 0.4
+renderBase = "draw_sphere"
+textureName = "vsmoke.tga"
+textureBlend = "one one modulate"
+startColor = "191 95 0 255"
+finishColor = "95 0 0 0"
+startRadius = 15.0
+finishRadius = 60.0
+animateTime = 0.4
+latitudeBands = 8
+longitudeSegments = 16
+
+[Shock2]
+simulateBase = "sim_null"
+lifeTime = 0.6
+renderBase = "draw_sphere"
+textureName = "vsmoke.tga"
+textureBlend = "one one modulate"
+startColor = "191 95 0 255"
+finishColor = "95 47 0 0"
+startRadius = 7.0
+finishRadius = 42.0
+animateTime = 0.6
+latitudeBands = 8
+longitudeSegments = 16
+
+[Light]
+simulateBase = "sim_null"
+lifeTime = 1.2
+renderBase = "draw_light"
+startColor = "191 95 0 2550"
+finishColor = "191 95 0 0"
+startRadius = 60.0
+finishRadius = 36.0
+animateTime = 1.2
+attenuateConstant = 0.0
+attenuateLinear = 0.0
+attenuateQuadratic = 0.0
+
+[Splat]
+simulateBase = "sim_null"
+lifeTime = 0.8
+renderBase = "draw_planar"
+textureName = "ring.tga"
+textureBlend = "one one modulate"
+startColor = "191 95 31 255"
+finishColor = "255 127 0 0"
+startRadius = 6.0
+finishRadius = 48.0
+animateTime = 0.8
+
+[Ring]
+simulateBase = "sim_null"
+lifeTime = 10.0
+renderBase = "draw_planar"
+textureName = "grndchar.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "20 10 0 255"
+finishColor = "10 10 10 0"
+startRadius = 36.0
+finishRadius = 36.0
+animateTime = 10.0

@@ -1,0 +1,25 @@
+[GameObjectClass]
+geometryName = "apcann00.xsi" //"apmort00.xsi"
+classLabel = "wpnpower"
+scrapCost = 30
+scrapValue = 0
+maxHealth = 150
+maxAmmo = 0
+unitName = "Venom"
+aiName = "PowerUpProcess"
+
+requireCount = 2
+requireName1 = "fbstro"
+requireText1 = "Build Stronghold"
+requireName2 = "fbdowe"
+requireText2 = "Build Dower"
+
+lightHard1 = "hp_light_1"
+lightName1 = "omnipurple"
+
+[PowerUpClass]
+soundPickup = "pickup01.wav"
+soundReject = "reject.wav"
+
+[WeaponPowerupClass]
+weaponName = "gvenom_c"

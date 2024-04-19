@@ -1,0 +1,33 @@
+[OrdnanceClass]
+classLabel = "grenade"
+
+shotGeometry = "NULL"
+shotRadius = 1.0
+xplGround = "xvnmgnd"
+xplVehicle = "xvnmhit"
+xplBuilding = "xvnmhit"
+
+renderName = "venom_c.render"
+
+ammoCost = 5
+
+lifeSpan = 2
+shotSpeed = 60.0
+
+damageValue(N) = 11	//19
+damageValue(L) = 6	//11
+damageValue(H) = 4	//7
+damageValue(S) = 4	//7
+damageValue(D) = 6	//11
+damageValue(A) = 10	//17
+
+[Render]
+renderBase = "draw_twirl"
+textureName = "gunk.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "111 127 0 255"
+finishColor = "111 127 0 0"
+startRadius = 0.2
+finishRadius = 0.8
+animateTime = 2.0
+rotationRate = 20.0

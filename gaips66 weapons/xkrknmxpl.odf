@@ -1,0 +1,69 @@
+// ==============
+// KRAKEN MISSILE EXPLOSION
+// ==============
+
+[ExplosionClass]
+classLabel = "explosion"
+
+particleTypes = 3
+particleClass1 = "xkrknmxpl.core"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+particleClass2 = "xkrknmxpl.puff"
+particleCount2 = 70
+particleVeloc2 = "90.0 90.0 90.0"
+particleClass3 = "xkrknmxpl.shock"
+particleCount3 = 1
+particleVeloc3 = "0.0 0.0 0.0"
+
+explSound = "xmv1.wav"
+damageRadius = 40.0
+
+damageValue(N) = 1350
+damageValue(L) = 1035
+damageValue(H) = 720
+damageValue(S) = 1035
+damageValue(D) = 720
+damageValue(A) = 1350
+
+kickRadius = 40.0
+kickOmega = 4.0
+kickVeloc = 8.0
+
+[Core]
+simulateBase = "sim_null"
+lifeTime = 1.0
+renderBase = "draw_twirl"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "63 255 63 255"
+finishColor = "0 255 0 0"
+startRadius = 5.0
+finishRadius = 40.0
+animateTime = 1.0
+
+[Puff]
+simulateBase = "sim_smoke"
+lifeTime = 1.0
+renderBase = "draw_twirl"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "63 255 63 255"
+finishColor = "0 255 0 0"
+startRadius = 10.0
+finishRadius = 1.0
+animateTime = 1.0
+
+[Shock]
+simulateBase = "sim_null"
+lifeTime = 0.3
+renderBase = "draw_sphere"
+textureName = "vsmoke.tga"
+textureBlend = "one one modulate"
+startColor = "63 255 63 127"
+finishColor = "0 255 0 0"
+startRadius = 5.0
+finishRadius = 40.0
+animateTime = 0.3
+latitudeBands = 8
+longitudeSegments = 16

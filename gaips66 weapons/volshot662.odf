@@ -1,0 +1,34 @@
+[OrdnanceClass]
+classLabel = "popper"
+shotGeometry = "NULL"	//"gatst00.x"
+xplGround = "xvol662hit"
+xplVehicle = "xvol662hit"
+xplBuilding = "xvol662hit"
+renderName = "volshot662.render"
+
+ammoCost = 1
+lifeSpan = 1e30
+shotSpeed = 50.0
+damageValue(N) = 100
+damageValue(L) = 40
+damageValue(H) = 20
+damageValue(S) = 20
+damageValue(D) = 40
+damageValue(A) = 100
+
+[PopperClass]
+scanRange = 100.0
+launchXpl = "xvol662hit"
+launchOrd = "volbolt662"
+TeamFilter = 68  // 0 = targets all teams, 1 = targets same team only, 2 = targets only allies, 3 = targets only enemies, 4 = targets not same team
+
+[Render]
+renderBase = "draw_trail"
+textureName = "trail2.tga"
+textureBlend = "one one modulate"
+textureRate = 0.1
+startColor = "255 127 0 64"
+finishColor = "255 0 0 0"
+startRadius = 0.3
+finishRadius = 1.5
+segmentTime = 1.0

@@ -1,0 +1,31 @@
+// EBC Zap Gun Assault Weapon Definition
+// Revision for "Route 66" Mod by Natty Bumppo
+
+[WeaponClass]
+classLabel = "cannon"
+altName = "gzapgn66c"
+ordName = "zapgun66a"
+wpnName = "Zap Gun"
+fireSound = "arc02.wav"
+wpnReticle = "garc_a"
+wpnCategory = "GUN"
+isAssault = 1
+aiRange = 120
+flashName = "gzapgn66a.flash"
+
+[CannonClass]
+shotDelay = 1.2
+shotVariance = 0.05
+
+[Flash]
+simulateBase = "sim_null"
+lifeTime = 0.4
+renderBase = "draw_light"
+startColor = "255 63 255 511"
+finishColor = "255 63 255 511"
+startRadius = 15.0
+finishRadius = 15.0
+animateTime = 0.4
+attenuateConstant = 0.0
+attenuateLinear = 0.0
+attenuateQuadratic = 0.0

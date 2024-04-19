@@ -1,0 +1,87 @@
+// ===================
+// TCPG VEHICLE HIT
+// ===================
+
+[ExplosionClass]
+classLabel = "explosion"
+
+explSound = "clang01.wav"
+damageRadius = 0.0
+
+damageValue(N) = 0 // none
+damageValue(L) = 0 // light
+damageValue(H) = 0 // heavy
+
+damageValue(S) = 0 // standard
+damageValue(D) = 0 // deflection
+damageValue(A) = 0 // absorbtion
+
+particleTypes = 3
+
+particleClass1 = "xTCPGcar_c.cloud"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+
+particleClass2 = "xTCPGcar_c.flame"
+particleCount2 = 1
+particleVeloc2 = "0.0 0.0 0.0"
+
+particleClass3 = "xTCPGcar_c.spark"
+particleCount3 = 1
+particleVeloc3 = "10.0 20.0 10.0"
+
+[cloud]
+simulateBase = "sim_dust"
+lifeTime = .5
+renderBase = "draw_emit"
+emitName = "xTCPGcar_c.cloudemit"
+emitDelay = 1.0
+emitVelocity = "0.0 1.0 0.0"
+emitVariance = "0.0 1.0 0.0"
+
+[cloudemit]
+simulateBase = "sim_smoke"
+lifeTime = 1.3
+renderBase = "draw_twirl"
+textureName = "smoke.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "50 50 50 255"
+finishColor = "100 100 100 0"
+startRadius = 1.0
+finishRadius = 2.0 //
+animateTime = 1.3
+
+[flame]
+simulateBase = "sim_smoke"
+lifeTime = 0.1
+renderBase = "draw_emit"
+emitName = "xTCPGcar_c.flameemit"
+emitDelay = 0.1
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "0.0 0.0 0.0"
+
+[flameemit]
+simulateBase = "sim_smoke"
+lifeTime = 0.4
+renderBase = "draw_twirl"
+textureName = "flame2.tga"
+textureBlend = "one one modulate"
+startColor = " 255 255 255 255"
+finishColor = "255 255 255 0" //
+startRadius = 0.0
+finishRadius = 1.5
+animateTime = 0.4
+rotationRate = 5.0
+
+[spark]
+simulateBase = "sim_ember"
+lifeTime = 1.5
+renderBase = "draw_twirl"
+textureName = "SPRINKC.tga" // flame
+textureBlend = "one one modulate"
+startColor = "255 255 255 200"
+finishColor = "255 255 255 0"
+startRadius = 0.3
+finishRadius = 0.01
+animateTime = 1.5
+

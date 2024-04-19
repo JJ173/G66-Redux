@@ -1,0 +1,37 @@
+[GameObjectClass]
+classLabel = "fvsav"
+
+buildTime = 120.0
+
+needsPilot = 0
+
+requireCount = 3
+requireName1 = "fbforg"
+requireText1 = "Upgrade Kiln"
+requireName2 = "fbdowe"
+requireText2 = "Build Dower"
+requireName3 = "fbover"
+requireText3 = "Build/Upgrade Antenna Mound"
+//requireName4 = "fbstro"
+//requireText4 = "Build Stronghold"
+
+provideCount = 5
+provideName2 = "fvsav66"
+provideName3 = "assault"
+provideName4 = "flier"
+provideName5 = "DefendUnit"
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+
+[HoverCraftClass]
+
+[SavClass]

@@ -1,0 +1,42 @@
+[WeaponClass]
+//classLabel = "spotlight"
+wpnName = "Flare"
+fireSound = "gsite00.wav"
+wpnReticle = "gsitecam.0"
+wpnPriority = 0
+ordName = "NightVision3"
+//ordName = "NULL"
+wpnCategory = "SPEC"
+localAmmo = 1
+addLocalAmmo = 0.1
+aiRange = 150
+//flashName = "gnightvision662.NightVision"
+
+//[CannonClass]
+//shotDelay = 3.0
+
+[LightClass]
+classLabel = "spotlight"
+lightColor.r = 0.0
+lightColor.g = 1.0
+lightColor.b = 0.0
+lightColor.a = 255.0
+lightRange = 300.0
+attenuateQuadratic = 0.0
+coneFalloff = 1.0
+coneAngInner = 1.0
+coneAngOuter = 3.0
+lensFlare = 0
+
+
+[NightVision]
+renderBase = "draw_light"
+lightType = "point"
+startColor = "0 255 0 255"
+finishColor = "0 255 0 255"
+startRadius = 300.0
+finishRadius = 300.0
+animateTime = 30.0
+attenuateConstant = 0.0
+attenuateLinear = 0.0
+attenuateQuadratic = 0.0

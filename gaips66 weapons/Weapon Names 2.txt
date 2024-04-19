@@ -1,0 +1,192 @@
+Cannons
+
+	actinic salvo
+
+		gactnc_a
+		gactnc_c
+
+	helion gun
+
+		ghelion_a
+		ghelion_c
+
+	Medusa 66
+
+		gmedusa66a
+
+	omega burst
+
+		gomburst2_a
+		gomburst2_c
+
+	pulse cannon
+
+		gpulse66_a
+		gpulse66_c
+
+	Rail Gun
+
+		grailgn_a
+		grailgn_c
+
+	rave cannon
+
+		gtechnox_a
+		gtechnox_c
+
+	Scion Flamer 66
+
+		gsflam66a
+
+	Starshower
+
+		gshower_a
+		gshower_c
+
+	venom
+
+		gvenom_a
+		gvenom_c
+
+	xenon stream
+
+		gxenonstr
+		gxenonstra
+
+
+
+Guns
+
+	Chain Gun 66
+
+		gchaingn66a
+		gchaingn66c
+
+	Flux Gun 66
+
+		gfluxgn66a
+		gfluxgn66c
+
+	Gauss Gun 66
+
+		ggaussg66a
+		ggaussg66c
+
+	Hellbore 66
+
+		ghellbr66a
+		ghellbr66c
+
+	Ion Gun 66
+
+		giongn66a
+		giongn66c
+
+	Laser 66
+
+		glaser66a
+		glaser66c
+
+	Minigun 66
+
+		gminign66a
+		gminign66c
+
+	Pummel 66
+
+		gpmmlgn66a
+		gpmmlgn66c
+
+	Qteps 66
+
+		gqteps66a
+		gqteps66c
+
+	Zap Gun 66
+
+		gzapgn66a
+		gzapgn66c
+
+Hand
+
+	kill-o-zap
+
+		igkzap_a
+		igkzap_c
+
+Mines
+
+	zap mine
+
+		gmzapmn
+		gzapgun_a
+		gzapgun_c
+		gzapmn
+
+	ScourgeMsl 66
+
+		gscrge66c
+
+Missiles
+
+	Bane Missile
+
+		gbanemsl66a
+
+	Harpoon
+
+		gharpoon
+
+	heat rocket
+
+		gheatrkt_a
+		gheatrkt_c
+		gheatrkt2_a
+
+	kraken missile
+
+		gkrknmsl_a
+		gkrknmsl_c
+
+Mortars
+
+	electric flame
+
+		gseflame_c
+		gseflame
+
+	hypoxis mortar
+
+		ghypoxis
+
+	Jax Mortar
+
+		gjaxmtr66
+		gjaxmtr66r
+
+	Lash Popper
+
+		glashpop66c
+		glashpop66r
+
+	Lava Sprey
+
+		glvasprey
+
+Pack
+
+	satchel 66
+
+		igsatc66
+
+Specials
+
+	Force Field 66
+
+		gffld66
+		gffld662
+
+	tesla discharge
+
+		gtesla
+

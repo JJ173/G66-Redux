@@ -1,0 +1,29 @@
+[GameObjectClass]
+geometryName = "apmort00.xsi"
+classLabel = "wpnpower"
+scrapCost = 40
+scrapValue = 0
+maxHealth = 150
+maxAmmo = 0
+
+heatSignature = 0
+imageSignature = 0
+radarSignature = 0
+
+unitName = "Laser Popper"
+aiName = "PowerUpProcess"
+
+requireCount = 1
+requireName1 = "ibarmo66m"
+requireText1 = "Build Armory"
+
+lightHard1 = "hp_light_1"
+lightName1 = "omnidblu-ap"
+
+[PowerUpClass]
+soundPickup = "pickup01.wav"
+//soundReject = "reject.wav"
+soundReject = "mnu_buzz.wav"
+
+[WeaponPowerupClass]
+weaponName = "glaserpopgun66_c"

@@ -1,0 +1,79 @@
+// PP-AG Flux Gun Assault Ordnance Definition
+// Original Design for "Route 66" Mod by Natty Bumppo
+
+[OrdnanceClass]
+classLabel = "bullet"
+shotGeometry = "NULL"
+shotRadius = 0.8
+xplGround = "xfluxgn66g"
+xplVehicle = "xfluxgn66v"
+xplBuilding = "xfluxgn66v"
+renderName = "fluxgn66a.render"
+
+ammoCost = 9
+lifeSpan = 1.20	//190m
+shotSpeed = 160.0
+
+damageValue(N) = 120
+damageValue(L) = 105
+damageValue(H) = 90
+
+damageValue(S) = 90
+damageValue(D) = 105
+damageValue(A) = 120
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 3
+renderName1 = "fluxgn66a.core"
+renderName2 = "fluxgn66a.light"
+renderName3 = "fluxgn66a.trailr"
+
+[Core]
+renderBase = "draw_twirl"
+textureName = "rays128.tga"
+textureBlend = "one one modulate"
+startColor = "0 223 127 127"	//"223 0 0 255"
+finishColor = "0 223 127 127"	//"223 0 0 255"
+startRadius = 0.8
+finishRadius = 0.8
+rotationRate = 25.0
+
+[Light]
+renderBase = "draw_light"
+startColor = "0 223 127 127"	//"223 0 0 127"
+finishColor = "0 223 127 0"	//"223 0 0 0"
+startRadius = 15.0
+finishRadius = 15.0
+animateTime = 1.2
+attenuateConstant = 0.0
+attenuateLinear = 0.0
+attenuateQuadratic = 0.0
+
+[TrailR]
+renderBase = "draw_emit"
+emitName = "fluxgn66a.sparkr"
+emitDelay = 0.1
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "2.0 2.0 4.0"
+
+[SparkR]
+simulateBase = "sim_smoke"
+lifeTime = 1.0
+renderBase = "draw_multi"
+renderCount = 1
+renderName1 = "fluxgn66a.sparkflarer"
+
+[SparkFlareR]
+renderBase = "draw_twirl_trail"
+textureName = "blast.tga"
+textureBlend = "one one modulate"
+startColor = "0 223 127 127"	//"223 0 0 255"
+finishColor = "0 223 127 0"	//"223 0 0 0"
+startRadius = 0.05
+finishRadius = 0.01
+animateTime = 1.0
+emitDelay = 0.001
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "4.0 4.0 6.0"
+emitLife = 0.002

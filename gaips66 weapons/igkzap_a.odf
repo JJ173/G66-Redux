@@ -1,0 +1,20 @@
+[WeaponClass]
+classLabel = "cannon"
+
+// don't need any geometry
+// (igkzap_c already has it)
+
+ordName = "killozap_a"
+wpnName = "Kill-O-Zap"
+fireSound = "gbolt00.wav"
+wpnReticle = "garc_a"
+wpnCategory = "HAND"
+isAssault = 1
+isFlying = 1
+altName = "igkzap_c"
+
+aiRange = 200
+
+[CannonClass]
+shotDelay = 2.0
+

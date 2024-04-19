@@ -1,0 +1,28 @@
+[GameObjectClass]
+classLabel = "ivltwalk"
+
+provideCount = 4
+provideName2 = "ivctlwlk01"
+provideName3 = "assault"
+provideName4 = "DefendUnit"
+
+/////// weapons ///////////////////
+
+weaponName1 = "glaser66a"
+weaponName2 = "glaser66a"
+
+//////////////////////////////////
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+
+// Angles are in degress
+[WalkerClass]

@@ -1,0 +1,38 @@
+[GameObjectClass]
+classLabel = "ivscout"
+
+unitName = "Scout_c"
+
+customCost = 60
+
+addAmmo = 5
+aiAddAmmo = 30
+
+provideCount = 3
+provideName3 = "Scout"
+
+
+
+/////// weapons ///////////////////
+
+weaponName1 = "gminign66c"	//"gminigun_c"
+weaponName2 = "gminign66c"	//"gminigun_c"
+
+//////////////////////////////////
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+
+[HoverCraftClass]
+
+[Lod1]
+
+[Lod2]

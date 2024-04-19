@@ -1,0 +1,45 @@
+// ================
+// GEYSER EXPLOSION
+// ================
+
+[ExplosionClass]
+classLabel = "explosion"
+
+particleTypes = 1
+
+particleClass1 = "xgsr662xpl.spray"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+particleBias1 = "0.0 0.0 0.0"
+
+explSound = "xemt2.wav" 
+
+damageRadius = 10.0
+damageValue(N) = 9
+damageValue(L) = 3
+damageValue(H) = 1
+damageValue(S) = 3
+damageValue(D) = 1
+damageValue(A) = 9
+
+kickRadius = 10.0
+kickVeloc = 0.4
+kickOmega = 1.0
+
+[Spray]
+simulateBase = "sim_ember"
+lifeTime = 0.4
+renderBase = "draw_twirl_trail"
+textureName = "gunk.tga" //"flame.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+//textureBlend = "one one modulate"
+startColor = "255 255 255 150"
+finishColor = "181 181 255 0"
+startRadius = 0.05
+finishRadius = 0.01
+animateTime = 1.2
+rotationRate = 20.0
+emitDelay = 0.01
+emitVelocity = "0.0 10.0 0.0"
+emitVariance = "60.0 10.0 60.0"
+emitLife = 0.4

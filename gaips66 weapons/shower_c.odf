@@ -1,0 +1,65 @@
+[OrdnanceClass]
+classLabel = "bullet"
+shotGeometry = "NULL"
+shotSound = "gquil01.wav"
+
+xplGround = "xshowergnd"
+xplVehicle = "xshowercar"
+xplBuilding = "xshowerbld"
+
+renderName = "shower_c.render"
+
+ammoCost = 4
+lifeSpan = 0.70
+shotSpeed = 210.0
+
+damageValue(N) = 22 // none
+damageValue(L) = 16 // light
+damageValue(H) = 13 // heavy
+
+damageValue(S) = 13 // Stasis
+damageValue(D) = 22 // Deflection
+damageValue(A) = 16 // Absorption
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 3
+renderName2 = "shower_c.sparkle"
+renderName3 = "shower_c.light"
+renderName4 = "shower_c.smoke"
+
+[Sparkle]
+renderBase = "draw_twirl_trail"
+textureName = "spark.tga"
+textureBlend = "one one modulate"
+startColor = "159 255 191 255"
+finishColor = "0 255 31 0"
+startRadius = 0.03
+finishRadius = 0.07
+animateTime = 1.0
+emitDelay = 0.002
+emitVariance = "0.5 0.5 0.5"
+emitLife = 1.5
+
+[Light]
+renderBase = "draw_sprite"
+textureName = "lightflare.tga"
+textureBlend = "one one modulate"
+startColor = "159 255 191 400"
+finishColor = "0 255 31 255"
+startRadius = 1.2 
+finishRadius = 1.2 
+
+[Smoke]
+renderBase = "draw_twirl_trail"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor =   "159 255 191 20"
+finishColor = "153 153 153 0"
+startRadius = 0.2
+finishRadius = 1.0
+animateTime = 2.0
+emitDelay = 0.07
+emitVelocity = "0.2 0.2 0.2"
+emitVariance = "0.6 0.6 0.6"
+emitLife = 3.0

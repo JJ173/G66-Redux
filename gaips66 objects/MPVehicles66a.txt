@@ -1,0 +1,83 @@
+//
+// MPVehicles66a.txt - listing of multiplayer vehicles usable in BZ2 G66 2.0 (unused)
+//
+// Format of lines: xsi filename, space separator, odf filename, space separator, description
+// Lines starting with // are ignored. 
+//
+// Tip: do not put .odf extension on odf filename; added automatically on loading
+
+// A maximum of 32 units can be displayed in bz2 at one time.  If any more than 32 are added, the game will crash.
+// Most of the vehicles are disabled due to this bug, but the host is free to uncomment the disabled vehicles to add them
+// to his or her game.
+
+//  HTV: Human Team Variant
+// HTAV: Human Team Advance Variant
+// HTIV: Human Team Insane Variant
+//  CTV: Computer Team Variant
+// CTAV: Computer Team Advance Variant
+// CTIV: COmputer Team Insane Variant
+//   RV: Requsted Variant
+		
+ivtank00.xsi ivtank66m  HTV: Sabre
+//ivtank00.xsi ivcttank02  CTV: Sabre 1
+//ivtank00.xsi ivcttank01  CTV: Sabre 2
+//ivtank00.xsi ivcttank03  CTV: Sabre 3
+//ivtank00.xsi ivrtank01   RV: Sabre
+ivltank.xsi ivltank66m  HTV: Puma
+//ivltank.xsi ivltank66a  CTV: Puma 1
+//ivltank.xsi ivctpuma01  CTV: Puma 2
+//ivltank.xsi ivltank66p  CTV: Puma 3
+//ivltank.xsi ivctpuma02 HTAV: Puma 4
+ivmbik00.xsi ivsmbike  HTV: Jackal
+//ivmbik00.xsi ivctmbike CTV: Jackal
+ivmisl00.xsi ivmisl66m  HTV: Avenger
+//ivmisl00.xsi ivctmisl01  CTV: Avenger 1
+//ivmisl00.xsi ivctmisl02 CTAV: Avenger 2
+fvsent_skel.xsi fvsent66 HTV: Sentry
+//fvsent_skel.xsi fvctsent1 CTV: Sentry
+fvtank_skel.xsi fvtank66 HTV: Warrior
+//fvtank_skel.xsi fvcttank02  CTV: Warrior
+//fvtank_skel.xsi fvcttank01 CTAV: Warrior
+fvltank_skel.xsi fvltank66m HTV: Dragon
+//fvltank_skel.xsi fvctltank2 CTV: Dragoon 1
+//fvltank_skel.xsi fvctltank1 CTV: Dragoon 2
+fvlancer_skel.xsi fvsarch HTV: Lancer
+ivatnk00.xsi ivsatank HTV: Bulldog
+ivxnat.xsi ivcstank2 CTV: Seige Tank 1
+//ivxnat.xsi ivcstank1 CTV: Seige Tank 2
+ivrckt00.xsi ivsrckt HTV: Rocket Tank
+//ivrckt00.xsi ivctrckt2 CTV: Rocket Tank
+//ivrckt00.xsi ivctrckt1 CTAV: Rocket Tank
+ivwalk_skel.xsi ivswalk66  HTV: Attila
+//ivwalk_skel.xsi ivctwalk3  CTV: Attila
+//ivwalk_skel.xsi ivctwalk2 CTIV: Attila
+//ivwalk_skel.xsi ivctwalk1 CTAV: Attila
+//ivwalk_skel.xsi ivcwalk1 CV: Attila
+ivltwalk_skel.xsi ivsltwalk  HTV: Landmaster
+//ivltwalk_skel.xsi ivctlwlk01  CTV: Landmaster
+//ivltwalk_skel.xsi ivctlwlk02 CTAV: Landmaster
+//ivltwalk_skel.xsi ivctlwlk03   CV: Landmaster
+ispilo_rifle_skel.xsi isspilo ISDF Sniper
+ispilo_rifle_skel.xsi inspilo ISDF Grunt
+ivturr00.xsi ivturr66 HTV: Rattler
+//ivturr00.xsi ivctturr1 CTV: Rattler
+//ivturr00.xsi ivctturr2 CTAV: Rattler
+fvtitan_skel.xsi fvsatank HTV: Titan
+fvwalk_skel.xsi fvswalk66 HTV: Mauler
+//fvwalk_skel.xsi fvwalk66 CTV: Mauler
+ivscout00.xsi ivscout66m  HTV: Thunderbolt
+//ivscout00.xsi ivcscout1 HTAV: Thunderbolt
+//ivscout00.xsi ivctscout1  CTV: Thunderbolt 1
+//ivscout00.xsi ivctscout2  CTV: Thunderbolt 2
+//ivscout00.xsi ivctscout3  CTV: Thunderbolt 3
+//ivscout00.xsi ivctscout5 CTIV: Thunderbolt 1
+//ivscout00.xsi ivctscout6 CTIV: Thunderbolt 2
+//ivscout00.xsi ivctscout4 CTIV: Thunderbolt 3
+fvscout_skel.xsi fvsscout HTV: Drone
+fvgorgon_skel.xsi fvgorg66m HTV: Gorgon
+//fvgorgon_skel.xsi fvctgorg1 CTV: Gorgon 1
+//fvgorgon_skel.xsi fvsgorgon CTV: Gorgon 2
+fspilo_rifle_skel.xsi fsspilo Scion Sniper
+fspilo_rifle_skel.xsi fnspilo Scion Grunt
+fvturr_skel.xsi fvturr66 HTV: Guardian
+ivintc00.xsi ivintc HTV: Interceptor

@@ -1,0 +1,25 @@
+[GameObjectClass]
+classLabel = "ibfact"
+
+powerCost = 0
+
+/////// PROVIDES ///////////////////
+
+provideCount = 5
+provideName1 = "UnitFactory2"
+provideName2 = "UnitFactory"
+provideName3 = "ibfact66c2"
+provideName4 = "ibfact66c"
+provideName5 = "Assembler"
+
+////////////////////////////////////
+
+
+[PoweredBuildingClass]
+
+[BuildingClass]
+
+[FactoryClass]
+BuildSparkConfig = "sparker"
+
+[Lod1]

@@ -1,0 +1,15 @@
+[WeaponClass]
+classLabel = "cannon"	//"mortar"
+ordName = "jaxmtr66"
+wpnName = "JAX Mortar"
+fireSound = "mort01.wav"
+wpnReticle = "ghartil"
+wpnLadder = "gmortar.L0"
+wpnPriority = 6
+wpnCategory = "ROCK"	//"MORT"
+aiRange = 360
+
+[CannonClass]
+shotDelay = 4.0
+shotPitch = 1.25
+shotLead = 1

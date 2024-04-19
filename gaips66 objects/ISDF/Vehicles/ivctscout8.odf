@@ -1,0 +1,31 @@
+[GameObjectClass]
+classLabel = "ivscout66"
+
+provideCount = 4
+provideName3 = "ivctscout8"
+provideName4 = "DefendUnit"
+
+/////// weapons ///////////////////
+
+weaponName1 = "gfluxgn66c"	//"gminigun_c" "gminign66c"
+weaponName2 = "gfluxgn66c"	//"gminigun_c" "gminign66c"
+weaponName4 = ""
+
+//////////////////////////////////
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+
+[HoverCraftClass]
+
+[Lod1]
+
+[Lod2]

@@ -1,0 +1,64 @@
+[OrdnanceClass]
+classLabel = "lasermissile"
+
+shotGeometry = "ioartl00.xsi"
+shotSound = "Ordin_c.wav"
+
+xplGround = "xpopgnd"
+xplVehicle = "xpopcar"
+xplBuilding = "xpopcar"
+
+renderName = "laserpoprocket_c.render"
+
+ammoCost = 20
+lifeSpan = 4.0		 // 240m
+shotSpeed = 60.0
+
+damageValue(N) = 300 // None
+damageValue(L) = 250 // Light
+damageValue(H) = 200 // Heavy
+
+damageValue(S) = 250 // Stasis
+damageValue(D) = 200 // Deflection
+damageValue(A) = 300 // Absorption
+
+[MissileClass]
+omegaTurn = 15.25
+coneAngle = 1.0
+TeamFilter = 68  // 0 = targets all teams, 1 = targets same team only, 2 = targets only allies, 3 = targets only enemies, 4 = targets not same team
+
+accelThrust = 40.0
+//avoidRange = 30.0
+//avoidStrength = 1.5
+//delayTime = 0.0
+//rampTime = 1.0
+TeamFilter = 68
+velocForward = 60.0
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 2
+renderName1 = "laserpoprocket_c.flare"
+renderName2 = "laserpoprocket_c.trail"
+
+[Flare]
+renderBase = "draw_sprite"
+textureName = "flare.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 127"
+finishColor = "255 255 255 127"
+startRadius = 2.0
+finishRadius = 2.0
+
+[Trail]
+renderBase = "draw_twirl_trail"
+textureName = "particle.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 0 127"
+finishColor = "255 0 0 0"
+startRadius = 0.3
+finishRadius = 1.0
+animateTime = 0.5
+emitDelay = 0.005
+emitVariance = "3.0 3.0 3.0"
+emitLife = 0.5

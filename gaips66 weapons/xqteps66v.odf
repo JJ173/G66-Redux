@@ -1,0 +1,129 @@
+// EP-AG QTEPS Ground Hit
+// Original Design for "Route 66" Mod by Natty Bumppo
+
+[ExplosionClass]
+classLabel = "explosion"
+explSound = "xsv2.wav"
+damageRadius = 15.0
+
+damageValue(N) = 50
+damageValue(L) = 40
+damageValue(H) = 30
+damageValue(S) = 50
+damageValue(D) = 50
+damageValue(A) = 50
+
+kickRadius = 15.0
+kickOmega = 7.5
+kickVeloc = 12.0
+
+particleTypes = 5
+
+particleClass1 = "xqteps66v.core"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+
+particleClass2 = "xqteps66v.light"
+particleCount2 = 1
+particleVeloc2 = "0.0 0.0 0.0"
+
+particleClass3 = "xqteps66v.sparkg"
+particleCount3 = 1
+particleVeloc3 = "0.0 0.0 0.0"
+
+particleClass4 = "xqteps66v.sparky"
+particleCount4 = 1
+particleVeloc4 = "0.0 0.0 0.0"
+
+particleClass5 = "xqteps66v.ember"
+particleCount5 = 1
+particleVeloc5 = "0.0 0.0 0.0"
+
+
+[Core]
+simulateBase = "sim_null"
+lifeTime = 0.75
+renderBase = "draw_twirl"
+textureName = "flare.tga"
+textureBlend = "one one modulate"
+startColor = "63 255 128 255"
+finishColor = "0 255 181 0"
+startRadius = 0.2
+finishRadius = 2.0
+animateTime = 0.75
+
+[Light]
+simulateBase = "sim_null"
+lifeTime = 0.4
+renderBase = "draw_light"
+startColor = "63 255 63 255"
+finishColor = "0 255 0 0"
+startRadius = 20.0
+finishRadius = 20.0
+animateTime = 0.4
+attenuateConstant = 0.0
+attenuateLinear = 0.0
+attenuateQuadratic = 0.0
+
+[SparkG]
+simulateBase = "sim_smoke"
+lifeTime = 0.1
+renderBase = "draw_emit"
+emitName = "xqteps66v.sparkgemit"
+emitDelay = 0.01
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "15.0 15.0 0.0"
+
+[SparkGEmit]
+simulateBase = "sim_smoke"
+lifeTime = 1.5
+renderBase = "draw_twirl"
+textureName = "flash.tga"
+textureBlend = "one one modulate"
+startColor = "0 255 128 255"
+finishColor = "0 255 255 0"
+startRadius = 0.15
+finishRadius = 0.01
+animateTime = 1.5
+
+[SparkY]
+simulateBase = "sim_smoke"
+lifeTime = 0.1
+renderBase = "draw_emit"
+emitName = "xqteps66v.sparkyemit"
+emitDelay = 0.01
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "20.0 20.0 0.0"
+
+[SparkYEmit]
+simulateBase = "sim_smoke"
+lifeTime = 1.5
+renderBase = "draw_twirl"
+textureName = "lightflare.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 0 255"
+finishColor = "255 128 0 0"
+startRadius = 0.15
+finishRadius = 0.01
+animateTime = 2.0
+
+[Ember]
+simulateBase = "sim_ember"
+lifeTime = 0.1
+renderBase = "draw_emit"
+emitName = "xqteps66v.emberemit"
+emitDelay = 0.01
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "15.0 15.0 0.0"
+
+[EmberEmit]
+simulateBase = "sim_ember"
+lifeTime = 1.5
+renderBase = "draw_twirl"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 0 255"
+finishColor = "255 128 0 0"
+startRadius = 0.15
+finishRadius = 0.01
+animateTime = 2.5

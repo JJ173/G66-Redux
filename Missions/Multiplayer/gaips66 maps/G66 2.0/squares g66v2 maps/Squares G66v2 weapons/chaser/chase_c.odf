@@ -1,0 +1,79 @@
+[OrdnanceClass]
+classLabel = "thermalmissile"
+
+shotGeometry = "iorckt00.xsi"
+shotSound = "chase.wav"
+
+renderName = "chase_c.render"
+
+xplGround = "xchasegnd_c"
+xplVehicle = "xchasecar_c"
+xplBuilding = "xchasecar_c"
+
+ammoCost = 10
+lifeSpan = 1.20 // 120m
+shotSpeed = 150.0
+
+damageValue(N) = 100 // none // 390
+damageValue(L) = 80 // light // 250
+damageValue(H) = 50 // heavy // 85
+
+damageValue(S) = 80 // standard // 250
+damageValue(D) = 50 // deflection // 220
+damageValue(A) = 100 // absorbtion // 295
+
+[MissileClass]
+omegaTurn = 20.0
+TeamFilter = 68  // 0 = targets all teams, 1 = targets same team only, 2 = targets only allies, 3 = targets only enemies, 4 = targets not same team
+
+[ThermalMissileClass]
+coneAngle = 0.25
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 4
+renderName1 = "chase_c.flare"
+renderName2 = "chase_c.halo"
+renderName3 = "chase_c.trail"
+renderName4 = "chase_c.trail2"
+
+[Flare]
+renderBase = "draw_sprite"
+textureName = "lightflare.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 255"
+finishColor = "0 0 255 255"
+startRadius = 0.75
+finishRadius = 0.75
+
+[Halo]
+renderBase = "draw_sprite"
+textureName = "lighthalo.tga"
+textureBlend = "one one modulate"
+startColor = "255 0 0 200"
+finishColor = "255 0 0 200"
+startRadius = 0.9
+finishRadius = 0.9
+
+[Trail]
+renderBase = "draw_trail"
+textureName = "penbeam.tga" // trail2
+textureBlend = "srcalpha invsrcalpha modulatealpha" // "one one modulate"
+textureRate = 0.004
+startColor =  "255 255 255 150"// "100 0 0 100" 
+finishColor =  "10 10 10 0" // "100 100 100 0"
+startRadius = 0.008
+finishRadius = 0.7
+segmentTime = 1.4
+animateTime = 0.3
+
+[Trail2]
+renderBase = "draw_trail"
+textureName = "heat.tga" // trail2
+textureBlend = "one one modulate"
+textureRate = 0.09
+startColor = "255 255 255 255"
+finishColor = "255 0 0 255"
+startRadius = 0.5
+finishRadius = 0.01
+segmentTime = 0.8

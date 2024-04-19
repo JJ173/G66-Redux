@@ -1,0 +1,15 @@
+[GameObjectClass]
+geometryName = "snktwr2.xsi"
+
+classLabel = "snktwr1"
+
+provideCount = 4
+provideName3 = "snktwr2"
+provideName4 = "defender"
+
+
+[BuildingClass]
+
+[CraftClass]
+
+[TurretCraftClass]

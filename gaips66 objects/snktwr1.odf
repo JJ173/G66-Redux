@@ -1,0 +1,60 @@
+[GameObjectClass]
+geometryName = "snktwr1.xsi"
+geometryScale = .25
+classLabel = "turret"
+collisionRadius = 10.0
+scrapCost = 50
+scrapValue = 10
+maxHealth = 5000
+maxAmmo = 10000 // 0 is *not* treated as infinite ammo!
+unitName = "Snake Tower"
+aiName = "GunTowerFriend"
+aiName2 = "GunTowerEnemy"
+heatSignature = 2.0
+imageSignature = 1.0
+radarSignature = 1.0
+isAssault = 1
+powerCost = 0
+
+armorClass = H
+
+provideCount = 3
+provideName1 = "fbspir"
+provideName2 = "snktwr1"
+provideName3 = "defender"
+
+/////// weapons ///////////////////
+
+weaponMask = 00011
+weaponHard1 = "hp_cannon_01"
+weaponName1 = "gmbolt"
+weaponAssault1 = 0
+weaponHard2 = "hp_cannon_01"
+weaponName2 = "gmbolt"
+weaponAssault2 = 0
+
+//////////////////////////////////
+
+turretCount = 2
+turretName1 = "turret_y"
+turretName2 = "turret_x"
+
+[BuildingClass]
+soundAmbient = "igtow01.wav"
+
+[CraftClass]
+rangeScan = 200
+periodScan = 0.0
+velocJam = 0.0
+weaponPitch = 1.5
+steerFactor = 0.5
+engageRange = 200
+IgnoreDestroyedTargets = true
+
+attackTask = "AssaultTankAttack"
+subattackTask = "SupportSubAttack"
+subAttackClass = "ANS"
+
+[TurretCraftClass]
+omegaTurret = 2.0
+detectRange = 200

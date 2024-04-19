@@ -1,0 +1,35 @@
+[GameObjectClass]
+geometryName = "fbbase00.xsi"
+classLabel = "i76building"
+scrapCost = 20
+scrapValue = 10
+maxHealth = 5000
+maxAmmo = 0
+unitName = "Base Plate"
+heatSignature = 2.0
+imageSignature = 1.0
+radarSignature = 1.0
+collisionRadius = 4.0
+isAssault = 1
+
+canDetect = 1
+canInteract = 0
+canTarget = false
+
+BuildRequire = B
+BuildSupport = B
+
+armorClass = H
+
+requireCount = 0
+
+provideCount = 1
+provideName1 = "fbbase66"
+
+[BuildingClass]
+justTerrain = 1
+justFlat = 1
+
+[PoweredBuildingClass]
+detectRange = 100
+

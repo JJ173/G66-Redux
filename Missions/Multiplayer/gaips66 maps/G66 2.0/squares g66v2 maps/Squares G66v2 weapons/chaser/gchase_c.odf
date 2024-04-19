@@ -1,0 +1,14 @@
+[WeaponClass]
+classLabel = "cannon"
+altName = "gchase_c"
+ordName = "chase_c"
+wpnName = "chaser Msl"
+fireSound = "chase.wav"
+wpnReticle = "gsting_c"
+wpnCategory = "ROCK"
+aiRange = 120
+isAssault = 0
+
+[CannonClass]
+shotDelay = 0.3 // 0.3/sec
+shotAlternate = 0

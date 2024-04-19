@@ -1,0 +1,84 @@
+[WeaponClass]
+classLabel = "chargegun"
+altName = "gtmaggun_c"
+ordName = NULL
+wpnName = "MAG"
+fireSound = "gmagg00.wav"
+wpnReticle = "gmaggun.0"
+wpnCategory = "CANN"
+
+isAssault = 1
+
+aiRange = 220         // was 120 RD
+
+//[ChargeGunClass]
+//startRate = 44100.0
+//deltaRate = 4000.0
+//startVolume = 0.4    // was 40.0  RD
+//deltaVolume = 0.1    // was 20.0  RD
+
+[ChargeGunClass]
+startRate = 11025.0
+deltaRate = 1000.0
+startVolume = 50.0
+deltaVolume = 20.0
+
+ordnanceCount = 7      // was 7  RD
+
+//shotDelay1 = 0.0
+//salvoCount1 = 0
+//salvoDelay1 = 0
+//fireSound1 = NULL
+//ordName1 = NULL
+//wpnReticle1 = "gmaggun.0"
+
+//shotDelay2 = 0.25
+shotDelay2 = 1.0
+salvoCount2 = 6
+salvoDelay2 = 0.1
+fireSound2 = "mag02.wav"
+ordName2 = "gtcharge1_a"
+wpnReticle2 = "gmaggun.1"
+
+//shotDelay3 = 1.0    //  was 1.0  RD
+shotDelay3 = 2.0
+salvoCount3 = 5
+salvoDelay3 = 0.15
+fireSound3 = "mag03.wav"
+ordName3 = "gtcharge2_a"
+wpnReticle3 = "gmaggun.2"
+
+//shotDelay4 = 2.0    //  was 2.0 RD
+shotDelay4 = 3.0
+salvoCount4 = 4
+salvoDelay4 = 0.2
+fireSound4 = "mag04.wav"
+ordName4 = "gtcharge3_a"
+wpnReticle4 = "gmaggun.3"
+
+//shotDelay5 = 3.0    //  was 3.5  RD
+shotDelay5 = 4.0
+salvoCount5 = 3
+salvoDelay5 = 0.3
+fireSound5 = "mag05.wav"
+ordName5 = "gtcharge4_a"
+wpnReticle5 = "gmaggun.4"
+
+//shotDelay6 = 4.0    //  was 5.0  RD
+shotDelay6 = 5.0
+salvoCount6 = 2
+salvoDelay6 = 0.5
+fireSound6 = "mag06.wav"
+ordName6 = "gtcharge5_a"
+wpnReticle6 = "gmaggun.5"
+
+//shotDelay7 = 5.0    //  was 7.5  RD
+shotDelay7 = 6.0
+salvoCount7 = 1
+salvoDelay7 = 0.0
+fireSound7 = "mag07.wav"
+ordName7 = "gtcharge6_a"
+wpnReticle7 = "gmaggun.6"
+
+//holdRate = 10.0   //  was 100.0  RD
+holdRate = 0.0   //  was 10.0  RD

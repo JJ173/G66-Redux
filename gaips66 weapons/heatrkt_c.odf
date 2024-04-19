@@ -1,0 +1,81 @@
+[OrdnanceClass]
+classLabel = "imagemissile"
+shotGeometry = "iorckt00.xsi"
+shotSound = "smort03.wav"
+
+xplGround = "xhtrktgnd"
+xplVehicle = "xhtrktxpl"
+xplBuilding = "xhtrktxpl"
+renderName = "heatrkt_c.render"
+
+ammoCost = 35
+lifeSpan = 9.0 // 800m
+shotSpeed = 90.0
+
+damageValue(N) = 330 // none
+damageValue(L) = 270 // light
+damageValue(H) = 210 // heavy
+
+damageValue(S) = 270 // Stasis
+damageValue(D) = 210 // Deflection
+damageValue(A) = 330 // Absorption
+
+[MissileClass]
+omegaTurn = 2.0
+TeamFilter = 68  // 0 = targets all teams, 1 = targets same team only, 2 = targets only allies, 3 = targets only enemies, 4 = targets not same team
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 4
+renderName1 = "heatrkt_c.flare"
+renderName2 = "heatrkt_c.smoke"
+renderName3 = "heatrkt_c.flame"
+renderName4 = "heatrkt_c.light"
+
+[Flare]
+renderBase = "draw_sprite"
+textureName = "lightflare.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 63 2550" //"255 63 0 255"
+finishColor = "255 255 63 2550" //"255 63 0 255"
+startRadius = 2.5
+finishRadius = 2.5
+
+[Smoke]
+renderBase = "draw_twirl_trail"
+textureName = "smoke.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "153 153 153 128"
+finishColor = "153 153 153 0"
+startRadius = 0.75
+finishRadius = 2.5
+animateTime = 1.5
+emitDelay = 0.01
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "3.0 3.0 2.0"
+emitLife = 1.5
+
+[Flame]
+renderBase = "draw_twirl_trail"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "255 191 63 255"
+finishColor = "255 0 0 0"
+startRadius = 0.25
+finishRadius = 0.05
+animateTime = 0.2
+emitDelay = 0.003
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "3.0 3.0 2.0"
+emitLife = 0.2
+
+[Light]
+renderBase = "draw_light"
+startColor = "255 191 63 500"
+finishColor = "255 191 63 500"
+startRadius = 20.0
+finishRadius = 20.0
+animateTime = 0.5
+attenuateConstant = 0.0
+attenuateLinear = 0.0
+attenuateQuadratic = 0.0

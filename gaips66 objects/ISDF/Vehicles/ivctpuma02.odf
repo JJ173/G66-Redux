@@ -1,0 +1,28 @@
+[GameObjectClass]
+classLabel = "ivltank66m"
+
+provideCount = 4
+provideName3 = "ivctpuma02"
+provideName4 = "DefendUnit"
+
+/////// weapons ///////////////////
+
+weaponMask = 00111
+
+weaponName2 = "gheatrkt_c"
+weaponName3 = "gheatrkt_c"
+
+////////////////////////////////////
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+
+[HoverCraftClass]

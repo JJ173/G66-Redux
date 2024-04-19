@@ -1,0 +1,34 @@
+//
+// MPVehicles66ia.txt - listing of multiplayer vehicles usable in BZ2 G66 2.0
+//
+// Format of lines: xsi filename, space separator, odf filename, space separator, description
+// Lines starting with // are ignored. 
+//
+// Tip: do not put .odf extension on odf filename; added automatically on loading
+
+// A maximum of 32 units can be displayed in bz2 at one time.  If any more than 32 are added, the game will crash.
+// Most of the vehicles are disabled due to this bug, but the host is free to uncomment the disabled vehicles to add them
+// to his or her game.
+
+ivscout00.xsi ivcscout1 Thunderbolt a1
+ivscout00.xsi ivcscout2 Thunderbolt a2
+ivscout00.xsi ivcscout5 Thunderbolt a3
+ivscout00.xsi ivcscout6 Thunderbolt a4
+ivmisl00.xsi ivctmisl02 Avenger a1
+ivmisl00.xsi ivctmisl03 Avenger a2
+ivmisl00.xsi ivctmisl04 Avenger a3
+ivmisl00.xsi ivctmisl06 Avenger c1
+ivltank.xsi ivctpuma02 Puma a1
+ivtank00.xsi ivcttank03 Sabre a1
+ivtank00.xsi ivrtank01 Sabre a2
+ivltwalk_skel.xsi ivctlwlk02 Landmaster a1
+ivltwalk_skel.xsi ivctlwlk03 Landmaster a2
+ivatnk00.xsi ivcatnk01 Bulldog a1
+ivatnk00.xsi ivcatnk02 Bulldog a2
+ivrckt00.xsi ivctrckt1 Rocket Tank a1
+ivwalk_skel.xsi ivctwalk1 Attila a1
+ivwalk_skel.xsi ivcwalk1 Attila a2
+ivwalk_skel.xsi ivwalk66m Attila a3
+ivxnat.xsi ivcstank2 Seige Tank a1
+ivxnat.xsi ivcstank1 Seige Tank a2
+ivturr00.xsi ivctturr2 Rattler a1

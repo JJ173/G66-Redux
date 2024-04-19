@@ -1,0 +1,9781 @@
+version [1] =
+1171
+saveType [1] =
+0
+binarySave [1] =
+false
+msn_filename = mpivndlu662.bzn
+seq_count [1] =
+596
+saveType [1] =
+0
+TerrainName = mpivndlu662
+size [1] =
+68
+[GameObject]
+objClass = player
+seqno [1] =
+800001
+team [1] =
+17
+isUser [1] =
+true
+objAddr = 0F0656B0
+transform [1] =
+  right.x [1] =
+0.940787
+  right.y [1] =
+-4.25778e-005
+  right.z [1] =
+-0.33897
+  up.x [1] =
+-0.0175694
+  up.y [1] =
+0.998643
+  up.z [1] =
+-0.0488884
+  front.x [1] =
+0.338515
+  front.y [1] =
+0.0519498
+  front.z [1] =
+0.939521
+  posit.x [1] =
+-144.995
+  posit.y [1] =
+500.967
+  posit.z [1] =
+-496.263
+abandoned [1] =
+0
+curAmmo [1] =
+1178
+maxAmmo [1] =
+1200
+addAmmo [1] =
+0
+curPilot = psuser
+illumination [1] =
+1
+euler =
+ mass [1] =
+12158.2
+ mass_inv [1] =
+8.22493e-005
+ v_mag [1] =
+4.40177e-005
+ v_mag_inv [1] =
+22718.1
+ I [1] =
+133481
+ k_i [1] =
+7.49173e-006
+ v [1] =
+  x [1] =
+7.56043e-007
+  y [1] =
+-4.39608e-005
+  z [1] =
+2.10563e-006
+ omega [1] =
+  x [1] =
+6.3676e-007
+  y [1] =
+-0.00187283
+  z [1] =
+-0.000141249
+ Accel [1] =
+  x [1] =
+1.73333e-007
+  y [1] =
+-9.51101e-006
+  z [1] =
+4.63289e-007
+name = Tank
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+true
+independence [1] =
+
+[GameObject]
+objClass = fe01pt02
+seqno [1] =
+80001e
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 08D62410
+transform [1] =
+  right.x [1] =
+-0.482371
+  right.y [1] =
+0
+  right.z [1] =
+-0.875962
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+0.875958
+  front.y [1] =
+0
+  front.z [1] =
+-0.482369
+  posit.x [1] =
+14.4998
+  posit.y [1] =
+500.333
+  posit.z [1] =
+32.3201
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+1.20231e+006
+ mass_inv [1] =
+8.31731e-007
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+1.90336e+008
+ k_i [1] =
+5.25387e-009
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt02s
+seqno [1] =
+800025
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 08D76970
+transform [1] =
+  right.x [1] =
+-0.806945
+  right.y [1] =
+0
+  right.z [1] =
+0.59062
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+-0.590617
+  front.y [1] =
+0
+  front.z [1] =
+-0.806941
+  posit.x [1] =
+26.2749
+  posit.y [1] =
+500.912
+  posit.z [1] =
+46.7968
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+259699
+ mass_inv [1] =
+3.85061e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+1.48005e+007
+ k_i [1] =
+6.75652e-008
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = rorock05
+seqno [1] =
+800027
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 08D5EBD0
+transform [1] =
+  right.x [1] =
+0.974789
+  right.y [1] =
+-0
+  right.z [1] =
+0.22311
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+-0.223109
+  front.y [1] =
+0
+  front.z [1] =
+0.974785
+  posit.x [1] =
+-22.0275
+  posit.y [1] =
+500
+  posit.z [1] =
+38.5114
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+335897
+ mass_inv [1] =
+2.9771e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+7.89837e+007
+ k_i [1] =
+1.26608e-008
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Barracks
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = mograss01
+seqno [1] =
+800029
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 08D5F3B0
+transform [1] =
+  right.x [1] =
+0.999996
+  right.y [1] =
+0
+  right.z [1] =
+-0
+  up.x [1] =
+0
+  up.y [1] =
+0.999918
+  up.z [1] =
+0.012499
+  front.x [1] =
+0
+  front.y [1] =
+-0.0124989
+  front.z [1] =
+0.999913
+  posit.x [1] =
+-12.9518
+  posit.y [1] =
+500.046
+  posit.z [1] =
+20.3603
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+560812
+ mass_inv [1] =
+1.78313e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+6.23312e+007
+ k_i [1] =
+1.60433e-008
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = mograss01
+seqno [1] =
+80002a
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 08D5F990
+transform [1] =
+  right.x [1] =
+0.999996
+  right.y [1] =
+0
+  right.z [1] =
+-0
+  up.x [1] =
+0
+  up.y [1] =
+0.999918
+  up.z [1] =
+0.012499
+  front.x [1] =
+0
+  front.y [1] =
+-0.0124989
+  front.z [1] =
+0.999913
+  posit.x [1] =
+-20.8575
+  posit.y [1] =
+500.059
+  posit.z [1] =
+19.2651
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+560812
+ mass_inv [1] =
+1.78313e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+6.23312e+007
+ k_i [1] =
+1.60433e-008
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = mograss01
+seqno [1] =
+80002c
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FF60560
+transform [1] =
+  right.x [1] =
+0.999996
+  right.y [1] =
+0
+  right.z [1] =
+0
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+0
+  front.y [1] =
+0
+  front.z [1] =
+0.999991
+  posit.x [1] =
+-4.37761
+  posit.y [1] =
+500
+  posit.z [1] =
+47.7116
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+560812
+ mass_inv [1] =
+1.78313e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+6.23312e+007
+ k_i [1] =
+1.60433e-008
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = mograss01
+seqno [1] =
+80002d
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FF60B40
+transform [1] =
+  right.x [1] =
+0.995033
+  right.y [1] =
+-0.0995033
+  right.z [1] =
+0
+  up.x [1] =
+0.0995033
+  up.y [1] =
+0.995033
+  up.z [1] =
+0
+  front.x [1] =
+-0
+  front.y [1] =
+0
+  front.z [1] =
+0.999991
+  posit.x [1] =
+13.7476
+  posit.y [1] =
+500.225
+  posit.z [1] =
+18.6202
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+560812
+ mass_inv [1] =
+1.78313e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+6.23312e+007
+ k_i [1] =
+1.60433e-008
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = mograss01
+seqno [1] =
+80002e
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FF61110
+transform [1] =
+  right.x [1] =
+0.999996
+  right.y [1] =
+0
+  right.z [1] =
+0
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+0
+  front.y [1] =
+0
+  front.z [1] =
+0.999991
+  posit.x [1] =
+13.7269
+  posit.y [1] =
+500
+  posit.z [1] =
+77.7739
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+560812
+ mass_inv [1] =
+1.78313e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+6.23312e+007
+ k_i [1] =
+1.60433e-008
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = mograss01
+seqno [1] =
+800031
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FF616F0
+transform [1] =
+  right.x [1] =
+0.999996
+  right.y [1] =
+-0
+  right.z [1] =
+0
+  up.x [1] =
+0
+  up.y [1] =
+0.999683
+  up.z [1] =
+-0.0249921
+  front.x [1] =
+0
+  front.y [1] =
+0.024992
+  front.z [1] =
+0.999679
+  posit.x [1] =
+-46.8161
+  posit.y [1] =
+499.993
+  posit.z [1] =
+-24.2642
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+560812
+ mass_inv [1] =
+1.78313e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+6.23312e+007
+ k_i [1] =
+1.60433e-008
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = mograss01
+seqno [1] =
+800032
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FF61CC0
+transform [1] =
+  right.x [1] =
+0.999996
+  right.y [1] =
+-0
+  right.z [1] =
+0
+  up.x [1] =
+0
+  up.y [1] =
+0.999683
+  up.z [1] =
+-0.0249921
+  front.x [1] =
+0
+  front.y [1] =
+0.024992
+  front.z [1] =
+0.999679
+  posit.x [1] =
+-97.8932
+  posit.y [1] =
+499.733
+  posit.z [1] =
+61.3151
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+560812
+ mass_inv [1] =
+1.78313e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+6.23312e+007
+ k_i [1] =
+1.60433e-008
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = repool01
+seqno [1] =
+80003d
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FF6B4C0
+transform [1] =
+  right.x [1] =
+1
+  right.y [1] =
+0
+  right.z [1] =
+0
+  up.x [1] =
+0
+  up.y [1] =
+1
+  up.z [1] =
+0
+  front.x [1] =
+0
+  front.y [1] =
+0
+  front.z [1] =
+1
+  posit.x [1] =
+-80
+  posit.y [1] =
+498
+  posit.z [1] =
+144
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+571535
+ mass_inv [1] =
+1.74967e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+1.18831e+008
+ k_i [1] =
+8.41533e-009
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Biometal
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = repool01
+seqno [1] =
+80005d
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FF90560
+transform [1] =
+  right.x [1] =
+1
+  right.y [1] =
+0
+  right.z [1] =
+0
+  up.x [1] =
+0
+  up.y [1] =
+1
+  up.z [1] =
+0
+  front.x [1] =
+0
+  front.y [1] =
+0
+  front.z [1] =
+1
+  posit.x [1] =
+688
+  posit.y [1] =
+538
+  posit.z [1] =
+1392
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+571535
+ mass_inv [1] =
+1.74967e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+1.18831e+008
+ k_i [1] =
+8.41533e-009
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Biometal
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = repool01
+seqno [1] =
+800060
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FF90BF0
+transform [1] =
+  right.x [1] =
+1
+  right.y [1] =
+0
+  right.z [1] =
+0
+  up.x [1] =
+0
+  up.y [1] =
+1
+  up.z [1] =
+0
+  front.x [1] =
+0
+  front.y [1] =
+0
+  front.z [1] =
+1
+  posit.x [1] =
+240
+  posit.y [1] =
+501
+  posit.z [1] =
+944
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+571535
+ mass_inv [1] =
+1.74967e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+1.18831e+008
+ k_i [1] =
+8.41533e-009
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Biometal
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = pspwn_1
+seqno [1] =
+80006f
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA0ED60
+transform [1] =
+  right.x [1] =
+0.999996
+  right.y [1] =
+0
+  right.z [1] =
+0
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+0
+  front.y [1] =
+0
+  front.z [1] =
+0.999991
+  posit.x [1] =
+-144
+  posit.y [1] =
+500
+  posit.z [1] =
+-496
+name = Spawn
+[GameObject]
+objClass = fe01pt02s
+seqno [1] =
+8000e6
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA0F270
+transform [1] =
+  right.x [1] =
+-0.864849
+  right.y [1] =
+0
+  right.z [1] =
+-0.502023
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+0.502021
+  front.y [1] =
+0
+  front.z [1] =
+-0.864846
+  posit.x [1] =
+-22.8817
+  posit.y [1] =
+501.395
+  posit.z [1] =
+-6.28107
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+259699
+ mass_inv [1] =
+3.85061e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+1.48005e+007
+ k_i [1] =
+6.75652e-008
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt05
+seqno [1] =
+8000ec
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA15800
+transform [1] =
+  right.x [1] =
+0.775682
+  right.y [1] =
+0
+  right.z [1] =
+-0.631117
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+0.631114
+  front.y [1] =
+-0
+  front.z [1] =
+0.775679
+  posit.x [1] =
+12.8189
+  posit.y [1] =
+501.003
+  posit.z [1] =
+56.7662
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+266509
+ mass_inv [1] =
+3.75221e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+1.56093e+007
+ k_i [1] =
+6.40643e-008
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt05
+seqno [1] =
+8000ed
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA15DD0
+transform [1] =
+  right.x [1] =
+0.999971
+  right.y [1] =
+-0
+  right.z [1] =
+0.00698969
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+-0.00698966
+  front.y [1] =
+0
+  front.z [1] =
+0.999967
+  posit.x [1] =
+-33.6236
+  posit.y [1] =
+500.643
+  posit.z [1] =
+-9.79375
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+266509
+ mass_inv [1] =
+3.75221e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+1.56093e+007
+ k_i [1] =
+6.40643e-008
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt05s
+seqno [1] =
+8000ee
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA1A9E0
+transform [1] =
+  right.x [1] =
+-0.649318
+  right.y [1] =
+0
+  right.z [1] =
+0.760511
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+-0.760508
+  front.y [1] =
+0
+  front.z [1] =
+-0.649315
+  posit.x [1] =
+0.7747
+  posit.y [1] =
+500.076
+  posit.z [1] =
+23.4927
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+57566
+ mass_inv [1] =
+1.73714e-005
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+1.21378e+006
+ k_i [1] =
+8.23872e-007
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt01
+seqno [1] =
+8000ef
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA211E0
+transform [1] =
+  right.x [1] =
+0.939924
+  right.y [1] =
+0
+  right.z [1] =
+-0.341371
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+0.34137
+  front.y [1] =
+-0
+  front.z [1] =
+0.93992
+  posit.x [1] =
+-202.495
+  posit.y [1] =
+499.831
+  posit.z [1] =
+-642.16
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+165870
+ mass_inv [1] =
+6.02881e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+8.01184e+006
+ k_i [1] =
+1.24815e-007
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt01
+seqno [1] =
+8000f0
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA217B0
+transform [1] =
+  right.x [1] =
+0.984535
+  right.y [1] =
+0
+  right.z [1] =
+-0.175162
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+0.175161
+  front.y [1] =
+-0
+  front.z [1] =
+0.984531
+  posit.x [1] =
+-203.944
+  posit.y [1] =
+499.9
+  posit.z [1] =
+-625.378
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+165870
+ mass_inv [1] =
+6.02881e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+8.01184e+006
+ k_i [1] =
+1.24815e-007
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt01s
+seqno [1] =
+8000f2
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA26550
+transform [1] =
+  right.x [1] =
+0.0521066
+  right.y [1] =
+-0
+  right.z [1] =
+0.998637
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+-0.998633
+  front.y [1] =
+0
+  front.z [1] =
+0.0521064
+  posit.x [1] =
+-213.256
+  posit.y [1] =
+500.442
+  posit.z [1] =
+-609.296
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+35828
+ mass_inv [1] =
+2.79112e-005
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+623001
+ k_i [1] =
+1.60513e-006
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt01s
+seqno [1] =
+8000f3
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA26B20
+transform [1] =
+  right.x [1] =
+-0.542252
+  right.y [1] =
+0
+  right.z [1] =
+0.840211
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+-0.840207
+  front.y [1] =
+0
+  front.z [1] =
+-0.54225
+  posit.x [1] =
+-196.299
+  posit.y [1] =
+499.867
+  posit.z [1] =
+-630.958
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+35828
+ mass_inv [1] =
+2.79112e-005
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+623001
+ k_i [1] =
+1.60513e-006
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt06
+seqno [1] =
+8000f4
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA2C000
+transform [1] =
+  right.x [1] =
+-0.469867
+  right.y [1] =
+0
+  right.z [1] =
+0.882732
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+-0.882729
+  front.y [1] =
+0
+  front.z [1] =
+-0.469865
+  posit.x [1] =
+-229.915
+  posit.y [1] =
+502.048
+  posit.z [1] =
+-613.566
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+536049
+ mass_inv [1] =
+1.8655e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+5.63863e+007
+ k_i [1] =
+1.77348e-008
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt07s
+seqno [1] =
+8000f5
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA34210
+transform [1] =
+  right.x [1] =
+0.394232
+  right.y [1] =
+-0
+  right.z [1] =
+0.919006
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+-0.919002
+  front.y [1] =
+0
+  front.z [1] =
+0.39423
+  posit.x [1] =
+-241.379
+  posit.y [1] =
+501.801
+  posit.z [1] =
+-604.874
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+35698.1
+ mass_inv [1] =
+2.80127e-005
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+878085
+ k_i [1] =
+1.13884e-006
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt06
+seqno [1] =
+8000f6
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA347E0
+transform [1] =
+  right.x [1] =
+-0.907338
+  right.y [1] =
+0
+  right.z [1] =
+0.420392
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+-0.42039
+  front.y [1] =
+0
+  front.z [1] =
+-0.907334
+  posit.x [1] =
+-468.35
+  posit.y [1] =
+491.247
+  posit.z [1] =
+-601.765
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+536049
+ mass_inv [1] =
+1.8655e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+5.63863e+007
+ k_i [1] =
+1.77348e-008
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt06
+seqno [1] =
+8000f7
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA34DC0
+transform [1] =
+  right.x [1] =
+-0.484097
+  right.y [1] =
+0
+  right.z [1] =
+-0.875009
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+0.875005
+  front.y [1] =
+0
+  front.z [1] =
+-0.484095
+  posit.x [1] =
+-415.445
+  posit.y [1] =
+490.911
+  posit.z [1] =
+-641.434
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+536049
+ mass_inv [1] =
+1.8655e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+5.63863e+007
+ k_i [1] =
+1.77348e-008
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt07
+seqno [1] =
+8000f8
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA3AFE0
+transform [1] =
+  right.x [1] =
+0.997088
+  right.y [1] =
+0
+  right.z [1] =
+-0.0762048
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+0.0762044
+  front.y [1] =
+-0
+  front.z [1] =
+0.997084
+  posit.x [1] =
+-456.022
+  posit.y [1] =
+492.264
+  posit.z [1] =
+-621.364
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+165269
+ mass_inv [1] =
+6.05074e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+1.12922e+007
+ k_i [1] =
+8.85563e-008
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt07s
+seqno [1] =
+8000f9
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA3B5B0
+transform [1] =
+  right.x [1] =
+0.169515
+  right.y [1] =
+0
+  right.z [1] =
+-0.985523
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+0.985519
+  front.y [1] =
+-0
+  front.z [1] =
+0.169514
+  posit.x [1] =
+-433.811
+  posit.y [1] =
+490.291
+  posit.z [1] =
+-641.248
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+35698.1
+ mass_inv [1] =
+2.80127e-005
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+878085
+ k_i [1] =
+1.13884e-006
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt07s
+seqno [1] =
+8000fa
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA3BC10
+transform [1] =
+  right.x [1] =
+0.999996
+  right.y [1] =
+0
+  right.z [1] =
+0
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+0
+  front.y [1] =
+0
+  front.z [1] =
+0.999991
+  posit.x [1] =
+-450.522
+  posit.y [1] =
+491.975
+  posit.z [1] =
+-606.092
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+35698.1
+ mass_inv [1] =
+2.80127e-005
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+878085
+ k_i [1] =
+1.13884e-006
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt06s
+seqno [1] =
+8000fb
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA6D810
+transform [1] =
+  right.x [1] =
+-0.240649
+  right.y [1] =
+0
+  right.z [1] =
+0.970608
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+-0.970604
+  front.y [1] =
+0
+  front.z [1] =
+-0.240648
+  posit.x [1] =
+-451.441
+  posit.y [1] =
+490.917
+  posit.z [1] =
+-638.167
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+115787
+ mass_inv [1] =
+8.63658e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+4.3846e+006
+ k_i [1] =
+2.28071e-007
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt06s
+seqno [1] =
+8000fc
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA6DDE0
+transform [1] =
+  right.x [1] =
+0.749505
+  right.y [1] =
+-0
+  right.z [1] =
+0.661992
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+-0.661989
+  front.y [1] =
+0
+  front.z [1] =
+0.749502
+  posit.x [1] =
+-439.625
+  posit.y [1] =
+491.33
+  posit.z [1] =
+-629.833
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+115787
+ mass_inv [1] =
+8.63658e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+4.3846e+006
+ k_i [1] =
+2.28071e-007
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = mograss01
+seqno [1] =
+8000fd
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA6E3C0
+transform [1] =
+  right.x [1] =
+0.996189
+  right.y [1] =
+-0.0871666
+  right.z [1] =
+-2.32833e-010
+  up.x [1] =
+0.0871058
+  up.y [1] =
+0.995495
+  up.z [1] =
+-0.0373311
+  front.x [1] =
+0.00325402
+  front.y [1] =
+0.0371888
+  front.z [1] =
+0.999294
+  posit.x [1] =
+-426.723
+  posit.y [1] =
+490.622
+  posit.z [1] =
+-624.419
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+560812
+ mass_inv [1] =
+1.78313e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+6.23312e+007
+ k_i [1] =
+1.60433e-008
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt05
+seqno [1] =
+8000fe
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA6E990
+transform [1] =
+  right.x [1] =
+0.966864
+  right.y [1] =
+-0
+  right.z [1] =
+0.255275
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+-0.255274
+  front.y [1] =
+0
+  front.z [1] =
+0.96686
+  posit.x [1] =
+217.854
+  posit.y [1] =
+500
+  posit.z [1] =
+497.527
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+266509
+ mass_inv [1] =
+3.75221e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+1.56093e+007
+ k_i [1] =
+6.40643e-008
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt05
+seqno [1] =
+8000ff
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA6EF70
+transform [1] =
+  right.x [1] =
+0.486783
+  right.y [1] =
+0
+  right.z [1] =
+-0.873518
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+0.873514
+  front.y [1] =
+-0
+  front.z [1] =
+0.486781
+  posit.x [1] =
+201.029
+  posit.y [1] =
+500
+  posit.z [1] =
+531.467
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+266509
+ mass_inv [1] =
+3.75221e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+1.56093e+007
+ k_i [1] =
+6.40643e-008
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt02
+seqno [1] =
+800100
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA6F540
+transform [1] =
+  right.x [1] =
+-0.385015
+  right.y [1] =
+0
+  right.z [1] =
+-0.922906
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+0.922902
+  front.y [1] =
+0
+  front.z [1] =
+-0.385013
+  posit.x [1] =
+211.87
+  posit.y [1] =
+500
+  posit.z [1] =
+520.723
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+1.20231e+006
+ mass_inv [1] =
+8.31731e-007
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+1.90336e+008
+ k_i [1] =
+5.25387e-009
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt02s
+seqno [1] =
+800101
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA6FB20
+transform [1] =
+  right.x [1] =
+0.29289
+  right.y [1] =
+0
+  right.z [1] =
+-0.956141
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+0.956137
+  front.y [1] =
+-0
+  front.z [1] =
+0.292889
+  posit.x [1] =
+182.075
+  posit.y [1] =
+500
+  posit.z [1] =
+543.778
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+259699
+ mass_inv [1] =
+3.85061e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+1.48005e+007
+ k_i [1] =
+6.75652e-008
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt05s
+seqno [1] =
+800102
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA70320
+transform [1] =
+  right.x [1] =
+0.311697
+  right.y [1] =
+0
+  right.z [1] =
+-0.950177
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+0.950173
+  front.y [1] =
+-0
+  front.z [1] =
+0.311696
+  posit.x [1] =
+206.95
+  posit.y [1] =
+500
+  posit.z [1] =
+506.672
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+57566
+ mass_inv [1] =
+1.73714e-005
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+1.21378e+006
+ k_i [1] =
+8.23872e-007
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt05s
+seqno [1] =
+800103
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA708F0
+transform [1] =
+  right.x [1] =
+0.901001
+  right.y [1] =
+-0
+  right.z [1] =
+0.433807
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+-0.433805
+  front.y [1] =
+0
+  front.z [1] =
+0.900997
+  posit.x [1] =
+189.93
+  posit.y [1] =
+500
+  posit.z [1] =
+529.83
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+57566
+ mass_inv [1] =
+1.73714e-005
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+1.21378e+006
+ k_i [1] =
+8.23872e-007
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = mograss01
+seqno [1] =
+800104
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA71010
+transform [1] =
+  right.x [1] =
+0.999996
+  right.y [1] =
+0
+  right.z [1] =
+0
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+0
+  front.y [1] =
+0
+  front.z [1] =
+0.999991
+  posit.x [1] =
+166.134
+  posit.y [1] =
+500
+  posit.z [1] =
+552.761
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+560812
+ mass_inv [1] =
+1.78313e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+6.23312e+007
+ k_i [1] =
+1.60433e-008
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = mograss01
+seqno [1] =
+800105
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA715F0
+transform [1] =
+  right.x [1] =
+0.999918
+  right.y [1] =
+-0.012499
+  right.z [1] =
+-1.52796e-009
+  up.x [1] =
+0.012498
+  up.y [1] =
+0.999839
+  up.z [1] =
+0.012498
+  front.x [1] =
+-0.000156211
+  front.y [1] =
+-0.012497
+  front.z [1] =
+0.999913
+  posit.x [1] =
+193.373
+  posit.y [1] =
+500.144
+  posit.z [1] =
+515.141
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+560812
+ mass_inv [1] =
+1.78313e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+6.23312e+007
+ k_i [1] =
+1.60433e-008
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = mograss01
+seqno [1] =
+800106
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA74D70
+transform [1] =
+  right.x [1] =
+0.999918
+  right.y [1] =
+0.012499
+  right.z [1] =
+5.82082e-011
+  up.x [1] =
+-0.0124746
+  up.y [1] =
+0.997971
+  up.z [1] =
+-0.0623732
+  front.x [1] =
+-0.0007796
+  front.y [1] =
+0.062368
+  front.z [1] =
+0.998044
+  posit.x [1] =
+590.001
+  posit.y [1] =
+510.675
+  posit.z [1] =
+319.998
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+560812
+ mass_inv [1] =
+1.78313e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+6.23312e+007
+ k_i [1] =
+1.60433e-008
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt02
+seqno [1] =
+800107
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA75350
+transform [1] =
+  right.x [1] =
+-0.951963
+  right.y [1] =
+0
+  right.z [1] =
+0.306198
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+-0.306197
+  front.y [1] =
+0
+  front.z [1] =
+-0.951959
+  posit.x [1] =
+583.745
+  posit.y [1] =
+510.774
+  posit.z [1] =
+328.401
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+1.20231e+006
+ mass_inv [1] =
+8.31731e-007
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+1.90336e+008
+ k_i [1] =
+5.25387e-009
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt05s
+seqno [1] =
+800108
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA75B50
+transform [1] =
+  right.x [1] =
+0.573999
+  right.y [1] =
+0
+  right.z [1] =
+-0.818851
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+0.818847
+  front.y [1] =
+-0
+  front.z [1] =
+0.573996
+  posit.x [1] =
+590.155
+  posit.y [1] =
+510.538
+  posit.z [1] =
+339.708
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+57566
+ mass_inv [1] =
+1.73714e-005
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+1.21378e+006
+ k_i [1] =
+8.23872e-007
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt06
+seqno [1] =
+800109
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA76290
+transform [1] =
+  right.x [1] =
+-0.780629
+  right.y [1] =
+0
+  right.z [1] =
+0.624987
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+-0.624985
+  front.y [1] =
+0
+  front.z [1] =
+-0.780626
+  posit.x [1] =
+-388.51
+  posit.y [1] =
+501.721
+  posit.z [1] =
+-83.0474
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+536049
+ mass_inv [1] =
+1.8655e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+5.63863e+007
+ k_i [1] =
+1.77348e-008
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt06
+seqno [1] =
+80010a
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA76860
+transform [1] =
+  right.x [1] =
+0.976463
+  right.y [1] =
+0
+  right.z [1] =
+-0.215665
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+0.215664
+  front.y [1] =
+-0
+  front.z [1] =
+0.976459
+  posit.x [1] =
+-407.97
+  posit.y [1] =
+501.796
+  posit.z [1] =
+-31.701
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+536049
+ mass_inv [1] =
+1.8655e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+5.63863e+007
+ k_i [1] =
+1.77348e-008
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt07
+seqno [1] =
+80010b
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA76E40
+transform [1] =
+  right.x [1] =
+-0.454276
+  right.y [1] =
+0
+  right.z [1] =
+0.890856
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+-0.890852
+  front.y [1] =
+0
+  front.z [1] =
+-0.454274
+  posit.x [1] =
+-413.901
+  posit.y [1] =
+501.587
+  posit.z [1] =
+-51.3021
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+165269
+ mass_inv [1] =
+6.05074e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+1.12922e+007
+ k_i [1] =
+8.85563e-008
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt07s
+seqno [1] =
+80010c
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA77410
+transform [1] =
+  right.x [1] =
+0.136041
+  right.y [1] =
+-0
+  right.z [1] =
+0.990699
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+-0.990695
+  front.y [1] =
+0
+  front.z [1] =
+0.136041
+  posit.x [1] =
+-371.271
+  posit.y [1] =
+501.523
+  posit.z [1] =
+-74.6437
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+35698.1
+ mass_inv [1] =
+2.80127e-005
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+878085
+ k_i [1] =
+1.13884e-006
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt07s
+seqno [1] =
+80010d
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA77AA0
+transform [1] =
+  right.x [1] =
+-0.501681
+  right.y [1] =
+0
+  right.z [1] =
+-0.865048
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+0.865044
+  front.y [1] =
+0
+  front.z [1] =
+-0.501679
+  posit.x [1] =
+-410.999
+  posit.y [1] =
+501.703
+  posit.z [1] =
+-62.8771
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+35698.1
+ mass_inv [1] =
+2.80127e-005
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+878085
+ k_i [1] =
+1.13884e-006
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt01s
+seqno [1] =
+80010e
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA78120
+transform [1] =
+  right.x [1] =
+0.860895
+  right.y [1] =
+0
+  right.z [1] =
+-0.508774
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+0.508772
+  front.y [1] =
+-0
+  front.z [1] =
+0.860891
+  posit.x [1] =
+-397.828
+  posit.y [1] =
+500.924
+  posit.z [1] =
+-54.9035
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+35828
+ mass_inv [1] =
+2.79112e-005
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+623001
+ k_i [1] =
+1.60513e-006
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt01s
+seqno [1] =
+80010f
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA787D0
+transform [1] =
+  right.x [1] =
+0.186628
+  right.y [1] =
+-0
+  right.z [1] =
+0.982426
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+-0.982422
+  front.y [1] =
+0
+  front.z [1] =
+0.186627
+  posit.x [1] =
+-401.133
+  posit.y [1] =
+501.669
+  posit.z [1] =
+-43.7476
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+35828
+ mass_inv [1] =
+2.79112e-005
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+623001
+ k_i [1] =
+1.60513e-006
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = mograss01
+seqno [1] =
+800110
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA78E80
+transform [1] =
+  right.x [1] =
+0.999293
+  right.y [1] =
+0.0374735
+  right.z [1] =
+8.14914e-010
+  up.x [1] =
+-0.0374618
+  up.y [1] =
+0.998982
+  up.z [1] =
+0.0249745
+  front.x [1] =
+0.000935883
+  front.y [1] =
+-0.0249569
+  front.z [1] =
+0.99968
+  posit.x [1] =
+-400.875
+  posit.y [1] =
+501.822
+  posit.z [1] =
+-6.17281
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+560812
+ mass_inv [1] =
+1.78313e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+6.23312e+007
+ k_i [1] =
+1.60433e-008
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt02
+seqno [1] =
+800111
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA794A0
+transform [1] =
+  right.x [1] =
+-0.784877
+  right.y [1] =
+0
+  right.z [1] =
+0.619644
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+-0.619642
+  front.y [1] =
+0
+  front.z [1] =
+-0.784874
+  posit.x [1] =
+-550.694
+  posit.y [1] =
+512.418
+  posit.z [1] =
+-224.424
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+1.20231e+006
+ mass_inv [1] =
+8.31731e-007
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+1.90336e+008
+ k_i [1] =
+5.25387e-009
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt02
+seqno [1] =
+800112
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA79CA0
+transform [1] =
+  right.x [1] =
+-0.747463
+  right.y [1] =
+0
+  right.z [1] =
+-0.664297
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+0.664294
+  front.y [1] =
+0
+  front.z [1] =
+-0.74746
+  posit.x [1] =
+-544.016
+  posit.y [1] =
+512.509
+  posit.z [1] =
+-191.166
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+1.20231e+006
+ mass_inv [1] =
+8.31731e-007
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+1.90336e+008
+ k_i [1] =
+5.25387e-009
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt02s
+seqno [1] =
+800113
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA7A4A0
+transform [1] =
+  right.x [1] =
+-0.999986
+  right.y [1] =
+0
+  right.z [1] =
+-0.00440418
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+0.00440416
+  front.y [1] =
+0
+  front.z [1] =
+-0.999982
+  posit.x [1] =
+-563.62
+  posit.y [1] =
+510.764
+  posit.z [1] =
+-177.277
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+259699
+ mass_inv [1] =
+3.85061e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+1.48005e+007
+ k_i [1] =
+6.75652e-008
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt05s
+seqno [1] =
+800114
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA7ACA0
+transform [1] =
+  right.x [1] =
+0.670379
+  right.y [1] =
+0
+  right.z [1] =
+-0.742013
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+0.74201
+  front.y [1] =
+-0
+  front.z [1] =
+0.670376
+  posit.x [1] =
+-554.822
+  posit.y [1] =
+511.272
+  posit.z [1] =
+-202.165
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+57566
+ mass_inv [1] =
+1.73714e-005
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+1.21378e+006
+ k_i [1] =
+8.23872e-007
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt05s
+seqno [1] =
+800115
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA7B3E0
+transform [1] =
+  right.x [1] =
+0.990373
+  right.y [1] =
+0
+  right.z [1] =
+-0.138395
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+0.138394
+  front.y [1] =
+-0
+  front.z [1] =
+0.990369
+  posit.x [1] =
+-565.616
+  posit.y [1] =
+512.389
+  posit.z [1] =
+-229.967
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+57566
+ mass_inv [1] =
+1.73714e-005
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+1.21378e+006
+ k_i [1] =
+8.23872e-007
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt05s
+seqno [1] =
+800116
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA7BB20
+transform [1] =
+  right.x [1] =
+0.811005
+  right.y [1] =
+-0
+  right.z [1] =
+0.585032
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+-0.58503
+  front.y [1] =
+0
+  front.z [1] =
+0.811001
+  posit.x [1] =
+-132.023
+  posit.y [1] =
+499.839
+  posit.z [1] =
+769.291
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+57566
+ mass_inv [1] =
+1.73714e-005
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+1.21378e+006
+ k_i [1] =
+8.23872e-007
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt05s
+seqno [1] =
+800117
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA7C260
+transform [1] =
+  right.x [1] =
+0.937688
+  right.y [1] =
+0
+  right.z [1] =
+-0.347466
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+0.347465
+  front.y [1] =
+-0
+  front.z [1] =
+0.937684
+  posit.x [1] =
+-127.358
+  posit.y [1] =
+499.952
+  posit.z [1] =
+763.383
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+57566
+ mass_inv [1] =
+1.73714e-005
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+1.21378e+006
+ k_i [1] =
+8.23872e-007
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt01
+seqno [1] =
+800118
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA7C9A0
+transform [1] =
+  right.x [1] =
+0.990905
+  right.y [1] =
+-0
+  right.z [1] =
+0.134534
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+-0.134533
+  front.y [1] =
+0
+  front.z [1] =
+0.9909
+  posit.x [1] =
+-134.045
+  posit.y [1] =
+500
+  posit.z [1] =
+759.142
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+165870
+ mass_inv [1] =
+6.02881e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+8.01184e+006
+ k_i [1] =
+1.24815e-007
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt01s
+seqno [1] =
+800119
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA7D050
+transform [1] =
+  right.x [1] =
+0.893233
+  right.y [1] =
+0
+  right.z [1] =
+-0.449584
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+0.449582
+  front.y [1] =
+-0
+  front.z [1] =
+0.893229
+  posit.x [1] =
+-125.996
+  posit.y [1] =
+500
+  posit.z [1] =
+754.706
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+35828
+ mass_inv [1] =
+2.79112e-005
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+623001
+ k_i [1] =
+1.60513e-006
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt07
+seqno [1] =
+80011a
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA7D700
+transform [1] =
+  right.x [1] =
+-0.296882
+  right.y [1] =
+0
+  right.z [1] =
+0.95491
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+-0.954905
+  front.y [1] =
+0
+  front.z [1] =
+-0.296881
+  posit.x [1] =
+-288.947
+  posit.y [1] =
+499.596
+  posit.z [1] =
+1133.82
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+165269
+ mass_inv [1] =
+6.05074e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+1.12922e+007
+ k_i [1] =
+8.85563e-008
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt07s
+seqno [1] =
+80011b
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA7DD80
+transform [1] =
+  right.x [1] =
+0.513778
+  right.y [1] =
+-0
+  right.z [1] =
+0.857918
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+-0.857914
+  front.y [1] =
+0
+  front.z [1] =
+0.513776
+  posit.x [1] =
+-269.594
+  posit.y [1] =
+499.534
+  posit.z [1] =
+1136.28
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+35698.1
+ mass_inv [1] =
+2.80127e-005
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+878085
+ k_i [1] =
+1.13884e-006
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = fe01pt07s
+seqno [1] =
+80011c
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA7E400
+transform [1] =
+  right.x [1] =
+0.468256
+  right.y [1] =
+0
+  right.z [1] =
+-0.883588
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+0.883584
+  front.y [1] =
+-0
+  front.z [1] =
+0.468254
+  posit.x [1] =
+-275.693
+  posit.y [1] =
+499.397
+  posit.z [1] =
+1127.72
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+35698.1
+ mass_inv [1] =
+2.80127e-005
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+878085
+ k_i [1] =
+1.13884e-006
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = mograss01
+seqno [1] =
+80011d
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA7EA80
+transform [1] =
+  right.x [1] =
+0.999683
+  right.y [1] =
+0.0249921
+  right.z [1] =
+-1.04775e-009
+  up.x [1] =
+-0.0249843
+  up.y [1] =
+0.999371
+  up.z [1] =
+-0.0249843
+  front.x [1] =
+-0.000624408
+  front.y [1] =
+0.0249764
+  front.z [1] =
+0.999679
+  posit.x [1] =
+-263.079
+  posit.y [1] =
+499.407
+  posit.z [1] =
+1119.38
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+560812
+ mass_inv [1] =
+1.78313e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+6.23312e+007
+ k_i [1] =
+1.60433e-008
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = mograss01
+seqno [1] =
+80011e
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA7F0A0
+transform [1] =
+  right.x [1] =
+0.999996
+  right.y [1] =
+-0
+  right.z [1] =
+0
+  up.x [1] =
+0
+  up.y [1] =
+0.999683
+  up.z [1] =
+-0.0249921
+  front.x [1] =
+0
+  front.y [1] =
+0.024992
+  front.z [1] =
+0.999679
+  posit.x [1] =
+-274.981
+  posit.y [1] =
+499.124
+  posit.z [1] =
+1112.97
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+560812
+ mass_inv [1] =
+1.78313e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+6.23312e+007
+ k_i [1] =
+1.60433e-008
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Tree
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = rorock06
+seqno [1] =
+800028
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA81BC0
+transform [1] =
+  right.x [1] =
+-0.97719
+  right.y [1] =
+0
+  right.z [1] =
+0.212346
+  up.x [1] =
+0
+  up.y [1] =
+0.999996
+  up.z [1] =
+0
+  front.x [1] =
+-0.212345
+  front.y [1] =
+0
+  front.z [1] =
+-0.977186
+  posit.x [1] =
+-104.175
+  posit.y [1] =
+499.551
+  posit.z [1] =
+54.6413
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+188677
+ mass_inv [1] =
+5.30008e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+2.68242e+007
+ k_i [1] =
+3.72798e-008
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Barracks
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+[GameObject]
+objClass = repool01
+seqno [1] =
+80022b
+team [1] =
+0
+isUser [1] =
+false
+objAddr = 0FA821A0
+transform [1] =
+  right.x [1] =
+1
+  right.y [1] =
+0
+  right.z [1] =
+0
+  up.x [1] =
+0
+  up.y [1] =
+1
+  up.z [1] =
+0
+  front.x [1] =
+0
+  front.y [1] =
+0
+  front.z [1] =
+1
+  posit.x [1] =
+304
+  posit.y [1] =
+528
+  posit.z [1] =
+1328
+saveClass = 
+illumination [1] =
+1
+euler =
+ mass [1] =
+571535
+ mass_inv [1] =
+1.74967e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+1.18831e+008
+ k_i [1] =
+8.41533e-009
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+name = Biometal
+saveFlags [1] =
+l
+isVisible [1] =
+65535
+EffectsMask [1] =
+65535
+isSeen [1] =
+2
+groupNumber [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+independence [1] =
+
+groupTargets = 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+dllName = mpinstant66.dll
+[AiMission]
+[AOIs]
+size [1] =
+0
+[AiPaths]
+count [1] =
+160
+name = AiPath
+sObject = 0FA8BB20
+size [1] =
+8
+label = Recycler
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-47.8312
+  z [1] =
+-496.185
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BB3C
+size [1] =
+13
+label = RecyclerEnemy
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+79.5452
+  z [1] =
+1296.13
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BB58
+size [1] =
+7
+label = factory
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-12.4835
+  z [1] =
+1300.39
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BB74
+size [1] =
+4
+label = kiln
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-12.7768
+  z [1] =
+1299.8
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BB90
+size [1] =
+14
+label = dropoff_recy_6
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+271.691
+  z [1] =
+1263.95
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BBAC
+size [1] =
+14
+label = dropoff_fact_6
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+208.401
+  z [1] =
+1231.82
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BBC8
+size [1] =
+8
+label = holdserv
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+48.1931
+  z [1] =
+1302.58
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BBE4
+size [1] =
+5
+label = cbun1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+47.9453
+  z [1] =
+1231.84
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BC00
+size [1] =
+5
+label = gtow1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+47.9453
+  z [1] =
+1199.75
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BC1C
+size [1] =
+6
+label = gtow1b
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+15.8563
+  z [1] =
+1199.75
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BC38
+size [1] =
+6
+label = gtow1c
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+79.7756
+  z [1] =
+1232.1
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BC54
+size [1] =
+5
+label = rtow1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+80.0861
+  z [1] =
+1200.01
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BC70
+size [1] =
+6
+label = gspir1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+112.02
+  z [1] =
+1199.9
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BC8C
+size [1] =
+5
+label = cbun2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-144.589
+  z [1] =
+1328.05
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BCA8
+size [1] =
+5
+label = gtow2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-176.212
+  z [1] =
+1327.74
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BCC4
+size [1] =
+6
+label = gtow2b
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-143.864
+  z [1] =
+1296.69
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BCE0
+size [1] =
+5
+label = rtow2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-175.695
+  z [1] =
+1296.95
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BCFC
+size [1] =
+6
+label = gspir2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-144.33
+  z [1] =
+1328.31
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BD18
+size [1] =
+7
+label = gspir2b
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-112.293
+  z [1] =
+1264.08
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BD34
+size [1] =
+5
+label = cbun3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+335.996
+  z [1] =
+1263.29
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BD50
+size [1] =
+5
+label = gtow3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+335.996
+  z [1] =
+1231.73
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BD6C
+size [1] =
+5
+label = rtow3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+303.844
+  z [1] =
+1230.84
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BD88
+size [1] =
+5
+label = cbun4
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-15.1219
+  z [1] =
+592.601
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BDA4
+size [1] =
+5
+label = gtow4
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-16.2327
+  z [1] =
+560.502
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BDC0
+size [1] =
+5
+label = rtow4
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+15.8563
+  z [1] =
+559.726
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BDDC
+size [1] =
+5
+label = cbun5
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-175.902
+  z [1] =
+175.744
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BDF8
+size [1] =
+5
+label = gtow5
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-176.419
+  z [1] =
+143.914
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BE14
+size [1] =
+5
+label = cbun6
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-240.339
+  z [1] =
+47.647
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BE30
+size [1] =
+5
+label = gtow6
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-240.339
+  z [1] =
+15.558
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BE4C
+size [1] =
+7
+label = gspir1b
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+16.1668
+  z [1] =
+1199.9
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BE68
+size [1] =
+6
+label = gspir3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+335.698
+  z [1] =
+1232.03
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BE84
+size [1] =
+6
+label = gspir4
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-16.0775
+  z [1] =
+560.761
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BEA0
+size [1] =
+6
+label = gspir5
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-176.212
+  z [1] =
+144.069
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BEBC
+size [1] =
+6
+label = gspir6
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-240.132
+  z [1] =
+47.8541
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BED8
+size [1] =
+6
+label = rspir1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+48.1523
+  z [1] =
+1200.01
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BEF4
+size [1] =
+6
+label = rspir2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-82.9986
+  z [1] =
+1263.98
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BF10
+size [1] =
+6
+label = rspir3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+303.844
+  z [1] =
+1231.14
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BF2C
+size [1] =
+6
+label = rspir4
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+16.0633
+  z [1] =
+559.933
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BF48
+size [1] =
+5
+label = hold4
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+17.0945
+  z [1] =
+528.751
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BF64
+size [1] =
+5
+label = hold1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+79.8274
+  z [1] =
+1007.84
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BF80
+size [1] =
+6
+label = asmbl1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+18.5523
+  z [1] =
+1074.68
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BF9C
+size [1] =
+5
+label = hold3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+303.933
+  z [1] =
+1199.75
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BFB8
+size [1] =
+5
+label = hold2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-240.339
+  z [1] =
+1296.07
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BFD4
+size [1] =
+6
+label = build1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+370.741
+  z [1] =
+1342.82
+pathType = 00000000
+name = AiPath
+sObject = 0FA8BFF0
+size [1] =
+6
+label = build2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+559.921
+  z [1] =
+1392.28
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C00C
+size [1] =
+8
+label = RcktTwr1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+239.88
+  z [1] =
+1199.59
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C028
+size [1] =
+8
+label = RcktTwr2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-47.9077
+  z [1] =
+975.695
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C044
+size [1] =
+8
+label = RcktTwr3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+239.962
+  z [1] =
+847.39
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C060
+size [1] =
+8
+label = RcktTwr6
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-240.132
+  z [1] =
+112.136
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C07C
+size [1] =
+8
+label = RcktTwr4
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-143.968
+  z [1] =
+623.698
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C098
+size [1] =
+8
+label = RcktTwr5
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+112.227
+  z [1] =
+239.612
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C0B4
+size [1] =
+7
+label = PwrGen1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-1488.02
+  z [1] =
+-1488.39
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C0D0
+size [1] =
+7
+label = PwrGen2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-1488.28
+  z [1] =
+-1456.3
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C0EC
+size [1] =
+5
+label = pgen1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+47.9534
+  z [1] =
+1327.43
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C108
+size [1] =
+12
+label = turretEnemy1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+76.2642
+  z [1] =
+1356.2
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C124
+size [1] =
+12
+label = turretEnemy2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-509.36
+  z [1] =
+1152.02
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C140
+size [1] =
+12
+label = turretEnemy3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-510.913
+  z [1] =
+831.29
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C15C
+size [1] =
+12
+label = turretEnemy4
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+527.322
+  z [1] =
+878.026
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C178
+size [1] =
+12
+label = turretEnemy5
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+623.279
+  z [1] =
+516.557
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C194
+size [1] =
+12
+label = turretEnemy6
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+159.489
+  z [1] =
+510.19
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C1B0
+size [1] =
+12
+label = turretEnemy7
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+16.0336
+  z [1] =
+112.056
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C1CC
+size [1] =
+12
+label = turretEnemy8
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-677.208
+  z [1] =
+37.7055
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C1E8
+size [1] =
+12
+label = turretEnemy9
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-592.844
+  z [1] =
+-45.9848
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C204
+size [1] =
+12
+label = SentryEnemy1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+57.2629
+  z [1] =
+877.297
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C220
+size [1] =
+12
+label = SentryEnemy2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+79.939
+  z [1] =
+877.066
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C23C
+size [1] =
+12
+label = SentryEnemy3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+103.541
+  z [1] =
+877.297
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C258
+size [1] =
+9
+label = edge_path
+pointCount [1] =
+2
+points [2] =
+  x [1] =
+1264.01
+  z [1] =
+1519.73
+  x [1] =
+-1297.47
+  z [1] =
+-879.634
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C274
+size [1] =
+7
+label = Turret1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-15.8892
+  z [1] =
+-560.359
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C290
+size [1] =
+7
+label = Turret2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-240.217
+  z [1] =
+-432.292
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C2AC
+size [1] =
+7
+label = Turret3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+111.88
+  z [1] =
+-367.837
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C2C8
+size [1] =
+6
+label = Scout1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+80.1235
+  z [1] =
+-464.098
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C2E4
+size [1] =
+6
+label = Scout2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+95.7535
+  z [1] =
+-464.098
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C300
+size [1] =
+6
+label = Scout3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+111.88
+  z [1] =
+-464.247
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C31C
+size [1] =
+5
+label = Tank1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-47.7942
+  z [1] =
+-400.387
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C338
+size [1] =
+5
+label = Tank2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-32.4124
+  z [1] =
+-400.139
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C354
+size [1] =
+5
+label = Tank3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-16.0381
+  z [1] =
+-400.139
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C370
+size [1] =
+9
+label = FuryTank1
+pointCount [1] =
+15
+points [15] =
+  x [1] =
+1017.73
+  z [1] =
+-178.033
+  x [1] =
+1041.86
+  z [1] =
+26.566
+  x [1] =
+987.444
+  z [1] =
+131.551
+  x [1] =
+1007.62
+  z [1] =
+357.753
+  x [1] =
+949.995
+  z [1] =
+451.909
+  x [1] =
+847.182
+  z [1] =
+515.935
+  x [1] =
+754.409
+  z [1] =
+415.639
+  x [1] =
+748.295
+  z [1] =
+197.789
+  x [1] =
+662.449
+  z [1] =
+34.6346
+  x [1] =
+687.781
+  z [1] =
+-69.9755
+  x [1] =
+616.477
+  z [1] =
+-219.15
+  x [1] =
+737.506
+  z [1] =
+-306.873
+  x [1] =
+846.338
+  z [1] =
+-282.01
+  x [1] =
+945.318
+  z [1] =
+-292.8
+  x [1] =
+1018.03
+  z [1] =
+-182.091
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C38C
+size [1] =
+9
+label = FuryTank2
+pointCount [1] =
+14
+points [14] =
+  x [1] =
+908.276
+  z [1] =
+489.35
+  x [1] =
+792.86
+  z [1] =
+477.562
+  x [1] =
+755.288
+  z [1] =
+422.084
+  x [1] =
+738.913
+  z [1] =
+196.944
+  x [1] =
+673.238
+  z [1] =
+34.916
+  x [1] =
+687.781
+  z [1] =
+-89.7717
+  x [1] =
+618.26
+  z [1] =
+-226.938
+  x [1] =
+736.943
+  z [1] =
+-300.774
+  x [1] =
+969.243
+  z [1] =
+-265.123
+  x [1] =
+1026.52
+  z [1] =
+-135.259
+  x [1] =
+1040.08
+  z [1] =
+40.5453
+  x [1] =
+996.451
+  z [1] =
+122.357
+  x [1] =
+1000.2
+  z [1] =
+354.188
+  x [1] =
+911.323
+  z [1] =
+489.116
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C3A8
+size [1] =
+9
+label = FuryTank3
+pointCount [1] =
+24
+points [24] =
+  x [1] =
+-815.529
+  z [1] =
+560.077
+  x [1] =
+-914.106
+  z [1] =
+615.854
+  x [1] =
+-984.861
+  z [1] =
+564.446
+  x [1] =
+-1033.48
+  z [1] =
+475.957
+  x [1] =
+-1030.2
+  z [1] =
+369.113
+  x [1] =
+-1016.54
+  z [1] =
+336.886
+  x [1] =
+-963.012
+  z [1] =
+286.086
+  x [1] =
+-979.945
+  z [1] =
+224.908
+  x [1] =
+-941.708
+  z [1] =
+155.536
+  x [1] =
+-976.391
+  z [1] =
+57.9829
+  x [1] =
+-959.734
+  z [1] =
+41.3735
+  x [1] =
+-942.801
+  z [1] =
+44.1047
+  x [1] =
+-947.717
+  z [1] =
+157.175
+  x [1] =
+-972.844
+  z [1] =
+224.362
+  x [1] =
+-951.541
+  z [1] =
+281.716
+  x [1] =
+-1028.56
+  z [1] =
+350.541
+  x [1] =
+-1029.11
+  z [1] =
+433.35
+  x [1] =
+-1016
+  z [1] =
+444.275
+  x [1] =
+-950.994
+  z [1] =
+421.333
+  x [1] =
+-893.64
+  z [1] =
+427.342
+  x [1] =
+-830.277
+  z [1] =
+391.291
+  x [1] =
+-749.981
+  z [1] =
+446.46
+  x [1] =
+-752.712
+  z [1] =
+498.898
+  x [1] =
+-812.505
+  z [1] =
+558.198
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C3C4
+size [1] =
+9
+label = FuryTank4
+pointCount [1] =
+9
+points [9] =
+  x [1] =
+-910.591
+  z [1] =
+629.038
+  x [1] =
+-859.228
+  z [1] =
+747.98
+  x [1] =
+-780.22
+  z [1] =
+778.51
+  x [1] =
+-741.788
+  z [1] =
+733.778
+  x [1] =
+-719.392
+  z [1] =
+654.028
+  x [1] =
+-714.476
+  z [1] =
+546.967
+  x [1] =
+-769.646
+  z [1] =
+524.571
+  x [1] =
+-820.708
+  z [1] =
+528.901
+  x [1] =
+-910.356
+  z [1] =
+625.639
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C3E0
+size [1] =
+10
+label = laserpod1b
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+1047.79
+  z [1] =
+-186.822
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C3FC
+size [1] =
+10
+label = laserpod2a
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+1009.35
+  z [1] =
+561.831
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C418
+size [1] =
+10
+label = laserpod3a
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-813.618
+  z [1] =
+545.366
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C434
+size [1] =
+10
+label = laserpod3b
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-1006.16
+  z [1] =
+56.7524
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C450
+size [1] =
+9
+label = surprise3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+33.2985
+  z [1] =
+-1424.41
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C46C
+size [1] =
+9
+label = surprise4
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+912.726
+  z [1] =
+-1328.72
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C488
+size [1] =
+9
+label = surprise2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-1381.08
+  z [1] =
+-620.626
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C4A4
+size [1] =
+9
+label = scrpool1a
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-47.9452
+  z [1] =
+-624.171
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C4C0
+size [1] =
+9
+label = scrpool1b
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-143.792
+  z [1] =
+-368.317
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C4DC
+size [1] =
+9
+label = scrpool1c
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+47.9295
+  z [1] =
+-304.243
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C4F8
+size [1] =
+9
+label = scrpool2a
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+944.105
+  z [1] =
+-240.141
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C514
+size [1] =
+9
+label = scrpool2b
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+911.951
+  z [1] =
+559.696
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C530
+size [1] =
+9
+label = scrpool3a
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-80.1225
+  z [1] =
+592.123
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C54C
+size [1] =
+9
+label = scrpool3b
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+79.9619
+  z [1] =
+527.995
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C568
+size [1] =
+9
+label = scrpool3c
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-752.167
+  z [1] =
+559.496
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C584
+size [1] =
+9
+label = scrfield1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-239.07
+  z [1] =
+-528.015
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C5A0
+size [1] =
+9
+label = scrfield2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+49.163
+  z [1] =
+-465.145
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C5BC
+size [1] =
+9
+label = scrfield3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+112.033
+  z [1] =
+-432.066
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C5D8
+size [1] =
+9
+label = scrfield4
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-48.5268
+  z [1] =
+-176.331
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C5F4
+size [1] =
+9
+label = scrfield5
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-130.861
+  z [1] =
+157.876
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C610
+size [1] =
+9
+label = scrfield6
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-35.3532
+  z [1] =
+183.658
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C62C
+size [1] =
+9
+label = scrfield7
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-336.76
+  z [1] =
+144.981
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C648
+size [1] =
+9
+label = scrfield8
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-400.597
+  z [1] =
+144.981
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C664
+size [1] =
+9
+label = scrfield9
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-176.201
+  z [1] =
+496.084
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C680
+size [1] =
+10
+label = scrfield10
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+174.322
+  z [1] =
+432.247
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C69C
+size [1] =
+10
+label = scrfield11
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+208.175
+  z [1] =
+399.362
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C6B8
+size [1] =
+10
+label = scrfield12
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+367.767
+  z [1] =
+337.459
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C6D4
+size [1] =
+10
+label = scrfield13
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+17.0511
+  z [1] =
+752.206
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C6F0
+size [1] =
+10
+label = scrfield14
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-16.8018
+  z [1] =
+784.124
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C70C
+size [1] =
+10
+label = scrfield15
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+175.676
+  z [1] =
+879.879
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C728
+size [1] =
+10
+label = scrfield16
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+141.733
+  z [1] =
+1073.95
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C744
+size [1] =
+8
+label = minefld1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+534.13
+  z [1] =
+281.031
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C760
+size [1] =
+8
+label = minefld2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-640.276
+  z [1] =
+-6.23539
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C77C
+size [1] =
+8
+label = minefld3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-530.979
+  z [1] =
+218.161
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C798
+size [1] =
+8
+label = minefld4
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+586.167
+  z [1] =
+496.529
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C7B4
+size [1] =
+8
+label = minefld5
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-481.07
+  z [1] =
+903.731
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C7D0
+size [1] =
+8
+label = minefld6
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+480.933
+  z [1] =
+1008.38
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C7EC
+size [1] =
+7
+label = jammer1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+527.359
+  z [1] =
+-271.642
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C808
+size [1] =
+7
+label = jammer2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-943.477
+  z [1] =
+-240.083
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C824
+size [1] =
+7
+label = jammer3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+227.4
+  z [1] =
+772.255
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C840
+size [1] =
+7
+label = jammer4
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-144.282
+  z [1] =
+1360.2
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C85C
+size [1] =
+7
+label = jammer5
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+271.305
+  z [1] =
+1295.61
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C878
+size [1] =
+6
+label = power1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-199.801
+  z [1] =
+-593.728
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C894
+size [1] =
+6
+label = power2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-423.23
+  z [1] =
+6.91882
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C8B0
+size [1] =
+6
+label = power3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+280.33
+  z [1] =
+216.807
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C8CC
+size [1] =
+6
+label = power4
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-103.659
+  z [1] =
+833.317
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C8E8
+size [1] =
+8
+label = artlgas1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-335.213
+  z [1] =
+-591.407
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C904
+size [1] =
+8
+label = artlgas2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-240.424
+  z [1] =
+-272.223
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C920
+size [1] =
+7
+label = artlef1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+271.818
+  z [1] =
+1135.09
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C93C
+size [1] =
+7
+label = artlef2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-81.4124
+  z [1] =
+1200.86
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C958
+size [1] =
+7
+label = artlef3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+327.281
+  z [1] =
+1063.17
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C974
+size [1] =
+8
+label = trthold1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-48.3333
+  z [1] =
+1104.14
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C990
+size [1] =
+8
+label = trthold2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+208.061
+  z [1] =
+1106.02
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C9AC
+size [1] =
+8
+label = trthold3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+15.5036
+  z [1] =
+880.904
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C9C8
+size [1] =
+7
+label = attack1
+pointCount [1] =
+22
+points [22] =
+  x [1] =
+-15.6464
+  z [1] =
+1197.19
+  x [1] =
+-159.247
+  z [1] =
+1265.68
+  x [1] =
+-240.106
+  z [1] =
+1264.8
+  x [1] =
+-400.243
+  z [1] =
+1232.28
+  x [1] =
+-463.091
+  z [1] =
+1135.91
+  x [1] =
+-496.619
+  z [1] =
+975.553
+  x [1] =
+-473.295
+  z [1] =
+885.756
+  x [1] =
+-400.407
+  z [1] =
+815.783
+  x [1] =
+-238.888
+  z [1] =
+623.797
+  x [1] =
+-14.9762
+  z [1] =
+496.243
+  x [1] =
+176.282
+  z [1] =
+399.448
+  x [1] =
+444.509
+  z [1] =
+361.4
+  x [1] =
+529.059
+  z [1] =
+272.623
+  x [1] =
+529.788
+  z [1] =
+176.411
+  x [1] =
+402.234
+  z [1] =
+-48.0839
+  x [1] =
+367.977
+  z [1] =
+-173.888
+  x [1] =
+208.99
+  z [1] =
+-371.538
+  x [1] =
+-79.7006
+  z [1] =
+-562.381
+  x [1] =
+-238.45
+  z [1] =
+-559.465
+  x [1] =
+-239.179
+  z [1] =
+-496.782
+  x [1] =
+-151.714
+  z [1] =
+-423.165
+  x [1] =
+-82.4703
+  z [1] =
+-493.137
+pathType = 00000000
+name = AiPath
+sObject = 0FA8C9E4
+size [1] =
+7
+label = attack2
+pointCount [1] =
+17
+points [17] =
+  x [1] =
+17.1067
+  z [1] =
+973.78
+  x [1] =
+55.5793
+  z [1] =
+840.857
+  x [1] =
+34.4418
+  z [1] =
+682.253
+  x [1] =
+-31.1572
+  z [1] =
+630.502
+  x [1] =
+-92.2373
+  z [1] =
+496.68
+  x [1] =
+-398.949
+  z [1] =
+302.215
+  x [1] =
+-592.102
+  z [1] =
+143.32
+  x [1] =
+-654.786
+  z [1] =
+-50.1247
+  x [1] =
+-624.533
+  z [1] =
+-176.689
+  x [1] =
+-622.715
+  z [1] =
+-273.016
+  x [1] =
+-537.933
+  z [1] =
+-432.158
+  x [1] =
+-336.266
+  z [1] =
+-543.721
+  x [1] =
+-175.184
+  z [1] =
+-585.267
+  x [1] =
+-16.4339
+  z [1] =
+-529.727
+  x [1] =
+-19.3494
+  z [1] =
+-464.128
+  x [1] =
+-173.872
+  z [1] =
+-464.857
+  x [1] =
+-173.872
+  z [1] =
+-521.709
+pathType = 00000000
+name = AiPath
+sObject = 0FA8CA00
+size [1] =
+7
+label = attack3
+pointCount [1] =
+18
+points [18] =
+  x [1] =
+136.397
+  z [1] =
+1162.02
+  x [1] =
+354.128
+  z [1] =
+1160.4
+  x [1] =
+463.46
+  z [1] =
+1010.25
+  x [1] =
+464.189
+  z [1] =
+719.134
+  x [1] =
+590.285
+  z [1] =
+528.751
+  x [1] =
+529.059
+  z [1] =
+397.553
+  x [1] =
+467.104
+  z [1] =
+383.996
+  x [1] =
+143.774
+  z [1] =
+368.398
+  x [1] =
+-17.3086
+  z [1] =
+206.732
+  x [1] =
+-16.4339
+  z [1] =
+113.436
+  x [1] =
+-112.646
+  z [1] =
+50.0232
+  x [1] =
+-117.924
+  z [1] =
+-139.884
+  x [1] =
+-49.2334
+  z [1] =
+-338.906
+  x [1] =
+-47.7757
+  z [1] =
+-528.123
+  x [1] =
+-142.53
+  z [1] =
+-545.617
+  x [1] =
+-273.728
+  z [1] =
+-542.701
+  x [1] =
+-272.27
+  z [1] =
+-475.644
+  x [1] =
+-137.428
+  z [1] =
+-478.56
+pathType = 00000000
+name = AiPath
+sObject = 0FA8CA1C
+size [1] =
+10
+label = mbtattack1
+pointCount [1] =
+22
+points [22] =
+  x [1] =
+142.187
+  z [1] =
+981.891
+  x [1] =
+175.652
+  z [1] =
+879.958
+  x [1] =
+41.0375
+  z [1] =
+674.771
+  x [1] =
+-23.4519
+  z [1] =
+626.011
+  x [1] =
+-103.88
+  z [1] =
+502.695
+  x [1] =
+-406.718
+  z [1] =
+308.388
+  x [1] =
+-446.565
+  z [1] =
+219.257
+  x [1] =
+-404.096
+  z [1] =
+162.632
+  x [1] =
+-239.465
+  z [1] =
+164.205
+  x [1] =
+-176.129
+  z [1] =
+207.198
+  x [1] =
+-111.43
+  z [1] =
+207.617
+  x [1] =
+101.857
+  z [1] =
+403.182
+  x [1] =
+265.964
+  z [1] =
+356.519
+  x [1] =
+271.731
+  z [1] =
+240.648
+  x [1] =
+46.6153
+  z [1] =
+-55.449
+  x [1] =
+-83.9565
+  z [1] =
+-141.779
+  x [1] =
+-85.0051
+  z [1] =
+-180.158
+  x [1] =
+-36.7692
+  z [1] =
+-337.973
+  x [1] =
+-36.7692
+  z [1] =
+-511.937
+  x [1] =
+-206.434
+  z [1] =
+-509.84
+  x [1] =
+-206.958
+  z [1] =
+-444.827
+  x [1] =
+9.57925
+  z [1] =
+-447.448
+pathType = 00000000
+name = AiPath
+sObject = 0FA8CA38
+size [1] =
+7
+label = patrol1
+pointCount [1] =
+42
+points [42] =
+  x [1] =
+-16.8253
+  z [1] =
+1185.6
+  x [1] =
+-159.002
+  z [1] =
+1273.27
+  x [1] =
+-240.314
+  z [1] =
+1271.08
+  x [1] =
+-405.868
+  z [1] =
+1240.31
+  x [1] =
+-471.797
+  z [1] =
+1135.56
+  x [1] =
+-488.645
+  z [1] =
+975.424
+  x [1] =
+-465.936
+  z [1] =
+890.45
+  x [1] =
+-356.934
+  z [1] =
+751.267
+  x [1] =
+-389.899
+  z [1] =
+675.815
+  x [1] =
+-440.444
+  z [1] =
+620.142
+  x [1] =
+-485.129
+  z [1] =
+600.363
+  x [1] =
+-605.852
+  z [1] =
+587.91
+  x [1] =
+-838.8
+  z [1] =
+587.91
+  x [1] =
+-866.783
+  z [1] =
+602.561
+  x [1] =
+-894.62
+  z [1] =
+638.456
+  x [1] =
+-874.108
+  z [1] =
+723.43
+  x [1] =
+-815.376
+  z [1] =
+770.307
+  x [1] =
+-764.96
+  z [1] =
+767.383
+  x [1] =
+-685.845
+  z [1] =
+598.166
+  x [1] =
+-600.724
+  z [1] =
+593.771
+  x [1] =
+-481.32
+  z [1] =
+596.701
+  x [1] =
+-405.136
+  z [1] =
+652.374
+  x [1] =
+-371.439
+  z [1] =
+702.919
+  x [1] =
+-326.754
+  z [1] =
+708.78
+  x [1] =
+-204.712
+  z [1] =
+595.968
+  x [1] =
+-119.005
+  z [1] =
+593.771
+  x [1] =
+-58.2041
+  z [1] =
+655.304
+  x [1] =
+2.59682
+  z [1] =
+697.059
+  x [1] =
+102.076
+  z [1] =
+839.172
+  x [1] =
+98.3679
+  z [1] =
+1074.26
+  x [1] =
+192.334
+  z [1] =
+1181.55
+  x [1] =
+370.336
+  z [1] =
+1179.13
+  x [1] =
+429.67
+  z [1] =
+1128.27
+  x [1] =
+530.175
+  z [1] =
+1129.48
+  x [1] =
+559.236
+  z [1] =
+1164.6
+  x [1] =
+559.236
+  z [1] =
+1261.47
+  x [1] =
+498.691
+  z [1] =
+1294.16
+  x [1] =
+337.395
+  z [1] =
+1345.56
+  x [1] =
+212.38
+  z [1] =
+1345.56
+  x [1] =
+147.53
+  z [1] =
+1229.99
+  x [1] =
+135.674
+  z [1] =
+1185.36
+  x [1] =
+-12.3084
+  z [1] =
+1185.18
+pathType = 00000000
+name = AiPath
+sObject = 0FA8CA54
+size [1] =
+7
+label = patrol2
+pointCount [1] =
+30
+points [30] =
+  x [1] =
+206.138
+  z [1] =
+1169.93
+  x [1] =
+361.395
+  z [1] =
+1166.91
+  x [1] =
+470.544
+  z [1] =
+1014.54
+  x [1] =
+472.742
+  z [1] =
+719.328
+  x [1] =
+581.89
+  z [1] =
+528.135
+  x [1] =
+535.008
+  z [1] =
+391.882
+  x [1] =
+535.74
+  z [1] =
+294.601
+  x [1] =
+620.715
+  z [1] =
+256.509
+  x [1] =
+710.085
+  z [1] =
+255.044
+  x [1] =
+775.281
+  z [1] =
+192.778
+  x [1] =
+850.293
+  z [1] =
+156.151
+  x [1] =
+912.559
+  z [1] =
+114.396
+  x [1] =
+974.093
+  z [1] =
+119.523
+  x [1] =
+1008.52
+  z [1] =
+198.638
+  x [1] =
+1000.46
+  z [1] =
+381.041
+  x [1] =
+919.819
+  z [1] =
+451.909
+  x [1] =
+967.163
+  z [1] =
+552.456
+  x [1] =
+883.99
+  z [1] =
+599.924
+  x [1] =
+843.7
+  z [1] =
+525.937
+  x [1] =
+768.179
+  z [1] =
+463.979
+  x [1] =
+724.296
+  z [1] =
+262.955
+  x [1] =
+620.275
+  z [1] =
+265.153
+  x [1] =
+452.67
+  z [1] =
+369.906
+  x [1] =
+188.076
+  z [1] =
+414.591
+  x [1] =
+55.1932
+  z [1] =
+496.636
+  x [1] =
+51.5305
+  z [1] =
+648.711
+  x [1] =
+140.168
+  z [1] =
+791.557
+  x [1] =
+118.924
+  z [1] =
+982.457
+  x [1] =
+119.657
+  z [1] =
+1071.09
+  x [1] =
+198.771
+  z [1] =
+1166.32
+pathType = 00000000
+name = AiPath
+sObject = 0FA8CA70
+size [1] =
+7
+label = patrol3
+pointCount [1] =
+26
+points [26] =
+  x [1] =
+47.1218
+  z [1] =
+979.361
+  x [1] =
+76.5834
+  z [1] =
+837.853
+  x [1] =
+19.4452
+  z [1] =
+691.345
+  x [1] =
+-43.5533
+  z [1] =
+622.633
+  x [1] =
+-83.843
+  z [1] =
+488.578
+  x [1] =
+-408.505
+  z [1] =
+284.052
+  x [1] =
+-444.4
+  z [1] =
+202.008
+  x [1] =
+-409.97
+  z [1] =
+155.125
+  x [1] =
+-238.556
+  z [1] =
+154.539
+  x [1] =
+-177.022
+  z [1] =
+113.517
+  x [1] =
+-52.4903
+  z [1] =
+114.249
+  x [1] =
+-52.4903
+  z [1] =
+221.933
+  x [1] =
+63.9837
+  z [1] =
+344.414
+  x [1] =
+59.5885
+  z [1] =
+650.762
+  x [1] =
+203.167
+  z [1] =
+860.747
+  x [1] =
+165.074
+  z [1] =
+980.151
+  x [1] =
+163.463
+  z [1] =
+1228.04
+  x [1] =
+244.921
+  z [1] =
+1262.32
+  x [1] =
+238.889
+  z [1] =
+1388.73
+  x [1] =
+72.0417
+  z [1] =
+1433.01
+  x [1] =
+-126.77
+  z [1] =
+1408.1
+  x [1] =
+-126.77
+  z [1] =
+1294.41
+  x [1] =
+-81.3524
+  z [1] =
+1274.63
+  x [1] =
+0.692181
+  z [1] =
+1198.74
+  x [1] =
+42.447
+  z [1] =
+1075.67
+  x [1] =
+46.2992
+  z [1] =
+984.658
+pathType = 00000000
+name = AiPath
+sObject = 0FA8CA8C
+size [1] =
+6
+label = stage1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+107.764
+  z [1] =
+366.789
+pathType = 00000000
+name = AiPath
+sObject = 0FA8CAA8
+size [1] =
+6
+label = stage2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-469.826
+  z [1] =
+269.215
+pathType = 00000000
+name = AiPath
+sObject = 0FA8CAC4
+size [1] =
+6
+label = stage3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+547.032
+  z [1] =
+226.597
+pathType = 00000000
+name = AiPath
+sObject = 0FA8CAE0
+size [1] =
+6
+label = stage4
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-630.579
+  z [1] =
+86.4053
+pathType = 00000000
+name = AiPath
+sObject = 0FA8CAFC
+size [1] =
+9
+label = surprise1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+175.898
+  z [1] =
+1456.15
+pathType = 00000000
+name = AiPath
+sObject = 0FA8CB18
+size [1] =
+9
+label = surprise5
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+1104.66
+  z [1] =
+687.314
+pathType = 00000000
+name = AiPath
+sObject = 0FA8CB34
+size [1] =
+9
+label = surprise6
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-777.094
+  z [1] =
+878.452
+pathType = 00000000
+name = AiPath
+sObject = 0FA8CB50
+size [1] =
+7
+label = attack4
+pointCount [1] =
+15
+points [15] =
+  x [1] =
+84.3367
+  z [1] =
+938.268
+  x [1] =
+48.1359
+  z [1] =
+700.378
+  x [1] =
+-34.6087
+  z [1] =
+615.909
+  x [1] =
+-179.412
+  z [1] =
+415.943
+  x [1] =
+-441.781
+  z [1] =
+248.041
+  x [1] =
+-440.057
+  z [1] =
+179.087
+  x [1] =
+-383.17
+  z [1] =
+144.61
+  x [1] =
+-138.384
+  z [1] =
+142.541
+  x [1] =
+-95.288
+  z [1] =
+97.7213
+  x [1] =
+-98.4393
+  z [1] =
+-150.709
+  x [1] =
+-19.4388
+  z [1] =
+-334.619
+  x [1] =
+-26.6547
+  z [1] =
+-488.453
+  x [1] =
+-257.738
+  z [1] =
+-489.614
+  x [1] =
+-258.9
+  z [1] =
+-524.451
+  x [1] =
+-146.261
+  z [1] =
+-529.096
+pathType = 00000000
+name = AiPath
+sObject = 0FA8CB6C
+size [1] =
+10
+label = mbtattack2
+pointCount [1] =
+27
+points [27] =
+  x [1] =
+136.986
+  z [1] =
+1140.31
+  x [1] =
+379.717
+  z [1] =
+1151.24
+  x [1] =
+465
+  z [1] =
+989.424
+  x [1] =
+473.747
+  z [1] =
+700.772
+  x [1] =
+583.085
+  z [1] =
+538.952
+  x [1] =
+521.856
+  z [1] =
+318.089
+  x [1] =
+672.742
+  z [1] =
+254.673
+  x [1] =
+742.719
+  z [1] =
+298.408
+  x [1] =
+766.714
+  z [1] =
+436.44
+  x [1] =
+871.737
+  z [1] =
+545.512
+  x [1] =
+930.366
+  z [1] =
+514.604
+  x [1] =
+985.449
+  z [1] =
+379.319
+  x [1] =
+996.383
+  z [1] =
+151.896
+  x [1] =
+1040.12
+  z [1] =
+9.75629
+  x [1] =
+999.273
+  z [1] =
+-211.431
+  x [1] =
+915.473
+  z [1] =
+-284.144
+  x [1] =
+709.917
+  z [1] =
+-290.704
+  x [1] =
+600.579
+  z [1] =
+-231.662
+  x [1] =
+565.591
+  z [1] =
+-245.657
+  x [1] =
+432.199
+  z [1] =
+-484.014
+  x [1] =
+440.946
+  z [1] =
+-641.46
+  x [1] =
+362.222
+  z [1] =
+-772.666
+  x [1] =
+159.195
+  z [1] =
+-639.997
+  x [1] =
+-96.9969
+  z [1] =
+-641.46
+  x [1] =
+-300.365
+  z [1] =
+-534.309
+  x [1] =
+-298.179
+  z [1] =
+-462.146
+  x [1] =
+45.1424
+  z [1] =
+-335.314
+pathType = 00000000
+name = AiPath
+sObject = 0FA8CB88
+size [1] =
+10
+label = mbtattack3
+pointCount [1] =
+19
+points [19] =
+  x [1] =
+-98.3089
+  z [1] =
+1237.4
+  x [1] =
+-232.139
+  z [1] =
+1281.14
+  x [1] =
+-463.935
+  z [1] =
+1156.49
+  x [1] =
+-485.803
+  z [1] =
+887.522
+  x [1] =
+-356.784
+  z [1] =
+730.075
+  x [1] =
+-466.122
+  z [1] =
+605.43
+  x [1] =
+-813.816
+  z [1] =
+580.063
+  x [1] =
+-875.046
+  z [1] =
+451.044
+  x [1] =
+-846.618
+  z [1] =
+376.694
+  x [1] =
+-870.672
+  z [1] =
+308.905
+  x [1] =
+-969.076
+  z [1] =
+254.236
+  x [1] =
+-940.648
+  z [1] =
+125.655
+  x [1] =
+-936.275
+  z [1] =
+18.5034
+  x [1] =
+-875.046
+  z [1] =
+-108.329
+  x [1] =
+-674.328
+  z [1] =
+-118.234
+  x [1] =
+-585.563
+  z [1] =
+-371.538
+  x [1] =
+-341.476
+  z [1] =
+-522.501
+  x [1] =
+-50.6375
+  z [1] =
+-599.037
+  x [1] =
+49.9534
+  z [1] =
+-362.867
+pathType = 00000000
+name = AiPath
+sObject = 0FA8CBA4
+size [1] =
+7
+label = patrol4
+pointCount [1] =
+18
+points [18] =
+  x [1] =
+386.745
+  z [1] =
+1360.63
+  x [1] =
+537.601
+  z [1] =
+1267.58
+  x [1] =
+561.655
+  z [1] =
+1208.54
+  x [1] =
+546.348
+  z [1] =
+1149.5
+  x [1] =
+480.745
+  z [1] =
+1116.69
+  x [1] =
+465.438
+  z [1] =
+731.824
+  x [1] =
+570.402
+  z [1] =
+552.51
+  x [1] =
+555.095
+  z [1] =
+404.685
+  x [1] =
+419.516
+  z [1] =
+391.565
+  x [1] =
+-17.8362
+  z [1] =
+542.451
+  x [1] =
+-264.94
+  z [1] =
+643.042
+  x [1] =
+-369.904
+  z [1] =
+796.115
+  x [1] =
+-507.67
+  z [1] =
+881.399
+  x [1] =
+-485.803
+  z [1] =
+1121.94
+  x [1] =
+-295.555
+  z [1] =
+1294.7
+  x [1] =
+-135.921
+  z [1] =
+1390.91
+  x [1] =
+89.315
+  z [1] =
+1434.65
+  x [1] =
+382.341
+  z [1] =
+1362.49
+pathType = 00000000
+name = AiPath
+sObject = 0FA8CBC0
+size [1] =
+8
+label = ubergun1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+559.937
+  z [1] =
+-367.935
+pathType = 00000000
+name = AiPath
+sObject = 0FA8CBDC
+size [1] =
+8
+label = ubergun2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-912.466
+  z [1] =
+-208.443
+pathType = 00000000
+name = AiPath
+sObject = 0FA8CBF8
+size [1] =
+8
+label = ubergun3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+783.648
+  z [1] =
+304.604
+pathType = 00000000
+name = AiPath
+sObject = 0FA8CC14
+size [1] =
+10
+label = laserpod1a
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+895.386
+  z [1] =
+511.03
+pathType = 00000000
+name = AiPath
+sObject = 0FA8CC30
+size [1] =
+10
+label = laserpod2b
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+946.011
+  z [1] =
+-327.505
+pathType = 00000000
+name = AiPath
+sObject = 0FA8CC4C
+size [1] =
+10
+label = laserpod4a
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-841.216
+  z [1] =
+769.252
+pathType = 00000000
+name = AiPath
+sObject = 0FA8CC68
+size [1] =
+10
+label = laserpod4b
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-730.708
+  z [1] =
+519.877
+pathType = 00000000
+name = AiPath
+sObject = 0FA8CC84
+size [1] =
+10
+label = mbtattack4
+pointCount [1] =
+12
+points [12] =
+  x [1] =
+74.3273
+  z [1] =
+1071.21
+  x [1] =
+91.6472
+  z [1] =
+804.92
+  x [1] =
+141.442
+  z [1] =
+696.67
+  x [1] =
+518.151
+  z [1] =
+296.146
+  x [1] =
+518.151
+  z [1] =
+179.236
+  x [1] =
+355.776
+  z [1] =
+-196.607
+  x [1] =
+20.2024
+  z [1] =
+-512.696
+  x [1] =
+-159.053
+  z [1] =
+-520.659
+  x [1] =
+-156.536
+  z [1] =
+-626.368
+  x [1] =
+-71.8012
+  z [1] =
+-628.885
+  x [1] =
+-72.6401
+  z [1] =
+-503.041
+  x [1] =
+-221.136
+  z [1] =
+-501.363
+pathType = 00000000
+hasEntered [1] =
+false
+ownerObj [1] =
+0
+ownerObj [1] =
+0
+ownerObj [1] =
+0
+PadData = 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+PadData2 = 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000

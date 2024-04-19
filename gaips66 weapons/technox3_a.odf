@@ -1,0 +1,180 @@
+[OrdnanceClass]
+classLabel = "BULLET"
+
+shotGeometry = "NULL"
+shotRadius = 2.0
+xplGround = "xtechit3"
+xplVehicle = "xtechit3"
+xplBuilding = "xtechit3"
+
+renderName = "technox3_a.render"
+ammoCost = 90
+lifeSpan = 3.0
+shotSpeed = 55.0
+
+damageValue(N) = 1350
+damageValue(L) = 1350
+damageValue(H) = 1350
+damageValue(S) = 1350
+damageValue(D) = 1350
+damageValue(A) = 1350
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 6
+renderName1 = "technox3_a.flare1"
+renderName2 = "technox3_a.flare2"
+renderName3 = "technox3_a.trailr"
+renderName4 = "technox3_a.trailb"
+renderName5 = "technox3_a.trailg"
+renderName6 = "technox3_a.traily"
+
+[Flare1]
+renderBase = "draw_sprite"
+textureName = "plasma.tga"
+textureBlend = "one one modulate"
+startColor = "255 63 255 255"
+finishColor = "255 63 255 255"
+startRadius = 3.2
+finishRadius = 3.2
+animateTime = 3.0
+
+[Flare2]
+renderBase = "draw_sprite"
+textureName = "plasma.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 255"
+finishColor = "255 255 255 255"
+startRadius = 1.5
+finishRadius = 1.5
+animateTime = 3.0
+
+[TrailR]
+renderBase = "draw_emit"
+emitName = "technox3_a.sparkr"
+emitDelay = 0.5
+emitVelocity = "0.0 0.0 30.0"
+emitVariance = "10.0 10.0 10.0"
+
+[TrailB]
+renderBase = "draw_emit"
+emitName = "technox3_a.sparkb"
+emitDelay = 0.5
+emitVelocity = "0.0 0.0 30.0"
+emitVariance = "10.0 10.0 10.0"
+
+[TrailG]
+renderBase = "draw_emit"
+emitName = "technox3_a.sparkg"
+emitDelay = 0.5
+emitVelocity = "0.0 0.0 30.0"
+emitVariance = "10.0 10.0 10.0"
+
+[TrailY]
+renderBase = "draw_emit"
+emitName = "technox3_a.sparky"
+emitDelay = 0.5
+emitVelocity = "0.0 0.0 30.0"
+emitVariance = "10.0 10.0 10.0"
+
+[SparkR]
+simulateBase = "sim_smoke"
+lifeTime = 0.5
+renderBase = "draw_multi"
+renderCount = 3
+renderName1 = "technox3_a.sparkflare2"
+renderName2 = "technox3_a.sparkflarer"
+renderName3 = "technox3_a.sparktrailr"
+
+[SparkB]
+simulateBase = "sim_smoke"
+lifeTime = 1.0
+renderBase = "draw_multi"
+renderCount = 3
+renderName1 = "technox3_a.sparkflare2"
+renderName2 = "technox3_a.sparkflareb"
+renderName3 = "technox3_a.sparktrailb"
+
+[SparkG]
+simulateBase = "sim_smoke"
+lifeTime = 0.75
+renderBase = "draw_multi"
+renderCount = 3
+renderName1 = "technox3_a.sparkflare2"
+renderName2 = "technox3_a.sparkflareg"
+renderName3 = "technox3_a.sparktrailg"
+
+[SparkY]
+simulateBase = "sim_smoke"
+lifeTime = 0.75
+renderBase = "draw_multi"
+renderCount = 3
+renderName1 = "technox3_a.sparkflare2"
+renderName2 = "technox3_a.sparkflarey"
+renderName3 = "technox3_a.sparktraily"
+
+[SparkFlare]
+renderBase = "draw_sprite"
+textureName = "plasma.tga"
+textureBlend = "one one modulate"
+startRadius = 2.0
+finishRadius = 0.4
+animateTime = 1.0
+
+[SparkFlare2]
+renderBase = "draw_sprite"
+textureName = "plasma.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 255"
+finishColor = "255 255 255 0"
+startRadius = 0.6
+finishRadius = 0.12
+animateTime = 1.0
+
+[SparkFlareR]
+renderBase = "technox3_a.sparkflare"
+startColor = "255 255 63 255"
+finishColor = "255 0 0 0"
+
+[SparkFlareB]
+renderBase = "technox3_a.sparkflare"
+startColor = "63 255 255 255"
+finishColor = "0 0 255 0"
+
+[SparkFlareG]
+renderBase = "technox3_a.sparkflare"
+startColor = "255 63 255 255"
+finishColor = "0 255 0 0"
+
+[SparkFlareY]
+renderBase = "technox3_a.sparkflare"
+startColor = "63 63 255 255"
+finishColor = "255 255 0 0"
+
+[SparkTrail]
+renderBase = "draw_trail"
+textureBlend = "one one modulate"
+startRadius = 0.1
+finishRadius = 0.0
+segmentTime = 0.03
+trailTime = 0.2
+
+[SparkTrailR]
+renderBase = "technox3_a.sparktrail"
+startColor = "255 255 63 255"
+finishColor = "255 0 0 0"
+
+[SparkTrailB]
+renderBase = "technox3_a.sparktrail"
+startColor = "63 255 255 255"
+finishColor = "0 0 255 0"
+
+[SparkTrailG]
+renderBase = "technox3_a.sparktrail"
+startColor = "255 63 255 255"
+finishColor = "0 255 0 0"
+
+[SparkTrailY]
+renderBase = "technox3_a.sparktrail"
+startColor = "63 63 255 255"
+finishColor = "255 255 0 0"

@@ -1,0 +1,89 @@
+[OrdnanceClass]
+classLabel = "thermalmissile"
+
+shotGeometry = "sgstng00.xsi"
+shotSound = "crckt02.wav"
+
+renderName = "lashmsl66c.render"
+
+xplGround = "xlashm66g"
+xplVehicle = "xlashm66xpl"
+xplBuilding = "xlashm66xpl"
+
+ammoCost = 10
+lifeSpan = 9.0
+shotSpeed = 40.0
+
+damageValue(N) = 270
+damageValue(L) = 170
+damageValue(H) = 80
+
+damageValue(S) = 170
+damageValue(D) = 80
+damageValue(A) = 270
+
+[MissileClass]
+omegaTurn = 2.0
+omegaWaver = 1.5
+rateWaver = 2.5
+TeamFilter = 68  // 0 = targets all teams, 1 = targets same team only, 2 = targets only allies, 3 = targets only enemies, 4 = targets not same team
+
+[ThermalMissileClass]
+coneAngle = 0.75
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 4
+renderName1 = "lashmsl66c.flare"
+renderName2 = "lashmsl66c.smoke"
+renderName3 = "lashmsl66c.flame"
+renderName4 = "lashmsl66c.light"
+
+[Flare]
+renderBase = "draw_sprite"
+textureName = "lightflare.tga"
+textureBlend = "one one modulate"
+startColor = "255 223 31 2550"
+finishColor = "255 223 31 2550"
+startRadius = 0.5
+finishRadius = 0.5
+
+[Smoke]
+renderBase = "draw_twirl_trail"
+textureName = "smoke.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "63 31 0 128"
+finishColor = "31 0 0 0"
+startRadius = 0.5
+finishRadius = 1.0
+animateTime = 2.6
+emitDelay = 0.02
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "4.0 4.0 3.0"
+emitLife = 2.6
+
+[Flame]
+renderBase = "draw_twirl_trail"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+//textureRate = 0.004
+startColor = "255 127 31 255"
+finishColor = "255 61 0 0"
+startRadius = 0.5
+finishRadius = 0.1
+animateTime = 1.2
+emitDelay = 0.005
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "4.0 4.0 3.0"
+emitLife = 1.2
+
+[Light]
+renderBase = "draw_light"
+startColor = "191 191 31 500"
+finishColor = "191 191 31 500"
+startRadius = 20.0
+finishRadius = 20.0
+animateTime = 0.5
+attenuateConstant = 0.0
+attenuateLinear = 0.0
+attenuateQuadratic = 0.0

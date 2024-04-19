@@ -1,0 +1,32 @@
+[GameObjectClass]
+classLabel = "ivscout66"
+
+unitName = "Scout"
+
+
+provideCount = 4
+provideName1 = "ivscout66m"
+provideName2 = "VIRTUAL_CLASS_SCOUT"
+provideName3 = "DefendUnit"
+provideName4 = "Scout"
+
+/////// weapons ///////////////////
+
+weaponName1 = "gminign66c"	//"gminigun_c"
+weaponName2 = "gminign66c"	//"gminigun_c"
+
+//////////////////////////////////
+
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+GotoTaskHasLeader = false
+AttackTaskUsesGroups = false
+
+
+[HoverCraftClass]
+
+[Lod1]
+
+[Lod2]

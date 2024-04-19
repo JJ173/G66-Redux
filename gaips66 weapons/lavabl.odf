@@ -1,0 +1,36 @@
+[OrdnanceClass]
+classLabel = "bouncebomb"
+shotGeometry = "NULL"
+
+xplGround = "xlavagnd"
+xplVehicle = "xlavahit"
+xplBuilding = "xlavahit"
+xplExpire = "xlavagnd"
+
+renderName = "lavabl.render"
+ammoCost = 1
+lifeSpan = 3.0
+shotSpeed = 8.0
+
+damageValue(N) = 80
+damageValue(L) = 60
+damageValue(H) = 40
+damageValue(S) = 60
+damageValue(D) = 80
+damageValue(A) = 40
+
+[BounceBombClass]
+bounceRatio = 0.7
+//bounceSound = "jax02b.wav"
+bounceSound = "silence.wav"
+
+[Render]
+renderBase = "draw_twirl"
+textureName =  "gunk.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "255 63 0 2550"
+finishColor = "255 0 0 2550"
+startRadius = 1.0
+finishRadius = 1.5
+animateTime = 3.0
+rotationRate = 4.0

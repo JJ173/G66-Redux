@@ -1,0 +1,43 @@
+[GameObjectClass]
+classLabel = "ivtank66"
+
+addAmmo = 10
+
+/////// REQUIREMENTS ///////////////
+
+requireCount = 2
+requireName1 = "ibfact66c"
+requireText1 = "Build Factory"
+requireName2 = "ibcbun"
+requireText2 = "Build Relay Bunker"
+
+provideCount = 3
+provideName1 = "ivtank66a"
+provideName2 = "DefendUnit"
+provideName3 = "Tank"
+
+/////// weapons ///////////////////
+
+weaponMask = 00011
+
+weaponName2 = "gminign66c"	//"gminigun_c"
+weaponName3 = "gminign66c"	//"gminigun_c"
+
+////////////////////////////////////
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+
+[HoverCraftClass]
+
+[Lod1]
+
+[Lod2]

@@ -1,0 +1,67 @@
+// G66 2.0 Weapon Availability for selecting weapons in Matriarch and Kiln/Forge Unit Hardpoint Customization Consoles
+//
+[Gun]
+weaponCount = 5
+weaponName1 = "fpfiongn66"	//"apiong"
+weaponName2 = "fplock"
+weaponName3 = "fpfgaussg66"	//"apgaus"
+weaponName4 = "fpfzapgn66"	//"fpzapgun"
+weaponName5 = "fpqteps66"
+
+[Cannon]
+weaponCount = 8
+weaponName1 = "fpsplasma"
+weaponName2 = "fpsonic"
+weaponName3 = "fpquil"
+weaponName4 = "fparcc"
+weaponName5 = "fpxnstr"
+weaponName6 = "fpvenom"
+weaponName7 = "fpactnc"
+weaponName8 = "fpombst2"
+
+[Rocket]
+weaponCount = 4
+weaponName1 = "fpsting"
+weaponName2 = "fpmlock"
+weaponName3 = "fpkrknmsl"
+weaponName4 = "fplaserrocket66"
+
+[Mortar]
+weaponCount = 5
+weaponName1 = "fpsartl"
+weaponName2 = "fpgas"
+weaponName3 = "fpresn"
+weaponName4 = "fppopg"
+weaponName5 = "fplaserpopgun66"
+
+[Special]
+weaponCount = 10
+weaponName1 = "fpprox"
+weaponName2 = "fpflar_s"
+weaponName3 = "fpseek_f"
+weaponName4 = "fpblnk"
+weaponName5 = "fpstatic"
+weaponName6 = "fpjax"
+weaponName7 = "fpgasplume"
+weaponName8 = "fptesla"
+weaponName9 = "fprush"
+weaponName10 = "fpreveal66"
+
+[Shield]
+weaponCount = 3
+weaponName1 = "fpshld"
+weaponName2 = "fpdefl"
+weaponName3 = "fpabso"
+
+[Hand]
+weaponCount = 4
+weaponName1 = "fpbazo66"
+weaponName2 = "fpsnip"
+weaponName3 = "fpkzap66"
+weaponName4 = "fpsubversion"
+
+[Pack]
+weaponCount = 3
+weaponName1 = "fpgren66"
+weaponName2 = "fpjetp66"
+weaponName3 = "fpsatc66"

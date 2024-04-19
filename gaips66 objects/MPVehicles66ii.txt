@@ -1,0 +1,18 @@
+//
+// MPVehicles66ii.txt - listing of multiplayer vehicles usable in BZ2 G66 2.0
+//
+// Format of lines: xsi filename, space separator, odf filename, space separator, description
+// Lines starting with // are ignored. 
+//
+// Tip: do not put .odf extension on odf filename; added automatically on loading
+
+// A maximum of 32 units can be displayed in bz2 at one time.  If any more than 32 are added, the game will crash.
+// Most of the vehicles are disabled due to this bug, but the host is free to uncomment the disabled vehicles to add them
+// to his or her game.
+
+ivscout00.xsi ivctscout4 Thunderbolt i1
+ivscout00.xsi ivctscout5 Thunderbolt i2
+ivscout00.xsi ivctscout6 Thunderbolt i3
+ivscout00.xsi ivcscout3 Thunderbolt i4
+ivscout00.xsi ivcscout4 Thunderbolt i5
+ivwalk_skel.xsi ivctwalk2 Attila i1

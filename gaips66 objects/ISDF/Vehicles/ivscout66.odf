@@ -1,0 +1,50 @@
+[GameObjectClass]
+classLabel = "ivscout"
+
+unitName = "Scout"
+
+scrapValue = 15
+scrapCost = 50
+customCost = 60
+
+buildTime = 15.0
+customTime = 15.0
+
+maxHealth = 1800
+maxAmmo = 1500
+
+addAmmo = 5
+aiAddAmmo = 30
+
+provideCount = 4
+provideName1 = "ivscout66"
+provideName2 = "VIRTUAL_CLASS_SCOUT"
+provideName3 = "DefendUnit"
+provideName4 = "Scout"
+
+/////// weapons ///////////////////
+
+weaponName1 = "gminign66c"	//"gminigun_c"
+weaponName2 = "gminign66c"	//"gminigun_c"
+
+//////////////////////////////////
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+attackTask = "MortarBikeAttack"
+subAttackTask = "MortarBikeSubAttack"
+subAttackClass = "NNN"
+
+// subAttackClass uses 3 letters.
+// 1st letter is either A or N.     A is include Air targets.         N is attack ground only.
+// 2nd letter is either D or N.     D is to deploy before attacking.  N for regular attack.
+// 3rd letter is either S or N.     S is to use Weapon Range.         N is use the Engage Range to attack. 
+
+
+[HoverCraftClass]
+
+[Lod1]
+
+[Lod2]

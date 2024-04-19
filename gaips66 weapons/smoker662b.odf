@@ -1,0 +1,32 @@
+[GameObjectClass]
+geometryName = "bz1gysr.xsi"
+classLabel = "flare"
+scrapCost = 0
+scrapValue = 0
+maxHealth = 9999
+maxAmmo = 999
+unitName = "Smoker"
+heatSignature = 35.0
+explosionName = "xsmk662xpl"
+
+[MineClass]
+lifeSpan = 18.0
+
+[FlareMineClass]
+payloadName = "smkflar662"
+fireSound = "smine01.wav"
+triggerDelay = 0.0
+shotDelay = 0.1
+shotVariance = 0.4
+
+damageRadius = 10.0
+damageValue(N) = 30	// none
+damageValue(L) = 15	// light
+damageValue(H) = 7	// heavy
+damageValue(S) = 15	// Stasis
+damageValue(D) = 7	// Deflection
+damageValue(A) = 30	// Absorption
+
+kickRadius = 10.0
+kickVeloc = 0.1
+kickOmega = 0.3

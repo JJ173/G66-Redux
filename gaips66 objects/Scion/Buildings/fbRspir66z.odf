@@ -1,0 +1,43 @@
+[GameObjectClass]
+classLabel = "fbrspir66"
+
+aiName = "SupportProcess"
+aiName2 = "SupportProcess"
+
+scrapCost = 15
+scrapValue = 10
+
+heatSignature = 2.0
+imageSignature = 1.0
+radarSignature = 1.0
+isAssault = 1
+
+armorClass = H
+
+buildSupport = "A"
+buildRequire = "F"
+
+requireCount = 1
+requireName1 = "fbforg"
+requireText1 = "Upgrade Kiln"
+
+provideCount = 3
+provideName3 = "fbRspir66z"
+
+///// WEAPON ////////////////////
+
+weaponName1 = "gbanemsl66a"
+weaponName2 = "gbanemsl66a"
+weaponName3 = "gbanemsl66a"
+
+/////////////////////////////////
+
+[BuildingClass]
+
+[CraftClass]
+rangeScan = 400.0f	//220.0
+
+engageRange = 260	//200
+
+[TurretCraftClass]
+detectRange = 280	//220

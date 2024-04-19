@@ -1,0 +1,75 @@
+// =================
+// LASER VEHICLE HIT
+// =================
+
+[ExplosionClass]
+classLabel = "explosion"
+
+explSound = "xsv2.wav"
+damageRadius = 0.0
+damageValue(N) = 0
+damageValue(L) = 0
+damageValue(H) = 0
+damageValue(S) = 0
+damageValue(D) = 0
+damageValue(A) = 0
+
+particleTypes = 3
+
+particleClass1 = "xlaze2car.core"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+
+particleClass2 = "xlaze2car.cloud"
+particleCount2 = 1
+particleVeloc2 = "0.0 0.0 0.0"
+
+particleClass3 = "xlaze2car.spark"
+particleCount3 = 5
+particleVeloc3 = "75.0 95.0 75.0"
+
+
+[Core]
+simulateBase = "sim_null"
+lifeTime = 0.3
+renderBase = "draw_twirl"
+textureName = "ring.tga"
+textureBlend = "one one modulate"
+startColor = "25 25 200 255"
+finishColor = "0 0 0 0"
+startRadius = 0.2
+finishRadius = 1.5
+animateTime = 0.3
+
+[cloud]
+simulateBase = "sim_dust"
+lifeTime = .5
+renderBase = "draw_emit"
+emitName = "xlaze2car.cloudemit"
+emitDelay = 1.0
+emitVelocity = "0.0 1.0 0.0"
+emitVariance = "0.0 1.0 0.0"
+
+[cloudemit]
+simulateBase = "sim_smoke"
+lifeTime = 1.3
+renderBase = "draw_twirl"
+textureName = "smoke.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "50 50 50 255"
+finishColor = "100 100 100 0"
+startRadius = 1.0
+finishRadius = 2.0 //
+animateTime = 1.3
+
+[spark]
+simulateBase = "sim_ember"
+lifeTime = 1.5
+renderBase = "draw_twirl"
+textureName = "flare.tga" // flame
+textureBlend = "one one modulate"
+startColor = "5 250 50 200"
+finishColor = "15 30 220 0"
+startRadius = 0.4
+finishRadius = 0.01
+animateTime = 1.5

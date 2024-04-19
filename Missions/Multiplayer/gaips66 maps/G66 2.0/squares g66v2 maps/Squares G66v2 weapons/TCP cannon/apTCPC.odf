@@ -1,0 +1,25 @@
+[GameObjectClass]
+geometryName = "apcann00.xsi"
+classLabel = "wpnpower"
+scrapCost = 40
+scrapValue = 0
+maxHealth = 150
+maxAmmo = 0
+unitName = "TCP Cannon"
+aiName = "PowerUpProcess"
+
+lightHard1 = "hp_light_1"
+lightName1 = "omnipurple"
+
+requireCount = 2
+requireName1 = "ibarmo"
+requireText1 = "Build Armory"
+requireName2 = "ibtcen"
+requireText2 = "Build Tech Center"
+
+[PowerUpClass]
+soundPickup = "pickup01.wav"
+soundReject = "reject.wav"
+
+[WeaponPowerupClass]
+weaponName = "gTCPC_c"

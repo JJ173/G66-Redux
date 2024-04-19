@@ -1,0 +1,23 @@
+[GameObjectClass]
+classLabel = "fvscav66"
+
+collisionRadius = 10.0
+
+//requireCount = 1
+//requireName1 = "fbrecy66d"
+//requireText1 = "Build at Matriarch"
+
+provideCount = 2
+provideName2 = "Scav"
+
+[CraftClass]
+
+otherMsg = "fvscav11.wav"
+
+[TrackedVehicleClass]
+
+[TrackedDeployableClass]
+
+[ScavengerClass]
+BuildSparkConfig = "sparker"
+deployClass = "fbscav66c"

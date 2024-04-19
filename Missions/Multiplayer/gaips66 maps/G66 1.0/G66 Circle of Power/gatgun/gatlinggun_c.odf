@@ -1,0 +1,39 @@
+[OrdnanceClass]
+classLabel = "bullet"
+shotGeometry = "NULL"
+
+xplGround = "xgungnd"
+xplVehicle = "xguncar"
+xplBuilding = "xguncar"
+
+renderName = "gatlinggun_c.render"
+
+ammoCost = 3.0
+lifeSpan = 0.35 // 150m  135 GEC
+shotSpeed = 430.0
+
+//damageValue(N) = 10 // none // 120
+//damageValue(L) = 8  // light // 120
+//damageValue(H) = 6  // heavy // 40
+
+//damageValue(S) = 8  // Stasis // 100
+//damageValue(D) = 6  // Deflection // 60
+//damageValue(A) = 10 // Absorption // 120
+
+damageValue(N) = 12 // none // 120
+damageValue(L) = 10  // light // 120
+damageValue(H) = 8  // heavy // 40
+
+damageValue(S) = 10  // Stasis // 100
+damageValue(D) = 8  // Deflection // 60
+damageValue(A) = 12 // Absorption // 120
+
+[Render]
+renderBase = "draw_trail"
+textureBlend = "one one modulate"
+textureName = "trail.tga"
+startColor = "255 100 0 250"
+finishColor = "255 0 0 100"
+startRadius = 0.03
+finishRadius = 0.15
+segmentTime = 0.05

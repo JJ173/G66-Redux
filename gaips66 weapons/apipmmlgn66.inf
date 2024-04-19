@@ -1,0 +1,8 @@
+MP-SG PUMMEL GUN
+Scatter-shot cannon.
+-- Combat --
+Range: 80m  Rate: 960r/m
+Ammo: Moderate  Damage: Moderate
+-- Assault --
+Range: 60m  Rate: 960r/m
+Ammo: Moderate  Damage: High

@@ -1,0 +1,54 @@
+[OrdnanceClass]
+classLabel = "anchor"
+
+shotGeometry = "NULL"
+xplGround = "xmdsa66hit"
+xplVehicle = "xmdsa66hit"
+xplBuilding = "xmdsa66hit"
+
+renderName = "medusa66a.render"
+
+ammoCost = 2
+lifeSpan = 1.0
+shotSpeed = 65.0
+
+damageValue(N) = 22
+damageValue(L) = 12
+damageValue(H) = 5
+
+damageValue(S) = 5
+damageValue(D) = 12
+damageValue(A) = 22
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 2
+renderName1 = "medusa66a.puff"
+renderName2 = "medusa66a.flame"
+
+[LeaderRoundClass]
+stickTime = 1.0		//0.1
+
+[AnchorRocketClass]
+accelDrag = 6.0
+alphaDrag = 0.35
+
+[Puff]
+renderBase = "draw_twirl"
+textureName = "flame2.tga"
+textureBlend = "one one modulate"
+startColor = "0 191 0 31"
+finishColor = "95 191 0 0"
+startRadius = 1.0
+finishRadius = 5.0
+animateTime = 1.2
+
+[Flame]
+renderBase = "draw_twirl"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "0 159 0 127"
+finishColor = "0 159 0 0"
+startRadius = 0.8
+finishRadius = 0.3
+animateTime = 0.5

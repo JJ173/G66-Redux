@@ -1,0 +1,31 @@
+[GameObjectClass]
+classLabel = "ivmisl66m"
+
+provideCount = 4
+provideName3 = "ivctmisl03"
+provideName4 = "DefendUnit"
+
+/////// weapons ///////////////////
+
+weaponName1 = "gshadow_c"
+weaponName2 = "gshadow_c"
+weaponName3 = "gffld66"
+
+//////////////////////////////////
+	
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+
+[HoverCraftClass]
+
+[Lod1]
+
+[Lod2]

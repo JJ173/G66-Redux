@@ -1,0 +1,26 @@
+[GameObjectClass]
+classLabel = "fbrspir66"
+
+requireCount = 1
+requireName1 = "fbforg"
+requireText1 = "Upgrade Kiln"
+
+provideCount = 3
+provideName1 = "fbspir"
+provideName2 = "fbrspir66"
+provideName3 = "RocketTower"
+
+///// WEAPON ////////////////////
+
+weaponName1 = "gscrge66m"
+weaponName2 = "gscrge66m"
+weaponName3 = "gscrge66m"
+
+/////////////////////////////////
+
+[BuildingClass]
+
+[CraftClass]
+rangeScan = 220.0
+
+[TurretCraftClass]

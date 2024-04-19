@@ -1,0 +1,153 @@
+[GameObjectClass]
+classLabel = "animal"
+geometryName = "jak_skel.xsi"
+geometryScale = 0.24
+
+unitName = "Jak Killer"
+aiName = "LandAnimalProcess"
+aiName2 = "AlternateAnimalProcess"
+
+//PilotConfig = "mspilo" // If blank, uses [if]spilo/[if]suser. Otherwise, pilot for craft
+
+scrapCost = 0
+scrapValue = 0
+//pilotCost = 1
+needPilot = 0
+addPilot = 0
+
+maxHealth = 250
+maxAmmo = 3
+
+heatSignature = 0.2
+imageSignature = 0.3
+radarSignature = 0.2
+canDetect = 1
+
+animCount = 12
+
+animName1 = "idle"
+animFile1 = "jak_idle.xsi"
+
+animName2 = "walk"
+animFile2 = "jak_walk.xsi"
+
+animName3 = "run"
+animFile3 = "jak_run.xsi"
+
+animName4 = "sprint"
+animFile4 = "jak_sprint.xsi"
+		  
+animName5 = "death"
+animFile5 = "jak_death01.xsi"
+		 
+animName6 = "curious"
+animFile6 = "jak_curious.xsi"
+		 
+animName7 = "attack1"
+animFile7 = "jak_attack01.xsi"
+		 
+animName8 = "attack2"
+animFile8 = "jak_attack02.xsi"
+		 
+animName9 = "attack3"
+animFile9 = "jak_attack03.xsi"
+		
+animName10 = "attack4"
+animFile10  = "jak_attack04.xsi"
+
+animName11 = "eat1"
+animFile11 = "jak_eat01.xsi"
+
+animName12 = "eat2"
+animFile12 = "jak_eat02.xsi"
+
+[CraftClass]
+braccelFactor = 0.08
+velFactor = 0.4
+steerFactor = 1
+omegaFactor = 0.4
+strafeFactor = 0.1
+
+canBailout = false // default
+canRescue = 0
+can AIEject = 0
+canRecycle = 0
+DoBettyLost = 0
+canSnipe = 0
+
+AttackTaskUsesGroups = false
+GotoTaskHasleader = false
+PathingType = 2
+AvoidType = 1
+
+LandAnimalTCoolDist = 125.0	  // for LandAnimalProcess.cpp. Dist looking for tanks
+LandAnimalTYumDist = 75.0	  // for LandAnimalProcess.cpp. Dist looking for pilots
+LandAnimalTGotoClose = 15.0	  // for LandAnimalProcess.cpp. 
+LandAnimalTGotoCloseMax = 30.0	  // for LandAnimalProcess.cpp. 
+LandAnimalTFleeDist = 75.0	  // for LandAnimalProcess.cpp. 
+LandAnimalTGoto2AttackDist = 15.0 // for LandAnimalProcess.cpp. How close we need to be to switch from GOTO to ATTACK
+LandAnimalTDontStand = false	  // for LandAnimalProcess.cpp. 
+
+AltAnimalTCoolDist = 125.0	  // for AlternateAnimalProcess.cpp. Dist looking for tanks
+AltAnimalTYumDist = 75.0	  // for AlternateAnimalProcess.cpp. Dist looking for pilots
+AltAnimalTGotoClose = 15.0	  // for AlternateAnimalProcess.cpp. 
+AltAnimalTGotoCloseMax = 30.0	  // for AlternateAnimalProcess.cpp. 
+AltAnimalTFleeDist = 75.0	  // for AlternateAnimalProcess.cpp. 
+AltAnimalTGoto2AttackDist = 15.0  // for AlternateAnimalProcess.cpp. How close we need to be to switch from GOTO to ATTACK
+AltAnimalTDontStand = false	  // for AlternateAnimalProcess.cpp. 
+
+
+[LandCreature]
+animRate = 10.0
+velocJump = 12
+velocForward = 14.0
+accelThrust = 14
+
+TooFarDist = 17.5		  // Distance at which attacks stop
+DamageBase = 100.0		  // This and below are used when applying damage to a target
+DamageArmor = 10.0
+DamageShield = 10.0
+DamageValue = 100.0
+
+burnSound1 = "jak07.wav"
+burnSound2 = "jak08.wav"
+
+crushSound = "jaksquish.wav"
+
+curiousSound1 = "jak02.wav"
+curiousSound2 = "jak02b.wav"
+curiousSound3 = "jak02c.wav"
+curiousSound4 = "jak02d.wav"
+
+dieSound1  = "jak08.wav"
+dieSound2  = "jak08.wav"
+dieSound3  = "jak08.wav"
+dieSound4  = "jak08.wav"
+dieSound5  = "jak08.wav"
+
+//eatSound1 = "jak02.wav"
+//eatSound2 = "jak02b.wav"
+//eatSound3 = "jak02c.wav"
+//eatSound4 = "jak02d.wav"
+
+painSound1 = "jak07.wav"
+painSound2 = "jak07.wav"
+painSound3 = "jak07.wav"
+painSound4 = "jak07.wav"
+painSound5 = "jak07.wav"
+painSound6 = "jak07.wav"
+
+jumpSound  = "jump.wav"
+landSound  = "iland01.wav"
+stepSound  = "jakstep.wav"
+
+// in degrees/sec
+alphaSteer = 20.0
+omegaSpin =  60.0
+omegaTurn = 150.0
+
+leftfootpiece = "hp_lfoot"
+rightfootpiece = "hp_rfoot"
+
+
+

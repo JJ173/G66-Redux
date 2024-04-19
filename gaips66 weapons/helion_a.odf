@@ -1,0 +1,54 @@
+[OrdnanceClass]
+classLabel = "beam"
+
+shotGeometry = "NULL"
+xplGround = "xhlngnhit"
+xplVehicle = "xhlngnhit"
+xplBuilding = "xhlngnhit"
+
+renderName = "helion_a.render"
+
+ammoCost = 35
+lifeSpan = 200e-6 // 200m
+shotSpeed = 1e6
+
+damageValue(N) = 120	//157
+damageValue(L) = 90	//112
+damageValue(H) = 67	//77
+
+damageValue(S) = 67	//77
+damageValue(D) = 75	//90
+damageValue(A) = 105	//135
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 2
+renderName1 = "helion_a.core"
+renderName2 = "helion_a.fringe"
+
+[Core]
+renderBase = "draw_bolt"
+textureName = "trail2.tga"
+textureBlend = "one one modulate"
+startColor = "255 215 0 255"
+finishColor = "255 215 0 0"
+startRadius = 0.7
+finishRadius = 0.3
+segmentLength = 5.0
+segmentVariance = "0.0 0.0 0.0"
+animateTime = 0.2
+textureRate = 0.01
+
+[Fringe]
+renderBase = "draw_bolt"
+textureName = "trail2.tga"
+textureBlend = "one one modulate"
+startColor = "255 215 0 255"
+finishColor = "255 215 0 0"
+startRadius = 0.8
+finishRadius = 3.2
+segmentLength = 5.0
+segmentVariance = "0.0 0.0 0.0"
+animateTime = 0.3
+textureRate = 0.02
+textureSpeed = -5.0

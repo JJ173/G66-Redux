@@ -1,0 +1,31 @@
+[OrdnanceClass]
+classLabel = "bullet"
+
+shotGeometry = "NULL"
+shotRadius = 1.0
+xplGround = "xflmhit"
+xplVehicle = "xflmhit"
+xplBuilding = "xflmhit"
+
+renderName = "flame66_c.puff"
+ammoCost = 1
+lifeSpan = 3.0
+shotSpeed = 50.0
+
+damageValue(N) = 25	// none
+damageValue(L) = 10	// light
+damageValue(H) = 5	// heavy
+
+damageValue(S) = 10	// Stasis
+damageValue(D) = 15	// Deflection
+damageValue(A) = 5	// Absorption
+
+[Puff]
+renderBase = "draw_twirl"
+textureName = "flame2.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 128"
+finishColor = "255 255 255 0"
+startRadius = 1.0
+finishRadius = 5.0
+animateTime = 1.0

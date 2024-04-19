@@ -1,0 +1,97 @@
+[Size]
+MetersPerGrid = 8.0
+HeightGranularity = 0.1
+MinX = -2048.0
+MinZ = -2048.0
+Width = 4096.0
+Depth = 4096.0
+Height = 5.0
+Tile = 1
+Color = "212 184 217 255"
+
+[NormalView]
+FogColor="153 109 143"	//"153 109 143 255"
+FogStart250
+FogEnd=350
+VisibilityRange=375
+
+[World]
+MusicTrack1=6
+MusicTrack2=7
+
+[Light]
+SunPeriod = 24.0
+SunAngle = 9.0
+SunColor = "240 240 240"
+AmbientColor = "30 20 20 30"
+
+[Sky]
+SkyType= 0
+SkyHeight = 100
+SkyTexture = darksky.tga
+SkyColor = "0 0 0 255"
+SunTexture = sun.0
+SunColor = "0 0 0 0"
+
+[Water]
+WaterTexture1 = "plutoice.tga"
+WaterDiffuse1 = "89 69 105 64"
+WaterBlend1 = "srcalpha invsrcalpha modulatealpha"
+BumpTexture1 = "plutoice.tga"
+BumpDiffuse1 = "255 255 255 64"
+BumpBlend1 = "srcalpha invsrcalpha modulatealpha"
+WaterTexture2 = "water256.tga"
+WaterDiffuse2 = "13 39 71 220"
+WaterBlend2 = "srcalpha invsrcalpha modulatealpha"
+BumpTexture2 = "water256.tga"
+BumpDiffuse2 = "13 39 71 220"
+BumpBlend2 = "srcalpha invsrcalpha modulatealpha"
+
+[Texture]
+TileTexture1  = "bane.tga"
+TileTexture2  = "bane2.tga"
+TileTexture3  = "bane3.tga"
+TileTexture4  = "bane4.tga"
+TileTexture5  = "bane5.tga"
+TileTexture6  = "dune3.tga"
+TileTexture7  = "dune4.tga"
+TileTexture8  = "mire5.tga"
+TileTexture9  = "mire6.tga"
+TileTexture10 = "metal2.tga"
+TileTexture11 = "nattybumppo.tga"
+TileTexture12 = "mire.tga"
+
+[Clouds]
+Count    = 0
+Type     = 1
+TileSize = 200
+
+Texture0 = acloud2.tga
+Size0    = 100
+Height0  = 30
+
+Texture1 = acloud.tga
+Size1    = 100
+Height1  = 40
+
+Texture2 = acloud2.tga
+Size2    = 100
+Height2  = 50
+
+
+[Dome]
+DomeGeom    = plutodome.xsi
+DomeRadius  = 275
+DomeHeight  = 50
+DomeType    = 0
+DomeUVSpeed = "0.002 0.002 0.002"
+
+Count       = 0
+Type        = 1
+TileSize    = 375
+
+Geom0       = mirecloud.xsi
+Height0     = 100
+Fade0       = "0.25 0.75 1.00"
+UVSpeed0    = "0.00 0.01 0.00"
+Scale0      = "1.00 1.00 1.00"

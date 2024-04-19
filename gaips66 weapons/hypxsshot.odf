@@ -1,0 +1,56 @@
+[OrdnanceClass]
+classLabel = "bullet"
+shotGeometry = "NULL"
+shotSound = "igtow04.wav"
+renderName = "hypxsshot.render"
+
+xplGround = "xsbazgnd_c"
+xplVehicle = "xsbazcar_c"
+xplBuilding = "xsbazcar_c"
+
+ammoCost = 0
+lifeSpan = 1.0
+shotSpeed = 250.0
+
+damageValue(N) = 600 // none
+damageValue(L) = 450 // light
+damageValue(H) = 300 // heavy
+
+damageValue(S) = 600 // Stasis
+damageValue(D) = 450 // Deflection
+damageValue(A) = 300 // Absorption
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 3
+renderName1 = "hypxsshot.flare"
+renderName2 = "hypxsshot.halo"
+renderName3 = "hypxsshot.trail"
+
+[Flare]
+renderBase = "draw_sprite"
+textureName = "lightflare.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 63"
+finishColor = "255 255 255 63"
+startRadius = 0.5
+finishRadius = 0.5
+
+[Halo]
+renderBase = "draw_sprite"
+textureName = "lighthalo.tga"
+textureBlend = "one one modulate"
+startColor = "63 191 63 127"
+finishColor = "63 191 63 127"
+startRadius = 0.5
+finishRadius = 0.5
+
+[Trail]
+renderBase = "draw_trail"
+textureName = "trail2.tga"
+textureBlend = "one one modulate"
+startColor = "191 255 191 50"
+finishColor = "191 191 191 0"
+startRadius = 0.4
+finishRadius = 1.2
+segmentTime = 0.3

@@ -1,0 +1,18 @@
+ISDF "Attila" WALKER
+Hardpoints:   
+- 2 Blast Cannons (A)
+- 2 Laser Blast (C)
+
+Built by: Factory
+Requirements: 
+- Tech Center
+
+BLAST CANNON
+Range: 250 · Ammo: High
+Fire Rate: Low
+Damage: High
+
+LASER BLAST
+Range: 150 · Ammo: Medium
+Fire Rate: Continuous
+Damage: High

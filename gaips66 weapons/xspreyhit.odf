@@ -1,0 +1,49 @@
+// ===================
+// LAVA SPREY VEHICLE HIT
+// ===================
+
+[ExplosionClass]
+classLabel = "explosion"
+//explSound = "rmort02.wav"
+
+damageRadius = 7.5
+
+damageValue(N) = 10
+damageValue(L) = 10
+damageValue(H) = 10
+damageValue(S) = 10
+damageValue(D) = 10
+damageValue(A) = 10
+
+particleTypes = 2
+particleClass1 = "xspreyhit.core"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+particleClass2 = "xspreyhit.puff"
+particleCount2 = 1
+particleVeloc2 = "10.0 10.0 10.0"
+particleBias2 = "0.0 3.0 0.0"
+
+[Core]
+simulateBase = "sim_null"
+lifeTime = 1.0
+renderBase = "draw_twirl"
+textureName = "gunk.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "255 63 0 127"
+finishColor = "255 0 0 0"
+startRadius = 1.0
+finishRadius = 5.0
+animateTime = 1.0
+
+[Puff]
+simulateBase = "sim_ember"
+lifeTime = 4.0
+renderBase = "draw_twirl"
+textureName = "gunk.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "255 63 0 255"
+finishColor = "255 0 0 0"
+startRadius = 0.1
+finishRadius = 0.1
+animateTime = 4.0

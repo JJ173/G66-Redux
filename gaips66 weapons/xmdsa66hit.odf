@@ -1,0 +1,32 @@
+// =========
+// MEDUSA HIT
+// =========
+
+[ExplosionClass]
+classLabel = "explosion"
+
+particleTypes = 1
+particleClass1 = "xmdsa66hit.core"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+
+explSound = NULL
+damageRadius = 5.0
+damageValue(N) = 5
+damageValue(L) = 2
+damageValue(H) = 0
+damageValue(S) = 0
+damageValue(D) = 2
+damageValue(A) = 5
+
+[Core]
+simulateBase = "sim_null"
+lifeTime = 0.5
+renderBase = "draw_twirl"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "0 159 0 127"
+finishColor = "0 159 0 0"
+startRadius = 0.2
+finishRadius = 3.0
+animateTime = 0.5

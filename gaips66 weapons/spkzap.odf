@@ -1,0 +1,27 @@
+[GameObjectClass]
+geometryName = "apspec00.xsi"
+classLabel = "wpnpower"
+scrapCost = 30
+scrapValue = 0
+maxHealth = 150
+maxAmmo = 0
+unitName = "Kill-O-Zap"
+aiName = "PowerUpProcess"
+
+requireCount = 3
+requireName1 = "fbover"
+requireText1 = "Build/Upgrade Antenna Mound"
+requireName2 = "fbdowe"
+requireText2 = "Build Dower"
+requireName3 = "fbstro"
+requireText3 = "Build Stronghold"
+
+lightHard1 = "hp_light_1"
+lightName1 = "omnired"
+
+[PowerUpClass]
+soundPickup = "pickup01.wav"
+soundReject = "reject.wav"
+
+[WeaponPowerupClass]
+weaponName = "sgkzap_c"

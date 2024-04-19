@@ -1,0 +1,29 @@
+[GameObjectClass]
+classLabel = "ivltank66m"
+
+provideCount = 4
+provideName3 = "ivctpuma01"
+provideName4 = "DefendUnit"
+
+/////// weapons ///////////////////
+
+weaponMask = 00111
+
+weaponName1 = "gatstab_c"	//"gpulse66_c"
+weaponName2 = "gshadow_c"
+weaponName3 = "gshadow_c"
+
+////////////////////////////////////
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+
+[HoverCraftClass]

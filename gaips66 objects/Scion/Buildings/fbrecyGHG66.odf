@@ -1,0 +1,29 @@
+[GameObjectClass]
+baseName = "fbrecy_m66m"
+
+unitName = "GH Matriarch"
+classLabel = "fbrecy"
+
+provideCount = 4
+provideName1 = "fbrecyGHG66"
+provideName2 = "MainBase"
+provideName3 = "VIRTUAL_CLASS_RECYCLER"
+provideName4 = "VIRTUAL_CLASS_RECYCLERBUILDING"
+
+[PoweredBuildingClass]
+
+[BuildingClass]
+
+[FactoryClass]
+BuildSparkConfig = "sparker"
+buildItem9 = "fvcomm"
+buildEmptyItem9 = true
+
+[BuildGroup5]
+buildlabel = "Constructors"
+buildItem1 = "fvconsGHG66"
+buildItem2 = "fvconsGHG662a"
+
+[RecyclerClass]
+
+[Lod1]

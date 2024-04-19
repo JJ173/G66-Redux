@@ -1,0 +1,61 @@
+
+[Start]
+scrapCount = 80
+scavClass = "fvscav"
+consClass = "fvcons"
+
+[Match]
+targetType1 = "fvscav"
+attackType1_1 = "fvtank"
+attackType1_2 = "fvtank"
+
+targetType2 = "fvscav"
+attackType2_1 = "fvscout"
+attackType2_2 = "fvscout"
+
+targetType3 = "fvscout"
+attackType3_1 = "fvtank"
+
+targetType4 = "fvscout"
+attackType4_1 = "fvscout"
+attackType4_2 = "fvscout"
+
+targetType5 = "fvtank"
+attackType5_1 = "fvtank"
+attackType5_2 = "fvtank"
+
+targetType6 = "fvtank"
+attackType6_1 = "fvscout"
+attackType6_2 = "fvscout"
+
+
+[Plan1]
+planType = "CollectPool"
+planPriority = 490
+buildIfNoIdle = 1
+
+[Plan2]
+planType = "CollectField"
+planPriority = 480
+buildIfNoIdle = 1
+
+[Plan3]
+planType = "CollectPool"
+planPriority = 470
+buildIfNoIdle = 1
+
+[Plan4]
+planType = "CollectField"
+planPriority = 460
+buildIfNoIdle = 1
+
+[Plan5]
+planType = "BuildMinimums"
+planPriority = 440
+buildType1 = "fvcons"
+buildCount1 = 1
+
+[Plan6]
+planType = "CollectPool"
+planPriority = 420
+buildIfNoIdle = 1

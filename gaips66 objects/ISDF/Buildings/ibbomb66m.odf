@@ -1,0 +1,25 @@
+[GameObjectClass]
+baseName = "ibbomb"
+classLabel = "ibbomb"
+
+scrapValue = 30
+
+provideCount = 3
+provideName1 = "BombBay"
+provideName2 = "ibbomb66m"
+provideName3 = "ibbomb"
+	
+requireCount = 2
+requireName1 = "ibfact66m"
+requireText1 = "Build Factory"
+requireName2 = "ibtrain66m"
+requireText2 = "Build Training Facility"
+
+[BuildingClass]
+
+[BomberBayClass]
+bomberType = "ivbomb66m"
+
+[PoweredBuildingClass]
+
+[Lod1]

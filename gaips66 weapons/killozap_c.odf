@@ -1,0 +1,55 @@
+[OrdnanceClass]
+classLabel = "beam"
+
+shotGeometry = "NULL"
+xplGround = "xkzapgnd"
+xplVehicle = "xkzapcar"
+xplBuilding = "xkzapbld"
+
+renderName = "killozap_c.render"
+
+ammoCost = 10
+
+lifeSpan = 150e-6
+shotSpeed = 1e6
+
+damageValue(N) = 75
+damageValue(L) = 60
+damageValue(H) = 45
+
+damageValue(S) = 45
+damageValue(D) = 60
+damageValue(A) = 30
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 3
+renderName1 = "killozap_c.core"
+renderName2 = "killozap_c.bolt"
+renderName3 = "killozap_c.bolt"
+
+[Core]
+renderBase = "draw_bolt"
+textureName = "trail2.tga"
+textureBlend = "one one modulate"
+startColor = "0 255 127 255"
+finishColor = "0 255 63 0"
+startRadius = 0.4
+finishRadius = 0.2
+segmentLength = 2.0
+segmentVariance = "0.25 0.25 0.25"
+animateTime = 0.2
+textureRate = 0.01
+
+[Bolt]
+renderBase = "draw_bolt"
+textureName = "trail2.tga"
+textureBlend = "one one modulate"
+startColor = "0 255 191 255"
+finishColor = "0 255 127 0"
+startRadius = 0.2
+finishRadius = 0.1
+segmentLength = 2.0
+segmentVariance = "0.75 0.75 0.25"
+animateTime = 0.3
+textureRate = 0.01

@@ -1,0 +1,8 @@
+PP-MG PLASMA PULSE MACHINEGUN
+Plasma pulse "Minigun"
+-- Combat --
+Range: 100m  Rate: 600r/m
+Ammo: Low   Damage: Low
+-- Assault --
+Range: 140m  Rate: 600r/m
+Ammo: Low   Damage: Moderate

@@ -1,0 +1,21 @@
+[WeaponClass]
+classLabel = "jetpack"
+geometryName = NULL
+animCount = 0
+ordName = NULL
+wpnName = "Rush"
+fireSound = "whcan.wav"
+wpnReticle = "gphantom.0"
+wpnPriority = 0
+wpnCategory = "SPEC"
+localAmmo = 1
+addLocalAmmo = 0.05
+aiRange = 50
+
+[JetPackClass]
+ammoCost = 1
+burnTime = 2.0
+accelThrust = 0.0
+ForwardThrust = 60.0
+activeSound = "gatst03.wav"
+expireSound = "fpain04.wav"

@@ -1,0 +1,31 @@
+[GameObjectClass]
+geometryName = "daywrecker00.XSI"
+classLabel = "daywrecker"
+scrapCost = 0
+scrapValue = 0
+maxHealth = 9500
+maxAmmo = 0
+buildTime = 1
+unitName = "Day Wrecker XB"
+aiName = "PowerUpProcess"
+
+craterDepth = 15.0
+
+requireCount = 1
+requireName1 = "ibarmo"
+
+aiRange = 50.0
+needLOS = false
+AllowAimHigh = false
+
+//[CannonClass]
+//shotDelay = 0.5
+//shotAlternate = 0
+
+[PowerUpClass]
+SlowFall = true
+FallSpeed = 12.0
+
+[DayWreckerClass]
+craterDepth = 15.0
+xplBlast = "xbmb2xpl"

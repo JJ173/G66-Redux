@@ -1,0 +1,22 @@
+[GameObjectClass]
+geometryName = "apspec00.x"
+classLabel = "wpnpower"
+scrapCost = 20
+scrapValue = 0
+maxHealth = 150
+maxAmmo = 0
+unitName = "Satchel"
+aiName = "PowerUpProcess"
+
+requireCount = 2
+requireName1 = "fbover"
+requireText1 = "Build/Upgrade Antenna Mound"
+requireName2 = "fbstro"
+requireText2 = "Build Stronghold"
+
+[PowerUpClass]
+soundPickup = "pickup01.wav"
+soundReject = "reject.wav"
+
+[WeaponPowerupClass]
+weaponName = "sgsatc66"

@@ -1,0 +1,83 @@
+[GameObjectClass]
+mrmFactor = 0
+geometryName = "fbRspir66.xsi"
+animCount = 1
+animName1 = "deploy"
+animFile1 = "fbRspir66.xsi"
+classLabel = "turret"
+collisionRadius = 1.0
+scrapCost = 75
+scrapValue = 30
+powerCost = 0
+maxHealth = 6000
+maxAmmo = 10000
+unitName = "Rocket Spire"
+
+aiName = "SupportProcess"
+aiName2 = "SupportProcess"
+
+//aiName = "AttachWingman"
+//aiName2 = "AttachWingman"
+
+//aiName = "GunTowerFriend"
+//aiName2 = "GunTowerEnemy"
+
+heatSignature = 2.0
+imageSignature = 1.0
+radarSignature = 1.0
+isAssault = 1
+
+armorClass = H
+
+buildSupport = "A"
+buildRequire = "F"
+
+requireCount = 0
+
+provideCount = 3
+provideName1 = "fbspir"
+provideName2 = "fbRspir66"
+provideName3 = "RocketTower"
+
+///// WEAPON ////////////////////
+
+weaponMask = 00111
+weaponHard1 = "hp_cannon_01"
+weaponName1 = "gsting66_c"
+weaponHard2 = "hp_cannon_02"
+weaponName2 = "gsting66_c"
+weaponHard3 = "hp_cannon_03"
+weaponName3 = "gsting66_c"
+
+
+/////////////////////////////////
+
+turretCount = 5
+turretName1 = "turret_x"
+turretName2 = "ball_01"
+turretName3 = "ball_02"
+turretName4 = "ball_03"
+turretName5 = "hp_eyepoint"
+
+
+[BuildingClass]
+soundAmbient = "sgtow01.wav"
+
+[CraftClass]
+rangeScan = 200.0
+periodScan = 0.0
+velocJam = 0.0
+weaponPitch = 1.5
+steerFactor = 1.0
+engageRange = 200
+IgnoreDestroyedTargets = true
+
+attackTask = "AssaultTankAttack"
+subattackTask = "SupportSubAttack"
+subAttackClass = "ANS"
+
+[TurretCraftClass]
+powerTap1 = "HP_TAP_1"
+powerName = "fblung"
+omegaTurret = 2.0
+detectRange = 200

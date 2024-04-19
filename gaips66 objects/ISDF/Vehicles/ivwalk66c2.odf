@@ -1,0 +1,174 @@
+[GameObjectClass]
+baseName = "Walker"
+classLabel = "ivwalk66"
+cockpitName = "ivwalk_cockpit.xsi"
+geometryName = "ivwalk_skel.xsi"
+
+animCount = 10
+animName1 = "idle"
+animFile1 = "ivwalk_idle.xsi"
+
+animName2 = "idle2"
+animFile2 = "ivwalk_idle.xsi"
+
+animName3 = "idle3"
+animFile3 = "ivwalk_idle.xsi"
+
+animName4 = "sitdown"
+animFile4 = "ivwalk_sitdown.xsi"
+
+animName5 = "walk"
+animFile5 = "ivwalk_walk.xsi"
+
+animName6 = "turn"
+animFile6 = "ivwalk_turn.xsi"
+
+animName7 = "death"
+animFile7 = "ivwalk_death.xsi"
+
+animName8 = "death2"
+animFile8 = "ivwalk_death2.xsi"
+
+animName9 = "death3"
+animFile9 = "ivwalk_death3.xsi"
+
+animName10 = "run"
+animFile10 = "ivwalk_walk.xsi"
+
+scrapValue = 30
+scrapCost = 100
+customCost = 105
+buildTime = 20.0
+customTime = 20.0
+maxHealth = 8000
+maxAmmo = 6000
+addAmmo = 20
+unitName = "Attila"
+aiName = "GechProcess"
+heatSignature = 0.1
+imageSignature = 5.0
+radarSignature = 5.0
+isAssault = 1
+
+armorClass = H
+
+requireCount = 1
+requireName1 = "ibfact66c2"
+requireText1 = "Build Factory"
+
+provideCount = 4
+provideName1 = "ivwalk66c"
+provideName2 = "assault"
+provideName3 = "DefendUnit"
+provideName4 = "HWalker"
+
+/////// weapons ///////////////////
+
+weaponMask = 01111
+weaponHard1 = "HP_CANNON_1"
+recoilName1 = "lgun"
+weaponName1 = "gblast_a"
+weaponAssault1 = 1
+weaponHard2 = "HP_CANNON_2"
+recoilName2 = "rgun"
+weaponName2 = "gblast_a"
+weaponAssault2 = 1
+weaponHard3 = "HP_GUN_1"
+recoilName3 = "lgun"
+weaponName3 = "glaser_w"
+weaponAssault3 = 0
+weaponHard4 = "HP_GUN_2"
+recoilName4 = "rgun"
+weaponName4 = "glaser_w"
+weaponAssault4 = 0
+
+//////////////////////////////////
+
+lightHard1 = "hp_light_1"
+lightName1 = "spotblue2"
+lightHard2 = "hp_light_2"
+lightName2 = "spotblue2"
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 50
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+rangeScan = 250.0
+periodScan = 5.0
+velocJam = 0.0
+engageRange = 250
+
+// Fix for mantis #1080 - reduce pitchFactor from about 1.99 to 1.0
+// in order to dampen the walker 'head bob' on the isdf13.bzn opening
+// cutscene.
+LookAtPitchFactor = 1.0
+
+attackTask = "AssaultTankAttack"
+subAttackTask = "SupportSubAttack"
+subAttackClass = "NNN"
+
+// subAttackClass uses 3 letters.
+// 1st letter is either A or N.     A is include Air targets.         N is attack ground only.
+// 2nd letter is either D or N.     D is to deploy before attacking.  N for regular attack.
+// 3rd letter is either S or N.     S is to use Weapon Range.         N is use the Engage Range to attack. 
+
+
+selectWaitMsg = "ivwalk04.wav"
+selectAttackMsg = "ivwalk01.wav"
+selectFollowMsg = "ivwalk03.wav"
+selectGoMsg = "ivwalk02.wav"
+selectOtherMsg = "ivwalk04.wav"
+
+goMsg = "ivwalk05.wav"
+attackMsg = "ivwalk06.wav"
+followMeMsg = "ivwalk08.wav"
+followMsg = "ivwalk03.wav"
+repairMsg = "ivwalk09.wav"
+reloadMsg = "ivwalk09.wav"
+rescueMsg = "ivwalk10.wav"
+recycleMsg = "ivwalk11.wav"
+otherMsg = "ivwalk04.wav" 
+holdMsg = "ivwalk12.wav"
+user1Msg = ""  
+killedMsg = "ivwalk07.wav"
+diedMsg = ""
+
+
+// Angles are in degress
+[WalkerClass]
+headYawRate	= 100.0 
+minHeadYaw = -80.0
+maxHeadYaw =  80.0
+minHeadPitch = -30.0
+maxHeadPitch = 30.0
+
+alphaDamp = 5.0
+omegaTurn = 40.0
+omegaTurnAttenuation = 0.5f
+
+alphaSteer = 0.1
+velocJump = 0;
+alphaTrack = 20.0
+pitchPitch = 0.0
+pitchThrust = 0.0
+accelThrust = 20.0
+velocForward = 15.0
+velocReverse = 8.0
+attackSpeed = 15
+
+headpiece = "head2"
+rightfootpiece = "rfoot";
+leftfootpiece = "lfoot";
+
+jumpSound  = "avwalke2.wav"
+landSound  = "avwalke3.wav"
+stepSound  = "iwalk02.wav"
+
+engineSound = "iatank01.wav"
+

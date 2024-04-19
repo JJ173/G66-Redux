@@ -1,0 +1,70 @@
+[GameObjectClass]
+classLabel = "ivcons66"
+needPilot = 0
+
+unitName = "Constructor"
+
+
+requireCount = 1
+requireName1 = "Assembler"
+requireText1 = "Build Something"
+
+
+provideCount = 2
+provideName1 = "Builder"
+provideName2 = "ivcons"
+
+collisionRadius = 0.0
+
+topSpeed = 7.0
+avoidSpeed = 5.0
+
+[CraftClass]
+engageRange = 100.0
+
+braccelFactor = 0.1
+omegaFactor = 0.3
+steerFactor = 1.4
+strafeFactor = 0.1
+velFactor = 0.4
+
+[HoverCraftClass]
+velocForward = 6.5
+velocReverse = 4.0
+velocStrafe = 0.0
+
+accelBrake = 70.0
+accelDragFull = 0.0 //nothing
+accelDragStop = 20.0
+accelJump = 0.0
+accelThrust = 30.0
+
+alphaDamp = 5.0
+alphaSteer = 2.0 //how fast it responds to steering
+alphaTrack = 20.0
+
+omegaSpin = 3.0 //spinning in place speed
+omegaTurn = 2.0 //turning while moving speed
+
+pitchPitch = 0.0 //nose up
+pitchThrust = 0.0 //nose down
+
+rollSteer = 0.0 //rolls while steering
+rollStrafe = 0.0 //rolls while strafing
+
+setAltitude = 0.0 // how high off the ground
+
+
+[DeployableClass]
+
+[ConstructionRigClass]
+BuildSparkConfig = "sparker"
+buildItem1 = "ibpgen66c"
+buildItem2 = "ibfact66c"
+buildItem3 = "ibcbun66c"
+buildItem4 = "ibarmo66c"
+buildItem5 = "ibsbay66c"
+buildItem6 = "ibgtow66c"
+buildItem7 = "ibtrain66c"
+buildItem8 = "ibtcen"
+buildItem9 = "ibbomb66c"	//"ibbomb"

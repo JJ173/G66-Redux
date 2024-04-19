@@ -1,0 +1,6643 @@
+version [1] =
+1124
+saveType [1] =
+0
+binarySave [1] =
+false
+msn_filename = mpicrcbl662.bzn
+seq_count [1] =
+1461
+saveType [1] =
+0
+TerrainName = mpicrcbl662
+size [1] =
+30
+[GameObject]
+config = ivscoutdm
+seqno [1] =
+389
+team [1] =
+1
+label = unnamed_ivscoutdm
+isUser [1] =
+1
+objAddr = 03208784
+transform [1] =
+  right.x [1] =
+0.921733
+  right.y [1] =
+0
+  right.z [1] =
+0.387823
+  up.x [1] =
+0.0120485
+  up.y [1] =
+0.999518
+  up.z [1] =
+-0.0286365
+  front.x [1] =
+-0.387636
+  front.y [1] =
+0.031068
+  front.z [1] =
+0.921289
+  posit.x [1] =
+-130.692
+  posit.y [1] =
+92.9283
+  posit.z [1] =
+6.12546
+abandoned [1] =
+0
+illumination [1] =
+1
+euler =
+ mass [1] =
+4314.09
+ mass_inv [1] =
+0.000231799
+ v_mag [1] =
+2.53884e-005
+ v_mag_inv [1] =
+39388.1
+ I [1] =
+25318
+ k_i [1] =
+3.94976e-005
+ v [1] =
+  x [1] =
+3.07049e-007
+  y [1] =
+2.5376e-005
+  z [1] =
+-7.2976e-007
+ omega [1] =
+  x [1] =
+-2.84258e-009
+  y [1] =
+-2.8026e-045
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+1.14852e-008
+  y [1] =
+-9.53674e-007
+  z [1] =
+-2.72967e-008
+seqNo [1] =
+389
+name = Scout
+isObjective [1] =
+false
+isSelected [1] =
+false
+isVisible [1] =
+2
+isSeen [1] =
+2
+groupNumber [1] =
+-1
+healthRatio [1] =
+1
+curHealth [1] =
+1800
+maxHealth [1] =
+1800
+addHealth [1] =
+0
+ammoRatio [1] =
+1
+curAmmo [1] =
+1000
+maxAmmo [1] =
+1000
+addAmmo [1] =
+1
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+true
+isCargo [1] =
+false
+independence [1] =
+1
+curPilot = ispilo
+perceivedTeam [1] =
+1
+[GameObject]
+config = pspwn_1
+seqno [1] =
+27c
+team [1] =
+0
+label = unnamed_pspwn_1
+isUser [1] =
+0
+objAddr = 0F5682BC
+transform [1] =
+  right.x [1] =
+1
+  right.y [1] =
+0
+  right.z [1] =
+0
+  up.x [1] =
+0
+  up.y [1] =
+0.999994
+  up.z [1] =
+0
+  front.x [1] =
+0
+  front.y [1] =
+0
+  front.z [1] =
+0.999994
+  posit.x [1] =
+-48
+  posit.y [1] =
+77.8
+  posit.z [1] =
+48
+name = Spawn
+[GameObject]
+config = mepool01
+seqno [1] =
+49d
+team [1] =
+0
+label = unnamed_mepool01
+isUser [1] =
+0
+objAddr = 0F56FFAC
+transform [1] =
+  right.x [1] =
+1
+  right.y [1] =
+0
+  right.z [1] =
+0
+  up.x [1] =
+0
+  up.y [1] =
+1
+  up.z [1] =
+0
+  front.x [1] =
+0
+  front.y [1] =
+0
+  front.z [1] =
+1
+  posit.x [1] =
+1072
+  posit.y [1] =
+150.6
+  posit.z [1] =
+1200
+illumination [1] =
+0
+euler =
+ mass [1] =
+571535
+ mass_inv [1] =
+1.74967e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+1.18831e+008
+ k_i [1] =
+8.41533e-009
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+seqNo [1] =
+49d
+name = Biometal
+isObjective [1] =
+false
+isSelected [1] =
+false
+isVisible [1] =
+0
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+healthRatio [1] =
+1
+curHealth [1] =
+20
+maxHealth [1] =
+20
+addHealth [1] =
+0
+ammoRatio [1] =
+1
+curAmmo [1] =
+0
+maxAmmo [1] =
+0
+addAmmo [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+isCargo [1] =
+false
+independence [1] =
+1
+curPilot = 
+perceivedTeam [1] =
+0
+[GameObject]
+config = mepool01
+seqno [1] =
+4b1
+team [1] =
+0
+label = unnamed_mepool01
+isUser [1] =
+0
+objAddr = 0F57492C
+transform [1] =
+  right.x [1] =
+1
+  right.y [1] =
+0
+  right.z [1] =
+0
+  up.x [1] =
+0
+  up.y [1] =
+1
+  up.z [1] =
+0
+  front.x [1] =
+0
+  front.y [1] =
+0
+  front.z [1] =
+1
+  posit.x [1] =
+368
+  posit.y [1] =
+77.8
+  posit.z [1] =
+976
+illumination [1] =
+0
+euler =
+ mass [1] =
+571535
+ mass_inv [1] =
+1.74967e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+1.18831e+008
+ k_i [1] =
+8.41533e-009
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+seqNo [1] =
+4b1
+name = Biometal
+isObjective [1] =
+false
+isSelected [1] =
+false
+isVisible [1] =
+0
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+healthRatio [1] =
+1
+curHealth [1] =
+20
+maxHealth [1] =
+20
+addHealth [1] =
+0
+ammoRatio [1] =
+1
+curAmmo [1] =
+0
+maxAmmo [1] =
+0
+addAmmo [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+isCargo [1] =
+false
+independence [1] =
+1
+curPilot = 
+perceivedTeam [1] =
+0
+[GameObject]
+config = mopalm02
+seqno [1] =
+530
+team [1] =
+0
+label = unnamed_mopalm02
+isUser [1] =
+0
+objAddr = 0F5B00EC
+transform [1] =
+  right.x [1] =
+-0.89283
+  right.y [1] =
+0
+  right.z [1] =
+0.450394
+  up.x [1] =
+0
+  up.y [1] =
+0.999994
+  up.z [1] =
+0
+  front.x [1] =
+-0.450391
+  front.y [1] =
+0
+  front.z [1] =
+-0.892825
+  posit.x [1] =
+-718.681
+  posit.y [1] =
+41.7
+  posit.z [1] =
+-178.657
+illumination [1] =
+0
+euler =
+ mass [1] =
+4.14484e+006
+ mass_inv [1] =
+2.41264e-007
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+1.54186e+009
+ k_i [1] =
+6.48567e-010
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+seqNo [1] =
+530
+name = Tree
+isObjective [1] =
+false
+isSelected [1] =
+false
+isVisible [1] =
+0
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+healthRatio [1] =
+1
+curHealth [1] =
+1000
+maxHealth [1] =
+1000
+addHealth [1] =
+0
+ammoRatio [1] =
+1
+curAmmo [1] =
+0
+maxAmmo [1] =
+0
+addAmmo [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+isCargo [1] =
+false
+independence [1] =
+1
+curPilot = 
+perceivedTeam [1] =
+0
+[GameObject]
+config = mopalm02
+seqno [1] =
+533
+team [1] =
+0
+label = unnamed_mopalm02
+isUser [1] =
+0
+objAddr = 0F5B0E0C
+transform [1] =
+  right.x [1] =
+-0.651737
+  right.y [1] =
+0
+  right.z [1] =
+-0.758445
+  up.x [1] =
+0
+  up.y [1] =
+0.999994
+  up.z [1] =
+0
+  front.x [1] =
+0.758441
+  front.y [1] =
+0
+  front.z [1] =
+-0.651733
+  posit.x [1] =
+-730.916
+  posit.y [1] =
+41.9
+  posit.z [1] =
+-188.743
+illumination [1] =
+0
+euler =
+ mass [1] =
+4.14484e+006
+ mass_inv [1] =
+2.41264e-007
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+1.54186e+009
+ k_i [1] =
+6.48567e-010
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+seqNo [1] =
+533
+name = Tree
+isObjective [1] =
+false
+isSelected [1] =
+false
+isVisible [1] =
+0
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+healthRatio [1] =
+1
+curHealth [1] =
+1000
+maxHealth [1] =
+1000
+addHealth [1] =
+0
+ammoRatio [1] =
+1
+curAmmo [1] =
+0
+maxAmmo [1] =
+0
+addAmmo [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+isCargo [1] =
+false
+independence [1] =
+1
+curPilot = 
+perceivedTeam [1] =
+0
+[GameObject]
+config = moalg01
+seqno [1] =
+534
+team [1] =
+0
+label = unnamed_moalg01
+isUser [1] =
+0
+objAddr = 0F5B44FC
+transform [1] =
+  right.x [1] =
+0.998752
+  right.y [1] =
+-0.0499376
+  right.z [1] =
+-2.00365e-008
+  up.x [1] =
+0.0499337
+  up.y [1] =
+0.998675
+  up.z [1] =
+0.0124834
+  front.x [1] =
+-0.000623373
+  front.y [1] =
+-0.0124679
+  front.z [1] =
+0.999922
+  posit.x [1] =
+-713.959
+  posit.y [1] =
+41.5852
+  posit.z [1] =
+-190.978
+illumination [1] =
+0
+euler =
+ mass [1] =
+50508.1
+ mass_inv [1] =
+1.97988e-005
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+2.97749e+006
+ k_i [1] =
+3.35853e-007
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+seqNo [1] =
+534
+name = algae
+isObjective [1] =
+false
+isSelected [1] =
+false
+isVisible [1] =
+0
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+healthRatio [1] =
+1
+curHealth [1] =
+200
+maxHealth [1] =
+200
+addHealth [1] =
+0
+ammoRatio [1] =
+1
+curAmmo [1] =
+0
+maxAmmo [1] =
+0
+addAmmo [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+isCargo [1] =
+false
+independence [1] =
+1
+curPilot = 
+perceivedTeam [1] =
+0
+[GameObject]
+config = moalg02
+seqno [1] =
+535
+team [1] =
+0
+label = unnamed_moalg02
+isUser [1] =
+0
+objAddr = 0F5B7EAC
+transform [1] =
+  right.x [1] =
+1
+  right.y [1] =
+0
+  right.z [1] =
+0
+  up.x [1] =
+0
+  up.y [1] =
+0.999688
+  up.z [1] =
+0.0249922
+  front.x [1] =
+0
+  front.y [1] =
+-0.0249922
+  front.z [1] =
+0.999688
+  posit.x [1] =
+-725.86
+  posit.y [1] =
+41.7823
+  posit.z [1] =
+-179.294
+illumination [1] =
+0
+euler =
+ mass [1] =
+3068.64
+ mass_inv [1] =
+0.000325877
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+17150.6
+ k_i [1] =
+5.83072e-005
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+seqNo [1] =
+535
+name = algae
+isObjective [1] =
+false
+isSelected [1] =
+false
+isVisible [1] =
+0
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+healthRatio [1] =
+1
+curHealth [1] =
+200
+maxHealth [1] =
+200
+addHealth [1] =
+0
+ammoRatio [1] =
+1
+curAmmo [1] =
+0
+maxAmmo [1] =
+0
+addAmmo [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+isCargo [1] =
+false
+independence [1] =
+1
+curPilot = 
+perceivedTeam [1] =
+0
+[GameObject]
+config = moalg02
+seqno [1] =
+536
+team [1] =
+0
+label = unnamed_moalg02
+isUser [1] =
+0
+objAddr = 0F5B840C
+transform [1] =
+  right.x [1] =
+1
+  right.y [1] =
+0
+  right.z [1] =
+0
+  up.x [1] =
+0
+  up.y [1] =
+0.999688
+  up.z [1] =
+0.0249922
+  front.x [1] =
+0
+  front.y [1] =
+-0.0249922
+  front.z [1] =
+0.999688
+  posit.x [1] =
+-734.837
+  posit.y [1] =
+41.8101
+  posit.z [1] =
+-180.404
+illumination [1] =
+0
+euler =
+ mass [1] =
+3068.64
+ mass_inv [1] =
+0.000325877
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+17150.6
+ k_i [1] =
+5.83072e-005
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+seqNo [1] =
+536
+name = algae
+isObjective [1] =
+false
+isSelected [1] =
+false
+isVisible [1] =
+0
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+healthRatio [1] =
+1
+curHealth [1] =
+200
+maxHealth [1] =
+200
+addHealth [1] =
+0
+ammoRatio [1] =
+1
+curAmmo [1] =
+0
+maxAmmo [1] =
+0
+addAmmo [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+isCargo [1] =
+false
+independence [1] =
+1
+curPilot = 
+perceivedTeam [1] =
+0
+[GameObject]
+config = moalg02
+seqno [1] =
+537
+team [1] =
+0
+label = unnamed_moalg02
+isUser [1] =
+0
+objAddr = 0F5B896C
+transform [1] =
+  right.x [1] =
+1
+  right.y [1] =
+0
+  right.z [1] =
+0
+  up.x [1] =
+0
+  up.y [1] =
+1
+  up.z [1] =
+0
+  front.x [1] =
+0
+  front.y [1] =
+0
+  front.z [1] =
+1
+  posit.x [1] =
+-724.367
+  posit.y [1] =
+41.9
+  posit.z [1] =
+-201.754
+illumination [1] =
+0
+euler =
+ mass [1] =
+3068.64
+ mass_inv [1] =
+0.000325877
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+17150.6
+ k_i [1] =
+5.83072e-005
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+seqNo [1] =
+537
+name = algae
+isObjective [1] =
+false
+isSelected [1] =
+false
+isVisible [1] =
+0
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+healthRatio [1] =
+1
+curHealth [1] =
+200
+maxHealth [1] =
+200
+addHealth [1] =
+0
+ammoRatio [1] =
+1
+curAmmo [1] =
+0
+maxAmmo [1] =
+0
+addAmmo [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+isCargo [1] =
+false
+independence [1] =
+1
+curPilot = 
+perceivedTeam [1] =
+0
+[GameObject]
+config = mobush01
+seqno [1] =
+538
+team [1] =
+0
+label = unnamed_mobush01
+isUser [1] =
+0
+objAddr = 0F5BE8CC
+transform [1] =
+  right.x [1] =
+1
+  right.y [1] =
+0
+  right.z [1] =
+0
+  up.x [1] =
+0
+  up.y [1] =
+1
+  up.z [1] =
+0
+  front.x [1] =
+0
+  front.y [1] =
+0
+  front.z [1] =
+1
+  posit.x [1] =
+-734.107
+  posit.y [1] =
+41.9
+  posit.z [1] =
+-196.836
+illumination [1] =
+0
+euler =
+ mass [1] =
+412790
+ mass_inv [1] =
+2.42254e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+4.22049e+007
+ k_i [1] =
+2.36939e-008
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+seqNo [1] =
+538
+name = bush
+isObjective [1] =
+false
+isSelected [1] =
+false
+isVisible [1] =
+0
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+healthRatio [1] =
+1
+curHealth [1] =
+1000
+maxHealth [1] =
+1000
+addHealth [1] =
+0
+ammoRatio [1] =
+1
+curAmmo [1] =
+0
+maxAmmo [1] =
+0
+addAmmo [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+isCargo [1] =
+false
+independence [1] =
+1
+curPilot = 
+perceivedTeam [1] =
+0
+[GameObject]
+config = moshrm01
+seqno [1] =
+539
+team [1] =
+0
+label = unnamed_moshrm01
+isUser [1] =
+0
+objAddr = 0F5C4A0C
+transform [1] =
+  right.x [1] =
+1
+  right.y [1] =
+0
+  right.z [1] =
+0
+  up.x [1] =
+0
+  up.y [1] =
+0.999994
+  up.z [1] =
+0
+  front.x [1] =
+0
+  front.y [1] =
+0
+  front.z [1] =
+0.999994
+  posit.x [1] =
+-110.512
+  posit.y [1] =
+124.521
+  posit.z [1] =
+503.123
+illumination [1] =
+0
+euler =
+ mass [1] =
+1.25719e+006
+ mass_inv [1] =
+7.95426e-007
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+2.2714e+008
+ k_i [1] =
+4.40256e-009
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+seqNo [1] =
+539
+name = Large
+isObjective [1] =
+false
+isSelected [1] =
+false
+isVisible [1] =
+0
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+healthRatio [1] =
+1
+curHealth [1] =
+1000
+maxHealth [1] =
+1000
+addHealth [1] =
+0
+ammoRatio [1] =
+1
+curAmmo [1] =
+0
+maxAmmo [1] =
+0
+addAmmo [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+isCargo [1] =
+false
+independence [1] =
+1
+curPilot = 
+perceivedTeam [1] =
+0
+[GameObject]
+config = moshrm02
+seqno [1] =
+53a
+team [1] =
+0
+label = unnamed_moshrm02
+isUser [1] =
+0
+objAddr = 0F5C9CDC
+transform [1] =
+  right.x [1] =
+1
+  right.y [1] =
+0
+  right.z [1] =
+0
+  up.x [1] =
+0
+  up.y [1] =
+0.999994
+  up.z [1] =
+0
+  front.x [1] =
+0
+  front.y [1] =
+0
+  front.z [1] =
+0.999994
+  posit.x [1] =
+-120.198
+  posit.y [1] =
+122.716
+  posit.z [1] =
+494.916
+illumination [1] =
+0
+euler =
+ mass [1] =
+6175.25
+ mass_inv [1] =
+0.000161937
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+30655.1
+ k_i [1] =
+3.2621e-005
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+seqNo [1] =
+53a
+name = Small
+isObjective [1] =
+false
+isSelected [1] =
+false
+isVisible [1] =
+0
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+healthRatio [1] =
+1
+curHealth [1] =
+1000
+maxHealth [1] =
+1000
+addHealth [1] =
+0
+ammoRatio [1] =
+1
+curAmmo [1] =
+0
+maxAmmo [1] =
+0
+addAmmo [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+isCargo [1] =
+false
+independence [1] =
+1
+curPilot = 
+perceivedTeam [1] =
+0
+[GameObject]
+config = moshrm02
+seqno [1] =
+53b
+team [1] =
+0
+label = unnamed_moshrm02
+isUser [1] =
+0
+objAddr = 0F5CA23C
+transform [1] =
+  right.x [1] =
+1
+  right.y [1] =
+0
+  right.z [1] =
+0
+  up.x [1] =
+0
+  up.y [1] =
+0.999994
+  up.z [1] =
+0
+  front.x [1] =
+0
+  front.y [1] =
+0
+  front.z [1] =
+0.999994
+  posit.x [1] =
+-97.5917
+  posit.y [1] =
+125.805
+  posit.z [1] =
+504.221
+illumination [1] =
+0
+euler =
+ mass [1] =
+6175.25
+ mass_inv [1] =
+0.000161937
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+30655.1
+ k_i [1] =
+3.2621e-005
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+seqNo [1] =
+53b
+name = Small
+isObjective [1] =
+false
+isSelected [1] =
+false
+isVisible [1] =
+0
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+healthRatio [1] =
+1
+curHealth [1] =
+1000
+maxHealth [1] =
+1000
+addHealth [1] =
+0
+ammoRatio [1] =
+1
+curAmmo [1] =
+0
+maxAmmo [1] =
+0
+addAmmo [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+isCargo [1] =
+false
+independence [1] =
+1
+curPilot = 
+perceivedTeam [1] =
+0
+[GameObject]
+config = moshrm02
+seqno [1] =
+53c
+team [1] =
+0
+label = unnamed_moshrm02
+isUser [1] =
+0
+objAddr = 0F5CA79C
+transform [1] =
+  right.x [1] =
+1
+  right.y [1] =
+0
+  right.z [1] =
+0
+  up.x [1] =
+0
+  up.y [1] =
+0.999994
+  up.z [1] =
+0
+  front.x [1] =
+0
+  front.y [1] =
+0
+  front.z [1] =
+0.999994
+  posit.x [1] =
+-103.672
+  posit.y [1] =
+126.677
+  posit.z [1] =
+512.179
+illumination [1] =
+0
+euler =
+ mass [1] =
+6175.25
+ mass_inv [1] =
+0.000161937
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+30655.1
+ k_i [1] =
+3.2621e-005
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+seqNo [1] =
+53c
+name = Small
+isObjective [1] =
+false
+isSelected [1] =
+false
+isVisible [1] =
+0
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+healthRatio [1] =
+1
+curHealth [1] =
+1000
+maxHealth [1] =
+1000
+addHealth [1] =
+0
+ammoRatio [1] =
+1
+curAmmo [1] =
+0
+maxAmmo [1] =
+0
+addAmmo [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+isCargo [1] =
+false
+independence [1] =
+1
+curPilot = 
+perceivedTeam [1] =
+0
+[GameObject]
+config = moshrm01
+seqno [1] =
+53d
+team [1] =
+0
+label = unnamed_moshrm01
+isUser [1] =
+0
+objAddr = 0F5CACFC
+transform [1] =
+  right.x [1] =
+1
+  right.y [1] =
+0
+  right.z [1] =
+0
+  up.x [1] =
+0
+  up.y [1] =
+0.999994
+  up.z [1] =
+0
+  front.x [1] =
+0
+  front.y [1] =
+0
+  front.z [1] =
+0.999994
+  posit.x [1] =
+3.45034
+  posit.y [1] =
+115.086
+  posit.z [1] =
+721.159
+illumination [1] =
+0
+euler =
+ mass [1] =
+1.25719e+006
+ mass_inv [1] =
+7.95426e-007
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+2.2714e+008
+ k_i [1] =
+4.40256e-009
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+seqNo [1] =
+53d
+name = Large
+isObjective [1] =
+false
+isSelected [1] =
+false
+isVisible [1] =
+0
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+healthRatio [1] =
+1
+curHealth [1] =
+1000
+maxHealth [1] =
+1000
+addHealth [1] =
+0
+ammoRatio [1] =
+1
+curAmmo [1] =
+0
+maxAmmo [1] =
+0
+addAmmo [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+isCargo [1] =
+false
+independence [1] =
+1
+curPilot = 
+perceivedTeam [1] =
+0
+[GameObject]
+config = moshrm02
+seqno [1] =
+53e
+team [1] =
+0
+label = unnamed_moshrm02
+isUser [1] =
+0
+objAddr = 0F5CB25C
+transform [1] =
+  right.x [1] =
+1
+  right.y [1] =
+0
+  right.z [1] =
+0
+  up.x [1] =
+0
+  up.y [1] =
+0.999994
+  up.z [1] =
+0
+  front.x [1] =
+0
+  front.y [1] =
+0
+  front.z [1] =
+0.999994
+  posit.x [1] =
+0.954285
+  posit.y [1] =
+115.906
+  posit.z [1] =
+705.236
+illumination [1] =
+0
+euler =
+ mass [1] =
+6175.25
+ mass_inv [1] =
+0.000161937
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+30655.1
+ k_i [1] =
+3.2621e-005
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+seqNo [1] =
+53e
+name = Small
+isObjective [1] =
+false
+isSelected [1] =
+false
+isVisible [1] =
+0
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+healthRatio [1] =
+1
+curHealth [1] =
+1000
+maxHealth [1] =
+1000
+addHealth [1] =
+0
+ammoRatio [1] =
+1
+curAmmo [1] =
+0
+maxAmmo [1] =
+0
+addAmmo [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+isCargo [1] =
+false
+independence [1] =
+1
+curPilot = 
+perceivedTeam [1] =
+0
+[GameObject]
+config = moshrm02
+seqno [1] =
+53f
+team [1] =
+0
+label = unnamed_moshrm02
+isUser [1] =
+0
+objAddr = 0F5CB8DC
+transform [1] =
+  right.x [1] =
+1
+  right.y [1] =
+0
+  right.z [1] =
+0
+  up.x [1] =
+0
+  up.y [1] =
+0.999994
+  up.z [1] =
+0
+  front.x [1] =
+0
+  front.y [1] =
+0
+  front.z [1] =
+0.999994
+  posit.x [1] =
+-4.14684
+  posit.y [1] =
+115.33
+  posit.z [1] =
+711.326
+illumination [1] =
+0
+euler =
+ mass [1] =
+6175.25
+ mass_inv [1] =
+0.000161937
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+30655.1
+ k_i [1] =
+3.2621e-005
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+seqNo [1] =
+53f
+name = Small
+isObjective [1] =
+false
+isSelected [1] =
+false
+isVisible [1] =
+0
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+healthRatio [1] =
+1
+curHealth [1] =
+1000
+maxHealth [1] =
+1000
+addHealth [1] =
+0
+ammoRatio [1] =
+1
+curAmmo [1] =
+0
+maxAmmo [1] =
+0
+addAmmo [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+isCargo [1] =
+false
+independence [1] =
+1
+curPilot = 
+perceivedTeam [1] =
+0
+[GameObject]
+config = moshrm01
+seqno [1] =
+540
+team [1] =
+0
+label = unnamed_moshrm01
+isUser [1] =
+0
+objAddr = 0F5CBE3C
+transform [1] =
+  right.x [1] =
+-0.473587
+  right.y [1] =
+0
+  right.z [1] =
+-0.880747
+  up.x [1] =
+0
+  up.y [1] =
+0.999994
+  up.z [1] =
+0
+  front.x [1] =
+0.880742
+  front.y [1] =
+0
+  front.z [1] =
+-0.473584
+  posit.x [1] =
+825.044
+  posit.y [1] =
+91.8109
+  posit.z [1] =
+-251.651
+illumination [1] =
+0
+euler =
+ mass [1] =
+1.25719e+006
+ mass_inv [1] =
+7.95426e-007
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+2.2714e+008
+ k_i [1] =
+4.40256e-009
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+seqNo [1] =
+540
+name = Large
+isObjective [1] =
+false
+isSelected [1] =
+false
+isVisible [1] =
+0
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+healthRatio [1] =
+1
+curHealth [1] =
+1000
+maxHealth [1] =
+1000
+addHealth [1] =
+0
+ammoRatio [1] =
+1
+curAmmo [1] =
+0
+maxAmmo [1] =
+0
+addAmmo [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+isCargo [1] =
+false
+independence [1] =
+1
+curPilot = 
+perceivedTeam [1] =
+0
+[GameObject]
+config = moshrm01
+seqno [1] =
+541
+team [1] =
+0
+label = unnamed_moshrm01
+isUser [1] =
+0
+objAddr = 0F5CC39C
+transform [1] =
+  right.x [1] =
+-0.730686
+  right.y [1] =
+0
+  right.z [1] =
+-0.682714
+  up.x [1] =
+0
+  up.y [1] =
+0.999994
+  up.z [1] =
+0
+  front.x [1] =
+0.68271
+  front.y [1] =
+0
+  front.z [1] =
+-0.730681
+  posit.x [1] =
+848.122
+  posit.y [1] =
+92.0784
+  posit.z [1] =
+-247.317
+illumination [1] =
+0
+euler =
+ mass [1] =
+1.25719e+006
+ mass_inv [1] =
+7.95426e-007
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+2.2714e+008
+ k_i [1] =
+4.40256e-009
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+seqNo [1] =
+541
+name = Large
+isObjective [1] =
+false
+isSelected [1] =
+false
+isVisible [1] =
+0
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+healthRatio [1] =
+1
+curHealth [1] =
+1000
+maxHealth [1] =
+1000
+addHealth [1] =
+0
+ammoRatio [1] =
+1
+curAmmo [1] =
+0
+maxAmmo [1] =
+0
+addAmmo [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+isCargo [1] =
+false
+independence [1] =
+1
+curPilot = 
+perceivedTeam [1] =
+0
+[GameObject]
+config = moshrm02
+seqno [1] =
+542
+team [1] =
+0
+label = unnamed_moshrm02
+isUser [1] =
+0
+objAddr = 0F5CC8FC
+transform [1] =
+  right.x [1] =
+1
+  right.y [1] =
+0
+  right.z [1] =
+0
+  up.x [1] =
+0
+  up.y [1] =
+0.999994
+  up.z [1] =
+0
+  front.x [1] =
+0
+  front.y [1] =
+0
+  front.z [1] =
+0.999994
+  posit.x [1] =
+807.902
+  posit.y [1] =
+91.168
+  posit.z [1] =
+-248.23
+illumination [1] =
+0
+euler =
+ mass [1] =
+6175.25
+ mass_inv [1] =
+0.000161937
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+30655.1
+ k_i [1] =
+3.2621e-005
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+seqNo [1] =
+542
+name = Small
+isObjective [1] =
+false
+isSelected [1] =
+false
+isVisible [1] =
+0
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+healthRatio [1] =
+1
+curHealth [1] =
+1000
+maxHealth [1] =
+1000
+addHealth [1] =
+0
+ammoRatio [1] =
+1
+curAmmo [1] =
+0
+maxAmmo [1] =
+0
+addAmmo [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+isCargo [1] =
+false
+independence [1] =
+1
+curPilot = 
+perceivedTeam [1] =
+0
+[GameObject]
+config = moshrm02
+seqno [1] =
+543
+team [1] =
+0
+label = unnamed_moshrm02
+isUser [1] =
+0
+objAddr = 0F5CCE5C
+transform [1] =
+  right.x [1] =
+1
+  right.y [1] =
+0
+  right.z [1] =
+0
+  up.x [1] =
+0
+  up.y [1] =
+0.999994
+  up.z [1] =
+0
+  front.x [1] =
+0
+  front.y [1] =
+0
+  front.z [1] =
+0.999994
+  posit.x [1] =
+797.628
+  posit.y [1] =
+90.5687
+  posit.z [1] =
+-246.072
+illumination [1] =
+0
+euler =
+ mass [1] =
+6175.25
+ mass_inv [1] =
+0.000161937
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+30655.1
+ k_i [1] =
+3.2621e-005
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+seqNo [1] =
+543
+name = Small
+isObjective [1] =
+false
+isSelected [1] =
+false
+isVisible [1] =
+0
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+healthRatio [1] =
+1
+curHealth [1] =
+1000
+maxHealth [1] =
+1000
+addHealth [1] =
+0
+ammoRatio [1] =
+1
+curAmmo [1] =
+0
+maxAmmo [1] =
+0
+addAmmo [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+isCargo [1] =
+false
+independence [1] =
+1
+curPilot = 
+perceivedTeam [1] =
+0
+[GameObject]
+config = moshrm02
+seqno [1] =
+544
+team [1] =
+0
+label = unnamed_moshrm02
+isUser [1] =
+0
+objAddr = 0F5CD3BC
+transform [1] =
+  right.x [1] =
+1
+  right.y [1] =
+0
+  right.z [1] =
+0
+  up.x [1] =
+0
+  up.y [1] =
+0.999994
+  up.z [1] =
+0
+  front.x [1] =
+0
+  front.y [1] =
+0
+  front.z [1] =
+0.999994
+  posit.x [1] =
+787.193
+  posit.y [1] =
+90.7206
+  posit.z [1] =
+-235.92
+illumination [1] =
+0
+euler =
+ mass [1] =
+6175.25
+ mass_inv [1] =
+0.000161937
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+30655.1
+ k_i [1] =
+3.2621e-005
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+seqNo [1] =
+544
+name = Small
+isObjective [1] =
+false
+isSelected [1] =
+false
+isVisible [1] =
+0
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+healthRatio [1] =
+1
+curHealth [1] =
+1000
+maxHealth [1] =
+1000
+addHealth [1] =
+0
+ammoRatio [1] =
+1
+curAmmo [1] =
+0
+maxAmmo [1] =
+0
+addAmmo [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+isCargo [1] =
+false
+independence [1] =
+1
+curPilot = 
+perceivedTeam [1] =
+0
+[GameObject]
+config = moshrm02
+seqno [1] =
+545
+team [1] =
+0
+label = unnamed_moshrm02
+isUser [1] =
+0
+objAddr = 0F5CD91C
+transform [1] =
+  right.x [1] =
+1
+  right.y [1] =
+0
+  right.z [1] =
+0
+  up.x [1] =
+0
+  up.y [1] =
+0.999994
+  up.z [1] =
+0
+  front.x [1] =
+0
+  front.y [1] =
+0
+  front.z [1] =
+0.999994
+  posit.x [1] =
+812.173
+  posit.y [1] =
+90.6305
+  posit.z [1] =
+-258.223
+illumination [1] =
+0
+euler =
+ mass [1] =
+6175.25
+ mass_inv [1] =
+0.000161937
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+30655.1
+ k_i [1] =
+3.2621e-005
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+seqNo [1] =
+545
+name = Small
+isObjective [1] =
+false
+isSelected [1] =
+false
+isVisible [1] =
+0
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+healthRatio [1] =
+1
+curHealth [1] =
+1000
+maxHealth [1] =
+1000
+addHealth [1] =
+0
+ammoRatio [1] =
+1
+curAmmo [1] =
+0
+maxAmmo [1] =
+0
+addAmmo [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+isCargo [1] =
+false
+independence [1] =
+1
+curPilot = 
+perceivedTeam [1] =
+0
+[GameObject]
+config = moshrm02
+seqno [1] =
+546
+team [1] =
+0
+label = unnamed_moshrm02
+isUser [1] =
+0
+objAddr = 0F5CDE7C
+transform [1] =
+  right.x [1] =
+1
+  right.y [1] =
+0
+  right.z [1] =
+0
+  up.x [1] =
+0
+  up.y [1] =
+0.999994
+  up.z [1] =
+0
+  front.x [1] =
+0
+  front.y [1] =
+0
+  front.z [1] =
+0.999994
+  posit.x [1] =
+840.709
+  posit.y [1] =
+91.6784
+  posit.z [1] =
+-262.32
+illumination [1] =
+0
+euler =
+ mass [1] =
+6175.25
+ mass_inv [1] =
+0.000161937
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+30655.1
+ k_i [1] =
+3.2621e-005
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+seqNo [1] =
+546
+name = Small
+isObjective [1] =
+false
+isSelected [1] =
+false
+isVisible [1] =
+0
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+healthRatio [1] =
+1
+curHealth [1] =
+1000
+maxHealth [1] =
+1000
+addHealth [1] =
+0
+ammoRatio [1] =
+1
+curAmmo [1] =
+0
+maxAmmo [1] =
+0
+addAmmo [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+isCargo [1] =
+false
+independence [1] =
+1
+curPilot = 
+perceivedTeam [1] =
+0
+[GameObject]
+config = moshrm02
+seqno [1] =
+547
+team [1] =
+0
+label = unnamed_moshrm02
+isUser [1] =
+0
+objAddr = 0F5CE3DC
+transform [1] =
+  right.x [1] =
+1
+  right.y [1] =
+0
+  right.z [1] =
+0
+  up.x [1] =
+0
+  up.y [1] =
+0.999994
+  up.z [1] =
+0
+  front.x [1] =
+0
+  front.y [1] =
+0
+  front.z [1] =
+0.999994
+  posit.x [1] =
+863.589
+  posit.y [1] =
+90.8711
+  posit.z [1] =
+-238.27
+illumination [1] =
+0
+euler =
+ mass [1] =
+6175.25
+ mass_inv [1] =
+0.000161937
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+30655.1
+ k_i [1] =
+3.2621e-005
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+seqNo [1] =
+547
+name = Small
+isObjective [1] =
+false
+isSelected [1] =
+false
+isVisible [1] =
+0
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+healthRatio [1] =
+1
+curHealth [1] =
+1000
+maxHealth [1] =
+1000
+addHealth [1] =
+0
+ammoRatio [1] =
+1
+curAmmo [1] =
+0
+maxAmmo [1] =
+0
+addAmmo [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+isCargo [1] =
+false
+independence [1] =
+1
+curPilot = 
+perceivedTeam [1] =
+0
+[GameObject]
+config = moshrm01
+seqno [1] =
+548
+team [1] =
+0
+label = unnamed_moshrm01
+isUser [1] =
+0
+objAddr = 0F5CE93C
+transform [1] =
+  right.x [1] =
+0.642026
+  right.y [1] =
+0
+  right.z [1] =
+-0.766683
+  up.x [1] =
+0
+  up.y [1] =
+0.999994
+  up.z [1] =
+0
+  front.x [1] =
+0.766678
+  front.y [1] =
+0
+  front.z [1] =
+0.642022
+  posit.x [1] =
+383.798
+  posit.y [1] =
+77.7476
+  posit.z [1] =
+1028.2
+illumination [1] =
+0
+euler =
+ mass [1] =
+1.25719e+006
+ mass_inv [1] =
+7.95426e-007
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+2.2714e+008
+ k_i [1] =
+4.40256e-009
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+seqNo [1] =
+548
+name = Large
+isObjective [1] =
+false
+isSelected [1] =
+false
+isVisible [1] =
+0
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+healthRatio [1] =
+1
+curHealth [1] =
+1000
+maxHealth [1] =
+1000
+addHealth [1] =
+0
+ammoRatio [1] =
+1
+curAmmo [1] =
+0
+maxAmmo [1] =
+0
+addAmmo [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+isCargo [1] =
+false
+independence [1] =
+1
+curPilot = 
+perceivedTeam [1] =
+0
+[GameObject]
+config = moshrm02
+seqno [1] =
+549
+team [1] =
+0
+label = unnamed_moshrm02
+isUser [1] =
+0
+objAddr = 0F5CEE9C
+transform [1] =
+  right.x [1] =
+1
+  right.y [1] =
+0
+  right.z [1] =
+0
+  up.x [1] =
+0
+  up.y [1] =
+0.999994
+  up.z [1] =
+0
+  front.x [1] =
+0
+  front.y [1] =
+0
+  front.z [1] =
+0.999994
+  posit.x [1] =
+399.307
+  posit.y [1] =
+77.8
+  posit.z [1] =
+1021.95
+illumination [1] =
+0
+euler =
+ mass [1] =
+6175.25
+ mass_inv [1] =
+0.000161937
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+30655.1
+ k_i [1] =
+3.2621e-005
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+seqNo [1] =
+549
+name = Small
+isObjective [1] =
+false
+isSelected [1] =
+false
+isVisible [1] =
+0
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+healthRatio [1] =
+1
+curHealth [1] =
+1000
+maxHealth [1] =
+1000
+addHealth [1] =
+0
+ammoRatio [1] =
+1
+curAmmo [1] =
+0
+maxAmmo [1] =
+0
+addAmmo [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+isCargo [1] =
+false
+independence [1] =
+1
+curPilot = 
+perceivedTeam [1] =
+0
+[GameObject]
+config = moshrm02
+seqno [1] =
+54a
+team [1] =
+0
+label = unnamed_moshrm02
+isUser [1] =
+0
+objAddr = 0F5CF3FC
+transform [1] =
+  right.x [1] =
+1
+  right.y [1] =
+0
+  right.z [1] =
+0
+  up.x [1] =
+0
+  up.y [1] =
+0.999994
+  up.z [1] =
+0
+  front.x [1] =
+0
+  front.y [1] =
+0
+  front.z [1] =
+0.999994
+  posit.x [1] =
+391.168
+  posit.y [1] =
+77.8
+  posit.z [1] =
+1013.27
+illumination [1] =
+0
+euler =
+ mass [1] =
+6175.25
+ mass_inv [1] =
+0.000161937
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+30655.1
+ k_i [1] =
+3.2621e-005
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+seqNo [1] =
+54a
+name = Small
+isObjective [1] =
+false
+isSelected [1] =
+false
+isVisible [1] =
+0
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+healthRatio [1] =
+1
+curHealth [1] =
+1000
+maxHealth [1] =
+1000
+addHealth [1] =
+0
+ammoRatio [1] =
+1
+curAmmo [1] =
+0
+maxAmmo [1] =
+0
+addAmmo [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+isCargo [1] =
+false
+independence [1] =
+1
+curPilot = 
+perceivedTeam [1] =
+0
+[GameObject]
+config = morock03
+seqno [1] =
+54b
+team [1] =
+0
+label = unnamed_morock03
+isUser [1] =
+0
+objAddr = 0F5DBF9C
+transform [1] =
+  right.x [1] =
+1
+  right.y [1] =
+0
+  right.z [1] =
+0
+  up.x [1] =
+0
+  up.y [1] =
+0.999994
+  up.z [1] =
+0
+  front.x [1] =
+0
+  front.y [1] =
+0
+  front.z [1] =
+0.999994
+  posit.x [1] =
+-720
+  posit.y [1] =
+41.9
+  posit.z [1] =
+-208
+illumination [1] =
+0
+euler =
+ mass [1] =
+199844
+ mass_inv [1] =
+5.00391e-006
+ v_mag [1] =
+0
+ v_mag_inv [1] =
+1e+030
+ I [1] =
+1.04941e+007
+ k_i [1] =
+9.52917e-008
+ v [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ omega [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+ Accel [1] =
+  x [1] =
+0
+  y [1] =
+0
+  z [1] =
+0
+seqNo [1] =
+54b
+name = Big
+isObjective [1] =
+false
+isSelected [1] =
+false
+isVisible [1] =
+0
+isSeen [1] =
+0
+groupNumber [1] =
+-1
+healthRatio [1] =
+1
+curHealth [1] =
+10000
+maxHealth [1] =
+10000
+addHealth [1] =
+0
+ammoRatio [1] =
+1
+curAmmo [1] =
+0
+maxAmmo [1] =
+0
+addAmmo [1] =
+0
+undefaicmd =
+priority [1] =
+0
+what = 00000000
+who [1] =
+0
+where = 00000000
+param [1] =
+0
+aiProcess [1] =
+false
+isCargo [1] =
+false
+independence [1] =
+1
+curPilot = 
+perceivedTeam [1] =
+0
+dllName = mpinstant66.dll
+[AiMission]
+[AOIs]
+size [1] =
+0
+[AiPaths]
+count [1] =
+167
+name = AiPath
+sObject = 02F84B24
+size [1] =
+9
+label = edge_path
+pointCount [1] =
+2
+points [2] =
+  x [1] =
+-919.877
+  z [1] =
+1070.88
+  x [1] =
+1067.15
+  z [1] =
+-914.09
+pathType = 00000000
+name = AiPath
+sObject = 02F84A34
+size [1] =
+13
+label = RecyclerEnemy
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+912.357
+  z [1] =
+879.635
+pathType = 00000000
+name = AiPath
+sObject = 02F84AD4
+size [1] =
+8
+label = holdserv
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+952.388
+  z [1] =
+879.26
+pathType = 00000000
+name = AiPath
+sObject = 02F84C54
+size [1] =
+5
+label = cbun1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+784.511
+  z [1] =
+591.698
+pathType = 00000000
+name = AiPath
+sObject = 02F871D4
+size [1] =
+5
+label = gtow1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+752.629
+  z [1] =
+622.602
+pathType = 00000000
+name = AiPath
+sObject = 02F85A34
+size [1] =
+6
+label = gtow1b
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+784.972
+  z [1] =
+560.446
+pathType = 00000000
+name = AiPath
+sObject = 02F84994
+size [1] =
+5
+label = cbun2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+752.044
+  z [1] =
+879.635
+pathType = 00000000
+name = AiPath
+sObject = 02F85004
+size [1] =
+5
+label = gtow2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+719.42
+  z [1] =
+879.872
+pathType = 00000000
+name = AiPath
+sObject = 02F833A4
+size [1] =
+6
+label = gtow2b
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+719.816
+  z [1] =
+912.008
+pathType = 00000000
+name = AiPath
+sObject = 02F84E74
+size [1] =
+5
+label = gtow4
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+303.826
+  z [1] =
+944.091
+pathType = 00000000
+name = AiPath
+sObject = 02F845F4
+size [1] =
+5
+label = cbun3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+944.32
+  z [1] =
+495.604
+pathType = 00000000
+name = AiPath
+sObject = 02F84EC4
+size [1] =
+5
+label = gtow3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+943.879
+  z [1] =
+462.758
+pathType = 00000000
+name = AiPath
+sObject = 02F84D94
+size [1] =
+5
+label = gtow5
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+207.097
+  z [1] =
+495.946
+pathType = 00000000
+name = AiPath
+sObject = 02F83254
+size [1] =
+5
+label = gtow6
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+913.389
+  z [1] =
+815.653
+pathType = 00000000
+name = AiPath
+sObject = 02F84C04
+size [1] =
+8
+label = Recycler
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-46.8011
+  z [1] =
+111.859
+pathType = 00000000
+name = AiPath
+sObject = 02F84F14
+size [1] =
+12
+label = turretEnemy1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+912.076
+  z [1] =
+943.01
+pathType = 00000000
+name = AiPath
+sObject = 02F83224
+size [1] =
+12
+label = turretEnemy2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+992.889
+  z [1] =
+1039.81
+pathType = 00000000
+name = AiPath
+sObject = 02F84F64
+size [1] =
+12
+label = turretEnemy3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+339.847
+  z [1] =
+955.133
+pathType = 00000000
+name = AiPath
+sObject = 02F84D44
+size [1] =
+12
+label = turretEnemy4
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-93.9549
+  z [1] =
+583.528
+pathType = 00000000
+name = AiPath
+sObject = 02F85334
+size [1] =
+12
+label = turretEnemy5
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-559.611
+  z [1] =
+-276.534
+pathType = 00000000
+name = AiPath
+sObject = 02F85294
+size [1] =
+12
+label = turretEnemy6
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-640.611
+  z [1] =
+-360.347
+pathType = 00000000
+name = AiPath
+sObject = 02F852E4
+size [1] =
+8
+label = RcktTwr6
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-528.299
+  z [1] =
+-304.19
+pathType = 00000000
+name = AiPath
+sObject = 02F853D4
+size [1] =
+7
+label = PwrGen1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+1231.87
+  z [1] =
+1232.13
+pathType = 00000000
+name = AiPath
+sObject = 02F85384
+size [1] =
+7
+label = PwrGen2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+1200.47
+  z [1] =
+1232.13
+pathType = 00000000
+name = AiPath
+sObject = 02F85144
+size [1] =
+8
+label = RcktTwr5
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+527.835
+  z [1] =
+239.912
+pathType = 00000000
+name = AiPath
+sObject = 02F85504
+size [1] =
+8
+label = trthold1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+878.795
+  z [1] =
+815.653
+pathType = 00000000
+name = AiPath
+sObject = 02F85C54
+size [1] =
+8
+label = trthold2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+720.754
+  z [1] =
+655.414
+pathType = 00000000
+name = AiPath
+sObject = 02F855A4
+size [1] =
+8
+label = trthold3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+721.035
+  z [1] =
+772.414
+pathType = 00000000
+name = AiPath
+sObject = 02F85554
+size [1] =
+8
+label = RcktTwr2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+944.608
+  z [1] =
+110.935
+pathType = 00000000
+name = AiPath
+sObject = 02F85244
+size [1] =
+8
+label = RcktTwr4
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-718.132
+  z [1] =
+622.362
+pathType = 00000000
+name = AiPath
+sObject = 02F85644
+size [1] =
+8
+label = RcktTwr3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+688.234
+  z [1] =
+-561.185
+pathType = 00000000
+name = AiPath
+sObject = 02F857C4
+size [1] =
+12
+label = SentryEnemy1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+811.857
+  z [1] =
+839.417
+pathType = 00000000
+name = AiPath
+sObject = 02F85D94
+size [1] =
+12
+label = SentryEnemy2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+828.732
+  z [1] =
+838.948
+pathType = 00000000
+name = AiPath
+sObject = 02F85724
+size [1] =
+12
+label = SentryEnemy3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+845.138
+  z [1] =
+838.948
+pathType = 00000000
+name = AiPath
+sObject = 02F86664
+size [1] =
+9
+label = FuryTank1
+pointCount [1] =
+4
+points [4] =
+  x [1] =
+141.92
+  z [1] =
+1172.93
+  x [1] =
+141.851
+  z [1] =
+1108.55
+  x [1] =
+196.526
+  z [1] =
+1177.12
+  x [1] =
+143.083
+  z [1] =
+1178.51
+pathType = 00000000
+name = AiPath
+sObject = 02F85814
+size [1] =
+9
+label = FuryTank4
+pointCount [1] =
+4
+points [4] =
+  x [1] =
+-157.315
+  z [1] =
+646.847
+  x [1] =
+-134.307
+  z [1] =
+646.632
+  x [1] =
+-161.065
+  z [1] =
+673.566
+  x [1] =
+-159.58
+  z [1] =
+653.372
+pathType = 00000000
+name = AiPath
+sObject = 02F85CA4
+size [1] =
+9
+label = FuryTank3
+pointCount [1] =
+9
+points [9] =
+  x [1] =
+-885.284
+  z [1] =
+743.972
+  x [1] =
+-885.284
+  z [1] =
+647.878
+  x [1] =
+-949.971
+  z [1] =
+584.597
+  x [1] =
+-1037.63
+  z [1] =
+584.597
+  x [1] =
+-1106.06
+  z [1] =
+661.941
+  x [1] =
+-1105.6
+  z [1] =
+733.191
+  x [1] =
+-1007.63
+  z [1] =
+799.753
+  x [1] =
+-935.904
+  z [1] =
+800.635
+  x [1] =
+-887.868
+  z [1] =
+751.423
+pathType = 00000000
+name = AiPath
+sObject = 02F858B4
+size [1] =
+9
+label = FuryTank2
+pointCount [1] =
+8
+points [8] =
+  x [1] =
+236.169
+  z [1] =
+-790.831
+  x [1] =
+128.998
+  z [1] =
+-744.59
+  x [1] =
+59.6227
+  z [1] =
+-753.028
+  x [1] =
+37.5914
+  z [1] =
+-813.028
+  x [1] =
+57.2789
+  z [1] =
+-875.372
+  x [1] =
+148.216
+  z [1] =
+-925.528
+  x [1] =
+238.216
+  z [1] =
+-892.247
+  x [1] =
+237.748
+  z [1] =
+-791.465
+pathType = 00000000
+name = AiPath
+sObject = 02F85864
+size [1] =
+7
+label = Turret1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+58.2951
+  z [1] =
+238.528
+pathType = 00000000
+name = AiPath
+sObject = 02F85A84
+size [1] =
+7
+label = Turret2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-32.0862
+  z [1] =
+-94.8333
+pathType = 00000000
+name = AiPath
+sObject = 02F859E4
+size [1] =
+6
+label = Scout1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-231.586
+  z [1] =
+240.042
+pathType = 00000000
+name = AiPath
+sObject = 02F85B24
+size [1] =
+6
+label = Scout2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-243.305
+  z [1] =
+225.979
+pathType = 00000000
+name = AiPath
+sObject = 02F85CF4
+size [1] =
+7
+label = Turret3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-256.149
+  z [1] =
+62.4792
+pathType = 00000000
+name = AiPath
+sObject = 02F86444
+size [1] =
+6
+label = Scout3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-254.086
+  z [1] =
+212.854
+pathType = 00000000
+name = AiPath
+sObject = 02F85AD4
+size [1] =
+5
+label = Tank3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-173.461
+  z [1] =
+225.51
+pathType = 00000000
+name = AiPath
+sObject = 02F85994
+size [1] =
+5
+label = Tank2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-184.711
+  z [1] =
+210.979
+pathType = 00000000
+name = AiPath
+sObject = 02F85D44
+size [1] =
+5
+label = Tank1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-196.899
+  z [1] =
+197.385
+pathType = 00000000
+name = AiPath
+sObject = 02F85FB4
+size [1] =
+8
+label = artlgas1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-79.8987
+  z [1] =
+303.979
+pathType = 00000000
+name = AiPath
+sObject = 02F85C04
+size [1] =
+8
+label = artlgas2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+167.883
+  z [1] =
+111.323
+pathType = 00000000
+name = AiPath
+sObject = 02F84814
+size [1] =
+7
+label = artlef3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+702.379
+  z [1] =
+365.446
+pathType = 00000000
+name = AiPath
+sObject = 02F85EC4
+size [1] =
+7
+label = artlef2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+615.914
+  z [1] =
+759.698
+pathType = 00000000
+name = AiPath
+sObject = 02F86134
+size [1] =
+7
+label = artlef1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+848.326
+  z [1] =
+752.278
+pathType = 00000000
+name = AiPath
+sObject = 02F86C34
+size [1] =
+6
+label = build1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+880.383
+  z [1] =
+1199.39
+pathType = 00000000
+name = AiPath
+sObject = 02F86224
+size [1] =
+6
+label = build2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+848.508
+  z [1] =
+1199.85
+pathType = 00000000
+name = AiPath
+sObject = 02F86184
+size [1] =
+6
+label = asmbl1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+766.222
+  z [1] =
+801.102
+pathType = 00000000
+name = AiPath
+sObject = 02F85F64
+size [1] =
+5
+label = hold1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+752.889
+  z [1] =
+655.81
+pathType = 00000000
+name = AiPath
+sObject = 02F85E74
+size [1] =
+8
+label = minefld3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+526.67
+  z [1] =
+495.778
+pathType = 00000000
+name = AiPath
+sObject = 02F86EA4
+size [1] =
+6
+label = stage2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+463.129
+  z [1] =
+880.133
+pathType = 00000000
+name = AiPath
+sObject = 02F861D4
+size [1] =
+5
+label = hold2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+400.316
+  z [1] =
+912.008
+pathType = 00000000
+name = AiPath
+sObject = 02F855F4
+size [1] =
+5
+label = hold3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+848.045
+  z [1] =
+210.31
+pathType = 00000000
+name = AiPath
+sObject = 02F86494
+size [1] =
+6
+label = stage3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+913.389
+  z [1] =
+143.747
+pathType = 00000000
+name = AiPath
+sObject = 02F860E4
+size [1] =
+5
+label = hold4
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+464.795
+  z [1] =
+-497.034
+pathType = 00000000
+name = AiPath
+sObject = 02F863A4
+size [1] =
+10
+label = mbtattack1
+pointCount [1] =
+42
+points [42] =
+  x [1] =
+738.736
+  z [1] =
+712.976
+  x [1] =
+608.248
+  z [1] =
+510.549
+  x [1] =
+720.748
+  z [1] =
+456.174
+  x [1] =
+799.498
+  z [1] =
+374.706
+  x [1] =
+807.654
+  z [1] =
+101.331
+  x [1] =
+734.529
+  z [1] =
+-112.419
+  x [1] =
+590.976
+  z [1] =
+-252.615
+  x [1] =
+591.092
+  z [1] =
+-316.419
+  x [1] =
+679.217
+  z [1] =
+-417.857
+  x [1] =
+545.226
+  z [1] =
+-617.771
+  x [1] =
+485.856
+  z [1] =
+-618.113
+  x [1] =
+397.731
+  z [1] =
+-564.207
+  x [1] =
+302.106
+  z [1] =
+-633.769
+  x [1] =
+301.637
+  z [1] =
+-711.863
+  x [1] =
+240.699
+  z [1] =
+-757.332
+  x [1] =
+128.949
+  z [1] =
+-739.988
+  x [1] =
+49.3555
+  z [1] =
+-740.082
+  x [1] =
+17.4805
+  z [1] =
+-870.394
+  x [1] =
+-178.711
+  z [1] =
+-871.365
+  x [1] =
+-201.694
+  z [1] =
+-1077.77
+  x [1] =
+-408.988
+  z [1] =
+-1109.83
+  x [1] =
+-718.832
+  z [1] =
+-1102.8
+  x [1] =
+-830.394
+  z [1] =
+-1059.68
+  x [1] =
+-923.957
+  z [1] =
+-909.3
+  x [1] =
+-974.582
+  z [1] =
+-780.863
+  x [1] =
+-956.769
+  z [1] =
+-715.707
+  x [1] =
+-900.486
+  z [1] =
+-638.878
+  x [1] =
+-773.113
+  z [1] =
+-637.8
+  x [1] =
+-714.051
+  z [1] =
+-654.675
+  x [1] =
+-662.957
+  z [1] =
+-545.457
+  x [1] =
+-546.426
+  z [1] =
+-494.457
+  x [1] =
+-545.488
+  z [1] =
+-337.519
+  x [1] =
+-496.644
+  z [1] =
+-285.582
+  x [1] =
+-263.676
+  z [1] =
+-285.582
+  x [1] =
+-185.207
+  z [1] =
+-210.207
+  x [1] =
+-184.738
+  z [1] =
+-151.613
+  x [1] =
+-73.4569
+  z [1] =
+-0.769172
+  x [1] =
+75.9806
+  z [1] =
+-0.394166
+  x [1] =
+91.4493
+  z [1] =
+18.3558
+  x [1] =
+-133.457
+  z [1] =
+210.356
+  x [1] =
+-166.242
+  z [1] =
+166.823
+  x [1] =
+2.97638
+  z [1] =
+32.2917
+pathType = 00000000
+name = AiPath
+sObject = 02F864E4
+size [1] =
+6
+label = power1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-443.555
+  z [1] =
+366.042
+pathType = 00000000
+name = AiPath
+sObject = 02F87134
+size [1] =
+6
+label = power2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+287.414
+  z [1] =
+-224.49
+pathType = 00000000
+name = AiPath
+sObject = 02F86DB4
+size [1] =
+6
+label = power3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-901.989
+  z [1] =
+803.546
+pathType = 00000000
+name = AiPath
+sObject = 02F86704
+size [1] =
+6
+label = power4
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+263.608
+  z [1] =
+-867.253
+pathType = 00000000
+name = AiPath
+sObject = 02F86354
+size [1] =
+7
+label = attack1
+pointCount [1] =
+25
+points [25] =
+  x [1] =
+626.601
+  z [1] =
+1088.77
+  x [1] =
+575.904
+  z [1] =
+1166.05
+  x [1] =
+216.918
+  z [1] =
+1165.61
+  x [1] =
+89.6013
+  z [1] =
+1047.23
+  x [1] =
+32.4138
+  z [1] =
+1031.76
+  x [1] =
+-57.6761
+  z [1] =
+1116.86
+  x [1] =
+-112.971
+  z [1] =
+1117.3
+  x [1] =
+-191.439
+  z [1] =
+990.737
+  x [1] =
+-303.51
+  z [1] =
+979.493
+  x [1] =
+-394.043
+  z [1] =
+928.667
+  x [1] =
+-602.111
+  z [1] =
+858.782
+  x [1] =
+-671.996
+  z [1] =
+800.015
+  x [1] =
+-711.704
+  z [1] =
+726.953
+  x [1] =
+-819.708
+  z [1] =
+650.714
+  x [1] =
+-727.587
+  z [1] =
+523.65
+  x [1] =
+-727.805
+  z [1] =
+441.135
+  x [1] =
+-602.18
+  z [1] =
+323.573
+  x [1] =
+-490.617
+  z [1] =
+324.042
+  x [1] =
+-366.024
+  z [1] =
+385.917
+  x [1] =
+-296.649
+  z [1] =
+384.979
+  x [1] =
+-39.7408
+  z [1] =
+55.4275
+  x [1] =
+106.697
+  z [1] =
+-51.7287
+  x [1] =
+136.697
+  z [1] =
+-8.13498
+  x [1] =
+12.9467
+  z [1] =
+156.115
+  x [1] =
+-41.7424
+  z [1] =
+139.26
+pathType = 00000000
+name = AiPath
+sObject = 02F86614
+size [1] =
+7
+label = attack2
+pointCount [1] =
+19
+points [19] =
+  x [1] =
+635.178
+  z [1] =
+926.126
+  x [1] =
+441.258
+  z [1] =
+912.885
+  x [1] =
+386.883
+  z [1] =
+941.01
+  x [1] =
+331.383
+  z [1] =
+928.917
+  x [1] =
+288.874
+  z [1] =
+697.27
+  x [1] =
+388.169
+  z [1] =
+577.319
+  x [1] =
+683.789
+  z [1] =
+467.948
+  x [1] =
+790.101
+  z [1] =
+411.229
+  x [1] =
+792.445
+  z [1] =
+228.229
+  x [1] =
+455.883
+  z [1] =
+229.635
+  x [1] =
+399.759
+  z [1] =
+206.178
+  x [1] =
+160.415
+  z [1] =
+299.459
+  x [1] =
+-113.991
+  z [1] =
+180.396
+  x [1] =
+-152.241
+  z [1] =
+126.959
+  x [1] =
+103.697
+  z [1] =
+-71.9787
+  x [1] =
+132.947
+  z [1] =
+-29.6037
+  x [1] =
+-198.085
+  z [1] =
+240.959
+  x [1] =
+-225.647
+  z [1] =
+205.146
+  x [1] =
+-72.3658
+  z [1] =
+79.5213
+pathType = 00000000
+name = AiPath
+sObject = 02F86754
+size [1] =
+7
+label = attack3
+pointCount [1] =
+30
+points [30] =
+  x [1] =
+981.248
+  z [1] =
+426.856
+  x [1] =
+1118.42
+  z [1] =
+144.484
+  x [1] =
+1118.89
+  z [1] =
+-16.0164
+  x [1] =
+1099.2
+  z [1] =
+-171.454
+  x [1] =
+1034.04
+  z [1] =
+-228.735
+  x [1] =
+1031.51
+  z [1] =
+-357.923
+  x [1] =
+958.105
+  z [1] =
+-448.954
+  x [1] =
+942.168
+  z [1] =
+-600.266
+  x [1] =
+701.133
+  z [1] =
+-669.896
+  x [1] =
+666.449
+  z [1] =
+-817.016
+  x [1] =
+489.261
+  z [1] =
+-844.391
+  x [1] =
+423.824
+  z [1] =
+-919.86
+  x [1] =
+117.824
+  z [1] =
+-924.079
+  x [1] =
+36.4451
+  z [1] =
+-869.958
+  x [1] =
+31.3555
+  z [1] =
+-711.207
+  x [1] =
+-33.8008
+  z [1] =
+-669.769
+  x [1] =
+-34.2695
+  z [1] =
+-575.082
+  x [1] =
+23.8555
+  z [1] =
+-506.363
+  x [1] =
+46.8242
+  z [1] =
+-446.363
+  x [1] =
+208.168
+  z [1] =
+-446.363
+  x [1] =
+264.605
+  z [1] =
+-315.019
+  x [1] =
+345.914
+  z [1] =
+-314.771
+  x [1] =
+385.664
+  z [1] =
+-224.958
+  x [1] =
+314.105
+  z [1] =
+-139.707
+  x [1] =
+294.478
+  z [1] =
+-57.0725
+  x [1] =
+-24.2721
+  z [1] =
+67.7088
+  x [1] =
+-171.46
+  z [1] =
+181.428
+  x [1] =
+-150.835
+  z [1] =
+207.678
+  x [1] =
+39.9467
+  z [1] =
+209.084
+  x [1] =
+39.9467
+  z [1] =
+79.24
+pathType = 00000000
+name = AiPath
+sObject = 02F86924
+size [1] =
+7
+label = patrol1
+pointCount [1] =
+16
+points [16] =
+  x [1] =
+758.883
+  z [1] =
+1031.48
+  x [1] =
+673.195
+  z [1] =
+993.042
+  x [1] =
+673.195
+  z [1] =
+943.823
+  x [1] =
+703.886
+  z [1] =
+879.979
+  x [1] =
+703.886
+  z [1] =
+820.917
+  x [1] =
+805.851
+  z [1] =
+727.354
+  x [1] =
+805.851
+  z [1] =
+576.229
+  x [1] =
+923.039
+  z [1] =
+481.26
+  x [1] =
+923.039
+  z [1] =
+441.323
+  x [1] =
+993.82
+  z [1] =
+441.042
+  x [1] =
+993.82
+  z [1] =
+480.885
+  x [1] =
+1051.95
+  z [1] =
+532.073
+  x [1] =
+1051.48
+  z [1] =
+677.385
+  x [1] =
+1028.51
+  z [1] =
+719.573
+  x [1] =
+1025.88
+  z [1] =
+1031.67
+  x [1] =
+765.258
+  z [1] =
+1031.67
+pathType = 00000000
+name = AiPath
+sObject = 02F85F14
+size [1] =
+7
+label = patrol2
+pointCount [1] =
+15
+points [15] =
+  x [1] =
+902.133
+  z [1] =
+-206.677
+  x [1] =
+822.186
+  z [1] =
+-286.138
+  x [1] =
+788.061
+  z [1] =
+-420.575
+  x [1] =
+685.404
+  z [1] =
+-420.763
+  x [1] =
+603.82
+  z [1] =
+-501.99
+  x [1] =
+457.873
+  z [1] =
+-397.888
+  x [1] =
+408.186
+  z [1] =
+-397.513
+  x [1] =
+354.82
+  z [1] =
+-320.865
+  x [1] =
+400.217
+  z [1] =
+-234.857
+  x [1] =
+458.695
+  z [1] =
+-176.021
+  x [1] =
+460.851
+  z [1] =
+226.729
+  x [1] =
+778.008
+  z [1] =
+225.323
+  x [1] =
+961.195
+  z [1] =
+70.5416
+  x [1] =
+961.664
+  z [1] =
+-46.8334
+  x [1] =
+906.351
+  z [1] =
+-201.521
+pathType = 00000000
+name = AiPath
+sObject = 02F866B4
+size [1] =
+7
+label = jammer1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-142.705
+  z [1] =
+636.028
+pathType = 00000000
+name = AiPath
+sObject = 02F868D4
+size [1] =
+7
+label = jammer2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+143.983
+  z [1] =
+-848.878
+pathType = 00000000
+name = AiPath
+sObject = 02F863F4
+size [1] =
+7
+label = jammer3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-975.94
+  z [1] =
+687.816
+pathType = 00000000
+name = AiPath
+sObject = 02F86884
+size [1] =
+9
+label = scrpool1a
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+783.451
+  z [1] =
+1007.93
+pathType = 00000000
+name = AiPath
+sObject = 02F869C4
+size [1] =
+9
+label = scrpool1b
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+1007.79
+  z [1] =
+847.854
+pathType = 00000000
+name = AiPath
+sObject = 02F86AA4
+size [1] =
+9
+label = scrpool2a
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+400.542
+  z [1] =
+591.39
+pathType = 00000000
+name = AiPath
+sObject = 02F86B94
+size [1] =
+9
+label = scrpool2b
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+590.795
+  z [1] =
+241.06
+pathType = 00000000
+name = AiPath
+sObject = 02F86834
+size [1] =
+9
+label = scrpool3a
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-144.301
+  z [1] =
+-16.3914
+pathType = 00000000
+name = AiPath
+sObject = 02F86AF4
+size [1] =
+9
+label = scrpool3b
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-47.7386
+  z [1] =
+-112.485
+pathType = 00000000
+name = AiPath
+sObject = 02F86E04
+size [1] =
+9
+label = scrpool3c
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-239.926
+  z [1] =
+47.8273
+pathType = 00000000
+name = AiPath
+sObject = 02F83B94
+size [1] =
+9
+label = scrpool4a
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-592.239
+  z [1] =
+783.484
+pathType = 00000000
+name = AiPath
+sObject = 02F86B44
+size [1] =
+9
+label = scrpool4c
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-848.434
+  z [1] =
+689.071
+pathType = 00000000
+name = AiPath
+sObject = 02F86D64
+size [1] =
+9
+label = scrpool4b
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-752.361
+  z [1] =
+463.903
+pathType = 00000000
+name = AiPath
+sObject = 02F87B44
+size [1] =
+9
+label = scrpool5c
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+46.6701
+  z [1] =
+-720.534
+pathType = 00000000
+name = AiPath
+sObject = 02F86BE4
+size [1] =
+9
+label = scrpool5a
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+463.855
+  z [1] =
+-527.985
+pathType = 00000000
+name = AiPath
+sObject = 02F88724
+size [1] =
+9
+label = scrpool5b
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+590.695
+  z [1] =
+-399.521
+pathType = 00000000
+name = AiPath
+sObject = 02F86FE4
+size [1] =
+9
+label = scrpool6a
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-592.986
+  z [1] =
+-336.44
+pathType = 00000000
+name = AiPath
+sObject = 02F87884
+size [1] =
+9
+label = scrpool6b
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-559.992
+  z [1] =
+-400.552
+pathType = 00000000
+name = AiPath
+sObject = 02F865C4
+size [1] =
+9
+label = scrpool6c
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-719.08
+  z [1] =
+-367.378
+pathType = 00000000
+name = AiPath
+sObject = 02F86D14
+size [1] =
+9
+label = FuryTank5
+pointCount [1] =
+9
+points [9] =
+  x [1] =
+-543.919
+  z [1] =
+-929.565
+  x [1] =
+-595.242
+  z [1] =
+-950.302
+  x [1] =
+-660.588
+  z [1] =
+-960.78
+  x [1] =
+-670.992
+  z [1] =
+-1042.65
+  x [1] =
+-478.805
+  z [1] =
+-1064.21
+  x [1] =
+-425.93
+  z [1] =
+-1037.49
+  x [1] =
+-426.399
+  z [1] =
+-983.115
+  x [1] =
+-468.403
+  z [1] =
+-930.602
+  x [1] =
+-537.961
+  z [1] =
+-928.271
+pathType = 00000000
+name = AiPath
+sObject = 02F87C34
+size [1] =
+6
+label = gtow1c
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+752.514
+  z [1] =
+591.122
+pathType = 00000000
+name = AiPath
+sObject = 02F8C6D4
+size [1] =
+5
+label = cbun4
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+304.289
+  z [1] =
+976.167
+pathType = 00000000
+name = AiPath
+sObject = 02F873F4
+size [1] =
+5
+label = cbun5
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+207.82
+  z [1] =
+527.948
+pathType = 00000000
+name = AiPath
+sObject = 02F86974
+size [1] =
+5
+label = cbun6
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+943.972
+  z [1] =
+815.914
+pathType = 00000000
+name = AiPath
+sObject = 02F873A4
+size [1] =
+6
+label = gspir1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+752.16
+  z [1] =
+623.071
+pathType = 00000000
+name = AiPath
+sObject = 02F895A4
+size [1] =
+6
+label = gspir2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+720.285
+  z [1] =
+911.539
+pathType = 00000000
+name = AiPath
+sObject = 02F87224
+size [1] =
+6
+label = gspir3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+944.347
+  z [1] =
+463.227
+pathType = 00000000
+name = AiPath
+sObject = 02F8B3F4
+size [1] =
+7
+label = gspir1b
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+784.504
+  z [1] =
+560.914
+pathType = 00000000
+name = AiPath
+sObject = 02F87754
+size [1] =
+6
+label = gspir4
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+304.41
+  z [1] =
+944.539
+pathType = 00000000
+name = AiPath
+sObject = 02F87494
+size [1] =
+6
+label = gspir6
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+912.941
+  z [1] =
+815.914
+pathType = 00000000
+name = AiPath
+sObject = 02F87274
+size [1] =
+6
+label = rspir1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+719.701
+  z [1] =
+622.997
+pathType = 00000000
+name = AiPath
+sObject = 02F87614
+size [1] =
+5
+label = rtow1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+816.097
+  z [1] =
+560.727
+pathType = 00000000
+name = AiPath
+sObject = 02F87664
+size [1] =
+5
+label = rtow2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+720.285
+  z [1] =
+849.664
+pathType = 00000000
+name = AiPath
+sObject = 02F87444
+size [1] =
+6
+label = rspir2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+719.42
+  z [1] =
+880.341
+pathType = 00000000
+name = AiPath
+sObject = 02F876B4
+size [1] =
+6
+label = rspir3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+878.795
+  z [1] =
+560.091
+pathType = 00000000
+name = AiPath
+sObject = 02F875C4
+size [1] =
+5
+label = rtow3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+976.129
+  z [1] =
+463.227
+pathType = 00000000
+name = AiPath
+sObject = 02F87354
+size [1] =
+6
+label = stage5
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+527.722
+  z [1] =
+-79.5856
+pathType = 00000000
+name = AiPath
+sObject = 02F87704
+size [1] =
+6
+label = stage7
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+560.066
+  z [1] =
+-303.742
+pathType = 00000000
+name = AiPath
+sObject = 02F87974
+size [1] =
+6
+label = stage9
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+686.889
+  z [1] =
+-654.253
+pathType = 00000000
+name = AiPath
+sObject = 02F87D64
+size [1] =
+7
+label = stage11
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+400.483
+  z [1] =
+-944.784
+pathType = 00000000
+name = AiPath
+sObject = 02F87834
+size [1] =
+8
+label = minefld1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+15.0824
+  z [1] =
+911.364
+pathType = 00000000
+name = AiPath
+sObject = 02F87924
+size [1] =
+6
+label = stage6
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-332.734
+  z [1] =
+921.044
+pathType = 00000000
+name = AiPath
+sObject = 02F879C4
+size [1] =
+6
+label = stage8
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-515.389
+  z [1] =
+922.632
+pathType = 00000000
+name = AiPath
+sObject = 02F870E4
+size [1] =
+7
+label = stage10
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-815.726
+  z [1] =
+1042.13
+pathType = 00000000
+name = AiPath
+sObject = 02F878D4
+size [1] =
+12
+label = turretEnemy7
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+121.108
+  z [1] =
+-823.753
+pathType = 00000000
+name = AiPath
+sObject = 02F87BE4
+size [1] =
+12
+label = turretEnemy8
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+490.576
+  z [1] =
+816.591
+pathType = 00000000
+name = AiPath
+sObject = 02F87B94
+size [1] =
+8
+label = RcktTwr1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+432.798
+  z [1] =
+944.054
+pathType = 00000000
+name = AiPath
+sObject = 02F87DB4
+size [1] =
+9
+label = surprise1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+1200.45
+  z [1] =
+719.948
+pathType = 00000000
+name = AiPath
+sObject = 02F87AA4
+size [1] =
+9
+label = surprise2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-1001.37
+  z [1] =
+903.979
+pathType = 00000000
+name = AiPath
+sObject = 02F874E4
+size [1] =
+9
+label = surprise3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-1168.05
+  z [1] =
+-848.254
+pathType = 00000000
+name = AiPath
+sObject = 02F88074
+size [1] =
+9
+label = scrfield1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+824.816
+  z [1] =
+799.227
+pathType = 00000000
+name = AiPath
+sObject = 02F87FD4
+size [1] =
+9
+label = scrfield2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+250.428
+  z [1] =
+1173.47
+pathType = 00000000
+name = AiPath
+sObject = 02F87D14
+size [1] =
+9
+label = scrfield3
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+1105.48
+  z [1] =
+189.872
+pathType = 00000000
+name = AiPath
+sObject = 02F88814
+size [1] =
+9
+label = scrfield4
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-45.2345
+  z [1] =
+795.117
+pathType = 00000000
+name = AiPath
+sObject = 02F87184
+size [1] =
+9
+label = scrfield5
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+144.451
+  z [1] =
+495.966
+pathType = 00000000
+name = AiPath
+sObject = 02F87E04
+size [1] =
+9
+label = scrfield6
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+432.351
+  z [1] =
+16.5416
+pathType = 00000000
+name = AiPath
+sObject = 02F87EA4
+size [1] =
+9
+label = scrfield7
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+112.129
+  z [1] =
+-80.5231
+pathType = 00000000
+name = AiPath
+sObject = 02F88334
+size [1] =
+9
+label = scrfield8
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-79.8987
+  z [1] =
+-239.302
+pathType = 00000000
+name = AiPath
+sObject = 02F88024
+size [1] =
+9
+label = scrfield9
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-526.517
+  z [1] =
+-17.7842
+pathType = 00000000
+name = AiPath
+sObject = 02F88114
+size [1] =
+8
+label = minefld5
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-880.242
+  z [1] =
+-623.865
+pathType = 00000000
+name = AiPath
+sObject = 02F880C4
+size [1] =
+8
+label = minefld2
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+302.983
+  z [1] =
+720.216
+pathType = 00000000
+name = AiPath
+sObject = 02F850C4
+size [1] =
+8
+label = minefld4
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+758.254
+  z [1] =
+28.0394
+pathType = 00000000
+name = AiPath
+sObject = 02F88384
+size [1] =
+10
+label = laserpod1a
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+188.708
+  z [1] =
+1122.4
+pathType = 00000000
+name = AiPath
+sObject = 02F884B4
+size [1] =
+10
+label = laserpod3a
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-859.294
+  z [1] =
+726.369
+pathType = 00000000
+name = AiPath
+sObject = 02F87F84
+size [1] =
+10
+label = laserpod3b
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-1096.94
+  z [1] =
+616.926
+pathType = 00000000
+name = AiPath
+sObject = 02F8B574
+size [1] =
+10
+label = laserpod2a
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+258.405
+  z [1] =
+-828.951
+pathType = 00000000
+name = AiPath
+sObject = 02F88294
+size [1] =
+10
+label = laserpod4a
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-124.926
+  z [1] =
+616.144
+pathType = 00000000
+name = AiPath
+sObject = 02F88554
+size [1] =
+10
+label = laserpod5a
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-384.223
+  z [1] =
+-1030.67
+pathType = 00000000
+name = AiPath
+sObject = 02F885A4
+size [1] =
+5
+label = pgen1
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+880.013
+  z [1] =
+911.51
+pathType = 00000000
+name = AiPath
+sObject = 02F885F4
+size [1] =
+7
+label = factory
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+816.754
+  z [1] =
+911.633
+pathType = 00000000
+name = AiPath
+sObject = 02F881F4
+size [1] =
+4
+label = kiln
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+817.222
+  z [1] =
+912.102
+pathType = 00000000
+name = AiPath
+sObject = 02F88244
+size [1] =
+7
+label = gspir2b
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+719.816
+  z [1] =
+850.133
+pathType = 00000000
+name = AiPath
+sObject = 02F889E4
+size [1] =
+6
+label = gspir5
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+207.847
+  z [1] =
+495.477
+pathType = 00000000
+name = AiPath
+sObject = 02F88464
+size [1] =
+6
+label = rspir4
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+752.514
+  z [1] =
+752.466
+pathType = 00000000
+name = AiPath
+sObject = 02F85774
+size [1] =
+12
+label = turretEnemy9
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+879.451
+  z [1] =
+179.841
+pathType = 00000000
+name = AiPath
+sObject = 02F882E4
+size [1] =
+5
+label = rtow4
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+751.764
+  z [1] =
+849.31
+pathType = 00000000
+name = AiPath
+sObject = 02F88504
+size [1] =
+10
+label = scrfield10
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+514.389
+  z [1] =
+485.747
+pathType = 00000000
+name = AiPath
+sObject = 02F88FD4
+size [1] =
+10
+label = scrfield11
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-251.174
+  z [1] =
+523.341
+pathType = 00000000
+name = AiPath
+sObject = 02F88774
+size [1] =
+10
+label = scrfield12
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-54.0078
+  z [1] =
+841.178
+pathType = 00000000
+name = AiPath
+sObject = 02F886D4
+size [1] =
+10
+label = scrfield13
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-448.705
+  z [1] =
+-71.6904
+pathType = 00000000
+name = AiPath
+sObject = 02F8AB44
+size [1] =
+10
+label = scrfield14
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+268.576
+  z [1] =
+405.966
+pathType = 00000000
+name = AiPath
+sObject = 02F87E54
+size [1] =
+10
+label = scrfield15
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+222.17
+  z [1] =
+511.903
+pathType = 00000000
+name = AiPath
+sObject = 02F88994
+size [1] =
+10
+label = scrfield16
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+815.701
+  z [1] =
+-288.628
+pathType = 00000000
+name = AiPath
+sObject = 02F89024
+size [1] =
+7
+label = patrol3
+pointCount [1] =
+23
+points [23] =
+  x [1] =
+-870.299
+  z [1] =
+632.841
+  x [1] =
+-969.486
+  z [1] =
+540.778
+  x [1] =
+-893.08
+  z [1] =
+386.653
+  x [1] =
+-769.33
+  z [1] =
+130.341
+  x [1] =
+-753.861
+  z [1] =
+27.4971
+  x [1] =
+-831.674
+  z [1] =
+-71.8779
+  x [1] =
+-804.299
+  z [1] =
+-188.034
+  x [1] =
+-721.33
+  z [1] =
+-341.315
+  x [1] =
+-584.455
+  z [1] =
+-397.659
+  x [1] =
+-546.767
+  z [1] =
+-510.159
+  x [1] =
+-460.986
+  z [1] =
+-546.722
+  x [1] =
+-376.611
+  z [1] =
+-501.253
+  x [1] =
+-368.174
+  z [1] =
+-336.253
+  x [1] =
+-520.517
+  z [1] =
+-264.815
+  x [1] =
+-543.205
+  z [1] =
+-175.847
+  x [1] =
+-629.924
+  z [1] =
+-65.8779
+  x [1] =
+-577.424
+  z [1] =
+52.5283
+  x [1] =
+-595.122
+  z [1] =
+209.483
+  x [1] =
+-645.861
+  z [1] =
+399.403
+  x [1] =
+-754.236
+  z [1] =
+491.56
+  x [1] =
+-754.049
+  z [1] =
+545.653
+  x [1] =
+-821.08
+  z [1] =
+633.31
+  x [1] =
+-865.142
+  z [1] =
+633.31
+pathType = 00000000
+name = AiPath
+sObject = 02F88CF4
+size [1] =
+14
+label = dropoff_fact_6
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+847.923
+  z [1] =
+784.018
+pathType = 00000000
+name = AiPath
+sObject = 02F87AF4
+size [1] =
+14
+label = dropoff_recy_6
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+944.141
+  z [1] =
+783.861
+pathType = 00000000
+name = AiPath
+sObject = 02F88944
+size [1] =
+9
+label = surprise4
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-236.967
+  z [1] =
+-1138.16
+pathType = 00000000
+name = AiPath
+sObject = 02F88AD4
+size [1] =
+9
+label = surprise5
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+958.545
+  z [1] =
+-934.264
+pathType = 00000000
+name = AiPath
+sObject = 02F88F84
+size [1] =
+9
+label = surprise6
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-1168.05
+  z [1] =
+621.82
+pathType = 00000000
+name = AiPath
+sObject = 02F88C54
+size [1] =
+9
+label = surprise7
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+-591.568
+  z [1] =
+1134.72
+pathType = 00000000
+name = AiPath
+sObject = 02F88D44
+size [1] =
+9
+label = surprise8
+pointCount [1] =
+1
+points [1] =
+  x [1] =
+145.496
+  z [1] =
+-1106.35
+pathType = 00000000
+name = AiPath
+sObject = 0F5D560C
+size [1] =
+10
+label = mbtattack2
+pointCount [1] =
+14
+points [14] =
+  x [1] =
+635.178
+  z [1] =
+1090.36
+  x [1] =
+566.881
+  z [1] =
+1158.65
+  x [1] =
+222.219
+  z [1] =
+1158.65
+  x [1] =
+77.6835
+  z [1] =
+1041.12
+  x [1] =
+33.211
+  z [1] =
+1020.47
+  x [1] =
+-1.73171
+  z [1] =
+912.467
+  x [1] =
+-73.2054
+  z [1] =
+871.171
+  x [1] =
+-31.9095
+  z [1] =
+691.693
+  x [1] =
+96.7432
+  z [1] =
+493.472
+  x [1] =
+88.8017
+  z [1] =
+266.344
+  x [1] =
+-64.3165
+  z [1] =
+117.376
+  x [1] =
+104.571
+  z [1] =
+-26.2882
+  x [1] =
+116.634
+  z [1] =
+-4.35478
+  x [1] =
+-0.709685
+  z [1] =
+112.989
+pathType = 00000000
+name = AiPath
+sObject = 124A09BC
+size [1] =
+10
+label = mbtattack3
+pointCount [1] =
+10
+points [10] =
+  x [1] =
+635.139
+  z [1] =
+918.602
+  x [1] =
+335.749
+  z [1] =
+895.353
+  x [1] =
+290.785
+  z [1] =
+686.986
+  x [1] =
+280.696
+  z [1] =
+480.812
+  x [1] =
+-13.4311
+  z [1] =
+141.283
+  x [1] =
+-150.515
+  z [1] =
+233.403
+  x [1] =
+-194.382
+  z [1] =
+167.603
+  x [1] =
+73.2058
+  z [1] =
+-41.8609
+  x [1] =
+83.0759
+  z [1] =
+-23.2175
+  x [1] =
+-90.1979
+  z [1] =
+137.993
+pathType = 00000000
+name = AiPath
+sObject = 0F5D3A5C
+size [1] =
+10
+label = mbtattack4
+pointCount [1] =
+20
+points [20] =
+  x [1] =
+966.991
+  z [1] =
+421.373
+  x [1] =
+964.798
+  z [1] =
+275.515
+  x [1] =
+888.031
+  z [1] =
+154.882
+  x [1] =
+768.056
+  z [1] =
+68.9027
+  x [1] =
+751.606
+  z [1] =
+-97.791
+  x [1] =
+703.352
+  z [1] =
+-165.346
+  x [1] =
+819.599
+  z [1] =
+-331.82
+  x [1] =
+777.926
+  z [1] =
+-411.877
+  x [1] =
+549.819
+  z [1] =
+-420.651
+  x [1] =
+448.925
+  z [1] =
+-577.474
+  x [1] =
+378.738
+  z [1] =
+-522.641
+  x [1] =
+367.771
+  z [1] =
+-461.227
+  x [1] =
+398.478
+  z [1] =
+-399.814
+  x [1] =
+369.965
+  z [1] =
+-321.512
+  x [1] =
+372.158
+  z [1] =
+-211.845
+  x [1] =
+259.201
+  z [1] =
+-40.7642
+  x [1] =
+83.7339
+  z [1] =
+42.5827
+  x [1] =
+-113.667
+  z [1] =
+219.147
+  x [1] =
+-141.083
+  z [1] =
+173.086
+  x [1] =
+26.7071
+  z [1] =
+18.456
+pathType = 00000000
+name = AiPath
+sObject = 0F5D41EC
+size [1] =
+10
+label = mbtattack5
+pointCount [1] =
+14
+points [14] =
+  x [1] =
+754.142
+  z [1] =
+697.46
+  x [1] =
+593.163
+  z [1] =
+519.536
+  x [1] =
+394.058
+  z [1] =
+445.401
+  x [1] =
+423.712
+  z [1] =
+604.261
+  x [1] =
+313.568
+  z [1] =
+606.38
+  x [1] =
+254.26
+  z [1] =
+881.738
+  x [1] =
+-103.706
+  z [1] =
+879.62
+  x [1] =
+-215.968
+  z [1] =
+794.895
+  x [1] =
+-296.457
+  z [1] =
+767.359
+  x [1] =
+-313.403
+  z [1] =
+409.392
+  x [1] =
+-164.963
+  z [1] =
+235.163
+  x [1] =
+147.136
+  z [1] =
+-35.6948
+  x [1] =
+115.926
+  z [1] =
+-49.0705
+  x [1] =
+-206.205
+  z [1] =
+212.87
+pathType = 00000000
+PadData = 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+PadData2 = 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000

@@ -1,0 +1,383 @@
+[GameObjectClass]
+baseName = "ivscout"
+classLabel = "wingman"
+geometryName = "ivscout00.xsi"
+cockpitName= "ivscout_cockpit.xsi"
+unitName = "Scout"
+
+animCount = 3
+animName1 = "forward"
+animFile1 = "ivscoutsf.xsi"
+animName2 = "neutral"
+animFile2 = "ivscoutsn.xsi"
+animName3 = "reverse"
+animFile3 = "ivscoutsr.xsi"
+
+maxHealth = 3000
+addHealth = 20
+
+maxAmmo = 1500
+addAmmo = 20
+
+aiAddAmmo = 20
+aiAddHealth = 20
+
+aiName = "RocketTankFriend"
+aiName2 = "RocketTankEnemy"
+
+//aiName = "ScoutFriend"
+//aiName2 = "ScoutEnemy"
+
+heatSignature = 0.5
+imageSignature = 3.0
+radarSignature = 0.3
+
+isAssault = 0
+armorClass = N
+
+PilotConfig = "ispilo"
+
+provideCount = 3
+provideName1 = "DefendUnit"
+provideName2 = "Scout"
+provideName3 = "ivscout66m"
+
+CanSelect = true // can select with point-and-space
+NoShadow = false // never renders a shadow if true.
+
+collisionRadius = 8.0
+
+DoBettyHealth = true // true: do Betty health warnings
+DoBettyAmmo = true // true: do Betty ammo warnings
+DoBettyAttack = true // true: do betty attack warnings when this is damaged.
+
+Tuggable = -1 // -1 = default behavior, 0 = never tuggable, 1 = always tuggable
+
+isStealth = false
+
+IsSingle = false
+
+playerOnly = 0
+
+Mass = -1
+
+Lifespan = -1 // -1 == infinite; > 0 is # seconds of life before it goes *boom*
+
+//AcceptPowerupMask = 32
+AcceptPowerupMask = 96
+
+/////// weapons ///////////////////
+
+weaponMask = 01111
+weaponHard1 = "HP_GUN_1"
+weaponName1 = "glaserRD_c"
+weaponAssault1 = 0
+
+weaponHard2 = "HP_GUN_2"
+weaponName2 = "glaserRD_c"
+weaponAssault2 = 0
+
+weaponHard3 = "HP_ROCKET_1"
+weaponName3 = "gshadow_c-BZ"
+//weaponName3 = "glaserrocket66_c"
+weaponAssault3 = 1
+
+weaponHard4 = "HP_SPECIAL_1"
+//weaponName4 = "gquake"
+//weaponName4 = "gblink-DM"
+weaponName4 = "RamJet_DM"
+weaponAssault4 = 0
+
+//////////////////////////////////
+
+lightHard1 = "hp_light_1"
+lightName1 = "spotorange"
+lightHard2 = "hp_light_2" 
+lightName2 = "spotorange"  
+
+[CraftClass]
+CanInteractWithTerminal = true
+
+// AI Settings
+
+DoBettyLost = true // true : betty voice when this craft is lost
+
+//attackTask = "MortarBikeAttack"
+//subAttackTask = "MortarBikeSubAttack"
+subAttackClass = "ANN"
+
+// subAttackClass uses 3 letters.
+// 1st letter is either A or N.     A is include Air targets.			N is attack ground only.
+// 2nd letter is either D or N.    D is to deploy before attacking.	 N for regular attack.
+// 3rd letter is either S or N.     S is to Stand.		   		   N is use the Engage Range to attack. 
+
+OffensiveProcessIsTenacious = true // 1.0-1.3pb3 used a default of false
+OffensiveProcessMadTime = 0.5 // for OffensiveProcess.cpp
+
+WeaponsConverge = true
+AITargetLocation = 0			// -1 = default, or 0 = center, 1 = high, 2 = low, 3 = left, 4 = right
+
+MustBeLinedUpToHit = false
+MustBeLinedUpToFire = false
+
+Use13Aim = false            // If false, tries to use 1.2's aim code
+
+Aim12Delay0 = 0.1           //.. Aim12Delay0 = 0.1, 0.14, 0.23333, 0.3 
+Aim12Delay1 = 0.14          //.. Aim12Delay1 = 0.1, 0.14, 0.23333, 0.3 
+Aim12Delay2 = 0.23333       //.. Aim12Delay2 = 0.1, 0.14, 0.23333, 0.3 
+//Aim12Delay3 = 0.3           //.. Aim12Delay3 = 0.1, 0.14, 0.23333, 0.3 
+//Aim12Delay3 = 0.5           //.. Aim12Delay3 = 0.1, 0.14, 0.23333, 0.3 
+Aim12Delay3 = 0.0           //.. Aim12Delay3 = 0.1, 0.14, 0.23333, 0.3 
+
+HoverAim12Delay0 = 0.4      //.. HoverAim12Delay0 = 0.5, 0.6, 0.83333, 1.0
+HoverAim12Delay1 = 0.6	    //.. HoverAim12Delay1 = 0.5, 0.6, 0.83333, 1.0
+HoverAim12Delay2 = 0.83333  //.. HoverAim12Delay2 = 0.5, 0.6, 0.83333, 1.0
+//HoverAim12Delay3 = 1.0      //.. HoverAim12Delay3 = 0.5, 0.6, 0.83333, 1.0
+//HoverAim12Delay3 = 1.0      //.. HoverAim12Delay3 = 0.5, 0.6, 0.83333, 1.0
+HoverAim12Delay3 = 0.0      //.. HoverAim12Delay3 = 0.5, 0.6, 0.83333, 1.0
+
+AssaultAim12Delay0 = 0.3    //.. AssaultAim12Delay0 = 0.7, 0.7, 0.7, 0.7
+AssaultAim12Delay1 = 0.5    //.. AssaultAim12Delay1 = 0.7, 0.7, 0.7, 0.7
+AssaultAim12Delay2 = 0.7    //.. AssaultAim12Delay2 = 0.7, 0.7, 0.7, 0.7
+//AssaultAim12Delay3 = 1.0    //.. AssaultAim12Delay3 = 0.7, 0.7, 0.7, 0.7
+AssaultAim12Delay3 = 1.5    //.. AssaultAim12Delay3 = 0.7, 0.7, 0.7, 0.7
+
+Aim12CannonError0 = 0.75    //.. Aim12CannonError0 = 0.75, 0.5, 0.2, 0.0
+Aim12CannonError1 = 0.5     //.. Aim12CannonError1 = 0.75, 0.5, 0.2, 0.0
+Aim12CannonError2 = 0.2     //.. Aim12CannonError2 = 0.75, 0.5, 0.2, 0.0
+Aim12CannonError3 = 0.0     //.. Aim12CannonError3 = 0.75, 0.5, 0.2, 0.0
+
+HealthChangeLevelDelta = 0.20 // valid values are 0..1
+
+
+// These are skill-dependent tuning behaviors for craft that
+// subcontract out parts of their behavior to
+// AttackTask.cpp.     [NM]
+
+
+// AttackTaskAttackTimeout# is how many seconds a craft
+// will be in 'STAND' mode (~= stand and fire), before it switches to
+// 'FLEE' mode. (Note: people talking about scouts that run away all the
+// time, this is the number to change-- make it a lot higher, and let the
+// CraftClass::HealthChangeLevelDelta param take effect).
+
+AttackTaskAttackTimeout0 = 5.0
+AttackTaskAttackTimeout1 = 10.0
+AttackTaskAttackTimeout2 = 15.0
+//AttackTaskAttackTimeout3 = 20.0
+AttackTaskAttackTimeout3 = 90.0
+
+// FleeTimeout is the number of turns (1/10 seconds,
+// so that 50 == 5.0 seconds) is how long it'll stay in FLEE.
+
+AttackTaskFleeTimeout0 = 80.0
+AttackTaskFleeTimeout1 = 60.0
+AttackTaskFleeTimeout2 = 40.0
+AttackTaskFleeTimeout3 = 20.0
+
+// If StrafeAfterFlee is true, when FLEE is
+// done, it'll go to STRAFE, otherwise it'll go to BLAST.
+
+AttackTaskStrafeAfterFlee0 = false
+AttackTaskStrafeAfterFlee1 = false
+AttackTaskStrafeAfterFlee2 = false
+AttackTaskStrafeAfterFlee3 = false
+
+// StafeToFleeTimeout is how many turns it'll be in STRAFE, then
+// it'll switch to FLEE.
+
+AttackTaskStrafeToFleeTimeout0 = 80.0
+AttackTaskStrafeToFleeTimeout1 = 60.0
+AttackTaskStrafeToFleeTimeout2 = 40.0
+AttackTaskStrafeToFleeTimeout3 = 0.0
+
+
+// StrafeTimeBase0..3 = 0.5/1.0/3.0/5.0
+
+StrafeTimeBase0 = 0.5
+StrafeTimeBase1 = 1.0
+StrafeTimeBase2 = 3.0
+StrafeTimeBase3 = 0.0
+
+// StrafeTimeRandom0..3 = 0.5/1.0/1.5/2.0
+
+StrafeTimeRandom0 = 0.5
+StrafeTimeRandom1 = 1.0
+StrafeTimeRandom2 = 1.5
+StrafeTimeRandom3 = 0.0
+
+RetargetOnStrafe = true
+
+// for AttackTask.cpp and other AI tasks
+
+fireConeXBase = 0.15
+fireConeXSkillAdj = -0.04
+fireConeYBase = 0.15
+fireConeYSkillAdj = -0.04
+
+PathingType = -1 // -1 = auto, 0 = Hover, 1 = Walker, 2 = Person, 3 = Tracked, 4 = Flyer
+AvoidType = 1 // -1 = auto, 0 = None, 1 = force, 2 = plan
+
+//xplSnipe = ""
+//xplChunk = ""
+//xplCrash = ""
+
+//damageEffect1 = "" 
+//damageEffect2 = ""
+//damageEffect3 = ""
+//damageEffect4 = ""
+
+chunkEffect1 = "iochnk01.xsi" 
+chunkEffect2 = "iochnk02.xsi" 
+chunkEffect3 = "iochnk03.xsi" 
+chunkEffect4 = "iochnk04.xsi" 
+chunkEffect5 = "iochnk05.xsi" 
+chunkEffect6 = "iochnk06.xsi" 
+chunkEffect7 = "iochnk07.xsi" 
+
+CraftTeamIsPilotTeam = true   // |false
+BailSound = "bail.wav" // Sound on pilot bailing out
+CanAIEject = true // AI pilots can eject from this craft when destroyed
+CanBailout = true // default
+CanUserBailout = true // Human can exit craft w/ Ctrl-B if true
+CanUserHopout = true
+CanRecycle = true // 'RECYCLE' shows up on the 0 key if true
+
+LeaveExplodeScorch = false
+MaxScorchHeight = 20.0 // max height above ground to leave a scorch
+ClosestEnemyGoodEyes = true // but defaults true for CLASS_TURRETTANK items
+
+DAMAGE_SCALE = 0.05 // Scale in turning velocity into damage, on craft:ground or craft:building collisions
+MAX_PILOT_HORIZ_VELOCITY = 25.0 // Max horizontal velocity a pilot can have when ejecting
+RECYCLE_TASK_DIST = 10.0 // How far from the recycler until we're 'done' and recycle
+
+//DoIdleDispatch = true
+
+MIN_BOUNCE_VEL = 0.5
+
+OBJECT_ELASTICITY = 0.425   // 0.125
+GROUND_ELASTICITY = 0.08125 // 0.03125
+CollideTerrainSound = "silence.wav"    // "collide01.wav" // Sound on collision w/ terrain
+CollideBldgSound = "collide02.wav"     // Sound on collision w/ building or immovable object
+CollideOtherSound = "collide01.wav"    // Sound on hitting other objects
+ExplodeSound = "Ordin_a.wav"           // Sound when a craft explodes
+
+X_SPIN_RATE = 1.5707963267948966 // = 0.5f * PI;
+Y_SPIN_RATE = 3.1415926535897932 // = PI;
+Z_SPIN_RATE = 0.7853981633974483 // = 0.25f * PI;
+
+needPilot = 1
+canSnipe = 1
+//CanRescue = 1
+//canHunt = 1
+
+rangeScan = 2000.0f
+periodScan = 0.0f
+velocJam = 0.0f
+engageRange = 2000.0f
+
+attackRange = 200.0 // for AttackTask.cpp
+waitRange = 250.0 // for AttackTask.cpp
+
+blastDist = 200.0
+AttackTaskBlastDist = 200.0 // for AttackTask.cpp
+
+//braccelFactor = 0.0025f; 	[0.05]
+//velFactor = 0.5f;	[0.05]  //  movement
+//strafeFactor = 0.4f;	[0.2]
+//steerFactor = 0.6f;
+//omegaFactor = 0.5f;	[0.005]
+
+//braccelFactor = 0.1
+//omegaFactor = 0.3
+//steerFactor = 1.4
+//strafeFactor = 0.02
+//velFactor = 0.4
+
+braccelFactor = 0.025
+omegaFactor = 0.2
+steerFactor = 1.0
+strafeFactor = 0.002
+velFactor = 0.3
+
+goMsg = "ivscout05.wav"
+attackMsg = "ivscout06.wav"
+followMeMsg = "ivscout03.wav"
+followMsg = "ivscout08.wav"
+holdMsg = "ivscout12.wav"
+killedMsg = "ivscout07.wav"
+diedMsg = "abetty3.wav"
+otherMsg = "ivscout10.wav" 
+repairMsg = "ivscout09.wav"
+reloadMsg = "ivscout09.wav"
+rescueMsg = "ivscout10.wav"
+recycleMsg = "ivscout11.wav"
+selectWaitMsg = "ivscout04.wav"
+selectAttackMsg = "ivscout01.wav"
+selectFollowMsg = "ivscout03.wav"
+selectGoMsg = "ivscout02.wav"
+selectOtherMsg = "ivscout04.wav"
+user1Msg = ""  
+
+topSpeed = 70.0
+avoidSpeed = 5.0
+
+UseAssaultSpecials = false // needs to be true for evartl2.odf
+
+[HoverCraftClass]   // Adjusted for 1.3 PB2
+
+// physics properties
+
+setAltitude = 1.5 // how high off the ground
+
+velocForward = 70.0 // [40]
+velocReverse = 50.0 // [15.6]
+velocStrafe = 50.0  // [20]
+velocJam = 0.0
+
+accelBrake = 36.0
+aiAccelDrag = 5.0
+accelDrag = 5.0
+accelDragFull = 6.0 // 6.0 // 0 = nothing
+accelDragStop = 12.0 // how fast it stops once hands are off controls [5.9]
+accelJump = 60.0
+accelThrust = 80.0  // acceleration [25.0]  [32.0]
+
+alphaDamp = 12.0  // shocks [5.0]
+alphaSteer = 6.0  // how fast it responds to steering [3.5]
+alphaTrack = 31.0 // springs speed it rights itself [5.0]
+
+omegaSpin = 3.6   // spinning in place speed [3.5]
+omegaTurn = 2.6   // turning while moving speed [3.45]
+
+pitchPitch = 0.30  // nose up [.1]
+pitchThrust = 0.06 // nose down [.1]
+
+rollSteer = 0.15   // rolls while steering [.35]
+rollStrafe = 0.12  // rolls while strafing [1.7]
+
+LIFT_DAMP = 4.25
+LIFT_SPRING = 12.0
+
+soundThrust = "ieng01b.wav"
+soundTurbo = "avtanke3.wav"
+
+// sound properties
+THRUST_PITCH_BASE = 44100
+THRUST_PITCH_RANGE = 15000.0
+THRUST_VOLUME_BASE_USER = 0.1f;
+THRUST_VOLUME_RANGE_USER = 0.5f;
+THRUST_VOLUME_BASE_AI = 0.1f;
+THRUST_VOLUME_RANGE_AI = 0.5f;
+
+animSteer = "steer"
+
+[Lod1]
+geometryName = "ivscoutL1.xsi" ;geometry for lod1
+distance = 30
+
+[Lod2]
+geometryName = "ivscoutL2.xsi" ;geometry for lod2
+distance = 60                  		 ;...distance over this many meters => switch to lod2
+
+

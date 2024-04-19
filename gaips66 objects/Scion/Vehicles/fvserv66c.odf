@@ -1,0 +1,34 @@
+[GameObjectClass]
+classLabel = "fvserv"
+needPilot = 1
+
+provideCount = 2
+provideName2 = "fvserv66c"
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+engageRange = 200
+
+[TrackedVehicleClass]
+omegaSpin = 2.0
+omegaTurn = 0.75
+alphaSteer = 3.0
+
+[ServiceTruck]
+// Individual classification tweakers
+serviceSTs = 1
+serviceBuildings = 1
+
+[Supply]
+
+[Halo]
+
+[Bolt]

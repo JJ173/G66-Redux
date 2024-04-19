@@ -1,0 +1,70 @@
+// PP-MG Ion Gun Combat Ordnance Definition
+// Revision for "Route 66" Mod by Natty Bumppo
+// Based on original version by Pandemic Studios
+
+[OrdnanceClass]
+classLabel = "bullet"
+shotGeometry = "NULL"
+xplGround = "xiongn66g"
+xplVehicle = "xiongn66v"
+xplBuilding = "xiongn66v"
+renderName = "iongun66c.render"
+
+ammoCost = 2
+lifeSpan = 0.70	//140m
+shotSpeed = 200.0
+
+damageValue(N) = 20
+damageValue(L) = 15
+damageValue(H) = 5
+
+damageValue(S) = 5
+damageValue(D) = 10
+damageValue(A) = 15
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 4
+renderName1 = "iongun66c.light"
+renderName2 = "iongun66c.core"
+renderName3 = "iongun66c.halo"
+renderName4 = "iongun66c.trail"
+
+[Light]
+renderBase = "draw_light"
+startColor = "0 255 0 127"
+finishColor = "0 255 0 0"
+startRadius = 10.0
+finishRadius = 10.0
+animateTime = 0.4
+attenuateConstant = 0.0
+attenuateLinear = 0.0
+attenuateQuadratic = 0.0
+
+[Core]
+renderBase = "draw_twirl"
+textureName = "lightflare.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 255"
+finishColor = "255 255 255 0"
+startRadius = 0.5
+finishRadius = 0.5
+
+[Halo]
+renderBase = "draw_twirl"
+textureName = "ring.tga"
+textureBlend = "one one modulate"
+startColor = "0 255 0 63"
+finishColor = "0 255 0 63"
+startRadius = 0.2
+finishRadius = 0.2
+rotationRate = 10.0
+
+[Trail]
+renderBase = "draw_trail"
+textureBlend = "one one modulate"
+startColor = "0 255 0 127"
+finishColor = "255 255 0 0"
+startRadius = 0.1
+finishRadius = 0.0
+segmentTime = 0.1

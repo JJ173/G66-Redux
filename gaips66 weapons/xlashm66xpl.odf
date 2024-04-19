@@ -1,0 +1,96 @@
+// =============
+// BANE MISSILE EXPLOSION
+// =============
+
+[ExplosionClass]
+classLabel = "explosion"
+
+particleTypes = 4
+particleClass1 = "xlashm66xpl.core"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+particleClass2 = "xlashm66xpl.shock"
+particleCount2 = 1
+particleVeloc2 = "0.0 0.0 0.0"
+particleClass3 = "xlashm66xpl.flame"
+particleCount3 = 4
+particleVeloc3 = "0.0 5.0 0.0"
+particleClass4 = "xlashm66xpl.light"
+particleCount4 = 1
+particleVeloc4 = "0.0 0.0 0.0"
+
+explSound = "xmv1.wav"
+damageRadius = 30.0
+
+damageValue(N) = 130 // none
+damageValue(L) = 80 // light
+damageValue(H) = 40 // heavy
+
+damageValue(S) = 80 // Stasis
+damageValue(D) = 40 // Deflection
+damageValue(A) = 130 // Absorption
+
+kickRadius = 20.0
+kickOmega = 2.0
+kickVeloc = 3.0
+
+[Core]
+simulateBase = "sim_null"
+lifeTime = 1.0
+renderBase = "draw_twirl"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "255 191 63 255"
+finishColor = "255 63 0 0"
+startRadius = 3.0
+finishRadius = 30.0
+animateTime = 1.0
+
+[Shock]
+simulateBase = "sim_null"
+lifeTime = 0.5
+renderBase = "draw_sphere"
+textureName = "vsmoke.tga"
+textureBlend = "one one modulate"
+startColor = "255 223 63 127"
+finishColor = "255 31 0 0"
+startRadius = 3.0
+finishRadius = 30.0
+animateTime = 0.5
+latitudeBands = 8
+longitudeSegments = 16
+
+[flame]
+simulateBase = "sim_ember" //"sim_smoke"
+lifeTime = 0.5
+renderBase = "draw_emit"
+emitName = "xlashm66xpl.flameemit"
+emitDelay = 0.05
+emitVelocity = "0.0 5.0 0.0"
+emitVariance = "20.0 0.0 20.0"
+
+[flameemit]
+simulateBase = "sim_ember" //"sim_smoke"
+lifeTime = 1.0
+renderBase = "draw_twirl"
+textureName = "flame2.tga"
+textureBlend = "one one modulate"
+startColor = "255 191 63 255"
+finishColor = "255 63 0 0"
+startRadius = 0.1
+finishRadius = 5.0
+animateTime = 1.0
+rotationRate = 5.0
+
+[Light]
+simulateBase = "sim_null"
+lifeTime = 1.5
+renderBase = "draw_light"
+startColor = "255 223 63 2550"
+finishColor = "255 63 0 0"
+startRadius = 40.0
+finishRadius = 40.0
+animateTime = 1.5
+attenuateConstant = 0.0
+attenuateLinear = 0.0
+attenuateQuadratic = 0.0

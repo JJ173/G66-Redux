@@ -1,0 +1,62 @@
+// PP-MG Minigun Combat Ordnance Definition
+// Revision for "Route 66" Mod by Natty Bumppo
+// Based on original version by Pandemic Studios
+
+[OrdnanceClass]
+classLabel = "bullet"
+shotGeometry = "NULL"
+xplGround = "xminigun66g"
+xplVehicle = "xminigun66v"
+xplBuilding = "xminigun66v"
+renderName = "minigun66c.render"
+
+ammoCost = 1
+lifeSpan = .34
+shotSpeed = 300.0
+
+damageValue(N) = 11
+damageValue(L) = 9
+damageValue(H) = 5
+
+damageValue(S) = 5
+damageValue(D) = 7
+damageValue(A) = 9
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 3
+renderName1 = "minigun66c.light"
+renderName2 = "minigun66c.core"
+renderName3 = "minigun66c.trail"
+
+[Light]
+renderBase = "draw_light"
+startColor = "0 127 255 127"
+finishColor = "0 0 255 0"
+startRadius = 6.0
+finishRadius = 6.0
+animateTime = 0.4
+attenuateConstant = 0.0
+attenuateLinear = 0.0
+attenuateQuadratic = 0.0
+
+[Core]
+renderBase = "draw_twirl"
+textureName = "plasma.tga"
+textureBlend = "one one modulate"
+startColor = "0 127 255 255"
+finishColor = "0 127 255 0"
+startRadius = 0.08
+finishRadius = 0.12
+animateTime = 0.4
+rotationRate = 30.0
+
+[Trail]
+renderBase = "draw_trail"
+textureBlend = "one one modulate"
+textureName = "trail.tga"
+startColor = "0 127 255 255"
+finishColor = "0 127 255 0"
+startRadius = 0.08
+finishRadius = 0.01
+segmentTime = 0.04

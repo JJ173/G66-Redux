@@ -1,0 +1,32 @@
+[GameObjectClass]
+geometryName = "bz1gysr.xsi"
+classLabel = "flare"
+scrapCost = 0
+scrapValue = 0
+maxHealth = 9999
+maxAmmo = 999
+unitName = "Geyser"
+heatSignature = 5.0
+explosionName = "xgsr662xpl"
+
+[MineClass]
+lifeSpan = 20.0
+
+[FlareMineClass]
+payloadName = "steam662"
+fireSound = "smine01.wav"
+triggerDelay = 0.0
+shotDelay = 0.1
+shotVariance = 0.65
+
+damageRadius = 15.0
+damageValue(N) = 18	// none
+damageValue(L) = 6	// light
+damageValue(H) = 2	// heavy
+damageValue(S) = 6	// Stasis
+damageValue(D) = 2	// Deflection
+damageValue(A) = 18	// Absorption
+
+kickRadius = 10.0
+kickVeloc = 0.2
+kickOmega = 0.5

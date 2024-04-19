@@ -1,0 +1,19 @@
+[GameObjectClass]
+classLabel = "fvfscout66s"
+
+provideCount = 4
+provideName3 = "fvfscout66"
+provideName4 = "DefendUnit"
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+
+[HoverCraftClass]

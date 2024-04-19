@@ -1,0 +1,33 @@
+[GameObjectClass]
+classLabel = "xvsat"
+
+scrapCost = 80  //100
+
+buildTime = 90.0
+
+maxAmmo = 3000
+addAmmo = 10
+
+requireCount = 4
+requireName1 = "fbforg"
+requireText1 = "Upgrade Kiln"
+requireName2 = "fbdowe"
+requireText2 = "Build Dower"
+requireName3 = "fbover"
+requireText3 = "Build/Upgrade Antenna Mound"
+requireName4 = "fbstro"
+requireText4 = "Build Stronghold"
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+CanAIPForceIdle = false
+
+[HoverCraftClass]

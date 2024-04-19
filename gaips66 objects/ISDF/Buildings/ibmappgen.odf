@@ -1,0 +1,35 @@
+[GameObjectClass]
+geometryName = "ib66Xpgen.xsi"
+classLabel = "powered"
+animCount = 1
+animName1 = "deploy"
+animFile1 = "ib66Xpgen.xsi"
+
+scrapCost = 0
+scrapValue = 0
+
+maxHealth = 0	//5000
+maxAmmo = 0
+unitName = "Power"
+heatSignature = 0.0
+imageSignature = 0.0
+radarSignature = 0.0
+collisionRadius = 1.0
+canDetect = false
+canTarget = false
+canInteract = false
+isStealth = true
+
+isAssault = 1
+powerCost = -8
+
+armorClass = H
+
+explosionName = "xpgen66xpl"	//"xbmbxpl"
+
+[BuildingClass]
+
+[PoweredBuildingClass]
+detectRange = 1
+
+[Lod1]

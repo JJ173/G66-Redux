@@ -1,0 +1,1388 @@
+//////////////////////////////////////////////////
+//
+// End Game (AI Recycler Destroyed)
+//
+//////////////////////////////////////////////////
+
+[Start]
+scavClass = "fvscav66c2"
+consClass = "fvcons66c2"
+DLLCanSwitch = true
+IdleAllCraft = true
+CheckProvides = true
+
+//[Cheat]
+//moneyAmount = 20
+//moneyDelay = 3
+
+[IdleDispatcher]
+ScavIdleSeconds = 1
+UnitIdleSeconds = 5
+BomberIdleSeconds = 10000
+MaxBomberTargets = 0
+MinAttackForce = 30
+MaxAttackForce = 99
+MinMissionSeconds = 5
+
+
+[Match]
+targetType1 = "Pool"
+attackType1_1 = "DefendUnit"
+attackType1_2 = "DefendUnit"
+
+targetType2 = "Pool"
+attackType2_1 = "DefendUnit"
+attackType2_2 = "DefendUnit"
+
+targetType3 = "DefendUnit"
+attackType3_1 = "DefendUnit"
+attackType3_2 = "DefendUnit"
+
+targetType4 = "DefendUnit"
+attackType4_1 = "DefendUnit"
+attackType4_2 = "DefendUnit"
+
+targetType5 = "Pool"
+attackType5_1 = "DefendUnit"
+
+targetType6 = "Pool"
+attackType6_1 = "DefendUnit"
+
+targetType7 = "DefendUnit"
+attackType7_1 = "DefendUnit"
+
+targetType8 = "DefendUnit"
+attackType8_1 = "DefendUnit"
+
+
+[Plan1]
+//BUILD 4 BANDITS
+MinTtlScrap = 10
+CheckProvides = true
+planPriority = 1111
+planType = "BuildLoop"
+planCondition = "Exists"
+planConditionClass = "UnitFactory2"
+planCompare = ">="
+planConditionCount = 1
+planConditionClassProvided = true
+buildType1 = "fvbandit66c2"
+buildCount1 = 6
+maxLoops = 999
+loopDelay = 300
+
+[Plan2]
+//ATTACK POOLS
+CheckProvides = true
+ForceStagePoint = 1
+planType = "Attacker"
+planPriority = 1000
+planCondition2 = "Exists"
+planConditionClass2 = "UnitFactory2"
+planCompare2 = ">="
+planConditionCount2 = 1
+planConditionClassProvided2 = true
+planCondition3 = "HisExists"
+planConditionClass3 = "Pool"
+planCompare3 = ">"
+planConditionCount3 = 3
+planConditionClassProvided3 = true
+targetType = "Pool"
+attackType1 = "fvscout66c2"
+attackType2 = "fvscout66c2"
+AttackAnything = true
+maxAttacks = 0
+buildIfNoIdle = 1
+ContinueEvenIfFail = true
+
+[Plan5]
+//ATTACK POOLS
+CheckProvides = true
+ForceStagePoint = 2
+planType = "Attacker"
+planPriority = 990
+planCondition2 = "Exists"
+planConditionClass2 = "UnitFactory2"
+planCompare2 = ">="
+planConditionCount2 = 1
+planConditionClassProvided2 = true
+planCondition3 = "HisExists"
+planConditionClass3 = "Pool"
+planCompare3 = ">"
+planConditionCount3 = 3
+planConditionClassProvided3 = true
+targetType = "Pool"
+attackType1 = "fvscout66c2"
+attackType2 = "fvscout66c2"
+AttackAnything = true
+maxAttacks = 0
+buildIfNoIdle = 1
+ContinueEvenIfFail = true
+
+[Plan10]
+//SERVICE BASE BUILDINGS
+CheckProvides = true
+planType = "Service"
+planPriority = 980
+planCondition2 = "Exists"
+planConditionClass2 = "RepairTruck"
+planCompare2 = ">="
+planConditionCount2 = 1
+planConditionClassProvided2 = true
+serviceUnit = "RepairTruck"
+unitType1 = "UnitFactory2"
+unitType2 = "UnitFactory2"
+unitType3 = "RocketTower"
+unitType4 = "GunTower"
+unitType5 = "Pool"
+unitType6 = "RepairYard"
+unitType7 = "Arsenal"
+unitType8 = "Bunker"
+unitType9 = "RepairTruck"
+MinWreckAmmo = 0.2
+MinWreckHealth = 0.25
+MaxWreckAmmo = 0.8
+MaxWreckHealth = 0.8
+RepairTime = 30.0	// Max time a servicer will spend on a unit
+MaxWreckDist = 200.0
+
+[Plan20]
+planType = "Recover"
+planPriority = 970
+CheckProvides = true
+planCondition = "Exists"
+planConditionClass = "RepairYard"
+planCompare = ">="
+planConditionCount = 1
+planConditionClassProvided = true
+serviceUnit = "fbdowe66c"
+unitType1  = "DefendUnit"
+unitType2  = "Scav"
+
+[Plan30]
+//SERVICE UNITS
+CheckProvides = true
+planType = "Service"
+planPriority = 960
+planCondition2 = "Exists"
+planConditionClass2 = "RepairTruck"
+planCompare2 = ">="
+planConditionCount2 = 1
+planConditionClassProvided2 = true
+serviceUnit = "RepairTruck"
+unitType1 = "DefendUnit"
+unitType2  = "Scav"
+unitType3 = "RepairTruck"
+MinWreckAmmo = 0.2
+MinWreckHealth = 0.25
+MaxWreckAmmo = 0.8
+MaxWreckHealth = 0.8
+RepairTime = 20.0
+MaxWreckDist = 200.0
+
+[Plan40]
+//SERVICE UNITS
+CheckProvides = true
+planType = "Service"
+planPriority = 950
+planCondition2 = "Exists"
+planConditionClass2 = "RepairTruck"
+planCompare2 = ">="
+planConditionCount2 = 1
+planConditionClassProvided2 = true
+serviceUnit = "RepairTruck"
+unitType1 = "DefendUnit"
+unitType2  = "Scav"
+unitType3 = "RepairTruck"
+MinWreckAmmo = 0.2
+MinWreckHealth = 0.25
+MaxWreckAmmo = 0.8
+MaxWreckHealth = 0.8
+RepairTime = 20.0
+MaxWreckDist = 200.0
+
+[Plan50]
+//SERVICE UNITS
+CheckProvides = true
+planType = "Service"
+planPriority = 940
+planCondition2 = "Exists"
+planConditionClass2 = "RepairTruck"
+planCompare2 = ">="
+planConditionCount2 = 1
+planConditionClassProvided2 = true
+serviceUnit = "RepairTruck"
+unitType1 = "DefendUnit"
+unitType2  = "Scav"
+unitType3 = "RepairTruck"
+MinWreckAmmo = 0.2
+MinWreckHealth = 0.25
+MaxWreckAmmo = 0.8
+MaxWreckHealth = 0.8
+RepairTime = 20.0
+MaxWreckDist = 200.0
+
+[Plan60]
+//DEFEND THE KILN/FORGE
+CheckProvides = true
+planPriority = 930
+planType = "DefendArea"
+planCondition = "Exists"
+planConditionClass = "DefendUnit"
+planCompare = ">="
+planConditionCount = 1
+planConditionClassProvided = true
+MaxUnits = 2
+searchRadius = 200
+targetType = "UnitFactory2"
+ContinueEvenIfFail = true
+
+[Plan70]
+//DEFEND SCAVENGERS
+CheckProvides = true
+planPriority = 920
+planType = "DefendArea"
+planCondition = "Exists"
+planConditionClass = "DefendUnit"
+planCompare = ">="
+planConditionCount = 1
+planConditionClassProvided = true
+MaxUnits = 2
+searchRadius = 200
+targetType = "Scav"
+ContinueEvenIfFail = true
+
+[Plan80]
+//DEFEND POOLS
+CheckProvides = true
+planType = "DefendArea"
+planPriority = 910
+planCondition = "Exists"
+planConditionClass = "DefendUnit"
+planCompare = ">="
+planConditionCount = 1
+planConditionClassProvided = true
+MaxUnits = 2
+searchRadius = 200
+targetType = "Pool"
+ContinueEvenIfFail = true
+
+[Plan90]
+planPriority = 900
+planType = "Defender"
+CheckProvides = true
+planCondition = "Exists"
+planConditionClass = "Builder"
+planConditionClassProvided = true
+planCompare = ">="
+planConditionCount = 1
+planConditionClassProvided = true
+ContinueEvenIfFail = true
+
+[Plan100]
+planPriority = 850
+planType = "Defender"
+CheckProvides = true
+planCondition = "Exists"
+planConditionClass = "Builder"
+planConditionClassProvided = true
+planCompare = ">="
+planConditionCount = 1
+planConditionClassProvided = true
+ContinueEvenIfFail = true
+
+[Plan110]
+planPriority = 840
+planType = "Defender"
+CheckProvides = true
+planCondition = "Exists"
+planConditionClass = "Builder"
+planConditionClassProvided = true
+planCompare = ">="
+planConditionCount = 1
+planConditionClassProvided = true
+ContinueEvenIfFail = true
+
+[Plan120]
+//DEFEND BUILDERS
+CheckProvides = true
+planType = "DefendArea"
+planPriority = 830
+planCondition = "Exists"
+planConditionClass = "Builder"
+planCompare = ">="
+planConditionCount = 1
+planConditionClassProvided = true
+planCondition2 = "Exists"
+planConditionClass2 = "DefendUnit"
+planCompare2 = ">="
+planConditionCount2 = 1
+planConditionClassProvided2 = true
+MaxUnits = 2
+searchRadius = 200
+targetType = "Builder"
+ContinueEvenIfFail = true
+
+[Plan130]
+//DEFEND BUILDERS
+CheckProvides = true
+planType = "DefendArea"
+planPriority = 820
+planCondition = "Exists"
+planConditionClass = "Builder"
+planCompare = ">="
+planConditionCount = 1
+planConditionClassProvided = true
+planCondition2 = "Exists"
+planConditionClass2 = "DefendUnit"
+planCompare2 = ">="
+planConditionCount2 = 1
+planConditionClassProvided2 = true
+MaxUnits = 2
+searchRadius = 200
+targetType = "Builder"
+ContinueEvenIfFail = true
+
+[Plan140]
+//DEFEND BUILDERS
+CheckProvides = true
+planType = "DefendArea"
+planPriority = 800
+planCondition = "Exists"
+planConditionClass = "Builder"
+planCompare = ">="
+planConditionCount = 1
+planConditionClassProvided = true
+planCondition2 = "Exists"
+planConditionClass2 = "DefendUnit"
+planCompare2 = ">="
+planConditionCount2 = 1
+planConditionClassProvided2 = true
+MaxUnits = 2
+searchRadius = 200
+targetType = "Builder"
+ContinueEvenIfFail = true
+
+
+
+[Plan150]
+//BUILD 3 HARVESTERS
+MinTtlScrap = 20
+MaxTtlScrap = 159
+CheckProvides = true
+planPriority = 800
+planType = "BuildMinimums"
+planCondition = "Exists"
+planConditionClass = "UnitFactory2"
+planCompare = ">="
+planConditionCount = 1
+planConditionClassProvided = true
+buildType1 = "fvscav66c2"
+buildCount1 = 3
+ContinueEvenIfFail = false
+
+[Plan155]
+//BUILD 3 BUILDERS AT BEGINNING
+MinTtlScrap = 40
+CheckProvides = true
+planPriority = 790
+planType = "BuildMinimums"
+planCondition = "Exists"
+planConditionClass = "UnitFactory2"
+planConditionClassProvided = true
+planCompare = ">="
+planConditionCount = 1
+buildType1 = "fvcons66B"
+buildCount1 = 1
+buildType2 = "fvcons66P"
+buildCount2 = 1
+buildType3 = "fvcons66D1"
+buildCount3 = 1
+ContinueEvenIfFail = false
+
+
+[Plan160]
+//UPGRADE EXTRACTORS
+MinTtlScrap = 60
+CheckProvides = true
+planType = "Upgrade"
+planPriority = 785
+planCondition = "Exists"
+planConditionClass = "Builder"
+planCompare = ">="
+planConditionCount = 2
+planConditionClassProvided = true
+planCondition2 = "Exists"
+planConditionClass2 = "UpgradeablePool"
+planCompare2 = ">="
+planConditionCount2 = 1
+planConditionClassProvided2 = true
+unitType = "fbscav66c"
+consClass = "fvcons66P"
+ContinueEvenIfFail = true
+
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Build 3 Gun Spires and 3 Rocket Spires  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+[Plan160]
+//BUILD GUN SPIRE 1 IF PATHS EXIST
+MinTtlScrap = 20
+planPriority = 780
+pathpointsCanBeMissing = true
+planType = "BaseBuildMinimums"
+planCondition = "PathExists"
+planConditionPath = "gspir1"
+planCondition2 = "NotPathBuildingExists"
+planConditionPath2 = "gspir1"
+buildType1 = "fbspir66c"
+buildLoc1 = "gspir1"
+consClass = "fvcons66D1"
+ContinueEvenIfFail = true
+
+[Plan170]
+//BUILD ROCKET SPIRE 1 IF PATHS EXIST
+MinTtlScrap = 20
+planPriority = 770
+pathpointsCanBeMissing = true
+planType = "BaseBuildMinimums"
+planCondition = "PathExists"
+planConditionPath = "rspir1"
+planCondition2 = "NotPathBuildingExists"
+planConditionPath2 = "rspir1"
+buildType1 = "fbRspir66c"
+buildLoc1 = "rspir1"
+consClass = "fvcons66D1"
+ContinueEvenIfFail = true
+
+[Plan180]
+//BUILD GUN SPIRE 2 IF PATHS EXIST
+MinTtlScrap = 20
+pathpointsCanBeMissing = true
+planPriority = 760
+planType = "BaseBuildMinimums"
+planCondition3 = "PathExists"
+planConditionPath3 = "gspir2"
+planCondition4 = "NotPathBuildingExists"
+planConditionPath4 = "gspir2"
+buildType1 = "fbspir66c"
+buildLoc1 = "gspir2"
+consClass = "fvcons66D1"
+ContinueEvenIfFail = true
+
+[Plan190]
+//BUILD ROCKET SPIRE 2 IF PATHS EXIST
+MinTtlScrap = 20
+pathpointsCanBeMissing = true
+planPriority = 750
+planType = "BaseBuildMinimums"
+planCondition3 = "PathExists"
+planConditionPath3 = "rspir2"
+planCondition4 = "NotPathBuildingExists"
+planConditionPath4 = "rspir2"
+buildType1 = "fbRspir66c"
+buildLoc1 = "rspir2"
+consClass = "fvcons66D1"
+ContinueEvenIfFail = true
+
+[Plan200]
+//BUILD GUN SPIRE 3 IF PATHS EXIST
+MinTtlScrap = 20
+pathpointsCanBeMissing = true
+planPriority = 740
+planType = "BaseBuildMinimums"
+planCondition3 = "PathExists"
+planConditionPath3 = "gspir3"
+planCondition4 = "NotPathBuildingExists"
+planConditionPath4 = "gspir3"
+buildType1 = "fbspir66c"
+buildLoc1 = "gspir3"
+consClass = "fvcons66D1"
+ContinueEvenIfFail = true
+
+[Plan210]
+//BUILD ROCKET SPIRE 3 IF PATHS EXIST
+MinTtlScrap = 20
+pathpointsCanBeMissing = true
+planPriority = 730
+planType = "BaseBuildMinimums"
+planCondition3 = "PathExists"
+planConditionPath3 = "rspir3"
+planCondition4 = "NotPathBuildingExists"
+planConditionPath4 = "rspir3"
+buildType1 = "fbRspir66c"
+buildLoc1 = "rspir3"
+consClass = "fvcons66D1"
+ContinueEvenIfFail = true
+
+[Plan230]
+//BUILD REMAINING BUILDER
+MinTtlScrap = 40
+CheckProvides = true
+planPriority = 722
+planType = "BuildMinimums"
+planCondition = "Exists"
+planConditionClass = "UnitFactory2"
+planConditionClassProvided = true
+planCompare = ">="
+planConditionCount = 1
+buildType1 = "fvcons66D2"
+buildCount1 = 1
+ContinueEvenIfFail = false
+
+
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>  Build Gun Spires 4..6 and Rocket Spires 4..6  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+[Plan240]
+//BUILD GUN SPIRE 4 AND ROCKET SPIRE 4
+MinTtlScrap = 80
+pathpointsCanBeMissing = true
+planPriority = 720
+planType = "BaseBuildMinimums"
+planCondition3 = "PathExists"
+planConditionPath3 = "gspir4"
+planCondition4 = "NotPathBuildingExists"
+planConditionPath4 = "gspir4"
+planCondition7 = "Exists"
+planConditionClass7 = "UpgradedPool"
+planCompare7 = ">="
+planConditionCount7 = 4
+planConditionClassProvided7 = true
+buildType1 = "fbspir66c"
+buildCount1 = 1
+useScrapCost1 = false
+buildLoc1 = "gspir4"
+useScrapCost1 = false
+consClass = "fvcons66D2"
+ContinueEvenIfFail = true
+
+[Plan250]
+//BUILD GUN SPIRE 4 AND ROCKET SPIRE 4
+MinTtlScrap = 80
+pathpointsCanBeMissing = true
+planPriority = 715
+planType = "BaseBuildMinimums"
+planCondition3 = "PathExists"
+planConditionPath3 = "rspir4"
+planCondition4 = "NotPathBuildingExists"
+planConditionPath4 = "rspir4"
+pplanCondition7 = "Exists"
+planConditionClass7 = "UpgradedPool"
+planCompare7 = ">="
+planConditionCount7 = 4
+planConditionClassProvided7 = true
+buildType1 = "fbRspir66c"
+buildCount1 = 1
+useScrapCost1 = false
+buildLoc1 = "rspir4"
+consClass = "fvcons66D2"
+ContinueEvenIfFail = true
+
+
+[Plan260]
+//BUILD GUN SPIRE 5
+MinTtlScrap = 80
+pathpointsCanBeMissing = true
+planPriority = 710
+planType = "BaseBuildMinimums"
+planCondition3 = "PathExists"
+planConditionPath3 = "gspir5"
+planCondition4 = "NotPathBuildingExists"
+planConditionPath4 = "gspir5"
+planCondition7 = "Exists"
+planConditionClass7 = "UpgradedPool"
+planCompare7 = ">="
+planConditionCount7 = 5
+planConditionClassProvided7 = true
+buildType1 = "fbspir66c"
+buildCount1 = 1
+useScrapCost1 = false
+buildLoc1 = "gspir5"
+consClass = "fvcons66D2"
+ContinueEvenIfFail = true
+
+[Plan270]
+//BUILD GUN SPIRE 6
+MinTtlScrap = 80
+pathpointsCanBeMissing = true
+planPriority = 700
+planType = "BaseBuildMinimums"
+planCondition3 = "PathExists"
+planConditionPath3 = "gspir6"
+pathpointsCanBeMissing = true
+planCondition4 = "NotPathBuildingExists"
+planConditionPath4 = "gspir6"
+planCondition7 = "Exists"
+planConditionClass7 = "UpgradedPool"
+planCompare7 = ">="
+planConditionCount7 = 5
+planConditionClassProvided7 = true
+buildType1 = "fbspir66c"
+buildCount1 = 1
+useScrapCost1 = false
+buildLoc1 = "gspir6"
+consClass = "fvcons66D2"
+ContinueEvenIfFail = true
+
+
+
+[Plan340]
+//PATROL WITH DRONES
+MinTtlScrap = 60
+CheckProvides = true
+pathpointsCanBeMissing = true
+planPriority = 570
+planType = "BuildLoop"
+planCondition = "PathExists"
+planConditionPath = "patrol1"
+planCondition2 = "NotExists"
+planConditionClass2 = "UnitFactory2"
+planCompare2 = ">="
+planConditionCount2 = 1
+planConditionClassProvided2 = true
+planCondition3 = "Exists"
+planConditionClass3 = "Arsenal"
+planCompare3 = ">="
+planConditionCount3 = 1
+planConditionClassProvided3 = true
+buildType1 = "fvscout66p"
+buildCount1 = 1
+useScrapCost1 = false
+maxLoops = 2
+loopDelay = 240
+ContinueEvenIfFail = true
+
+[Plan350]
+//PATROL WITH LANCERS
+MinTtlScrap = 60
+CheckProvides = true
+pathpointsCanBeMissing = true
+planPriority = 560
+planType = "BuildLoop"
+planCondition2 = "PathExists"
+planConditionPath2 = "patrol1"
+planCondition3 = "Exists"
+planConditionClass3 = "UnitFactory2"
+planCompare3 = ">="
+planConditionCount3 = 1
+planConditionClassProvided3 = true
+planCondition4 = "Exists"
+planConditionClass4 = "Arsenal"
+planCompare4 = ">="
+planConditionCount4 = 1
+planConditionClassProvided4 = true
+buildType1 = "fvarch66p2"
+buildCount1 = 1
+useScrapCost1 = false
+maxLoops = 2
+loopDelay = 300
+ContinueEvenIfFail = true
+
+[Plan360]
+//PATROL WITH DRAGOONS
+MinTtlScrap = 60
+CheckProvides = true
+pathpointsCanBeMissing = true
+planPriority = 550
+planType = "BuildLoop"
+planCondition2 = "PathExists"
+planConditionPath2 = "patrol1"
+planCondition3 = "Exists"
+planConditionClass3 = "UnitFactory2"
+planCompare3 = ">="
+planConditionCount3 = 1
+planConditionClassProvided3 = true
+planCondition4 = "Exists"
+planConditionClass4 = "Bunker"
+planCompare4 = ">="
+planConditionCount4 = 1
+planConditionClassProvided4 = true
+buildType1 = "fvltank66p2"
+buildCount1 = 1
+useScrapCost1 = false
+maxLoops = 2
+loopDelay = 360
+ContinueEvenIfFail = true
+
+[Plan370]
+//PATROL WITH WARRIORS
+MinTtlScrap = 60
+CheckProvides = true
+pathpointsCanBeMissing = true
+planPriority = 540
+planType = "BuildLoop"
+planCondition2 = "PathExists"
+planConditionPath2 = "patrol1"
+planCondition3 = "Exists"
+planConditionClass3 = "UnitFactory2"
+planCompare3 = ">="
+planConditionCount3 = 1
+planConditionClassProvided3 = true
+planCondition4 = "Exists"
+planConditionClass4 = "Bunker"
+planCompare4 = ">="
+planConditionCount4 = 1
+planConditionClassProvided4 = true
+buildType1 = "fvtank66p2"
+buildCount1 = 1
+buildType2 = "fvghoul66p"
+buildCount2 = 1
+useScrapCost1 = false
+maxLoops = 2
+loopDelay = 420
+ContinueEvenIfFail = true
+
+
+[Plan410]
+//BUILD DOWER
+MinTtlScrap = 60
+CheckProvides = true
+planPriority = 500
+planType = "BaseBuildMinimums"
+planCondition = "NotExists"
+planConditionClass = "RepairYard"
+planCompare = ">="
+planConditionCount = 1
+planConditionClassProvided = true
+planCondition2 = "Exists"
+planConditionClass2 = "UnitFactory2"
+planCompare2 = ">="
+planConditionCount2 = 1
+planConditionClassProvided2 = true
+planCondition3 = "Exists"
+planConditionClass3 = "Builder"
+planCompare3 = ">="
+planConditionCount3 = 1
+planConditionClassProvided3 = true
+buildType1 = "fbbase66c"
+buildCount1 = 2
+buildType2 = "fbdowe66c"
+buildCount2 = 1
+consClass = "fvcons66B"
+//ContinueEvenIfFail = true
+
+[Plan420]
+//BUILD ANTENNA MOUND
+MinTtlScrap = 60
+CheckProvides = true
+planPriority = 390
+planType = "BaseBuildMinimums"
+planCondition = "Exists"
+planConditionClass = "UnitFactory2"
+planCompare = ">="
+planConditionCount = 1
+planConditionClassProvided = true
+planCondition2 = "NotExists"
+planConditionClass2 = "Bunker"
+planCompare2 = ">="
+planConditionCount2 = 1
+planConditionClassProvided2 = true
+planCondition3 = "Exists"
+planConditionClass3 = "Builder"
+planCompare3 = ">="
+planConditionCount3 = 1
+planConditionClassProvided3 = true
+buildType1 = "fbbase66c"
+buildCount1 = 3
+buildType2 = "fbantm66c"
+buildCount2 = 1
+consClass = "fvcons66B"
+//ContinueEvenIfFail = true
+
+[Plan430]
+//UPGRADE KILN
+MinTtlScrap = 60
+CheckProvides = true
+planPriority = 380
+planType = "Upgrade"
+planCondition = "Exists"
+planConditionClass = "Builder"
+planCompare = ">="
+planConditionCount = 1
+planConditionClassProvided = true
+planCondition2 = "NotExists"
+planConditionClass2 = "UnitFactory2"
+planCompare2 = ">="
+planConditionCount2 = 1
+planConditionClassProvided2 = true
+unitType = "fbkiln66c2"
+consClass = "fvcons66B"
+ContinueEvenIfFail = true
+
+[Plan440]
+//UPGRADE ANTENNA MOUND
+MinTtlScrap = 60
+CheckProvides = true
+planPriority = 370
+planType = "Upgrade"
+planCondition = "Exists"
+planConditionClass = "Builder"
+planCompare = ">="
+planConditionCount = 4
+planConditionClassProvided = true
+planCondition2 = "NotExists"
+planConditionClass2 = "Bunker2"
+planCompare2 = ">="
+planConditionCount2 = 1
+planConditionClassProvided2 = true
+planCondition3 = "Exists"
+planConditionClass3 = "UnitFactory2"
+planCompare3 = ">="
+planConditionCount3 = 1
+planConditionClassProvided3 = true
+planCondition4 = "Exists"
+planConditionClass4 = "Bunker"
+planCompare4 = ">="
+planConditionCount4 = 1
+planConditionClassProvided4 = true
+unitType = "fbantm66c"
+consClass = "fvcons66B"
+ContinueEvenIfFail = true
+
+[Plan450]
+//BUILD STRONGHOLD
+MinTtlScrap = 80
+CheckProvides = true
+planPriority = 360
+planType = "BaseBuildMinimums"
+planCondition2 = "NotExists"
+planConditionClass2 = "Arsenal"
+planCompare2 = ">="
+planConditionCount2 = 1
+planConditionClassProvided2 = true
+planCondition3 = "Exists"
+planConditionClass3 = "UnitFactory2"
+planCompare3 = ">="
+planConditionCount3 = 1
+planConditionClassProvided3 = true
+planCondition4 = "Exists"
+planConditionClass4 = "RepairYard"
+planCompare4 = ">="
+planConditionCount4 = 1
+planConditionClassProvided4 = true
+planCondition5 = "Exists"
+planConditionClass5 = "Builder"
+planCompare5 = ">="
+planConditionCount5 = 1
+planConditionClassProvided5 = true
+buildType1 = "fbbase66c"
+buildCount1 = 4
+buildType2 = "fbstro66c"
+buildCount2 = 1
+consClass = "fvcons66B"
+//ContinueEvenIfFail = false
+
+
+[Plan460]
+//BUILD SERVICE TRUCKS
+MinTtlScrap = 60
+CheckProvides = true
+planPriority = 350
+planType = "BuildMinimums"
+planCondition2 = "Exists"
+planConditionClass2 = "RepairYard"
+planCompare2 = ">="
+planConditionCount2 = 1
+planConditionClassProvided2 = true
+planCondition3 = "Exists"
+planConditionClass3 = "UnitFactory2"
+planCompare3 = ">="
+planConditionCount3 = 1
+planConditionClassProvided3 = true
+buildType1 = "fvserv66c2"
+buildCount1 = 4
+useScrapCost1 = false
+
+
+[Plan470]
+//PATROL WITH DRONES
+MinTtlScrap = 60
+CheckProvides = true
+pathpointsCanBeMissing = true
+planPriority = 340
+planType = "BuildLoop"
+planCondition = "PathExists"
+planConditionPath = "patrol1"
+buildType1 = "fvscout66p"
+buildCount1 = 1
+useScrapCost1 = false
+maxLoops = 999
+loopDelay = 300
+
+[Plan480]
+//PATROL WITH LANCERS
+MinTtlScrap = 60
+CheckProvides = true
+pathpointsCanBeMissing = true
+planPriority = 330
+planType = "BuildLoop"
+planCondition2 = "PathExists"
+planConditionPath2 = "patrol1"
+planCondition4 = "Exists"
+planConditionClass4 = "Bunker"
+planCompare4 = ">="
+planConditionCount4 = 1
+planConditionClassProvided4 = true
+buildType1 = "fvarch66p2"
+buildCount1 = 1
+useScrapCost1 = false
+maxLoops = 999
+loopDelay = 360
+
+
+[Plan490]
+//PATROL WITH DRAGOONS
+MinTtlScrap = 60
+CheckProvides = true
+pathpointsCanBeMissing = true
+planPriority = 320
+planType = "BuildLoop"
+planCondition2 = "PathExists"
+planConditionPath2 = "patrol1"
+planCondition4 = "Exists"
+planConditionClass4 = "Bunker"
+planCompare4 = ">="
+planConditionCount4 = 1
+planConditionClassProvided4 = true
+planCondition5 = "Exists"
+planConditionClass5 = "Arsenal"
+planCompare5 = ">="
+planConditionCount5 = 1
+planConditionClassProvided5 = true
+buildType1 = "fvltank66p2"
+buildCount1 = 1
+useScrapCost1 = false
+maxLoops = 999
+loopDelay = 420
+
+
+[Plan500]
+//PATROL WITH WARRIORS
+MinTtlScrap = 60
+CheckProvides = true
+pathpointsCanBeMissing = true
+planPriority = 310
+planType = "BuildLoop"
+planCondition2 = "PathExists"
+planConditionPath2 = "patrol1"
+planCondition4 = "Exists"
+planConditionClass4 = "Arsenal"
+planCompare4 = ">="
+planConditionCount4 = 1
+planConditionClassProvided4 = true
+buildType1 = "fvtank66p2"
+buildCount1 = 1
+buildType2 = "fvghoul66p"
+buildCount2 = 1
+useScrapCost1 = false
+maxLoops = 999
+loopDelay = 480
+
+
+
+
+[Plan860]
+//ATTACK WAVE C-1
+//MinTtlScrap = 60
+CheckProvides = true
+planPriority = 220
+ForceStagePoint = 3
+planType = "Attacker"
+planCondition = "Exists"
+planConditionClass = "UnitFactory2"
+planCompare = ">="
+planConditionCount = 1
+planConditionClassProvided = true
+targetType = "Pool"
+targetType1 = "Scav"
+targetType2 = "DefendUnit"
+targetType3 = "Defense"
+targetType4 = "MainBase"
+targetType5 = "UnitFactory"
+targetType6 = "Bunker"
+targetType7 = "BombBay"
+targetType8 = "RepairTruck"
+targetType9 = "RepairYard"
+targetType10 = "TechCen"
+targetType11 = "Training"
+targetType12 = "People"
+targetType13 = "Scout"
+targetType14 = "MScout"
+targetType15 = "LtWalker"
+targetType16 = "Tank"
+targetType17 = "ATank"
+targetType18 = "RTank"
+targetType19 = "HWalker"
+targetType20 = "GunTower"
+targetType21 = "RocketTower"
+attackType1 = "fvartl66c2"
+attackType2 = "fvartl66c2"
+attackType3 = "fvartl66c2"
+attackType4 = "fvartl66c2"
+attackType5 = "fvwalk66c2"
+attackType6 = "fvwalk66c2"
+AttackAnything = true
+maxAttacks = 2
+buildIfNoIdle = 1
+
+[Plan870]
+//ATTACK WAVE C-2
+//MinTtlScrap = 60
+CheckProvides = true
+planPriority = 210
+ForceStagePoint = 4
+planType = "Attacker"
+planCondition2 = "Exists"
+planConditionClass2 = "UnitFactory2"
+planCompare2 = ">="
+planConditionCount2 = 1
+planConditionClassProvided2 = true
+targetType = "Pool"
+targetType1 = "Scav"
+targetType2 = "DefendUnit"
+targetType3 = "Defense"
+targetType4 = "MainBase"
+targetType5 = "UnitFactory"
+targetType6 = "Bunker"
+targetType7 = "BombBay"
+targetType8 = "RepairTruck"
+targetType9 = "RepairYard"
+targetType10 = "TechCen"
+targetType11 = "Training"
+targetType12 = "People"
+targetType13 = "Scout"
+targetType14 = "MScout"
+targetType15 = "LtWalker"
+targetType16 = "Tank"
+targetType17 = "ATank"
+targetType18 = "RTank"
+targetType19 = "HWalker"
+targetType20 = "GunTower"
+targetType21 = "RocketTower"
+attackType1 = "fvwalk66c2"
+attackType2 = "fvwalk66c2"
+attackType3 = "fvwalk66c2"
+attackType4 = "fvwalk66c2"
+attackType5 = "fvartl66c2"
+attackType6 = "fvartl66c2"
+AttackAnything = true
+maxAttacks = 2
+buildIfNoIdle = 1
+
+[Plan880]
+//ATTACK WAVE D-1
+//MinTtlScrap = 60
+CheckProvides = true
+planPriority = 200
+ForceStagePoint = 5
+planType = "Attacker"
+planCondition2 = "Exists"
+planConditionClass2 = "UnitFactory2"
+planCompare2 = ">="
+planConditionCount2 = 1
+planConditionClassProvided2 = true
+targetType = "Pool"
+targetType1 = "Scav"
+targetType2 = "DefendUnit"
+targetType3 = "Defense"
+targetType4 = "MainBase"
+targetType5 = "UnitFactory"
+targetType6 = "Bunker"
+targetType7 = "BombBay"
+targetType8 = "RepairTruck"
+targetType9 = "RepairYard"
+targetType10 = "TechCen"
+targetType11 = "Training"
+targetType12 = "People"
+targetType13 = "Scout"
+targetType14 = "MScout"
+targetType15 = "LtWalker"
+targetType16 = "Tank"
+targetType17 = "ATank"
+targetType18 = "RTank"
+targetType19 = "HWalker"
+targetType20 = "GunTower"
+targetType21 = "RocketTower"
+attackType1 = "fvartl66c2"
+attackType2 = "fvartl66c2"
+attackType3 = "fvartl66c2"
+attackType4 = "fvartl66c2"
+attackType5 = "fvartl66c2"
+attackType6 = "fvwalk66c2"
+attackType7 = "fvwalk66c2"
+AttackAnything = true
+maxAttacks = 2
+buildIfNoIdle = 1
+
+[Plan890]
+//ATTACK WAVE D-2
+//MinTtlScrap = 60
+CheckProvides = true
+planPriority = 190
+ForceStagePoint = 6
+planType = "Attacker"
+planCondition = "Exists"
+planConditionClass = "UnitFactory2"
+planCompare = ">="
+planConditionCount = 1
+planConditionClassProvided = true
+targetType = "Pool"
+targetType1 = "Scav"
+targetType2 = "DefendUnit"
+targetType3 = "Defense"
+targetType4 = "MainBase"
+targetType5 = "UnitFactory"
+targetType6 = "Bunker"
+targetType7 = "BombBay"
+targetType8 = "RepairTruck"
+targetType9 = "RepairYard"
+targetType10 = "TechCen"
+targetType11 = "Training"
+targetType12 = "People"
+targetType13 = "Scout"
+targetType14 = "MScout"
+targetType15 = "LtWalker"
+targetType16 = "Tank"
+targetType17 = "ATank"
+targetType18 = "RTank"
+targetType19 = "HWalker"
+targetType20 = "GunTower"
+targetType21 = "RocketTower"
+attackType1 = "fvwalk66c2"
+attackType2 = "fvwalk66c2"
+attackType3 = "fvwalk66c2"
+attackType4 = "fvwalk66c2"
+attackType5 = "fvartl66c2"
+attackType6 = "fvartl66c2"
+attackType7 = "fvartl66c2"
+AttackAnything = true
+maxAttacks = 2
+buildIfNoIdle = 1
+
+[Plan900]
+//ATTACK WAVE E-1
+//MinTtlScrap = 60
+CheckProvides = true
+planPriority = 180
+ForceStagePoint = 7
+planType = "Attacker"
+planCondition2 = "Exists"
+planConditionClass2 = "UnitFactory2"
+planCompare2 = ">="
+planConditionCount2 = 1
+planConditionClassProvided2 = true
+targetType = "Pool"
+targetType1 = "Scav"
+targetType2 = "DefendUnit"
+targetType3 = "Defense"
+targetType4 = "MainBase"
+targetType5 = "UnitFactory"
+targetType6 = "Bunker"
+targetType7 = "BombBay"
+targetType8 = "RepairTruck"
+targetType9 = "RepairYard"
+targetType10 = "TechCen"
+targetType11 = "Training"
+targetType12 = "People"
+targetType13 = "Scout"
+targetType14 = "MScout"
+targetType15 = "LtWalker"
+targetType16 = "Tank"
+targetType17 = "ATank"
+targetType18 = "RTank"
+targetType19 = "HWalker"
+targetType20 = "GunTower"
+targetType21 = "RocketTower"
+attackType1 = "fvartl66c2"
+attackType2 = "fvartl66c2"
+attackType3 = "fvartl66c2"
+attackType4 = "fvartl66c2"
+attackType5 = "fvartl66c2"
+attackType6 = "fvwalk66c2"
+attackType7 = "fvwalk66c2"
+attackType8 = "fvatank66c2"
+AttackAnything = true
+maxAttacks = 2
+buildIfNoIdle = 1
+
+[Plan910]
+//ATTACK WAVE E-2
+//MinTtlScrap = 60
+CheckProvides = true
+planPriority = 170
+ForceStagePoint = 8
+planType = "Attacker"
+planCondition = "Exists"
+planConditionClass = "UnitFactory2"
+planCompare = ">="
+planConditionCount = 1
+planConditionClassProvided = true
+targetType = "Pool"
+targetType1 = "Scav"
+targetType2 = "DefendUnit"
+targetType3 = "Defense"
+targetType4 = "MainBase"
+targetType5 = "UnitFactory"
+targetType6 = "Bunker"
+targetType7 = "BombBay"
+targetType8 = "RepairTruck"
+targetType9 = "RepairYard"
+targetType10 = "TechCen"
+targetType11 = "Training"
+targetType12 = "People"
+targetType13 = "Scout"
+targetType14 = "MScout"
+targetType15 = "LtWalker"
+targetType16 = "Tank"
+targetType17 = "ATank"
+targetType18 = "RTank"
+targetType19 = "HWalker"
+targetType20 = "GunTower"
+targetType21 = "RocketTower"
+attackType1 = "fvwalk66c2"
+attackType2 = "fvwalk66c2"
+attackType3 = "fvwalk66c2"
+attackType4 = "fvwalk66c2"
+attackType5 = "fvartl66c2"
+attackType6 = "fvartl66c2"
+attackType7 = "fvartl66c2"
+attackType8 = "fvatank66c2"
+AttackAnything = true
+maxAttacks = 2
+buildIfNoIdle = 1
+
+
+[Plan920]
+//ATTACK WAVE F-1
+//MinTtlScrap = 60
+CheckProvides = true
+planPriority = 160
+ForceStagePoint = 9
+planType = "Attacker"
+planCondition2 = "Exists"
+planConditionClass2 = "UnitFactory2"
+planCompare2 = ">="
+planConditionCount2 = 1
+planConditionClassProvided2 = true
+targetType = "Pool"
+targetType1 = "Scav"
+targetType2 = "DefendUnit"
+targetType3 = "Defense"
+targetType4 = "MainBase"
+targetType5 = "UnitFactory"
+targetType6 = "Bunker"
+targetType7 = "BombBay"
+targetType8 = "RepairTruck"
+targetType9 = "RepairYard"
+targetType10 = "TechCen"
+targetType11 = "Training"
+targetType12 = "People"
+targetType13 = "Scout"
+targetType14 = "MScout"
+targetType15 = "LtWalker"
+targetType16 = "Tank"
+targetType17 = "ATank"
+targetType18 = "RTank"
+targetType19 = "HWalker"
+targetType20 = "GunTower"
+targetType21 = "RocketTower"
+attackType1 = "fvartl66c2"
+attackType2 = "fvartl66c2"
+attackType3 = "fvartl66c2"
+attackType4 = "fvartl66c2"
+attackType5 = "fvartl66c2"
+attackType6 = "fvartl66c2"
+attackType7 = "fvartl66c2"
+attackType8 = "fvwalk66c2"
+attackType9 = "fvwalk66c2"
+attackType10 = "fvwalk66c2"
+AttackAnything = true
+maxAttacks = 0
+buildIfNoIdle = 1
+
+[Plan930]
+//ATTACK WAVE F-2
+//MinTtlScrap = 60
+CheckProvides = true
+planPriority = 150
+ForceStagePoint = 10
+planType = "Attacker"
+planCondition = "Exists"
+planConditionClass = "UnitFactory2"
+planCompare = ">="
+planConditionCount = 1
+planConditionClassProvided = true
+targetType = "Pool"
+targetType1 = "Scav"
+targetType2 = "DefendUnit"
+targetType3 = "Defense"
+targetType4 = "MainBase"
+targetType5 = "UnitFactory"
+targetType6 = "Bunker"
+targetType7 = "BombBay"
+targetType8 = "RepairTruck"
+targetType9 = "RepairYard"
+targetType10 = "TechCen"
+targetType11 = "Training"
+targetType12 = "People"
+targetType13 = "Scout"
+targetType14 = "MScout"
+targetType15 = "LtWalker"
+targetType16 = "Tank"
+targetType17 = "ATank"
+targetType18 = "RTank"
+targetType19 = "HWalker"
+targetType20 = "GunTower"
+targetType21 = "RocketTower"
+attackType1 = "fvwalk66c2"
+attackType2 = "fvwalk66c2"
+attackType3 = "fvwalk66c2"
+attackType4 = "fvwalk66c2"
+attackType5 = "fvwalk66c2"
+attackType6 = "fvartl66c2"
+attackType7 = "fvartl66c2"
+attackType8 = "fvartl66c2"
+attackType9 = "fvartl66c2"
+attackType10 = "fvartl66c2"
+AttackAnything = true
+maxAttacks = 0
+buildIfNoIdle = 1
+
+[Plan940]
+CheckEngageRange = false
+CheckProvides = true
+planPriority = 100
+planType = "ClearArea"
+planCondition = "Exists"
+planConditionClass = "DefendUnit"
+planCompare = ">="
+planConditionCount = 1
+planConditionClassProvided = true
+planCondition2 = "HisExists"
+planConditionClass2 = "Pool"
+planCompare2 = ">"
+planConditionCount2 = 1
+planConditionClassProvided2 = true
+MaxUnits = 4
+searchRadius = 250
+targetType = "Pool"
+ContinueEvenIfFail = true
+
+[Plan950]
+CheckEngageRange = false
+CheckProvides = true
+planPriority = 90
+planType = "ClearArea"
+planCondition = "Exists"
+planConditionClass = "DefendUnit"
+planCompare = ">="
+planConditionCount = 1
+planConditionClassProvided = true
+planCondition2 = "HisExists"
+planConditionClass2 = "Pool"
+planCompare2 = ">"
+planConditionCount2 = 1
+planConditionClassProvided2 = true
+MaxUnits = 4
+searchRadius = 250
+targetType = "Pool"
+ContinueEvenIfFail = true

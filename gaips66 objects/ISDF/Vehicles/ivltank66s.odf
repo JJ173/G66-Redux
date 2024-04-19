@@ -1,0 +1,43 @@
+[GameObjectClass]
+geometryScale = 0.16
+glowTexture = "ivltanka0.pic"
+
+classLabel = "ivltank66"
+
+maxHealth = 2200
+
+maxAmmo = 2000
+
+requireCount = 2
+requireName1 = "ibfact66c"
+requireText1 = "Build Factory"
+requireName2 = "ibsbay"
+requireText2 = "Build Service Bay"
+
+provideCount = 3
+provideName1 = "ivltank66s"
+provideName2 = "DefendUnit"
+provideName3 = "LtTank"
+
+/////// weapons ///////////////////
+
+weaponMask = 00111
+
+weaponName1 = "gpulse66_c"	//"gatstab_c"
+
+////////////////////////////////////
+
+lightHard1 = "hp_light_1"
+lightName1 = "spotblue2"
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+
+[HoverCraftClass]

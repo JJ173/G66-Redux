@@ -1,0 +1,29 @@
+[GameObjectClass]
+classLabel = "ivturr66"
+
+provideCount = 3
+provideName3 = "ivctturr3"
+
+/////// weapons ///////////////////
+
+weaponName1 = "gchaingn66a"	//"gminigun_a"
+weaponName2 = "gchaingn66a"	//"gminigun_a"
+
+//////////////////////////////////
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+
+[HoverCraftClass]
+
+[DeployableClass]
+
+[TurretTankClass]

@@ -1,0 +1,328 @@
+//Siege Mode
+//MPInstant66.DLL Required
+
+//Siege AIP File:
+//Scouts attack by DLL.
+//Missile Scouts attack DLL.
+//Mortar Bikes are handled by AIP.
+//Rocket Tanks are handled by AIP.
+//Tanks attack by DLL.
+//Assault Tanks are handled by AIP.
+//Walkers are handled by AIP.
+//APCs are handled by AIP.
+//Bomber sent to Attack by DLL when built.
+//Interceptors handled by AIP.
+//Service Trucks are handled by AIP.
+
+
+//[Cheat]
+//moneyAmount = 20
+//moneyDelay = 10
+
+[Start]
+scavClass = "ivscav"
+consClass = "ivcons"
+
+
+[Match]
+targetType1= "ivscout"
+attackType1_1 = "ivtank"
+attackType1_2 = "ivscout"
+
+targetType2 = "ivscout"
+attackType2_1 = "ivscout"
+attackType2_2 = "ivscout"
+
+targetType3 = "ivscout"
+attackType3_1 = "ivmisl"
+attackType3_2 = "ivmisl"
+
+targetType4 = "ivmisl"
+attackType4_1 = "ivtank"
+attackType4_2 = "ivscout"
+
+targetType5 = "ivmisl"
+attackType5_1 = "ivmisl"
+attackType5_2 = "ivmisl"
+
+targetType6 = "ivmisl"
+attackType6_1 = "ivscout"
+attackType6_2 = "ivscout"
+
+targetType7 = "ivtank"
+attackType7_1 = "ivtank"
+attackType7_2 = "ivtank"
+
+targetType8 = "ivtank"
+attackType8_1 = "ivtank"
+attackType8_2 = "ivscout"
+
+targetType9 = "ivtank"
+attackType9_1 = "ivscout"
+attackType9_2 = "ivscout"
+
+targetType10 = "ivrckt"
+attackType10_1 = "ivtank"
+attackType10_2 = "ivtank"
+
+targetType11 = "ivrckt"
+attackType11_1 = "ivmisl"
+attackType11_2 = "ivmisl"
+
+targetType12 = "ivatank"
+attackType12_1 = "ivatank"
+attackType12_2 = "ivtank"
+attackType12_3 = "ivtank"
+
+targetType13 = "ivatank"
+attackType13_1 = "ivtank"
+attackType13_2 = "ivtank"
+
+targetType14 = "ivwalk"
+attackType14_1 = "ivatank"
+attackType14_2 = "ivtank"
+attackType14_3 = "ivtank"
+
+targetType15 = "ivwalk"
+attackType15_1 = "ivtank"
+attackType15_2 = "ivtank"
+
+targetType16 = "ivscav"
+attackType16_1 = "ivtank"
+attackType16_2 = "ivtank"
+
+targetType17 = "ivscav"
+attackType17_1 = "ivscout"
+attackType17_2 = "ivscout"
+
+
+[Plan1]
+planCondition = "Exists"
+planConditionClass = "ibfact"
+planConditionCount = 1
+planType = "BuildMinimums"
+planPriority = 495
+buildType1 = "ivltank66a"
+buildCount1 = 3
+doNextOnFail = 1
+
+[Plan2]
+planCondition = "Exists"
+planConditionClass = "ibfact"
+planConditionCount = 1
+planType = "BuildMinimums"
+planPriority = 490
+buildType1 = "ivtank"
+buildCount1 = 2 
+doNextOnFail = 1
+
+[Plan3]
+planType = "BuildMinimums"
+planPriority = 480
+buildType1 = "ivscout"
+buildCount1 = 2
+doNextOnFail = 1
+
+[Plan4]
+planType = "DefendArea"
+planPriority = 470
+targetType = "ibrecy"
+doNextOnFail = 1
+
+[Plan5]
+planCondition = "Exists"
+planConditionClass = "ibfact"
+planConditionCount = 1
+planType = "DefendArea"
+planPriority = 465
+targetType = "ibfact"
+doNextOnFail = 1
+
+[Plan6]
+planType = "BuildMinimums"
+planPriority = 450
+buildType1 = "ivcons"
+buildCount1 = 1
+doNextOnFail = 1
+
+[Plan7]
+planType = "BaseBuildMinimums"
+planPriority = 440
+buildType1 = "ibpgen"
+buildCount1 = 3
+buildType2 = "ibfact"
+buildType3 = "ibsbay"
+doNextOnFail = 1
+
+[Plan8]
+planType = "BuildMinimums"
+planPriority = 430
+buildType1 = "ivserv"
+buildCount1 = 2
+doNextOnFail = 1
+
+[Plan9]
+planType = "Service"
+planPriority = 425
+serviceUnit = "ivserv"
+unitType1 = "ibrecy"
+unitType2 = "ibfact"
+unitType3 = "ibgtow"
+unitType4 = "ibsbay"
+unitType5 = "ibarmo"
+unitType6 = "ibcbun"
+unitType7 = "ibpgen"
+doNextOnFail = 1
+
+[Plan10]
+planType = "BaseBuildMinimums"
+planPriority = 410
+buildType1 = "ibpgen"
+buildCount1 = 4
+buildType2 = "ibcbun"
+buildLoc2 = "cbun1"
+buildType3 = "ibgtow"
+buildLoc3 = "gtow1"
+buildType4 = "ibgtow"
+buildLoc4 = "gtow1b"
+doNextOnFail = 1
+
+[Plan11]
+planType = "BaseBuildMinimums"
+planPriority = 400
+buildType1 = "ibpgen"
+buildCount1 = 5
+buildType2 = "ibarmo"
+doNextOnFail = 1
+
+[Plan12]
+planType = "BuildMinimums"
+planPriority = 390
+buildType1 = "ivrckt"
+buildCount1 = 2
+doNextOnFail = 1
+
+[Plan13]
+planType = "Hold"
+planPriority = 380
+holdType1 = "ivrckt"
+holdCount1 = 2
+holdPoint = "holdtrt1"
+doNextOnFail = 1
+
+[Plan14]
+planType = "CollectField"
+planPriority = 370
+buildIfNoIdle = 1
+doNextOnFail = 1
+
+[Plan15]
+planType = "CollectPool"
+planPriority = 365
+buildIfNoIdle = 1
+doNextOnFail = 1
+
+[Plan16]
+planCondition = "HisExists"
+planConditionClass = "ivapc"
+planConditionCount = 1
+planType = "Attacker"
+planPriority = 340
+targetType = "ivapc"
+attackType1 = "ivmbike"
+attackType2 = "ivmbike"
+attackType3 = "ivmbike"
+buildIfNoIdle = 1
+doNextOnFail = 1
+
+[Plan17]
+planType = "BaseBuildMinimums"
+planPriority = 330
+buildType1 = "ibpgen"
+buildCount1 = 6
+buildType2 = "ibcbun"
+buildLoc2 = "cbun2"
+buildType3 = "ibgtow"
+buildLoc3 = "gtow2"
+buildType4 = "ibgtow"
+buildLoc4 = "gtow2b"
+doNextOnFail = 1
+
+[Plan18]
+planType = "BaseBuildMinimums"
+planPriority = 320
+buildType1 = "ibpgen"
+buildCount1 = 7
+buildType2 = "ibtcen"
+doNextOnFail = 1
+
+[Plan19]
+planType = "BuildMinimums"
+planPriority = 310
+buildType1 = "ivwalk"
+buildCount1 = 1
+doNextOnFail = 1
+
+[Plan20]
+planType = "Hold"
+planPriority = 300
+holdType1 = "ivwalk"
+holdCount1 = 1
+holdPoint = "hold1"
+doNextOnFail = 1
+
+[Plan21]
+planType = "BaseBuildMinimums"
+planPriority = 290
+buildType1 = "ibtrain"
+doNextOnFail = 1
+
+[Plan22]
+planType = "BaseBuildMinimums"
+planPriority = 280
+buildType1 = "ibbomb"
+doNextOnFail = 1
+
+[Plan23]
+planType = "BuildMinimums"
+planPriority = 270
+buildType1 = "ivwalk"
+buildCount1 = 2
+doNextOnFail = 1
+
+[Plan24]
+planType = "Hold"
+planPriority = 260
+holdType1 = "ivwalk"
+holdCount1 = 1
+holdPoint = "hold2"
+doNextOnFail = 1
+
+[Plan25]
+planCondition = "NotExists"
+planConditionClass = "ivbomb"
+planConditionCount = 1
+planType = "BuildMinimums"
+planPriority = 250
+buildType1 = "ivbomb"
+doNextOnFail = 1
+
+[Plan26]
+//Assault Tanks Sent to Attack Path by DLL
+planType = "BuildMinimums"
+planPriority = 240
+buildType1 = "ivatank"
+buildCount1 = 1 
+doNextOnFail = 1
+
+[Plan27]
+planType = "CollectField"
+planPriority = 230
+buildIfNoIdle = 1
+doNextOnFail = 1
+
+[Plan28]
+planType = "CollectPool"
+planPriority = 225
+buildIfNoIdle = 1
+doNextOnFail = 1

@@ -1,0 +1,19 @@
+[WeaponClass]
+classLabel = "mortar"
+ordName = "mortar_c"
+wpnName = "Mortar"
+altName = "gmortar_a"
+fireSound = "mort01.wav"
+wpnReticle = "gmortar"
+wpnLadder = "gmortar.L0"
+wpnPriority = 2
+wpnCategory = "MORT"
+isAssault = 0
+
+aiRange = 200.0
+needLOS = false
+AllowAimHigh = false
+
+[CannonClass]
+shotDelay = 2.0
+shotAlternate = 1

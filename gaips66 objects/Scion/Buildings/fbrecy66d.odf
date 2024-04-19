@@ -1,0 +1,21 @@
+[GameObjectClass]
+geometryName = "iochnk07.xsi"
+collisionRadius = 1.0
+classLabel = "i76building"
+powerCost = 0
+scrapCost = 0
+scrapValue = 0
+scrapCost = 0
+maxHealth = 99999
+maxAmmo = 0
+unitName = "Matriarch Debris"
+heatSignature = 0.0
+imageSignature = 0.0
+radarSignature = 0.0
+isAssault = 0
+
+armorClass = H
+
+[PoweredBuildingClass]
+powerCost = 0
+detectRange = 100

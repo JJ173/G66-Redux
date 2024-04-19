@@ -1,0 +1,131 @@
+[OrdnanceClass]
+classLabel = "bullet"
+
+shotSound = "igtow04.wav"
+shotGeometry = NULL
+shotRadius = 5.0
+
+xplGround = "xsgcannxpl"
+xplVehicle = "xsgcannxpl"
+xplBuilding = "xsgcannxpl"
+xplExpire = "xsgcannxpl"
+
+renderName = "sgcannon.render"
+
+ammoCost = 475
+lifeSpan = 4.0
+shotSpeed = 60.0
+
+damageValue(N) = 2825
+damageValue(L) = 2500
+damageValue(H) = 2275
+
+damageValue(S) = 2325
+damageValue(D) = 2675
+damageValue(A) = 2050
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 4
+renderName1 = "sgcannon.flare1"
+renderName2 = "sgcannon.flare2"
+renderName3 = "sgcannon.trailr"
+renderName4 = "sgcannon.trailb"
+
+[Flare1]
+renderBase = "draw_sprite"
+textureName = "plasma.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 255"
+finishColor = "255 255 255 255"
+startRadius = 4.0
+finishRadius = 4.5
+animateTime = 6.0
+
+[Flare2]
+renderBase = "draw_sprite"
+textureName = "plasma.tga"
+textureBlend = "one one modulate"
+startColor = "223 223 223 255"
+finishColor = "223 223 223 255"
+startRadius = 6.5
+finishRadius = 7.5
+animateTime = 6.0
+
+[TrailR]
+renderBase = "draw_emit"
+emitName = "sgcannon.sparkr"
+emitDelay = 0.35
+emitVelocity = "0.0 0.0 30.0"
+emitVariance = "10.0 10.0 10.0"
+
+[TrailB]
+renderBase = "draw_emit"
+emitName = "sgcannon.sparkb"
+emitDelay = 0.35
+emitVelocity = "0.0 0.0 30.0"
+emitVariance = "10.0 10.0 10.0"
+
+[SparkR]
+simulateBase = "sim_smoke"
+lifeTime = 0.5
+renderBase = "draw_multi"
+renderCount = 3
+renderName1 = "sgcannon.sparkflare2"
+renderName2 = "sgcannon.sparkflarer"
+renderName3 = "sgcannon.sparktrailr"
+
+[SparkB]
+simulateBase = "sim_smoke"
+lifeTime = 1.0
+renderBase = "draw_multi"
+renderCount = 3
+renderName1 = "sgcannon.sparkflare2"
+renderName2 = "sgcannon.sparkflareb"
+renderName3 = "sgcannon.sparktrailb"
+
+[SparkFlare]
+renderBase = "draw_sprite"
+textureName = "plasma.tga"
+textureBlend = "one one modulate"
+startRadius = 2.0
+finishRadius = 0.4
+animateTime = 1.0
+
+[SparkFlare2]
+renderBase = "draw_sprite"
+textureName = "plasma.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 255"
+finishColor = "255 255 255 0"
+startRadius = 0.6
+finishRadius = 0.12
+animateTime = 1.0
+
+[SparkFlareR]
+renderBase = "sgcannon.sparkflare"
+startColor = "255 223 255 255"
+finishColor = "255 223 255 0"
+
+[SparkFlareB]
+renderBase = "sgcannon.sparkflare"
+startColor = "223 255 255 255"
+finishColor = "223 255 255 0"
+
+[SparkTrail]
+renderBase = "draw_trail"
+textureBlend = "one one modulate"
+startRadius = 0.1
+finishRadius = 0.0
+segmentTime = 0.03
+trailTime = 0.2
+
+[SparkTrailR]
+renderBase = "sgcannon.sparktrail"
+startColor = "255 223 255 255"
+finishColor = "255 223 255 0"
+
+[SparkTrailB]
+renderBase = "sgcannon.sparktrail"
+startColor = "223 255 255 255"
+finishColor = "223 255 255 0"

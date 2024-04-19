@@ -1,0 +1,69 @@
+// Sonic Spire IVb Spec
+// Modifications by tech.noid 2001
+
+[GameObjectClass]
+mrmFactor = 0
+geometryName = "fbspir00.xsi"
+animCount = 1
+animName1 = "deploy"
+animFile1 = "fbspir00.xsi"
+classLabel = "turret"
+collisionRadius = 1.0
+scrapCost = 75
+scrapValue = 40
+powerCost = 0
+maxHealth = 7000
+maxAmmo = 10000
+unitName = "Sonic Spire"
+aiName = "SupportProcess"
+aiName2 = "SupportProcess"
+
+heatSignature = 2.0
+imageSignature = 1.0
+radarSignature = 1.0
+isAssault = 1
+
+armorClass = H
+
+buildSupport = "A"
+buildRequire = "F"
+
+requireCount = 0
+
+provideCount = 2
+provideName1 = "fbspir"
+provideName2 = "GunTower"
+
+///// WEAPON ////////////////////
+
+weaponMask = 00001
+weaponHard1 = "hp_cannon_1"
+weaponName1 = "soundcan4b"
+
+/////////////////////////////////
+
+turretCount = 2
+turretName1 = "turret_y"
+turretName2 = "turret_x"
+
+[BuildingClass]
+soundAmbient = "sgtow01.wav"
+
+[CraftClass]
+rangeScan = 300.0
+periodScan = 0.0
+velocJam = 100.0
+weaponPitch = 1.5
+steerFactor = 1.0
+engageRange = 290
+IgnoreDestroyedTargets = true
+
+attackTask = "AssaultTankAttack"
+subattackTask = "SupportSubAttack"
+subAttackClass = "ANS"
+
+[TurretCraftClass]
+powerTap1 = "HP_TAP_1"
+powerName = "fblung"
+omegaTurret = 2.0
+detectRange = 300

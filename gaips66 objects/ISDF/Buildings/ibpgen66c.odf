@@ -1,0 +1,19 @@
+[GameObjectClass]
+classLabel = "ibpgen"
+
+unitName = "Power I"
+
+requireCount = 0
+
+provideCount = 3
+provideName1 = "ibpgen"
+provideName2 = "Power"
+provideName3 = "UpgradeablePower"
+
+upgradeName = "ibpgup66c1"
+
+[BuildingClass]
+
+[PoweredBuildingClass]
+
+[Lod1]

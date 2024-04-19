@@ -1,0 +1,53 @@
+[GameObjectClass]
+baseName = "PatrolUnit"
+unitIcon = "icon_ivltank.tga"
+geometryScale = 0.16
+glowTexture = "ivltanka0.pic"
+
+classLabel = "ivltank66"
+
+unitName = "Patrol"
+
+maxHealth = 2200
+
+maxAmmo = 2000
+
+requireCount = 2
+requireName1 = "ibfact66c"
+requireText1 = "Build Factory"
+requireName2 = "ibcbun66c"
+requireText2 = "Build Relay Bunker"
+
+provideCount = 3
+provideName1 = "ivltank66p"
+provideName2 = "DefendUnit"
+provideName3 = "LtTank"
+
+/////// weapons ///////////////////
+
+weaponMask = 00111
+
+weaponName1 = "gpulse66_c"	//"gatstab_c"
+
+////////////////////////////////////
+
+lightHard1 = "hp_light_1"
+lightName1 = "spotblue2"
+lightHard2 = "hp_light_2"
+lightName2 = "spotblue2"
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+CanAIPForceIdle = false
+DoIdleDispatch = false
+
+IgnoreDestroyedTargets = true
+
+
+
+[HoverCraftClass]

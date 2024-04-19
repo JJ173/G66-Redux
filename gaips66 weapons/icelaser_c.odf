@@ -1,0 +1,67 @@
+[OrdnanceClass]
+classLabel = "beam"
+shotGeometry = NULL
+
+xplGround = "xicelsrgnd"
+xplVehicle = "xicelsrcar"
+xplBuilding = "xicelsrbld"
+
+renderName = "icelaser_c.render"
+
+ammoCost = 10
+lifeSpan = 200e-6 // 200m
+shotSpeed = 1e6
+
+damageValue(N) = 30
+damageValue(L) = 21
+damageValue(H) = 16
+
+damageValue(S) = 21
+damageValue(D) = 30
+damageValue(A) = 16
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 3
+renderName1 = "icelaser_c.beam"
+renderName2 = "icelaser_c.fringe"
+renderName3 = "icelaser_c.sparkle"
+
+[Beam]
+renderBase = "draw_bolt"
+textureName = NULL // "trail2.tga"
+textureBlend = "one one modulate"
+startColor = "0 0 255 2550"
+finishColor = "0 0 255 2550"
+startRadius = 0.3
+finishRadius = 0.05
+segmentLength = 5.0
+segmentVariance = "0.0 0.0 0.0"
+animateTime = 0.2
+textureRate = 0.01
+
+[Fringe]
+renderBase = "draw_bolt"
+textureName = NULL //"trail2.tga"
+textureBlend = "one one modulate"
+startColor = "113 127 159 255"
+finishColor = "113 127 159 0"
+startRadius = 0.32
+finishRadius = 0.055
+segmentLength = 5.0
+segmentVariance = "0.0 0.0 0.0"
+animateTime = 0.2
+textureRate = 0.01
+
+[Sparkle]
+renderBase = "draw_twirl_trail"
+textureName = "flame.tga"
+textureblend = "one one modulate"
+startColor = "193 224 255 255"
+finishColor = "193 224 255 0"
+startRadius = 0.1
+finishRadius = 0.01
+animateTime = 0.8
+emitDelay = 0.005
+emitVariance = "2.0 2.0 2.0"
+emitLife = 1.0

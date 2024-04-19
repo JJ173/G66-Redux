@@ -1,0 +1,69 @@
+//
+// DMVehicles.txt - listing of vehicles usable in BZ2 Death Match
+//
+// Format of lines: xsi filename, space separator, odf filename, space separator, description
+// Lines starting with // are ignored. 
+//
+// Tip: do not put .odf extension on odf filename; added automatically on loading
+//
+//
+// Vehicle selection values
+//
+//
+//                                             	Single     Up To and
+//                                             	Craft      Including
+//                                             	------     ---------
+//ivscout00.xsi ivscout66dm Thunderbolt             1			1
+//fvscout_skel.xsi fvscout66dm Drone				2			3 
+//ivmbik00.xsi ivmbike Jackal						4			7
+//fvsent_skel.xsi fvsent Sentry						8			15
+//ivmisl00.xsi ivmisl Avenger						16			31
+//fvlancer_skel.xsi fvarch Lancer					32			63
+//ivtank00.xsi ivtank Sabre							64			127
+//fvtank_skel.xsi fvtank Warrior					128			255
+//ivrckt00.xsi ivrckt Rocket Tank					256			511
+//ivintc00.xsi ivintc Interceptor					512			1023
+//ivatnk00.xsi ivatank Bulldog						1024		2047
+//fvtitan_skel.xsi fvatank Titan					2048		4097
+//ivwalk_skel.xsi ivwalk Attila LM					4096		8191
+//fvwalk_skel.xsi fvwalk Mauler						8192		16383
+//ivturr00.xsi ivturr Rattler						16384		32767
+//fvturr_skel.xsi fvturr Guardian					32768		65535
+//ispilo_rifle_skel.xsi ispilo ISDF Pilot			65536		131071
+//fspilo_rifle_skel.xsi fspilo Scion Pilot			131072		262143
+//
+ivscout00.xsi ivscout66dm Thunderbolt
+fvscout_skel.xsi fvscout66dm Drone
+ivgscout.xsi ivgscout Spectator
+ispilo_rifle_skel.xsi isAssassinDM Assassin
+ispilo_rifle_skel.xsi isGrenadierDM Grenadier
+ispilo_rifle_skel.xsi isRiflemanDM Rifleman
+ispilo_rifle_skel.xsi isAntiTankDM Anti-Tank
+fspilo_rifle_skel.xsi fsAssassinDM Executioner
+fspilo_rifle_skel.xsi fsGrenadierDM Ravager
+fspilo_rifle_skel.xsi fsRiflemanDM Rifleman
+fspilo_rifle_skel.xsi fsAntiTankDM Liquidator
+ivmbik00.xsi ivmbikedm Jackal
+fvsent_skel.xsi fvsentdm Sentry
+ivmisl00.xsi ivmisldm Avenger
+fvlancer_skel.xsi fvarchdm Lancer
+ivtank00.xsi ivtankdm Sabre
+fvtank_skel.xsi fvtankdm Warrior
+ivrckt00.xsi ivrcktdm Rocket Tank
+ivintc00.xsi ivintcdm Interceptor
+ivatnk00.xsi ivatankdm Bulldog
+fvtitan_skel.xsi fvatankdm Titan
+ivwalk_skel.xsi ivwalkdm Attila LM
+fvwalk_skel.xsi fvwalkdm Mauler
+ivturr00.xsi ivturr Rattler
+fvturr_skel.xsi fvturr Guardian
+hunter.xsi ivhunter Hunter
+scorpion.xsi ivscorpion Scorpion
+fvrapier00.xsi fvrapier Scorpion
+fvghoul_skel.xsi fvghoul Ghoul
+ivdestroy.xsi ivdestroy Destroyer I
+ivdestroy.xsi ivdestroy2 Destroyer II
+ivdestroy.xsi ivdestroy3 Destroyer III
+ivdestroy.xsi ivdestroy4 Destroyer IV
+ispilo_rifle_skel.xsi ispilo ISDF Pilot
+fspilo_rifle_skel.xsi fspilo Scion Pilot

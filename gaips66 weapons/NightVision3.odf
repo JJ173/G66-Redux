@@ -1,0 +1,35 @@
+[OrdnanceClass]
+classLabel = "bullet"
+shotGeometry = "NULL"
+
+//ammoCost = 40
+lifeSpan = 30.0 // 260 meters
+shotSpeed = 0.0
+renderName = "NightVision3.Light"
+
+
+[Light]
+renderBase = "draw_light"
+lightType = "point"
+startColor = "0 255 0 1255"
+finishColor = "0 255 0 1255"
+startRadius = 350.0
+finishRadius = 350.0
+animateTime = 30.0
+attenuateConstant = 0.0
+attenuateLinear = 0.0
+attenuateQuadratic = 0.0
+lensFlare = 0
+
+[LightClass]
+classLabel = "spotlight"
+lightColor.r = 0.0
+lightColor.g = 1.0
+lightColor.b = 0.0
+lightColor.a = 255.0
+lightRange = 350.0
+attenuateQuadratic = 0.0
+coneFalloff = 1.0
+coneAngInner = 1.0
+coneAngOuter = 3.0
+lensFlare = 0

@@ -1,0 +1,29 @@
+[GameObjectClass]
+geometryName = "aphand00.xsi"
+classLabel = "wpnpower"
+scrapCost = 60
+scrapValue = 0
+maxHealth = 150
+maxAmmo = 0
+unitName = "Subversion Rifle"
+aiName = "PowerUpProcess"
+
+requireCount = 4
+requireName1 = "fbforg"
+requireText1 = "Build/Upgrade Kiln"
+requireName2 = "fbstro"
+requireText2 = "Build Stronghold"
+requireName3 = "fbdowe"
+requireText3 = "Build Dowe"
+requireName4 = "fbover"
+requireText4 = "Build/Upgrade Antenna Mound"
+
+lightHard1 = "hp_light_1"
+lightName1 = "omnipur-pil"
+
+[PowerUpClass]
+soundPickup = "pickup01.wav"
+soundReject = "reject.wav"
+
+[WeaponPowerupClass]
+weaponName = "fgsubversion_c"

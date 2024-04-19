@@ -1,0 +1,15 @@
+[WeaponClass]
+classLabel = "cannon"
+altName = "ggasplume"
+ordName = "gasplume"
+wpnName = "Gas Plume"
+fireSound = "jax01.wav"
+wpnReticle = "gjax.0"
+wpnCategory = "SPEC"
+isAssault = 0
+aiRange = 20
+
+[CannonClass]
+shotDelay = 0.1
+shotVariance = 0.3
+shotPitch = 0.1

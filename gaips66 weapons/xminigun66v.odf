@@ -1,0 +1,86 @@
+// PP-MG Minigun Vehicle Hit
+// Revision for "Route 66" Mod by Natty Bumppo
+// Based on original version by Pandemic Studios
+
+[ExplosionClass]
+classLabel = "explosion"
+explSound = "wmgr1.wav"
+damageRadius = 5.0
+
+damageValue(N) = 3
+damageValue(L) = 2
+damageValue(H) = 0
+damageValue(S) = 2
+damageValue(D) = 0
+damageValue(A) = 3
+
+particleTypes = 4
+
+particleClass1 = "xminigun66v.splat"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+
+particleClass2 = "xminigun66v.core"
+particleCount2 = 1
+particleVeloc2 = "0.0 0.0 0.0"
+particleBias2 = "0.0 0.0 0.0"
+
+particleClass3 = "xminigun66v.spark"
+particleCount3 = 2
+particleVeloc3 = "5.0 5.0 5.0"
+particleBias3 = "0.0 1.0 0.0"
+
+particleClass4 = "xminigun66v.trail"
+particleCount4 = 1
+particleVeloc4 = "5.0 5.0 5.0"
+particleBias4 = "0.0 1.0 0.0"
+
+
+[Splat]
+simulateBase = "sim_null"
+lifeTime = 0.4
+renderBase = "draw_twirl"
+textureName = "ring.tga"
+textureBlend = "one one modulate"
+startColor = "0 127 255 227"
+finishColor = "0 127 255 0"
+startRadius = 0.2
+finishRadius = 1.0
+animateTime = 0.4
+
+[Core]
+simulateBase = "sim_null"
+lifeTime = 0.2
+renderBase = "draw_twirl"
+textureName = "bulhit.tga"
+textureBlend = "one one modulate"
+startColor = "0 127 255 227"
+finishColor = "0 127 255 0"
+startRadius = 0.05
+finishRadius = .5
+animateTime = 0.2
+
+[Spark]
+simulateBase = "sim_ember"
+lifeTime = 1.2
+renderBase = "draw_twirl"
+textureName = "spark.tga"
+textureBlend = "one one modulate"
+startColor = "0 127 255 255"
+finishColor = "0 127 255 0"
+startRadius = 0.1
+finishRadius = 0.05
+animateTime = 1.0
+rotationRate = 20.0
+
+[Trail]
+simulateBase = "sim_ember"
+lifeTime = 1.2
+renderBase = "draw_trail"
+textureBlend = "one one modulate"
+startColor = "0 127 255 255"
+finishColor = "0 127 255 0"
+startRadius = 0.01
+finishRadius = 0.0
+trailTime = 1.0
+segmentTime = 0.1

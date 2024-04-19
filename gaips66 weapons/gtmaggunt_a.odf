@@ -1,0 +1,38 @@
+[WeaponClass]
+classLabel = "chargegun"
+altName = "gtmaggun_c"
+ordName = NULL;
+wpnName = "MAG"
+fireSound = "mag01.wav"
+wpnReticle = "gmaggun.0"
+wpnCategory = "CANN"
+
+isAssault = 1
+
+aiRange = 240         // was 120 RD
+
+[ChargeGunClass]
+//startRate = 11025
+startRate = 11050
+deltaRate = 2000
+startVolume = 50    // was 40.0  RD
+deltaVolume = 20    // was 20.0  RD
+
+ordnanceCount = 2   // was 7  RD
+
+shotDelay1 = 0.0
+salvoCount1 = 0
+salvoDelay1 = 0
+fireSound1 = NULL
+ordName1 = NULL
+wpnReticle1 = "gmaggun.0"
+
+shotDelay2 = 7.5
+salvoCount2 = 1
+salvoDelay2 = 0.0
+fireSound2 = "mag07.wav"
+ordName2 = "gtcharge6_a"
+//ordName2 = "sgcannon"
+wpnReticle2 = "gmaggun.6"
+
+holdRate = 100.0   //  was 100.0  RD

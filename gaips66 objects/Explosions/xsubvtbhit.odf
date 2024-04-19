@@ -1,0 +1,38 @@
+// =================
+// SUBVERSION BEAM HIT
+// =================
+
+[ExplosionClass]
+classLabel = "explosion"
+
+particleTypes = 1
+particleClass1 = "xsubvtbhit.core"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+
+explSound = "xsv2.wav"
+
+damageRadius = 4.0
+
+damageValue(N) = 5
+damageValue(L) = 15
+damageValue(H) = 5
+damageValue(S) = 5
+damageValue(D) = 5
+damageValue(A) = 5
+
+kickRadius = 4.0
+kickOmega = 18.0
+kickVeloc = 2.0
+
+[Core]
+simulateBase = "sim_null"
+lifeTime = 0.5
+renderBase = "draw_twirl"
+textureName = "ring.tga"
+textureBlend = "one one modulate"
+startColor = "127 0 0 255"
+finishColor = "127 0 0 0"
+startRadius = 0.4
+finishRadius = 4.0
+animateTime = 0.5

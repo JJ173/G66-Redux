@@ -1,0 +1,26 @@
+[WeaponClass]
+classLabel = "machinegun"
+altName = "gTCPG_a"
+ordName = "TCPG_c"
+wpnName = "TCP Gun"
+fireSound = "gTCPG01.wav"
+wpnReticle = "gchain"
+wpnCategory = "GUN"
+isAssault = 0
+flashName = "gTCPG_c.flash"
+aiRange = 100
+
+[CannonClass]
+shotDelay = 0.1
+shotVariance = 0.025
+
+[Flash]
+renderBase = "draw_geom"
+textureName = "sflash.tga"
+textureBlend = "one one modulate"
+startColor = "255 0 0 100"
+finishColor = "255 0 0 100"
+startRadius = 10.0
+finishRadius = 5.75
+animateTime = 0.1
+geomName = "g_sflash.xsi"

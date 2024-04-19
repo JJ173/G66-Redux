@@ -1,0 +1,29 @@
+[GameObjectClass]
+classLabel = "ivcons66"
+needPilot = 0
+
+//requireCount = 1
+//requireName1 = "ibrecy66d"
+//requireText1 = "Build at Recycler"
+
+provideCount = 3
+provideName2 = "ivcons66f"
+provideName3 = "Builder"
+
+[CraftClass]
+
+[HoverCraftClass]
+
+[DeployableClass]
+
+[ConstructionRigClass]
+BuildSparkConfig = "sparker"
+buildItem1 = "ibcbun"
+buildItem2 = "ibarmo66m"
+buildItem3 = "ibsbay"
+buildItem4 = "ibtrain66m"
+buildItem5 = "ibtcen"
+buildItem6 = ""
+buildItem7 = ""
+buildItem8 = ""
+buildItem9 = ""

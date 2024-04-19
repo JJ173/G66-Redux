@@ -1,0 +1,24 @@
+[GameObjectClass]
+geometryName = "apcann00.xsi"
+classLabel = "wpnpower"
+scrapCost = 60
+scrapValue = 0
+maxHealth = 300
+maxAmmo = 0
+unitName = "Omega Pulse"
+aiName = "PowerUpProcess"
+
+requireCount = 3
+requireName1 = "fbforg"
+requireText1 = "Need Forge"
+requireName2 = "fbstro"
+requireText2 = "Build Stronghold"
+requireName3 = "fbover"
+requireText3 = "Need Overseer"
+
+[PowerUpClass]
+soundPickup = "pickup01.wav"
+soundReject = "reject.wav"
+
+[WeaponPowerupClass]
+weaponName = "gomburst2_c"

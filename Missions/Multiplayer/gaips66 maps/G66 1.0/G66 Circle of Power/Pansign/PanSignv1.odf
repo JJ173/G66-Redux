@@ -1,0 +1,42 @@
+[GameObjectClass]
+geometryName = "biggersign.xsi"
+classLabel = "I76building"
+collisionRadius = 1.0
+scrapCost = 0
+scrapValue = 0
+maxHealth = 2500
+addHealth = 20
+maxAmmo = 1000
+unitName = "THE BETA TEAM"
+heatSignature = 0.0
+imageSignature = 1.0
+radarSignature = 0.0
+explosionName = "PanBomb"
+canDetect = 0
+canInteract = 0
+canSnipe = 0`
+isAssualt = 0
+needPilot = 0
+canCollide = 0
+
+[BuildingClass]
+
+[PlantClass]
+standUp = 1
+
+
+setAltitude = 170.0 // how high off the ground
+
+
+
+hitGroundName = "xbmbxpl"
+hitByCarName = "xbmbxpl"
+hitByBulletName = "xbmbxpl"
+
+bigFlame = "treefire"
+smallFlame = "treeflame"
+
+darkRadius = 0         // 28m radius
+darkScale = 0  // 1/8 of the original intensity
+
+

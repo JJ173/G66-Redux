@@ -1,0 +1,78 @@
+//
+// MPVehicles 1.txt - Complete listing of multiplayer vehicles usable in BZ2 G66 2.0 (unused)
+//
+// Format of lines: xsi filename, space separator, odf filename, space separator, description
+// Lines starting with // are ignored. 
+//
+// Tip: do not put .odf extension on odf filename; added automatically on loading
+
+//  HTV: Human Team Variant
+// HTAV: Human Team Advance Variant
+// HTIV: Human Team Insane Variant
+//  CTV: Computer Team Variant
+// CTAV: Computer Team Advance Variant
+// CTIV: COmputer Team Insane Variant
+//   RV: Requested Variant
+//   CV: Custom Variant
+// 
+ivscout00.xsi ivscout66m  HTV: Thunderbolt		// "gminign66c", "gminign66c", "gfafmsl_c"
+ivscout00.xsi ivcscout1   CV: Thunderbolt 1		// "gfluxgn66c", "gfluxgn66c", "fgafmsl_c"
+ivscout00.xsi ivcscout2   CV: Thunderbolt 2		// "gfluxgn66c", "gfluxgn66c", "fgafmsl_c"
+ivscout00.xsi ivcscout3   CV: Thunderbolt 3		// "gfluxgn66c", "gfluxgn66c", "fgafmsl_c", "gfountain"
+ivscout00.xsi ivctscout1  CTV: Thunderbolt 1		// "glaser66c", "glaser66c", "gfafmsl_c", "gproxmin"
+ivscout00.xsi ivctscout2  CTV: Thunderbolt 2		// "gminign66c", "gminign66c", "gfafmsl_c", "gproxmin"
+ivscout00.xsi ivctscout3  CTV: Thunderbolt 3		// "gchaingn66c", "gchaingn66c", "gfafmsl_c", "gproxmin"
+ivscout00.xsi ivctscout5 CTIV: Thunderbolt 1		// "gminign66c", "gminign66c", "gfafmsl_c", "gfountain"		
+ivscout00.xsi ivctscout6 CTIV: Thunderbolt 2		// "gchaingn66c", "gchaingn66c", "gfafmsl_c", "gfountain"
+ivscout00.xsi ivctscout4 CTIV: Thunderbolt		// "glaser66c", "glaser66c", "gfafmsl_c", "gfountain"
+ivtank00.xsi ivtank66m  HTV: Sabre			// "gatstab_c", "gminign66c", "gminign66c", "gmortar"
+ivtank00.xsi ivcttank02  CTV: Sabre 1			// "gatstab_a", "gchaingn66c", "gchaingn66c", "gmortar"
+ivtank00.xsi ivcttank01  CTV: Sabre 2			// "gspstab_c", "gchaingn66c", "gchaingn66c", "gmortar"
+ivtank00.xsi ivcttank03  CTV: Sabre 3			// "gplasma_c", "gchaingn66c", "gchaingn66c", "gmortar"
+ivtank00.xsi ivrtank01   RV: Sabre			//"gomburst2_c", "gchaingn66c", "gchaingn66c", "gmortar"
+ivltank.xsi ivltank66m  HTV: Puma			// "gpulse66_c", "gfafmsl_c", "gfafmsl_c"
+ivltank.xsi ivltank66a  CTV: Puma 1			// "gatstab_a" "gfafmsl_c" "gfafmsl_c"
+ivltank.xsi ivctpuma01  CTV: Puma 2			// "gatstab_c", "gshadow_c", "gshadow_c"
+ivltank.xsi ivltank66p  CTV: Puma 3			// "gpulse66_c", "gshadow_c", "gshadow_c"
+ivltank.xsi ivctpuma02   CV: Puma 4			// "gpulse66_c", "gheatrkt_c", "gheatrkt_c"
+ivmbik00.xsi ivmbike  HTV: Jackal			// "gmortar"
+ivmisl00.xsi ivmisl66m HTV: Avenger			// "gtaggun_c", "gtaggun_c", "gproxmin"
+//ivmisl00.xsi ivctmisl01 CTV: Avenger 1			// "gshadow_c", "gshadow_c", "gproxmin"
+//ivmisl00.xsi ivctmisl02 CTV Avenger 2			// "gheatrkt_c", "gheatrkt_c", "gproxmin"
+fvsent_skel.xsi fvsent66 HTV: Sentry			// "giongn66c", "giongn66c", "gseeker"
+fvsent_skel.xsi fvctsent1 CTV: Sentry			// "ggaussg66c", "ggaussg66c", "gseeker", ""fabsorb  NOT COMPLETE
+fvscout_skel.xsi fvscout HTV: Drone
+fvtank_skel.xsi fvtank66  HTV: Warrior			// "gsplasma_c", "giongn66c", "giongn66c", "gproxmin"
+fvtank_skel.xsi fvcttank02  CTV: Warrior		// "gsplasma_c", "giongn66c", "giongn66c", "gproxmin", "gabsorb"
+fvtank_skel.xsi fvcttank01 CTAV: Warrior		// "gxenonstrc", "ggaussg66c", "ggaussg66c", "gproxmin", "gabsorb"
+fvltank_skel.xsi fvltank66m HTV: Dragon			// "giongn66c", "giongn66c", "gsting"
+fvltank_skel.xsi fvctltank2 CTV: Dragon	1		// "giongn66c", "giongn66c", "gsting", "gabsorb"
+fvltank_skel.xsi fvctltank1 CTV: Dragon 2		// "ggaussg66c", "ggaussg66c", "gsting", "gabsorb"
+fvlancer_skel.xsi fvarch HTV: Lancer		
+ivatnk00.xsi ivatank HTV: Bulldog			// "gplasma_a"
+ivxnat.xsi ivstank66x CTV: Seige Tank 1			// "gplasma_a"
+ivxnat.xsi ivcstank1 CTV: Seige Tank 2			// "gsgcann"
+ivrckt00.xsi ivrckt HTV: Rocket Tank			// "gshadow_c", "gshadow_c", "gshadow_a"
+ivrckt00.xsi ivctrckt1 CTAV: Rocket Tank		// "gheatrkt_c", "gheatrkt_c", "gheatrkt_a"
+ivwalk_skel.xsi ivswalk HTV: Attila 			// "gblast_a", "gblast_a", "glaser66c", "glaser66c"
+ivwalk_skel.xsi ivctwalk3  CTV: Attila 			// "gplasma_a", "gplasma_a", "glaser66c", "glaser66c"
+ivwalk_skel.xsi ivctwalk2  CTV: Attila 			// "gtechnox_a", "gtechnox_a", "glaser66c", "glaser66c"
+ivwalk_skel.xsi ivctwalk1 CTAV: Attila 			// "ghelion_a", "ghelion_a", "glaser66c", "glaser66c"
+ivwalk_skel.xsi ivcwalk1 CV: Attila			// "gsgcann", "gsgcann", "glaser66c", "glaser66c"
+ivltwalk_skel.xsi ivsltwalk  HTV: Landmaster		// "gchaingn66a", "gchaingn66a"
+ivltwalk_skel.xsi ivctlwlk01 CTV: Landmaster 1		// "glaser66a", "glaser66a"	
+ivltwalk_skel.xsi ivctlwlk02 CTAV: Landmaster		// "ghellbr66a", "ghellbr66a"
+ispilo_rifle_skel.xsi ispilo ISDF Sniper			
+ispilo_rifle_skel.xsi inspilo ISDF Grunt
+ivturr00.xsi ivturr66 HTV: Rattler			// "gminign66a", "gminign66a"
+ivturr00.xsi ivctturr1 CTV: Rattler 			// "glaser66a", "glaser66a"
+ivturr00.xsi ivctturr2 CTAV: Rattler			// "gfluxgn66a", "gfluxgn66a"
+fvtitan_skel.xsi fvatank66 HTV: Titan			// "garc_c", "garc_c", "giongn66c", "giongn66c"
+fvwalk_skel.xsi fvwalk HTV: Mauler			// "gquill_a", "gquill_a"
+fvwalk_skel.xsi fvwalk66 CTV: Mauler			// "gmzapmn", "gmzapmn"
+fvgorgon_skel.xsi fvgorg66m HTV: Gorgon			// "gxenonstra", "gxenonstra", "gzapmn", "gabsorb"
+//fvgorgon_skel.xsi fvctgorg1 CTAV: Gorgon		// "gomburst2_c", "gomburst2_c", "gzapmn", "gabsorb"
+fspilo_rifle_skel.xsi fspilo Scion Sniper	
+fspilo_rifle_skel.xsi fnspilo Scion Grunt
+fvturr_skel.xsi fvturr HTV: Guardian		//
+ivintc00.xsi ivintc HTV: Interceptor			// "grktbomb_c", "grktbomb_c", "gmortar", "gproxmin"

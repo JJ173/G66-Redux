@@ -1,0 +1,14 @@
+[GameObjectClass]
+classLabel = "ibscav66"
+
+unitName = "Extractor"
+
+provideCount = 2
+provideName1 = "Pool"
+provideName2 = "UpgradeablePool"
+
+upgradeName = "ibscup66m"
+
+[BuildingClass]
+
+[ExtractorClass]

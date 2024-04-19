@@ -1,0 +1,23 @@
+[WeaponClass]
+classLabel = "imagelauncher"
+altName = "gheatrkt_a"
+ordName = "heatrkt_c"
+wpnName = "HEAT Rocket"
+fireSound = "gsand00.wav"
+wpnReticle = "gshadow.0"
+wpnCategory = "ROCK"
+isAssault = 0
+aiRange = 250
+
+[LauncherClass]
+lockRange = 300.0
+shotDelay = 0.75
+lockDelay = 2.0
+coneAngle = 0.05
+lockingReticle = "gshadow.A"
+lockingSound = "lock01.wav"
+lockedReticle = "gshadow.B"
+lockedSound = "lock02.wav"
+targetCount = 3
+targetReticle = "gshadow.1"
+TeamFilter = 68  // 0 = targets all teams, 1 = targets same team only, 2 = targets only allies, 3 = targets only enemies, 4 = targets not same team

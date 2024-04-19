@@ -1,0 +1,52 @@
+[GameObjectClass]
+glowTexture = "ivltanka0.pic"
+
+classLabel = "ivltank"
+
+
+scrapValue = 30
+scrapCost = 0
+customCost = 0
+buildTime = 1.0
+customTime = 1.0
+
+maxHealth = 2200
+
+maxAmmo = 2000
+addAmmo = 2
+
+requireCount = 2
+requireName2 = "ibsbay"
+requireText2 = "Build Service Bay"
+
+provideCount = 3
+provideName2 = "ivltank66m"
+provideName3 = "DefendUnit"
+
+/////// weapons ///////////////////
+
+weaponMask = 00111  //00011
+
+weaponName1 = "gpulse66_c"	//"gatstab_a"
+weaponName2 = "gfafmsl_c"
+weaponName3 = "gfafmsl_c"
+
+////////////////////////////////////
+
+lightHard1 = "hp_light_1"
+lightName1 = "spotblue2"
+lightHard2 = "hp_light_2"
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+GotoTaskHasLeader = false
+AttackTaskUsesGroups = false
+
+
+[HoverCraftClass]

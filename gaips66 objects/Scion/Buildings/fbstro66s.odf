@@ -1,0 +1,57 @@
+[GameObjectClass]
+classLabel = "fbstro"
+
+scrapValue = 20
+
+provideCount = 3
+provideName2 = "fbstro66s"
+provideName3 = "Arsenal"
+
+[PoweredBuildingClass]
+
+[BuildingClass]
+
+[FactoryClass]
+BuildSparkConfig = "sparker"
+
+[ArmoryGroup1]
+buildItem3 = "fpzapgun"
+buildItem4 = "fpqteps66"
+
+[ArmoryGroup2]
+buildItem5 = "fpvenom"
+buildItem6 = "fpxnstr"
+buildItem7 = "fpactnc"
+buildItem8 = "fpombst2"
+
+[ArmoryGroup3]
+buildItem3 = "fpkrknmsl"
+
+[ArmoryGroup4]
+buildItem5 = "fphypoxis"
+
+[ArmoryGroup5]
+buildItem2 = "fpseek"
+
+[ArmoryGroup6]
+buildItem3 = "fpgasplm"
+buildItem4 = "fptesla"
+
+[ArmoryGroup7]
+
+[ArmoryGroup8]
+buildItem1 = "fpbazo"
+buildItem2 = "fpsnip"
+buildItem3 = "fpgren"
+buildItem4 = "fpjetp"
+buildItem5 = "fpkzap"
+buildItem6 = "fpsatc66"
+buildItem7 = "fpsubversion"
+
+[ArmoryGroup9]
+buildLabel = "Supplies"
+buildItem1 = "fpserv66"
+buildItem2 = "fprepa66"
+buildItem3 = "fpammo66"
+
+[Lod1]

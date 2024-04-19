@@ -1,0 +1,67 @@
+// =========
+// LAVA BOIL EXPLOSION
+// =========
+
+[ExplosionClass]
+classLabel = "explosion"
+explSound = "silence.wav"
+
+particleTypes = 2
+
+particleClass1 = "xlavaxpl.flames"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+particleBias1 = "0.0 0.0 0.0"
+
+particleClass2 = "xlavaxpl.embers"
+particleCount2 = 1
+particleVeloc2 = "0.0 0.0 0.0"
+particleBias2 = "0.0 0.0 0.0"
+
+explSound = "xms2.wav" 
+
+damageRadius = 10.0
+damageValue(N) = 20
+damageValue(L) = 8
+damageValue(H) = 1
+damageValue(S) = 8
+damageValue(D) = 15
+damageValue(A) = 2
+
+kickRadius = 10.0
+kickVeloc = 0.3
+kickOmega = 1.0
+
+[Flames]
+simulateBase = "sim_smoke"
+lifeTime = 1.2
+renderBase = "draw_twirl_trail"
+textureName = "flame2.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 200 128"
+finishColor = "255 0 0 0"
+startRadius = 1.5
+finishRadius = 1.0
+animateTime = 1.2
+emitDelay = 0.02
+emitVelocity = "0.0 18.0 0.0"
+emitVariance = "1.0 2.0 1.0"
+emitLife = 1.2
+
+[Embers]
+simulateBase = "sim_ember"
+lifeTime = 1.2
+renderBase = "draw_twirl_trail"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "255 128 0 255"
+finishColor = "255 0 0 0"
+startRadius = 0.15
+finishRadius = 0.01
+animateTime = 1.2
+rotationRate = 20.0
+emitDelay = 0.01
+emitVelocity = "0.0 10.0 0.0"
+emitVariance = "15.0 15.0 0.0"
+emitLife = 1.2
+

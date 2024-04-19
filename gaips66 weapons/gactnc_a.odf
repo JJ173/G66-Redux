@@ -1,0 +1,30 @@
+[WeaponClass]
+classLabel = "cannon"
+altName = "gactnc_c"
+ordName = "actinic_a"
+wpnName = "Actinic Salvo"
+fireSound = "cgun01.wav"
+wpnReticle = "glaser"
+wpnCategory = "CANN"
+isAssault = 1
+aiRange = 60
+flashName = "gactnc_a.flash"
+
+[CannonClass]
+shotDelay = 2.5
+salvoCount = 3
+salvoDelay = 0.05
+shotVariance = 0.02
+
+[Flash]
+simulateBase = "sim_null"
+lifeTime = 0.1
+renderBase = "draw_light"
+startColor = "47 0 79 255"
+finishColor = "47 0 79 0"
+startRadius = 20.0
+finishRadius = 20.0
+animateTime = 0.1
+attenuateConstant = 0.0
+attenuateLinear = 0.0
+attenuateQuadratic = 0.0

@@ -1,0 +1,20 @@
+[WeaponClass]
+classLabel = "targeting"
+altName = "gneed_a"
+ordName = "needsw_c"
+wpnName = "Thorn launcher"
+fireSound = "need.wav"
+wpnReticle = "gtaggun.0"
+wpnCategory = "ROCK"
+isAssault = 0
+aiRange = 120
+
+[TargetingGunClass]
+leaderName = "needle_c"
+leaderSound = "need.wav"
+shotDelay = 0.5
+firstDelay = 0.5
+salvoDelay = 0.5
+salvoCount = 1
+lockingReticle = "gtaggun.1"
+lockedReticle = "gtaggun.2"

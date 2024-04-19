@@ -1,0 +1,27 @@
+[WeaponClass]
+classLabel = "cannon"
+altName = "gTCPC_a"
+ordName = "TCPC_c"
+wpnName = "TCP cannon"
+fireSound = "tcpc.wav"
+wpnReticle = "gatstab"
+wpnCategory = "CANN"
+isAssault = 0
+flashName = "gTCPC_c.flash"
+aiRange = 175
+
+[CannonClass]
+shotDelay = 0.5 // 2/sec
+shotAlternate = 0
+
+[Flash]
+renderBase = "draw_geom"
+textureName = "sflash.tga"
+textureBlend = "one one modulate"
+startColor = "255 0 55 100"
+finishColor = "255 0 55 0"
+startRadius = 15.0
+finishRadius = 2
+animateTime = 0.1
+geomName = "g_sflash.xsi"
+

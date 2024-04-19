@@ -1,0 +1,18 @@
+[GameObjectClass]
+classLabel = "ivmisl66"
+
+unitName = "Missile Scout"
+
+provideCount = 3
+provideName1 = "ivmisl66c"
+provideName2 = "DefendUnit"
+provideName3 = "MScout"
+
+[CraftClass]
+
+[HoverCraftClass]
+accelThrust = 25.0 // acceleration 
+
+[Lod1]
+
+[Lod2]

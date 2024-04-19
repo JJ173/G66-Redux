@@ -1,0 +1,51 @@
+// =================
+// ACTINIC SALVO VEHICLE HIT
+// =================
+
+[ExplosionClass]
+classLabel = "explosion"
+
+particleTypes = 2
+
+particleClass1 = "xactnccar.core"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+
+particleClass2 = "xactnccar.shock"
+particleCount2 = 1
+particleVeloc2 = "0.0 0.0 0.0"
+
+explSound = "xsv2.wav"
+damageRadius = 4.0
+damageValue(N) = 8
+damageValue(L) = 4
+damageValue(H) = 3
+damageValue(S) = 4
+damageValue(D) = 7
+damageValue(A) = 3
+
+[Core]
+simulateBase = "sim_null"
+lifeTime = 0.3
+renderBase = "draw_twirl"
+textureName = "ring.tga"
+textureBlend = "one one modulate"
+startColor = "47 0 79 223"
+finishColor = "47 0 79 0"
+startRadius = 0.2
+finishRadius = 4.0
+animateTime = 0.3
+
+[Shock]
+simulateBase = "sim_null"
+lifeTime = 0.2
+renderBase = "draw_sphere"
+textureName = "vsmoke.tga"
+textureBlend = "one one modulate"
+startColor = "31 0 63 255"
+finishColor = "31 0 63 0"
+startRadius = 0.5
+finishRadius = 8.0
+animateTime = 0.2
+latitudeBands = 8
+longitudeSegments = 16

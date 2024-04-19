@@ -1,0 +1,13 @@
+[WeaponClass]
+classLabel = "cannon"
+ordName = "harpoon"
+wpnName = "Harpoon"
+fireSound = "gsand00.wav"
+wpnReticle = "gsandbag"
+wpnCategory = "ROCK"
+isAssault = 0
+aiRange = 190
+
+[CannonClass]
+shotDelay =  3.0
+

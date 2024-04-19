@@ -1,0 +1,34 @@
+[OrdnanceClass]
+classLabel =  "bullet" //"beam"
+
+shotGeometry = "NULL"
+xplGround = "xlgt66gnd"
+xplVehicle = "xlgt66car"
+xplBuilding = "xlgt66bld"
+
+renderName = "mbolt.render"
+
+ammoCost = 0
+lifeSpan = 210e-6 // 210m
+shotSpeed = 1E6
+
+damageValue(N) = 180 // none
+damageValue(L) = 90 // light
+damageValue(H) = 45 // heavy
+
+damageValue(S) = 90 // Stasis
+damageValue(D) = 180 // Deflection
+damageValue(A) = 45 // Absorption
+
+[Render]
+renderBase = "draw_bolt"
+textureName = "trail2.tga"
+textureBlend = "one one modulate"
+startColor = "0 255 255 255"
+finishColor = "0 0 255 0"
+startRadius = 0.3
+finishRadius = 0.01
+segmentLength = 7.0 
+segmentVariance = "2.0 2.0 0.5"
+animateTime = 0.8 // 0.2
+textureRate = 0.01

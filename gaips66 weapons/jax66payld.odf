@@ -1,0 +1,21 @@
+[GameObjectClass]
+geometryName = "bz1gysr.xsi"
+classLabel = "flare"
+scrapCost = 0
+scrapValue = 0
+maxHealth = 400
+maxAmmo = 2000
+unitName = "Jax Mortar"
+heatSignature = 0.0
+explosionName = "xjaxm66xpl"
+
+[MineClass]
+lifeSpan = 3.0
+
+[FlareMineClass]
+payloadName = "jaxm66shot"
+fireSound = "gflas00.wav"
+triggerDelay = 0.5
+shotDelay = 0.05
+shotVariance = 90.0
+

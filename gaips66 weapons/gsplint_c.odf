@@ -1,0 +1,16 @@
+[WeaponClass]
+classLabel = "mortar"
+ordName = "splintbm"
+wpnName = "Splinter"
+altName = "gsplint_a"
+fireSound = "smort01.wav"
+wpnReticle = "gsplint"
+wpnLadder = "gsplint.L0"
+wpnPriority = 4
+wpnCategory = "MORT"
+aiRange = 175
+isAssault = 0
+
+[CannonClass]
+shotDelay = 4.0
+

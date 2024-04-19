@@ -1,0 +1,27 @@
+[GameObjectClass]
+classLabel = "fvwalk66"
+
+requireCount = 3
+requireName1 = "fbdowe"
+requireText1 = "Build Dower"
+requireName2 = "fbantm"
+requireText2 = "Build Antenna Mound"
+
+provideCount = 5
+provideName2 = "fvwalk66s"
+provideName3 = "assault"
+provideName4 = "DefendUnit"
+provideName5 = "FWalker"
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+
+[WalkerClass]

@@ -1,0 +1,42 @@
+[GameObjectClass]
+geometryName = "bz1gysr.xsi"
+classLabel = "deposit"
+scrapCost = 0
+scrapValue = 0
+maxHealth = 20
+maxAmmo = 0
+unitName = "Biometal Pool"
+heatSignature = 0.0
+imageSignature = 0.0
+radarSignature = 0.0
+collisionRadius = 1.0
+ownsTerrain = 1
+isTerrain = 0
+
+effectHard1 = "hp_emit_1"
+effectName1 = "bz1gysr.render"
+
+[BuildingClass]
+tunnelCount = 1
+
+tunnel01X0 = 1
+tunnel01Z0 = 1
+tunnel01DX = 2
+tunnel01DZ = 2
+tunnel01Edge = "wwtw"
+
+[DepositClass]
+
+[Render]
+renderBase = "draw_twirl_trail"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "153 153 153 150
+finishColor = "76 76 76 0"
+startRadius = 1.0
+finishRadius = 0.75
+animateTime = 1.0
+emitDelay = 0.1
+emitVelocity = "0.0 10.0 0.0"
+emitVariance = "1.0 1.0 1.0"
+emitLife = 1.0

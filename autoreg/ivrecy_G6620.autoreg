@@ -1,0 +1,19 @@
+[RecyclerList]
+ODFName = "ivrecy_m66m"
+Description = "G66 2.0"
+
+[RecyclerListFFA]
+ODFName = "ivrecy_m66m"
+Description = "G66 2.0"
+
+[RecyclerListMPI]
+ODFName = "ivrecy_m66m"
+Description = "G66 2.0"
+
+[IAHumanRecyclerList]
+ODFName = "ivrecy_m66m"
+Description = "G66 2.0"
+
+[IACPURecyclerList]
+ODFName = "ivrecy_m66c"
+Description = "G66 2.0"

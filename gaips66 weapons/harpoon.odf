@@ -1,0 +1,52 @@
+[OrdnanceClass]
+classLabel = "anchor"
+shotGeometry = "iorckt00.xsi"
+shotSound = "sonic03c.wav"	//"sandbag.wav"
+
+xplGround = "xbulgnd"
+xplVehicle = "xbulcar"
+xplBuilding = "xbulbld"
+
+renderName = "harpoon.render"
+
+ammoCost = 30
+lifeSpan = 3.5
+shotSpeed = 55.0
+
+damageValue(N) = 20
+damageValue(L) = 20
+damageValue(H) = 20
+damageValue(S) = 20
+damageValue(D) = 20
+damageValue(A) = 20
+
+[LeaderRoundClass]
+stickTime = 7.5
+
+[AnchorRocketClass]
+accelDrag = 12.0
+alphaDrag = 1.5
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 2
+renderName1 = "harpoon.flare"
+renderName2 = "harpoon.trail"
+
+[Flare]
+renderBase = "draw_sprite"
+textureName = "flare.tga"
+textureBlend = "one one modulate"
+startColor = "240 248 255 255" //"255 255 255 255"
+finishColor = "240 248 255 255" //"255 255 255 255"
+startRadius = 1.0
+finishRadius = 1.0
+
+[Trail]
+renderBase = "draw_trail"
+textureBlend = "one one modulate"
+startColor = "31 191 255 217" //"63 255 255 127"
+finishColor = "0 63 255 0" //"0 0 255 0"
+startRadius = 0.2
+finishRadius = 0.0
+segmentTime = 0.8

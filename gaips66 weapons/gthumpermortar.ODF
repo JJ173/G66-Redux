@@ -1,0 +1,15 @@
+[WeaponClass]
+classLabel = "mortar"
+ordName = "ThumperMortar"
+wpnName = "Thumper Mortar"
+fireSound = "mort01.wav"
+wpnReticle = "gmortar"
+wpnLadder = "gmortar.L0"
+wpnPriority = 2
+wpnCategory = "MORT"
+
+//aiRange = 200.0
+aiRange = 300.0
+
+[CannonClass]
+shotDelay = 30.0

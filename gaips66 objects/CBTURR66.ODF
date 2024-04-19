@@ -1,0 +1,43 @@
+[GameObjectClass]
+geometryName = "cbturr01.xsi"
+classLabel = "turret"
+collisionRadius = 10.0
+scrapCost = 50
+powerCost = 0
+scrapValue = 0
+maxHealth = 3000
+maxAmmo = 10000 // 0 is *not* treated as infinite ammo!
+unitName = "Turret"
+aiName = "GunTowerFriend"
+aiName2 = "GunTowerEnemy"
+heatSignature = 0.8
+imageSignature = 3.0
+radarSignature = 1.0
+isAssault = 1
+
+armorClass = L
+
+weaponMask = 00011
+weaponHard1 = "hp_gun_1"
+weaponName1 = "gcoretur66"
+weaponAssault1 = 0
+weaponHard2 = "hp_gun_2"
+weaponName2 = "gcoretur66"
+weaponAssault2 = 0
+
+turretCount = 3
+turretName1 = "turret_y_1"
+turretName2 = "turret_x_1"
+turretName3 = "hp_eyepoint"
+
+[CraftClass]
+rangeScan = 300
+periodScan = 0.0
+velocJam = 0.0
+weaponPitch = 1.5
+steerFactor = 0.5
+engageRange = 240
+
+[TurretCraftClass]
+omegaTurret = 2.4  //2.0
+detectRange = 260

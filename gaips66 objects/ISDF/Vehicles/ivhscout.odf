@@ -1,0 +1,108 @@
+[GameObjectClass]
+baseName = "ivhscout"
+geometryName = "hvscout00.xsi"
+cockpitName= "ivtank_cockpit.xsi"
+classLabel = "wingman"
+scrapValue = 20
+scrapCost = 55
+customCost = 65
+buildTime = 15.0
+customTime = 15.0
+maxHealth = 1000
+maxAmmo = 9999
+addAmmo = 5
+addHealth = 10
+unitName = "Fury Scout"
+aiName = "TankFriend"
+aiName2 = "TankEnemy"
+
+heatSignature = 8.0
+imageSignature = 0.5
+radarSignature = 1.5
+
+isAssault = 0
+
+armorClass = L
+
+provideCount = 2
+provideName1 = "ivhscout"
+provideName2 = "DefendUnit"
+
+/////// weapons ///////////////////
+
+weaponMask = 00011
+
+weaponHard1 = "HP_GUN_01"
+weaponName1 = "gFurySbolt"
+weaponAssault1 = 0
+weaponHard2 = "HP_GUN_02"
+weaponName2 = "gFurySbolt"
+weaponAssault2 = 0
+weaponHard3 = "HP_SPECIAL"
+weaponName3 = ""
+weaponAssault3 = 0
+weaponHard4 = "HP_SHIELD"
+weaponName4 = "gabsorb"
+weaponAssault4 = 0
+
+////////////////////////////////////
+
+
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+rangeScan = 450.0f
+periodScan = 5.0f
+velocJam = 5.0f
+engageRange = 220
+
+attackTask = "MortarBikeAttack"
+subAttackTask = "MortarBikeSubAttack"
+subAttackClass = "NNN"
+
+// subAttackClass uses 3 letters.
+// 1st letter is either A or N.     A is include Air targets.         N is attack ground only.
+// 2nd letter is either D or N.     D is to deploy before attacking.  N for regular attack.
+// 3rd letter is either S or N.     S is to use Weapon Range.         N is use the Engage Range to attack. 
+
+braccelFactor = 0.03
+velFactor = 0.2
+steerFactor = 1.5
+omegaFactor = 0.2
+strafeFactor = 0.2
+
+avoidSpeed = 5;
+topSpeed = 50;
+
+[HoverCraftClass]
+velocForward = 65 // 
+velocReverse = 60.0 // 
+velocStrafe = 26.0 // 
+accelThrust = 60 //acceleration 
+accelDragStop = 60.0 //how fast it stops once hands are off controls 
+accelJump = 60.0 // 
+
+setAltitude = 5.0 // how high off the ground
+
+alphaTrack = 4.0 //springs speed it rights itself 
+alphaDamp = 10.0 //shocks 
+
+pitchPitch = 0.25 //nose up 
+pitchThrust = 0.1 //nose down 
+
+rollStrafe = 0.08 //rolls while strafing 
+omegaSpin = 5.0 //spinning in place speed 
+omegaTurn = 2.0 //turning while moving speed 
+alphaSteer = 7.0 //how fast it responds to steering 
+rollSteer = 0.08 //rolls while steering 
+
+soundThrust = "waspmsl.wav"
+soundTurbo = "avtanke3.wav"
+

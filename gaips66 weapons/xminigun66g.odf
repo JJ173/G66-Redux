@@ -1,0 +1,69 @@
+// PP-MG Minigun Ground Hit
+// Revision for "Route 66" Mod by Natty Bumppo
+// Based on original version by Pandemic Studios
+
+[ExplosionClass]
+classLabel = "explosion"
+explSound = "wmgr2.wav"
+damageRadius = 5.0
+
+damageValue(N) = 2
+damageValue(L) = 1
+damageValue(H) = 0
+damageValue(S) = 1
+damageValue(D) = 0
+damageValue(A) = 2
+
+particleTypes = 3
+
+particleClass1 = "xminigun66g.splat"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+
+particleClass2 = "xminigun66g.chunks"
+particleCount2 = 2
+particleVeloc2 = "4.0 4.0 4.0"
+particleBias2 = "0.0 7.0 0.0"
+
+particleClass3 = "xminigun66g.core"
+particleCount3 = 1
+particleVeloc3 = "0.0 0.0 0.0"
+
+
+[Splat]
+simulateBase = "sim_null"
+lifeTime = 0.4
+renderBase = "draw_planar"
+textureName = "ring.tga"
+textureBlend = "one one modulate"
+startColor = "0 127 255 159"
+finishColor = "0 127 255 0"
+startRadius = 0.1
+finishRadius = 1.0
+animateTime = 0.4
+
+[Chunks]
+simulateBase = "sim_ember"
+lifeTime = 4.0
+renderBase = "draw_twirl"
+textureName = "dirt.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "31 95 135 255"
+finishColor = "31 95 135 0"
+startRadius = 0.2
+finishRadius = 0.2
+animateTime = 3.0
+
+[Core]
+simulateBase = "sim_null"
+lifeTime = 1.0
+renderBase = "draw_sprite"
+spriteCenter.x = 0.0
+spriteCenter.y = 1.0
+textureName = "ground.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "31 95 135 255"
+finishColor = "31 95 135 0"
+startRadius = 0.2
+finishRadius = 1.0
+animateTime = 1.0

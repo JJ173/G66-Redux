@@ -1,0 +1,74 @@
+[GameObjectClass]
+baseName = "ibsbay"
+geometryName = "ibsbay00.xsi"
+classLabel = "supplydepot"
+collisionRadius = 1.0
+scrapCost = 50
+scrapValue = 10
+buildTime= 15
+maxHealth = 5000
+maxAmmo = 0
+unitName = "Service Bay"
+heatSignature = 2.0
+imageSignature = 1.0
+radarSignature = 1.0
+isAssault = 1
+
+armorClass = H
+
+/////// REQUIREMENTS ///////////////
+
+requireCount = 1
+requireName1 = "ibfact66c"
+requireText1 = "Build Factory"
+
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+
+provideCount = 4
+provideName1 = "RepairYard"
+provideName2 = "ibsbay66c"
+provideName3 = "ibsbay66"
+provideName4 = "ibsbay"
+
+////////////////////////////////////
+
+lightHard3 = "hp_light_3"
+lightName3 = "spotblue"
+lightHard4 = "hp_light_4"
+lightName4 = "spotblue"
+
+[PoweredBuildingClass]
+detectRange = 100
+
+[BuildingClass]
+tunnelCount = 1
+
+tunnel01X0 = 1
+tunnel01Z0 = 1
+tunnel01Dx = 1.5
+tunnel01Dz = 1.5
+tunnel01Edge = "twwt"
+
+[SupplyDepotClass]
+supplyRange = 50.0
+supplyRate = 150.0
+ServiceAllies = true
+ServiceParallel = true
+
+supplySound = "mnu_empt.wav"
+
+
+// Individual classification tweakers
+serviceSTs = 1
+serviceCraft = 1
+serviceBuildings = 0
+servicePilots = 0
+serviceOther = 1
+serviceAllies = 1
+
+[Lod1]
+//geometryName = "ibsbayL1.xsi" ;geometry for lod1
+//distance = 64                 	  ;bsphere under 200 pixel => switch to lod1
+

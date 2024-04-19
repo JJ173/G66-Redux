@@ -1,0 +1,22 @@
+[WeaponClass]
+classLabel = "jetpack"
+geometryName = NULL
+animCount = 0
+ordName = NULL
+wpnName = "RamJet"
+fireSound = "whcan.wav"
+wpnReticle = "gphantom.0"
+wpnPriority = 0
+wpnCategory = "SPEC"
+localAmmo = 1
+addLocalAmmo = 0.01
+aiRange = 50
+
+[JetPackClass]
+ammoCost = 1
+burnTime = 3.0
+accelThrust = 0.0
+ForwardThrust = 60.0
+activeSound = "jpack01.wav"
+//expireSound = "jpack02.wav"
+expireSound = "woohoo.wav"

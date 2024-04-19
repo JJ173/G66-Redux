@@ -1,0 +1,15 @@
+[WeaponClass]
+classLabel = "cannon"
+ordName = "scourge66c"
+wpnName = "Scourge Missile"
+fireSound = "gsand00.wav"
+wpnReticle = "gsting_c"
+wpnCategory = "ROCK"
+aiRange = 250
+isAssault = 0
+
+[CannonClass]
+shotDelay = 1.0
+salvoDelay = 0.1
+salvoCount = 6
+shotAlternate = 1

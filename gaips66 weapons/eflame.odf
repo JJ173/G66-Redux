@@ -1,0 +1,54 @@
+[OrdnanceClass]
+classLabel = "beam"
+
+shotGeometry = "NULL"
+xplGround = "xeflmhit"
+xplVehicle = "xeflmhit"
+xplBuilding = "xeflmhit"
+
+renderName = "eflame.render"
+
+ammoCost = 14
+lifeSpan = 140e-6 // 140m
+shotSpeed = 1e6
+
+damageValue(N) = 63
+damageValue(L) = 45
+damageValue(H) = 27
+
+damageValue(S) = 27
+damageValue(D) = 36
+damageValue(A) = 54
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 2
+renderName1 = "eflame.core"
+renderName2 = "eflame.fringe"
+
+[Core]
+renderBase = "draw_bolt"
+textureName = "trail2.tga"
+textureBlend = "one one modulate"
+startColor = "191 0 0 255"
+finishColor = "191 0 0 0"
+startRadius = 0.5
+finishRadius = 0.2
+segmentLength = 5.0
+segmentVariance = "0.0 0.0 0.0"
+animateTime = 0.2
+textureRate = 0.01
+
+[Fringe]
+renderBase = "draw_bolt"
+textureName = "trail2.tga"
+textureBlend = "one one modulate"
+startColor = "223 0 63 255"
+finishColor = "191 0 0 0"
+startRadius = 0.6
+finishRadius = 2.4
+segmentLength = 5.0
+segmentVariance = "0.0 0.0 0.0"
+animateTime = 0.3
+textureRate = 0.02
+textureSpeed = -5.0

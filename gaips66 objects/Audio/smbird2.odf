@@ -1,0 +1,31 @@
+// SOUNDMINE //
+
+[GameObjectClass]
+geometryName = "soundcube_s.xsi"
+
+classLabel = "weaponmine"
+scrapCost = 0
+scrapValue = 0
+maxHealth = 1E6
+maxAmmo = 1E6
+
+imageSignature = 0.0
+heatSignature = 0.0
+radarSignature = 0.0
+
+unitName = "Soundmine"
+canDetect = 0 
+canInteract = 0
+canSelect = false
+canTarget = false
+isStealth = true
+
+weaponHard1 = "HP_Cannon_1"
+weaponName1 = "mbird2" // <<<<<<<<<<<<<<<<<
+
+[MineClass]
+lifeSpan = 1E6
+
+[WeaponMineClass]
+searchRadius = 200.0 // <<<<<<<<<<<<<<
+heightScale = 0.0

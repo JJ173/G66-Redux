@@ -1,0 +1,21 @@
+[GameObjectClass]
+classLabel = "xvsat"
+
+needPilot = 1
+addPilot = 1
+
+provideCount = 4
+provideName2 = "xvsat"
+provideName3 = "assault"
+provideName4 = "DefendUnit"
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+

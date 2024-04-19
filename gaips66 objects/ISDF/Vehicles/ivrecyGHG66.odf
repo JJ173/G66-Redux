@@ -1,0 +1,27 @@
+[GameObjectClass]
+classLabel = "ivrecy"
+
+/////// PROVIDES ///////////////////
+
+unitName = "GH Recycler"
+
+provideCount = 7
+provideName3 = "ivrecyGHG66"
+provideName4 = "ivrecy_m66m"
+provideName5 = "VIRTUAL_CLASS_RECYCLER"
+provideName6 = "VIRTUAL_CLASS_RECYCLERVEHICLE"
+provideName7 = "Recycler"
+
+////////////////////////////////////
+
+[CraftClass]
+
+[TrackedVehicleClass]
+
+[TrackedDeployableClass]
+
+[DeployBuildingClass]
+BuildSparkConfig = "sparker"
+deployName = "ibrecyGHG66"
+
+[RecyclerVehicleClass]

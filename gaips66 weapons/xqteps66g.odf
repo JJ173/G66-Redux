@@ -1,0 +1,129 @@
+// EP-AG QTEPS Ground Hit
+// Original Design for "Route 66" Mod by Natty Bumppo
+
+[ExplosionClass]
+classLabel = "explosion"
+explSound = "xsv2.wav"
+damageRadius = 15.0
+
+damageValue(N) = 50
+damageValue(L) = 40
+damageValue(H) = 30
+damageValue(S) = 50
+damageValue(D) = 50
+damageValue(A) = 50
+
+kickRadius = 15.0
+kickOmega = 7.5
+kickVeloc = 12.0
+
+particleTypes = 6
+
+particleClass1 = "xqteps66g.core"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+
+particleClass2 = "xqteps66g.puff"
+particleCount2 = 1
+particleVeloc2 = "0.0 0.0 0.0"
+
+particleClass3 = "xqteps66g.light"
+particleCount3 = 1
+particleVeloc3 = "0.0 0.0 0.0"
+
+particleClass4 = "xqteps66g.ring"
+particleCount4 = 1
+particleVeloc4 = "0.0 0.0 0.0"
+
+particleClass5 = "xqteps66g.char"
+particleCount5 = 1
+particleVeloc5 = "0.0 0.0 0.0"
+
+particleClass6 = "xqteps66g.sparky"
+particleCount6 = 1
+particleVeloc6 = "0.0 0.0 0.0"
+
+
+[Core]
+simulateBase = "sim_null"
+lifeTime = 1.0
+renderBase = "draw_sprite"
+spriteCenter.x = 0.0
+spriteCenter.y = 1.0
+textureName = "ground.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "63 255 181 255"
+finishColor = "0 255 255 0"
+startRadius = 0.2
+finishRadius = 2.0
+animateTime = 1.0
+
+[Puff]
+simulateBase = "sim_smoke"
+lifeTime = 0.5
+renderBase = "draw_planar"
+textureName = "blast.tga"
+textureBlend = "one one modulate"
+startColor = "128 255 128 255"
+finishColor = "255 255 255 0"
+startRadius = 0.2
+finishRadius = 7.5
+animateTime = 0.5
+
+[Light]
+simulateBase = "sim_null"
+lifeTime = 0.4
+renderBase = "draw_light"
+startColor = "63 255 181 255"
+finishColor = "0 255 63 0"
+startRadius = 20.0
+finishRadius = 20.0
+animateTime = 0.4
+attenuateConstant = 0.0
+attenuateLinear = 0.0
+attenuateQuadratic = 0.0
+
+[Ring]
+simulateBase = "sim_null"
+lifeTime = 10.0
+renderBase = "draw_planar"
+textureName = "grndchar.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "10 10 10 255"
+finishColor = "10 10 10 0"
+startRadius = 2.5
+finishRadius = 2.5
+animateTime = 10.0
+
+[Char]
+simulateBase = "sim_null"
+lifeTime = 3.0
+renderBase = "draw_planar"
+textureName = "blast.tga"
+textureBlend = "one one modulate"
+startColor = " 127 255 0 255"
+finishColor = "0 100 255 0"
+startRadius = 7.5
+finishRadius = 0.5
+animateTime = 3.0
+
+[SparkY]
+simulateBase = "sim_smoke"
+lifeTime = 0.1
+renderBase = "draw_emit"
+emitName = "xqteps66g.sparkyemit"
+emitDelay = 0.01
+emitVelocity = "0.0 10.0 0.0"
+emitVariance = "20.0 0.0 20.0"
+
+[SparkYEmit]
+simulateBase = "sim_smoke"
+lifeTime = 1.5
+renderBase = "draw_twirl"
+textureName = "lightflare.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 0 255"
+finishColor = "255 128 0 0"
+startRadius = 0.15
+finishRadius = 0.01
+animateTime = 2.0

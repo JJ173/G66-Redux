@@ -1,0 +1,14 @@
+[WeaponClass]
+classLabel = "machinegun"
+altName = "gtechnox_a"
+ordName = "technox_c"
+wpnName = "Rave Cannon"
+fireSound = "grave00.wav"
+wpnReticle = "gshotgun"
+wpnPriority = 0
+wpnCategory = "CANN"
+
+isAssault = 0
+
+[CannonClass]
+shotDelay = 0.30

@@ -1,0 +1,69 @@
+[OrdnanceClass]
+classLabel = "bullet"
+
+shotGeometry = "gatstab.xsi"
+shotSound = "Ordin_a.wav"
+
+renderName = "rocket_a.render"
+
+xplGround = "xmslgnd"
+xplVehicle = "xmslcar"
+xplBuilding = "xmslbld"
+
+ammoCost = 9
+lifeSpan = 3.34 // 250m
+shotSpeed = 75.0
+
+damageValue(N) = 140 // none
+damageValue(L) = 120 // light
+damageValue(H) = 100 // heavy
+
+damageValue(S) = 120 // Stasis
+damageValue(D) = 100 // Deflection
+damageValue(A) = 140 // Absorption
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 3
+renderName1 = "rocket.smoke"
+renderName2 = "rocket.flame"
+renderName3 = "rocket.Light"
+
+[Smoke]
+renderBase = "draw_twirl_trail"
+textureName = "smoke.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "0 64 127 64"
+finishColor = "200 200 255 0"
+startRadius = 0.2
+finishRadius = 2.0
+rotationRate = 2.0
+animateTime = 0.1
+emitDelay = 0.005
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "2.0 2.0 2.0"
+emitLife = 0.1
+
+[Flame]
+renderBase = "draw_twirl_trail"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "0 127 255 255"
+finishColor = "0 0 255 255"
+startRadius = 0.2
+finishRadius = 0.02
+rotationRate = 10.0
+animateTime = 0.02
+emitDelay = 0.001
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "2.0 2.0 2.0"
+emitLife = 0.02
+
+[Light]
+renderBase = "draw_sprite"
+textureName = "lightflare.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 255 255"
+finishColor = "255 255 255 255"
+startRadius = 1.0
+finishRadius = 1.0

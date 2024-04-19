@@ -1,0 +1,36 @@
+[OrdnanceClass]
+classLabel = "spraybomb"
+shotGeometry = "ioartl00.xsi"
+shotSound = "baz03.wav"
+xplGround = "NULL"
+xplVehicle = "NULL"
+xplBuilding = "NULL"
+rendername = "jaxmtr66.render"
+
+ammoCost = 150
+lifeSpan = 1e30
+shotSpeed = 80.0
+
+damageValue(N) = 0
+damageValue(L) = 0
+damageValue(H) = 0
+damageValue(S) = 0
+damageValue(D) = 0
+damageValue(A) = 0
+
+[SprayBombClass]
+payloadName = "jax66payld"
+
+[Render]
+renderBase = "draw_twirl_trail"
+textureName = "smoke.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "0 31 127 63"
+finishColor = "0 15 63 0"
+startRadius = 0.3
+finishRadius = 1.0
+animateTime = 2.0
+emitDelay = 0.01
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "1.0 1.0 1.0"
+emitLife = 2.0

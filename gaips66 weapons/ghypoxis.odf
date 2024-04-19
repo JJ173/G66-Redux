@@ -1,0 +1,14 @@
+[WeaponClass]
+classLabel = "mortar"
+ordName = "hypoxismtr"
+wpnName = "Hypoxis Mortar"
+fireSound = "ghart00.wav" //"smort01.wav"
+wpnReticle = "gsplint"
+wpnLadder = "gsplint.L0"
+wpnPriority = 6
+wpnCategory = "MORT"
+aiRange = 350
+
+[CannonClass]
+shotDelay = 6.5
+

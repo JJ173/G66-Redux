@@ -1,0 +1,28 @@
+[GameObjectClass]
+baseName = "PatrolUnit"
+
+classLabel = "ivscout66"
+
+unitName = "Patrol"
+
+requireCount = 0
+
+
+/////// weapons ///////////////////
+
+weaponName1 = "gminign66c"	//"gminigun_c"
+weaponName2 = "gminign66c"	//"gminigun_c"
+
+//////////////////////////////////
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+
+[HoverCraftClass]
+
+[Lod1]
+
+[Lod2]

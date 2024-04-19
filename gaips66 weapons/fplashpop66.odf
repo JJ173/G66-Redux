@@ -1,0 +1,23 @@
+[GameObjectClass]
+geometryName = "apmort00.xsi"	//"apmisl00.xsi"
+classLabel = "wpnpower"
+scrapCost = 25
+scrapValue = 0
+maxHealth = 150
+maxAmmo = 0
+unitName = "Lash Missile"
+aiName = "PowerUpProcess"
+
+requireCount = 2
+requireName1 = "fbstro"
+requireName2 = "fbantm"
+
+lightHard1 = "hp_light_1"
+lightName1 = "omnibrown"
+
+[PowerUpClass]
+soundPickup = "pickup01.wav"
+soundReject = "reject.wav"
+
+[WeaponPowerupClass]
+weaponName = "glashpop66c"

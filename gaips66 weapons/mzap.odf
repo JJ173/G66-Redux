@@ -1,0 +1,53 @@
+[OrdnanceClass]
+classLabel = "beam" //"bullet"
+shotGeometry = "NULL"
+
+xplGround = "xzapmngnd"
+xplVehicle = "xzapmncar"
+xplBuilding = "xzapmncar"
+
+renderName = "mzap.render"
+
+ammoCost = 0
+lifeSpan = 240e-6 //240m
+shotSpeed = 1e6
+
+damageValue(N) = 100
+damageValue(L) = 80
+damageValue(H) = 40
+
+damageValue(S) = 80
+damageValue(D) = 100
+damageValue(A) = 40
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 2
+renderName1 = "mzap.core"
+renderName2 = "mzap.bolt"
+
+[Core]
+renderBase = "draw_bolt"
+textureName = "trail2.tga"
+textureBlend = "one one modulate"
+startColor = "255 63 255 2550"
+finishColor = "255 63 255 0"
+startRadius = 0.2
+finishRadius = 0.05
+segmentLength = 0.5
+segmentVariance = "0.2 0.2 0.2"
+animateTime = 0.2
+textureRate = 0.01
+
+[Bolt]
+renderBase = "draw_bolt"
+textureName = "trail2.tga"
+textureBlend = "one one modulate"
+startColor = "255 63 255 127"
+finishColor = "255 63 255 0"
+startRadius = 0.1
+finishRadius = 0.025
+segmentLength = 0.5
+segmentVariance = "1.0 1.0 0.25"
+animateTime = 0.3
+textureRate = 0.01

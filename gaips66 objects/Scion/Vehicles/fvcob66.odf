@@ -1,0 +1,114 @@
+///////
+/////Made by AlphaDragon Of the Dragons of Abaddon Clan
+///http://www.doaclan.cc.st
+//
+///modified by Natty Bumppo for "Route 66" map pack
+//
+[GameObjectClass]
+geometryName = "dvcob_skel.xsi"
+cockpitName = "DVcob_cockpit.xsi"
+geometryscale = 0.75
+classLabel = "wingman"
+scrapValue = 15
+scrapCost = 55
+customCost = 60
+buildTime = 15.0
+customTime = 15.0
+maxHealth = 2800
+maxAmmo = 2700
+addAmmo = 4.0
+addhealth = 0.0
+
+unitName = "Naja"
+aiName = "TankFriend"
+aiName2 = "TankEnemy"
+unitIcon = "icon_dvcob.tga"
+wpnIcon = "wire_dvcob.tga"
+
+heatSignature = 1.5
+imageSignature = 2.5
+radarSignature = 0.4
+
+isAssault = 0
+
+armorClass = N
+
+/////// weapons ///////////////////
+
+weaponMask = 00011
+
+weaponHard1 = "HP_CANNON_1"
+weaponName1 = "gsplasma_a"
+weaponAssault1 = 1
+weaponHard2 = "HP_CANNON_2"
+weaponName2 = "gsplasma_a"
+weaponAssault2 = 1
+weaponHard3 = "HP_GUN_1"
+weaponName3 = "giongn_c"
+weaponAssault3 = 0
+weaponHard4 = "HP_GUN_2"
+weaponName4 = "giongn_c"
+weaponAssault4 = 0
+weaponHard5 = "HP_SHIELD"
+weaponName5 = ""
+weaponAssault5 = 0
+////////////////////////////////////
+
+[CraftClass]
+rangeScan = 275.0f
+periodScan = 5.0f
+velocJam = 3.0f
+engageRange = 120
+
+braccelFactor = 0.04f
+velFactor = 0.2f
+steerFactor = 1.5f
+omegaFactor = 0.24f
+strafeFactor = 0.2f
+
+avoidSpeed = 5;
+topSpeed = 50;
+
+selectWaitMsg = "Dvcob05.wav"
+selectAttackMsg = "Dvcob02.wav"
+selectFollowMsg = "Dvcob04.wav"
+selectGoMsg = "Dvcob04.wav"
+selectOtherMsg = "Dvcob32.wav"
+holdMsg = "Dvcob12.wav"
+
+goMsg = "Dvcob04.wav"
+attackMsg = "Dvcob06.wav"
+followMeMsg = "Dvcob08.wav"
+followMsg = "Dvcob03.wav"
+repairMsg = "Dvcob09.wav"
+reloadMsg = "Dvcob09.wav"
+rescueMsg = "Dvcob10.wav"
+recycleMsg = "nulls.wav"
+otherMsg = "Dvcob05.wav" 
+holdMsg = "Dvcob12.wav"
+user1Msg = ""  
+killedMsg = "Dvcob07.wav"
+diedMsg = ""
+
+[HoverCraftClass]
+velocForward = 50.0
+velocReverse = 22.0
+velocStrafe = 18.0
+accelThrust = 28.0
+accelDragStop = 9.0
+accelJump = 18.0
+setAltitude = 0.7
+
+alphaTrack = 21.0
+alphaDamp = 8.0
+
+pitchPitch = 0.22
+pitchThrust = 0.1
+
+rollStrafe = 0.06
+omegaSpin = 4.5
+omegaTurn = 3.5
+alphaSteer = 4.3
+rollSteer = 0.08 //rolls while steering []
+
+soundThrust = "ssent01c.wav"

@@ -1,0 +1,46 @@
+[Size]
+MetersPerGrid = 8.0
+HeightGranularity = 0.1
+MinX = -2048.0
+MinZ = -2048.0
+Width = 4096.0
+Depth = 4096.0
+Height = 100
+Tile = 1
+Color = "10 32 69 255"
+
+[NormalView]
+
+FogColor="0 0 0" //"16 40 153 255"
+FogStart=150
+FogEnd=350
+VisibilityRange=375
+
+[World]
+MusicTrack1=2
+MusicTrack2=4
+MusicTrack3=5
+
+[Light]
+SunPeriod = 24.0
+SunAngle = 0.0
+SunColor = "240 240 240"
+AmbientColor = "255 255 255 255"
+
+[Sky]
+SkyType= 0
+SkyHeight = 300
+SkyTexture = darksky.tga
+SkyColor = "0 5 17 255"
+SunTexture = sun.0
+SunColor = "0 0 0 0"
+
+[Water]
+WaterTexture1 = "water.tga"
+BumpTexture1 = "bump.tga"
+WaterDiffuse1 = "24 32 16 127"
+BumpDiffuse1 = "127 127 127 127"
+
+[Texture]
+TileTexture1 = "dark2.tga"
+TileTexture2 = "rend6.tga"

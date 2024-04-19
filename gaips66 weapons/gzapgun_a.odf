@@ -1,0 +1,15 @@
+[WeaponClass]
+classLabel = "machinegun"
+altName = "gzapgun_c"
+ordName = "zapgun_a"
+wpnName = "Zap Gun"
+fireSound = "arc02.wav" //"gbolt00.wav"
+wpnReticle = "garc_a"
+wpnCategory = "GUN"
+isAssault = 1
+aiRange = 140
+
+[CannonClass]
+shotDelay = 1.25
+shotVariance = 0.05
+shotAlternate = 1

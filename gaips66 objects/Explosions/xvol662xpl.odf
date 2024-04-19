@@ -1,0 +1,37 @@
+// =====================
+// LAVA SPRAY EXPLOSION
+// =====================
+
+[ExplosionClass]
+classLabel = "explosion"
+
+particleTypes = 1
+particleClass1 = "xvol662xpl.core"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+
+explSound = "xemt1.wav"
+
+damageRadius = 25.0
+
+damageValue(N) = 4000
+damageValue(L) = 3200
+damageValue(H) = 1600
+
+damageValue(S) = 3200
+damageValue(D) = 1600
+damageValue(A) = 5000
+
+[Core]
+simulateBase = "sim_null"
+lifeTime = 1.0
+renderBase = "draw_sphere"
+textureName = "vsmoke.tga"
+textureBlend = "one one modulate"
+startColor = "255 127 0 255"
+finishColor = "255 0 0 0"
+startRadius = 10.0
+finishRadius = 200.0
+animateTime = 1.0
+latitudeBands = 8
+longitudeSegments = 16

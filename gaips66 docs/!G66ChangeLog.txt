@@ -1,0 +1,326 @@
+- ###### build 1:
+- added MapURL parameter to all INF files
+- created bzshell_multi_g66.cfg and bzshell_multi_client_g66.cfg files for G66 multiplayer extra options
+- added svar7 = "g66" to all INF files to activate G66 extra options mp shell panel
+- replaced previous G66 ivar parameters in INF files with ivar30 through ivar46
+- removed old G66 option panel code
+- added code to get G66 options from new mp extra options shell panel
+- added maxTries and maxTimes parameters to AIP plans
+- modified Scion AIP plans to accomodate Mauler prerequisite changes
+
+- ###### build 2:
+- restored svar5 for custom recycler
+- revised shell extra options
+- removed AIP plan conditions for some plans using maxTimes
+- eliminated ivar40, relying on ivar39 alone for earthquakes
+- added array for all random numbers, initialized during setup
+- revised AIP files for new unit prerequisites
+
+- ###### build 3:
+- track human team extractors and towers
+- dispatch units to attack specific targets at AIP switch
+- after siege or assault, switch to random early game AIP
+- support ivar38 for initial early game AIP selection (for testing purposes)
+- replaced UpdateGameTime function per NM
+
+- ###### build 4:
+- revised early game AIP files for defensive, neutral, and aggressive strategies
+- revised late game, anti-assault, anti-siege, and endgame AIP files
+- dropped blitz AIP
+- bias early game AIP selection according to difficulty level
+- switch to random early game AIP after siege and assault
+- switch to late game AIP when service, armory, and tech buildings complete
+- simplified patrol and assault leader handling
+- simplified attack path selection
+
+- ###### build 5:
+- revised IsOdf usage for BZ2 v13b43 per NM
+- revised weapon upgrade conditions
+- revised patrol unit handling for patrol route switching
+- build assault support units in AIP, revised support unit dispatching
+- added svar21 for default scrap pool
+- added randomized scrap pool locations
+- added randomized scrap fields
+- added randomized jak herds
+
+- ###### build 6:
+- bumped version to 2.0
+- build service units in DLL, revised service unit dispatching
+- corrected several support unit tracking and dispatchbugs
+- increased scrap feed [cpu not fierce enough otherwise]
+- corrected AIP early game selection bug that could cause invalid AIP selection
+- revised Scion subversion code to allow multiple subverters
+- added Avatar's Fury Scout as Fury Tank support
+- created Pulse Cannon for Puma
+- applied minor revisions to set piece and reinforcement code
+- corrected Hypoxis Mortar bug that caused it to fall short or not fire at all
+- modified extractors for stronger upgraded extractor
+- added randomized mine fields
+- added computer team advanced weapons option
+- corrected bug in HEAT Rocket explosion ODF files
+- [blocked Fury set piece placement until premature attack bug resolved]
+- [blocked some ISDF rocket tank hold plans until AI freeze problem resolved]
+  ***post-release fixes***
+- corrected ODF name problems in gaips66iil.aip and gaips66ifl.aip that caused AV's
+- added missing ivxnat.msh file to bindata
+
+- ###### build 7:
+- applied further revisions to AIP files for strength and speed
+- added randomized rhino placement
+- changed aip logic to avoid switching to early game if late game switch coming anyway
+- revised ODF identification logic
+- changed several ODF variants to avoid confusion with special types
+- added periodic surprise attacks
+  ***post-release fixes***
+- applied various DLL changes to fix probable bugs and improve performance
+- added DLL-generated anti-assault attacks
+- revised "gtow" and "gspir" turret placement
+
+- ###### build 8:
+- corrected turret overpopulation at hold points
+- created Starshower weapon for Maulers
+- modified Siege Gun ODF files to enhance rendering, reduce cost
+- give Warriors Xenon Stream weapon upgrade
+- reduced mines signatures for mine fields
+- corrected race identification bug for some startup settings
+- modified gun tower and gun spire weapons to reduce damage delivered about 40%
+- [Fury and FuryTank set piece placed remain blocked for debugging]
+- [Scion subversion feature blocked for debugging]
+
+- ###### build 9:
+- send set-piece furies and fury tanks to patrol paths to avoid premature
+  idle unit dispatch by BZ2 v1.3 programming
+- add support for jammer startup set-pieces
+- add power-up crate drops
+- scav limitation bug correction [per NM code]
+- compare odfname directly in addobject and deleteobject to speed things up
+- add Laser Pods as computer team set pieces
+- add light effects to Heat Rocket, Omega Burst, Siege Cannon weapons
+- add logic to force client to wait for host to initialize data variables
+  before placing startup objects
+- add ivars to turn off random startup objects (INF file only)
+- make sure complete client log is written, even if they start late
+
+- ###### build 10:
+- use game time counter to select random number to help avoid client synch problems
+- build patroling furies at siege and endgame onset instead of reinforcement interval
+- prevent multiple fury spawns if previous fury still exists
+- dispatch every third patroler to attack during siege and endgame
+- set ivar47 thru ivar49 "On" for randomized startup objects
+
+- ###### build 11/12:
+- corrected problem in delete object code that caused some deletions to be skipped
+- added unit array cleanup code to run periodically
+- decreased light tank health for better balance with other units
+- added light walker with a corresponding weapon upgrade
+- decreased gun tower health by 10%
+- decreased pulse cannon (initial Puma weapon) fire rate for better balance
+- added upgradeable ISDF power generator
+- corrected several problems in AIP files to avoid AI freeze
+- replaced light tanks with improved models (thanks Lizard!)
+- corrected DLL laser pod patrol path omissions
+- build spare constructors at end-game AIP switch
+- added "coup de gras" AIP file, used when humans lose recycler
+- revised AIP files to take advantage of new MinTtlScrap and MaxTtlScrap
+  AIP plan attributes, and to add IdleDispatch AIP options
+- modified set-piece rocket towers to use HEAT rocket for greater range
+- dispatch walker assault groups to attack base buildings instead of 
+  sending them to an attack path
+- assign walkers to support the siege tank
+- add strong explosion to bomber unit
+- activated subversion processing for Scion
+- break assault groups at human team base, send support units to directed attacks
+- modified scrap boost logic to improve Scion pace
+- restricted assignment of Fury Scout support units to Fury Tanks
+- created Archer variant to correct engage range problems
+- corrected Hypoxis mortar for AI range problem
+
+- ------ sub-build 12a:
+- disabled Scion rocket pod AIP build plans to avoid overbuild
+- added MBT attack plans to early-game and anti-assault AIP files
+- added Commando's unit INF files
+- applied Commando's config file corrections for sniper respawn
+- decreased scrap boost interval to increase CPU team pace
+- modified subversion conditions to convert gun towers only once in five tries
+
+- ------ sub-build 12b:
+- corrected rocket pod ODF name misspelling in some Scion AIP files
+- further correction applied to host shell configuration file to correctly set
+  sniper respawn when the difficulty level is changed
+- altered early-game AIP files to limit number of attacks so the last critical 
+  building's construction is not overly delayed
+- disabled third rocket tower construction in early-game AIP's to help get the 
+  CPU team through to the last building more quickly
+- added a collectpool plan near middle of late-game AIP to improve pool-grabbing
+- added condition to switch to coup-de-gras during late-game if human recycler gone
+
+- ###### build 13:
+- enabled earthquakes (ivar39), damage key buildings during quake
+- added geysers that start when earthquakes start
+- added volcano flares that start when earthquakes start
+- added smoke flares that start when earthquakes start
+- vary assault group break distance by difficulty level
+- added revised weapons for CPU unit upgrades
+- give startup vehicles revised weapons based on difficulty level
+- if human team does not have an armory, give units revised weapons
+- added AttackAnything=true to most AIP Attacker plans
+- improved randomization routine to better vary all random effects
+- added MaxCurPower conditions to ISDF AIP files to maintain positive power level
+- revised several Gun weapons for improved effects
+- added several custom weapons including Flux Gun, Harpoon, QTEPS, and Rail Gun
+- updated service trucks and healers with latest patch settings, modified for G66 
+  with 25% wider range and to repair other service units
+- give subverted units a new weapon, mostly custom weapons
+
+- ###### build 14:
+- replace Scion Rocket Pod set pieces with Scion Rocket Spire
+- vary Scion shielding depending on build tree status
+- apply damage to tech center, antenna mound, extractors, and gun towers during earthquake
+- add gaips66 misc folder, include earthquake wave file
+- add Scion Rocket Spire to Builder construction list
+- add Scion Rocket Spire build and attack plans to AIP files
+- dispatch patrol units to patrol1 during siege and endgame
+- correct Armory and Stronghold gun lists for revised weapons
+- add new light tank icons
+- udpate various craft for revised weapons
+- change set-piece rocket tower names to correct AI support assignment bug
+- revise Rocket Pod as Mortar Pod, dispatch to hold points with support
+- add new Gorgon unit to Scion AIP and production units
+- drop Advanced Weapons option (will be used automatically depending on difficulty level)
+- add Geysers On/Off option to shell configuration
+- add Gorgon to surprise attacks
+- add support vehicles to surprise attacks
+- disabled all AIP Hold plans to avoid known problem
+
+- ###### build 15:
+- altered build requirements for Puma, DragoonRocket, Tower, Rocket Spire 
+  and Fury to accomodate revised AIP strategies
+- revised AIP switch logic to include middle game AIP files
+- corrected Actinic Salvo build requirements for Scion build requirements
+- base CPU shield and weapon upgrades on build tree instead of mere presence of armory
+- adjusted Venom build requirements to omit Overseer Array
+- adjusted HEAT Rocket build requirements to include Training Center
+- added weapon upgrades for turrets
+- added new Gorgon Medusa weapon upgrade
+- dispatch turrets and other units to defend newly deployed extractors
+- did lots of DLL code streamlining, this should help improve its performance
+- increased number of turretEnemy# path points supported to 9
+- increased number of available scrap fields (scrfield#) to 16
+- defend to constructors with light craft
+- added modified force field weapon upgrade to Thunderbolt, Avenger, and Sabre
+- added modified ISDF scout containing modified minigun
+- revised all AIP files to increase the number of early-game strategies to four, 
+  add two middle-game strategies, and update all other strategies
+- ### subbuild a:
+- corrected vehicle name typos in scion/scion AIP files
+- ### subbuild b:
+- corrected ivrckt typo in isdf late-game AIP files
+- set startup scav group key to F7 instead of F8
+- ### subbuild c:
+- set startup scav group key to F5 instead of F7
+- ### subbuild d:
+- added missing ivrckt ODF file
+- ### subbuild e:
+- applied corrections to factory INF files [Commando]
+- added new laser pod and Puma light tank INF files [Commando]
+- modified factories to build bomber variants to prevent building two bombers
+- corrected ISDF AIP files to prevent CPU building two armories
+- corrected ISDF AIP files to make sure command bunkers are built before rocket towers
+- updated map conversion documentation
+
+- ###### build 16:
+- add parameters needPilot=0 and addPilot=0 to Fury Tank odfs to eliminate
+  the "missing xspilo" error written to the battlezone log
+- changed default Gorgon weapon to Xenon Stream
+- increased Gorgon addAmmo and addHealth
+- improved Scourge Missile target tracking, speed, and damage
+- disabled CalcCliffs statements in mpinstant66.dll
+- changed Laser Pod AI from Scout to Tank
+- updated MPI DLL source with latest BZ2 v1.3 changes:
+  - improved starting vehicle setup
+  - improved extra vehicle setup
+  - support for ivar26, first AIP switch time, and ivar27, AIP 0 only
+  - improved siege phase detection
+- updated dll to default to G66 AIP filename instead of stock13 if svar3 not found
+- updated unit odf files to latest BZ2 1.3 modifications
+- add support for lava geysers
+- add dropoff points for CPU recycler and factory to maps
+- optimized DLL for performance instead of size
+- replace "gmflar00" false object for geysers with Avatar's "bz1gysr", thanks Av!
+- corrected "ibcons66c" to "ivcons66c" in iie and ife AIP files, thanks Red Devil!
+- always provide at least one starting turret no matter starting force setting
+- replace "gmflar00" false object with "bz1gysr" mesh
+
+- ###### build 17:
+- set volshot662.odf shotGeometry to NULL
+- replace "gmflar00" false object in hypoxis mortar with Avatar's "bz1gysr"
+- add coup de gras gamestate to prevent repetitive set aip for gaips66##c.aip
+- build minimum set pieces on Easy, previously didn't do this
+- add Forgotten Enemies plants (cacti)
+- add Avatar's Snake Tower
+
+- ###### build 18:
+- correct Rave Cannon explosion ODF's to cure missing puff base class error
+- replaced shell config files with new, multi-page version by Commando
+- add support for up to nine surprise attack entry path points, up from three
+- corrected bug that caused cpu reinforcements to enter only at one path point
+- corrected bug that might cause repetitive switching to coup-de-gras AIP
+- reinstated ivar45, Advanced CPU Weapons
+  [Advanced CPU Weapons include Actinic Salvo, Star Shower, QTEPS, Xenon Stream,
+  Hypoxis Mortar, Jax Mortar, Omega Burst, Flux Gun, HEAT Rocket, Helion Cannon,
+  and Hellbore Gun. Insane weapons, Fountain and Rave Cannon, are used only 
+  if the difficulty level is "Insane" and Advanced CPU Weapons is On.]
+- add ivar50 and shell option to turn Surprise Attacks On/Off
+- add ivar51 and shell option to turn "Rogue" Attacks On/Off
+  [Scion Rogue Attack includes Titan, Fury Tank, or Gorgon with subversion beam;
+  ISDF Rogue Attack is Siege Tank with Siege Cannon.]
+- replace wire_fvltank2.tga to prevent error on fvltank morph
+- add Furies to surprise and assault contradiction attacks
+- reinstate CPU starting reinforcement turrets
+- reinstate human starting reinforcement tanks
+- add Insane surprise swarm attack
+- disabled Lava Boil geysers until clanking sound remedied
+
+- ###### build 19:
+- applied various DLL performance improvements and bug corrections
+- corrected starting reinforcements so they have G66 custom weapons
+- added support for 1-9 patrol paths, no patrol paths also covered
+- added support for 1-9 attack paths, no attack paths also covered
+- added support for 1-9 mbtattack paths
+  [mbtattack path still valid, used if no mbtattack# paths]
+- increased Gorgon self-healing
+- destroyed sniped scouts that might have Fountain
+- reduced damage delivered by upgraded power generater explosion
+- updated shell config files provided by Commando
+- added vehicle selection files provided by Commando
+- increased velocity and damage for Rail Gun
+- decreased damage delivered by Omega Burst
+- decreased damage delivered by Helion Cannon
+- added uber gun assault tower variant to replace wall towers
+- added service units to the factory build menus
+  [the human team factory is replaced on the fly when the recycler is destroyed]
+- added flying Fury to Forge and Kiln build menus
+- updated end-game AIP to build scavs, constructors and service units
+- modified middle- and late-game AIPs to replace bomber more quickly
+- added anti-aircraft TRT and Beam Archer hold plans to AIP
+- attack base buildings with bomber in siege, anti-assault, and end-game
+- added support for respawn path points, format: rspX#_nnn_odf1[_odf2];
+  see the !G66Doc.txt file for details on how to use them
+- found error in relative custom weapon strength calculations, applied 
+  corrections to Helion, Omega Burst, Rave, and Venom weapons
+- added CPU Tech Path option to shell config page 3 -- this will be most
+  useful to map developers for testing each of the four possible
+  CPU strategies
+- correct ISDF middle game AIP files to avoid attempting to build Pumas
+  before the Service Bay -- this will prevent CPU "sleeping"
+- added support for "ubergun#" path points (see !G66Doc.txt for more info)
+- corrected weapon upgrade bug that might produce unpredictable results
+  for upgrades dependent on the tech center or overseer array, or the 
+  armory or stronghold
+- updated Titan weapon upgrade conditions so they don't always get the 
+  Rave Cannon at the Insane level
+- increased chance of gun towers getting subverted by Scion Subversion
+  Beam from 1 in 4 to 1 in 3
+- added rocket towers to Scion Subversion candidates
+- added Scion rocket spire to target selection list 
+- added force field and proxmine upgrades to CPU mortar bikes

@@ -1,0 +1,60 @@
+[GameObjectClass]
+geometryName = "ibfactGH.xsi"
+
+classLabel = "ibfact66m"
+
+/////// PROVIDES ///////////////////
+
+provideCount = 4
+provideName1 = "ibfact"
+provideName2 = "ibfactGHG66"
+provideName3 = "ibfact66m"
+provideName4 = "VIRTUAL_CLASS_FACTORY"
+
+////////////////////////////////////
+
+[PoweredBuildingClass]
+
+[BuildingClass]
+
+[FactoryClass]
+BuildSparkConfig = "sparker"
+buildItem5 = "ivatank"
+buildItem8 = "ivapcGH"
+buildItem9 = "ivbomb66m"
+buildItem10 = "ivrrecy"
+
+[BuildGroup1]
+buildLabel = "Mortar Bikes"
+buildItem1 = "ivmbike"
+buildItem2 = "ivmbikeGHG66"
+
+[BuildGroup2]
+buildLabel = "Missile Scouts"
+buildItem1 = "ivmisl66mGH"
+buildItem2 = "ivmislGHG66"
+
+[BuildGroup3]
+buildLabel = "Tanks"
+buildItem1 = "ivltank66m"
+buildItem2 = "ivtank66m"
+buildItem3 = "ivtankGHG66"
+
+[BuildGroup4]
+buildLabel = "Rocket Tanks"
+buildItem1 = "ivrckt"
+buildItem2 = "ivrcktGHG66"
+
+[BuildGroup6]
+buildLabel = "Hover Assaults"
+buildItem1 = "ivphmislGHG66"
+buildItem2 = "ivphtankGHG66"
+buildItem3 = "ivphtankGHG662"
+buildItem4 = "ivphtankGHG663"
+
+[BuildGroup7]
+buildLabel = "Walkers"
+buildItem1 = "ivltwalk"
+buildItem2 = "ivwalk"
+
+[Lod1]

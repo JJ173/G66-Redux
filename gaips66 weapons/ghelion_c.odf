@@ -1,0 +1,30 @@
+[WeaponClass]
+classLabel = "cannon"
+altName = "ghelion_a"
+ordName = "helion_c"
+wpnName = "Helion Gun"
+fireSound = "flash01.wav"
+wpnReticle = "gflashgn"
+wpnCategory = "CANN"
+isAssault = 0
+aiRange = 120
+flashName = "ghelion_c.flash"
+
+[CannonClass]
+shotDelay =  1.5
+salvoCount = 15
+salvoDelay = 0.1
+shotVariance = 0.0
+
+[Flash]
+simulateBase = "sim_null"
+lifeTime = 0.2
+renderBase = "draw_light"
+startColor = "255 215 0 255"
+finishColor = "255 215 0 0"
+startRadius = 25.0
+finishRadius = 30.0
+animateTime = 0.2
+attenuateConstant = 0.0
+attenuateLinear = 0.0
+attenuateQuadratic = 0.0

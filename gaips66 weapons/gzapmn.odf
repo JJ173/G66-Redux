@@ -1,0 +1,11 @@
+[WeaponClass]
+classLabel = "dispenser"
+wpnName = "Zap Mine"
+fireSound = "mmine01.wav"
+wpnReticle = "gproxmin"
+wpnCategory = "SPEC"
+aiRange = 120
+
+[DispenserClass]
+shotDelay = 5.0
+objectClass = "zapmin2"

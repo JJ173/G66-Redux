@@ -1,0 +1,20 @@
+[GameObjectClass]
+classLabel = "xvsat"
+
+maxAmmo = 3000
+
+unitName = "Fury Tank"
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+CanAIPForceIdle = false
+
+[HoverCraftClass]

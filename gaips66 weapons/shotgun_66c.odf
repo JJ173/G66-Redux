@@ -1,0 +1,27 @@
+[OrdnanceClass]
+classLabel = "bullet"
+shotGeometry = NULL
+xplGround = "xbulgnd"
+xplVehicle = "xbulcar"
+xplBuilding = "xbulbld"
+renderName = "shotgun_66c.render"
+
+ammoCost = 1
+lifeSpan = 1.0
+shotSpeed = 150.0
+damageValue(N) = 25
+damageValue(L) = 20
+damageValue(H) = 15
+damageValue(S) = 20
+damageValue(D) = 15
+damageValue(A) = 25
+
+[Render]
+renderBase = "draw_twirl"
+textureName = "lightflare.tga"
+textureBlend = "one one modulate"
+startColor = "255 127 0 127"
+finishColor = "255 127 0 127"
+startRadius = 0.1
+finishRadius = 0.1
+animateTime = 1.0

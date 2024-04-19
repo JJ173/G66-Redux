@@ -1,0 +1,21 @@
+[GameObjectClass]
+geometryName = "bz1gysr.xsi"
+classLabel = "flare"
+scrapCost = 0
+scrapValue = 0
+maxHealth = 9999
+maxAmmo = 999
+unitName = "Lava Spray"
+heatSignature = 100.0
+explosionName = "xvol662xpl"
+
+[MineClass]
+lifeSpan = 19.0
+
+[FlareMineClass]
+payloadName = "volshot662"
+fireSound = "gflas00.wav"
+triggerDelay = 1.0
+shotDelay = 0.1
+shotVariance = 1.0
+

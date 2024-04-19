@@ -1,0 +1,69 @@
+// EP-AG QTEPS Assault Ordnance Definition
+// Original Design for "Route 66" Mod by Natty Bumppo
+
+[OrdnanceClass]
+classLabel = "beam"
+shotGeometry = "NULL"
+xplGround = "xqteps66g"
+xplVehicle = "xqteps66v"
+xplBuilding = "xqteps66v"
+xplExpire = "xqteps66e"
+renderName = "qteps66a.render"
+
+ammoCost = 28
+lifeSpan = 190e-3	//190m
+shotSpeed = 1e3
+
+damageValue(N) = 350
+damageValue(L) = 300
+damageValue(H) = 250
+
+damageValue(S) = 350
+damageValue(D) = 350
+damageValue(A) = 350
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 3
+renderName1 = "qteps66a.sparkle1"
+renderName2 = "qteps66a.sparkle2"
+renderName3 = "qteps66a.sparkle3"
+
+[Sparkle1]
+renderBase = "draw_twirl_trail"
+textureName = "flare.tga"
+textureblend = "one one modulate"
+startColor = "0 255 255 255"
+finishColor = "0 255 63 0"
+startRadius = 0.15
+finishRadius = 0.01
+animateTime = 1.0
+emitDelay = 0.015
+emitVariance = "2.2 2.2 2.2"
+emitLife = 1.3
+
+[Sparkle2]
+renderBase = "draw_twirl_trail"
+textureName = "plasma.tga"
+textureblend = "one one modulate"
+startColor = "255 0 255 255"
+finishColor = "63 63 255 0"
+startRadius = 0.1
+finishRadius = 0.01
+animateTime = 1.0
+emitDelay = 0.005
+emitVariance = "1.5 1.5 1.5"
+emitLife = 1.1
+
+[Sparkle3]
+renderBase = "draw_twirl_trail"
+textureName = "lightflare.tga"
+textureblend = "one one modulate"
+startColor = "255 255 0 255"
+finishColor = "255 255 63 0"
+startRadius = 0.1
+finishRadius = 0.01
+animateTime = 1.0
+emitDelay = 0.005
+emitVariance = "1.5 1.5 1.5"
+emitLife = 1.1

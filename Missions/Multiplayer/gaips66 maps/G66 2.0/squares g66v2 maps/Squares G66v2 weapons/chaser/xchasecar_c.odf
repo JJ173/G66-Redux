@@ -1,0 +1,107 @@
+// ===================
+// CHASER MISSILE VEHICLE HIT
+// ===================
+
+[ExplosionClass]
+classLabel = "explosion"
+
+particleTypes = 5
+particleClass1 = "xchasecar_c.core"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+
+particleClass2 = "xchasecar_c.light"
+particleCount2 = 1
+particleVeloc2 = "0.0 0.0 0.0"
+
+particleClass3 = "xchasecar_c.Shock"
+particleCount3 = 1
+particleVeloc3 = "0.0 0.0 0.0"
+
+particleClass4 = "xchasecar_c.trail"
+particleCount4 = 1
+particleVeloc4 = "25.0 45.0 25.0"
+particleBias4 = "0.0 0.0 0.0"
+
+particleClass5 = "xchasecar_c.trail2"
+particleCount5 = 2
+particleVeloc5 = "30.0 50.0 30.0"
+
+explSound = "xsv2.wav"
+
+damageRadius = 6.0
+
+damageValue(N) = 80 // none
+damageValue(L) = 50 // light
+damageValue(H) = 35 // heavy
+
+damageValue(S) = 50 // standard
+damageValue(D) = 80 // deflection
+damageValue(A) = 35 // absorbtion
+
+[Light]
+simulateBase = "sim_null"
+lifeTime = 0.5
+renderBase = "draw_light"
+startColor = "255 255 63 255"
+finishColor = "255 255 63 2"
+startRadius = 1.0
+finishRadius = 0.5
+animateTime = 0.5
+//attenuateConstant = 0.0
+//attenuateLinear = 1.0
+//attenuateQuadratic = 0.0
+
+[Core]
+simulateBase = "sim_null"
+lifeTime = 1.0
+renderBase = "draw_twirl"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 63 255"
+finishColor = "255 255 63 2"
+startRadius = 0.1
+finishRadius = 2.5
+animateTime = 1.0
+
+[Shock]
+simulateBase = "sim_null"
+lifeTime = 0.3
+renderBase = "draw_sphere"
+textureName = "vsmoke.tga"
+textureBlend = "one one modulate"
+startColor = "255 0 0 255"
+finishColor = "0 0 0 0"
+startRadius = 0.1
+finishRadius = 7.0
+animateTime = 0.2
+latitudeBands = 8
+longitudeSegments = 16
+
+[trail]
+simulateBase = "sim_ember"
+lifeTime = 1.0
+renderBase = "draw_trail"
+textureBlend = "one one modulate"
+startColor = "255 127 0 130"
+finishColor = "255 255 255 0"
+startRadius = 0.1
+finishRadius = 0.0
+trailTime = 1.0
+segmentTime = 0.5
+
+[trail2]
+simulateBase = "sim_ember"
+lifeTime = 1.0
+renderBase = "draw_trail"
+textureName = "trail2.tga"
+textureBlend = "one one modulate"
+textureRate = 0.1
+startColor = "255 0 0 255"
+finishColor = "255 255 255 0"
+startRadius = 0.1  /0.3
+finishRadius = 0.4 //1.0
+segmentTime = 0.8 // 1.0
+animateTime = 2.0
+trailTime = 0.8
+segmentTime = 0.5

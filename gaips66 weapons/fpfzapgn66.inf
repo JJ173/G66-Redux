@@ -1,0 +1,8 @@
+EB-AG ZAP GUN
+Electric bolt autogun.
+-- Combat --
+Range: 100m  Rate: 100b/m
+Ammo: Low   Damage: Low
+-- Assault --
+Range: 120m  Rate: 50b/m
+Ammo: Low   Damage: Moderate

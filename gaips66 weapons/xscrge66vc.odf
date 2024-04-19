@@ -1,0 +1,84 @@
+// ===================
+// SCOURGE MISSILE VEHICLE HIT
+// ===================
+
+[ExplosionClass]
+classLabel = "explosion"
+
+particleTypes = 3
+
+particleClass1 = "xscrge66vc.core"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+
+particleClass2 = "xscrge66vc.light"
+particleCount2 = 1
+particleVeloc2 = "0.0 0.0 0.0"
+
+particleClass3 = "xscrge66vc.Shock"
+particleCount3 = 1
+particleVeloc3 = "0.0 0.0 0.0"
+
+explSound = "xsv2.wav"
+
+damageRadius = 5.0
+
+damageValue(N) = 48	//40	// none
+damageValue(L) = 19	//16	// light
+damageValue(H) = 5	//4	// heavy
+
+damageValue(S) = 19	//16	// Stasis
+damageValue(D) = 48	//40	// Deflection
+damageValue(A) = 5	//4	// Absorption
+
+[Light]
+simulateBase = "sim_null"
+lifeTime = 0.5
+renderBase = "draw_light"
+startColor = "63 125 63 765"
+finishColor = "0 255 0 0"
+startRadius = 1.0
+finishRadius = 0.5
+animateTime = 0.5
+attenuateConstant = 0.0
+attenuateLinear = 0.0
+attenuateQuadratic = 0.0
+
+[Core]
+simulateBase = "sim_null"
+lifeTime = 1.0
+renderBase = "draw_twirl"
+textureName = "flame.tga"
+textureBlend = "one one modulate"
+startColor = "63 255 63 255"
+finishColor = "0 255 0 0"
+startRadius = 0.1
+finishRadius = 1.5
+animateTime = 1.0
+
+[Shock]
+simulateBase = "sim_null"
+lifeTime = 0.2
+renderBase = "draw_sphere"
+textureName = "vsmoke.tga"
+textureBlend = "one one modulate"
+startColor = "127 255 127 128"
+finishColor = "31 255 31 50"
+startRadius = 0.1
+finishRadius = 2.0
+animateTime = 0.2
+latitudeBands = 8
+longitudeSegments = 16
+
+[Spark]
+simulateBase = "sim_ember"
+lifeTime = 1.0
+renderBase = "draw_twirl"
+textureName = "spark.tga"
+textureBlend = "one one modulate"
+startColor = "0 255 0 255"
+finishColor = "0 255 0 0"
+startRadius = 0.1
+finishRadius = 0.05
+animateTime = 1.5
+rotationRate = 20.0

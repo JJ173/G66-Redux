@@ -1,0 +1,14 @@
+[WeaponClass]
+classLabel = "machinegun"
+altName = "gflamer66_a"
+ordName = "flame_c"
+wpnName = "Flamethrower"
+fireSound = "gflas00.wav"
+wpnReticle = "gminigun"
+wpnCategory = "CANN"
+isAssault = 0
+aiRange = 150
+
+[CannonClass]
+shotDelay = 0.02
+

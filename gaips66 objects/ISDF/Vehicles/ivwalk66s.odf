@@ -1,0 +1,26 @@
+[GameObjectClass]
+classLabel = "ivwalk66"
+
+unitName = "Attila"
+
+provideCount = 5
+provideName2 = "ivwalk66s"
+provideName3 = "assault"
+provideName4 = "DefendUnit"
+provideName5 = "HWalker"
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 50
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+
+// Angles are in degress
+[WalkerClass]
+attackSpeed = 15
+

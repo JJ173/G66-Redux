@@ -1,0 +1,70 @@
+// EBC Zap Gun Combat Ordnance Definition
+// Revision for "Route 66" Mod by Natty Bumppo
+
+[OrdnanceClass]
+classLabel = "beam"
+shotGeometry = "NULL"
+
+xplGround = "xzapgn66g"
+xplVehicle = "xzapgn66v"
+xplBuilding = "xzapgn66v"
+
+renderName = "zapgun66c.render"
+
+ammoCost = 5
+lifeSpan = 100e-6
+shotSpeed = 1e6
+
+damageValue(N) = 48
+damageValue(L) = 38
+damageValue(H) = 28
+
+damageValue(S) = 38
+damageValue(D) = 48
+damageValue(A) = 28
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 3
+renderName1 = "zapgun66c.core"
+renderName2 = "zapgun66c.bolt"
+renderName3 = "zapgun66c.sparkle"
+
+[Core]
+renderBase = "draw_bolt"
+textureName = "trail2.tga"
+textureBlend = "one one modulate"
+startColor = "255 63 255 255"
+finishColor = "255 63 255 0"
+startRadius = 0.2
+finishRadius = 0.05
+segmentLength = 0.5
+segmentVariance = "0.2 0.2 0.2"
+animateTime = 0.2
+textureRate = 0.01
+
+[Bolt]
+renderBase = "draw_bolt"
+textureName = "trail2.tga"
+textureBlend = "one one modulate"
+startColor = "255 63 255 255"
+finishColor = "255 63 255 0"
+startRadius = 0.1
+finishRadius = 0.025
+segmentLength = 0.5
+segmentVariance = "1.0 1.0 0.25"
+animateTime = 0.3
+textureRate = 0.01
+
+[Sparkle]
+renderBase = "draw_twirl_trail"
+textureName = "spark.tga"
+textureblend = "one one modulate"
+startColor = "255 63 255 255"
+finishColor = "255 63 255 127"
+startRadius = 0.15
+finishRadius = 0.015
+animateTime = 1.0
+emitDelay = 0.002
+emitVariance = "2.0 2.0 2.0"
+emitLife = 1.3

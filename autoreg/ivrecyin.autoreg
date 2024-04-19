@@ -1,0 +1,8 @@
+[RecyclerListMPI]
+ODFName = "ivrecyin"
+Description = "MPI-only: Insane Variant, no TTB"
+
+[IAHumanRecyclerList]
+ODFName = "ivrecyin"
+Description = "Insane Variant"
+

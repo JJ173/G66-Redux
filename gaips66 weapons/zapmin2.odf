@@ -1,0 +1,24 @@
+[GameObjectClass]
+geometryName = "gmbolt00.x"
+classLabel = "weaponmine"
+scrapCost = 0
+scrapValue = 0
+maxHealth = 150
+maxAmmo = 500
+unitName = "Zap Mine"
+canDetect = 0 
+canInteract = 0
+canSelect = false
+canTarget = false
+isStealth = true
+
+weaponHard1 = "Zap Mine"
+weaponName1 = "gmzapmn"
+
+[MineClass]
+lifeSpan = 10
+
+[WeaponMineClass]
+searchRadius = 120.0
+heightScale = 2.0
+

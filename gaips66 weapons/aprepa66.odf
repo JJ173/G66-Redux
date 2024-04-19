@@ -1,0 +1,23 @@
+[GameObjectClass]
+geometryName = "aprepa00.xsi"
+classLabel = "repairkit"
+scrapCost = 3
+scrapValue = 0
+maxHealth = 150
+maxAmmo = 0
+unitName = "Repair"
+aiName = "PowerUpProcess"
+
+requireCount = 1
+requireName1 = "ibsbay"
+requireText1 = "Build Service Bay"
+
+lightHard1 = "light2"
+lightName1 = "omnigreen"
+
+[PowerUpClass]
+soundPickup = "pickup01.wav"
+soundReject = "reject.wav"
+
+[HealthPowerupClass]
+healthUp = 800

@@ -1,0 +1,87 @@
+// ===================
+// RAIL GUN VEHICLE HIT
+// ===================
+
+[ExplosionClass]
+classLabel = "explosion"
+explSound = "xsv2.wav"
+
+damageRadius = 30.0
+
+damageValue(N) = 95
+damageValue(L) = 140
+damageValue(H) = 190
+
+damageValue(S) = 140
+damageValue(D) = 95
+damageValue(A) = 190
+
+particleTypes = 4
+
+particleClass1 = "xrailgcar.shock"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+
+particleClass2 = "xrailgcar.light"
+particleCount2 = 1
+particleVeloc2 = "0.0 0.0 0.0"
+
+particleClass3 = "xrailgcar.puff"
+particleCount3 = 3
+particleVeloc3 = "6.0 6.0 6.0"
+
+particleClass4 = "xrailgcar.spark"
+particleCount4 = 20
+particleVeloc4 = "15.0 15.0 15.0"
+
+
+[Shock]
+simulateBase = "sim_null"
+lifeTime = 0.3
+renderBase = "draw_sphere"
+textureName = "vsmoke.tga"
+textureBlend = "one one modulate"
+startColor = "0 155 255 255"
+finishColor = "0 155 255 0"
+startRadius = 3.0
+finishRadius = 60.0
+animateTime = 0.3
+latitudeBands = 8
+longitudeSegments = 16
+
+[Light]
+simulateBase = "sim_null"
+lifeTime = 0.5
+renderBase = "draw_light"
+startColor = "65 160 255 600"
+finishColor = "0 181 255 0"
+startRadius = 30.0
+finishRadius = 30.0
+animateTime = 0.5
+attenuateConstant = 0.0
+attenuateLinear = 0.0
+attenuateQuadratic = 0.0
+
+[Puff]
+simulateBase = "sim_smoke"
+lifeTime = 1.0
+renderBase = "draw_twirl"
+textureName = "smoke.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "30 10 10 150"
+finishColor = "50 20 20 0"
+startRadius = 0.3
+finishRadius = 2.5
+animateTime = 1.0
+
+[spark]
+simulateBase = "sim_ember"
+lifeTime = 2.5
+renderBase = "draw_twirl"
+textureName = "particle.tga" // flame
+textureBlend = "one one modulate"
+startColor = "181 181 255 255"
+finishColor = "181 181 255 0"
+startRadius = 0.5
+finishRadius = 0.05
+animateTime = 2.5

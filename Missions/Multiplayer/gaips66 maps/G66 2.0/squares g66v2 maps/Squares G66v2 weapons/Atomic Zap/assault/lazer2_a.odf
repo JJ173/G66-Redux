@@ -1,0 +1,54 @@
+[OrdnanceClass]
+classLabel = "beam"
+
+shotGeometry = NULL
+xplGround = "xlaze2gnd"
+xplVehicle = "xlaze2car"
+xplBuilding = "xlaze2car"
+
+renderName = "lazer2_a.render"
+
+ammoCost = 30
+lifeSpan = 200e-6 // 200m
+shotSpeed = 1e6
+
+damageValue(N) = 400 // none // 400
+damageValue(L) = 300 // light // 300
+damageValue(H) = 200 // heavy // 200
+
+damageValue(S) = 400 // standard // 400
+damageValue(D) = 300 // deflection // 300
+damageValue(A) = 200 // absorbtion // 200
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 2
+renderName1 = "lazer2_c.core"
+renderName2 = "lazer2_c.tail"
+
+
+[Core]
+renderBase = "draw_bolt"
+textureName = NULL //"trail2.tga"
+textureBlend = "one one modulate"
+startColor = "15 20 250 700"
+finishColor = "0 0 0 0"
+startRadius = 0.01
+finishRadius = 0.01
+segmentLength = 5.0
+segmentVariance = "0.0 0.0 0.0"
+animateTime = 0.65
+textureRate = 0.01
+
+[Tail]
+renderBase = "draw_bolt"
+textureName = "trail2.tga"
+textureBlend = "one one modulate"
+startColor = "5 250 50 200"
+finishColor = "15 30 220 0"
+startRadius = 0.3
+finishRadius = 0.01
+segmentLength = 5.0 
+segmentVariance = "2.0 2.0 0.5"
+animateTime = 0.8 // 0.2
+textureRate = 0.01

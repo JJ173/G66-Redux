@@ -1,0 +1,8 @@
+[RecyclerListFFA]
+ODFName = "ivrecy_mu1"
+Description = "FFA: Undeployable with Empty Scouts"
+
+[IAHumanRecyclerList]
+ODFName = "ivrecy_mu1"
+Description = "Undeployable with Empty Scouts"
+

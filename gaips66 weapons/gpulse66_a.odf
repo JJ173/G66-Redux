@@ -1,0 +1,13 @@
+[WeaponClass]
+classLabel = "machinegun"
+altName = "gpulse66_c"
+ordName = "plsstrm66"
+wpnName = "Pulse Stream"
+fireSound = "gflas00.wav"
+wpnReticle = "gplas_a"
+wpnCategory = "CANN"
+isAssault = 1
+aiRange = 50
+
+[CannonClass]
+shotDelay = 0.02

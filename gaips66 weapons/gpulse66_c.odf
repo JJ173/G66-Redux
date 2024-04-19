@@ -1,0 +1,14 @@
+[WeaponClass]
+classLabel = "cannon"
+ordName = "plsball66"
+altName = "gpulse66_a"
+wpnName = "Pulse Cannon"
+fireSound = "gspst00.wav"
+wpnReticle = "gplas_c"
+wpnCategory = "CANN"
+aiRange = 110
+
+[CannonClass]
+shotDelay = 0.5	//0.33
+shotAlternate = 0
+

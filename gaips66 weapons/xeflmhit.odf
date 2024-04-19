@@ -1,0 +1,32 @@
+// =================
+// ELECTRIC FLAME HIT
+// =================
+
+[ExplosionClass]
+classLabel = "explosion"
+
+particleTypes = 1
+particleClass1 = "xeflmhit.core"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+
+explSound = "xsv2.wav"
+damageRadius = 5.0
+damageValue(N) = 7
+damageValue(L) = 5
+damageValue(H) = 3
+damageValue(S) = 3
+damageValue(D) = 4
+damageValue(A) = 6
+
+[Core]
+simulateBase = "sim_null"
+lifeTime = 0.5
+renderBase = "draw_twirl"
+textureName = "ring.tga"
+textureBlend = "one one modulate"
+startColor = "191 0 0 255"
+finishColor = "191 0 0 0"
+startRadius = 0.2
+finishRadius = 2.0
+animateTime = 0.5

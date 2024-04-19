@@ -1,0 +1,18 @@
+[WeaponClass]
+classLabel = "cannon"
+ordName = "lashpop66"		//"lashmsl66c"
+wpnName = "Lash Missile"
+fireSound = "gpopp00.wav"	//"gsand00.wav"
+wpnReticle = "glockm"		//"gsting_c"
+wpnLadder = "gpopgun.L0"
+wpnCategory = "MORT"		//"ROCK"
+aiRange = 340
+isAssault = 0
+
+[CannonClass]
+shotDelay = 3.0
+salvoDelay = 0.75
+salvoCount = 3
+shotAlternate = 1
+shotPitch = 1.5
+shotLead = 1

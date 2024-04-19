@@ -1,0 +1,32 @@
+[WeaponClass]
+classLabel = "cannon"
+altName = "glazer_a"
+ordName = "lazer_c"
+wpnName = "Scorch"
+fireSound = "cgun01.wav"
+wpnReticle = "glaser"
+wpnCategory = "GUN"
+isAssault = 0
+aiRange = 175
+flashName = "glazer_c.flash"
+
+
+[CannonClass]
+shotDelay = 0.3 // .3/sec
+salvoCount = 1
+salvoDelay = 0.01
+shotVariance = 0.0
+
+
+[Flash]
+simulateBase = "sim_null"
+lifeTime = 3.5
+renderBase = "draw_light"
+startColor = "200 0 25 300"
+finishColor = "200 0 25 300"
+startRadius = 20.0
+finishRadius = 20.0
+animateTime = 3.5
+//attenuateConstant = 10.0
+//attenuateLinear = 10.0
+//attenuateQuadratic = 10.0

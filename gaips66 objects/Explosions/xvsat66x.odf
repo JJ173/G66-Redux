@@ -1,0 +1,32 @@
+[GameObjectClass]
+classLabel = "xvsat"
+
+addAmmo = 20
+
+requireCount = 4
+requireName1 = "fbforg"
+requireText1 = "Upgrade Kiln"
+requireName2 = "fbover"
+requireText2 = "Build/Upgrade Antenna Mound"
+requireName3 = "fbdowe"
+requireText3 = "Build Dower"
+requireName4 = "fbstro"
+requireText4 = "Build Stronghold"
+
+provideCount = 4
+provideName2 = "xvsat66x"
+provideName3 = "assault"
+provideName4 = "Defender"
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+
+[HoverCraftClass]

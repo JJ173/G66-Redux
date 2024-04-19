@@ -1,0 +1,48 @@
+[GameObjectClass]
+baseName = "LtTank"
+glowTexture = "ivltanka0.pic"
+
+classLabel = "ivltank66"
+
+scrapCost = 50
+customCost = 60
+
+maxHealth = 2200
+
+maxAmmo = 2000
+addAmmo = 2
+
+requireCount = 1
+requireName1 = "ibfact66c2"
+requireText1 = "Build Factory"
+
+provideCount = 4
+provideName1 = "ivltank"
+provideName2 = "ivltank66c"
+provideName3 = "DefendUnit"
+provideName4 = "LtTank"
+
+/////// weapons ///////////////////
+
+weaponMask = 00111  //00011
+
+weaponName1 = "gpulse66_c"	//"gatstab_a"
+weaponName2 = "gfafmsl_c"
+weaponName3 = "gfafmsl_c"
+
+////////////////////////////////////
+
+lightHard1 = "hp_light_1"
+lightName1 = "spotblue2"
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+
+[HoverCraftClass]

@@ -1,0 +1,13 @@
+[WeaponClass]
+classLabel = "cannon"
+altName = "gheatrkt_c"
+ordName = "firebmb_a"
+wpnName = "Fire Bomb"
+fireSound = "gpopp00.wav"
+wpnReticle = "grktbomb"
+wpnCategory = "ROCK"
+aiRange = 185
+isAssault = 1
+
+[CannonClass]
+shotDelay = 4.0

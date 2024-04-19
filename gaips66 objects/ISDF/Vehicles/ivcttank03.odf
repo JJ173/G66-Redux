@@ -1,0 +1,32 @@
+[GameObjectClass]
+classLabel = "ivtank66m"
+
+provideCount = 3
+provideName2 = "ivcttank03"
+provideName3 = "DefendUnit"
+
+/////// weapons ///////////////////
+
+weaponName1 = "gplasma_c"
+weaponName2 = "gchaingn66c"	//"gminigun_c" "gminign66c"
+weaponName3 = "gchaingn66c"	//"gminigun_c" "gminign66c"
+weaponName5 = "gffld66"
+
+////////////////////////////////////
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+
+[HoverCraftClass]
+
+[Lod1]
+
+[Lod2]

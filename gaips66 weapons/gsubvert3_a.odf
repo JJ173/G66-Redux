@@ -1,0 +1,30 @@
+[WeaponClass]
+classLabel = "cannon"
+altName = "gsubvert3_c"
+ordName = "subvertbm3"
+wpnName = "Subversion"
+fireSound = "flash01.wav"
+wpnReticle = "gflashgn"
+wpnCategory = "CANN"
+isAssault = 1
+aiRange = 215
+flashName = "gsubvert3_a.flash"
+
+[CannonClass]
+shotDelay =  8.0
+salvoCount = 15
+salvoDelay = 0.1
+shotVariance = 0.0
+
+[Flash]
+simulateBase = "sim_null"
+lifeTime = 0.2
+renderBase = "draw_light"
+startColor = "159 0 0 255"
+finishColor = "159 0 0 0"
+startRadius = 10.0
+finishRadius = 1.0
+animateTime = 0.2
+attenuateConstant = 0.0
+attenuateLinear = 0.0
+attenuateQuadratic = 0.0

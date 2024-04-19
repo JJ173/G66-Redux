@@ -1,0 +1,14 @@
+[WeaponClass]
+classLabel = "imagerefract"
+ordName = NULL
+wpnName = "Phantom VIR"
+fireSound = "phan01.wav"
+wpnReticle = "gphantom.0"
+wpnPriority = 0
+wpnCategory = "SPEC"
+aiRange = 100
+
+[SpecialItemClass]
+activeSound = "gphan01.wav"
+expireSound = "phan03.wav"
+ammoCost = 20

@@ -1,0 +1,8 @@
+MP-MG CHAIN GUN
+Metal projectile machine gun.
+-- Combat --
+Range: 110m  Rate: 600r/m
+Ammo: Low   Damage: Low
+-- Assault --
+Range: 150m  Rate: 600r/m
+Ammo: Low   Damage: Moderate

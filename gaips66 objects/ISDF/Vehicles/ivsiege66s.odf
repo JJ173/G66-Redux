@@ -1,0 +1,140 @@
+[GameObjectClass]
+baseName = "SiegeTank"
+geometryName = "GorbTank00.xsi"
+classLabel = "assaulttank"
+
+scrapValue = 70
+scrapCost = 110
+customCost = 120
+buildTime = 20.0
+customTime = 25.0
+
+maxHealth = 6500
+addHealth = 10
+aiAddhealth = 30.0
+maxAmmo = 7000
+addAmmo = 10
+aiAddAmmo = 50
+
+collisionRadius = 10.0
+
+unitName = "Gorb Tank"
+aiName = "AssaultTankProcess"
+aiName2 = "AssaultTankProcess"
+
+heatSignature = 1.0
+imageSignature = 6.5
+radarSignature = 6.5
+isAssault = 1
+
+armorClass = H
+	
+requireCount = 4
+requireName1 = "ibfact"
+requireText1 = "Build Factory"
+requireName2 = "ib"
+requireText2 = "Build Armory"
+requireName3 = "ibsbay"
+requireText3 = "Build Service Bay"
+requireName4 = "ibtcen"
+requireText4 = "Build Tech Center"
+	
+provideCount = 1
+provideName1 = "ivsiege66s"
+
+/////// weapons ///////////////////
+
+weaponMask = 00011
+weaponHard1 = "HP_CANNON_01"
+//weaponName1 = "gsgcann"
+//weaponName1 = "gtmaggunt_a"
+weaponName1 = "gsiegemag"
+weaponAssault1 = 1
+recoilName1 = "recoil_1"
+laserName1 = "recoil_1"
+weaponHard2 =  "HP_CANNON_02"
+weaponName2 = "gblast_s"
+weaponAssault2 = 0
+recoilName2 = "recoil_1"
+laserName2 = "recoil_1"
+
+
+////////////////////////////////////
+
+turretCount = 2
+turretName1 = "turret_x"
+turretName2 = "turret_y"
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+rangeScan = 330.0f
+periodScan = 4.5f
+velocJam = 0.0f
+engageRange = 300
+
+braccelFactor = 0.05
+velFactor = 0.2
+steerFactor = 1.3
+omegaFactor = 0.15
+strafeFactor = 0.1
+
+topSpeed = 15.0
+avoidSpeed = 6
+
+IgnoreDestroyedTargets = true
+GotoTaskHasLeader = false
+AttackTaskUsesGroups = false
+
+attackTask = "AssaultTankAttack"
+subAttackTask = "SupportSubAttack"
+subAttackClass = "NNN"
+
+// subAttackClass uses 3 letters.
+// 1st letter is either A or N.     A is include Air targets.         N is attack ground only.
+// 2nd letter is either D or N.     D is to deploy before attacking.  N for regular attack.
+// 3rd letter is either S or N.     S is to use Weapon Range.         N is use the Engage Range to attack. 
+
+selectWaitMsg = "ivatank04.wav"
+selectAttackMsg = "ivatank01.wav"
+selectFollowMsg = "ivatank08.wav"
+selectGoMsg = "ivatank02.wav"
+selectOtherMsg = "ivatank04.wav"
+
+goMsg = "ivatank05.wav"
+attackMsg = "ivatank06.wav"
+followMeMsg = "ivatank08.wav"
+followMsg = "ivatank08.wav"
+repairMsg = "ivatank09.wav"
+reloadMsg = "ivatank09.wav"
+rescueMsg = "ivatank10.wav"
+recycleMsg = "ivatank11.wav"
+otherMsg = "ivatank04.wav" 
+holdMsg = "ivatank12.wav"
+
+user1Msg = ""  
+killedMsg = "ivatank07.wav"
+diedMsg = ""
+
+[TrackedVehicleClass]
+omegaSpin = 1.0
+omegaTurn = 0.5
+velocForward = 12.0
+velocReverse = 4.0
+accelThrust = 8.0
+
+TREAD_STATIC_FRICTION = 1.5
+
+engineSound = "iatank01.wav"
+treadSound = "iatank02.wav"
+
+[AssaultTankClass]
+yawRate = 1.0
+pitchMin = -0.1
+pitchMax = 0.3
+
+[Lod1]
+
+[Lod2]
+

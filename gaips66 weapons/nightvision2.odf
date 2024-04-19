@@ -1,0 +1,10 @@
+[LightClass]
+lifeTime = 30.0
+classLabel = "pointlight"
+lightColor.r = 0.0
+lightColor.g = 1.0
+lightColor.b = 0.0
+lightColor.a = 255.0
+lightRange = 150.0
+attenuateQuadratic = 0.0
+lensFlare = 0

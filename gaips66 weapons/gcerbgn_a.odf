@@ -1,0 +1,26 @@
+[WeaponClass]
+classLabel = "cannon"
+altName = "gcerbgn_c"
+ordName = "cerberus_a"
+wpnName = "Cerberus Gun"
+fireSound = "igtow03.wav" //"spstab01.wav"
+wpnReticle = "gspstab"
+wpnCategory = "CANN"
+isAssault = 1
+flashName = "gcerbgn_a.flash"
+aiRange = 650
+
+[CannonClass]
+shotDelay = 3.0
+shotAlternate = 1
+
+[Flash]
+renderBase = "draw_geom"
+textureName = "sflash.tga"
+textureBlend = "one one modulate"
+startColor = "255 127 0 255"
+finishColor = "255 0 0 255"
+startRadius = 35.0
+finishRadius = 1
+animateTime = 0.2
+geomName = "g_sflash.xsi"

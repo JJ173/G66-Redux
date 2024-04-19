@@ -1,0 +1,149 @@
+[GameObjectClass]
+baseName = "ivscout"
+classLabel = "wingman"
+geometryName = "ivscout00.xsi"
+cockpitName= "ivscout_cockpit.xsi"
+animCount = 3
+animName1 = "forward"
+animFile1 = "ivscoutsf.xsi"
+animName2 = "neutral"
+animFile2 = "ivscoutsn.xsi"
+animName3 = "reverse"
+animFile3 = "ivscoutsr.xsi"
+scrapValue = 10
+scrapCost = 10
+customCost = 10
+buildTime = 3.0
+customTime = 3.0
+maxHealth = 1500
+maxAmmo = 1500
+addAmmo = 10
+aiAddAmmo = 25
+unitName = "Thrasher"
+lifeSpan = 240.0
+aiName = "SoldierProcess"
+aiName2 = "SoldierProcess"
+//aiName = "RocketTankFriend"
+//aiName2 = "RocketTankEnemy"
+
+//aiName = "ScoutFriend"
+//aiName2 = "ScoutEnemy"
+
+heatSignature = 0.5
+imageSignature = 3.0
+radarSignature = 0.3
+
+isAssault = 0
+
+armorClass = N
+
+requireCount = 1
+requireName1 = "ibfact66c2"
+requireText1 = "Build Factory"
+
+provideCount = 2
+provideName1 = "ivscout"
+provideName2 = "DefendUnit"
+
+/////// weapons ///////////////////
+
+weaponMask = 11111
+weaponHard1 = "HP_GUN_1"
+weaponName1 = "ggatlinggun_a"
+weaponAssault1 = 0
+weaponHard2 = "HP_GUN_2"
+weaponName2 = "ggatlinggun_a"
+weaponAssault2 = 0
+weaponHard3 = "HP_ROCKET_1"
+weaponName3 = "gheatrkt_c"
+weaponAssault3 = 0
+weaponHard4 = "HP_SPECIAL_1"
+weaponName4 = "gphantom"
+weaponAssault4 = 0
+
+//////////////////////////////////
+
+lightHard1 = "hp_light_1"
+lightName1 = "spotblue2"
+lightHard2 = "hp_light_2"
+lightName2 = "spotblue2"
+
+[CraftClass]
+rangeScan = 1500.0f
+periodScan = 1.0f
+velocJam = 0.0f
+engageRange = 1500
+
+braccelFactor = 0.1
+omegaFactor = 0.3
+steerFactor = 1.4
+strafeFactor = 0.1
+velFactor = 0.4
+
+HealthChangeLevelDelta = 0.01 // valid values are 0..1
+StrafeTimeBase3 = 1.0
+StrafeTimeRandom3 = 0.5
+RetargetOnStrafe = true
+//AttackTaskAttackTimeout3 = 200.0
+//AttackTaskFleeTimeout3 = 50.0
+//AttackTaskStrafeAfterFlee3 = false
+//AttackTaskStrafeToFleeTimeout = 75.0
+
+topSpeed = 40
+avoidSpeed = 5
+
+selectWaitMsg = "ivscout04.wav"
+selectAttackMsg = "ivscout01.wav"
+selectFollowMsg = "ivscout03.wav"
+selectGoMsg = "ivscout02.wav"
+selectOtherMsg = "ivscout04.wav"
+
+goMsg = "ivscout05.wav"
+attackMsg = "ivscout06.wav"
+followMeMsg = "ivscout03.wav"
+followMsg = "ivscout08.wav"
+repairMsg = "ivscout09.wav"
+reloadMsg = "ivscout09.wav"
+rescueMsg = "ivscout10.wav"
+recycleMsg = "ivscout11.wav"
+otherMsg = "ivscout10.wav" 
+holdMsg = "ivscout12.wav"
+user1Msg = ""  
+killedMsg = "ivscout07.wav"
+diedMsg = ""
+
+[HoverCraftClass]
+velocForward = 40.0 // 
+velocReverse = 25.0 // 
+velocStrafe = 30.0 // 
+accelThrust = 30.0 // acceleration 
+accelDragStop = 15.0 // how fast it stops once hands are off controls 
+accelJump = 18.0
+aiAccelDrag = 10
+
+setAltitude = 1.2 // how high off the ground
+
+alphaTrack = 21.0 //springs speed it rights itself 
+alphaDamp = 8.0 //shocks 
+
+pitchPitch = 0.25 // nose up 
+pitchThrust = 0.05 // nose down 
+
+rollStrafe = 0.1 // rolls while strafing 
+omegaSpin = 3.5 // spinning in place speed 
+omegaTurn = 3.5 // turning while moving speed 
+alphaSteer = 5.5 // how fast it responds to steering 
+rollSteer = 0.1 // rolls while steering 
+
+soundThrust = "ieng01b.wav"
+soundTurbo = "avtanke3.wav"
+
+animSteer = "steer"
+
+[Lod1]
+geometryName = "ivscoutL1.xsi" ;geometry for lod1
+distance = 30
+
+[Lod2]
+geometryName = "ivscoutL2.xsi" ;geometry for lod2
+distance = 60                 		 ;...distance over this many meters => switch to lod2

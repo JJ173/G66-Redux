@@ -1,0 +1,115 @@
+///////
+/////Made by AlphaDragon Of the Dragons of Abaddon Clan
+///http://www.doaclan.cc.st
+//
+///modified by Natty Bumppo for "Route 66" map pack
+//
+[GameObjectClass]
+basename = "DVhunt"
+geometryName = "DVhunt_skel.xsi"
+geometryscale = 1.75
+cockpitName = "DVhunt_cockpit.xsi"
+classLabel = "wingman"
+scrapValue = 35
+scrapCost = 70
+customCost = 80
+buildTime = 15.0
+customTime = 15.0
+maxHealth = 3500
+maxAmmo = 3700
+addAmmo = 10
+unitName = "Kraken"
+aiName = "TankFriend"
+aiName2 = "TankEnemy"
+unitIcon = "icon_dvhunt.tga"
+wpnIcon = "wire_dvhunt.tga"
+heatSignature = 0.5
+imageSignature = 4.0
+radarSignature = 4.0
+
+isAssault = 1
+
+armorClass = H
+
+/////// weapons ///////////////////
+
+weaponMask = 00111
+weaponHard1 = "HP_CANNON_1"
+weaponName1 = ""
+weaponAssault1 = 0
+weaponHard2 = "HP_ROCKET_2"
+weaponName2 = "gkrknmsl_c"  //"gsting_c"
+weaponAssault2 = 0
+weaponHard3 = "HP_ROCKET_3"
+weaponName3 = "gkrknmsl_c"  //"gsting_c"
+weaponAssault3 = 0
+weaponHard4 = "HP_ROCKET_1"
+weaponName4 = "gkrknmsl_a"  //"gmlock_a"
+weaponAssault4 = 1
+weaponHard5 = "HP_SPECIAL_1"
+weaponName5 = ""
+weaponAssault5 = 0
+//////////////////////////////////
+
+[CraftClass]
+rangeScan = 325.0f
+periodScan = 5.0f
+velocJam = 5.0f
+engageRange = 220
+
+braccelFactor = 0.05f;
+strafeFactor = 0.05f;
+steerFactor = 1.0f;
+omegaFactor = 0.18f;
+velFactor = 0.2f;
+
+avoidSpeed = 5;
+topSpeed = 18;
+
+selectWaitMsg = "DVhunt01.wav"
+selectAttackMsg = "nulls.wav"
+selectFollowMsg = "DVhunt02.wav"
+selectGoMsg = "DVhunt03.wav"
+selectOtherMsg = "DVhunt01.wav"
+
+goMsg = "DVhunt04.wav"
+attackMsg = "DVhunt05.wav"
+followMeMsg = "DVhunt06.wav"
+followMsg = "DVhunt02.wav"
+repairMsg = "DVhunt07.wav"
+reloadMsg = "DVhunt07.wav"
+rescueMsg = "DVhunt08.wav"
+recycleMsg = "DVhunt09.wav"
+otherMsg = "DVhunt09.wav" 
+holdMsg = "nulls.wav"
+user1Msg = ""  
+killedMsg = "DVhunt10.wav"
+diedMsg = ""
+
+[HoverCraftClass]
+velocForward = 18.0
+velocReverse = 8.0
+velocStrafe = 8.0 
+accelThrust = 22.0 
+accelBrake = 80.0
+accelDragStop = 11.0
+accelDragFull = 1.0
+accelJump = 6.0
+
+setAltitude = 0.8
+
+alphaTrack = 18.0 
+alphaDamp = 18.0 
+
+pitchPitch = 0.15 
+pitchThrust = 0.06 
+rollStrafe = 0.03 
+rollSteer = 0.06
+
+omegaSpin = 3.0
+omegaTurn = 1.4
+alphaSteer = 1.0
+rollSteer = 0.06
+
+soundThrust = "avrckte0.wav" //"nulls.wav"
+soundTurbo = "avrckte1.wav" //"nulls.wav"

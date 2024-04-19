@@ -1,0 +1,37 @@
+// ======================
+// LIGHTNING BUILDING HIT
+// ======================
+
+[ExplosionClass]
+classLabel = "explosion"
+
+particleTypes = 1
+particleClass1 = "xlgt66bld.core"
+particleCount1 = 1
+particleVeloc1 = "0.0 0.0 0.0"
+
+explSound = "lhit.wav"
+damageRadius = 20.0
+damageValue(N) = 10
+damageValue(L) = 5
+damageValue(H) = 0
+damageValue(S) = 5
+damageValue(D) = 10
+damageValue(A) = 0
+
+kickRadius = 10.0
+kickOmega = 1.5
+kickVeloc = 1.0
+
+[Core]
+simulateBase = "sim_null"
+lifeTime = 0.5
+renderBase = "draw_twirl"
+textureName = "ring.tga"
+textureBlend = "one one modulate"
+startColor = "63 255 255 255"
+finishColor = "0 0 255 0"
+startRadius = 0.3
+finishRadius = 3.0
+animateTime = 0.5
+

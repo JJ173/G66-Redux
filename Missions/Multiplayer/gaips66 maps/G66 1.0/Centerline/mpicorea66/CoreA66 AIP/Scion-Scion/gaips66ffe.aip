@@ -1,0 +1,305 @@
+//Endgame Mode
+//MPInstant66.DLL Required
+
+//Endgame AIP File:
+//Drones attack by DLL.
+//Sentries attack DLL.
+//Lancers attack by DLL.
+//Warriors attack by DLL.
+//Maulers attack by DLL.
+//Titans are handled by AIP.
+//Archers are handled by AIP.
+//Healers are handled by AIP.
+
+
+//[Cheat]
+//moneyAmount = 20
+//moneyDelay = 10
+
+[Start]
+scavClass = "fvscav"
+consClass = "fvcons"
+
+
+[Match]
+targetType1 = "fvscout"
+attackType1_1 = "fvtank"
+attackType1_2 = "fvscout"
+
+targetType2 = "fvscout"
+attackType2_1 = "fvscout"
+attackType2_2 = "fvscout"
+
+targetType3 = "fvscout"
+attackType3_1 = "fvsent"
+attackType3_2 = "fvsent"
+
+targetType4 = "fvmisl"
+attackType4_1 = "fvtank"
+attackType4_2 = "fvsent"
+
+targetType5 = "fvmisl"
+attackType5_1 = "fvsent"
+attackType5_2 = "fvsent"
+
+targetType6 = "fvmisl"
+attackType6_1 = "fvsent"
+attackType6_2 = "fvsent"
+
+targetType7 = "fvtank"
+attackType7_1 = "fvtank"
+attackType7_2 = "fvtank"
+
+targetType8 = "fvtank"
+attackType8_1 = "fvtank"
+attackType8_2 = "fvsent"
+
+targetType9 = "fvtank"
+attackType9_1 = "fvsent"
+attackType9_2 = "fvsent"
+
+targetType10 = "fvrckt"
+attackType10_1 = "fvtank"
+attackType10_2 = "fvtank"
+
+targetType11 = "fvrckt"
+attackType11_1 = "fvarch"
+attackType11_2 = "fvarch"
+
+targetType12 = "fvatank"
+attackType12_1 = "fvwalk"
+attackType12_2 = "fvtank"
+attackType12_3 = "fvtank"
+
+targetType13 = "fvatank"
+attackType13_1 = "fvtank"
+attackType13_2 = "fvtank"
+
+targetType14 = "fvwalk"
+attackType14_1 = "fvatank"
+attackType14_2 = "fvtank"
+attackType14_3 = "fvtank"
+
+targetType15 = "fvwalk"
+attackType15_1 = "fvwalk"
+attackType15_2 = "fvtank"
+attackType15_3 = "fvtank"
+
+targetType16 = "fvscav"
+attackType16_1 = "fvtank"
+attackType16_2 = "fvtank"
+
+targetType17 = "fvserv"
+attackType17_1 = "fvsent"
+attackType17_2 = "fvsent"
+
+
+[Plan1]
+planType = "BuildMinimums"
+planPriority = 495
+buildType1 = "fvltank66a"
+buildCount1 = 3
+doNextOnFail = 1
+
+[Plan2]
+planType = "BuildMinimums"
+planPriority = 490
+buildType1 = "fvtank"
+buildCount1 = 3
+doNextOnFail = 1
+
+[Plan3]
+planType = "BuildMinimums"
+planPriority = 485
+buildType1 = "fvsent"
+buildCount1 = 2
+doNextOnFail = 1
+
+[Plan4]
+planType = "DefendArea"
+planPriority = 480
+targetType = "fbforg"
+doNextOnFail = 1
+
+[Plan5]
+planCondition = "Exists"
+planConditionClass = "fvserv"
+planConditionCount = 1
+planType = "Service"
+planPriority = 470
+serviceUnit = "fvserv"
+unitType1 = "fvcons"
+unitType2 = "fbforg"
+unitType3 = "fbscav"
+unitType4 = "fbspir"
+unitType5 = "fbdowe"
+unitType6 = "fbstro"
+doNextOnFail = 1
+
+[Plan6]
+planCondition = "Exists"
+planConditionClass = "fvcons"
+planConditionCount = 1
+planType = "BaseBuildMinimums"
+planPriority = 450
+buildType1 = "fbspir"
+buildLoc1 = "gtow1"
+buildCount1 = 1
+buildType2 = "fbspir"
+buildLoc2 = "gtow1b"
+buildCount2 = 1
+doNextOnFail = 1
+
+[Plan7]
+planCondition = "Exists"
+planConditionClass = "fvcons"
+planConditionCount = 1
+planType = "BaseBuildMinimums"
+planPriority = 440
+buildType1 = "fbstro"
+buildCount1 = 1
+doNextOnFail = 1
+
+[Plan8]
+planCondition = "Exists"
+planConditionClass = "fvcons"
+planConditionCount = 1
+planType = "BaseBuildMinimums"
+planPriority = 420
+buildType1 = "fbantm"
+buildCount1 = 1
+doNextOnFail = 1
+
+[Plan9]
+planCondition = "Exists"
+planConditionClass = "fvcons"
+planConditionCount = 1
+planType = "Upgrade"
+planPriority = 415
+unitType = "fbantm"
+doNextOnFail = 1
+
+[Plan10]
+planType = "BuildMinimums"
+planPriority = 400
+buildType1 = "fvartlef"
+buildCount1 = 3
+doNextOnFail = 1
+
+[Plan11]
+planType = "Hold"
+planPriority = 390
+holdType1 = "fvartlef"
+holdCount1 = 2
+holdPoint = "artlef2"
+doNextOnFail = 1
+
+[Plan12]
+planType = "Hold"
+planPriority = 385
+holdType1 = "fvartlef"
+holdCount1 = 1
+holdPoint = "artlef1"
+doNextOnFail = 1
+
+[Plan13]
+planCondition = "Exists"
+planConditionClass = "fvscav"
+planConditionCount = 1
+planType = "CollectPool"
+planPriority = 380
+//buildIfNoIdle = 1
+doNextOnFail = 1
+
+[Plan14]
+planCondition = "Exists"
+planConditionClass = "fvscav"
+planConditionCount = 1
+planType = "CollectField"
+planPriority = 375
+//buildIfNoIdle = 1
+doNextOnFail = 1
+
+[Plan15]
+planCondition = "HisExists"
+planConditionClass = "fvartl"
+planConditionCount = 1
+planType = "BuildMinimums"
+planPriority = 360
+buildType1 = "fvartl"
+buildCount1 = 2
+doNextOnFail = 1
+
+[Plan16]
+planCondition = "HisExists"
+planConditionClass = "fvartl"
+planConditionCount = 1
+planType = "Attacker"
+planPriority = 350
+targetType = "fvartl"
+attackType1 = "fvartl"
+attackType2 = "fvartl"
+doNextOnFail = 1
+
+[Plan17]
+planCondition = "Exists"
+planConditionClass = "fvcons"
+planConditionCount = 1
+planType = "BaseBuildMinimums"
+planPriority = 340
+buildType1 = "fbspir"
+buildLoc1 = "gtow2"
+buildCount1 = 1
+buildType2 = "fbspir"
+buildLoc2 = "gtow2b"
+buildCount2 = 1
+doNextOnFail = 1
+
+[Plan18]
+planType = "BuildMinimums"
+planPriority = 330
+buildType1 = "fvatank"
+buildCount1 = 2
+doNextOnFail = 1
+
+[Plan19]
+planType = "Hold"
+planPriority = 320
+holdType1 = "fvatank"
+holdCount1 = 1
+holdPoint = "hold1"
+doNextOnFail = 1
+
+[Plan20]
+planType = "Hold"
+planPriority = 260
+holdType1 = "fvatank"
+holdCount1 = 1
+holdPoint = "hold2"
+doNextOnFail = 1
+
+[Plan21]
+//Maulers Sent to Attack Path by DLL
+planType = "BuildMinimums"
+planPriority = 250
+buildType1 = "fvwalk"
+buildCount1 = 2
+doNextOnFail = 1
+
+[Plan22]
+planCondition = "Exists"
+planConditionClass = "fvscav"
+planConditionCount = 1
+planType = "CollectField"
+planPriority = 240
+//buildIfNoIdle = 1
+doNextOnFail = 1
+
+[Plan23]
+planCondition = "Exists"
+planConditionClass = "fvscav"
+planConditionCount = 1
+planType = "CollectPool"
+planPriority = 235
+//buildIfNoIdle = 1
+doNextOnFail = 1

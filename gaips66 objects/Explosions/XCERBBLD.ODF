@@ -1,0 +1,86 @@
+// ====================
+// CERBERUS BUILDING HIT
+// ====================
+
+[ExplosionClass]
+classLabel = "explosion"
+explSound = "xms2.wav"
+
+damageRadius = 65.0
+
+damageValue(N) = 190 // none
+damageValue(L) = 140 // light
+damageValue(H) = 100 // heavy
+
+damageValue(S) = 180 // Stasis
+damageValue(D) = 90 // Deflection
+damageValue(A) = 130 // absorbtion
+
+kickRadius = 65.0
+kickOmega = 6.0
+kickVeloc = 4.0
+
+particleTypes = 3
+
+particleClass1 = "xcerbbld.smoke"
+particleCount1 = 1
+particleVeloc1 = "0.0 1.0 0.0"
+particleBias1 = "0.0 0.0 0.0"
+
+particleClass2 = "xcerbbld.flame"
+particleCount2 = 1
+particleVeloc2 = "0.0 1.0 0.0"
+particleBias2 = "0.0 0.0 0.0"
+
+particleClass3 = "xcerbbld.spark"
+particleCount3 = 12
+particleVeloc3 = "10.0 10.0 10.0"
+particleBias3 = "0.0 1.0 0.0"
+
+
+[Smoke]
+simulateBase = "sim_smoke"
+lifeTime = 0.8
+renderBase = "draw_twirl_trail"
+textureName = "smoke.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "0 0 0 128"
+finishColor = "0 0 0 0"
+startRadius = 0.8
+finishRadius = 3.0
+animateTime = 0.8
+rotationRate = 2.0
+emitDelay = 0.05
+emitVelocity = "0.0 0.0 0.0"
+emitVariance = "2.0 2.0 2.0"
+emitLife = 0.8
+
+[Flame]
+simulateBase = "sim_smoke"
+lifeTime = 0.8
+renderBase = "draw_twirl_trail"
+textureName = "flame2.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 200 128"
+finishColor = "255 0 0 0"
+startRadius = 1.0
+finishRadius = 0.1
+animateTime = 0.8
+rotationRate = 10.0
+emitDelay = 0.03
+emitVelocity = "0.0 2.0 0.0"
+emitVariance = "2.0 2.0 2.0"
+emitLife = 0.8
+
+[Spark]
+simulateBase = "sim_ember"
+lifeTime = 2.5
+renderBase = "draw_twirl"
+textureName = "spark.tga"
+textureBlend = "one one modulate"
+startColor = "255 255 0 255"
+finishColor = "255 0 0 0"
+startRadius = 0.1
+finishRadius = 0.05
+animateTime = 2.5
+rotationRate = 20.0

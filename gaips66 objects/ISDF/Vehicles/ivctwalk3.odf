@@ -1,0 +1,28 @@
+[GameObjectClass]
+classLabel = "ivwalk66"
+
+provideCount = 4
+provideName2 = "ivctwalk3"
+provideName3 = "assault"
+provideName4 = "DefendUnit"
+
+/////// weapons ///////////////////
+
+weaponName1 = "gplasma_a"
+weaponName2 = "gplasma_a"
+
+//////////////////////////////////
+
+
+collisionRadius = 10.0
+
+aiAddAmmo = 40
+
+[CraftClass]
+
+IgnoreDestroyedTargets = true
+
+
+
+// Angles are in degress
+[WalkerClass]
