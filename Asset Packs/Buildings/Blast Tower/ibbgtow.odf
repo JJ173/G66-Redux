@@ -1,0 +1,35 @@
+[GameObjectClass]
+classLabel = "ibgtow"
+unitName = "Blast Tower"
+scrapCost = 70
+scrapValue = 40
+
+weaponMask = 00011
+weaponHard1 = "hp_cannon_1"
+weaponName1 = "gtowblast"
+weaponAssault1 = 0
+weaponHard2 = "hp_cannon_2"
+weaponName2 = "gtowblast"
+weaponAssault2 = 0
+
+requireCount = 2
+requireName1 = "ibcbun"
+requireText1 = "Build Relay Bunker"
+requireName2 = "ibtcen"
+requireText2 = "Build Tech Center"
+
+[BuildingClass]
+
+[CraftClass]
+rangeScan = 160
+periodScan = 0.0
+velocJam = 0.0
+weaponPitch = 1.5
+steerFactor = 0.5
+engageRange = 160
+
+[TurretCraftClass]
+omegaTurret = 3.0//2.0
+detectRange = 160
+
+[Lod1]

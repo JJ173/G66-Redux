@@ -1,0 +1,23 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "apspecial"
+scrapCost = 60
+unitName = "Rush"
+
+/////// REQUIREMENTS ///////////////
+requireCount = 3
+requireName1 = "fbstro"
+requireText1 = "Build Stronghold"
+requireName2 = "fbdowe"
+requireText2 = "Build Dower"
+requireName3 = "fbover"
+requireText3 = "Build/Upgrade Antenna Mound"
+////////////////////////////////////
+
+lightName1 = "omniorng-ap"
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "Rush"

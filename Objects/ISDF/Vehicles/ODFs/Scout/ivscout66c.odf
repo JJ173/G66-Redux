@@ -1,0 +1,24 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivscout66"
+
+scrapCost = 0
+customCost = 0
+
+/////// REQUIREMENTS ///////////////
+requireCount = 1
+requireName1 = "MainBase"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideName4 = "ivscout66c"
+////////////////////////////////////
+
+[CraftClass]
+
+[HoverCraftClass]
+
+[Lod1]
+
+[Lod2]

@@ -1,0 +1,25 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fvcons66"
+
+/////// PROVIDES ///////////////////
+provideCount = 4
+provideName4 = "fvcons66m2"
+////////////////////////////////////
+
+[CraftClass]
+CanAIPForceIdle = false
+
+[HoverCraftClass]
+
+[DeployableClass]
+
+[ConstructionRigClass]
+buildItem1 = ""
+buildItem2 = "fbspir66c"
+buildItem3 = "fbantm66c"
+buildItem4 = "fbdowe66c"
+buildItem5 = "fbstro66c"
+buildItem6 = "fbjamm66c"
+buildItem7 = "fbrspir66c"

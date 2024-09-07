@@ -74,7 +74,7 @@ Pitch0  = 0
 Dist0   = 100
 
 [Dome]
-DomeGeom    = "banedome.xsi"
+DomeGeom    = "banedome.fbx"
 DomeRadius  = 375
 DomeHeight  = 0
 DomeType    = 0

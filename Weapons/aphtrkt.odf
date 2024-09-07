@@ -1,0 +1,21 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "aprocket"
+scrapCost = 20
+unitName = "Heat Rocket"
+
+/////// REQUIREMENTS ///////////////
+requireCount = 2
+requireName1 = "ibarmo66m"
+requireText1 = "Build Armory"
+requireName2 = "ibtrain"
+requireText2 = "Build Training Facility"
+////////////////////////////////////
+
+lightName1 = "omniorange"
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "gheatrkt_c"

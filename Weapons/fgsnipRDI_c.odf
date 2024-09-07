@@ -1,0 +1,25 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[WeaponClass]
+classLabel = "fgsnip_c"
+ordName = "tracerRDL"
+wpnName = "Pulse Rifle"
+wpnReticle = "grifle"
+isFlying = 1
+altName = "fgsnipRDI_a"
+flashName = "fgsnipRDI_c.flash"
+aiRange = 200
+
+[CannonClass]
+shotVariance = 0.01
+
+[Flash]
+renderBase = "draw_geom"
+textureName = "sflash.tga"
+textureBlend = "one one modulate"
+startColor = "0 0 255 255"
+finishColor = "255 255 255 255"
+startRadius = 3.0
+finishRadius = 1
+animateTime = 0.1
+geomName = "g_sflash.xsi"

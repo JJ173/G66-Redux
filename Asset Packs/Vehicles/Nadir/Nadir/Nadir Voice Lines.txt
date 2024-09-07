@@ -1,0 +1,47 @@
+SCOUT REFERENCE
+________________________________________________
+selectWaitMsg = "ivscout04.wav" // "Standing by"
+selectAttackMsg = "ivscout01.wav" // "I've got company"
+selectFollowMsg = "ivscout03.wav" // "On your six"
+selectGoMsg = "ivscout02.wav" // "Thrusters engaged"
+selectOtherMsg = "ivscout04.wav" // "Standing by"
+
+goMsg = "ivscout05.wav" // "Engaging thrusters"
+attackMsg = "ivscout06.wav" // "Yeah, I'm on it"
+followMeMsg = "ivscout03.wav" // "On your six"
+followMsg = "ivscout08.wav" // "Follow the leader"
+repairMsg = "ivscout09.wav" // "Got it"
+reloadMsg = "ivscout09.wav" // "Got it"
+rescueMsg = "ivscout10.wav" // "On my way"
+recycleMsg = "ivscout11.wav" // "Recycle"
+otherMsg = "ivscout10.wav" // "On my way"
+holdMsg = "ivscout12.wav" // "Holding up"
+user1Msg = ""  
+killedMsg = "ivscout07.wav" // "Scratch one!"
+diedMsg = ""
+
+OTHER = "ivscout13.wav" // "You don't pay me enough"
+
+NADIR SCRIPT
+_______________________________________________
+selectWaitMsg =  "Assault Scout ready"
+selectAttackMsg = "Fighting"
+selectFollowMsg = "Forming up"
+selectGoMsg = "En route"
+selectOtherMsg = "Nadir here"
+
+goMsg = "Moving now"
+attackMsg = "Target marked"
+followMeMsg = "Forming up"
+followMsg = "Defending"
+repairMsg = "Heading back"
+reloadMsg = "Heading back" 
+rescueMsg = "Hold still"
+recycleMsg = "Say no more"
+otherMsg = "Aye"
+holdMsg = "Holding ground" // "Staging"
+user1Msg = ""
+killedMsg = "Send in the scav" // "He's scrap"
+diedMsg = ""
+
+OTHER = 

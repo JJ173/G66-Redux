@@ -1,13 +1,11 @@
-[GameObjectClass]
-geometryName = "apgun00.xsi"
-classLabel = "wpnpower"
-scrapCost = 10
-scrapValue = 0
-maxHealth = 150
-maxAmmo = 0
-unitName = "Gatling Gun"
-aiName = "PowerUpProcess"
+// Revamped to match supported inheritance by BZCC - AI_Unit.
 
+[GameObjectClass]
+classLabel = "apgun"
+scrapCost = 10
+unitName = "Gatling Gun"
+
+/////// REQUIREMENTS ///////////////
 requireCount = 3
 requireName1 = "ibarmo"
 requireText1 = "Build Armory"
@@ -15,13 +13,11 @@ requireName2 = "ibcbun"
 requireText2 = "Build Relay Bunker"
 requireName3 = "ibtcen"
 requireText3 = "Build Tech Center"
+////////////////////////////////////
 
-lightHard1 = "hp_light_1"
 lightName1 = "omnicyan"
 
 [PowerUpClass]
-soundPickup = "pickup01.wav"
-soundReject = "reject.wav"
 
 [WeaponPowerupClass]
 weaponName = "ggatlinggun_c"

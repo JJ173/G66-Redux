@@ -1,0 +1,31 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fvsav"
+
+buildTime = 120.0
+needsPilot = 0
+collisionRadius = 10.0
+aiAddAmmo = 40
+
+/////// REQUIREMENTS ///////////////
+requireCount = 3
+requireName1 = "fbforg"
+requireText1 = "Upgrade Kiln"
+requireName2 = "fbdowe"
+requireText2 = "Build Dower"
+requireName3 = "fbover"
+requireText3 = "Build/Upgrade Antenna Mound"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideCount = 6
+provideName6 = "fvsav66"
+////////////////////////////////////
+
+[CraftClass]
+IgnoreDestroyedTargets = true
+
+[HoverCraftClass]
+
+[SavClass]

@@ -1,0 +1,23 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fvscav"
+
+collisionRadius = 5.0
+
+/////// PROVIDES ///////////////////
+provideCount = 3
+provideName3 = "Scav"
+////////////////////////////////////
+
+[CraftClass]
+AttackTaskUsesGroups = false
+otherMsg = "fvscav11.wav"
+
+[TrackedVehicleClass]
+
+[TrackedDeployableClass]
+
+[ScavengerClass]
+BuildSparkConfig = "sparker"
+deployClass = "fbscav66"

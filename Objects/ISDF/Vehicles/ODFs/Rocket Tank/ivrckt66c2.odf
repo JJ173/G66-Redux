@@ -1,0 +1,20 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+baseName = "RTank"
+classLabel = "ivrckt66"
+
+/////// REQUIREMENTS ///////////////
+requireCount = 1
+requireName1 = "ibfact66c2"
+////////////////////////////////////
+
+[CraftClass]
+
+[TrackedVehicleClass]
+
+[AssaultTankClass]
+
+[Lod1]
+
+[Lod2]

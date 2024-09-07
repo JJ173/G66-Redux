@@ -1,0 +1,19 @@
+[GameObjectClass]
+baseName = "issold"
+classLabel = "ispilo"
+
+scrapValue = 0
+maxHealth = 250
+maxAmmo = 100
+addAmmo = 10
+unitName = "Tactical Soldier"
+aiName = "SoldierProcess"
+
+weaponName1 = "igripper_c"
+weaponName2 = "igripper_a"
+weaponName3 = "iggren"
+
+MaxChromeDistance = 80
+
+[CraftClass]
+DoBlastUsesFields = false

@@ -1,0 +1,41 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fvrpod"
+
+buildTime = 15.0
+customTime = 15.0
+
+unitName = "Mortar Pod"
+
+/////// REQUIREMENTS ///////////////
+requireCount = 2
+requireName1 = "fbforg"
+requireText1 = "Upgrade Kiln"
+requireName2 = "fbstro"
+requireText2 = "Build Stronghold"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideCount = 4
+provideName2 = "fvrpod66a"
+provideName3 = "fvmpod"
+provideName4 = "fvmpod66a"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponName1 = "glashpop66r"
+//////////////////////////////////// 
+
+turretCount = 3
+turretName3 = "HP_eyepoint"
+
+[CraftClass]
+rangeScan = 380.0
+engageRange = 350
+
+weaponPitch = 1.25
+
+[HoverCraftClass]
+
+[TurretTankClass]

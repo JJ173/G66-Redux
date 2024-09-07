@@ -1,0 +1,39 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+baseName = "Tank"
+classLabel = "ivtank66"
+
+aiAddAmmo = 40
+unitName = "Sabre"
+
+/////// REQUIREMENTS ///////////////
+requireCount = 1
+requireName1 = "ibfact66c2"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideName5 = "ivtank66c"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponAssault4 = 1
+////////////////////////////////////
+
+[CraftClass]
+attackTask = "MortarBikeAttack"
+subAttackTask = "MortarBikeSubAttack"
+subAttackClass = "ANS"
+
+// subAttackClass uses 3 letters.
+// 1st letter is either A or N.     A is include Air targets.         N is attack ground only.
+// 2nd letter is either D or N.     D is to deploy before attacking.  N for regular attack.
+// 3rd letter is either S or N.     S is to use Weapon Range.         N is use the Engage Range to attack. 
+
+avoidSpeed = 5;
+
+[HoverCraftClass]
+
+[Lod1]
+
+[Lod2]

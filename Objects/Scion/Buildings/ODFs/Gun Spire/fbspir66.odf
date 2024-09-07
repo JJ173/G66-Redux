@@ -1,0 +1,26 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fbspir"
+
+scrapValue = 30
+maxHealth = 6500
+heatSignature = 0.1
+
+/////// PROVIDES ///////////////////
+provideCount = 4
+provideName4 = "GunTower"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponName1 = "gmbolt66"
+////////////////////////////////////
+
+[BuildingClass]
+
+[CraftClass]
+periodScan = 1.0
+engageRange = 230
+IgnoreDestroyedTargets = true
+
+[TurretCraftClass]

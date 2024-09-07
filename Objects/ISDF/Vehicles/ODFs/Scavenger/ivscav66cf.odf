@@ -1,0 +1,24 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivscav66"
+collisionRadius = 10.0
+
+/////// REQUIREMENTS ///////////////
+requireCount = 1
+requireName1 = "MainBase"
+////////////////////////////////////
+
+[CraftClass]
+
+[TrackedVehicleClass]
+
+[TrackedDeployableClass]
+
+[ScavengerClass]
+deployClass = "ibscav66c"
+scrapFirst = true
+
+[Lod1]
+
+[Lod2]

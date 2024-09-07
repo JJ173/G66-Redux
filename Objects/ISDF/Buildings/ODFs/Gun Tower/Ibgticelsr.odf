@@ -1,0 +1,28 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ibgtoww1"
+
+scrapValue = 6
+maxHealth = 8500
+unitName = "Ice Laser Tower"
+
+/////// PROVIDES ///////////////////
+provideCount = 5
+provideName5 = "ibgtow"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponName1 = "gicelsr_a"
+weaponAssault1 = 1
+////////////////////////////////////
+
+[BuildingClass]
+
+[CraftClass]
+rangeScan = 260
+engageRange = 260
+
+[TurretCraftClass]
+
+detectRange = 260

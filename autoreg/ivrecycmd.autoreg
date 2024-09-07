@@ -1,7 +1,0 @@
-[RecyclerList]
-ODFName = "ivrecycmd"
-Description = "MPI-only: Commando Variant A"
-
-[RecyclerListMPI]
-ODFName = "ivrecycmd"
-Description = "MPI-only: Commando Variant A"

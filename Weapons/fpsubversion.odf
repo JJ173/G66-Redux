@@ -1,0 +1,23 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "aphand"
+scrapCost = 60
+unitName = "Subversion Rifle"
+
+/////// REQUIREMENTS ///////////////
+requireCount = 4
+requireName1 = "fbforg"
+requireText1 = "Build/Upgrade Kiln"
+requireName2 = "fbstro"
+requireText2 = "Build Stronghold"
+requireName3 = "fbdowe"
+requireText3 = "Build Dowe"
+requireName4 = "fbover"
+requireText4 = "Build/Upgrade Antenna Mound"
+////////////////////////////////////
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "fgsubversion_c"

@@ -1,7 +1,0 @@
-[RecyclerListMPI]
-ODFName = "ivrecyonb"
-Description = "MPI-only: Smart Repair Units, no TTB"
-
-[IAHumanRecyclerList]
-ODFName = "ivrecyonb"
-Description = "Smart Repair Units"

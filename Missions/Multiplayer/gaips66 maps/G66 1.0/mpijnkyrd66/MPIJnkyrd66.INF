@@ -60,6 +60,7 @@ svar3 = "gaips66" // custom AIP files
 svar4 = "MPVehicles66.odf"
 svar5 = "ivrecy_m66m"
 svar7 = "g66" // custom configuration shell
+svar8 = "G66Check.odf"
 svar9 = "G6620Recylist.txt"
 svar10 = "G6620aiplist.txt"
 svar11 = "Rogues"

@@ -1,0 +1,23 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fbantm"
+unitName = "Antenna Mound"
+
+/////// PROVIDES ///////////////////
+provideCount = 6
+provideName6 = "Bunker"
+////////////////////////////////////
+
+[PoweredBuildingClass]
+
+[BuildingClass]
+
+[CommTowerClass]
+
+[CommBunkerClass]
+periodScan = 5.0
+MinViewDist = 50.0	// If specified, minimum height of commbunker view
+MaxViewDist = 350.0	// If specified, maximim height of commbunker view
+
+[Lod1]

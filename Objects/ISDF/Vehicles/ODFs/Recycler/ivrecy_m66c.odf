@@ -1,0 +1,26 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivrecy"
+
+/////// PROVIDES ///////////////////
+provideCount = 5
+provideName5 = "ivrecy_m66c"
+////////////////////////////////////
+
+[CraftClass]
+
+[TrackedVehicleClass]
+accelThrust = 30.0
+
+[TrackedDeployableClass]
+
+[DeployBuildingClass]
+BuildSparkConfig = "sparker"
+deployName = "ibrecy_m66c"
+
+DoExtraBuildzoneCheck = false // false = 1.0 .. 1.3pb1 behavior, true = pb2 .. current
+
+[RecyclerVehicleClass]
+
+[Lod1]

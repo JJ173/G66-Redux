@@ -1,0 +1,49 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fvwalk"
+collisionRadius = 5.0
+
+/////// WEAPONS ////////////////////
+weaponMask = 00011
+////////////////////////////////////
+
+[CraftClass]
+periodScan = 1.0
+engageRange = 200
+
+braccelFactor = 0.1f;
+strafeFactor = 0.1f;
+steerFactor = 1.0f;
+omegaFactor = 1.0f;
+velFactor = 1.0f;
+
+// subAttackClass uses 3 letters.
+// 1st letter is either A or N.      A is include Air targets.		       N is attack ground only.
+// 2nd letter is either D or N.     D is to deploy before attacking.	N for regular attack.
+// 3rd letter is either S or N.      S is to use Weapon Range.		  N is use the Engage Range to attack. 
+
+attackTask = "AssaultTankAttack"
+subAttackTask = "SupportSubAttack"
+subAttackClass = "NNN"
+
+SitTaskEnemySearchDist = 200.0
+OffensiveProcessMadTime = 1.0
+
+AttackTaskUsesGroups = false
+GotoTaskHasLeader = false
+IgnoreDestroyedTargets = true
+
+PathingType = 0		// -1 = auto, 0 = Hover, 1 = Walker, 2 = Person, 3 = Tracked, 4 = Flyer
+AvoidType = 2		// -1 = auto, 0 = None, 1 = force, 2 = plan
+
+topSpeed = 50
+avoidSpeed = 5
+
+[WalkerClass]
+accelBrake = 10.0
+accelDragStop = 6.0
+alphaDamp = 15.0
+alphaSteer = 1.0
+omegaSpin = 1.0
+omegaTurnAttenuation = 0.35f

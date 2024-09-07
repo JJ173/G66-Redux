@@ -1,0 +1,20 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivbomb66"
+
+/////// REQUIREMENTS ///////////////
+requireName1 = "ibfact66c"
+requireName2 = "ibbomb66c"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideName1 = "ivbomb66c"
+////////////////////////////////////
+
+[CraftClass]
+DoIdleDispatch = false
+
+[HoverCraftClass]
+
+[BomberClass]

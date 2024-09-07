@@ -1,0 +1,79 @@
+[WeaponClass]
+classLabel = "chargegun"
+
+// external geometry
+geometryName = "igsnip_skel.fbx"
+
+// cockpit geometry
+cockpitName = "iwrifl_cockpit_skel.fbx"
+
+animCount = 4
+animName1 = "stand"
+animFile1 = "igsnip_skel.fbx"
+animName2 = "walk"
+animFile2 = "igsnip_skel.fbx"
+animName3 = "crouch"
+animFile3 = "igsnip_deploy.fbx"
+animName4 = "jump"
+animFile4 = "igsnip_skel.fbx"
+
+animCountCockpit = 4
+animNameCockpit1 = "stand"
+animFileCockpit1 = "iwrifl_cockpit_skel.fbx"
+animNameCockpit2 = "walk"
+animFileCockpit2 = "iwrifl_cockpit_run.fbx"
+animNameCockpit3 = "crouch"
+animFileCockpit3 = "iwrifl_cockpit_sniper.fbx"
+animNameCockpit4 = "jump"
+animFileCockpit4 = "iwrifl_cockpit_skel.fbx"
+
+ordName = NULL
+wpnName = "Subversion"
+fireSound = "flash01.wav"
+wpnReticle = "gflashgn"
+wpnCategory = "HAND"
+altName = "igsubversion_a"
+isAssault = 0
+aiRange = 225
+flashName = "igsubversion_c.flash"
+localAmmo = 0
+
+[ChargeGunClass]
+startRate = 11025.0
+deltaRate = 4000.0
+startVolume = 40.0
+deltaVolume = 20.0
+
+ordnanceCount = 2
+
+shotDelay1 = 0.0
+salvoCount1 = 1
+salvoDelay1 = 0
+shotVariance1 = 0.0
+fireSound1 = "xmag02.wav"
+ordName1 = NULL
+wpnReticle1 = "gmaggun.0"
+
+shotDelay2 = 5
+salvoCount2 = 20
+salvoDelay2 = 0.1
+shotVariance2 = 0.0
+fireSound2 = "xmag03.wav"
+ordName2 = "subvertbeam"
+wpnReticle2 = "gmaggun.1"
+
+holdRate = 200.0
+
+
+[Flash]
+simulateBase = "sim_null"
+lifeTime = 0.2
+renderBase = "draw_light"
+startColor = "159 0 0 255"
+finishColor = "159 0 0 0"
+startRadius = 10.0
+finishRadius = 1.0
+animateTime = 0.2
+attenuateConstant = 0.0
+attenuateLinear = 0.0
+attenuateQuadratic = 4.0

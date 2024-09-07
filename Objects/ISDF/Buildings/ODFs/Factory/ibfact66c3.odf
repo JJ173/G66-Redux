@@ -1,0 +1,23 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ibfact"
+powerCost = 0
+
+/////// PROVIDES ///////////////////
+provideCount = 7
+provideName3 = "UnitFactory"
+provideName4 = "ibfact66c2"
+provideName5 = "ibfact66c"
+provideName6 = "Assembler"
+provideName7 = "UnitFactory2"
+////////////////////////////////////
+
+[PoweredBuildingClass]
+
+[BuildingClass]
+
+[FactoryClass]
+BuildSparkConfig = "sparker"
+
+[Lod1]

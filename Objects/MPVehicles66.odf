@@ -1,0 +1,87 @@
+//
+// MPVehicles.odf - listing of multiplayer vehicles usable in BZ2
+//
+//
+// Tip: do not put .odf extension on cfg# = "" entries; added automatically on loading
+//
+
+[MPVehicles]
+xsi1 = "ivscout00.fbx"
+cfg1 = "ivscout66m"
+Description1 = "Thunderbolt"
+
+xsi2 = "fvscout_skel.fbx"
+cfg2 = "fvsscout"
+Description2 = "Drone"
+
+xsi3 = "ivtank00.fbx"
+cfg3 = "ivtank66m"
+Description3 = "Sabre"
+
+xsi4 = "fvtank_skel.fbx"
+cfg4 = "fvtank66"
+Description4 = "Warrior"
+
+xsi5 = "ivmbik00.fbx"
+cfg5 = "ivsmbike"
+Description5 = "Jackal"
+
+xsi6 = "fvsent_skel.fbx"
+cfg6 = "fvsent66"
+Description6 = "Sentry"
+
+xsi7 = "ivmisl00.fbx"
+cfg7 = "ivmisl66m"
+Description7 = "Avenger"
+
+xsi8 = "fvlancer_skel.fbx"
+cfg8 = "fvsarch"
+Description8 = "Lancer"
+
+xsi9 = "ivltank.fbx"
+cfg9 = "ivltank66m"
+Description9 = "Puma"
+
+xsi10 = "fvltank_skel.xsi"
+cfg10 = "fvltank66m"
+Description10 = "Dragoon"
+
+xsi11 = "ivatnk00.fbx"
+cfg11 = "ivsatank"
+Description11 = "Bulldog"
+
+xsi12 = "ivrckt00.fbx"
+cfg12 = "ivsrckt"
+Description12 = "Rocket Tank"
+
+xsi13 = "ivwalk_skel.fbx"
+cfg13 = "ivwalk66m"
+Description13 = "Attila"
+
+xsi14 = "ivturr00.fbx"
+cfg14 = "ivturr66"
+Description14 = "Rattler"
+
+xsi15 = "fvtitan_skel.fbx"
+cfg15 = "fvsatank"
+Description15 = "Titan"
+
+xsi16 = "fvwalk_skel.fbx"
+cfg16 = "fvswalk66"
+Description16 = "Mauler"
+
+xsi17 = "fvturr_skel.fbx"
+cfg17 = "fvturr66"
+Description17 = "Guardian"
+
+xsi18 = "ivintc00.xsi"
+cfg18 = "ivsintc"
+Description18 = "Interceptor"
+
+xsi19 = "ivltwalk_skel.xsi"
+cfg19 = "ivsltwalk"
+Description19 = "Landmaster"
+
+xsi20 = "fvgorgon_skel.xsi"
+cfg20 = "fvgorg66m"
+Description20 = "Gorgon"

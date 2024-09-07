@@ -1,0 +1,39 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fvatank"
+
+collisionRadius = 10.0
+aiAddAmmo = 40
+
+/////// PROVIDES ///////////////////
+provideCount = 5
+provideName5 = "fvatank66"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponMask = 00011
+weaponName1 = "gsplasma_c"
+weaponAssault1 = 1
+weaponName2 = "gsplasma_c"
+weaponAssault2 = 1
+weaponName3 = "giongn66c"
+weaponName4 = "giongn66c"
+////////////////////////////////////
+
+[CraftClass]
+IgnoreDestroyedTargets = true
+
+// subAttackClass uses 3 letters.
+// 1st letter is either A or N.     A is include Air targets.         N is attack ground only.
+// 2nd letter is either D or N.     D is to deploy before attacking.  N for regular attack.
+// 3rd letter is either S or N.     S is to use Weapon Range.         N is use the Engage Range to attack. 
+
+attackTask = "AssaultTankAttack"
+subAttackTask = "SupportSubAttack"
+subAttackClass = "NNN"
+
+[TrackedVehicleClass]
+accelThrust = 10.0
+
+[AssaultTankClass]

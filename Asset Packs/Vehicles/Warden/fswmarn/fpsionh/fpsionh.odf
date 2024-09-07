@@ -1,0 +1,18 @@
+[GameObjectClass]
+baseName = "fpsnip"
+classLabel = "aphand"
+
+scrapCost = 30
+
+unitName = "Scion Gatling Ion Gun"
+
+requireCount = 2
+requireName1 = "fbantm"
+requireText1 = "Build Antenna Mound"
+requireName2 = "fbover"
+requireText2 = "Upgrade Antenna Mound"
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "fgsionh_c"

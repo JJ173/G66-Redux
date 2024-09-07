@@ -1,0 +1,11 @@
+[emit_scontrail1]
+renderBase = "draw_trail"
+textureName = "trail2.tga"
+textureBlend = "one one modulate"
+startColor = "255 127 0 255"
+finishColor = "127 127 127 0"
+startRadius = 1.0
+finishRadius = 2.0
+segmentTime = 3.0
+textureRate = 0.05
+animateTime = 3.0

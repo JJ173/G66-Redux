@@ -1,0 +1,23 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivtank66m"
+
+aiAddAmmo = 40
+
+/////// PROVIDES ///////////////////
+provideName5 = "ivcttank02"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponName2 = "gchaingn66c"
+weaponName3 = "gchaingn66c"
+////////////////////////////////////
+
+[CraftClass]
+
+[HoverCraftClass]
+
+[Lod1]
+
+[Lod2]

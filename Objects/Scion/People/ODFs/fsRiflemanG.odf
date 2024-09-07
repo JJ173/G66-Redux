@@ -1,0 +1,23 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fsRifleman"
+
+needGroup = 1 // need free group to build 
+isLimited = 1 // add to the limit count 
+needLimit = 1 // need free limit to build 
+canSelect = 1
+
+scrapCost = 10
+buildTime = 10
+maxHealth = 150
+
+/////// REQUIREMENTS ///////////////
+requireCount = 1
+requireName1 = "fbstro66m"
+requireText1 = "Build Stronghold"
+////////////////////////////////////
+
+[CraftClass]
+
+[PersonClass]

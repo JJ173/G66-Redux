@@ -1,0 +1,41 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+baseName = "SiegeTank"
+classLabel = "ivxnat"
+customCost = 100
+aiAddHealth = 10
+
+/////// REQUIREMENTS ///////////////
+requireName1 = "ibarmo"
+requireName2 = "ibtrain66c"
+requireName3 = "ibtcen"
+requireName4 = "ibbomb66c"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideName1 = "ivxnat66s"
+////////////////////////////////////
+
+[CraftClass]
+strafeFactor = 0.1
+weaponPitch = 1.5
+MustBeLinedUpToFire = true		// Defaults to true for artillery(==archers)
+
+attackTask = "ArtlAttack"
+subAttackTask = "ArtlAttack"
+subAttackClass = "NNS"
+
+// subAttackClass uses 3 letters.
+// 1st letter is either A or N.     A is include Air targets.         N is attack ground only.
+// 2nd letter is either D or N.     D is to deploy before attacking.  N for regular attack.
+// 3rd letter is either S or N.     S is to use Weapon Range.         N is use the Engage Range to attack. 
+
+[TrackedVehicleClass]
+
+[AssaultTankClass]
+pitchMax = 1.5
+
+[Lod1]
+
+[Lod2]

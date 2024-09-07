@@ -1,0 +1,25 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivrckt66"
+
+/////// PROVIDES ///////////////////
+provideCount = 6
+provideName6 = "ivctrckt2"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponName1 = "gfafmsl_c"
+weaponName2 = "gfafmsl_c"
+weaponName3 = "gfafmsl_a"
+////////////////////////////////////
+
+[CraftClass]
+
+[TrackedVehicleClass]
+
+[AssaultTankClass]
+
+[Lod1]
+
+[Lod2]

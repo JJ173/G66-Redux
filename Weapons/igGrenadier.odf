@@ -1,0 +1,19 @@
+[WeaponClass]
+classLabel = "mortar"
+geometryName = "igbzka_skel.xsi"
+geometryScale = 0.12
+ordName = "igrenadeRD"
+wpnName = "Concussion Grnd"
+wpnIcon = "wire_iggren%d.tga"
+fireSound = "mort01.wav"
+wpnReticle = "gmortar"
+wpnLadder = "gmortar.L0"
+wpnCategory = "HAND"
+isFlying = 1
+
+aiRange = 200
+
+//localAmmo = 10
+
+[CannonClass]
+shotDelay = 2.0

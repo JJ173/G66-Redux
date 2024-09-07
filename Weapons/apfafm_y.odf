@@ -1,0 +1,22 @@
+[GameObjectClass]
+classLabel = "aprocket"
+scrapCost = 40
+unitName = "FAF II"
+
+heatsignature = 0.0
+imageSignature = 0.0
+
+/////// REQUIREMENTS ///////////////
+requireCount = 3
+requireName1 = "ibarmo66m"
+requireText1 = "Build Armory"
+requireName2 = "ibsbay"
+requireText2 = "Build Service Bay"
+requireName3 = "ibtcen"
+requireText3 = "Build Tech Center"
+////////////////////////////////////
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "gfafmsl_y"

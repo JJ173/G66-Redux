@@ -1,0 +1,17 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+geometryName = "aprepa00.xsi"
+classLabel = "aprepa"
+scrapCost = 3
+
+/////// REQUIREMENTS ///////////////
+requireCount = 1
+requireName1 = "ibsbay"
+requireText1 = "Build Service Bay"
+////////////////////////////////////
+
+[PowerUpClass]
+
+[HealthPowerupClass]
+healthUp = 800

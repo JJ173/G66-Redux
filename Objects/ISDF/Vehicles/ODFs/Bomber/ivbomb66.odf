@@ -1,0 +1,23 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivbomb"
+explosionName = "xbmbr66xpl"
+
+/////// PROVIDES ///////////////////
+provideCount = 5
+provideName4 = "BomberCraft"
+provideName5 = "ivbomb66"
+////////////////////////////////////
+
+[CraftClass]
+IgnoreDestroyedTargets = true
+TeamTransferrable = true
+
+[HoverCraftClass]
+setAltitude = 4.0
+velocForward = 35.0
+
+[BomberClass]
+AltitudeLookahead = 0.1
+bombName = "apwrck66" // default loadout

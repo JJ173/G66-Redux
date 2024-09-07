@@ -1,0 +1,16 @@
+[GameObjectClass]
+baseName = "aplase"
+classLabel = "apgun"
+
+scrapCost = 20
+
+unitName = "Laser AR"
+
+requireCount = 1
+requireName1 = "ibsbay"
+requireText1 = "Build Service Bay"
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "galaser_a"

@@ -1,0 +1,77 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+baseName = "ibagtow"
+geometryName = "ibatow00_gh_a1.fbx"
+cockpitName = "ibatow00_gh_a1_cockpit.fbx"
+classLabel = "turret"
+collisionRadius = 1.0
+scrapCost = 100
+scrapValue = 15
+maxHealth = 8500
+maxAmmo = 10000 // 0 is *not* treated as infinite ammo!
+unitName = "Assault Tower"
+aiName = "GunTowerFriend"
+aiName2 = "GunTowerEnemy"
+heatSignature = 2.0
+imageSignature = 1.0
+radarSignature = 1.0
+isAssault = 1
+
+armorClass = H
+
+powerCost = 0		//<<< added for cpu only
+
+buildSupport = "A"
+buildRequire = "F"
+
+/////// REQUIREMENTS ///////////////
+requireCount = 2
+requireName1 = "ibcbun"
+requireText1 = "Build Relay Bunker"
+requireName2 = "ibtcen"
+requireText2 = "Build Tech Center"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideCount = 1
+provideName1 = "ibagtow"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponMask = 00011
+weaponHard1 = "hp_cannon_1"
+recoilName1 = "recoil_1"
+weaponName1 = "gomburst3_a"
+////////////////////////////////////
+
+/////// LIGHTS and EFFECTS /////////
+lightHard1 = "hp_light_1"
+lightName1 = "spotred"
+////////////////////////////////////
+
+turretCount = 2
+turretName1 = "turret_y_1"
+turretName2 = "turret_x_1"
+
+[BuildingClass]
+soundAmbient = "igtow01.wav"
+
+[CraftClass]
+rangeScan = 280		//300
+periodScan = 0.0
+velocJam = 0.0
+weaponPitch = 1.5
+steerFactor = 0.5
+engageRange = 260
+IgnoreDestroyedTargets = true
+
+attackTask = "AssaultTankAttack"
+subattackTask = "SupportSubAttack"
+subAttackClass = "ANS"
+
+[TurretCraftClass]
+omegaTurret = 2.0
+detectRange = 260	//210
+
+[Lod1]

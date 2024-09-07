@@ -1,0 +1,22 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivmisl66m"
+
+/////// PROVIDES ///////////////////
+provideName4 = "ivctmisl06"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponName1 = "gheatrkt_c"
+weaponName2 = "gheatrkt_c"
+weaponName3 = "gphantom"
+////////////////////////////////////
+
+[CraftClass]
+
+[HoverCraftClass]
+
+[Lod1]
+
+[Lod2]

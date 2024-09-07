@@ -1,0 +1,138 @@
+[GameObjectClass]
+baseName = "fvchrt"
+geometryName = "fvchrt.fbx" //"fvburn00.fbx"
+classLabel = "wingman"
+//animCount = 1
+//animName1 = "deploy"
+//animFile1 = "fvburn00.fbx"
+scrapValue = 30
+scrapCost = 100
+customCost = 110
+buildTime = 30.0
+customTime = 35.0
+maxHealth = 4000
+maxAmmo = 3800
+addAmmo = 6.0
+addhealth = 5.0
+
+FactoryWeaponConfig = "fweapon_chariot.odf"
+
+//isSingle = true //Rule of cool. Why not more?
+
+unitName = "Chariot"
+aiName = "TankFriend"
+aiName2 = "TankEnemy"
+
+heatSignature = 0.5
+imageSignature = 3.0
+radarSignature = 0.1
+
+isAssault = 1
+
+armorClass = H
+
+/////// REQUIREMENTS ///////////////
+
+requireCount = 4
+requireName1 = "fbforg"
+requireText1 = "Build Forge"
+requireName2 = "fbstro"
+requireText2 = "Build Stronghold"
+requireName3 = "fbover"
+requireText3 = "Upgrade Antenna"
+requireName4 = "fbencl"
+requireText4 = "Build Enclave"
+
+////////////////////////////////////
+
+
+/////// PROVIDES ///////////////////
+
+provideCount = 3
+provideName1 = "fvchrt"
+provideName2 = "VIRTUAL_CLASS_TANK"
+provideName3 = "DefendUnit"
+
+////////////////////////////////////
+
+
+/////// weapons ////////////////////
+
+weaponMask = 01011
+weaponHard1 = "HP_CANNON_3"
+weaponName1 = "gasplasma_c"
+weaponAssault1 = 0
+
+weaponHard2 = "HP_CANNON_4"
+weaponName2 = "gasplasma_c"
+weaponAssault2 = 0
+
+weaponHard3 = "HP_MORTAR_1"
+weaponName3 = ""
+weaponAssault3 = 0
+
+weaponHard4 = "HP_SPECIAL_1"
+weaponName4 = "gspsraid"
+weaponAssault4 = 0
+
+weaponHard5 = "HP_SHIELD"
+weaponName5 = ""
+weaponAssault5 = 0
+
+////////////////////////////////////
+
+	
+[CraftClass]
+rangeScan = 450.0f
+periodScan = 5.0f
+velocJam = 5.0f
+engageRange = 120
+
+selectWaitMsg = "fvchrt01.wav" 	// "Copy" 				// "fvtank04.wav"
+selectAttackMsg = "fvchrt10.wav" 	// "I'm under fire" 		// "fvtank01.wav"
+selectFollowMsg = "fvchrt08.wav" 	// "Let them not die in vain" // "fvtank03.wav"
+selectGoMsg = "fvchrt07.wav"		// "I understand"			// "fvtank02.wav"
+selectOtherMsg = "fvchrt01.wav" 	// "Copy" 				// "fvtank04.wav"
+
+holdMsg = "fvchrt05.wav" 		// "Good" 				// "fvtank12.wav"
+goMsg = "fvchrt11.wav" 			// "You've got it"  		// "fvtank05.wav"
+attackMsg =  "fvchrt02.wav" 		// "Destroying it"		// "fvtank06.wav"
+followMeMsg = "fvchrt04.wav" 		// "Excellent"			// "fvtank08.wav"
+followMsg = "fvchrt08.wav" 		// "Let them not die in vain" // "fvtank03.wav"
+repairMsg = "fvchrt09.wav" 		// "Thanks" 			// "fvtank09.wav"
+reloadMsg = "fvchrt09.wav" 		// "Thanks" 			// "fvtank09.wav"
+rescueMsg = "fvchrt05.wav" 		// "Good" 				// "fvtank10.wav"
+recycleMsg = "fvchrt07.wav"		// "I understand" 		// "fvtank05.wav"
+otherMsg = "fvchrt07.wav"		// "I understand" 		// "fvtank05.wav"
+
+user1Msg = ""  
+killedMsg = "fvchrt03.wav"		// "Engaged the enemy"		// "fvtank07.wav"
+diedMsg = ""
+
+UseSelectWeapon = false
+
+[HoverCraftClass]
+setAltitude = 2.0
+accelDragStop = 20.0
+accelDragFull = 1.
+alphaTrack = 20.0
+alphaDamp = 5.0
+pitchPitch = 0.25
+pitchThrust = 0.1
+rollStrafe = 0.1
+rollSteer = 0.1
+
+velocForward = 24.0
+velocReverse = 16.0
+velocStrafe = 18.0
+accelThrust = 20.0
+accelBrake = 75.0
+omegaSpin = 3.5
+omegaTurn = 1.5
+alphaSteer = 5.0
+accelJump = 20.0
+
+soundThrust = "avrckte0.wav"
+soundTurbo = "avrckte1.wav"
+
+

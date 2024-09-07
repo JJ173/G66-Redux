@@ -1,0 +1,17 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fbspir66"
+scrapCost = 15
+scrapValue = 10
+
+[BuildingClass]
+
+[CraftClass]
+rangeScan = 300.0
+
+attackTask = "ArtlAttack"
+subAttackTask = "ArtlSubAttack"
+subAttackClass = "ANS"	// include air units as attack targets only when deployed
+
+[TurretCraftClass]

@@ -1,0 +1,32 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "seeker"
+geometryName = "sgseek00.fbx"
+geometryScale = 1.2
+collisionRadius = 0.0
+scrapCost = 0
+scrapValue = 0
+maxHealth = 0
+maxAmmo = 0
+unitName = "Night Vision"
+canDetect = 0
+canInteract = 0
+canCollide = 0
+heatSignature = 0.0
+imageSignature = 0.0
+radarSignature = 0.0
+
+armorClass = H
+
+lightHard1 = "hp_light_1"
+lightName1 = "nightvision2"
+
+[MineClass]
+lifeSpan = 30.0
+xplBlast = NULL
+
+[SeekerClass]
+searchRange = 0.0
+floatVeloc = 0.0005
+setAltitude = 50.0

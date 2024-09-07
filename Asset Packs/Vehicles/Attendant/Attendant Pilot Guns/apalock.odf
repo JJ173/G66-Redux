@@ -1,0 +1,16 @@
+[GameObjectClass]
+baseName = "aplock"
+classLabel = "apgun"
+
+scrapCost = 30
+
+unitName = "EMP Lockdown"
+
+requireCount = 1
+requireName1 = "fbantm"
+requireText1 = "Build Antenna Mound"
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "galock_c"

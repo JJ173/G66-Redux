@@ -1,0 +1,19 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "appack"
+scrapCost = 30
+unitName = "Grenade Pack"
+
+/////// REQUIREMENTS ///////////////
+requireCount = 2
+requireName1 = "fbantm"
+requireText1 = "Build Antenna Mound"
+requireName2 = "fbover"
+requireText2 = "Build/Upgrade Antenna Mound"
+////////////////////////////////////
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "fggren"

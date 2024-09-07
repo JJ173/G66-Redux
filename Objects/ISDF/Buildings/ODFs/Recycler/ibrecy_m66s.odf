@@ -1,0 +1,35 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ibrecy66"
+
+[PoweredBuildingClass]
+
+[BuildingClass]
+
+[FactoryClass]
+BuildSparkConfig = "sparker"
+buildItem3 = ""
+buildItem4 = ""
+buildItem5 = ""
+buildItem6 = ""
+buildItem7 = ""
+
+[BuildGroup1]
+buildLabel = "Combat Units"
+buildItem1 = "ivscout"
+buildItem2 = "ivturr"
+buildItem3 = "ivscout_m"
+buildEmptyItem = 3
+
+[BuildGroup2]
+buildLabel = "Service Units"
+buildItem1 = "ivscav"
+buildItem2 = "ivtug"
+buildItem3 = "ivcons66s"
+buildItem4 = "ivserv"
+buildItem5 = "apserv"
+
+[RecyclerClass]
+
+[Lod1]

@@ -1,0 +1,41 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivserv"
+needPilot = 0
+aiAddAmmo = 40
+
+/////// REQUIREMENTS ///////////////
+requireCount = 1
+requireName1 = "ibsbay"
+requireText1 = "Build Service Bay"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideCount = 4
+provideName3 = "ivserv66f"
+provideName4 = "RepairTruck"
+////////////////////////////////////
+
+[CraftClass]
+IgnoreDestroyedTargets = true
+engageRange = 40
+steerFactor = 1.4
+
+[TrackedVehicleClass]
+omegaSpin = 2.0
+omegaTurn = 0.75
+alphaSteer = 3.0
+
+[ServiceTruck]
+// Individual classification tweakers
+serviceSTs = 1
+serviceBuildings = 1
+
+[Supply]
+
+[Halo]
+
+[Bolt]
+
+[Lod1]

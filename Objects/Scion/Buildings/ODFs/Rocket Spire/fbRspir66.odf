@@ -1,0 +1,77 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+mrmFactor = 0
+baseName = "rtow"
+geometryName = "fbrspir00_gh.fbx"
+classLabel = "turret"
+collisionRadius = 1.0
+scrapCost = 75
+scrapValue = 30
+powerCost = 0
+maxHealth = 6000
+maxAmmo = 10000
+unitName = "Rocket Spire"
+aiName = "SupportProcess"
+aiName2 = "SupportProcess"
+heatSignature = 2.0
+imageSignature = 1.0
+radarSignature = 1.0
+isAssault = 1
+
+armorClass = H
+
+buildSupport = "A"
+buildRequire = "F"
+
+/////// REQUIREMENTS ///////////////
+requireCount = 0
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideCount = 3
+provideName1 = "fbspir"
+provideName2 = "fbRspir66"
+provideName3 = "RocketTower"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponMask = 00111
+weaponHard1 = "hp_rocket_1"
+weaponName1 = "gsting66_c"
+weaponHard2 = "hp_rocket_2"
+weaponName2 = "gsting66_c"
+weaponHard3 = "hp_rocket_3"
+weaponName3 = "gsting66_c"
+////////////////////////////////////
+
+turretCount = 2
+turretName1 = "turret_y"
+turretName2 = "turret_x"
+
+[BuildingClass]
+soundAmbient = "sgtow01.wav"
+
+[CraftClass]
+rangeScan = 200.0
+periodScan = 0.0
+velocJam = 0.0
+weaponPitch = 1.5
+steerFactor = 1.0
+engageRange = 200
+IgnoreDestroyedTargets = true
+
+// subAttackClass uses 3 letters.
+// 1st letter is either A or N.     A is include Air targets.         N is attack ground only.
+// 2nd letter is either D or N.     D is to deploy before attacking.  N for regular attack.
+// 3rd letter is either S or N.     S is to use Weapon Range.         N is use the Engage Range to attack. 
+
+attackTask = "AssaultTankAttack"
+subattackTask = "SupportSubAttack"
+subAttackClass = "ANS"
+
+[TurretCraftClass]
+powerTap1 = "hp_tap_1"
+powerName = "fblung"
+omegaTurret = 2.0
+detectRange = 200

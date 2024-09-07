@@ -1,0 +1,26 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivturr66"
+
+collisionRadius = 10.0
+aiAddAmmo = 40
+
+/////// PROVIDES ///////////////////
+provideCount = 4
+provideName4 = "ivctturr2"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponName1 = "gfluxgn66a"
+weaponName2 = "gfluxgn66a"
+////////////////////////////////////
+
+[CraftClass]
+IgnoreDestroyedTargets = true
+
+[HoverCraftClass]
+
+[DeployableClass]
+
+[TurretTankClass]

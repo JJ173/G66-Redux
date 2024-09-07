@@ -1,8 +1,8 @@
 [DESCRIPTION]
-missionName = "Bridges"
-mapTga = "bridges2i.bmp"
+missionName = "G66: Bridges"
+mapTga = "bridges.bmp"
 mapDesc = "bridges2i.des"
-
+mySide = 1
 
 Aware_v13 = true
 

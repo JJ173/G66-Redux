@@ -1,0 +1,21 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fvturr66"
+
+/////// REQUIREMENTS ///////////////
+requireCount = 1
+requireName1 = "MainBase"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideName3 = "fvturr66m"
+////////////////////////////////////
+
+[CraftClass]
+
+[HoverCraftClass]
+
+[DeployableClass]
+
+[TurretTankClass]

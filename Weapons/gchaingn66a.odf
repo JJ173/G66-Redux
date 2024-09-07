@@ -1,0 +1,101 @@
+// MP-MG Chain Gun Assault Weapon Definition
+// Revision for "Route 66" Mod by Natty Bumppo
+// Based on original version by Pandemic Studios
+
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[WeaponClass]
+classLabel = "gchain_a"
+altName = "gchaingn66c"
+ordName = "chaingn66a"
+fireSound = "gchain01.wav"
+aiRange = 150
+flashName = "gchaingn66a.flash"
+
+[CannonClass]
+shotVariance = 0.02
+
+[Flash]
+renderBase = "draw_multi"
+renderCount = 5
+renderName1 = "gchaingn66a.fFlash1"
+renderName2 = "gchaingn66a.fFlash2"
+renderName3 = "gchaingn66a.sFlash"
+renderName4 = "gchaingn66a.Shell"
+renderName5 = "gchaingn66a.Smoke"
+
+[fFlash1]
+renderBase = "draw_geom"
+textureName = "flash66.tga"
+textureBlend = "one one modulate"
+startColor = "255 127 0 255"
+finishColor = "255 127 0 0"
+startRadius = 2.5
+finishRadius = 0.8
+animateTime = 0.1
+geomName = "g_sflash.xsi"
+
+[fFlash2]
+renderBase = "draw_geom"
+textureName = "flash66.tga"
+textureBlend = "one one modulate"
+startColor = "255 223 0 255"
+finishColor = "255 223 0 0"
+startRadius = 1.2
+finishRadius = 0.4
+animateTime = 0.1
+geomName = "g_sflash.xsi"
+
+[sFlash]
+renderBase = "draw_geom"
+textureName = "sflash66.tga"
+textureBlend = "one one modulate"
+startColor = "255 127 0 255"
+finishColor = "255 127 0 0"
+startRadius = 3.0
+finishRadius = 1.2
+animateTime = 0.1
+geomName = "g_sflash.xsi"
+
+[Shell]
+simulateBase = "sim_smoke"
+lifeTime = 0.1
+renderBase = "draw_emit"
+emitName = "gchaingn66a.ShellEmit"
+emitDelay = 0.1
+emitVelocity = "2.0 3.0 0.0"
+emitVariance = "1.0 1.0 0.3"
+
+[ShellEmit]
+simulateBase = "sim_ember"
+lifeTime = 2.5
+renderBase = "draw_twirl"
+textureName = "casing66b.tga"
+textureBlend = "one one modulate"
+startColor = "127 95 0 255"
+finishColor = "127 95 0 255"
+startRadius = 0.12
+finishRadius = 0.12
+animateTime = 2.5
+rotationRate = 0.1
+
+[Smoke]
+simulateBase = "sim_dust"
+lifeTime = 0.4
+renderBase = "draw_emit"
+emitName = "gchaingn66a.SmokeEmit"
+emitDelay = 0.4
+emitVelocity = "0.0 1.0 0.0"
+emitVariance = "0.1 0.8 0.1"
+
+[SmokeEmit]
+simulateBase = "sim_smoke"
+lifeTime = 2.0
+renderBase = "draw_twirl"
+textureName = "smoke.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "127 127 127 255"
+finishColor = "127 127 127 0"
+startRadius = 0.1
+finishRadius = 0.24
+animateTime = 2.0

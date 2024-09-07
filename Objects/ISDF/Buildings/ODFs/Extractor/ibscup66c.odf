@@ -1,0 +1,10 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ibscup66"
+unitName = "Extractor II"
+
+[BuildingClass]
+
+[ExtractorClass]
+initDelay = 1.0

@@ -1,0 +1,37 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fvscout"
+
+collisionRadius = 10.0
+aiAddAmmo = 30
+
+/////// REQUIREMENTS ///////////////
+requireCount = 1
+requireName1 = "MainBase"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideCount = 4
+provideName4 = "fvscout66"
+////////////////////////////////////
+
+[CraftClass]
+IgnoreDestroyedTargets = true
+
+// subAttackClass uses 3 letters.
+// 1st letter is either A or N.     A is include Air targets.         N is attack ground only.
+// 2nd letter is either D or N.     D is to deploy before attacking.  N for regular attack.
+// 3rd letter is either S or N.     S is to use Weapon Range.         N is use the Engage Range to attack.
+
+attackTask = "MortarBikeAttack"
+subAttackTask = "MortarBikeSubAttack"
+subAttackClass = "NNN"
+
+[HoverCraftClass]
+
+[MorphTankClass]
+addAmmo = 2.0
+aiAddAmmo = 3.0
+
+[DeployableClass]

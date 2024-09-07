@@ -1,0 +1,14 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivbomb66"
+
+/////// PROVIDES ///////////////////
+provideName5 = "ivbomb66m"
+////////////////////////////////////
+
+[CraftClass]
+
+[HoverCraftClass]
+
+[BomberClass]

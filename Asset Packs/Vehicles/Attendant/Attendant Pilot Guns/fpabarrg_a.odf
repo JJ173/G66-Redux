@@ -1,0 +1,18 @@
+[GameObjectClass]
+baseName = "apiong"
+classLabel = "apgun"
+
+scrapCost = 20
+
+unitName = "Barrage"
+
+requireCount = 1
+requireName1 = "fbover"
+requireText1 = "Upgrade Antenna"
+
+[PowerUpClass]
+soundPickup = "pickup01.wav"
+soundReject = "reject.wav"
+
+[WeaponPowerupClass]
+weaponName = "gabarrg_a"

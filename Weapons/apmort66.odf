@@ -1,0 +1,18 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "apmortar"
+scrapCost = 40
+unitName = "Mortar"
+
+/////// REQUIREMENTS ///////////////
+requireCount = 1
+requireName1 = "ibarmo"
+////////////////////////////////////
+
+lightName1 = "omnibrown"
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "gmortar_c"

@@ -1,0 +1,18 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fvgorgon"
+
+/////// PROVIDES ///////////////////
+provideCount = 5
+provideName5 = "fvctgorg1"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponName1 = "gomburst2_a"
+weaponName2 = "gomburst2_a"
+////////////////////////////////////
+
+[CraftClass]
+
+[WalkerClass]

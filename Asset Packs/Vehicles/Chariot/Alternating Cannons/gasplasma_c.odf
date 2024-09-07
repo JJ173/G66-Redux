@@ -1,0 +1,14 @@
+[WeaponClass]
+classLabel = "cannon"
+ordName = "plasball"
+altName = "gsplasma_a"
+wpnName = "Plasma Cannon"
+fireSound = "gspst00.wav"
+wpnReticle = "gplas_c"
+wpnCategory = "CANN"
+aiRange = 100
+
+[CannonClass]
+shotDelay = 0.33 // 3/sec
+shotAlternate = 1
+

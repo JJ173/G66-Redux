@@ -1,0 +1,21 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ibrtow"
+
+/////// WEAPONS ////////////////////
+weaponName1 = "gheatrkt_c"
+weaponName2 = "gheatrkt_c"
+weaponName3 = "gheatrkt_a"
+////////////////////////////////////
+
+[BuildingClass]
+
+[CraftClass]
+rangeScan = 350.0f
+engageRange = 280
+
+[TurretCraftClass]
+detectRange = 300
+
+[Lod1]

@@ -1,0 +1,29 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ibgtoww1"
+maxHealth = 8500 //7000
+
+/////// PROVIDES ///////////////////
+provideCount = 5
+provideName5 = "ibgtow"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponName1 = "gomburst2_a"
+weaponAssault1 = 1
+////////////////////////////////////
+
+[BuildingClass]
+
+[CraftClass]
+rangeScan = 260
+engageRange = 260
+IgnoreDestroyedTargets = true
+
+attackTask = "AssaultTankAttack"
+subattackTask = "SupportSubAttack"
+subAttackClass = "ANS"
+
+[TurretCraftClass]
+detectRange = 260

@@ -1,0 +1,39 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+geometryName = "ib66Xpgen.xsi"
+classLabel = "ibpgen"
+
+animCount = 1
+animName1 = "deploy"
+animFile1 = "ib66Xpgen.xsi"
+RunAnimation = "deploy"
+RunAnimIsLooped = false
+
+scrapCost = 70
+scrapValue = 6
+maxHealth = 20000
+addHealth = 10
+unitName = "Power II"
+heatSignature = 4.0
+imageSignature = 2.0
+radarSignature = 4.0
+collisionRadius = 0.0
+powerCost = -8
+upgradeName = "ibpgup66c2"
+
+/////// PROVIDES ///////////////////
+provideCount = 5
+provideName3 = "Power"
+provideName4 = "UpgradeablePower"
+provideName5 = "UpgradedPower1"
+////////////////////////////////////
+
+explosionName = "xpgen66xpl"	//"xbmbxpl"
+
+[BuildingClass]
+
+
+[PoweredBuildingClass]
+
+[Lod1]

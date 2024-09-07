@@ -1,0 +1,32 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fbover"
+
+/////// REQUIREMENTS ///////////////
+requireName1 = "fbantm66c"
+requireText1 = "Build Antenna Mound"
+requireName2 = "fbforg66c"
+requireText2 = "Upgrade Kiln"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideCount = 10
+provideName9 = "Bunker2"
+provideName10 = "Bunker"
+////////////////////////////////////
+
+[PoweredBuildingClass]
+
+[BuildingClass]
+
+[CommTowerClass]
+
+[CommBunkerClass]
+rangeScan = 1000
+periodScan = 3.0
+ViewDist = 100
+MinViewDist = 50.0 // If specified, minimum height of commbunker view
+MaxViewDist = 350.0 // If specified, maximim height of commbunker view
+
+[Lod1]

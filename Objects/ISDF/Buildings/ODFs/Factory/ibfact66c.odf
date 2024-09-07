@@ -1,0 +1,32 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ibfact"
+buildTime= 15
+collisionRadius = 4.0
+
+/////// PROVIDES ///////////////////
+provideCount = 5
+provideName3 = "UnitFactory"
+provideName4 = "ibfact66c"
+provideName5 = "Assembler"
+////////////////////////////////////
+
+[PoweredBuildingClass]
+
+[BuildingClass]
+
+[FactoryClass]
+BuildSparkConfig = "sparker"
+buildItem1 = "ivmbike66c"
+buildItem2 = "ivmisl66c"
+buildItem3 = "ivtank66c"
+buildItem4 = "ivrckt66c"
+buildItem5 = "ivatank66c"
+buildItem6 = "ivltank66c"
+buildItem7 = "ivltwalk66c"
+buildItem8 = "ivwalk66c"
+buildItem9 = "ivapc66c"
+buildItem10 = "ivbomb66c"
+
+[Lod1]

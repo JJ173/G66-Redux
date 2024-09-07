@@ -1,0 +1,23 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fvatank66"
+maxHealth = 5500
+
+/////// REQUIREMENTS ///////////////
+requireName1 = "fbforg66m"
+requireName2 = "fbover66m"
+requireName3 = "fbstro66m"
+////////////////////////////////////
+
+[CraftClass]
+AttackTaskUsesGroups = false
+GotoTaskHasLeader = false
+
+braccelFactor = 0.09
+velFactor = 0.1
+omegaFactor = 0.1
+
+[TrackedVehicleClass]
+
+[AssaultTankClass]

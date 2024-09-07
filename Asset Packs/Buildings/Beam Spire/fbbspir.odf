@@ -1,0 +1,33 @@
+[GameObjectClass]
+baseName = "fbspir"
+classLabel = "fbspir"
+unitName = "Beam Spire"
+scrapCost = 80
+scrapValue = 45
+
+weaponMask = 00001
+weaponHard1 = "hp_cannon_1"
+weaponName1 = "gstowbeam"
+
+requireCount = 1
+requireName1 = "fbencl"
+requireText1 = "Build Enclave"
+
+[EntityClass]
+
+[BuildingClass]
+
+[CraftClass]
+rangeScan = 170.0
+periodScan = 0.0
+velocJam = 0.0
+weaponPitch = 1.5
+steerFactor = 1.0
+engageRange = 170
+
+[TurretCraftClass]
+powerTap1 = "hp_tap_1"
+powerName = "fblung"
+omegaTurret = 2.0
+detectRange = 170
+

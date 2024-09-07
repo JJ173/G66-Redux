@@ -1,0 +1,18 @@
+[GameObjectClass]
+baseName = "apiong"
+classLabel = "apgun"
+
+scrapCost = 20
+
+unitName = "Heavy Pulse"
+
+requireCount = 2
+requireName1 = "fbantm"
+requireText1 = "Build Antenna"
+requireName2 = "fbover"
+requireText2 = "Upgrade Antenna"
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "gahplse_c"

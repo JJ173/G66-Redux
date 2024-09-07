@@ -1,0 +1,25 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivxnat"
+
+scrapCost = 80
+customCost = 90
+maxAmmo = 3500
+addAmmo = 20
+
+/////// PROVIDES ///////////////////
+provideCount = 5
+provideName5 = "ivstank66x"
+////////////////////////////////////
+
+[CraftClass]
+engageRange = 225
+
+[TrackedVehicleClass]
+
+[AssaultTankClass]
+
+[Lod1]
+
+[Lod2]

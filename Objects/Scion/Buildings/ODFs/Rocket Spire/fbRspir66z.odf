@@ -1,0 +1,33 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fbrspir66"
+
+scrapCost = 15
+scrapValue = 10
+
+/////// REQUIREMENTS ///////////////
+requireCount = 1
+requireName1 = "fbforg"
+requireText1 = "Upgrade Kiln"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideCount = 4
+provideName4 = "fbRspir66z"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponName1 = "gbanemsl66a"
+weaponName2 = "gbanemsl66a"
+weaponName3 = "gbanemsl66a"
+////////////////////////////////////
+
+[BuildingClass]
+
+[CraftClass]
+rangeScan = 400.0f
+engageRange = 260
+
+[TurretCraftClass]
+detectRange = 280

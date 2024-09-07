@@ -1,0 +1,16 @@
+[WeaponClass]
+classLabel = "machinegun"
+
+//altName = "fgbarrg_c"
+ordName = "fbarrg_a"
+wpnName = "Barrage Beam"
+fireSound = "flash01.wav"
+wpnReticle = "gshotgun"
+wpnCategory = "GUN"
+isAssault = 1
+isFlying = 1
+aiRange = 100
+
+[CannonClass]
+shotDelay = 0.1
+

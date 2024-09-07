@@ -1,0 +1,164 @@
+// NADIR
+//
+// MODEL: CYGNUS
+// TEXTURES: SIRBRAMBLEY, SCRAP POOL
+// ODFs, ICONS: SCRAPPOOL
+
+[GameObjectClass]
+baseName = "ivnadirv"
+geometryName = "ivnadir00.msh" //"nvscout00.msh" //"fvnadir00.xsi"
+cockpitName = "ivwalk_cockpit.fbx"
+unitIcon = "icon_nvscout00.png"
+unitStatus = "wire_nvscout00.png"
+
+/*
+animCount = 3
+animName1 = "forward"
+animFile1 = "fvnadirsf.xsi"
+animName2 = "neutral"
+animFile2 = "fvnadirsn.xsi"
+animName3 = "reverse"
+animFile3 = "fvnadirsr.xsi"
+*/
+
+classLabel = "wingman"
+scrapValue = 30
+scrapCost = 60
+customCost = 65
+buildTime = 15.0
+customTime = 15.0
+maxHealth = 2000
+maxAmmo = 1900
+addAmmo = 5
+aiAddAmmo = 5
+unitName = "Outrider"
+aiName = "TankFriend"
+aiName2 = "TankEnemy"
+
+heatSignature = 1.5
+imageSignature = 1.5
+radarSignature = 0.3
+
+canSnipe = 1
+
+isAssault = 0
+
+armorClass = L
+
+/////// REQUIREMENTS ///////////////
+requireCount = 3
+requireName1 = "ibarmo"
+requireText1 = "Build Armory"
+requireName2 = "ibtrain"
+requireText2 = "Build Training"
+requireName3 = "ibtcen"
+requireText3 = "Build Tech Center"
+//requireName1 = "ibsbay"
+//requireText1 = "Build Service Bay"
+
+/////// PROVIDES ///////////////////
+
+provideCount = 3
+provideName1 = "ivnadir"
+provideName2 = "VIRTUAL_CLASS_SCOUT"
+provideName3 = "DefendUnit"
+
+/////// weapons ///////////////////
+
+weaponMask = 01111
+weaponHard1 = "HP_GUN_1"
+weaponName1 = "gchain_c"
+weaponAssault1 = 0
+weaponHard2 = "HP_GUN_2"
+weaponName2 = "gchain_c"
+weaponAssault2 = 0
+weaponHard3 = "HP_ROCKET_1"
+weaponName3 = "gfafmsl_a"
+weaponAssault3 = 1
+weaponHard4 = "HP_MORTAR_1"
+weaponName4 = ""
+weaponAssault4 = 1
+weaponHard5 = "HP_SPEC_1"
+weaponName5 = "gredfld"
+weaponAssault5 = 0
+
+
+/////////LIGHTS & EFFECTS//////////////////
+
+LightsOnlyWhenPiloted = true
+
+lightHard1 = "hp_light_1"
+lightName1 = ""//"spotorange"
+lightHard2 = "hp_light_2"
+lightName2 = ""
+
+effectHard1 = "hp_dust_1"
+effectName1 = "dusttrail"
+effectMinAltitude1 = 0.0
+effectMaxAltitude1 = 5.0  
+effectMinVelocity1 = 10.0
+effectMaxVelocity1 = 500.0
+
+////////////////////////////////////
+
+[CraftClass]
+rangeScan = 350.0f
+periodScan = 5.0f
+velocJam = 5.0f
+engageRange = 120
+
+braccelFactor = 0.03
+velFactor = 0.2
+steerFactor = 1.5
+omegaFactor = 0.2
+strafeFactor = 0.2
+
+avoidSpeed = 30;
+topSpeed = 40;
+
+selectWaitMsg = "ivscout04.wav"
+selectAttackMsg = "ivscout01.wav"
+selectFollowMsg = "ivscout03.wav"
+selectGoMsg = "ivscout02.wav"
+selectOtherMsg = "ivscout04.wav"
+
+goMsg = "ivscout05.wav"
+attackMsg = "ivscout06.wav"
+followMeMsg = "ivscout03.wav"
+followMsg = "ivscout08.wav"
+repairMsg = "ivscout09.wav"
+reloadMsg = "ivscout09.wav"
+rescueMsg = "ivscout10.wav"
+recycleMsg = "ivscout11.wav"
+otherMsg = "ivscout10.wav" 
+holdMsg = "ivscout12.wav"
+user1Msg = ""  
+killedMsg = "ivscout07.wav"
+diedMsg = ""
+
+[HoverCraftClass]
+velocForward = 40.0 // []
+velocReverse = 25.0 // []
+velocStrafe = 30.0 // []
+accelThrust = 20.0 //acceleration []
+accelDragStop = 6.0 //how fast it stops once hands are off controls []
+accelJump = 15.0 // []
+
+setAltitude = 1.0 // how high off the ground
+
+alphaTrack = 21.0 //springs speed it rights itself []
+alphaDamp = 8.0 //shocks []
+
+pitchPitch = 0.15 //nose up []
+pitchThrust = 0.05 //nose down []
+
+rollStrafe = 0.10 //rolls while strafing []
+omegaSpin = 6.0 //spinning in place speed []
+omegaTurn = 2.3 //turning while moving speed []
+alphaSteer = 7.0 //how fast it responds to steering []
+rollSteer = 0.08 //rolls while steering []
+
+soundThrust = "ship15.wav"
+soundTurbo = "ship17.wav"
+
+animSteer = "steer"

@@ -1,0 +1,36 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fvtank"
+
+collisionRadius = 10.0
+aiAddAmmo = 40
+
+/////// PROVIDES ///////////////////
+provideCount = 6
+provideName5 = "fvtank66"
+provideName6 = "Tank"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponName2 = "giongn66c"
+weaponName3 = "giongn66c"
+//////////////////////////////////// 
+
+[CraftClass]
+IgnoreDestroyedTargets = true
+
+// subAttackClass uses 3 letters.
+// 1st letter is either A or N.     A is include Air targets.         N is attack ground only.
+// 2nd letter is either D or N.     D is to deploy before attacking.  N for regular attack.
+// 3rd letter is either S or N.     S is to use Weapon Range.         N is use the Engage Range to attack. 
+
+attackTask = "MortarBikeAttack"
+subAttackTask = "MortarBikeSubAttack"
+subAttackClass = "NNN"
+
+[HoverCraftClass]
+
+[MorphTankClass]
+
+[DeployableClass]

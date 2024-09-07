@@ -1,0 +1,224 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+baseName = "ivapc"
+classLabel = "artillery"
+geometryName = "ivapc00.fbx"
+cockpitName= "ivapc_cockpit.fbx"
+unitIcon = "icon_ivapc.tga"
+animCount = 4  //Anims don't work. Maybe one day...
+animName1 = "forward"
+animFile1 = "ivapcsf.fbx"
+animName2 = "neutral"
+animFile2 = "ivapcsn.fbx"
+animName3 = "reverse"
+animFile3 = "ivapcsr.fbx"
+animName4 = "deploy"
+animFile4 = "ivapc00.fbx"
+collisionRadius = 10.0
+scrapValue = 25
+scrapCost = 80
+customCost = 85
+buildTime = 20.0
+customTime = 25.0
+maxHealth = 3000
+maxAmmo = 3000 // Can't be 0 for InternalSoldiersAreAmmo to work
+mass = -1
+unitName = "APC II"
+aiName = "AttachOffensive"
+aiName2 = "AttachOffensive"
+heatSignature = 10.0
+imageSignature = 0.5
+radarSignature = 0.0
+isAssault = 1
+AddPilot = 1
+NeedPilot = 1
+canSnipe = 0
+PilotConfig = "ispilo66"
+VehicleSearchFilter = 4
+IsFlying = 1
+armorClass = L
+boxCollide = 1
+
+/////// REQUIREMENTS ///////////////
+requireCount = 3
+requireName1 = "ibfact"
+requireText1 = "Build Factory"
+requireName2 = "ibtrain"
+requireText2 = "Build Training"
+requireName3 = "ibtcen"
+requireText3 = "Build Tech Center"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideCount = 3
+provideName1 = "ivapc"
+provideName2 = "VIRTUAL_CLASS_APC"
+provideName3 = "flier"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponMask = 00011
+weapongroup1 = -1
+weaponHard1 = "HP_GUN_1"
+weaponName1 = "gchain_a"
+weaponAssault1 = 0
+weapongroup2 = -1
+weaponHard2 = "HP_GUN_2"
+weaponName2 = "gchain_a"
+weaponAssault2 = 0
+weapongroup3 = -1
+weaponHard3 = "HP_ROCKET_1"
+weaponName3 = "gssoldGH"
+weaponAssault3 = 1
+////////////////////////////////////
+
+/////////LIGHTS AND EFFECTS//////////////////
+lightHard1 = "hp_light_1"
+lightName1 = "spotblue2"
+lightHard2 = "hp_light_2"
+lightName2 = "spotblue2"
+LightsOnlyWhenPiloted = true
+
+effectHard1 = "hp_dust_1"
+effectName1 = "emit_contrail2"
+effectMinAltitude1 = 0.0
+effectMaxAltitude1 = 1e6
+effectFlags1 = 2147483639
+effectHard2 = "hp_dust_2" 
+effectName2 = "emit_contrail2"
+effectMinAltitude2 = 0.0
+effectMaxAltitude2 = 1e6
+effectFlags2 = 2147483639
+////////////////////////////////////////////
+
+turretCount = 3
+turretName1 = "turret_y"
+turretName2 = "turret_x"
+turretName3 = "HP_eyepoint"
+
+[CraftClass]
+PathingType = 4 // -1 = auto, 0 = Hover, 1 = Walker, 2 = Person, 3 = Tracked, 4 = Flyer
+AvoidType = -1 // -1 = auto, 0 = None, 1 = force, 2 = plan
+GotoTaskHasLeader = false // if true, gotos will be done in a leader/follower model
+AttackTaskUsesGroups = false
+
+rangeScan = 300.0
+engageRange = 300.0
+periodScan = 5.0
+velocJam = 0.0
+blastDist = 300.0
+
+CanRescue = 1
+
+WeaponPitch = -0.70
+
+RetargetOnStrafe = true
+
+braccelFactor = 0.05f;
+strafeFactor = 0.1f;
+steerFactor = 1.0f;
+omegaFactor = 0.2f;
+velFactor = 0.2f;
+
+IgnoreDestroyedTargets = true
+GotoTaskHasLeader = false
+AttackTaskUsesGroups = false
+
+avoidSpeed = 5;
+topSpeed = 30;
+
+UseAssaultSpecials = true // needs to be true for evartl2.odf
+
+attackTask = "ArtlAttack"
+subAttackTask = "ArtlSubAttack"
+subAttackClass = "NNN"
+
+// subAttackClass uses 3 letters.
+// 1st letter is either A or N.     A is include Air targets.         N is attack ground only.
+// 2nd letter is either D or N.     D is to deploy before attacking.  N for regular attack.
+// 3rd letter is either S or N.     S is to use Weapon Range.         N is use the Engage Range to attack. 
+
+selectWaitMsg = "avapcva.wav"
+selectDropoffMsg = "avapcvf.wav"
+selectPickupMsg = "avapcvg.wav"
+selectOtherMsg = "avapcvj.wav"
+
+goMsg = "avapcv0.wav"
+attackMsg = "avapcv9.wav"
+followMsg = "avapcvh.wav"
+followMeMsg = "avapcv3.wav"
+repairMsg = "avapcv4.wav"
+recycleMsg = "avapcv6.wav"
+rescueMsg = "avapcv5.wav"
+otherMsg = "avapcvh.wav"
+
+deployedMsg = "avapcv2.wav"
+diedMsg = "abetty3.wav"
+
+[HoverCraftClass]
+setAltitude = 100.0
+accelBrake = 20.0
+aiAccelDrag = 5.0
+accelDragStop = 5.0
+accelDragFull = 0.0
+accelJump = 2.0
+accelThrust = 10.0
+
+alphaTrack = 10.0
+alphaDamp = 5.0
+alphaSteer = 0.0
+
+omegaSpin = 0.0
+omegaTurn = 0.25
+
+pitchPitch = 0.4
+pitchThrust = 0.1
+
+rollStrafe = 0.1
+rollSteer = 0.1
+
+velocForward = 15.0
+velocReverse = 15.0
+velocStrafe = 15.0
+
+selectWaitMsg = "avapcva.wav"
+selectDropoffMsg = "avapcvf.wav"
+selectPickupMsg = "avapcvg.wav"
+selectOtherMsg = "avapcvj.wav"
+
+goMsg = "avapcv0.wav"
+attackMsg = "avapcv9.wav"
+followMsg = "avapcvh.wav"
+followMeMsg = "avapcv3.wav"
+repairMsg = "avapcv4.wav"
+recycleMsg = "avapcv6.wav"
+rescueMsg = "avapcv5.wav"
+otherMsg = "avapcvh.wav"
+
+deployedMsg = "avapcv2.wav"
+diedMsg = "abetty3.wav"
+
+soundThrust = "iapc02.wav"
+soundSteer = "avapce5.wav"
+
+[ArtilleryClass]
+alphaTurret = 3.5
+omegaTurret = 0.75
+heightDeploy = 4.0
+
+[DeployableClass]
+timeDeploy = 1.0
+timeUndeploy = 1.0
+soundDeploy = "avartle0.wav"
+soundUndeploy = "avartle4.wav"
+
+idleAttackBuildings = -1 // -1 = auto (unlock), 0 = force undeployed, 1 = force deployed
+idleAttackCraft = -1 // -1 = auto (unlock), 0 = force undeployed, 1 = force deployed
+canAttackWhenDeployed = true // if false, weapons inoperative when deployed
+canAttackWhenUndeployed = true // if false, weapons inoperative when undeployed
+
+ScanTeamLimitDeployed = 0 // 0 = all teams (default), 1 = same team only, 2 = allies only 
+isStealthDeployed = FALSE // just like under DeployableClass
+
+[Lod1]

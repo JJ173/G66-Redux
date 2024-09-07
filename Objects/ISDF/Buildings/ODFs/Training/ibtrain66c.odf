@@ -1,0 +1,23 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ibtrain66"
+buildTime= 15
+
+/////// REQUIREMENTS ///////////////
+requireName1 = "ibcbun66c"
+requireName2 = "ibarmo66c"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideCount = 6
+provideName6 = "ibtrain66c"
+////////////////////////////////////
+
+[BuildingClass]
+
+[PoweredBuildingClass]
+
+[BarracksClass]
+
+[Lod1]

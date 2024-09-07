@@ -1,0 +1,14 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "isAssassin"
+
+addAmmo = 30
+
+[CraftClass]
+rangeScan = = 2000.0f
+periodScan = 0.0f
+engageRange = 2000
+detectRange = 2000
+
+[PersonClass]

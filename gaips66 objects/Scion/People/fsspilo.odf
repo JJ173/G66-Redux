@@ -1,7 +1,0 @@
-[GameObjectClass]
-classLabel = "fspilo"
-
-provideCount = 1
-provideName = "people"
-
-[PersonClass]

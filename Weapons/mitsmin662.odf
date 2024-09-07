@@ -1,0 +1,32 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "mitsmin2"
+maxHealth = 15000
+effectName1 = "mitsmin662.field"
+
+[MineClass]
+lifeSpan = 30.0
+
+[MagnetMineClass]
+fieldRadius = 150.0
+objPushCenter = -80.0
+objPushEdge = -50.0
+objDragCenter = 3.0
+objDragEdge = 2.0
+ordPushCenter = -20.0
+ordPushEdge = -50.0
+ordDragEdge = 15.0
+TeamFilter = 68 // 0 = pushes all teams, 1 = pushes same team only, 2 = pushes only allies, 3 = pushes only enemies, 4 = not same team
+
+[Field]
+renderBase = "draw_sphere"
+textureName = "vsmoke.tga"
+textureBlend = "one one modulate"
+startColor = "0 0 255 255"
+finishColor = "0 0 255 255"
+startRadius = 1.0
+finishRadius = 150.0
+animateTime = 0.2
+latitudeBands = 8
+longitudeSegments = 16

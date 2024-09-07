@@ -1,8 +1,8 @@
 [DESCRIPTION]
-missionName = "Canyons"
-mapTga = "canyonsi.bmp"
+missionName = "G66: Canyons"
+mapTga = "MPIcanyons.bmp"
 mapDesc = "canyonsi.des"
-
+mySide = 1
 
 Aware_v13 = true
 

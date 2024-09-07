@@ -1,0 +1,19 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivxnat"
+
+/////// PROVIDES ///////////////////
+provideCount = 5
+provideName5 = ivcstank2"
+////////////////////////////////////
+
+[CraftClass]
+
+[TrackedVehicleClass]
+
+[AssaultTankClass]
+
+[Lod1]
+
+[Lod2]

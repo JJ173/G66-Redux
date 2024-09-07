@@ -1,7 +1,8 @@
 [DESCRIPTION]
 missionName = "MPI: Instant Bridges"
-mapTga = "bridges2i.bmp"
-mapDesc = "mpibridges.odf"
+mapTga = "bridges.bmp"
+mapDesc = "mpibridges.des"
+mySide = 1
 
 [NetVars]
 // For master list of descriptions, see source\network\vars.txt
@@ -29,26 +30,26 @@ ivar22 = 2 // Default CPU AI skill for MPI non-turrets.
 ivar23 = 2 // Default scrap cheat for humans
 ivar24 = 2 // Default scrap cheat for CPU
 
-ivar43 = 2 // Default G66 Difficulty Level
-ivar44 = 2 // Default G66 human combat unit skill
-ivar45 = 2 // Default G66 human non-combat unit skill
-ivar46 = 2 // Default G66 human starting force
-ivar47 = 1 // Default G66 human combat skill progression option
-ivar48 = 0 // Default G66 crate drops option
-ivar49 = 0 // EarlyAIP Option (0..4)
-ivar50 = 0 // Geysers (off)
-ivar51 = 0 // Earthquakes (off)
-ivar52 = 2 // Default G66 CPU combat unit skill
-ivar53 = 2 // Default G66 CPU non-combat unit skill
-ivar54 = 2 // Default G66 CPU starting force
-ivar55 = 1 // Default G66 CPU scrap boost
-ivar56 = 0 // Default G66 CPU advanced weapons option
-ivar57 = 0 // Default G66 CPU mine fields option\
-ivar58 = 0 // G66 Random Scrap Pools (off)
-ivar59 = 0 // G66 Random Scrap Fields (off)
-ivar60 = 0 // G66 Random Fauna (off)
-ivar61 = 0 // G66 Surprise Attacks (off)
-ivar62 = 0 // G66 Rogue Attacks (off)
+ivar64 = 2 // Default G66 Difficulty Level
+ivar71 = 2 // Default G66 human combat unit skill
+ivar73 = 2 // Default G66 human non-combat unit skill
+ivar74 = 2 // Default G66 human starting force
+ivar72 = 1 // Default G66 human combat skill progression option
+ivar75 = 0 // Default G66 crate drops option
+ivar84 = 0 // EarlyAIP Option (0..4)
+ivar65 = 0 // Geysers (off)
+ivar66 = 0 // Earthquakes (off)
+ivar76 = 2 // Default G66 CPU combat unit skill
+ivar77 = 2 // Default G66 CPU non-combat unit skill
+ivar78 = 2 // Default G66 CPU starting force
+ivar79 = 1 // Default G66 CPU scrap boost
+ivar81 = 0 // Default G66 CPU advanced weapons option
+ivar80 = 0 // Default G66 CPU mine fields option\
+ivar67 = 0 // G66 Random Scrap Pools (off)
+ivar68 = 0 // G66 Random Scrap Fields (off)
+ivar69 = 0 // G66 Random Fauna (off)
+ivar82 = 0 // G66 Surprise Attacks (off)
+ivar83 = 0 // G66 Rogue Attacks (off)
 
 // Svar0 (.bzn filename, used to look for an .inf file like this)
 // *not* read in, as that would cause an infinite loop
@@ -59,6 +60,7 @@ svar3 = "gaips66" // custom AIP files
 svar4 = "MPVehicles66.odf"
 svar5 = "ivrecy_m66m"
 svar7 = "g66" // custom configuration shell
+svar8 = "G66Check.odf"
 svar9 = "G6620Recylist.txt"
 svar10 = "G6620aiplist.txt"
 svar11 = "Rogues"

@@ -1,0 +1,68 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ibarmo"
+
+/////// REQUIREMENTS ///////////////
+requireName1 = "ibfact66m"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideCount = 4
+provideName4 = "Arsenal"
+////////////////////////////////////
+
+[BuildingClass]
+
+[PoweredBuildingClass]
+
+[FactoryClass]
+BuildSparkConfig = "sparker"
+WeaponConfig = "iWeaponG66_easy.odf"
+
+[ArmoryGroup1]
+buildItem1 = "apiminign66"
+buildItem2 = "apilaser66"
+buildItem3 = "apipmmlgn66"
+buildItem4 = "apichaing66"
+buildItem5 = "apifluxgn66"
+buildItem6 = "apihellbr66"
+buildItem7 = "apichaing66"
+buildItem8 = "apTCPG"
+
+[ArmoryGroup2]
+buildItem7 = "aphlngn"
+buildItem8 = "aprailg"
+buildItem9 = "aptech"
+buildItem10 = "aptcpc"
+buildItem11 = "aptechx"
+
+[ArmoryGroup3]
+buildItem4 = "aphtrkt"
+buildItem5 = "aplaserrocket66"
+buildItem6 = "apfafm_y"
+
+[ArmoryGroup4]
+buildItem4 = "aplaserpopgun66"
+buildItem5 = "apThumperMortar"
+
+[ArmoryGroup5]
+buildItem2 = "apmcur66"
+buildItem3 = "apmits66"
+buildItem4 = "approx66"
+
+[ArmoryGroup6]
+buildItem4 = "apiffld66"
+buildItem5 = "apramjet" // Keep
+
+[ArmoryGroup7]
+buildItem5 = "apkzap"
+buildItem6 = "apsatc66"
+buildItem7 = "apshot66"
+buildItem8 = "apsubversion"
+
+[ArmoryGroup8]
+buildLabel = "Supplies"
+buildItem1 = "apserv"
+buildItem2 = "aprepa66"
+buildItem3 = "apammo66"

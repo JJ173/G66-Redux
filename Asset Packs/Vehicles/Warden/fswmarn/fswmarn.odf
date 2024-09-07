@@ -1,0 +1,20 @@
+[GameObjectClass]
+baseName = "fspilo"
+classLabel = "fspilo"
+
+scrapCost = 0
+scrapValue = 5
+pilotCost = 1
+maxHealth = 250
+maxAmmo = 100
+addAmmo = 20
+unitName = "Tactical Soldier"
+aiName = "SoldierProcess"
+aiName2 = "SoldierProcess"
+
+weaponMask = 00001
+weaponName1 = "fgsionh_c"
+weaponName2 = "fgsionh_a"
+weaponName3 = "fgngren"
+
+[PersonClass]

@@ -1,0 +1,49 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ibarmo"
+
+/////// PROVIDES ///////////////////
+provideCount = 4
+provideName4 = "Arsenal"
+////////////////////////////////////
+
+[BuildingClass]
+
+[PoweredBuildingClass]
+
+[FactoryClass]
+BuildSparkConfig = "sparker"
+
+[ArmoryGroup1]
+buildItem1 = "apiminign66"
+buildItem2 = "apilaser66"
+buildItem3 = "apipmmlgn66"
+buildItem4 = "apichaing66"
+buildItem5 = "apgatlinggun"
+buildItem6 = "apihellbr66"
+buildItem7 = "apifluxgn66"
+buildItem8 = "apTCPG"
+
+[ArmoryGroup2]
+buildItem8 = "aphlngn"
+
+[ArmoryGroup3]
+buildItem4 = "aphtrkt"
+
+[ArmoryGroup4]
+
+[ArmoryGroup5]
+
+[ArmoryGroup6]
+
+[ArmoryGroup7]
+buildItem5 = "apkzap"
+buildItem6 = "apsatc66"
+buildItem7 = "apshot66"
+
+[ArmoryGroup8]
+buildLabel = "Supplies"
+buildItem1 = "apserv"
+buildItem2 = "aprepa66"
+buildItem3 = "apammo66"

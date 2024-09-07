@@ -1,0 +1,27 @@
+/*
+[solid]
+diffuse = 0.666667  0.666667  0.666667  0.700000
+specular = 0.901961  0.901961  0.901961  0.700000
+specularPower = 32.000000
+emissive = 0.000000  0.000000  0.000000  0.700000
+ambient = 0.666667  0.666667  0.666667  0.700000
+
+
+[texture]
+diffuse = NVScoutFE_glass_d.dds
+teamColor = NVScoutFE_glass_c.dds
+normal = NVScoutFE_glass_n.dds
+specular = NVScoutFE_glass_s.dds
+emissive = NVScoutFE_glass_e.dds
+*/
+
+[solid]
+diffuse = 0.800000  0.800000  0.800000  0.800000
+specular = 0.040000  0.040000  0.040000  0.800000
+specularPower = 1024.000000
+emissive = 0.000000  0.000000  0.000000  0.800000
+ambient = 0.000000  0.000000  0.000000  0.800000
+
+
+[texture]
+diffuse = glareNEW.dds

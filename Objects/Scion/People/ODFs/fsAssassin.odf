@@ -1,0 +1,93 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+baseName = "FightingPilot"
+classLabel = "fspilo66"
+
+unitIcon = "icon_fspilo.tga"
+
+canInteract = 1 // can interact using the reticle 
+isGrouped = 1   // add to a command group 
+needGroup = 0	// need free group to build 
+isLimited = 0	// add to the limit count 
+needLimit = 0	// need free limit to build 
+canDetect = 1   // can attack other pilots through attack command 
+canTarget = 1   // Can target
+needPilot = 0
+
+aiAddAmmo = 30
+unitName = "Executioner"
+
+/////// WEAPONS ////////////////////
+weaponMask = 00101
+weaponName1 = "fgsnipRD_a"
+weaponName2 = ""
+weaponName3 = "fgjetp66"
+////////////////////////////////////
+
+[CraftClass]
+rangeScan = 300.0f
+periodScan = 1.0f
+velocJam = 0.0f
+engageRange = 300
+detectRange = 300
+
+// subAttackClass uses 3 letters.
+// 1st letter is either A or N.     A is include Air targets.         N is attack ground only.
+// 2nd letter is either D or N.     D is to deploy before attacking.  N for regular attack.
+// 3rd letter is either S or N.     S is to use Weapon Range.         N is use the Engage Range to attack. 
+
+attackTask = "MortarBikeAttack"
+subAttackTask = "MortarBikeSubAttack"
+subAttackClass = "ANN"
+
+selectAttackMsg = "InCombat.wav"
+selectFollowMsg = "GuardingFriendly.wav"
+selectGoMsg = "Yesssir.wav" 
+selectOtherMsg = "Yesssir.wav"
+selectUser1Msg = "avminevc.wav" 
+selectUser2Msg = "avminevd.wav" 
+selectWaitMsg = "Yesssir.wav" 
+
+attackMsg = "Engaging.wav"
+diedMsg = "abetty12.wav" 
+followMsg = "Protecting.wav" 
+followMeMsg = "Watching.wav" 
+goMsg = "Heading2Nav.wav"
+holdMsg = "Affirmative.wav"
+killedMsg = "TargetDown.wav"
+
+reloadMsg = "Reloading.wav"
+repairMsg = "Repairing.wav" 
+recycleMsg = "Recycling.wav" 
+rescueMsg = "OnMyWay.wav" 
+otherMsg = "OnMyWay.wav" 
+
+user1Msg = "Srchng4Tgts.wav" 
+user2Msg = "avminevb.wav" 
+
+weaponPitch = 1.5
+steerFactor = 0.8   //  was 0.5 RD
+
+[PersonClass]
+// running mode
+alphaTrackRun    = 20.0
+pitchPitchRun    = 0.1
+pitchThrustRun   = 0.1
+rollStrafeRun    = 0.1
+velocForwardRun  = 10.0
+velocReverseRun  = 7.0
+velocStrafeRun   = 7.0
+accelThrustRun   = 40.0
+
+// flying mode
+pitchPitchFly     = 0.99
+pitchThrustFly    = 0.99
+velocForwardFly   = 3.0
+velocReverseFly   = 3.0
+velocStrafeFly    = 3.0
+accelThrustFly    = 3.0
+omegaTurnFly      = 4.0
+
+// animation rate
+animRate = 10.0

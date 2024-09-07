@@ -1,8 +1,8 @@
 [DESCRIPTION]
-missionName = "Instant Ground Zero"
+missionName = "G66: Ground Zero"
 mapTga = "ground0.bmp"
 mapDesc = "InstantGround0.des"
-
+mySide = 0
 
 Aware_v13 = true
 

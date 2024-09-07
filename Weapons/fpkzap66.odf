@@ -1,0 +1,21 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "apspecial"
+scrapCost = 30
+unitName = "Kill-O-Zap"
+
+/////// REQUIREMENTS ///////////////
+requireCount = 3
+requireName1 = "fbover"
+requireText1 = "Build/Upgrade Antenna Mound"
+requireName2 = "fbdowe"
+requireText2 = "Build Dower"
+requireName3 = "fbstro"
+requireText3 = "Build Stronghold"
+////////////////////////////////////
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "fgkzap66_c"

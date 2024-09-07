@@ -1,0 +1,24 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "isGrenadier"
+
+needGroup = 1 // need free group to build
+isLimited = 1 // add to the limit count 
+needLimit = 1 // need free limit to build 
+canSelect = 1
+
+scrapCost = 10
+buildTime = 10
+
+/////// REQUIREMENTS ///////////////
+requireCount = 1
+requireName1 = "ibtrain66m"
+////////////////////////////////////
+
+[CraftClass]
+rangeScan = 200.0f
+engageRange = 200
+detectRange = 200
+
+[PersonClass]

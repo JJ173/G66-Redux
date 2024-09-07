@@ -1,0 +1,34 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fvwalk66"
+
+collisionRadius = 10.0
+aiAddAmmo = 40
+maxHealth = 3600
+
+/////// REQUIREMENTS ///////////////
+requireCount = 3
+requireName1 = "fbforg66c"
+requireText1 = "Upgrade Kiln"
+requireName2 = "fbdowe66c"
+requireText2 = "Build Dower"
+requireName3 = "fbstro66c"
+requireText3 = "Build Stronghold"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideCount = 6
+provideName5 = "fvwalk66c"
+provideName6 = "FWalker"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponName1 = "gmzapmn"
+weaponName2 = "gmzapmn"
+////////////////////////////////////
+
+[CraftClass]
+engageRange = 120
+
+[WalkerClass]

@@ -1,0 +1,66 @@
+[Gun]
+weaponCount = 5
+weaponName1 = "apamini"
+weaponName2 = "apalase"
+weaponName3 = "apapumm"
+weaponName4 = "apachain"
+weaponName5 = "apacrubex" //by ScrapPool, based on FE
+
+[Cannon]
+weaponCount = 8
+weaponName1 = "apstab"
+weaponName2 = "appstb"
+weaponName3 = "apsstb"
+weaponName4 = "applas"
+weaponName5 = "apblst"
+weaponName6 = "apmagg"
+weaponName7 = "apnflam"	//Tweaks by ScrapPool
+weaponName8 = "apnflsh"	//Tweaks by ScrapPool
+
+[Rocket]
+weaponCount = 7
+weaponName1 = "apfafm"
+weaponName2 = "aptagg"
+weaponName3 = "apshdw"
+weaponName4 = "apnsand"	//Tweaks by ScrapPool
+weaponName5 = "apjptr"	//by ScrapPool
+weaponName6 = "APSATURN" //Tweaks by ScrapPool
+weaponName7 = "apnrktb"	//Tweaks by ScrapPool
+
+[Mortar]
+weaponCount = 4
+weaponName1 = "apartl"
+weaponName2 = "apmdmg"
+weaponName3 = "apmort"
+weaponName4 = "apspln"
+
+[Special]
+weaponCount = 7
+weaponName1 = "apflar"
+weaponName2 = "apmcur"
+weaponName3 = "apmits"
+weaponName4 = "approx"
+weaponName5 = "apphan"
+weaponName6 = "apredf"
+weaponName7 = "apsite"
+//weaponName8 = "apscmdo" //by ScrapPool //Weapons in list over 8 cause weird duplication/selection issues.
+//weaponName9 = "apssppr" //by ScrapPool
+//weaponName10 = "apsmrne" //by ScrapPool
+//weaponName11 = "apspara" //by ScrapPool
+//weaponName12 = "apssnip" //by ScrapPool
+
+[Hand]
+weaponCount = 5
+weaponName1 = "apbazo"
+weaponName2 = "apsnip"
+weaponName3 = "aphplse" //by ScrapPool
+weaponName4 = "apshot"	//Tweaks by ScrapPool
+weaponName5 = "apripper" //by ScrapPool
+
+[Pack]
+weaponCount = 5
+weaponName1 = "apgren"
+weaponName2 = "apjetp"
+weaponName3 = "apsatc"
+weaponName4 = "apjmpp" //by ScrapPool
+weaponName5 = "aphovpbm" //by ScrapPool, based on FE

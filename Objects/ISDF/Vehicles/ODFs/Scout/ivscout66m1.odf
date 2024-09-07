@@ -1,0 +1,18 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivscout66"
+
+/////// PROVIDES ///////////////////
+provideName4 = "ivscout66m1"
+////////////////////////////////////
+
+[CraftClass]
+GotoTaskHasLeader = false
+AttackTaskUsesGroups = false
+
+[HoverCraftClass]
+
+[Lod1]
+
+[Lod2]

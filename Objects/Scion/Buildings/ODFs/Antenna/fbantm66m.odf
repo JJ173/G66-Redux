@@ -1,0 +1,21 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fbantm66"
+
+upgradeName = "fbover66m"
+
+/////// PROVIDES ///////////////////
+provideCount = 7
+provideName7 = "fbantm66m"
+////////////////////////////////////
+
+[PoweredBuildingClass]
+
+[BuildingClass]
+
+[CommTowerClass]
+
+[CommBunkerClass]
+
+[Lod1]

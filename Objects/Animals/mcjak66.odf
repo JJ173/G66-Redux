@@ -1,0 +1,30 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "mcjak01"
+
+aiName2 = "AlternateAnimalProcess"
+
+needPilot = 0
+addPilot = 0
+
+[CraftClass]
+canBailout = false // default
+canRescue = 0
+can AIEject = 0
+canRecycle = 0
+DoBettyLost = 0
+canSnipe = 0
+
+AttackTaskUsesGroups = false
+
+AltAnimalTCoolDist = 125.0	  // for AlternateAnimalProcess.cpp. Dist looking for tanks
+AltAnimalTYumDist = 75.0	  // for AlternateAnimalProcess.cpp. Dist looking for pilots
+AltAnimalTGotoClose = 15.0	  // for AlternateAnimalProcess.cpp. 
+AltAnimalTGotoCloseMax = 30.0	  // for AlternateAnimalProcess.cpp. 
+AltAnimalTFleeDist = 75.0	  // for AlternateAnimalProcess.cpp. 
+AltAnimalTGoto2AttackDist = 15.0  // for AlternateAnimalProcess.cpp. How close we need to be to switch from GOTO to ATTACK
+AltAnimalTDontStand = false	  // for AlternateAnimalProcess.cpp. 
+
+[LandCreature]
+TooFarDist = 17.5		  // Distance at which attacks stop

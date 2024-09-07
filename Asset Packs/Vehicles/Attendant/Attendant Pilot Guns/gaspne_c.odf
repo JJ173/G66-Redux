@@ -1,0 +1,30 @@
+[WeaponClass]
+baseName = "gatstab"
+classLabel = "cannon"
+//altName = "gspne_a"
+ordName = "spine_c"
+wpnName = "Spine Gun"
+fireSound = "sgun04.wav"//"chaff01.wav"
+wpnReticle = "gshotgun"
+wpnCategory = "GUN"
+isAssault = 0
+flashName = "gspne_c.flash"
+aiRange = 100
+
+[CannonClass]
+shotDelay = 0.8
+salvoCount = 4
+salvoDelay = 0.1
+shotVariance = 0.2
+shotAlternate = 1
+
+[Flash]
+renderBase = "draw_geom"
+textureName = "sflash.tga"
+textureBlend = "one one modulate"
+startColor = "0 255 0 127"
+finishColor = "255 127 0 0"
+startRadius = 7.5
+finishRadius = 2.0
+animateTime = 0.1
+geomName = "g_sflash.xsi"

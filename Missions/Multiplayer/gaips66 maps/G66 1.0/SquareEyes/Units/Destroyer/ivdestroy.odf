@@ -1,7 +1,14 @@
 [GameObjectClass]
 baseName = "ivdestroy"
-geometryName = "ivdestroy.xsi"
-cockpitName= "ivtank_cockpit.xsi"
+geometryName = "ivdest00.fbx"
+cockpitName= "ivtank_cockpit.fbx"
+animCount = 3
+animName1 = "forward"
+animFile1 = "ivdest_sf.fbx"
+animName2 = "neutral"
+animFile2 = "ivdest_sn.fbx"
+animName3 = "reverse"
+animFile3 = "ivdest_sr.fbx"
 classLabel = "wingman"
 scrapValue = 20
 scrapCost = 55
@@ -29,8 +36,6 @@ requireName1 = "ibfact"
 requireText1 = "Build Factory"
 requireName2 = "ibcbun"
 requireText2 = "Build Relay Bunker"
-
-cockpitName = "ivtank_cockpit.xsi"
 
 /////// weapons ///////////////////
 

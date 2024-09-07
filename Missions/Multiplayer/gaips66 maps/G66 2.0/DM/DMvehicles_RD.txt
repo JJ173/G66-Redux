@@ -32,22 +32,17 @@
 //ispilo_rifle_skel.xsi ispilo ISDF Pilot			65536		131071
 //fspilo_rifle_skel.xsi fspilo Scion Pilot			131072		262143
 //
-ivscout00.xsi ivscout66dm Thunderbolt
-fvscout_skel.xsi fvscout66dm Drone
-ivgscout.xsi ivgscout Spectator
-ispilo_rifle_skel.xsi isAssassinDM Assassin
-ispilo_rifle_skel.xsi isGrenadierDM Grenadier
-ispilo_rifle_skel.xsi isRiflemanDM Rifleman
-ispilo_rifle_skel.xsi isAntiTankDM Anti-Tank
-fspilo_rifle_skel.xsi fsAssassinDM Executioner
-fspilo_rifle_skel.xsi fsGrenadierDM Ravager
-fspilo_rifle_skel.xsi fsRiflemanDM Rifleman
-fspilo_rifle_skel.xsi fsAntiTankDM Liquidator
+
 ivmbik00.xsi ivmbikedm Jackal
+
 fvsent_skel.xsi fvsentdm Sentry
+
 ivmisl00.xsi ivmisldm Avenger
+
 fvlancer_skel.xsi fvarchdm Lancer
+
 ivtank00.xsi ivtankdm Sabre
+
 fvtank_skel.xsi fvtankdm Warrior
 ivrckt00.xsi ivrcktdm Rocket Tank
 ivintc00.xsi ivintcdm Interceptor

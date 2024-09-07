@@ -1,0 +1,31 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ibsbay"
+buildTime= 15
+
+/////// REQUIREMENTS ///////////////
+requireName1 = "ibfact66c"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideCount = 6
+provideName4 = "RepairYard"
+provideName5 = "ibsbay66"
+provideName6 = "ibsbay66c"
+////////////////////////////////////
+
+[PoweredBuildingClass]
+
+[BuildingClass]
+
+[SupplyDepotClass]
+supplyRange = 50.0
+
+// Individual classification tweakers
+serviceParallel = 1
+servicePilots = 0
+serviceOther = 1
+serviceAllies = 1
+
+[Lod1]

@@ -1,0 +1,27 @@
+[GameObjectClass]
+baseName = "apcrubex"
+geometryName = "apgun00.xsi"
+classLabel = "wpnpower"
+scrapCost = 30
+scrapValue = 0
+maxHealth = 150
+maxAmmo = 0
+unitName = NULL
+aiName = "PowerUpProcess"
+
+unitName = "Crubex Gun AR"
+
+lightHard1 = "hp_light_1"
+lightName1 = "omnicyan"
+
+/////// REQUIREMENTS ///////////////
+requireCount = 1
+requireName1 = "ibtcen"
+requireText1 = "Build Tech Center"
+
+[PowerUpClass]
+soundPickup = "pickup01.wav"
+soundReject = "reject.wav"
+
+[WeaponPowerupClass]
+weaponName = "gacrubex_a"

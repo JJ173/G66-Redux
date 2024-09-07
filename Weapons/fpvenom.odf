@@ -1,0 +1,19 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "apcannon"
+scrapCost = 30
+unitName = "Venom"
+
+/////// REQUIREMENTS ///////////////
+requireCount = 2
+requireName1 = "fbstro"
+requireText1 = "Build Stronghold"
+requireName2 = "fbdowe"
+requireText2 = "Build Dower"
+////////////////////////////////////
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "gvenom_c"

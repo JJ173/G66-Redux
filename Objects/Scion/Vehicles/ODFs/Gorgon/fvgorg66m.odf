@@ -1,0 +1,37 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fvgorgon"
+
+addAmmo = 25
+addHealth = 50
+
+/////// REQUIREMENTS ///////////////
+requireName1 = "fbforg66m"
+requireName2 = "fbdowe66m"
+requireName3 = "fbover66m"
+requireName4 = "fbstro66m"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideCount = 5
+provideName5 = "fvgorg66m"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponName1 = "gxenonstra"
+weaponName2 = "gxenonstra"
+weaponHard3 = ""
+weaponName3 = ""
+////////////////////////////////////
+
+[CraftClass]
+GotoTaskHasLeader = false
+AttackTaskUsesGroups = false
+
+rangeScan = 150		//400.0
+engageRange = 70	//100
+topSpeed = 10		//5
+
+[WalkerClass]
+attackSpeed = 15	//10

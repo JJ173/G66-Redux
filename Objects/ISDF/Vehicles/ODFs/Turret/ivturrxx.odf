@@ -1,0 +1,20 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivturr"
+
+aiAddAmmo = 40
+
+/////// PROVIDES ///////////////////
+provideCount = 3
+provideName3 = "Defense"
+////////////////////////////////////
+
+[CraftClass]
+
+[HoverCraftClass]
+
+[DeployableClass]
+
+[TurretTankClass]
+omegaTurret = 1.5

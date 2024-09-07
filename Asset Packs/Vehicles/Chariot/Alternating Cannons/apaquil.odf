@@ -1,0 +1,18 @@
+[GameObjectClass]
+baseName = "apquil"
+classLabel = "apcannon"
+
+scrapCost = 20
+
+unitName = "Quill"
+
+requireCount = 2
+requireName1 = "fbdowe"
+requireText1 = "Build Dower"
+requireName2 = "fbantm"
+requireText2 = "Build Antenna Mound"
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "gaquill_c"

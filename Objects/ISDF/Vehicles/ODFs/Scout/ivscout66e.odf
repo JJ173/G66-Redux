@@ -1,0 +1,40 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivscout66"
+
+unitName = "Empty Scout"
+scrapValue = 5
+scrapCost = 20
+customCost = 30
+buildTime = 10.0
+maxHealth = 1200
+maxAmmo = 1000
+
+aiName = "SentryProcess"
+aiName2 = "SentryProcess"
+
+/////// PROVIDES ///////////////////
+provideName4 = "ivscout66e"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponHard3 = ""
+weaponName3 = ""
+weaponHard4 = ""
+////////////////////////////////////
+
+[CraftClass]
+topSpeed = 40 //30
+
+[HoverCraftClass]
+velocForward = 45.0 // 
+velocReverse = 18.0 // 
+velocStrafe = 22.0 // 
+accelThrust = 26.0 // acceleration 
+accelDragStop = 4.5 // how fast it stops once hands are off controls 
+accelJump = 20.0 //18
+
+[Lod1]
+
+[Lod2]

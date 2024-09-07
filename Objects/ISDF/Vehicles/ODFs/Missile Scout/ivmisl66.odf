@@ -1,0 +1,32 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivmisl"
+addAmmo = 5
+collisionRadius = 10.0
+aiAddAmmo = 40
+
+/////// PROVIDES ///////////////////
+provideCount = 5
+provideName4 = "ivmisl66"
+provideName5 = "MScout"
+////////////////////////////////////
+
+[CraftClass]
+IgnoreDestroyedTargets = true
+
+attackTask = "MortarBikeAttack"
+subAttackTask = "MortarBikeSubAttack"
+subAttackClass = "NNN"
+
+// subAttackClass uses 3 letters.
+// 1st letter is either A or N.     A is include Air targets.         N is attack ground only.
+// 2nd letter is either D or N.     D is to deploy before attacking.  N for regular attack.
+// 3rd letter is either S or N.     S is to use Weapon Range.         N is use the Engage Range to attack. 
+
+[HoverCraftClass]
+accelThrust = 25.0 // acceleration 
+
+[Lod1]
+
+[Lod2]

@@ -1,0 +1,43 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivwalk"
+
+collisionRadius = 10.0
+aiAddAmmo = 50
+unitName = "Attila"
+
+/////// PROVIDES ///////////////////
+provideCount = 6
+provideName5 = "ivwalk66"
+provideName6 = "HWalker"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponName3 = "glaser_w"
+weaponAssault3 = 0
+weaponName4 = "glaser_w"
+weaponAssault4 = 0
+////////////////////////////////////
+
+[CraftClass]
+rangeScan = 250.0
+engageRange = 250
+
+IgnoreDestroyedTargets = true
+GotoTaskHasLeader = false
+AttackTaskUsesGroups = false
+
+attackTask = "AssaultTankAttack"
+subAttackTask = "SupportSubAttack"
+subAttackClass = "NNN"
+
+// subAttackClass uses 3 letters.
+// 1st letter is either A or N.     A is include Air targets.         N is attack ground only.
+// 2nd letter is either D or N.     D is to deploy before attacking.  N for regular attack.
+// 3rd letter is either S or N.     S is to use Weapon Range.         N is use the Engage Range to attack. 
+
+[WalkerClass]
+accelThrust = 20.0
+attackSpeed = 15
+stepSound  = "walker_foot.wav"

@@ -1,0 +1,15 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ibbase66"
+scrapCost = 0
+scrapValue = 0
+maxHealth = 0
+heatSignature = 0.0
+imageSignature = 0.0
+radarSignature = 0.0
+collisionRadius = 0.0
+
+[BuildingClass]
+
+[PoweredBuildingClass]

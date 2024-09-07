@@ -1,0 +1,33 @@
+[GameObjectClass]
+baseName = "fbspir"
+classLabel = "fbspir"
+unitName = "Plasma Spire"
+scrapCost = 70
+scrapValue = 35
+
+weaponMask = 00001
+weaponHard1 = "hp_cannon_1"
+weaponName1 = "gstowplas"
+
+requireCount = 1
+requireName1 = "fbstro"
+requireText1 = "Build Stronghold"
+
+[EntityClass]
+
+[BuildingClass]
+
+[CraftClass]
+rangeScan = 210.0
+periodScan = 0.0
+velocJam = 0.0
+weaponPitch = 1.5
+steerFactor = 1.0
+engageRange = 210
+
+[TurretCraftClass]
+powerTap1 = "hp_tap_1"
+powerName = "fblung"
+omegaTurret = 2.0
+detectRange = 210
+

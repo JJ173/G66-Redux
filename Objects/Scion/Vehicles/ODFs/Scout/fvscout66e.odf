@@ -1,0 +1,50 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fvscout66"
+
+unitName = "Empty Scout"
+scrapValue = 5
+scrapCost = 20
+customCost = 30
+buildTime = 10.0
+maxHealth = 1000
+maxAmmo = 1800
+addAmmo = 1.0
+
+aiName = "SentryProcess"
+aiName2 = "SentryProcess"
+
+heatSignature = 0.5
+aiAddAmmo = 40
+
+/////// PROVIDES ///////////////////
+provideName4 = "fvscout66e"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponHard2 = ""
+weaponName2 = ""
+weaponHard3 = ""
+weaponName3 = ""
+////////////////////////////////////
+
+[CraftClass]
+topSpeed = 40;	//30
+
+[HoverCraftClass]
+velocForward = 45.0
+velocReverse = 12.0
+velocStrafe = 22.0 
+accelThrust = 32.0
+accelDragStop = 12.0 
+accelJump = 22.0
+
+soundThrust = "avtanke0.wav"
+soundTurbo = "avtanke3.wav"
+
+[MorphTankClass]
+velocForward = 32.0
+soundTurbo = "avtanke3.wav"
+
+[DeployableClass]

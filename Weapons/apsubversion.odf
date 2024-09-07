@@ -1,0 +1,23 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "aphand"
+scrapCost = 60
+unitName = "Subversion Rifle"
+
+/////// REQUIREMENTS ///////////////
+requireCount = 4
+requireName1 = "ibfact"
+requireText1 = "Build Factory"
+requireName2 = "ibarmo"
+requireText2 = "Build Armory"
+requireName3 = "ibtrain"
+requireText3 = "Build Training Facility"
+requireName4 = "ibtcen"
+requireText4 = "Build Tech Center"
+////////////////////////////////////
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "igsubversion_c"

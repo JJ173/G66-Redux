@@ -1,0 +1,18 @@
+[GameObjectClass]
+baseName = "apgaus"
+classLabel = "apgun"
+
+scrapCost = 30
+
+requireCount = 3
+requireName1 = "fbkiln"
+requireText1 = "Build Kiln"
+requireName2 = "fbforg"
+requireText2 = "Upgrade Kiln"
+requireName3 = "fbdowe"
+requireText3 = "Build Dower"
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "gagauss_c"

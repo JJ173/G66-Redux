@@ -1,0 +1,175 @@
+[GameObjectClass]
+baseName = "fvscrb"
+//glowTexture = "fvtanka0.pic"
+geometryName = "scarab.fbx"
+geometryScale = 0.038 //geometryScale = 0.05
+cockpitName = "fvtank_cockpit.xsi"
+classLabel = "morphtank"//"wingman"
+//animCount = 7
+//animName1 = "forward"
+//animFile1 = "fvtank_ASF.fbx"
+//animName2 = "neutral"
+//animFile2 = "fvtank_ASN.fbx"
+//animName3 = "reverse"
+//animFile3 = "fvtank_ASR.fbx"
+//animName4 = "deploy"
+//animFile4 = "fvtank_MORPH.fbx"
+//animName5 = "forward2"
+//animFile5 = "fvtank_MSF.fbx"
+//animName6 = "neutral2"
+//animFile6 = "fvtank_MSN.fbx"
+//animName7 = "reverse2"
+//animFile7 = "fvtank_MSR.fbx"
+scrapValue = 20
+scrapCost = 60
+customCost = 70
+buildTime = 16.0
+customTime = 17.0
+maxHealth = 3000
+maxAmmo = 3000
+addAmmo = 5.0
+addhealth = 0.0
+
+unitName = "Scarab"
+aiName = "TankFriend"
+aiName2 = "TankEnemy"
+
+heatSignature = 2.0
+imageSignature = 2.5
+radarSignature = 0.5
+
+isAssault = 0
+
+armorClass = N
+
+requireCount = 2
+requireName1 = "fbforg"
+requireText1 = "Build Forge"
+requireName2 = "fbantm"
+requireText2 = "Build Antenna"
+
+/////// weapons ///////////////////
+
+weaponMask = 00011
+weaponHard1 = "HP_ROCKET_1"
+weaponName1 = "ghellion_c"
+weaponAssault1 = 0
+
+weaponHard2 = "HP_ROCKET_2"
+weaponName2 = "ghellion_c"
+weaponAssault2 = 0
+
+weaponHard3 = "HP_MORTAR_1"
+weaponName3 = "gsplitter"
+weaponAssault3 = 0
+
+weaponHard4 = "HP_CANNON_1"
+weaponName4 = NULL
+weaponAssault4 = 0
+
+weaponHard5 = "HP_SHIELD"
+weaponName5 = ""
+weaponAssault5 = 0
+
+//////////////////////////////////
+
+[CraftClass]
+rangeScan = 300.0f
+periodScan = 5.0f
+velocJam = 5.0f
+engageRange = 120
+
+selectWaitMsg = "fvscrbvh.wav"
+selectAttackMsg = "fvscrbv0.wav"
+selectFollowMsg = "fvscrbvg.wav"
+selectGoMsg = "fvscrbvf.wav"
+selectOtherMsg = "fvscrbvk.wav"
+holdMsg = "fvscrbvq.wav"
+goMsg = "fvscrbvc.wav"
+attackMsg = "fvscrbv2.wav"
+followMeMsg = "fvscrbv4.wav"
+followMsg = "fvscrbvg.wav"
+repairMsg = "fvscrbv8.wav"
+reloadMsg = "fvscrbv8.wav"
+rescueMsg = "fvscrbvc.wav"
+recycleMsg = "fvscrbvd.wav"
+otherMsg = "fvscrbva.wav" 
+
+user1Msg = ""  
+killedMsg = "fvscrbv3.wav"
+diedMsg = ""
+
+
+// COMBAT MODE /////////////////////
+
+[HoverCraftClass]
+velocForward = 30.0 // [30]
+velocReverse = 18.0 // [20]
+velocStrafe = 14.0 // [20]
+accelThrust = 24.0 //acceleration [25]
+accelBrake = 75.0 //braking []
+accelDragStop = 5.8 //how fast it stops once hands are off controls [18]
+accelJump = 15.0
+
+setAltitude = 1.0 // how high off the ground
+
+alphaTrack = 22.0 //springs speed it rights itself [21.]
+alphaDamp = 8.0 //shocks [8.]
+
+pitchPitch = 0.19 //nose up [.25]
+pitchThrust = 0.09 //nose down [.09]
+
+rollStrafe = 0.01 //rolls while strafing [.01]
+omegaSpin = 6.0 //spinning in place speed [1.5]
+omegaTurn = 2.0 //turning while moving speed [2.0]
+alphaSteer = 4.5 //how fast it responds to steering [3.1]
+rollSteer = 0.1 //rolls while steering [.09]
+
+soundThrust = "ssent01j.wav"
+
+
+// ASSAULT MODE /////////////////////
+
+[MorphTankClass]
+maxHealth = 2800
+maxAmmo = 3000
+addAmmo = 0.0
+addhealth = 9.0
+engageRange = 100
+isAssault = 0
+
+unitName = "Scarab"
+
+rangeScan = 250.0f
+periodScan = 5.0f
+velocJam = 5.0f
+
+velocForward = 20.0 // []
+velocReverse = 10.0 // []
+velocStrafe = 20.0 // []
+accelThrust = 16.0 //acceleration []
+accelBrake = 75.0 //braking []
+accelDragStop = 9.0 //how fast it stops once hands are off controls []
+accelJump = 15.0
+
+setAltitude = 1.0 // how high off the ground
+
+alphaTrack = 24.0 //springs speed it rights itself [21.]
+alphaDamp = 9.0 //shocks [8.]
+
+pitchPitch = 0.19 //nose up [.25]
+pitchThrust = 0.09 //nose down [.09]
+
+rollStrafe = 0.01 //rolls while strafing [4.3]
+omegaSpin = 5.5 //spinning in place speed []
+omegaTurn = 1.3 //turning while moving speed []
+alphaSteer = 3.5 //how fast it responds to steering []
+rollSteer = 0.13 //rolls while steering []
+
+// hovercraft sounds
+soundThrust = "ssent01j.wav"
+
+
+[DeployableClass]
+soundDeploy = "morph01.wav"
+soundUndeploy = "morph01b.wav"

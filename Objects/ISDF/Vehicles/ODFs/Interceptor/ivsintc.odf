@@ -1,0 +1,16 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivintc"
+collisionRadius = 10.0
+aiAddAmmo = 40
+
+/////// PROVIDES ///////////////////
+provideCount = 4
+provideName4 = "ivsintc"
+////////////////////////////////////
+
+[CraftClass]
+IgnoreDestroyedTargets = true
+
+[HoverCraftClass]

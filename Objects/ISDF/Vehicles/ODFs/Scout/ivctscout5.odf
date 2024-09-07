@@ -1,0 +1,20 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivscout66"
+
+/////// PROVIDES ///////////////////
+provideName4 = "ivctscout5"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponName1 = "gTCPG_c"
+weaponName2 = "gTCPG_c"
+weaponName4 = "Ramjet"
+////////////////////////////////////
+
+[HoverCraftClass]
+
+[Lod1]
+
+[Lod2]

@@ -1,8 +1,0 @@
-[RecyclerListMPI]
-ODFName = "ivrecygh"
-Description = "MPI-only: GreenHeart Variant, no TTB"
-
-[IAHumanRecyclerList]
-ODFName = "ivrecygh"
-Description = "GreenHeart Variant"
-

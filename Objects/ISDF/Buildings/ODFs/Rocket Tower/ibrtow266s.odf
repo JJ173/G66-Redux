@@ -1,0 +1,28 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ibrtow"
+
+/////// PROVIDES ///////////////////
+provideCount = 6
+provideName5 = "rtow"
+provideName6 = "ibrtow266s"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponMask = 00011  //00001
+
+weaponHard1 = "HP_ROCKET_2"
+weaponName1 = "gshadow_c"
+weaponHard2 = "HP_ROCKET_3"
+////////////////////////////////////
+
+[BuildingClass]
+
+[CraftClass]
+engageRange = 240  //200
+
+[TurretCraftClass]
+detectRange = 260  //250
+
+[Lod1]

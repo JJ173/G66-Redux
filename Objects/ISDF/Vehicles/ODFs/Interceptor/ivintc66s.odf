@@ -1,0 +1,10 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivintc"
+
+[CraftClass]
+avoidSpeed = 5
+
+[HoverCraftClass]
+omegaTurn = 0.4

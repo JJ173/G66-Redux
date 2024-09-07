@@ -1,0 +1,25 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ibrtow"
+
+/////// PROVIDES ///////////////////
+provideCount = 5
+provideName5 = "ibrtow03"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponMask = 00011
+
+weaponHard1 = "HP_ROCKET_2"
+weaponName1 = "gshadow_c"
+weaponHard2 = "HP_ROCKET_3"
+////////////////////////////////////
+
+[BuildingClass]
+
+[CraftClass]
+
+[TurretCraftClass]
+
+[Lod1]

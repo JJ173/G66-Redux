@@ -1,0 +1,30 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivcons66"
+
+/////// REQUIREMENTS ///////////////
+requireCount = 1
+requireName1 = "Assembler"
+requireText1 = "Build Something"
+////////////////////////////////////
+
+[CraftClass]
+topSpeed = 7.0
+avoidSpeed = 5.0
+
+[HoverCraftClass]
+accelDragStop = 20.0
+
+[DeployableClass]
+
+[ConstructionRigClass]
+buildItem1 = "ibpgen66c"
+buildItem2 = "ibfact66c"
+buildItem3 = "ibcbun66c"
+buildItem4 = "ibarmo66c"
+buildItem5 = "ibsbay66c"
+buildItem6 = "ibgtow66c"
+buildItem7 = "ibtrain66c"
+buildItem8 = "ibtcen"
+buildItem9 = "ibbomb66c"

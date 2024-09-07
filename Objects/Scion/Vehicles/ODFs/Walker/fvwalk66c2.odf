@@ -1,0 +1,29 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fvwalk66"
+
+collisionRadius = 10.0
+aiAddAmmo = 40
+maxHealth = 3600
+
+/////// REQUIREMENTS ///////////////
+requireCount = 1
+requireName1 = "fbforg66c2"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideCount = 6
+provideName5 = "fvwalk66"
+provideName6 = "FWalker"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponName1 = "gmzapmn"
+weaponName2 = "gmzapmn"
+//////////////////////////////////// 
+
+[CraftClass]
+engageRange = 120
+
+[WalkerClass]

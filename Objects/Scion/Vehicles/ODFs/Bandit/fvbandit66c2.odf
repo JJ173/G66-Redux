@@ -1,0 +1,56 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fvscout"
+scrapCost = 10
+customCost = 10
+buildTime = 3.0
+customTime = 3.0
+maxHealth = 1500
+maxAmmo = 1500
+addAmmo = 10
+aiAddAmmo = 25
+unitName = "Repulsor"
+lifeSpan = 180.0
+aiName = "SoldierProcess"
+aiName2 = "SoldierProcess"
+collisionRadius = 10.0
+
+/////// REQUIREMENTS ///////////////
+requireCount = 1
+requireName1 = "fbkiln66c2"
+requireText1 = "Build Kiln"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideCount = 4
+provideName4 = "fvscout66"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponMask = 00111
+weaponName1 = "gsonic_c"
+weaponName2 = "gblink"
+weaponName3 = "gshield_c"
+////////////////////////////////////
+
+[CraftClass]
+IgnoreDestroyedTargets = true
+
+attackTask = "MortarBikeAttack"
+subAttackTask = "MortarBikeSubAttack"
+subAttackClass = "NNN"
+
+// subAttackClass uses 3 letters.
+// 1st letter is either A or N.     A is include Air targets.         N is attack ground only.
+// 2nd letter is either D or N.     D is to deploy before attacking.  N for regular attack.
+// 3rd letter is either S or N.     S is to use Weapon Range.         N is use the Engage Range to attack. 
+
+rangeScan = 1500.0f
+periodScan = 1.0f
+engageRange = 1500
+
+avoidSpeed = 5;
+topSpeed = 40;
+
+[HoverCraftClass]

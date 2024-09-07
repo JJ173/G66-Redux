@@ -1,0 +1,23 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ibgtow66"
+
+collisionRadius = 10.0
+scrapCost = 15
+scrapValue = 5
+maxHealth = 4500
+upgradeName = "ibrtow266c"
+
+/////// PROVIDES ///////////////////
+provideCount = 5
+provideName5 = "Defense"
+////////////////////////////////////
+
+[BuildingClass]
+
+[CraftClass]
+
+[TurretCraftClass]
+
+[Lod1]

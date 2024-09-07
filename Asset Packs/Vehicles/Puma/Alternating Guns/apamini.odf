@@ -1,0 +1,13 @@
+[GameObjectClass]
+baseName = "apmini"
+classLabel = "apgun"
+
+scrapCost = 20
+
+unitName = "Minigun AR"
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "gaminigun_a"
+isAssault = true

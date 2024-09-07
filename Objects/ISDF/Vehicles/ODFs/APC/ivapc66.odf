@@ -1,0 +1,28 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivapc"
+
+/////// PROVIDES ///////////////////
+provideCount = 4
+provideName4 = "ivapc66"
+////////////////////////////////////
+
+[CraftClass]
+rangeScan = 250.0
+engageRange = 250.0
+periodScan = 5.0
+
+IgnoreDestroyedTargets = true
+GotoTaskHasLeader = false
+AttackTaskUsesGroups = false
+
+avoidSpeed = 5;
+
+[HoverCraftClass]
+
+[APCClass]
+soldierType = "issold66"
+AltitudeLookahead = 0.1
+
+[Lod1]

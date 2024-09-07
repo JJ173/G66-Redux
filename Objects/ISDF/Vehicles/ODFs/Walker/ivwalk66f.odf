@@ -1,0 +1,18 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivwalk66"
+
+/////// WEAPONS ////////////////////
+weaponMask = 00111
+weaponName1 = "gspstab_c"
+weaponAssault1 = 0
+weaponName2 = "gspstab_c"
+weaponAssault2 = 0
+weaponName3 = "glaser_c"
+weaponName4 = "glaser_c"
+////////////////////////////////////
+
+[CraftClass]
+
+[WalkerClass]

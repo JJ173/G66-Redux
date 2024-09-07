@@ -1,0 +1,21 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ibgtow66"
+
+maxHealth = 4500
+upgradeName = "ibrtow266m"
+
+/////// PROVIDES ///////////////////
+provideCount = 6
+provideName5 = "Defense"
+provideName6 = "ibgtow66m"
+////////////////////////////////////
+
+[BuildingClass]
+
+[CraftClass]
+
+[TurretCraftClass]
+
+[Lod1]

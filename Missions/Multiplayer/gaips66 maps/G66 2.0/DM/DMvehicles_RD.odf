@@ -1,0 +1,91 @@
+//
+// DMVehicles.txt - listing of vehicles usable in BZ2 Death Match
+//
+// Format of lines: xsi filename, space separator, odf filename, space separator, description
+// Lines starting with // are ignored. 
+//
+// Tip: do not put .odf extension on odf filename; added automatically on loading
+//
+//
+// Vehicle selection values
+//
+//
+//                                             	Single     Up To and
+//                                             	Craft      Including
+//                                             	------     ---------
+//ivscout00.xsi ivscout66dm Thunderbolt             1			1
+//fvscout_skel.xsi fvscout66dm Drone				2			3 
+//ivmbik00.xsi ivmbike Jackal						4			7
+//fvsent_skel.xsi fvsent Sentry						8			15
+//ivmisl00.xsi ivmisl Avenger						16			31
+//fvlancer_skel.xsi fvarch Lancer					32			63
+//ivtank00.xsi ivtank Sabre							64			127
+//fvtank_skel.xsi fvtank Warrior					128			255
+//ivrckt00.xsi ivrckt Rocket Tank					256			511
+//ivintc00.xsi ivintc Interceptor					512			1023
+//ivatnk00.xsi ivatank Bulldog						1024		2047
+//fvtitan_skel.xsi fvatank Titan					2048		4097
+//ivwalk_skel.xsi ivwalk Attila LM					4096		8191
+//fvwalk_skel.xsi fvwalk Mauler						8192		16383
+//ivturr00.xsi ivturr Rattler						16384		32767
+//fvturr_skel.xsi fvturr Guardian					32768		65535
+//ispilo_rifle_skel.xsi ispilo ISDF Pilot			65536		131071
+//fspilo_rifle_skel.xsi fspilo Scion Pilot			131072		262143
+//
+
+[MPVehicles]
+xsi1 = "ivscout00.fbx"
+cfg1 = "ivscout66dm"
+Description1 = "Thunderbolt"
+
+xsi2 = "fvscout_skel.fbx"
+cfg2 = "fvscout66dm"
+Description2 = "Drone"
+
+xsi3 = "ivgscout.xsi"
+cfg3 = "ivgscout"
+Description3 = "Spectator"
+
+xsi4 = "ispilo_rifle_skel.fbx"
+cfg4 = "isAssassinDM"
+Description4 = "Assassin"
+
+xsi5 = "ispilo_rifle_skel.fbx"
+cfg5 = "isGrenadierDM"
+Description5 = "Grenadier"
+
+xsi6 = "ispilo_rifle_skel.fbx"
+cfg6 = "isRiflemanDM"
+Description6 = "Rifleman"
+
+xsi7 = "ispilo_rifle_skel.fbx"
+cfg7 = "isAntiTankDM"
+Description7 = "Anti-Tank"
+
+xsi8 = "fspilo_rifle_skel.fbx"
+cfg8 = "fsAssassinDM"
+Description8 = "Executioner"
+
+xsi9 = "fspilo_rifle_skel.fbx"
+cfg9 = "fsGrenadierDM"
+Description9 = "Ravager"
+
+xsi10 = "fspilo_rifle_skel.fbx"
+cfg10 = "fsRiflemanDM"
+Description10 = "Rifleman"
+
+xsi11 = "fspilo_rifle_skel.fbx"
+cfg11 = "fsAntiTankDM"
+Description11 = "Liquidator"
+
+xsi12 = "ivmbik00.fbx"
+cfg12 = "ivmbikedm"
+Description12 = "Jackal"
+
+xsi13 = "fvsent_skel.fbx"
+cfg13 = "fvsentdm"
+Description13 = "Sentry"
+
+xsi14 = "ivmisl00.fbx"
+cfg14 = "ivmisldm"
+Description14 = "Avenger"

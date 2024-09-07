@@ -1,0 +1,26 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fbover"
+
+/////// PROVIDES ///////////////////
+provideCount = 12
+provideName9 = "Bunker2"
+provideName10 = "Bunker"
+provideName11 = "fbantm66m"
+provideName12 = "fbover66m"
+////////////////////////////////////
+
+[PoweredBuildingClass]
+
+[BuildingClass]
+
+[CommTowerClass]
+
+[CommBunkerClass]
+rangeScan = 1000		  // copied from ibcbun.odf... fix this?
+periodScan = 3.0
+MinViewDist = 50.0	// If specified, minimum height of commbunker view
+MaxViewDist = 350.0   // If specified, maximim height of commbunker view
+
+[Lod1]

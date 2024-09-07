@@ -1,0 +1,48 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ibfact"
+
+/////// PROVIDES ///////////////////
+provideCount = 3
+provideName3 = "ibfact66m2"
+////////////////////////////////////
+
+[PoweredBuildingClass]
+
+[BuildingClass]
+
+[FactoryClass]
+BuildSparkConfig = "sparker"
+
+WeaponConfig = "iWeaponG66_easy.odf"
+
+buildItem4 = ""
+buildItem5 = ""
+buildItem6 = ""
+buildItem7 = ""
+buildItem8 = ""
+
+[BuildGroup1]
+buildLabel = "Combat Units"
+buildItem1 = "ivmbike"
+buildItem2 = "ivmisl66m"
+buildItem3 = "ivltank66m"
+buildItem4 = "ivtank66m"
+buildItem5 = "ivrckt"
+buildItem6 = "ivatank"
+buildItem7 = "ivltwalk"
+buildItem8 = "ivwalk"
+
+[BuildGroup2]
+buildLabel = "Aerial Units"
+buildItem1 = "ivapc"
+buildItem2 = "ivbomb66m"
+
+[BuildGroup3]
+buildLabel = "Service Units"
+buildItem1 = "ivscav66f"
+buildItem2 = "ivcons66f"
+buildItem3 = "ivserv66f"
+
+[Lod1]

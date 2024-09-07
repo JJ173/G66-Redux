@@ -1,8 +1,0 @@
-[RecyclerListMPI]
-ODFName = "ivrecycm2"
-Description = "MPI-only: Commando Variant C, no TTB"
-
-[IAHumanRecyclerList]
-ODFName = "ivrecycm2"
-Description = "Commando Variant C"
-

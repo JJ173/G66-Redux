@@ -26,3 +26,4 @@ svar4 = "MPVehicles66.odf"
 svar5 = "ivrecy_m66s"
 
 svar7 = "st" // Custom shell page to pull up [actually bzshell_multi_####.cfg]
+svar8 = "G66Check.odf"

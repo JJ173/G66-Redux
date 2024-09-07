@@ -1,0 +1,38 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fvserv"
+needPilot = 1
+collisionRadius = 10.0
+aiAddAmmo = 40
+
+/////// REQUIREMENTS ///////////////
+requireCount = 1
+requireName1 = "fbdowe"
+requireText1 = "Build Dower"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideCount = 3
+provideName3 = "fvserv66f"
+////////////////////////////////////
+
+[CraftClass]
+IgnoreDestroyedTargets = true
+
+engageRange = 40
+
+[TrackedVehicleClass]
+omegaSpin = 2.0
+omegaTurn = 0.75
+alphaSteer = 3.0
+
+[ServiceTruck]
+serviceSTs = 1
+serviceBuildings = 1
+
+[Supply]
+
+[Halo]
+
+[Bolt]

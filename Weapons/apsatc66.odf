@@ -1,0 +1,17 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "appack"
+
+/////// REQUIREMENTS ///////////////
+requireCount = 2
+requireName1 = "ibtrain"
+requireText1 = "Build Training Facility"
+requireName2 = "ibtcen"
+requireText2 = "Build Tech Center"
+////////////////////////////////////
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "igsatc66"

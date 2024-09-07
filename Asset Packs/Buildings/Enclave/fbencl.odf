@@ -1,0 +1,66 @@
+[GameObjectClass]
+baseName = "fbencl"
+geometryName = "fbencl00.fbx"
+classLabel = "barracks"
+scrapCost = 70
+scrapValue = 30
+powerCost = 0
+maxHealth = 6000
+maxAmmo = 0
+unitName = "Enclave"
+aiName = "BuildingProcess"
+aiName2 = "BuildingProcess"
+heatSignature = 2.0
+imageSignature = 1.0
+radarSignature = 1.0
+collisionRadius = 1.0
+isAssault = 1
+armorClass = H
+canSelect = 0
+
+buildSupport = "A"
+buildRequire = "F"
+
+/////// REQUIREMENTS ///////////////
+requireCount = 3
+requireName1 = "fbkiln"
+requireText1 = "Build Kiln"
+requireName2 = "fbantm"
+requireText2 = "Build Antenna"
+requireName3 = "fbstro"
+requireText3 = "Build Stronghold"
+
+/////// PROVIDES ///////////////////
+provideCount = 3
+provideName1 = "fbencl"
+provideName2 = "VIRTUAL_CLASS_BARRACKS"
+provideName3 = "base"
+
+////////////////////////////////////
+
+lightHard1 = "hp_light_1"
+lightName1 = "spotyellow"
+lightHard2 = "hp_light_2"
+lightName2 = "spotyellow"
+lightHard3 = "hp_light_3"
+lightName3 = "spotyellow"
+lightHard4 = "hp_light_4"
+lightName4 = "spotyellow"
+
+
+[PoweredBuildingClass]
+powerTap1 = "HP_TAP_1"
+powerName = "fblung"
+detectRange = 100
+
+[BarracksClass]
+pilotHold = 500
+
+[BuildingClass]
+soundAmbient = "sdow01.wav"
+
+[Lod1]
+//geometryName = "fbforgL1.fbx" ;geometry for lod1
+distance = 100
+dontShiftLOD = 1
+

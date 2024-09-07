@@ -1,0 +1,26 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+baseName = "PatrolUnit"
+unitIcon = "icon_ivmisl.tga"
+classLabel = "ivmisl66"
+
+unitName = "Patrol"
+
+/////// REQUIREMENTS ///////////////
+requireName1 = "ibfact66c"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideName4 = "ivmisl66p"
+////////////////////////////////////
+
+[CraftClass]
+CanAIPForceIdle = false
+DoIdleDispatch = false
+
+[HoverCraftClass]
+
+[Lod1]
+
+[Lod2]

@@ -1,0 +1,67 @@
+[Gun]
+weaponCount = 5
+weaponName1 = "apiong"
+weaponName2 = "aplock"
+weaponName3 = "apgaus"
+weaponName4 = "apneutrn"//Tweaks by ScrapPool
+weaponName5 = "apspne"	//by ScrapPool
+
+[Cannon]
+weaponCount = 7
+weaponName1 = "apasplasma"
+weaponName2 = "apsonic"
+weaponName3 = "apaquil"
+weaponName4 = "apaarcc"
+weaponName5 = "apsbeam"	//by ScrapPool
+weaponName6 = "apsurge"	//by ScrapPool
+weaponName7 = "apnbolt"
+
+[Rocket]
+weaponCount = 5
+weaponName1 = "apsting"
+weaponName2 = "apmlock"
+weaponName3 = "apmnts"	//by ScrapPool
+weaponName4 = "apheln"	//by ScrapPool
+weaponName5 = "fpfrktbbm" //Tweaks by ScrapPool
+
+[Mortar]
+weaponCount = 6
+weaponName1 = "apsartl"
+weaponName2 = "apgas"
+weaponName3 = "apresn"
+weaponName4 = "appopg"
+weaponName5 = "apspltr"	//by ScrapPool
+weaponName6 = "apbulker"//by ScrapPool
+
+[Special]
+weaponCount = 9
+weaponName1 = "fpszeal" //by ScrapPool  //Weapons in list over 8 cause weird duplication/selection issues
+weaponName2 = "fpsptsn" //by ScrapPool
+weaponName3 = "fpsgrla" //by ScrapPool
+weaponName4 = "fpsraid" //by ScrapPool
+weaponName5 = "fpssnip" //by ScrapPool
+weaponName6 = "apblnk"
+weaponName7 = "apstatic"
+weaponName8 = "apnjax"
+weaponName9 = "apvltr"	//by ScrapPool
+
+[Shield]
+weaponCount = 3
+weaponName1 = "apshld"
+weaponName2 = "apdefl"
+weaponName3 = "apabso"
+
+[Hand]
+weaponCount = 4
+weaponName1 = "fpbazo"
+weaponName2 = "fpsnip"
+weaponName3 = "fphplse"
+weaponName4 = "apbarrg"	//by ScrapPool
+
+[Pack]
+weaponCount = 5
+weaponName1 = "fpgren"
+weaponName2 = "fpjetp"
+weaponName3 = "fpsatc"
+weaponName4 = "fpjmpp" //by ScrapPool
+weaponName5 = "fphovpbm" //by ScrapPool, based on FE

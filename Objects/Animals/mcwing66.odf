@@ -1,0 +1,48 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "mcwing01"
+
+needPilot = 0
+addPilot = 0
+
+canInteract = 0 // can interact using the reticle 
+isGrouped = 0   // add to a command group 
+needGroup = 0   // need free group to build 
+isLimited = 0   // add to the limit count 
+needLimit = 0   // need free limit to build 
+canDetect = 1   // can attack other pilots through attack command 
+canTarget = 1   // Can target
+canCollide = 1
+boxCollide = 1
+
+[CraftClass]
+BoidTaskInfluenceRadius = 50.0
+BoidTaskCollisionFraction = 0.8
+BoidTaskNormalSpeed = 0.75
+BoidTaskAngleTweak = 0.06
+BoidTaskPitchToSpeedRatio = 0.002
+
+xplSnipe = "xbirddeath"
+xplChunk = ""
+xplCrash = "xbirddeath"
+
+NumChunks = 0		// # of chunks overall. -1 = autodetermine, max = 25
+
+NumChunks1 = 0
+NumChunks2 = 0
+NumChunks3 = 0
+NumChunks4 = 0
+NumChunks5 = 0
+NumChunks6 = 0
+NumChunks7 = 0
+
+chunkEffect1 = "null.xsi" 
+chunkEffect2 = "null.xsi"
+chunkEffect3 = "null.xsi"
+chunkEffect4 = "null.xsi"
+chunkEffect5 = "null.xsi"
+chunkEffect6 = "null.xsi"
+chunkEffect7 = "null.xsi"
+
+[Boid]

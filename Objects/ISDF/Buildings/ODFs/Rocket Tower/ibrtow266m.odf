@@ -1,0 +1,27 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ibrtow"
+collisionRadius = 0.0
+aiAddAmmo = 50
+
+/////// WEAPONS ////////////////////
+weaponMask = 00011
+
+weaponHard1 = "HP_ROCKET_2"
+weaponName1 = "glaserrocket66_c"
+weaponHard2 = "HP_ROCKET_3"
+weaponName2 = "glaserrocket66_c"
+weaponName3 = "glaserrocket66_AA"
+////////////////////////////////////
+
+[BuildingClass]
+
+[CraftClass]
+periodScan = 1.0f
+engageRange = 300  //200
+
+[TurretCraftClass]
+detectRange = 260  //250
+
+[Lod1]

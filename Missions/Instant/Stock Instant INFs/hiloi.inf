@@ -1,8 +1,8 @@
 [DESCRIPTION]
-missionName = "High & Low"
-mapTga = "hiloi.bmp"
+missionName = "G66: High & Low"
+mapTga = "hilo.bmp"
 mapDesc = "hiloi.des"
-
+mySide = 1
 
 Aware_v13 = true
 

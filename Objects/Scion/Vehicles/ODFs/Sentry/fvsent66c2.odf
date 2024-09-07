@@ -1,0 +1,16 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fvsent66"
+
+/////// PROVIDES ///////////////////
+provideName4 = "fvsent66c"
+////////////////////////////////////
+
+[CraftClass]
+
+[HoverCraftClass]
+
+[MorphTankClass]
+
+[DeployableClass]

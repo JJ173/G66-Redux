@@ -1,0 +1,30 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fvscout66"
+baseName = "PatrolUnit"
+unitIcon = "icon_fvscout.tga"
+
+aiAddAmmo = 40
+
+unitName = "Patrol"
+
+/////// REQUIREMENTS ///////////////
+requireCount = 0
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideCount = 5
+provideName4 = "fvscout66p"
+provideName5 = "Defender"
+////////////////////////////////////
+
+[CraftClass]
+CanAIPForceIdle = false
+DoIdleDispatch = false
+
+[HoverCraftClass]
+
+[MorphTankClass]
+
+[DeployableClass]

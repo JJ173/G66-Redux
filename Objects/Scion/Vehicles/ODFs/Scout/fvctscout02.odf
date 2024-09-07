@@ -1,0 +1,22 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fvscout66"
+
+aiAddAmmo = 40
+
+/////// PROVIDES ///////////////////
+provideName4 = "fvctscout02"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponName3 = "gdeflect"
+////////////////////////////////////
+
+[CraftClass]
+
+[HoverCraftClass]
+
+[MorphTankClass]
+
+[DeployableClass]

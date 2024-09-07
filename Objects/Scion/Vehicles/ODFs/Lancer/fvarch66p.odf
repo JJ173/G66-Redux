@@ -1,0 +1,35 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+baseName = "PatrolUnit"
+unitIcon = "icon_fvarch.tga"
+classLabel = "fvarch66"
+
+unitName = "Patrol"
+
+/////// REQUIREMENTS ///////////////
+requireCount = 0
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideCount = 6
+provideName6 = "Defender"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponMask = 00011
+weaponName3 = "gshield_c"
+////////////////////////////////////
+
+[CraftClass]
+periodScan = 1.0f
+
+CanAIPForceIdle = false
+DoIdleDispatch = false
+IgnoreDestroyedTargets = true
+
+[HoverCraftClass]
+
+[MorphTankClass]
+
+[DeployableClass]

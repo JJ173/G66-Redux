@@ -1,0 +1,13 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[WeaponClass]
+classLabel = "igbzka_c"
+ordName = "killozap_c"
+wpnName = "Kill-O-Zap"
+fireSound = "gbolt00.wav"
+wpnReticle = "garc_c"
+altName = "igkzap_a"
+aiRange = 150
+
+[CannonClass]
+shotDelay = 0.5

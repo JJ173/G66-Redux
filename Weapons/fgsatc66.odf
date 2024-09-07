@@ -1,0 +1,5 @@
+[WeaponClass]
+classLabel = "fgsatc"
+
+[SatchelPackClass]
+objectClass = "f_satch66"

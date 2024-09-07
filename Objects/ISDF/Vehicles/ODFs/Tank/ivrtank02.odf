@@ -1,0 +1,26 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivtank66m"
+
+collisionRadius = 10.0
+
+/////// PROVIDES ///////////////////
+provideName5 = "ivrtank02"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponName1 = "gspstab_c"
+weaponName2 = "gchaingn66c"
+weaponName3 = "gchaingn66c"
+weaponName4 = "gmdmgun"
+weaponName5 = "gphantom"
+////////////////////////////////////
+
+[CraftClass]
+
+[HoverCraftClass]
+
+[Lod1]
+
+[Lod2]

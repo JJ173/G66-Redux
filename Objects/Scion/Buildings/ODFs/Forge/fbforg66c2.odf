@@ -1,0 +1,24 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fbrecy"
+geometryName = "fbforg00.fbx"
+
+/////// PROVIDES ///////////////////
+provideCount = 12
+provideName7 = "fbkiln"
+provideName8 = "fbkiln66c2"
+provideName9 = "fbforg"
+provideName10 = "fbforg66c2"
+provideName11 = "UnitFactory"
+provideName12 = "UnitFactory2"
+////////////////////////////////////
+
+[PoweredBuildingClass]
+
+[BuildingClass]
+
+[FactoryClass]
+BuildSparkConfig = "sparker"
+
+[Lod1]

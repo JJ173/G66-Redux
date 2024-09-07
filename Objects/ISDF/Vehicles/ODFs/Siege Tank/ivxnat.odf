@@ -1,0 +1,81 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+geometryName = "ivxnat.xsi"
+classLabel = "ivatank"
+scrapCost = 120
+customCost = 125
+buildTime = 30.0
+customTime = 35.0
+aiAddHealth = 20
+maxAmmo = 1100
+addAmmo = 4
+aiAddAmmo = 10
+unitName = "Siege Tank"
+collisionRadius = 10.0
+aiAddAmmo = 40
+
+/////// REQUIREMENTS ///////////////
+requireCount = 4
+requireName1 = "ibarmo66m"
+requireText1 = "Build Armory"
+requireName2 = "ibtrain66m"
+requireText2 = "Build Training"
+requireName3 = "ibtcen66m"
+requireText3 = "Build Tech Center"
+requireName4 = "ibbomb66m"
+requireText4 = "Build Bomber Bay"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideName1 = "ivxnat"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponMask = 00011
+
+weaponHard1 = "HP_CANNON_1"
+recoilName1 = "recoil_1"
+weaponAssault1 = 0
+weaponName1 = "gsiegemag"
+
+weaponHard2 = "HP_MORTAR_1"
+recoilName2 = "recoil_2"
+weaponAssault2 = 1
+weaponName2 = "gacidcloud66"
+
+weaponHard3 = "HP_MORTAR_2"
+recoilName3 = "recoil_3"
+weaponAssault3 = 1
+weaponName3 = "gacidcloud66"
+////////////////////////////////////
+
+[CraftClass]
+IgnoreDestroyedTargets = true
+
+rangeScan = 400.0f
+engageRange = 400
+braccelFactor = 0.01
+velFactor = 0.4
+steerFactor = 1.2
+omegaFactor = 0.2
+
+AITargetLocation = 1			// -1 = default, or 0 = center, 1 = high, 2 = low, 3 = left, 4 = right
+MinWeaponPitch = 0.0			// For turretcraft/turrettank (i.e. GunTower/GunSpire/turret)
+weaponPitch = 1.57
+MustBeLinedUpToHit = false		// This setting determines if a unit will fire when it doesn't have a clear line of sight.
+MustBeLinedUpToFire = false		// Defaults to true for artillery(==archers)
+FireWhenCanHitFriends = true
+
+attackTask = "ArtlAttack"
+subAttackTask = "ArtlAttack"
+subAttackClass = "NNN"
+
+[TrackedVehicleClass]
+
+[AssaultTankClass]
+pitchMax = 1.57
+
+[Lod1]
+
+[Lod2]

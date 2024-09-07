@@ -1,0 +1,31 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fbkiln"
+upgradeName = "fbforg66c"
+
+/////// PROVIDES ///////////////////
+provideCount = 5
+provideName4 = "fbkiln66c"
+provideName5 = "UnitFactory"
+////////////////////////////////////
+
+[PoweredBuildingClass]
+
+[BuildingClass]
+tunnelCount = 0
+
+[FactoryClass]
+BuildSparkConfig = "sparker"
+buildItem1 = "fvsent66c"
+buildItem2 = "fvarch66c"
+buildItem3 = "fvtank66c"
+buildItem4 = "fvartl66c"
+buildItem5 = "fvwalk66c"
+buildItem6 = "fvatank66c"
+buildItem7 = "fvmpod66c"
+buildItem8 = "fvgorg66c"
+buildItem9 = "fvbandit66c"
+buildItem10 = "fvsav66c"
+
+[Lod1]

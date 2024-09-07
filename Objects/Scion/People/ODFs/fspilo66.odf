@@ -1,0 +1,18 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fspilo"
+
+/////// PROVIDES ///////////////////
+provideCount = 1
+provideName = "people"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponMask = 00101
+weaponName3 = "fgjetp66"
+////////////////////////////////////
+
+[CraftClass]
+
+[PersonClass]

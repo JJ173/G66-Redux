@@ -1,0 +1,21 @@
+// EP-AG QTEPS Power-up
+// Original Design for "Route 66" Mod by Natty Bumppo
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "apgun"
+scrapCost = 60
+unitName = "QTEPS"
+
+/////// REQUIREMENTS ///////////////
+requireCount = 2
+requireName1 = "fbstro"
+requireText1 = "Build Stronghold"
+requireName2 = "fbover"
+requireText2 = "Build/Upgrade Antenna Mound"
+////////////////////////////////////
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "gqteps66c"

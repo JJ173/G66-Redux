@@ -1,0 +1,94 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+baseName = "rtow"
+geometryName = "ibrtow00_gh_b.fbx"
+classLabel = "turret"
+collisionRadius = 10.0
+scrapCost = 50
+scrapValue = 10
+maxHealth = 5000
+maxAmmo = 10000 // 0 is *not* treated as infinite ammo!
+unitName = "Rocket Tower"
+aiName = "SupportProcess"
+aiName2 = "SupportProcess"
+heatSignature = 2.0
+imageSignature = 1.0
+radarSignature = 1.0
+isAssault = 1
+
+armorClass = H
+
+/////// REQUIREMENTS ///////////////
+requireCount = 3
+requireName1 = "ibfact"
+requireText1 = "Build Factory"
+requireName2 = "ibcbun"
+requireText2 = "Build Relay Bunker"
+requireName3 = "ibarmo"
+requireText3 = "Build Armory"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideCount = 4
+provideName1 = "ibgtow"
+provideName2 = "ibrtow"
+provideName3 = "defender"
+provideName4 = "RocketTower"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponMask = 00001
+
+weaponHard1 = "HP_ROCKET_3"
+weaponName1 = "gshadow_a"
+weaponAssault1 = 0
+weaponHard2 = "HP_ROCKET_2"
+weaponName2 = "gshadow_c"
+weaponAssault2 = 0
+weaponHard3 = "HP_ROCKET_1"
+weaponName3 = "gshadow_a"
+weaponAssault3 = 1
+////////////////////////////////////
+
+/////// LIGHTS and EFFECTS /////////
+lightHard1 = "hp_light_1"
+lightName1 = "spotblue2"
+lightHard2 = "hp_light_2"
+lightName2 = "o_red_nf"
+////////////////////////////////////
+
+/////// TURRETS ////////////////////
+turretCount = 4
+turretName1 = "turret_y"
+turretName2 = "turret_x"
+turretName3 = "turret_x_2"
+turretName4 = "hp_eyepoint"
+////////////////////////////////////
+
+[BuildingClass]
+soundAmbient = "igtow01.wav"
+
+[CraftClass]
+rangeScan = 400.0f
+periodScan = 4.0f
+velocJam = 0.0f
+weaponPitch = 2.5
+steerFactor = 0.5
+engageRange = 200
+IgnoreDestroyedTargets = true
+
+// subAttackClass uses 3 letters.
+// 1st letter is either A or N.     A is include Air targets.         N is attack ground only.
+// 2nd letter is either D or N.     D is to deploy before attacking.  N for regular attack.
+// 3rd letter is either S or N.     S is to use Weapon Range.         N is use the Engage Range to attack. 
+
+attackTask = "AssaultTankAttack"
+subAttackTask = "SupportSubAttack"
+subAttackClass = "ANS"
+
+[TurretCraftClass]
+omegaTurret = 1.0
+detectRange = 250
+
+[Lod1]

@@ -1,0 +1,19 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivwalk66"
+
+aiAddAmmo = 40
+
+/////// PROVIDES ///////////////////
+provideName5 = "ivctwalk2"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponName1 = "gtechnox_a"
+weaponName2 = "gtechnox_a"
+////////////////////////////////////
+
+[CraftClass]
+
+[WalkerClass]

@@ -1,0 +1,38 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fbrecy"
+
+/////// PROVIDES ///////////////////
+provideCount = 7
+provideName7 = "MainBase"
+////////////////////////////////////
+
+[BuildingClass]
+
+[FactoryClass]
+BuildSparkConfig = "sparker"
+buildItem3 = ""
+buildItem4 = ""
+buildItem5 = ""
+buildItem6 = ""
+buildItem7 = ""
+
+[BuildGroup1]
+buildLabel = "Combat Units"
+buildItem1 = "fvscout66"
+buildItem2 = "fvturr"
+buildItem3 = "fvscout_m"
+buildEmptyItem = 3
+
+[BuildGroup2]
+buildLabel = "Service Units"
+buildItem1 = "fvscav"
+buildItem2 = "fvtug"
+buildItem3 = "fvcons66s"
+buildItem4 = "fvserv66"
+buildItem7 = "fpserv"
+
+[RecyclerClass]
+
+[PoweredBuildingClass]

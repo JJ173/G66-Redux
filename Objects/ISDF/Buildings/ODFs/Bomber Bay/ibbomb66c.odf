@@ -1,0 +1,26 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ibbomb"
+
+/////// REQUIREMENTS ///////////////
+requireCount = 2
+requireName1 = "ibfact66c"
+requireText1 = "Build Factory"
+requireName2 = "ibtrain66c"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideCount = 5
+provideName4 = "BombBay"
+provideName5 = "ibbomb66c"
+////////////////////////////////////
+
+[BuildingClass]
+
+[BomberBayClass]
+bomberType = "ivbomb66c"
+
+[PoweredBuildingClass]
+
+[Lod1]

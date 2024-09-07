@@ -1,0 +1,21 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fvcons"
+needPilot = 0
+
+/////// PROVIDES ///////////////////
+provideCount = 3
+provideName3 = "Builder"
+////////////////////////////////////
+
+[CraftClass]
+braccelFactor = 0.1
+diedMsg = "sbetty1.wav"
+
+[HoverCraftClass]
+
+[DeployableClass]
+
+[ConstructionRigClass]
+BuildSparkConfig = "sparker"

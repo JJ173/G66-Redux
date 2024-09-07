@@ -1,0 +1,150 @@
+[GameObjectClass]
+baseName = "fvwrdn"
+classLabel = "apc"
+geometryName = "fvwrdn.fbx" //"warden.fbx"
+geometryScale = 0.014 //geometryScale = 0.04
+cockpitName= "fvtank_cockpit.fbx"
+collisionRadius = 7.0
+scrapValue = 20
+scrapCost = 65
+customCost = 70
+buildTime = 23.0
+customTime = 25.0
+maxHealth = 3000
+maxAmmo = 1 // Can't be 0 for InternalSoldiersAreAmmo to work
+unitName = "Legate"
+aiName = "APCProcess"
+heatSignature = 10.0
+imageSignature = 0.5
+radarSignature = 0.0
+isAssault = 1
+canSnipe = 0
+armorClass = L
+boxCollide = 1
+
+/////// REQUIREMENTS ///////////////
+requireCount = 3
+requireName1 = "fbforg"
+requireText1 = "Build Forge"
+requireName2 = "fbencl"
+requireText2 = "Build Enclave"
+requireName3 = "fbover"
+requireText3 = "Upgrade Antenna Mound"
+
+/////// PROVIDES ///////////////////
+provideCount = 3
+provideName1 = "fvwrdn"
+provideName2 = "VIRTUAL_CLASS_APC"
+provideName3 = "flier"
+
+/////////LIGHTS AND EFFECTS//////////////////
+lightHard1 = "hp_light_1"
+lightName1 = "spotlegate"
+lightHard2 = "hp_light_2"
+lightName2 = "spotlegate" //"spotblue2"  
+//LightsOnlyWhenPiloted = true
+
+effectHard1 = "hp_dust_1"
+effectName1 = "emit_slgttrail1"
+effectMinAltitude1 = 0.0
+effectMaxAltitude1 = 200.0
+effectMinVelocity1 = 5.0
+effectMaxVelocity1 = 500.0
+effectHard2 = "hp_dust_2" 
+effectName2 = "emit_slgttrail1"
+effectMinAltitude2 = 0.0
+effectMaxAltitude2 = 200.0
+effectMinVelocity2 = 5.0
+effectMaxVelocity2 = 500.0
+effectHard3 = "hp_dust_1"
+effectName3 = "emit_slgtcraft1"
+effectMinAltitude3 = 0.0
+effectMaxAltitude3 = 200.0
+effectMinVelocity3 = 2.0
+effectMaxVelocity3 = 500.0
+effectHard4 = "hp_dust_2" 
+effectName4 = "emit_slgtcraft1"
+effectMinAltitude4 = 0.0
+effectMaxAltitude4 = 200.0
+effectMinVelocity4 = 2.0
+effectMaxVelocity4 = 500.0
+
+/////// WEAPONS ///////////////////
+
+weaponMask = 00001
+weaponHard1 = "HP_SHIELD"
+weaponName1 = ""
+weaponAssault1 = 0
+
+////////////////////////////////////
+
+[CraftClass]
+rangeScan = 200.0
+periodScan = 0.0
+velocJam = 0.0
+braccelFactor = 0.05f;
+strafeFactor = 0.1f;
+steerFactor = 1.0f;
+omegaFactor = 0.2f;
+velFactor = 0.2f;
+avoidSpeed = 20;
+topSpeed = 30;
+
+selectWaitMsg = "fvwrdnvj.wav"
+selectAttackMsg = "fvwrdnvd.wav"
+selectFollowMsg = "fvwrdnv7.wav"
+selectGoMsg = "fvwrdnv0.wav
+selectOtherMsg = "fvwrdnvf.wav"
+holdMsg = "fvwrdnv8.wav"
+goMsg = "fvwrdnv9.wav"
+attackMsg = "fvwrdnv2.wav"
+followMeMsg = "fvwrdnv3.wav"
+followMsg = "fvwrdnvh.wav"
+repairMsg = "fvwrdnv4.wav"
+reloadMsg = "fvwrdnv5.wav"
+rescueMsg = "fvwrdnvg.wav"
+recycleMsg = "fvwrdnv8.wav"
+otherMsg = "fvwrdnvf.wav"  
+depoloyedMsg = "fvwrdnvd.wav"
+user1Msg = ""  
+killedMsg = "fvwrdnvm.wav"
+diedMsg = ""
+
+[HoverCraftClass]
+setAltitude = 0.5
+accelDragStop = 4.0
+accelDragFull = 1.0
+alphaTrack = 10.0
+alphaDamp = 3.0
+pitchPitch = 0.5
+pitchThrust = 0.1
+rollStrafe = 0.1
+rollSteer = 0.1
+velocForward = 15.0
+velocReverse = 15.0
+velocStrafe = 15.0
+accelThrust = 50.0
+accelBrake = 50.0
+omegaSpin = 2.0
+omegaTurn = 1.0
+alphaSteer = 5.0
+accelJump = 150.0
+soundThrust = "ssent01d.wav"
+soundSteer = "ssent01j.wav"
+
+[APCClass]
+soldierType = "fswmarn"
+soldierCount = 5
+soldierDelay = 0.3 // Everyone deploys at once
+timeDeploy = 0.1
+flightAltitude = 1.0
+SoldierAltitude = 0.3 // Altitude at which it starts spitting soldiers out.
+InternalSoldiersAreAmmo = true // if true, ammo meter shows the % of soldiers in the APC. (updated occasionally)
+HovercraftPhysicsWhenUndeployed = true
+
+soundDeploy = "ssent01h.wav"
+soundUndeploy = "ssent01d.wav"
+
+[Lod1]
+//geometryName = "ivapcL1.fbx" ;geometry for lod1
+//distance = 100

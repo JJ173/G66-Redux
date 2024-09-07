@@ -44,7 +44,7 @@ particleClass6 = "xguncar.light"
 particleCount6 = 1
 particleVeloc6 = "0.0 0.0 0.0"
 
-particleClass7 = "xsupercar.puff"
+particleClass7 = "xguncar.puff"
 particleCount7 = 5
 particleVeloc7 = "6.0 6.0 6.0"
 
@@ -109,7 +109,7 @@ longitudeSegments = 16
 simulateBase = "sim_smoke"
 lifeTime = 0.2
 renderBase = "draw_emit"
-emitName = "xsupercar.flameemit"
+emitName = "xguncar.flameemit"
 emitDelay = 0.1
 emitVelocity = "0.0 0.0 0.0"
 emitVariance = "0.0 0.0 0.0"

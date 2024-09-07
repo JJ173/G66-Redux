@@ -1,0 +1,12 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[WeaponClass]
+classLabel = "fggren"
+ordName = "fgrenadeRD"
+wpnName = "Concussion Grnd"
+fireSound = "mort01.wav"
+wpnCategory = "HAND"
+isFlying = 1
+
+[CannonClass]
+shotDelay = 2.0

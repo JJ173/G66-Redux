@@ -1,0 +1,20 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivmbike"
+collisionRadius = 10.0
+aiAddAmmo = 40
+
+/////// PROVIDES ///////////////////
+provideCount = 4
+provideName4 = "ivsmbike"
+////////////////////////////////////
+
+[CraftClass]
+IgnoreDestroyedTargets = true
+
+[HoverCraftClass]
+
+[Lod1]
+
+[Lod2]

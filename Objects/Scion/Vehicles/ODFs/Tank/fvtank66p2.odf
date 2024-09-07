@@ -1,0 +1,27 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fvtank66"
+baseName = "PatrolUnit"
+unitIcon = "icon_fvtank.tga"
+
+unitName = "Patrol"
+
+/////// REQUIREMENTS ///////////////
+requireCount = 1
+requireName1 = "fbkiln"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideName5 = "fvtank66p"
+////////////////////////////////////
+
+[CraftClass]
+CanAIPForceIdle = false
+DoIdleDispatch = false
+
+[HoverCraftClass]
+
+[MorphTankClass]
+
+[DeployableClass]

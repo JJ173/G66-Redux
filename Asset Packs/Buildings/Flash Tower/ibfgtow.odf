@@ -1,0 +1,35 @@
+[GameObjectClass]
+classLabel = "ibgtow"
+unitName = "Flash Tower"
+scrapCost = 60
+scrapValue = 3
+
+weaponMask = 00011
+weaponHard1 = "hp_cannon_1"
+weaponName1 = "gtowfls"
+weaponAssault1 = 0
+weaponHard2 = "hp_cannon_2"
+weaponName2 = "gtowfls"
+weaponAssault2 = 0
+
+requireCount = 2
+requireName1 = "ibcbun"
+requireText1 = "Build Relay Bunker"
+requireName2 = "ibarmo"
+requireText2 = "Build Armory"
+
+[BuildingClass]
+
+[CraftClass]
+rangeScan = 170
+periodScan = 0.0
+velocJam = 0.0
+weaponPitch = 1.5
+steerFactor = 0.5
+engageRange = 170
+
+[TurretCraftClass]
+omegaTurret = 2.0
+detectRange = 170
+
+[Lod1]

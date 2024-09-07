@@ -1,8 +1,8 @@
 [DESCRIPTION]
-missionName = "Ground Four"
+missionName = "G66: Ground Four"
 mapTga = "ground4.bmp"
 mapDesc = "groundi.des"
-
+mySide = 0
 
 Aware_v13 = true
 

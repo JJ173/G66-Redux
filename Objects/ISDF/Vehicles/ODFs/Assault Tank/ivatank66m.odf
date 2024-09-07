@@ -1,0 +1,39 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivatank66"
+scrapCost = 100
+maxAmmo = 1100
+addAmmo = 5
+aiAddAmmo = 5
+
+/////// REQUIREMENTS ///////////////
+requireCount = 4
+requireName1 = "ibarmo66m"
+requireText1 = "Build Armory"
+requireName2 = "ibtrain66m"
+requireText2 = "Build Training"
+requireName3 = "ibtcen"
+requireText3 = "Build Tech Center"
+requireName4 = "ibbomb"
+requireText4 = "Build Bomber Bay"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideName5 = "ivatank66m"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponName1 = "gsiegemag"
+////////////////////////////////////
+
+[CraftClass]
+steerFactor = 1.0
+
+[TrackedVehicleClass]
+
+[AssaultTankClass]
+
+[Lod1]
+
+[Lod2]

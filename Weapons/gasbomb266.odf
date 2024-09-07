@@ -1,0 +1,55 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "gasbomb2"
+effectName1 = "gasbomb266.render"
+
+[MineClass]
+
+[FlareMineClass]
+triggerDelay = 1.0
+
+damageValue(N) = 250	// None
+damageValue(L) = 150	// Light
+damageValue(H) = 65	// Heavy
+
+damageValue(S) = 65	 // Stasis
+damageValue(D) = 150	// Deflection
+damageValue(A) = 250	// Absorption
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 2
+renderName1 = "gasbomb266.core"
+renderName2 = "gasbomb266.cloudemit"
+
+[Core]
+renderBase = "draw_twirl"
+textureName = "smoke.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "63 127 0 127"
+finishColor = "31 63 0 63"
+startRadius = 2.0
+finishRadius = 75.0
+animateTime = 5.0
+rotationRate = 2.0
+
+[CloudEmit]
+renderBase = "draw_emit"
+emitName = "gasbomb2.cloudpuff"
+emitDelay = 0.2
+emitVariance = "12.0 0.0 12.0"
+
+[CloudPuff]
+simulateBase = "sim_dust"
+lifeTime = 5.0
+renderBase = "draw_twirl"
+textureName = "smoke.tga"
+textureBlend = "srcalpha invsrcalpha modulatealpha"
+startColor = "63 127 0 127"
+finishColor = "31 63 0 0"
+startRadius = 5.0
+
+finishRadius = 75.0
+animateTime = 5.0
+rotationRate = 2.0

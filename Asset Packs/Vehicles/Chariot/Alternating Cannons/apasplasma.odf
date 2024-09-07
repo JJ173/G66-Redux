@@ -1,0 +1,16 @@
+[GameObjectClass]
+baseName = "apsplasma"
+classLabel = "apcannon"
+
+scrapCost = 20
+
+unitName = "Plasma Cannon"
+
+requireCount = 1
+requireName1 = "fbkiln"
+requireText1 = "Build Kiln"
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "gasplasma_c"

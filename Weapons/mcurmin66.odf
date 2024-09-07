@@ -1,0 +1,25 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "mcurmin"
+effectName1 = "mcurmin66.field"
+
+[MineClass]
+
+[MagnetMineClass]
+triggerDelay = 0.0
+fieldRadius = 150.0
+objPushEdge = 250.0
+TeamFilter = 68	// 0 = pushes all teams, 1 = pushes same team only, 2 = pushes only allies, 3 = pushes only enemies, 4 = not same team
+
+[Field]
+renderBase = "draw_sphere"
+textureName = "vsmoke.tga"
+textureBlend = "one one modulate"
+startColor = "0 255 0 0"
+finishColor = "0 255 0 55"
+startRadius = 1.0
+finishRadius = 150.0
+animateTime = 1.0
+latitudeBands = 8
+longitudeSegments = 16

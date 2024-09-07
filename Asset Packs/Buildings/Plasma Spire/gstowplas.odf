@@ -1,0 +1,14 @@
+[WeaponClass]
+classLabel = "cannon"
+ordName = "towplas"
+altName = "gsplasma_a"
+wpnName = "Plasma Battery"
+fireSound = "gspst00.wav"
+wpnReticle = "gplas_c"
+wpnCategory = "CANN"
+aiRange = 200
+
+[CannonClass]
+shotDelay = 0.33 //3/sec
+shotAlternate = 1
+

@@ -1,0 +1,40 @@
+[OrdnanceClass]
+classLabel = "beam"
+
+shotGeometry = NULL
+xplGround = "xsbmgnd"
+xplVehicle = "xsbmcar"
+xplBuilding = "xsbmbld"
+
+renderName = "stowbeam.render"
+
+ammoCost = 6
+lifeSpan = 160e-6 // 160m
+shotSpeed = 1e6
+
+damageValue(N) = 40 // none //350
+damageValue(L) = 30 // light //250
+damageValue(H) = 15 // heavy //150
+
+damageValue(S) = 30 // standard //250
+damageValue(D) = 40 // deflection //350
+damageValue(A) = 8 // absorbtion //80
+
+[Render]
+renderBase = "draw_multi"
+renderCount = 1
+renderName1 = "stowbeam.fringe"
+
+[Fringe]
+renderBase = "draw_bolt"
+textureName = "sbmtrail.tga"
+textureBlend = "one one modulate"
+startColor = "40 255 80 255"
+finishColor = "0 255 0 0"
+startRadius = 0.2
+finishRadius = 1.0
+segmentLength = 5.0
+segmentVariance = "0.0 0.0 0.0"
+animateTime = 0.3
+textureRate = 0.02
+textureSpeed = -5.0

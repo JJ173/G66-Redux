@@ -1,0 +1,51 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fbstro"
+
+/////// REQUIREMENTS ///////////////
+requireName1 = "fbforg66c"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideCount = 6
+provideName5 = "fbstro66c"
+provideName6 = "Arsenal"
+////////////////////////////////////
+
+[PoweredBuildingClass]
+
+[BuildingClass]
+
+[FactoryClass]
+BuildSparkConfig = "sparker"
+
+[ArmoryGroup1]
+buildItem1 = "fpfiongn66"
+buildItem3 = "fpfgaussg66"
+buildItem4 = "fpfzapgn66"
+buildItem5 = "fpqteps66"
+
+[ArmoryGroup2]
+buildItem5 = "fpvenom"
+buildItem6 = "fpxnstr"
+buildItem7 = "fpactnc"
+buildItem8 = "fpombst2"
+
+[ArmoryGroup3]
+
+[ArmoryGroup4]
+
+[ArmoryGroup5]
+buildItem2 = "fpseek"
+
+[ArmoryGroup6]
+buildItem3 = "fpgasplume"
+buildItem4 = "fptesla"
+buildItem5 = "fprush"
+
+[ArmoryGroup7]
+
+[ArmoryGroup8]
+
+[Lod1]

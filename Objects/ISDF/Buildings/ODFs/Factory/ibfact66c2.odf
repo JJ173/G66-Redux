@@ -1,0 +1,29 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ibrecy"
+geometryName = "ibfact00.fbx"
+animCount = 1
+animName1 = "loop"
+animFile1 = "ibfact00.fbx"
+RunAnimation = "loop"
+RunAnimIsLooped = true
+powerCost = 0
+
+/////// PROVIDES ///////////////////
+provideCount = 9
+provideName5 = "UnitFactory2"
+provideName6 = "UnitFactory"
+provideName7 = "ibfact66c2"
+provideName8 = "ibfact66c"
+provideName9 = "Assembler"
+////////////////////////////////////
+
+[PoweredBuildingClass]
+
+[BuildingClass]
+
+[FactoryClass]
+BuildSparkConfig = "sparker"
+
+[Lod1]

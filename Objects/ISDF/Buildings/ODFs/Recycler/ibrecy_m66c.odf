@@ -1,0 +1,37 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ibrecy66"
+
+/////// PROVIDES ///////////////////
+provideCount = 7
+provideName6 = "ibrecy_m66c"
+provideName7 = "Assembler"
+////////////////////////////////////
+
+[PoweredBuildingClass]
+
+[BuildingClass]
+
+[FactoryClass]
+BuildSparkConfig = "sparker"
+
+buildItem1 = "ivscav66c"
+buildItem2 = "ivscout66c"
+buildItem3 = "ivturr66c"
+buildItem5 = "ivcons66c"
+buildItem6 = "ivserv66c"
+buildItem8 = "ivscout66e"
+buildEmptyItem = 8
+
+[BuildGroup9]
+buildLabel = "Infantry"
+buildItem1 = "isAntiTankG"
+buildItem2 = "isAssassinG"
+buildItem3 = "isGrenadierG"
+buildItem4 = "isRiflemanG"
+
+[RecyclerClass]
+RequiresExtractor = false
+
+[Lod1]

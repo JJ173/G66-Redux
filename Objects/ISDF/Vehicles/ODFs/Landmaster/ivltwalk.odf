@@ -1,0 +1,102 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivwalk"
+cockpitName = "ivwalk_cockpit.xsi"
+geometryName = "ivltwalk_skel.xsi"
+
+animCount = 10
+animName1 = "idle"
+animFile1 = "ivltwalk_skel.xsi"
+
+animName2 = "idle2"
+animFile2 = "ivltwalk_skel.xsi"
+
+animName3 = "idle3"
+animFile3 = "ivltwalk_skel.xsi"
+
+animName4 = "sitdown"
+animFile4 = "ivltwalk_sit.xsi"
+
+animName5 = "walk"
+animFile5 = "ivltwalk_walk.xsi"
+
+animName6 = "turn"
+animFile6 = "ivltwalk_walk.xsi"
+
+animName7 = "death"
+animFile7 = "ivltwalk_walk.xsi"
+
+animName8 = "death2"
+animFile8 = "ivltwalk_walk.xsi"
+
+animName9 = "death3"
+animFile9 = "ivltwalk_walk.xsi"
+
+animName10 = "run"
+animFile10 = "ivltwalk_run.xsi"
+
+collisionRadius = 10.0
+scrapValue = 20
+scrapCost = 80
+customCost = 90
+maxHealth = 5500
+maxAmmo = 4000
+unitName = "Landmaster"
+heatSignature = 0.08
+imageSignature = 3.0
+radarSignature = 3.0
+isAssault = 0
+armorClass = M
+
+/////// PROVIDES ///////////////////
+provideCount = 6
+provideName5 = "LtWalker"
+provideName6 = "ivltwalk"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponMask = 00011
+
+weaponHard1 = "HP_GUN_01"
+weaponName1 = "gchaingn66a"
+weaponAssault1 = 1
+
+weaponHard2 = "HP_GUN_02"
+weaponName2 = "gchaingn66a"
+weaponAssault2 = 1
+//////////////////////////////////
+
+[CraftClass]
+IgnoreDestroyedTargets = true
+GotoTaskHasLeader = false
+AttackTaskUsesGroups = false
+
+attackTask = "AssaultTankAttack"
+subAttackTask = "SupportSubAttack"
+subAttackClass = "NNN"
+
+// subAttackClass uses 3 letters.
+// 1st letter is either A or N.     A is include Air targets.         N is attack ground only.
+// 2nd letter is either D or N.     D is to deploy before attacking.  N for regular attack.
+// 3rd letter is either S or N.     S is to use Weapon Range.         N is use the Engage Range to attack. 
+
+rangeScan = 200.0
+periodScan = 5.0
+velocJam = 0.0
+engageRange = 150
+
+// Angles are in degress
+[WalkerClass]
+FRICTION_COEF = 0.35
+minHeadYaw = -120.0
+maxHeadYaw =  120.0
+minHeadPitch = -40.0
+maxHeadPitch = 40.0
+omegaTurn = 60.0
+accelThrust = 20.0
+velocForward = 18.0
+velocReverse = 10.0
+velocWalkFactor = 0.50
+
+headpiece = "head"

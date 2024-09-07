@@ -1,8 +1,8 @@
 [DESCRIPTION]
-missionName = "Chill"
-mapTga = "chilli.bmp"
+missionName = "G66: Chill"
+mapTga = "chill.bmp"
 mapDesc = "chilli.des"
-
+mySide = 1
 
 Aware_v13 = true
 

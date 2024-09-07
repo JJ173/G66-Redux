@@ -1,0 +1,17 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "apspecial"
+scrapCost = 20
+unitName = "Flare"
+
+/////// REQUIREMENTS ///////////////
+requireCount = 1
+requireName1 = "ibarmo"
+requireText1 = "Build Armory"
+////////////////////////////////////
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "gnightvision66"

@@ -1,0 +1,25 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivltank"
+
+maxHealth = 2200
+maxAmmo = 2000
+addAmmo = 2
+
+/////// PROVIDES ///////////////////
+provideCount = 5
+provideName5 = "ivltank66"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponMask = 00111
+
+weaponName1 = "gatstab_a"
+weaponName2 = "gfafmsl_c"
+weaponName3 = "gfafmsl_c"
+////////////////////////////////////
+
+[CraftClass]
+
+[HoverCraftClass]

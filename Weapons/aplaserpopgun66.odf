@@ -1,0 +1,18 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "apmortar"
+scrapCost = 40
+unitName = "Laser Popper"
+
+/////// REQUIREMENTS ///////////////
+requireCount = 1
+requireName1 = "ibarmo66m"
+requireText1 = "Build Armory"
+////////////////////////////////////
+
+[PowerUpClass]
+soundReject = "mnu_buzz.wav"
+
+[WeaponPowerupClass]
+weaponName = "glaserpopgun66_c"

@@ -1,0 +1,19 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "apspecial"
+scrapCost = 20
+unitName = "Satchel"
+
+/////// REQUIREMENTS ///////////////
+requireCount = 2
+requireName1 = "fbover"
+requireText1 = "Build/Upgrade Antenna Mound"
+requireName2 = "fbstro"
+requireText2 = "Build Stronghold"
+////////////////////////////////////
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "fgsatc66"

@@ -1,0 +1,18 @@
+fvscrbv0.wav - "Attacking target"
+fvscrbv1.wav - "Affirmative!"
+fvscrbv2.wav - "Missiles, away"
+fvscrbv3.wav - "Target destroyed"
+fvscrbv4.wav - "Following"
+fvscrbv8.wav - "Retruning to base"
+fvscrbv9.wav - "Heading back to reload"
+fvscrbva.wav - "Affirmative" (higher quality)
+fvscrbvc.wav - "Right away"
+fvscrbvd.wav - "Recycling"
+fvscrbve.wav - "Units are grouped"
+fvscrbvf.wav - "Approaching nav point"
+fvscrbvg.wav - "Protecting unit"
+fvscrbvh.wav - "Yes, comrade"
+fvscrbvk.wav - "Yes, comrade" (impatient)
+fvscrbvp.wav - "Torpedoes, away"
+fvscrbvq.wav - "Stopping"
+fvscrbvr.wav - "Comrade, I'm hit!"

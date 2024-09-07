@@ -1,0 +1,10 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fspilo66"
+
+/////// WEAPONS ////////////////////
+weaponName2 = ""
+////////////////////////////////////
+
+[PersonClass]

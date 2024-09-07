@@ -1,0 +1,27 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ibgtoww1"
+
+scrapValue = 6
+maxHealth = 9000
+unitName = "Cerberus Tower"
+
+/////// PROVIDES ///////////////////
+provideCount = 5
+provideName5 = "ibgtow"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponName1 = "gcerbgn_a"
+weaponAssault1 = 1
+////////////////////////////////////
+
+[BuildingClass]
+
+[CraftClass]
+rangeScan = 650
+engageRange = 650
+
+[TurretCraftClass]
+detectRange = 650

@@ -1,0 +1,3 @@
+These cannon ODFs are included for use with the Scion Chariot, using a special factory weapon list ODF to allow configuration of this tank without adding these weapons to the armory, as they are rather redundant on their own.
+
+In short: these are the exact same ISDF guns, but they alternate fire for a much more fun effect.

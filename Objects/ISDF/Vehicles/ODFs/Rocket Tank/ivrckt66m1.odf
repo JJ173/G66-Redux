@@ -1,0 +1,26 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivrckt66"
+
+/////// REQUIREMENTS ///////////////
+requireName3 = "ibarmo66m"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideCount = 7
+provideName6 = "ivrckt66m"
+provideName7 = "RTank"
+////////////////////////////////////
+
+[CraftClass]
+GotoTaskHasLeader = false
+AttackTaskUsesGroups = false
+
+[TrackedVehicleClass]
+
+[AssaultTankClass]
+
+[Lod1]
+
+[Lod2]

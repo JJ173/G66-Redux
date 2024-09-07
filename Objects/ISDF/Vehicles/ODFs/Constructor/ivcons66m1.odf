@@ -1,0 +1,26 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivcons66"
+
+/////// PROVIDES ///////////////////
+provideCount = 4
+provideName4 = "ivcons66m"
+////////////////////////////////////
+
+[CraftClass]
+
+[HoverCraftClass]
+
+[DeployableClass]
+
+[ConstructionRigClass]
+buildItem1 = "ibpgen66m"
+buildItem2 = "ibfact66m"
+buildItem3 = "ibcbun66m"
+buildItem4 = "ibarmo66m"
+buildItem5 = "ibsbay66m"
+buildItem6 = "ibgtow66m"
+buildItem7 = "ibtrain66m"
+buildItem8 = "ibtcen66m"
+buildItem9 = "ibbomb66m"

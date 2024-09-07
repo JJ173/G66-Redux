@@ -1,0 +1,17 @@
+[GameObjectClass]
+baseName = "apchain"
+classLabel = "apgun"
+
+scrapCost = 20
+
+unitName = "Chain Gun AR"
+
+requireCount = 1
+requireName1 = "ibarmo"
+requireText1 = "Build Armory"
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "gachain_a"
+isAssault = true

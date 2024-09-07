@@ -1,0 +1,29 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ibgtow"
+addAmmo = 100
+collisionRadius = 0.0
+
+/////// PROVIDES ///////////////////
+provideCount = 4
+provideName4 = "GunTower"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponName1 = "gtower66"
+weaponName2 = "gtower66"
+////////////////////////////////////
+
+[BuildingClass]
+
+[CraftClass]
+IgnoreDestroyedTargets = true
+
+attackTask = "AssaultTankAttack"
+subattackTask = "SupportSubAttack"
+subAttackClass = "ANS"
+
+[TurretCraftClass]
+
+[Lod1]

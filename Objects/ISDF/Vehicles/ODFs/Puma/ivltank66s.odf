@@ -1,0 +1,24 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivltank66"
+
+/////// REQUIREMENTS ///////////////
+requireName1 = "ibfact66c"
+requireText1 = "Build Factory"
+requireName2 = "ibsbay"
+requireText2 = "Build Service Bay"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideCount = 5
+provideName5 = "ivltank66s"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponName1 = "gpulse66_c"
+////////////////////////////////////
+
+[CraftClass]
+
+[HoverCraftClass]

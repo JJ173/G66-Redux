@@ -1,0 +1,13 @@
+[solid]
+diffuse = 0.666667  0.666667  0.666667  1.000000
+specular = 0.901961  0.901961  0.901961  1.000000
+specularPower = 32.000000
+emissive = 0.000000  0.000000  0.000000  1.000000
+ambient = 0.666667  0.666667  0.666667  1.000000
+
+[texture]
+diffuse = ivcorsair_mainbody_d.dds
+teamColor = NVScoutFE_mainbody_c.dds
+normal = NVScoutFE_mainbody_n.dds
+specular = NVScoutFE_mainbody_s.dds
+emissive = NVScoutFE_mainbody_e.dds

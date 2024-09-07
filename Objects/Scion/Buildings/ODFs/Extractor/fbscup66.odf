@@ -1,0 +1,18 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fbscup"
+
+maxHealth = 6500
+unitName = "Extractor II"
+
+/////// PROVIDES ///////////////////
+provideCount = 7
+provideName6 = "Pool"
+provideName7 = "UpgradedPool"
+////////////////////////////////////
+
+[BuildingClass]
+soundAmbient = "iext01.wav"
+
+[ExtractorClass]

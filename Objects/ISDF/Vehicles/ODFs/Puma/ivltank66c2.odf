@@ -1,0 +1,26 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+baseName = "LtTank"
+
+classLabel = "ivltank66"
+
+scrapCost = 50
+customCost = 60
+
+/////// REQUIREMENTS ///////////////
+requireCount = 1
+requireName1 = "ibfact66c2"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideName5 = "ivltank66c"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponName1 = "gpulse66_c"
+////////////////////////////////////
+
+[CraftClass]
+
+[HoverCraftClass]

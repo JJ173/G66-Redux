@@ -1,0 +1,21 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "apmortar"
+scrapCost = 60
+unitName = "Thumper Mortar"
+
+/////// REQUIREMENTS ///////////////
+requireCount = 2
+requireName1 = "ibarmo"
+requireText1 = "Build Armory"
+requireName2 = "ibtcen"
+requireText2 = "Build Tech Center"
+////////////////////////////////////
+
+lightName1 = "omnibrown"
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "gThumperMortar"

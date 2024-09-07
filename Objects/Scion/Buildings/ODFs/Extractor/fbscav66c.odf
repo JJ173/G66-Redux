@@ -1,0 +1,11 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fbscav66"
+
+upgradeName = "fbscup66c"
+
+[BuildingClass]
+
+[ExtractorClass]
+initDelay = 1.0

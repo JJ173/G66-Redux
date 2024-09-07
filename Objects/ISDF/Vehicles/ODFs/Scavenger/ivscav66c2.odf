@@ -1,0 +1,32 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivscav66"
+collisionRadius = 10.0
+
+/////// REQUIREMENTS ///////////////
+requireCount = 1
+requireName1 = "ibfact66c2"
+requireText1 = "Build Factory"
+////////////////////////////////////
+
+[CraftClass]
+rangeScan = 2000.0
+periodScan = 1.0
+
+engagerange = 2000.0
+ScavengerCollectPoolRange = 2000.0	// for ScavengerProcess/ScavengerHProcess, scanner on craft will override
+ScavengerChoosePoolRange = 2000.0	// for ScavengerProcess/ScavengerHProcess
+
+CanAIPForceIdle = false
+
+[TrackedVehicleClass]
+
+[TrackedDeployableClass]
+
+[ScavengerClass]
+deployClass = "ibscav66c"
+
+[Lod1]
+
+[Lod2]

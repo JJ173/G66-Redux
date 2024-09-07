@@ -1,0 +1,24 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fvarch66"
+collisionRadius = 10.0
+
+/////// PROVIDES ///////////////////
+provideCount = 6
+provideName6 = "fvctarch1"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponName3 = "gdeflect"
+////////////////////////////////////
+
+[CraftClass]
+IgnoreDestroyedTargets = true
+
+[HoverCraftClass]
+
+[MorphTankClass]
+alphaSteer = 1.5 //how fast it responds to steering 
+
+[DeployableClass]

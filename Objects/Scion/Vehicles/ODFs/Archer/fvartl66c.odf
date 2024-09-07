@@ -1,0 +1,33 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fvartl"
+
+collisionRadius = 10.0
+
+/////// REQUIREMENTS ///////////////
+requireName1 = "fbforg66c"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideCount = 6
+provideName5 = "fvartl66c"
+provideName6 = "AntiAir"
+////////////////////////////////////
+
+[CraftClass]
+IgnoreDestroyedTargets = true
+GotoTaskHasLeader = false
+AttackTaskUsesGroups = false
+
+engageRange = "340"	//350
+
+subAttackClass = "AD" // include air units as attack targets only when deployed
+
+[HoverCraftClass]
+soundDeploy = "avartle0.wav"
+soundUndeploy = "avartle4.wav"
+
+[ArtilleryClass]
+soundDeploy = ""
+soundUndeploy = ""

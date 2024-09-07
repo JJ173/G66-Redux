@@ -1,0 +1,14 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivltwalk"
+aiAddAmmo = 40
+
+/////// PROVIDES ///////////////////
+provideName6 = "ivltwalk66s"
+////////////////////////////////////
+
+[CraftClass]
+
+// Angles are in degress
+[WalkerClass]

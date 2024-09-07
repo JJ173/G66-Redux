@@ -1,0 +1,25 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ibcbun"
+collisionRadius = 12.0
+
+buildRequire = "F"
+buildSupport = "A"
+
+/////// PROVIDES ///////////////////
+provideCount = 4
+provideName4 = "Bunker"
+////////////////////////////////////
+
+[BuildingClass]
+
+[CommBunkerClass]
+periodScan = 5.0
+viewDist = 100.0
+MinViewDist = 50
+MaxViewDist = 350.0
+
+[PoweredBuildingClass]
+
+[Lod1]

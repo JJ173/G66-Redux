@@ -1,0 +1,16 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ibtcen"
+
+/////// PROVIDES ///////////////////
+provideCount = 5
+provideName4 = "TechCen"
+provideName5 = "ibtcen66"
+////////////////////////////////////
+
+[BuildingClass]
+
+[PoweredBuildingClass]
+
+[Lod1]

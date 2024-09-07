@@ -1,0 +1,22 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+baseName = "MBike"
+classLabel = "ivmbike66"
+
+/////// REQUIREMENTS ///////////////
+requireName1 = "ibfact66c"
+requireName2 = "ibarmo66c"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideName4 = "ivmbike66c"
+////////////////////////////////////
+
+[CraftClass]
+
+[HoverCraftClass]
+
+[Lod1]
+
+[Lod2]

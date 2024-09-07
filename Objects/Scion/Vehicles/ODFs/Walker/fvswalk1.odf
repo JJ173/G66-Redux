@@ -1,0 +1,21 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fvwalk66"
+
+collisionRadius = 10.0
+aiAddAmmo = 40
+
+/////// PROVIDES ///////////////////
+provideCount = 5
+provideName5 = "fvswalk1"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponName1 = "gvenom_a"
+weaponName2 = "gvenom_a"
+////////////////////////////////////
+
+[CraftClass]
+
+[WalkerClass]

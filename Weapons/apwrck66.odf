@@ -1,0 +1,10 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "apwrck"
+
+[PowerUpClass]
+
+[DayWreckerClass]
+xplBlast = "xbmbxpl66"
+craterDepth = 15.0

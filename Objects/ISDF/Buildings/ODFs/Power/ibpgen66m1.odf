@@ -1,0 +1,20 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ibpgen"
+
+unitName = "Power II"
+upgradeName = "ibpgup66m"
+
+/////// PROVIDES ///////////////////
+provideCount = 4
+provideName3 = "Power"
+provideName4 = "ibpgen66m1"
+////////////////////////////////////
+
+[BuildingClass]
+
+
+[PoweredBuildingClass]
+
+[Lod1]

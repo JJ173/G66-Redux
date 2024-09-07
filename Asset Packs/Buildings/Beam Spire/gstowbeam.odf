@@ -1,0 +1,28 @@
+[WeaponClass]
+classLabel = "machinegun"
+altName = "gsbeam_a"
+ordName = "stowbeam"
+wpnName = "Scion Beam XR"
+fireSound = "sonic03c.wav"//"flash01.wav"
+wpnReticle = "gsandbag"
+wpnCategory = "CANN"
+isAssault = 0
+aiRange = 160
+flashName = "gsbeam_c.flash"
+
+[CannonClass]
+shotDelay = 0.1
+shotVariance = 0.02
+
+[Flash]
+simulateBase = "sim_null"
+lifeTime = 0.2
+renderBase = "draw_light"
+startColor = "40 255 80 100"
+finishColor = "255 255 0 100"
+startRadius = 10.0
+finishRadius = 10.0
+animateTime = 0.2
+attenuateConstant = 0.0
+attenuateLinear = 1.0
+attenuateQuadratic = 0.0

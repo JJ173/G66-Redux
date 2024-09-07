@@ -1,0 +1,25 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+baseName = "ATank"
+classLabel = "ivatank66"
+aiAddAmmo = 30	
+
+/////// REQUIREMENTS ///////////////
+requireName1 = "ibfact66c"
+requireName2 = "ibtcen66c"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideName5 = "ivatank66c"
+////////////////////////////////////
+
+[CraftClass]
+
+[TrackedVehicleClass]
+
+[AssaultTankClass]
+
+[Lod1]
+
+[Lod2]

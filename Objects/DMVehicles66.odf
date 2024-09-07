@@ -1,0 +1,139 @@
+//
+// MPVehicles.odf - listing of multiplayer vehicles usable in BZ2
+//
+//
+// Tip: do not put .odf extension on cfg# = "" entries; added automatically on loading
+// 
+
+[MPVehicles]
+xsi1 = "ivscout00.fbx"
+cfg1 = "ivscout66m"
+Description1 = "Thunderbolt"
+
+xsi2 = "fvscout_skel.fbx"
+cfg2 = "fvscout66"
+Description2 = "Drone"
+
+xsi3 = "ivscout00.fbx"
+cfg3 = "ivcscout1"
+Description3 = "Thunderbolt I"
+
+xsi4 = "ivscout00.fbx"
+cfg4 = "ivctscout2"
+Description4 = "Thunderbolt II"
+
+xsi5 = "ivtank00.fbx"
+cfg5 = "ivcttank02"
+Description5 = "Sabre I"
+
+xsi6 = "ivtank00.fbx"
+cfg6 = "ivrtank01"
+Description6 = "Sabre II"
+
+xsi7 = "ivltank.xsi"
+cfg7 = "ivltank66a"
+Description7 = "Puma I"
+
+xsi8 = "ivltank.xsi"
+cfg8 = "ivctpuma02"
+Description8 = "Puma IV"
+
+xsi9 = "ivmbik00.fbx"
+cfg9 = "ivmbike"
+Description9 = "Jackal"
+
+xsi10 = "ivmisl00.fbx"
+cfg10 = "ivmisl66m"
+Description10 = "Avenger"
+
+xsi11 = "ivmisl00.fbx"
+cfg11 = "ivctmisl02"
+Description11 = "Avenger II"
+
+xsi12 = "fvsent_skel.fbx"
+cfg12 = "fvctsent1"
+Description12 = "Sentry"
+
+xsi13 = "fvtank_skel.fbx"
+cfg13 = "fvcttank01"
+Description13 = "Warrior"
+
+xsi14 = "fvltank_skel.xsi"
+cfg14 = "fvltank66m"
+Description14 = "Dragoon"
+
+xsi15 = "fvltank_skel.xsi"
+cfg15 = "fvctltank1"
+Description15 = "Dragoon II"
+
+xsi16 = "fvlancer_skel.fbx"
+cfg16 = "fvarch"
+Description16 = "Lancer"
+
+xsi17 = "ivatnk00.fbx"
+cfg17 = "ivatank"
+Description17 = "Bulldog"
+
+xsi18 = "ivxnat.xsi"
+cfg18 = "ivcstank1"
+Description18 = "Seige Tank II"
+
+xsi19 = "ivrckt00.fbx"
+cfg19 = "ivctrckt1"
+Description19 = "Rocket Tank"
+
+xsi20 = "ivwalk_skel.fbx"
+cfg20 = "ivctwalk1"
+Description20 = "Attila"
+
+xsi21 = "ivltwalk_skel.fbx"
+cfg21 = "ivctlwlk01"
+Description21 = "Landmaster I"
+
+xsi22 = "ivltwalk_skel.fbx"
+cfg22 = "ivctlwlk02"
+Description22 = "Landmaster II"
+
+xsi23 = "fvtitan_skel.fbx"
+cfg23 = "fvatank66"
+Description23 = "Titan"
+
+xsi24 = "fvwalk_skel.fbx"
+cfg24 = "fvwalk66"
+Description24 = "Mauler"
+
+xsi25 = "hunter.xsi"
+cfg25 = "ivhunter"
+Description25 = "Hunter"
+
+xsi26 = "scorpion.xsi"
+cfg26 = "ivscorpion"
+Description26 = "Scorpion"
+
+xsi27 = "fvrapier00.xsi"
+cfg27 = "fvrapier"
+Description27 = "Scorpion"
+
+xsi28 = "fvghoul_skel.xsi"
+cfg28 = "fvghoul"
+Description28 = "Ghoul"
+
+xsi29 = "ivdestroy.xsi"
+cfg29 = "ivdestroy"
+Description29 = "Destroyer I"
+
+xsi30 = "ivdestroy.xsi"
+cfg30 = "ivdestroy2"
+Description30 = "Destroyer II"
+
+xsi31 = "ivdestroy.xsi"
+cfg31 = "ivdestroy3"
+Description31 = "Destroyer III"
+
+xsi32 = "ivdestroy.xsi"
+cfg32 = "ivdestroy4"
+Description32 = "Destroyer IV"
+
+xsi33 = "ivgscout.xsi"
+cfg33 = "ivgscout"
+Description33 = "Spectator"

@@ -45,8 +45,8 @@ ivar32 = 0   // Friendly Fire off/on
 // Svar0 (.bzn filename, used to look for an .inf file like this)
 // *not* read in, as that would cause an infinite loop
 
-svar4 = "DMvehicles_RD.txt"
+svar4 = "DMvehicles_RD.odf"
 
 svar7 = "dm" // Custom shell page to pull up [actually bzshell_multi_####.cfg]
-
+svar8 = "G66Check.odf"
 svar11 = "Rogues" // Team name for a craft on team "group" 3 (teams 11..15)

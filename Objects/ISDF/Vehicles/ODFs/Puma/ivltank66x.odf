@@ -1,0 +1,32 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivltank"
+
+scrapCost = 75
+customCost = 85
+customTime = 25.0
+maxHealth = 4500
+addAmmo = 15
+
+/////// PROVIDES ///////////////////
+provideCount = 5
+provideName5 = "ivltank66x"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponMask = 01111
+
+weaponName1 = "gatstab_a"
+weaponName2 = "gchase_c"
+weaponName3 = "gchase_c"
+
+weaponHard4 = "HP_ROCKET_3"
+weaponName4 = "gchase_c"
+weaponAssault4 = 0
+recoilName4 = "misl_3"
+////////////////////////////////////
+
+[CraftClass]
+
+[HoverCraftClass]

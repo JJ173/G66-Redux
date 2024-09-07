@@ -1,0 +1,25 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivcons"
+collisionRadius = 0.0
+
+/////// PROVIDES ///////////////////
+provideCount = 3
+provideName3 = "Builder"
+////////////////////////////////////
+
+[CraftClass]
+engageRange = 100.0
+braccelFactor = 0.1
+avoidSpeed = 4.0
+topSpeed = 6.5
+
+[HoverCraftClass]
+accelThrust = 30.0
+omegaSpin = 2.0 //spinning in place speed
+
+[DeployableClass]
+
+[ConstructionRigClass]
+BuildSparkConfig = "sparker"

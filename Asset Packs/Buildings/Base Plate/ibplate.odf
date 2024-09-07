@@ -1,0 +1,39 @@
+[GameObjectClass]
+baseName = "ibpgen"
+geometryName = "ibplate00.fbx"
+classLabel = "i76building"//"techcenter"
+scrapCost = 5
+scrapValue = 2
+maxHealth = 1000
+maxAmmo = 0
+unitName = "Base Plate"
+heatSignature = 2.0
+imageSignature = 1.0
+radarSignature = 1.0
+collisionRadius = 11.0
+isAssault = 1
+armorClass = H
+AllowUndergroundSpawn = 1
+canSelect = 0
+
+buildSupport = "B"
+buildRequire = "A"//"F"
+
+/////// REQUIREMENTS ///////////////
+requireCount = 0
+
+/////// PROVIDES ///////////////////
+provideCount = 3
+provideName1 = "ibcbun"
+provideName2 = "VIRTUAL_CLASS_COMMBUNKER"
+provideName3 = "base"
+
+[BuildingClass]
+soundAmbient = NULL
+
+[PoweredBuildingClass]
+detectRange = 300
+
+[Lod1]
+//geometryName = "ibpgenL1.fbx" ;geometry for lod1
+//distance = 64                    ;bsphere under 200 pixel => switch to lod1

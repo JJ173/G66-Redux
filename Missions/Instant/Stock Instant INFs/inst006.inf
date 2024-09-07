@@ -1,8 +1,8 @@
 [DESCRIPTION]
-missionName = "Iceberg"
-mapTga = "inst006.bmp"
+missionName = "G66: Iceberg"
+mapTga = "MPIIsland.bmp"
 mapDesc = "inst006.des"
-
+mySide = 1
 
 Aware_v13 = true
 

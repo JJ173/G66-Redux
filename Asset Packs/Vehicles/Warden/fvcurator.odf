@@ -1,0 +1,230 @@
+[GameObjectClass]
+baseName = "fvwrdn"
+geometryName = "fvwrdn.fbx" //"warden.fbx"
+geometryScale = 0.014 //geometryScale = 0.04
+cockpitName = "fvtank_cockpit.fbx"
+classLabel = "morphtank" //"wingman" 
+scrapValue = 25
+scrapCost = 70
+customCost = 75
+buildTime = 17.0
+customTime = 19.0
+maxHealth = 7000
+maxAmmo = 8000
+addAmmo = 5.0
+addhealth = 0.0
+
+
+unitName = "Curator"
+aiName = "TankFriend"
+aiName2 = "TankEnemy"
+
+heatSignature = 2.0
+imageSignature = 2.5
+radarSignature = 0.5
+
+isAssault = 0
+
+armorClass = N
+
+/////// REQUIREMENTS ///////////////
+requireCount = 4
+requireName1 = "fbforg"
+requireText1 = "Build Forge"
+requireName2 = "fbencl"
+requireText2 = "Build Enclave"
+requireName3 = "fbover"
+requireText3 = "Upgrade Antenna Mound"
+requireName4 = "fbstro"
+requireText4 = "Build Stronghold"
+
+////////////////////////////////////
+
+
+/////// PROVIDES ///////////////////
+
+provideCount = 4
+provideName1 = "fvcrtr"
+provideName2 = "VIRTUAL_CLASS_MORPHTANK
+provideName3 = "VIRTUAL_CLASS_TANK"
+provideName4 = "DefendUnit"
+
+////////////////////////////////////
+
+/////////LIGHTS AND EFFECTS//////////////////
+lightHard1 = "hp_light_1"
+lightName1 = "spotcurator"
+lightHard2 = "hp_light_2"
+lightName2 = "spotcurator" //"spotblue2"  
+LightsOnlyWhenPiloted = true
+
+EffectsMask = 65535
+effectHard1 = "hp_dust_1"
+effectName1 = "emit_scrttrail1"
+effectMinAltitude1 = 0.0
+effectMaxAltitude1 = 200.0
+effectMinVelocity1 = 5.0
+effectMaxVelocity1 = 500.0
+effectHard2 = "hp_dust_2" 
+effectName2 = "emit_scrttrail1"
+effectMinAltitude2 = 0.0
+effectMaxAltitude2 = 200.0
+effectMinVelocity2 = 5.0
+effectMaxVelocity2 = 500.0
+effectHard3 = "hp_dust_1"
+effectName3 = "emit_scrtcraft1"
+effectMinAltitude3 = 0.0
+effectMaxAltitude3 = 200.0
+effectMinVelocity3 = 2.0
+effectMaxVelocity3 = 500.0
+effectHard4 = "hp_dust_2" 
+effectName4 = "emit_scrtcraft1"
+effectMinAltitude4 = 0.0
+effectMaxAltitude4 = 200.0
+effectMinVelocity4 = 2.0
+effectMaxVelocity4 = 500.0
+
+
+/////// weapons ////////////////////
+
+weaponMask = 01111
+
+weaponHard1 = "HP_cannon_1"
+weaponName1 = "gsbeam_c"
+weaponAssault1 = 0
+
+weaponHard2 = "HP_cannon_2"
+weaponName2 = "gsbeam_c"
+weaponAssault2 = 0
+
+weaponHard3 = "HP_rocket_1"
+weaponName3 = "gmantis_c"
+weaponAssault3 = 0
+
+weaponHard4 = "HP_rocket_2"
+weaponName4 = "gmantis_c"
+weaponAssault4 = 0
+
+weaponHard5 = "HP_SHIELD"
+weaponName5 = ""
+weaponAssault5 = 0
+
+////////////////////////////////////
+
+[CraftClass]
+rangeScan = 300.0f
+periodScan = 5.0f
+velocJam = 5.0f
+engageRange = 120
+
+selectWaitMsg = "fvwrdnvj.wav"
+selectAttackMsg = "fvwrdnvd.wav"
+selectFollowMsg = "fvwrdnv7.wav"
+selectGoMsg = "fvwrdnv0.wav
+selectOtherMsg = "fvwrdnvf.wav"
+holdMsg = "fvwrdnv8.wav"
+goMsg = "fvwrdnv9.wav"
+attackMsg = "fvwrdnv2.wav"
+followMeMsg = "fvwrdnv3.wav"
+followMsg = "fvwrdnvh.wav"
+repairMsg = "fvwrdnv4.wav"
+reloadMsg = "fvwrdnv5.wav"
+rescueMsg = "fvwrdnvg.wav"
+recycleMsg = "fvwrdnv8.wav"
+otherMsg = "fvwrdnvf.wav" 
+
+user1Msg = ""  
+killedMsg = "fvwrdnvm.wav"
+diedMsg = ""
+
+UseSelectWeapon = false
+
+// COMBAT MODE /////////////////////
+
+[HoverCraftClass]
+velocForward = 30.0 // 
+velocReverse = 18.0 // 
+velocStrafe = 14.0 // 
+accelThrust = 24.0 //acceleration 
+accelBrake = 75.0 //braking 
+accelDragStop = 5.8 //how fast it stops once hands are off controls 
+accelJump = 15.0
+
+setAltitude = 1.0 // how high off the ground
+
+alphaTrack = 22.0 //springs speed it rights itself 
+alphaDamp = 8.0 //shocks 
+
+pitchPitch = 0.19 //nose up 
+pitchThrust = 0.09 //nose down 
+
+rollStrafe = 0.01 //rolls while strafing 
+omegaSpin = 6.0 //spinning in place speed 
+omegaTurn = 2.0 //turning while moving speed 
+alphaSteer = 4.5 //how fast it responds to steering 
+rollSteer = 0.1 //rolls while steering 
+
+soundThrust = "ssent01j.wav"
+
+// ASSAULT MODE ////////////////////
+
+[MorphTankClass]
+maxHealth = 2500
+maxAmmo = 3000
+addAmmo = 0.0
+addhealth = 9.0
+engageRange = 100
+isAssault = 0
+switchMask = 00111
+
+UseChromeMesh = true
+MorphAmbientR = 1.0
+MorphAmbientG = 1.0
+MorphAmbientB = 1.0
+MorphDiffuseR = 1.0
+MorphDiffuseG = 1.0
+MorphDiffuseB = 1.0
+MorphEmissiveR = 0.0
+MorphEmissiveG = 0.0
+MorphEmissiveB = 0.0
+MorphSpecularR = 0.0
+MorphSpecularG = 0.0
+MorphSpecularB = 0.0
+MorphSpecularA = 1.0
+MorphSpecularP = 0.0
+MorphTexture = "morph.tga"
+
+unitName = "Curator"
+
+rangeScan = 250.0f
+periodScan = 5.0f
+velocJam = 5.0f
+
+velocForward = 20.0 // 
+velocReverse = 10.0 // 
+velocStrafe = 20.0 // 
+accelThrust = 16.0 //acceleration 
+accelBrake = 75.0 //braking 
+accelDragStop = 9.0 //how fast it stops once hands are off controls 
+accelJump = 15.0
+
+setAltitude = 1.0 // how high off the ground
+
+alphaTrack = 24.0 //springs speed it rights itself 
+alphaDamp = 9.0 //shocks 
+
+pitchPitch = 0.19 //nose up 
+pitchThrust = 0.09 //nose down 
+
+rollStrafe = 0.01 //rolls while strafing 
+omegaSpin = 5.5 //spinning in place speed 
+omegaTurn = 1.3 //turning while moving speed 
+alphaSteer = 3.5 //how fast it responds to steering 
+rollSteer = 0.13 //rolls while steering 
+
+// hovercraft sounds
+soundThrust = "ssent01j.wav"
+
+[DeployableClass]
+soundDeploy = "morph01.wav"
+soundUndeploy = "morph01b.wav"

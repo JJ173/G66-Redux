@@ -1,0 +1,26 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "isAntiTank"
+
+needGroup = 1 // need free group to build 
+isLimited = 1 // add to the limit count 
+needLimit = 1 // need free limit to build 
+canSelect = 1
+
+scrapCost = 10
+buildTime = 10
+maxAmmo = 100
+
+/////// REQUIREMENTS ///////////////
+requireCount = 1
+requireName1 = "ibtrain66m"
+////////////////////////////////////
+
+[CraftClass]
+rangeScan = 200.0f
+periodScan = 1.0f
+engageRange = 180
+detectRange = 180
+
+[PersonClass]

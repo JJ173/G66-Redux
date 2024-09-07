@@ -1,0 +1,18 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ibcbun66"
+buildTime= 15
+
+/////// PROVIDES ///////////////////
+provideCount = 5
+provideName5 = "ibcbun66c"
+////////////////////////////////////
+
+[BuildingClass]
+
+[CommBunkerClass]
+
+[PoweredBuildingClass]
+
+[Lod1]

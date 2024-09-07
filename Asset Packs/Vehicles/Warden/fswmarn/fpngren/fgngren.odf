@@ -1,0 +1,16 @@
+[WeaponClass]
+classLabel = "mortar"
+geometryName = "fggren00.xsi"
+geometryScale = 0.12
+ordName = "s_shell"
+wpnName = "Shell"
+wpnIcon = "wire_iggren%d.tga"
+fireSound = "sonic02.wav"
+wpnReticle = "gmortar"
+wpnLadder = "gmortar.L0"
+wpnCategory = "PACK"
+localAmmo = 5
+canSelect = false
+
+[CannonClass]
+shotDelay = 1.5

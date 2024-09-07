@@ -1,0 +1,26 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+baseName = "PatrolUnit"
+classLabel = "ivltank66"
+
+unitName = "Patrol"
+
+/////// REQUIREMENTS ///////////////
+requireName1 = "ibfact66c"
+requireName2 = "ibcbun66c"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideName5 = "ivltank66p"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponName1 = "gpulse66_c"
+////////////////////////////////////
+
+[CraftClass]
+CanAIPForceIdle = false
+DoIdleDispatch = false
+
+[HoverCraftClass]

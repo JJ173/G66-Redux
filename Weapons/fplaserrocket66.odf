@@ -1,0 +1,19 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "aprocket"
+scrapCost = 40
+unitName = "Laser Missile"
+
+/////// REQUIREMENTS ///////////////
+requireCount = 1
+requireName1 = "fbstro66m"
+requireText1 = "Build Stronghold"
+////////////////////////////////////
+
+[PowerUpClass]
+soundPickup = "aprock.wav"
+soundReject = "mnu_buzz.wav"
+
+[WeaponPowerupClass]
+weaponName = "glaserrocket66_c"

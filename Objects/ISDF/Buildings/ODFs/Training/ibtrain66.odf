@@ -1,0 +1,18 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ibtrain"
+
+/////// PROVIDES ///////////////////
+provideCount = 5
+provideName4 = "Training"
+provideName5 = "ibtrain66"
+////////////////////////////////////
+
+[BuildingClass]
+
+[PoweredBuildingClass]
+
+[BarracksClass]
+
+[Lod1]

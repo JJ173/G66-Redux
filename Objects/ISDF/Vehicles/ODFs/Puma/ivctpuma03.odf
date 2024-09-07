@@ -1,0 +1,17 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivltank66m"
+
+/////// PROVIDES ///////////////////
+provideCount = 5
+provideName5 = "ivctpuma03"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponName1 = "gatstab_c"
+////////////////////////////////////
+
+[CraftClass]
+
+[HoverCraftClass]

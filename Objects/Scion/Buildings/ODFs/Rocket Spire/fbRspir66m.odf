@@ -1,0 +1,23 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fbrspir66"
+
+/////// REQUIREMENTS ///////////////
+requireCount = 1
+requireName1 = "fbforg"
+requireText1 = "Upgrade Kiln"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponName1 = "gscrge66m"
+weaponName2 = "gscrge66m"
+weaponName3 = "gscrge66m"
+////////////////////////////////////
+
+[BuildingClass]
+
+[CraftClass]
+rangeScan = 220.0
+
+[TurretCraftClass]

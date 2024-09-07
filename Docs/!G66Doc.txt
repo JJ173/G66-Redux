@@ -1,0 +1,425 @@
+"Route 66" Custom MPI Configuration
+
+
+Overview
+--------
+
+    GAIPS66 "Route 66" MPI map conversion is relatively simple and quickly done
+    for existing maps.  Little or no terrain modification is necessary, unless
+    steep slopes need to be smoothed or new passages cut to allow computer team
+    vehicles to run along attack paths more smoothly.  Test the map to make sure
+    no steep slopes block attacking vehicles.
+
+    The conversion process primarily requires the placement of a single player
+    spawn point and the placement of several path points, which will be used to
+    place buildings and units and direct the computer team's movements.  Some of
+    the path points are required for the proper function of the AIP and DLL.
+    Others are optional and may be placed at the descretion of the map maker to
+    suit the needs of the mission.
+
+    It is generally a good idea to place the computer team at the north end of 
+    the map.  Computer team buildings will always be oriented to face south.
+    If the computer team is placed at the other sides of the map, vehicles 
+    emerging from production units could be blocked, resulting in AI freeze.
+
+    Since the structure of the AIP files is more closely tied to the performance
+    of the DLL than was true for the stock DLL, extreme caution should be taken,
+    if modifications to the AIP are attempted.  A single mistake in an AIP file
+    could seriously compromise the performance of the DLL.
+
+
+Required Files and Folders
+--------------------------
+
+  - \missions\mpinstant66.dll
+  - \addon\gaips66 aip
+  - \addon\gaips66 bindata
+  - \addon\gaips66 config
+  - \addon\gaips66 images
+  - \addon\gaips66 objects
+  - \addon\gaips66 weapons
+  - \data\missions\Multiplayer\3rdparty\gaips66 maps
+
+
+Required Map Objects
+--------------------
+
+  - pspwn_1
+    The only required map object for GAIPS66 is the player spawn point.  
+    This object should be set for team 0 and placed in the human team 
+    base building area near the Recycler path point.
+
+
+Required Path Points
+--------------------
+
+    All path point names are case-sensitive.  They must be spelled exactly
+    as shown here; otherwise, the game may crash or certain objects will 
+    not be built as expected.
+
+  - Recycler
+    The Recycler path point determines the area where the human team 
+    recycler will be located.  This should be placed in or near the 
+    intended human team base building area.
+
+  - RecyclerEnemy
+    The RecyclerEnemy path point determines where the computer team
+    recycler will be located.  The recycler will be deployed very near 
+    this point, so the path point should be located with care.
+
+  - pgen1
+    If the CPU is ISDF, the first power generator will be built here.
+
+  - dropoff_recy_6
+    The CPU recycler dropoff point.  Units produced by the computer 
+    team recycler will move to this point as soon as they exit the 
+    recycler.
+
+  - kiln
+    This is where the computer team Kiln will be placed, if the CPU 
+    race is set to Scion.  Note this point can be set in a different 
+    location from the ISDF Factory.
+
+  - factory
+    This is where the computer team Factory will be placed, if the 
+    CPU race is set to ISDF.
+
+  - dropoff_fact_6
+    The CPU factory dropoff point.  Units produced by the computer 
+    team factory will move to this point as soon as they exit the 
+    factory.
+
+  - holdserv
+    The holdserv path point is meant for the location of service units 
+    intended for computer team maintenance.  This path point should be 
+    located near the RecyclerEnemy path point.
+
+  - cbun1, gtow1, gtow1b, gtow1c
+    The cbun1, gtow1, gtow1b, and gtow1c path points must be placed near each other 
+    and aligned with the map grid.  Failure to place these points properly 
+    may prevent the computer team constructor building the corresponding 
+    command bunker and gun towers.  This could result in "AI Freeze".    
+    These path points should be placed in or near the computer team base area.
+
+  - cbun2, gtow2, gtow2b
+    The cbun2, gtow2 and gtow2b path points must be placed near each other 
+    and aligned with the map grid.  Failure to place these points properly 
+    may prevent the computer team constructor building the corresponding 
+    command bunker and gun towers.  This could result in "AI Freeze".    
+    These path points should be placed in or near the computer team base area.
+
+  - cbun3, gtow3, cbun4, gtow4, cbun5, gtow5, cbun6, gtow6
+    The remaining cbun# and gtow# path points must be placed near each other 
+    and aligned with the map grid.  Failure to place these points properly 
+    may prevent the computer team constructor building the corresponding 
+    command bunker and gun towers.  This could result in "AI Freeze".    
+
+  - gspir1, gspir1b, gspir2, gspir2b, gspir3 - 6
+    If the computer team is Scion, gun spires will be placed at these path points.
+
+  - rspir1 - 4
+    If the computer team is Scion, rocket spires will be placed at these points.
+
+  - rtow1 - 4
+    If the computer team is ISDF, rocket towers will be placed at these points. 
+    Make sure these points are contiguous with the corresponding command bunkers.
+
+  - hold1 - 4
+    These are the standard hold points referenced by AIP file Hold plans.
+    The hold path points may be placed anywhere; locations near critical 
+    scrap pools or choke points are good places for hold points.  
+
+  - stage1 - 32
+    These are the standard stage points used by AIP Attacker plans to stage
+    attacking vehicles on their way to human team targets.  The stage path 
+    points are best located near enough to the human team base to avoid 
+    allowing the vehicles of an attack group getting separated between the
+    stage point and the target.  Care should be taken to position the stage
+    path points so the attacking vehicles have an unobstructed path to their
+    targets.
+
+  - trthold1 - 3
+    The holdTRT path points should be placed within the computer team base
+    area in the line that would be followed by the human team ISDF bomber.  
+    If the computer team is ISDF, TRT's will be positioned at these path points 
+    to defend against aircraft attacks, the bomber in particular.
+
+  - artlef1 - 3
+    The artlef path points should be placed on an elevated area near the 
+    computer team base in the line that would be followed by the human team
+    ISDF bomber.  If the computer team is ISDF, specially modified Archers
+    will be placed at these path points to defend against aircraft attacks,
+    the bomber in particular.
+    (Not currently used because of known problem with Hold plans.)
+
+  - artlgas1 - 2  ** NOT CURRENTLY USED **
+    The artlgas path points should be placed on an elevated area near the 
+    human team base within mortar range.  During the latter stages of a game
+    session, if the computer team is Scion, Archers will be positioned at these
+    path points to provide opportunity attacks against human team units.
+    (Not currently used because of known problem with Hold plans, but place
+    the points anyway; they will likely be put to use again later.)
+
+  - attack1 - 9
+    The attack paths are sets of connected path points that provide running 
+    paths for attacking squads dispatched by the G66 DLL.  These paths may
+    be run along virtually any course; however, care should be taken to avoid 
+    steep slopes, deep water and other obstructions.  It is best to place the
+    starting path point near or within the computer team base and place the 
+    ending path point within the human team base.
+
+  - mbtattack1 - 9
+    The mbtattack paths are sets of connected path points that provide running
+    paths for attacking hovercraft dispatched by the G66 DLL.  Since only hovercraft
+    will be dispatched on this path, it may run over terrain that might not be 
+    accessible to non-hovercraft vehicles.  Water for example is not an obstacle.
+    It is best to place the starting path point near or within the computer team
+    base and place the ending path point within the human team base.  The old
+    mbtattack path is still valid and will be used if no number mbtattack# paths
+    are found.
+
+  - patrol1 - 9
+    The patrol paths are sets of connected path points whose starting and ending
+    points are near to one another to form a closed loop.  Units dispatched by the 
+    G66 DLL onto these paths will patrol continuously from beginning to end over 
+    and over.  The G66 MPI DLL will periodically switch patrolling units from one
+    path to another, or send them to attack extractors.
+
+  - build1 - 2
+    Extra units built by the G66 DLL are inserted into the map at the build path
+    points.  Assault group leaders are created at build1 and support units are
+    created at build2.  These path points should be placed within or behind the
+    computer team base area.
+
+  - asmbl1
+    Newly created assault group leaders, whether built by the G66 DLL or the AIP
+    files, are dispatched to the assembly path point.  There they will wait until 
+    support units are built for them.  When the complete assault group is ready, the
+    G66 DLL will dispatch them to an attack path.  The assembly point is best placed
+    within or behind the computer team base area.
+
+
+Optional Path Points
+--------------------
+
+    All path point names are case-sensitive.  They must be spelled exactly
+    as shown here; otherwise, these objects will not be built as expected.
+
+  - edge_path
+    If you want to keep the human team away from the physical edges of the map, 
+    or if the play area of the map is smaller than the physical size, you should 
+    include the edge_path.  This can be a simple diagonal line across the map.  
+    Set one end at any corner and the other at the diagonally opposite corner.  
+    The players will not be able to move outside the area defined by the dimensions 
+    of the edge_path.
+
+  - turretEnemy1 - 9
+    A single computer team turret will be placed at each of these path points.
+    These can be placed anywhere on the map, though the computer team base
+    area, scrap pools and choke points are among the best places to put them.
+    Be aware that the DLL will place turrets near randomized scrap pools, so 
+    there is no need to place these turrets near them.  Place turretEnemy# 
+    path points near fixed scrap pools instead.
+
+  - SentryEnemy1 - 3
+    A single computer team Sentry or Missile Scout will be placed at each of
+    these path points.  These can be placed anywhere on the map.  At startup,
+    these vehicles will be dispatched to patrol paths.  At the computer team
+    reinforcement interval, new vehicles will be placed at these points, if
+    the previously placed vehicle has been destroyed.
+
+  - RcktTwr1 - 6
+    A single Rocket Tower or Rocket Spire will be placed at each of these path
+    points for the computer team.  These can be placed on any flat surface on 
+    the map.  These units will not be replaced when destroyed.  Each of these
+    points is optional.  RcktTwr1 and 2 will be placed at the Easy difficulty
+    level, RcktTwr3 and 4 on Normal, and RcktTwr5 and 6 on Hard.
+
+  - ubergun1 - 6
+    A custom Assault Tower or Snake Tower will be placed at each of these points,
+    if present, depending on the difficulty level.  These units are placed at the
+    game start and are not replaced when destroyed.  Each of these points is
+    optional.  ubergun1 and 2 will be placed at the Normal difficulty level,
+    ubergun3 and 4 on Hard, and ubergun5 and 6 on Insane.
+
+  - PwrGen1 - 2
+    A Power Generator is required for every three Rocket Towers.  Failure to 
+    provide the proper number of Power Generators to accomodate the Rocket
+    Towers will prevent the computer team building its base.  If you place 
+    three or fewer Rocket Tower path points, place at least one Power Generator
+    path point as well.  For more than three Rocket Tower path points, place
+    both Power Generator path points.  These path points may be placed on any 
+    flat surface on the map.  Destroyed Power Generators will be replaced, 
+    though they will not likely appear at the original points since their
+    construction will be directed by the AIP files.
+    (Upgraded power generators are placed on these points for extra power.)
+
+  - Turret1 - 3
+    A single Human team turret will be placed at each of these path points at
+    startup and placed under the commander's control.  At the human team 
+    reinforcement interval, another turret will appear at each of these points.
+
+  - Scout1 - 3
+    A single Human team scout will be placed at each of these path points at
+    startup and placed under the commander's control.  At the human team 
+    reinforcement interval, another scout will appear at each of these points.
+
+  - Tank1 - 3
+    A single Human team tank will be placed at each of these path points at
+    startup and placed under the commander's control.  At the human team 
+    reinforcement interval, another tank will appear at each of these points.
+
+  - FuryTank1 - 6
+    A single computer team Fury Tank will be placed at each of these path 
+    points at startup.  Place a patrol path, not a single path point.  The 
+    Fury tanks will be set to patrol.
+
+  - laserpod1a/b - 6a/b
+    Place laserpod paths in a/b pairs.  You can leave one or the other of the 
+    pair, if you don't need both of them.  Place a patrol path, not a single 
+    path points.  The Laserpods will be set to patrol.  Laserpods should be 
+    placed near the corresponding FuryTank point as the laserpods will first 
+    appear at the FuryTank point and move to the laserpod paths.
+
+  - surprise1 - 9
+    Groups of tanks, interceptors, or Maulers will appear at these points at
+    random intervals and will be sent to attack base buildings.  These path points
+    are optional.  The path point surprise1 is also used for special purposes, such 
+    as providing emergency reinforcements for the computer team during a siege. 
+    This path point should be placed behind the computer team base.
+
+  - scrfield1 - 16
+    A random number of loose scrap buttons will be place near these points.
+    These path points are optional.
+
+  - scrpool1a, 1b, 1c - 9a, 9b, 9c
+    These path points allow variable placement of scrap pools.  If more than one
+    point in a set of three is present, the placement of the scrap pool for the set
+    will be selected at random.  A small number of scrap buttons will be placed at
+    the other path points.  These path points are optional.  Scrap pools can be 
+    set to fixed positions in the map editor instead.
+
+  - minefld1 - 9
+    A random number of mines will be placed at these points, if the Mine Fields
+    configuration option is On.  If the computer team is Scion, a small number of 
+    zap mines will be placed.  Otherwise, a larger number of proximity mines will
+    be placed near these points.  These path points are optional.
+
+  - jakherd1 - 9
+    A random number of Killer Jaks will be placed near these points.  These path
+    points are optional.
+
+  - rhinoherd1 - 9
+    A random number of Ice Rhinos will be placed near these points.  These path
+    points are optional.
+    
+  - jammer1-9
+    If the CPU team is Scion, a jammer will be placed at each of these points.
+
+  - power1-4
+    If the crate drops option is on, weapon power-ups will be placed at these 
+    points at pre-set intervals during the game.
+
+  - geyser1 - 9
+    If earthquakes are active on the map, geysers will be placed at these points 
+    when an earthquake occurs.
+
+  - volcano1 - 9
+    If earthquakes are active on the map, volcanic fountains will be placed at 
+    these points when an earthquake occurs.
+
+  - lavabl1 - 9  *** TEMPORARILY DISABLED, waiting for sound bug fix ***
+    If earthquakes are active on the map, boiling lava fountains will be placed at 
+    these points when an earthquake occurs.
+
+  - smoker1 - 9
+    If earthquakes are active on the map, smoking geysers will be placed at 
+    these points when an earthquake occurs.
+
+  - rspX#_nnn_odf1_odf2
+    Optional extra unit respawn points, where "X" is "C" for the CPU team, "h" for
+    the human team, or "n" for neutral, "nnn" is the respawn interval in seconds 
+    (any number of digits), "odf1" is the ODF name for the unit to be built if the
+    team is ISDF, and "odf2" is the ODF name for the unit to be built if the team
+    is Scion.  "odf2" is optional and if not present, "odf1" will be built regardless
+    of team race.  Replace "#" with a number to make each respawn path point name
+    unique.  ***NOTE: neutral vehicle pilots are killed to remove them, and players
+    are notified about it in the on-screen message area.  If you find that too 
+    annoying, use a respawn object on your map instead to place empty vehicles.
+
+
+Path Points Dropped Since Last Update
+-------------------------------------
+
+  - ammo#
+  - furyspwn
+  - Fury#
+  - Interceptor#
+  - repair#
+  - rpod# replaced with rspir#
+
+
+AIP Files
+---------
+
+    Modifying the AIP files is not recommended.  The G66 DLL depends upon
+    certain plan types and strategies to function properly.  Altering the
+    contents of the AIP files can lead to unpredictable results.
+
+  - gaips66xx0 Startup
+  - gaips66xx1 Early Game 1
+  - gaips66xx2 Early Game 2
+  - gaips66xx3 Early Game 3
+  - gaips66xx4 Early Game 4
+  - gaips66xxa Anti-Assault (invoked when human assault vehicles built)
+  - gaips66xxc Coup-de-gras (follows other plan files when human team recycler destroyed)
+  - gaips66xxe End-game (computer team recycler destroyed)
+  - gaips66xxl Late-game (follows other plan files)
+  - gaips66xxs Siege  (invoked if human unit near computer recycler)
+  - gaips66xxx Middle Game 1
+  - gaips66xxy Middle Game 2
+
+
+INF File
+--------
+
+    Most of these INF file variables are overridden by the G66 Options
+    configuration panels.  The earthquake switch, ivar28, must be set to
+    1 to enable earthquakes.  
+
+    ivar36 = 1 // Geysers (off)
+
+    ivar64 = 2 // Default G66 difficulty level
+    ivar65 = 0 // Eruptions (off)
+    ivar66 = 1 // Earthquakes (off)
+    ivar67 = 0 // G66 Random Scrap Pools (on)
+    ivar68 = 0 // G66 Random Scrap Fields (on)
+    ivar69 = 0 // G66 Random Fauna (off) 
+    ivar70 = 0 // G66 Sun (off)
+
+    ivar71 = 2 // Default G66 human combat unit skill
+    ivar72 = 0 // Default G66 human combat skill progression option
+    ivar73 = 3 // Default G66 human non-combat unit skill
+    ivar74 = 2 // Default G66 human starting force
+    ivar75 = 0 // Default G66 crate drops option
+
+    ivar76 = 3 // Default G66 CPU combat unit skill
+    ivar77 = 3 // Default G66 CPU non-combat unit skill
+    ivar78 = 2 // Default G66 CPU starting force
+    ivar79 = 2 // Default G66 CPU scrap boost
+    ivar80 = 1 // Default G66 CPU mine fields option
+    ivar81 = 0 // Default G66 CPU advanced weapons option
+    ivar82 = 1 // G66 Surprise Attacks (off)
+    ivar83 = 1 // G66 Rogue Attacks (off)
+
+    ivar84 = 0 // Default G66 CPU Tech Path
+    ivar85 = 0 // Default G66 Neutral Snipes
+    ivar86 = 0 // Default G66 Fighting Pilots
+    
+    svar1 = "Ugly Hoomans" // Team name for team 1
+    svar2 = "Cyber Rage" // Team name for team 2
+    svar3 = "gaips66" // custom AIP files
+    svar5 = "ivrecy_m66m"
+    svar7 = "g66" // custom configuration shell
+    svar21 = "uepool01" // scrap pool odf
+    svar31 = "Normal"

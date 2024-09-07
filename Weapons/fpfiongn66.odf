@@ -1,0 +1,22 @@
+// PP-MG Ion Gun Power-up
+// Revision for "Route 66" Mod by Natty Bumppo
+// Based on original version by Pandemic Studios
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "apgun"
+scrapCost = 30
+unitName = "Ion Gun"
+
+/////// REQUIREMENTS ///////////////
+requireCount = 2
+requireName1 = "fbstro"
+requireText1 = "Build Stronghold"
+requireName2 = "fbantm"
+requireText2 = "Build Antenna Mound"
+////////////////////////////////////
+
+[PowerUpClass]
+
+[WeaponPowerupClass]
+weaponName = "giongn66c"

@@ -1,0 +1,25 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fvturr"
+aiAddAmmo = 40
+
+/////// PROVIDES ///////////////////
+provideCount = 3
+provideName3 = "fvturr66"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponName1 = "giongn66a"
+weaponName2 = "giongn66a"
+////////////////////////////////////
+
+[CraftClass]
+IgnoreDestroyedTargets = true
+
+[HoverCraftClass]
+
+[DeployableClass]
+
+[TurretTankClass]
+omegaTurret = 1.5

@@ -1,0 +1,17 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivhscout"
+
+unitName = "Fury Drone"
+
+/////// PROVIDES ///////////////////
+provideCount = 3
+provideName3 = "fvfscout66s"
+////////////////////////////////////
+
+[CraftClass]
+rangeScan = 150.0f	//450.0f
+engageRange = 70	//220
+
+[HoverCraftClass]

@@ -1,0 +1,31 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fbforg"
+
+/////// PROVIDES ///////////////////
+provideCount = 9
+provideName6 = "fbkiln66m"
+provideName7 = "fbforg66m"
+provideName8 = "UnitFactory2"
+provideName9 = "UnitFactory"
+////////////////////////////////////
+
+[PoweredBuildingClass]
+
+[BuildingClass]
+
+[FactoryClass]
+BuildSparkConfig = "sparker"
+WeaponConfig = "fWeaponG66_easy.odf"
+
+buildItem1 = "fvsent66"
+buildItem3 = "fvltank66m"
+buildItem4 = "fvtank66"
+buildItem6 = "fvatank66"
+buildItem7 = "fvmpod66m"
+buildItem8 = "fvgorg66m"
+buildItem9 = "fvartl66m"
+buildItem10 = "fvsav66s"
+
+[Lod1]

@@ -1,0 +1,24 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivatank66"
+
+/////// REQUIREMENTS ///////////////
+requireCount = 2
+requireName1 = "ibfact66m"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideName5 = "ivatank66m"
+////////////////////////////////////
+
+[CraftClass]
+steerFactor = 1.0
+
+[TrackedVehicleClass]
+
+[AssaultTankClass]
+
+[Lod1]
+
+[Lod2]

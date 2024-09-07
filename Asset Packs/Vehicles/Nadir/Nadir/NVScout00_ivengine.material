@@ -1,0 +1,14 @@
+[solid]
+diffuse = 1.000000  1.000000  1.000000  1.000000
+specular = 0.901961  0.901961  0.901961  1.000000
+specularPower = 16.000000
+emissive = 0.000000  0.000000  0.000000  1.000000
+ambient = 0.588235  0.588235  0.588235  1.000000
+
+
+[texture]
+diffuse = NVScoutFE_ivengine_d.dds
+teamColor = NVScoutFE_ivengine_c.dds
+normal = NVScoutFE_ivengine_n.dds
+specular = NVScoutFE_ivengine_s.dds
+emissive = NVScoutFE_ivengine_e.dds

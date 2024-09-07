@@ -1,0 +1,66 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "ivscout"
+scrapValue = 10
+scrapCost = 10
+customCost = 10
+buildTime = 3.0
+customTime = 3.0
+maxHealth = 1500
+addAmmo = 10
+aiAddAmmo = 25
+unitName = "Thrasher"
+lifeSpan = 240.0
+aiName = "SoldierProcess"
+aiName2 = "SoldierProcess"
+
+/////// REQUIREMENTS ///////////////
+requireCount = 1
+requireName1 = "MainBase"
+////////////////////////////////////
+
+/////// PROVIDES ///////////////////
+provideCount = 4
+provideName4 = "ivscout66
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponMask = 11111
+weaponName1 = "ggatlinggun_c"
+weaponName2 = "ggatlinggun_c"
+weaponName3 = "gheatrkt_c"
+weaponName4 = "gphantom66"
+////////////////////////////////////
+
+[CraftClass]
+rangeScan = 1500.0f
+periodScan = 1.0f
+velocJam = 0.0f
+engageRange = 1500
+
+braccelFactor = 0.1
+omegaFactor = 0.3
+steerFactor = 1.4
+strafeFactor = 0.1
+velFactor = 0.4
+
+HealthChangeLevelDelta = 0.01 // valid values are 0..1
+StrafeTimeBase3 = 1.0
+StrafeTimeRandom3 = 0.5
+RetargetOnStrafe = true
+
+topSpeed = 40
+avoidSpeed = 5
+
+[HoverCraftClass]
+velocReverse = 25.0 // 
+velocStrafe = 30.0 // 
+accelThrust = 30.0 // acceleration 
+accelDragStop = 15.0 // how fast it stops once hands are off controls 
+
+setAltitude = 1.2 // how high off the ground
+
+[Lod1]
+
+[Lod2]

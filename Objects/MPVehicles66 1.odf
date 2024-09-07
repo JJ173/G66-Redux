@@ -1,0 +1,254 @@
+//
+// MPVehicles 1.txt - Complete listing of multiplayer vehicles usable in BZ2 G66 2.0 (unused)
+//
+// Format of lines: xsi filename, space separator, odf filename, space separator, description
+// Lines starting with // are ignored. 
+//
+// Tip: do not put .odf extension on odf filename; added automatically on loading
+
+//  HTV: Human Team Variant
+// HTAV: Human Team Advance Variant
+// HTIV: Human Team Insane Variant
+//  CTV: Computer Team Variant
+// CTAV: Computer Team Advance Variant
+// CTIV: COmputer Team Insane Variant
+//   RV: Requested Variant
+//   CV: Custom Variant
+// 
+
+[MPVehicles]
+xsi1 = "ivscout00.fbx"
+cfg1 = "ivscout66m"
+Description1 = "HTV: Thunderbolt"
+
+xsi2 = "ivscout00.fbx"
+cfg2 = "ivcscout1"
+Description2 = "CV: Thunderbolt 1"
+
+xsi3 = "ivscout00.fbx"
+cfg3 = "ivcscout2"
+Description3 = "CV: Thunderbolt 2"
+
+xsi4 = "ivscout00.fbx"
+cfg4 = "ivcscout3"
+Description4 = "CV: Thunderbolt 3"
+
+xsi5 = "ivscout00.fbx"
+cfg5 = "ivctscout1"
+Description5 = "CTV: Thunderbolt 1"
+
+xsi6 = "ivscout00.fbx"
+cfg6 = "ivctscout2"
+Description6 = "CTV: Thunderbolt 2"
+
+xsi7 = "ivscout00.fbx"
+cfg7 = "ivctscout3"
+Description7 = "CTV: Thunderbolt 3"
+
+xsi8 = "ivscout00.fbx"
+cfg8 = "ivctscout4"
+Description8 = "CTIV: Thunderbolt"
+
+xsi9 = "ivscout00.fbx"
+cfg9 = "ivctscout5"
+Description9 = "CTIV: Thunderbolt 1"
+
+xsi10 = "ivscout00.fbx"
+cfg10 = "ivctscout6"
+Description10 = "CTIV: Thunderbolt 2"
+
+xsi11 = "ivtank00.fbx"
+cfg11 = "ivtank66m"
+Description11 = "HTV: Sabre"
+
+xsi12 = "ivtank00.fbx"
+cfg12 = "ivcttank02"
+Description12 = "CTV: Sabre 1"
+
+xsi13 = "ivtank00.fbx"
+cfg13 = "ivcttank01"
+Description13 = "CTV: Sabre 2"
+
+xsi14 = "ivtank00.fbx"
+cfg14 = "ivcttank03"
+Description14 = "CTV: Sabre 3"
+
+xsi15 = "ivtank00.fbx"
+cfg15 = "ivrtank01"
+Description15 = "RV: Sabre"
+
+xsi16 = "ivltank.fbx"
+cfg16 = "ivltank66m"
+Description16 = "HTV: Puma"
+
+xsi17 = "ivltank.fbx"
+cfg17 = "ivltank66a"
+Description17 = "CTV: Puma 1"
+
+xsi18 = "ivltank.fbx"
+cfg18 = "ivctpuma01"
+Description18 = "CTV: Puma 2"
+
+xsi19 = "ivltank.fbx"
+cfg19 = "ivltank66p"
+Description19 = "CTV: Puma 3"
+
+xsi20 = "ivltank.fbx"
+cfg20 = "ivctpuma02"
+Description20 = "CV: Puma"
+
+xsi21 = "ivmbik00.fbx"
+cfg21 = "ivmbike"
+Description21 = "HTV: Jackal"
+
+xsi22 = "ivmisl00.fbx"
+cfg22 = "ivmisl66m"
+Description22 = "HTV: Avenger"
+
+xsi23 = "fvsent_skel.fbx"
+cfg23 = "fvsent66"
+Description23 = "HTV: Sentry"
+
+xsi24 = "fvsent_skel.fbx"
+cfg24 = "fvctsent1"
+Description24 = "CTV: Sentry"
+
+xsi25 = "fvscout_skel.fbx"
+cfg25 = "fvscout"
+Description25 = "HTV: Drone"
+
+xsi26 = "fvtank_skel.fbx"
+cfg26 = "fvtank66"
+Description26 = "HTV: Warrior"
+
+xsi27 = "fvtank_skel.fbx"
+cfg27 = "fvcttank02"
+Description27 = "CTV: Warrior"
+
+xsi28 = "fvtank_skel.fbx"
+cfg28 = "fvcttank01"
+Description28 = "CTAV: Warrior"
+
+xsi29 = "fvltank_skel.xsi"
+cfg29 = "fvltank66m"
+Description29 = "HTV: Dragon"
+
+xsi29 = "fvltank_skel.xsi"
+cfg29 = "fvctltank2"
+Description29 = "CTV: Dragon 1"
+
+xsi30 = "fvltank_skel.xsi"
+cfg30 = "fvctltank1"
+Description30 = "CTV: Dragon 2"
+
+xsi31 = "fvlancer_skel.fbx"
+cfg31 = "fvarch"
+Description31 = "HTV: Lancer"
+
+xsi32 = "ivatnk00.fbx"
+cfg32 = "ivatank"
+Description32 = "HTV: Bulldog"
+
+xsi33 = "ivxnat.xsi"
+cfg33 = "ivstank66x"
+Description33 = "CTV: Seige Tank 1"
+
+xsi34 = "ivxnat.xsi"
+cfg34 = "ivcstank1"
+Description34 = "CTV: Seige Tank 2"
+
+xsi35 = "ivrckt00.fbx"
+cfg35 = "ivrckt"
+Description35 = "HTV: Rocket Tank"
+
+xsi36 = "ivrckt00.fbx"
+cfg36 = "ivctrckt1"
+Description36 = "CTAV: Rocket Tank"
+
+xsi37 = "ivwalk_skel.fbx"
+cfg37 = "ivswalk"
+Description37 = "HTV: Attila"
+
+xsi38 = "ivwalk_skel.fbx"
+cfg38 = "ivctwalk3"
+Description38 = "CTV: Attila"
+
+xsi39 = "ivwalk_skel.fbx"
+cfg39 = "ivctwalk2"
+Description39 = "CTV: Attila"
+
+xsi40 = "ivwalk_skel.fbx"
+cfg40 = "ivctwalk1"
+Description40 = "CTV: Attila"
+
+xsi41 = "ivwalk_skel.fbx"
+cfg41 = "ivcwalk1"
+Description41 = "CV: Attila"
+
+xsi42 = "ivltwalk_skel.xsi"
+cfg42 = "ivsltwalk"
+Description42 = "HTV: Landmaster"
+
+xsi43 = "ivltwalk_skel.xsi"
+cfg43 = "ivctlwlk01"
+Description43 = "CTV: Landmaster 1"
+
+xsi44 = "ivltwalk_skel.xsi"
+cfg44 = "ivctlwlk02"
+Description44 = "CTAV: Landmaster"
+
+xsi45 = "ispilo_rifle_skel.fbx"
+cfg45 = "ispilo"
+Description45 = "ISDF Sniper"
+
+xsi46 = "ispilo_rifle_skel.fbx"
+cfg46 = "inspilo"
+Description46 = "ISDF Grunt"
+
+xsi47 = "ivturr00.fbx"
+cfg47 = "ivturr66"
+Description47 = "HTV: Rattler"
+
+xsi48 = "ivturr00.fbx"
+cfg48 = "ivctturr1"
+Description48 = "CTV: Rattler"
+
+xsi49 = "ivturr00.fbx"
+cfg49 = "ivctturr2"
+Description49 = "CTAV: Rattler"
+
+xsi50 = "ivturr00.fbx"
+cfg50 = "ivctturr2"
+Description50 = "CTAV: Rattler"
+
+xsi51 = "fvtitan_skel.fbx"
+cfg51 = "fvatank66"
+Description51 = "HTV: Titan"
+
+xsi52 = "fvwalk_skel.fbx"
+cfg52 = "fvwalk"
+Description52 = "HTV: Mauler"
+
+xsi53 = "fvwalk_skel.fbx"
+cfg53 = "fvwalk66"
+Description53 = "CTV: Mauler"
+
+xsi54 = "fvgorgon_skel.xsi"
+cfg54 = "fvgorg66m"
+Description54 = "HTV: Gorgon"
+
+xsi55 = "fspilo_rifle_skel.fbx"
+cfg55 = "fspilo"
+Description55 = "Scion Sniper"
+
+xsi56 = "fspilo_rifle_skel.fbx"
+cfg56 = "fnspilo"
+Description56 = "Scion Grunt"
+
+xsi57 = "fvturr_skel.fbx"
+cfg57 = "fvturr"
+Description57 = "HTV: Guardian"
+
+xsi58 = "ivintc00.xsi"
+cfg58 = "ivintc"
+Description58 = "HTV: Interceptor"

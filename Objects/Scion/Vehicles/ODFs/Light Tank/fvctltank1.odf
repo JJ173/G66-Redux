@@ -1,0 +1,25 @@
+// Revamped to match supported inheritance by BZCC - AI_Unit.
+
+[GameObjectClass]
+classLabel = "fvltank66m"
+
+/////// PROVIDES ///////////////////
+provideCount = 5
+provideName3 = "fvltank66m"
+provideName4 = "fvctltank1"
+provideName5 = "DefendUnit"
+////////////////////////////////////
+
+/////// WEAPONS ////////////////////
+weaponName1 = "ggaussg66c"
+weaponName2 = "ggaussg66c"
+weaponName4 = "gabsorb"
+////////////////////////////////////
+
+[CraftClass]
+
+[HoverCraftClass]
+
+[MorphTankClass]
+
+[DeployableClass]

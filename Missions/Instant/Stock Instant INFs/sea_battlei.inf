@@ -1,8 +1,8 @@
 [DESCRIPTION]
-missionName = "Sea Battle"
+missionName = "G66: Sea Battle"
 mapTga = "sea_battle.bmp"
 mapDesc = "sea_battlei.des"
-
+mySide = 0
 
 Aware_v13 = true
 
