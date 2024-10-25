@@ -20,4 +20,4 @@ soundPickup = "pickup01.wav"
 soundReject = "reject.wav"
 
 [WeaponPowerupClass]
-weaponName = "gseeker_f"
+weaponName = "gseeker"
