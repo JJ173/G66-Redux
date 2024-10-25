@@ -1,0 +1,59 @@
+//
+// MPVehicles.odf - listing of multiplayer vehicles usable in BZ2
+//
+//
+// Tip: do not put .odf extension on cfg# = "" entries; added automatically on loading
+//
+
+[MPVehicles]
+xsi1 = "fvscout_skel.fbx"
+cfg1 = "fvctscout09"
+Description1 = "Scout a1"
+
+xsi2 = "fvltank_skel.fbx"
+cfg2 = "fvctltank3"
+Description2 = "Dragoon a1"
+
+xsi3 = "fvtank_skel.fbx"
+cfg3 = "fvcttank01"
+Description3 = "Warrior a1"
+
+xsi4 = "fvtank_skel.fbx"
+cfg4 = "fvcttank04"
+Description4 = "Warrior a2"
+
+xsi5 = "fvtank_skel.fbx"
+cfg5 = "fvcttank03"
+Description5 = "Warrior a3"
+
+xsi6 = "hvscout00.fbx"
+cfg6 = "fvsfscout66"
+Description6 = "Fury Scout"
+
+xsi7 = "xvsat00.fbx"
+cfg7 = "fvssat"
+Description7 = "Fury Tank"
+
+xsi8 = "fvsav00.fbx"
+cfg8 = "fvssav"
+Description8 = "Fury a1"
+
+xsi9 = "fvtitan_skel.fbx"
+cfg9 = "fvsatank5"
+Description9 = "Titan a1"
+
+xsi10 = "fvtitan_skel.fbx"
+cfg10 = "fvsatank2"
+Description10 = "Titan a2"
+
+xsi11 = "fvwalk_skel.fbx"
+cfg11 = "fvwalk66"
+Description11 = "Mauler a1"
+
+xsi12 = "fvwalk_skel.fbx"
+cfg12 = "fvswalk1"
+Description12 = "Mauler a2"
+
+xsi13 = "fvgorgon_skel.fbx"
+cfg13 = "fvgorg66m"
+Description13 = "Gorgon a1"

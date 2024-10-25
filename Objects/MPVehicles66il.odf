@@ -1,0 +1,91 @@
+//
+// MPVehicles.odf - listing of multiplayer vehicles usable in BZ2
+//
+//
+// Tip: do not put .odf extension on cfg# = "" entries; added automatically on loading
+//
+
+[MPVehicles]
+xsi1 = "ivscout00.fbx"
+cfg1 = "ivscout66m"
+Description1 = "Thunderbolt"
+
+xsi2 = "ivscout00.fbx"
+cfg2 = "ivctscout1"
+Description2 = "Thunderbolt m1"
+
+xsi3 = "ivscout00.fbx"
+cfg3 = "ivctscout2"
+Description3 = "Thunderbolt m2"
+
+xsi4 = "ivscout00.fbx"
+cfg4 = "ivctscout3"
+Description4 = "Thunderbolt m3"
+
+xsi5 = "ivmbik00.fbx"
+cfg5 = "ivsmbike"
+Description5 = "Jackal"
+
+xsi6 = "ivmbik00.fbx"
+cfg6 = "ivctmbike"
+Description6 = "Jackal m1"
+
+xsi7 = "ivmisl00.fbx"
+cfg7 = "ivmisl66m"
+Description7 = "Avenger"
+
+xsi8 = "ivmisl00.fbx"
+cfg8 = "ivctmisl01"
+Description8 = "Avenger m1"
+
+xsi9 = "ivmisl00.fbx"
+cfg9 = "ivctmisl05"
+Description9 = "Avenger c1"
+
+xsi10 = "ivltank.fbx"
+cfg10 = "ivltank66m"
+Description10 = "Puma"
+
+xsi11 = "ivltank.fbx"
+cfg11 = "ivctpuma04"
+Description11 = "Puma m1"
+
+xsi12 = "ivltank.fbx"
+cfg12 = "ivctpuma01"
+Description12 = "Puma m2"
+
+xsi13 = "ivltank.fbx"
+cfg13 = "ivltank66p"
+Description13 = "Puma m3"
+
+xsi14 = "ivltank.fbx"
+cfg14 = "ivctpuma03"
+Description14 = "Puma c1"
+
+xsi15 = "ivtank00.fbx"
+cfg15 = "ivtank66m"
+Description15 = "Sabre"
+
+xsi16 = "ivtank00.fbx"
+cfg16 = "ivcttank02"
+Description16 = "Sabre m1"
+
+xsi17 = "ivtank00.fbx"
+cfg17 = "ivcttank01"
+Description17 = "Sabre m2"
+
+xsi18 = "ivtank00.fbx"
+cfg18 = "ivrtank02"
+Description18 = "Sabre c1"
+
+xsi19 = "ivturr00.fbx"
+cfg19 = "ivturr66"
+Description19 = "Rattler"
+
+xsi20 = "ivturr00.fbx"
+cfg20 = "ivctturr1"
+Description20 = "Rattler m1"
+
+xsi21 = "ivturr00.fbx"
+cfg21 = "ivctturr2"
+Description21 = "Rattler m2"

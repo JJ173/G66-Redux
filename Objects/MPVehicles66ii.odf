@@ -1,0 +1,31 @@
+//
+// MPVehicles.odf - listing of multiplayer vehicles usable in BZ2
+//
+//
+// Tip: do not put .odf extension on cfg# = "" entries; added automatically on loading
+//
+
+[MPVehicles]
+xsi1 = "ivscout00.fbx"
+cfg1 = "ivctscout4"
+Description1 = "Thunderbolt i1"
+
+xsi2 = "ivscout00.fbx"
+cfg2 = "ivctscout5"
+Description2 = "Thunderbolt i2"
+
+xsi3 = "ivscout00.fbx"
+cfg3 = "ivctscout6"
+Description3 = "Thunderbolt i3"
+
+xsi4 = "ivscout00.fbx"
+cfg4 = "ivcscout3"
+Description4 = "Thunderbolt i4"
+
+xsi5 = "ivscout00.fbx"
+cfg5 = "ivcscout4"
+Description5 = "Thunderbolt i5"
+
+xsi6 = "ivwalk_skel.fbx"
+cfg6 = "ivctwalk2"
+Description6 = "Attila i1"

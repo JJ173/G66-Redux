@@ -1,0 +1,95 @@
+//
+// MPVehicles.odf - listing of multiplayer vehicles usable in BZ2
+//
+//
+// Tip: do not put .odf extension on cfg# = "" entries; added automatically on loading
+//
+
+[MPVehicles]
+xsi1 = "fvscout_skel.fbx"
+cfg1 = "fvsscout"
+Description1 = "Drone"
+
+xsi2 = "fvscout_skel.fbx"
+cfg2 = "fvctscout01"
+Description2 = "Scout m1"
+
+xsi3 = "fvscout_skel.fbx"
+cfg3 = "fvctscout02"
+Description3 = "Scout m2"
+
+xsi4 = "fvscout_skel.fbx"
+cfg4 = "fvctscout04"
+Description4 = "Scout m3"
+
+xsi5 = "fvscout_skel.fbx"
+cfg5 = "fvctscout08"
+Description5 = "Scout m4"
+
+xsi6 = "fvsent_skel.fbx"
+cfg6 = "fvsent66"
+Description6 = "Sentry"
+
+xsi7 = "fvsent_skel.fbx"
+cfg7 = "fvctsent1"
+Description7 = "Sentry m1"
+
+xsi8 = "fvsent_skel.fbx"
+cfg8 = "fvctsent2"
+Description8 = "Sentry m2"
+
+xsi9 = "fvlancer_skel.fbx"
+cfg9 = "fvsarch"
+Description9 = "Lancer"
+
+xsi10 = "fvlancer_skel.fbx"
+cfg10 = "fvctarch1"
+Description10 = "Lancer m1"
+
+xsi11 = "fvlancer_skel.fbx"
+cfg11 = "fvctarch2"
+Description11 = "Lancer m2"
+
+xsi12 = "fvltank_skel.fbx"
+cfg12 = "fvltank66m"
+Description12 = "Dragoon"
+
+xsi13 = "fvltank_skel.fbx"
+cfg13 = "fvctltank2"
+Description13 = "Dragoon m1"
+
+xsi14 = "fvltank_skel.fbx"
+cfg14 = "fvctltank1"
+Description14 = "Dragoon m2"
+
+xsi15 = "fvltank_skel.fbx"
+cfg15 = "fvctltank4"
+Description15 = "Dragoon m3"
+
+xsi16 = "fvtank_skel.fbx"
+cfg16 = "fvtank66"
+Description16 = "Warrior"
+
+xsi17 = "fvtank_skel.fbx"
+cfg17 = "fvcttank05"
+Description17 = "Warrior m1"
+
+xsi18 = "fvtank_skel.fbx"
+cfg18 = "fvcttank07"
+Description18 = "Warrior m2"
+
+xsi19 = "fvtank_skel.fbx"
+cfg19 = "fvcttank02"
+Description19 = "Warrior m3"
+
+xsi20 = "fvtank_skel.fbx"
+cfg20 = "fvcttank08"
+Description20 = "Warrior m4"
+
+xsi21 = "fvturr_skel.fbx"
+cfg21 = "fvturr66"
+Description21 = "Guardian"
+
+xsi22 = "fvturr_skel.fbx"
+cfg22 = "fvctturr01"
+Description22 = "Guardian m1"

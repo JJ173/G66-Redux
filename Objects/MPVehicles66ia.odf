@@ -1,0 +1,95 @@
+//
+// MPVehicles.odf - listing of multiplayer vehicles usable in BZ2
+//
+//
+// Tip: do not put .odf extension on cfg# = "" entries; added automatically on loading
+//
+
+[MPVehicles]
+xsi1 = "ivscout00.fbx"
+cfg1 = "ivcscout1"
+Description1 = "Thunderbolt a1"
+
+xsi2 = "ivscout00.fbx"
+cfg2 = "ivcscout2"
+Description2 = "Thunderbolt a2"
+
+xsi3 = "ivscout00.fbx"
+cfg3 = "ivcscout5"
+Description3 = "Thunderbolt a3"
+
+xsi4 = "ivscout00.fbx"
+cfg4 = "ivcscout6"
+Description4 = "Thunderbolt a4"
+
+xsi5 = "ivmisl00.fbx"
+cfg5 = "ivctmisl02"
+Description5 = "Avenger a1"
+
+xsi6 = "ivmisl00.fbx"
+cfg6 = "ivctmisl03"
+Description6 = "Avenger a2"
+
+xsi7 = "ivmisl00.fbx"
+cfg7 = "ivctmisl04"
+Description7 = "Avenger a3"
+
+xsi8 = "ivmisl00.fbx"
+cfg8 = "ivctmisl06"
+Description8 = "Avenger c1"
+
+xsi9 = "ivltank.fbx"
+cfg9 = "ivctpuma02"
+Description9 = "Puma a1"
+
+xsi10 = "ivtank00.fbx"
+cfg10 = "ivcttank03"
+Description10 = "Sabre a1"
+
+xsi11 = "ivtank00.fbx"
+cfg11 = "ivrtank01"
+Description11 = "Sabre a2"
+
+xsi12 = "ivltwalk_skel.fbx"
+cfg12 = "ivctlwlk02"
+Description12 = "Landmaster a1"
+
+xsi13 = "ivltwalk_skel.fbx"
+cfg13 = "ivctlwlk03"
+Description13 = "Landmaster a2"
+
+xsi14 = "ivatnk00.fbx"
+cfg14 = "ivcatnk01"
+Description14 = "Bulldog a1"
+
+xsi15 = "ivatnk00.fbx"
+cfg15 = "ivcatnk02"
+Description15 = "Bulldog a2"
+
+xsi16 = "ivrckt00.fbx"
+cfg16 = "ivctrckt1"
+Description16 = "Rocket Tank a1"
+
+xsi17 = "ivwalk_skel.fbx"
+cfg17 = "ivctwalk1"
+Description17 = "Attila a1"
+
+xsi18 = "ivwalk_skel.fbx"
+cfg18 = "ivcwalk1"
+Description18 = "Attila a2"
+
+xsi19 = "ivwalk_skel.fbx"
+cfg19 = "ivwalk66m"
+Description19 = "Attila a3"
+
+xsi20 = "ivwalk_skel.fbx"
+cfg20 = "ivcstank2"
+Description20 = "Seige Tank a1"
+
+xsi21 = "ivwalk_skel.fbx"
+cfg21 = "ivcstank1"
+Description21 = "Seige Tank a2"
+
+xsi22 = "ivturr00.fbx"
+cfg22 = "ivctturr2"
+Description22 = "Rattler a1"

@@ -1,0 +1,43 @@
+//
+// MPVehicles.odf - listing of multiplayer vehicles usable in BZ2
+//
+//
+// Tip: do not put .odf extension on cfg# = "" entries; added automatically on loading
+//
+
+[MPVehicles]
+xsi1 = "ivatnk00.fbx"
+cfg1 = "ivsatank"
+Description1 = "Bulldog"
+
+xsi2 = "ivrckt00.fbx"
+cfg2 = "ivsrckt"
+Description2 = "Rocket Tank"
+
+xsi3 = "ivrckt00.fbx"
+cfg3 = "ivctrckt2"
+Description3 = "Rocket Tank m1"
+
+xsi4 = "ivstas00.fbx"
+cfg4 = "ivsintc"
+Description4 = "Interceptor"
+
+xsi5 = "ivltwalk_skel.fbx"
+cfg5 = "ivsltwalk"
+Description5 = "Landmaster"
+
+xsi6 = "ivltwalk_skel.fbx"
+cfg6 = "ivctlwlk01"
+Description6 = "Landmaster m1"
+
+xsi7 = "ivwalk_skel.fbx"
+cfg7 = "ivswalk66"
+Description7 = "Attila"
+
+xsi8 = "ivwalk_skel.fbx"
+cfg8 = "ivctwalk3"
+Description8 = "Attila m2"
+
+xsi9 = "ivwalk_skel.fbx"
+cfg9 = "ivwalk66m"
+Description9 = "Attila m3"

@@ -1,0 +1,107 @@
+//
+// MPVehicles.odf - listing of multiplayer vehicles usable in BZ2
+//
+//
+// Tip: do not put .odf extension on cfg# = "" entries; added automatically on loading
+//
+
+[MPVehicles]
+xsi1 = "ivtank00.fbx"
+cfg1 = "ivtank66m"
+Description1 = "HTV: Sabre"
+
+xsi2 = "ivltank.fbx"
+cfg2 = "ivltank66m"
+Description2 = "HTV: Puma"
+
+xsi3 = "ivmbik00.fbx"
+cfg3 = "ivsmbike"
+Description3 = "HTV: Jackal"
+
+xsi4 = "ivmisl00.fbx"
+cfg4 = "ivmisl66m"
+Description4 = "HTV: Avenger"
+
+xsi5 = "fvsent_skel.fbx"
+cfg5 = "fvsent66"
+Description5 = "HTV: Sentry"
+
+xsi6 = "fvtank_skel.fbx"
+cfg6 = "fvtank66"
+Description6 = "HTV: Warrior"
+
+xsi7 = "fvltank_skel.fbx"
+cfg7 = "fvltank66m"
+Description7 = "HTV: Dragoon"
+
+xsi8 = "fvlancer_skel.fbx"
+cfg8 = "fvsarch"
+Description8 = "HTV: Lancer"
+
+xsi9 = "ivatnk00.fbx"
+cfg9 = "ivsatank"
+Description9 = "HTV: Bulldog"
+
+xsi10 = "ivxnat.fbx"
+cfg10 = "ivcstank2"
+Description10 = "CTV: Seige Tank 1"
+
+xsi11 = "ivrckt00.fbx"
+cfg11 = "ivsrckt"
+Description11 = "HTV: Rocket Tank"
+
+xsi12 = "ivwalk_skel.fbx"
+cfg12 = "ivswalk66"
+Description12 = "HTV: Attila"
+
+xsi13 = "ivltwalk_skel.fbx"
+cfg13 = "ivsltwalk"
+Description13 = "HTV: Landmaster"
+
+xsi14 = "ispilo_rifle_skel.fbx"
+cfg14 = "isspilo"
+Description14 = "ISDF Sniper"
+
+xsi15 = "ispilo_rifle_skel.fbx"
+cfg15 = "inspilo"
+Description15 = "ISDF Grunt"
+
+xsi16 = "ivturr00.fbx"
+cfg16 = "ivturr66"
+Description16 = "HTV: Rattler"
+
+xsi17 = "fvtitan_skel.fbx"
+cfg17 = "fvsatank"
+Description17 = "HTV: Titan"
+
+xsi18 = "fvwalk_skel.fbx"
+cfg18 = "fvswalk66"
+Description18 = "HTV: Mauler"
+
+xsi19 = "ivscout00.fbx"
+cfg19 = "ivscout66m"
+Description19 = "HTV: Thunderbolt"
+
+xsi20 = "fvscout_skel.fbx"
+cfg20 = "fvsscout"
+Description20 = "HTV: Drone"
+
+xsi21 = "fvgorgon_skel.fbx"
+cfg21 = "fvgorg66m"
+Description21 = "HTV: Gorgon"
+
+xsi22 = "fspilo_rifle_skel.fbx"
+cfg22 = "fsspilo"
+Description22 = "Scion Sniper"
+
+xsi23 = "fspilo_rifle_skel.fbx"
+cfg23 = "fnspilo"
+Description23 = "Scion Grunt"
+
+xsi24 = "fvturr_skel.fbx"
+cfg24 = "fvturr66"
+Description24 = "HTV: Guardian"
+
+xsi25 = "ivstas00.fbx"
+cfg25 = "ivintc"
+Description25 = "HTV: Interceptor"
