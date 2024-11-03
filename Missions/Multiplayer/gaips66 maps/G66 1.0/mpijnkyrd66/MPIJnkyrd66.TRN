@@ -10,52 +10,30 @@ Tile = 1
 Color = "95 69 87 255"
 
 [NormalView]
-FogColor="7 11 0"
-FogStart=250
-FogEnd=300
-VisibilityRange=300
+DiffuseColor = "255 255 255"
+SpecularColor = "255 255 255"
+SpecularPower = "1024"
+EmissiveColor - "255 255 255 255"
 
 [World]
 MusicTrack1=6
 MusicTrack2=10
 MusicTrack3=8
 
-[Light]
-SunPeriod = 24.0
-SunAngle = 11.0
-SunColor = "255 127 31"
-AmbientColor = "111 159 143"
-
-[Sky]
-SkyType = 0
-SkyHeight = 100
-SkyTexture = darksky.tga
-SkyColor = "15 63 31 255"
-SunTexture = sun.0
-SunColor = "255 127 31"
-
-[Water]
-WaterTexture1 = "toxic_8.tga"
-WaterDiffuse1 = "105 223 63 255"
-WaterBlend1 = "srcalpha invsrcalpha modulatealpha"
-BumpTexture1 = "plutoice.tga"
-BumpDiffuse1 = "255 255 255 64"
-BumpBlend1 = "srcalpha invsrcalpha modulatealpha"
-
-WaterTexture2 = "water256.tga"
-WaterDiffuse2 = "15 7 59 167"
-WaterBlend2 = "srcalpha invsrcalpha modulatealpha"
-BumpTexture2 = "water256.tga"
-BumpDiffuse2 = "59 100 57 127"
-BumpBlend2 = "srcalpha invsrcalpha modulatealpha"
-
 [Texture]
+TileTexture12 = "metal9.tga"
+TileTexture13 = "metal10.tga"
+TileTexture14 = "metal11.tga"
+TileTexture15 = "metal12.tga"
 TileTexture1 = "metal1.tga"
 TileTexture2 = "metal2.tga"
 TileTexture3 = "metal4.tga"
-TileTexture4 = "core_1.tga"
-TileTexture5 = "dark3.tga"
-TileTexture6 = "dark6.tga"
+TileTexture4 = "metal5.tga"
+TileTexture5 = "toxic_4.tga"
+TileTexture6 = "toxic_2.tga"
 TileTexture7 = "toxic_3.tga"
 TileTexture8 = "toxic_5.tga"
 TileTexture9 = "toxic_7.tga"
+TileTexture10 = "toxic_8.tga"
+TileTexture11 = "toxic_9.tga"
+
